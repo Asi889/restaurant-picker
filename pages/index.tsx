@@ -25,14 +25,14 @@ useEffect(()=>{
 }
 
 
-export async function getServerSideProps() {
+// export async function getServerSideProps() {
   
-    const  { data: all_restaurants } = await axios.get('http://localhost:3009/all-restaurants')
+//     const  { data: all_restaurants } = await axios.get('http://localhost:3009/all-restaurants')
  
-  return {
-    props: {
+//   return {
+//     props: {
      
-      allRestaurants: all_restaurants,
-    },
-  };
-}
+//       allRestaurants: all_restaurants,
+//     },
+//   };
+// }
