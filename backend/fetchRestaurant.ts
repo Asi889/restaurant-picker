@@ -22,8 +22,9 @@ interface WoltRestaurant {
 
 const getWoltRestaurants = async (lat: string, lon: string, cityName: string): Promise<WoltRestaurant[]> => {
     const slug = slugify(cityName);
-    const localPath = `./backend/data/wolt-restaurants-${slug}.json`
-    if (fs.existsSync(localPath)) {
+    const localPath = `./backend/data/wolt-restaurants-${slug}.json`;
+    const isFileExists = fs.existsSync(localPath)
+    if (isFileExists) {
         const file_data = await fsp.readFile(localPath)
         const json_data = file_data ? JSON.parse(file_data) : null
 
@@ -32,7 +33,7 @@ const getWoltRestaurants = async (lat: string, lon: string, cityName: string): P
         }
     }
 
-    console.log('fetching wolt restaurants');
+    console.log('fetching wolt restaurants' ,`${WOLT_API}/v1/pages/restaurants?lat=${lat}&lon=${lon}` );
 
     try {
         const response = await fetch(`${WOLT_API}/v1/pages/restaurants?lat=${lat}&lon=${lon}`, {
@@ -64,8 +65,10 @@ const getWoltRestaurants = async (lat: string, lon: string, cityName: string): P
                 }
             });
         });
-
-        fs.writeFile(localPath, data, { flag: 'wx' }, function (err:any) {
+        if(isFileExists){
+            await fsp.unlink(localPath)
+        }
+        fs.writeFile(localPath,  JSON.stringify(res,null,4), { flag: 'wx' }, function (err:any) {
             if (err) throw err;
             console.log("It's saved!");
         });
@@ -82,13 +85,16 @@ const getWoltRestaurants = async (lat: string, lon: string, cityName: string): P
 }
 export const scrapeRestaurants = async (cityName: string) => {
     const { lat, lon } = await getLatLon(cityName);
+    let woltData = null
+    
+    if(lat ) {
+        woltData = await getWoltRestaurants(lat, lon, cityName);
+    } 
 
-    const woltData = await getWoltRestaurants(lat, lon, cityName);
-
-    console.log(woltData.length);
     return {
         city: {
             name: cityName,
+            citySlug: slugify(cityName),
             lat,
             lon
         },
