@@ -15,7 +15,7 @@ export const scrapeRestaurants = async (cityName: string) => {
     let tenBisData = null
     
     if(lat ) {
-        // woltData = await getWoltRestaurants(lat, lon, slug);
+        woltData = await getWoltRestaurants(lat, lon, slug);
     } 
     if(tenBisQuery ) {
         tenBisData = await get10BisRestaurants(tenBisQuery, slug);
