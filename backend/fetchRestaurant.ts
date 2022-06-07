@@ -3,7 +3,7 @@
 
 import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
 import { getLatLon, slugify } from "../src/utils";
-import { TenBisCities } from "./data/10BisDataByCityName";
+import { TenBisCities } from "./data/ListOfCities";
 import { get10BisRestaurants } from "./scrape/10bis";
 import { getWoltRestaurants } from "./scrape/wolt";
 
