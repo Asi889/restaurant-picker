@@ -1,13 +1,11 @@
-import { TenBisRestaurant } from "../../src/types/10Bis";
-import { WoltRestaurant } from "../../src/types/Wolt";
+import { TenBisRestaurant } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
 
 const fs = require('fs');
 const fsp = require('fs').promises
 const TENIS_API = `https://www.10bis.co.il/NextApi/`
 //searchRestaurants?shoppingCartGuid=62cdb613-b452-4502-98f2-96cadfe99eab&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1654581284389&deliveryMethod=delivery&cityName=Holon&streetName=Golda+Me%27ir+Street&houseNumber=7&latitude=32.0122878&longitude=34.7794304&cityId=10&streetId=5987&isBigCity=true&addressKey=10-5987-7&locationType=residential
-// export const get10BisRestaurants = async (lat: string, lon: string, slug: string): Promise<TenBisRestaurant[]> => {
-export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<any> => {
+export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<TenBisRestaurant[]> => {
   const localPath = `./backend/data/10bis-restaurants-${slug}.json`;
   const isFileExists = fs.existsSync(localPath)
   if (isFileExists) {

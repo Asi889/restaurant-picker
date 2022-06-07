@@ -1,4 +1,4 @@
-import { WoltRestaurant } from "../../src/types/Wolt";
+import { WoltRestaurant } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
 
 const fs = require('fs');
