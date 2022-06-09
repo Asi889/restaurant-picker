@@ -1,16 +1,101 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.anima-container{
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-timing-function: cubic-bezier(.91,.9,.76,1.21);
+  transition-duration: 1400ms;
+  
+  
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.inplace{
+  transform:translateY(22px)
+}
+.front-spin{
+  transition-delay: 500ms;
+  animation: spin 3s ease-in;
+  /* transition-duration: 3000ms; */
+}
+.back-spin{
+  animation: spinback 0s ;
+}
+@keyframes spin {
+  0%   {transform:translateY(22px);}
+  100%  {transform:translateY(94%);}
+  /* 100% {transform:translateY(22px);} */
+}
+@keyframes spin-down {
+  0%   {transform:translateY(22px);}
+  100%  {transform:translateY(94%);}
+  /* 100% {transform:translateY(22px);} */
+}
+@keyframes spinback {
+  0%  {transform:translateY(94%);}
+  100%   {transform:translateY(0%);}
 }
 
-* {
-  box-sizing: border-box;
+
+/* ////////////////////////////////// */
+.App {
+  font-family: sans-serif;
+  text-align: center;
 }
+
+.slot {
+  position: relative;
+  display: inline-block;
+  height: 100px;
+  width: 80px;
+}
+.move-down{
+  /* top: 0px!important; */
+  transform: translateY(100%);
+}
+
+section {
+  position: absolute;
+  border-radius: 15px !important;
+  border: 3px solid black !important;
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  background-color: grey;
+  border-radius: 2px;
+  border: 1px solid lightgrey;
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  line-height: 60px;
+  cursor: default;
+}
+
+.container {
+  position: absolute;
+  top: 2px;
+  width: 100%;
+  transition: top ease-in-out 0.5s;
+  text-align: center;
+}
+
+.roll {
+  width: 215px;
+  cursor: pointer;
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 20px;
+  border: 3px solid black;
+}
+
+#img-round{
+  display: none 
+}
+
+
+/* //////////////////////////////////////////////// */
+
+
