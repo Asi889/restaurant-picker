@@ -12,8 +12,8 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
     const file_data = await fsp.readFile(localPath)
     const json_data = file_data && isJsonString(file_data) ? JSON.parse(file_data) : null
 
-    if (json_data && !isWeekPast(json_data.lastScrapeDate)) {
-      return json_data;
+    if (json_data && !isWeekPast(json_data.lastScrapeDate) && json_data.restaurants) {
+      return json_data.restaurants;
     }
   }
 
