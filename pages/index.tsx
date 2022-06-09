@@ -8,6 +8,7 @@ import { useDispatch } from "react-redux";
 import Restaurants from "../components/Restaurants";
 import Container from "../components/Container";
 import Image from "next/image";
+import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
 interface IUser {
   name: string;
 }
@@ -16,17 +17,17 @@ type Props = {
 };
 
 
-const Home: React.FC<Props> = ({ allRestaurants }: any) => {
+const Home = ({ allRestaurants }: {allRestaurants:FetchRestaurantType}) => {
   const dispatch = useDispatch();
   const [selectedRestaurant, selectedRestaurantSet] = useState<any>([]);
-  
+
   const setRandomRestaurant = () => {
     let randomIndex: any = "";
     randomIndex = Math.floor(Math.random() * allRestaurants.sections[1].items.length);
     selectedRestaurantSet(allRestaurants.sections[1].items[randomIndex]);
   };
 
-  return <Container allRestaurants={allRestaurants} setRandomRestaurant={setRandomRestaurant} selectedRestaurant={selectedRestaurant} /> 
+  return <Container allRestaurants={allRestaurants} setRandomRestaurant={setRandomRestaurant} selectedRestaurant={selectedRestaurant} />
 };
 export default Home;
 
@@ -44,13 +45,12 @@ export default Home;
 //   };
 // }
 export async function getServerSideProps() {
-  
-    const  { data: all_restaurants } = await axios.post('http://localhost:3000/api/fetch-restaurant')
- 
+  const { FRONT_URL } = process.env;
+  const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`); // TODO: dont hardcode the url
+
   return {
     props: {
-     
-      allRestaurants: all_restaurants,
+      allRestaurants
     },
   };
 }
