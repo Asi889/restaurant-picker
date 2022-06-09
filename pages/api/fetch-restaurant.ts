@@ -32,7 +32,10 @@ export default async function fetchRestaurant(
   
   switch (method) {
     case 'POST':
-      const { cityName } = req.body ?? 'tel-aviv';
+      let { cityName } = req.body ?? 'tel-aviv';
+      if(!cityName){
+        cityName = 'tel-aviv';
+      }
       const restaurants=  await scrapeRestaurants(cityName);
       res.status(200).json(restaurants);
 

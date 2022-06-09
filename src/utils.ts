@@ -10,7 +10,6 @@ export const getLatLon = async (cityName: string):Promise<{lat:string, lon:strin
 }
 
 export const slugify = (text: string) => {
-    return
     return text.toString().toLowerCase()
         .replace(/\s+/g, '-')           // Replace spaces with -
         .replaceAll('-', '')           // Replace - with nothing
