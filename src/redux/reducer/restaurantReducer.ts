@@ -9,6 +9,8 @@ export const restaurantReducer = (state = initioalState, action: Action) => {
 
     switch (action.type) {
         case ActionTypes.SET_RESTAURANTS: 
+// console.log(action);
+// console.log("action");
 
             return { ...state, restaurants: action.payload };
 

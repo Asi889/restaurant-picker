@@ -1,0 +1,2015 @@
+{
+    "lastScrapeDate": 1654769904208,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=36.01952335&lon=14.238564982829597",
+    "restaurants": [
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60002d5f27ec1c4e6a01104c/27425798-565e-11eb-bc6e-5a8f0297d4c6_1010_x_544.jpg",
+            "title": "McDonald's Gozo",
+            "name": "McDonald's Gozo",
+            "track_id": "venue-mcdonalds-gozo",
+            "address": "Triq Fortunato Mizzi, Victoria",
+            "venue_id": "60002d5f27ec1c4e6a01104c",
+            "location": [
+                14.246153005438604,
+                36.04345358554339
+            ],
+            "short_description": "I'm lovin' it! Minimum order 15€",
+            "slug": "mcdonalds-gozo",
+            "tags": [
+                "american",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d1a936bd5470dac696445a/69a36010-d33a-11eb-8892-fe525f04ec15_9b27c1e8_8e0e_11ea_8927_0a5864671610_dr._juice_cover_wolt.jfif",
+            "title": "Dr Juice Gozo",
+            "name": "Dr Juice Gozo",
+            "track_id": "venue-dr-juice-gozo",
+            "address": "Pjazza l-Indipendenza, Ir-Rabat, Gozo",
+            "venue_id": "60d1a936bd5470dac696445a",
+            "location": [
+                14.23918383589858,
+                36.04500179246248
+            ],
+            "short_description": "Feel energised and boost your day with Dr Juice",
+            "slug": "dr-juice-gozo",
+            "tags": [
+                "breakfast",
+                "healthy",
+                "juice"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/dr-juice-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6141f7acde3c64bc1a15c1a0/2298023e-d690-11ec-9063-96b778dfc295_44_darylcauchi__dsc4695.jpg",
+            "title": "Burgers Ink Gozo",
+            "name": "Burgers Ink Gozo",
+            "track_id": "venue-burgers-ink-gozo",
+            "address": "Burgers Ink Gozo",
+            "venue_id": "6141f7acde3c64bc1a15c1a0",
+            "location": [
+                14.296120266931235,
+                36.02452091468713
+            ],
+            "short_description": "Variety of original burgers and pancakes",
+            "slug": "burgers-ink-gozo",
+            "tags": [
+                "burger",
+                "american",
+                "pancakes"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burgers-ink-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d1b339c8dbbd90c1a71b92/8662afac-88b7-11ec-9fd6-1a6d7c30d5d5_34_darylcauchi_amigos_1608_edit_copy__1_.png",
+            "title": "Amigos Gozo",
+            "name": "Amigos Gozo",
+            "track_id": "venue-amigos-gozo",
+            "address": "Triq Ix Xatt, Għajnsielem",
+            "venue_id": "60d1b339c8dbbd90c1a71b92",
+            "location": [
+                14.296130922971871,
+                36.02448577680768
+            ],
+            "short_description": "The Home of Good Food\n",
+            "slug": "amigos-gozo",
+            "tags": [
+                "pizza",
+                "burger",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/amigos-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600026a6fe424e07629aedd0/13534990-66cb-11eb-98f8-d2c585f778ad_discovery_1.jpg",
+            "title": "Diamond The Great British Eatery",
+            "name": "Diamond The Great British Eatery",
+            "track_id": "venue-diamond-the-great-british-eatery",
+            "address": "16, St Andrew Street, Munxar",
+            "venue_id": "600026a6fe424e07629aedd0",
+            "location": [
+                14.21722316761212,
+                36.030971320113814
+            ],
+            "short_description": "Serving Up British Classics!",
+            "slug": "diamond-the-great-british-eatery",
+            "tags": [
+                "pizza",
+                "burger",
+                "chicken"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/diamond-the-great-british-eatery"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600045a4ef1bf91968284b2e/e5c0a7d6-5efd-11eb-bc31-baa598a5d6ac_joel_gueller_75.jpg",
+            "title": "Chapeau by Cupcake",
+            "name": "Chapeau by Cupcake",
+            "track_id": "venue-cup-cake",
+            "address": "Salvatore Psaila Street, Victoria",
+            "venue_id": "600045a4ef1bf91968284b2e",
+            "location": [
+                14.240974437304883,
+                36.04290852671046
+            ],
+            "short_description": "Coffee & More",
+            "slug": "cup-cake",
+            "tags": [
+                "breakfast",
+                "burger",
+                "dessert"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cup-cake"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60484dade91eaed3c0c8c79b/d81e7384-83d2-11eb-8564-f6bda19484f8_discovery_1.jpg",
+            "title": "Ping’s Dynasty",
+            "name": "Ping’s Dynasty",
+            "track_id": "venue-pings-dynasty",
+            "address": "Giorgio Borg Olivier Street, Victoria, Gozo.",
+            "venue_id": "60484dade91eaed3c0c8c79b",
+            "location": [
+                14.24581921317908,
+                36.04204183195143
+            ],
+            "short_description": " Authentic Chinese cuisines!",
+            "slug": "pings-dynasty",
+            "tags": [
+                "chinese",
+                "asian"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pings-dynasty"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6115098248cdca4b3e27ed6d/0335e3ec-fb63-11eb-9d8b-92cf1fb4da63_discovery.jpg",
+            "title": "Oakberry Açaí Bowls Gozo",
+            "name": "Oakberry Açaí Bowls Gozo",
+            "track_id": "venue-oakberry-aa-bowls-gozo",
+            "address": "2 sir adrian dingli street",
+            "venue_id": "6115098248cdca4b3e27ed6d",
+            "location": [
+                14.238729608371708,
+                36.0449643068541
+            ],
+            "short_description": "Healthy fast food like no other!\n",
+            "slug": "oakberry-aa-bowls-gozo",
+            "tags": [
+                "healthy",
+                "snacks",
+                "smoothie"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/oakberry-aa-bowls-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/619cb70ed5321c403f0dd3a1/b40cf50c-c08e-11ec-a2fb-4edf36cc6450_wolt_cover.png",
+            "title": "eeetwell Gozo",
+            "name": "eeetwell Gozo",
+            "track_id": "venue-eeetwell-gozo",
+            "address": "Triq ix-Xatt, Ghajnsielem",
+            "venue_id": "619cb70ed5321c403f0dd3a1",
+            "location": [
+                14.295764544345593,
+                36.02478179800778
+            ],
+            "short_description": "Freshly made food using the best locally sourced products!",
+            "slug": "eeetwell-gozo",
+            "tags": [
+                "Health",
+                "juice",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/eeetwell-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60016126cb61ae11c150a271/abc09e42-e1b5-11ec-8bf1-72cb828c4d6d_hog_joel_gueller_photography_3.jpg",
+            "title": "HOG",
+            "name": "HOG",
+            "track_id": "venue-hog",
+            "address": "The Duke Shopping Mall, Ground Floor, Republic Street Victoria, Gozo",
+            "venue_id": "60016126cb61ae11c150a271",
+            "location": [
+                14.2430161,
+                36.044179
+            ],
+            "short_description": "Creative, exciting and delicious dishes!",
+            "slug": "hog",
+            "tags": [
+                "pasta",
+                "salad",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hog"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604782fea1bb862d2e7005d2/178ccd94-a615-11ec-b11c-3e5122ec8bb3_discovery_8.jpg",
+            "title": "Cardamom Indian Cuisine",
+            "name": "Cardamom Indian Cuisine",
+            "track_id": "venue-pings-buddharama",
+            "address": "Triq Fortunato Mizzi",
+            "venue_id": "604782fea1bb862d2e7005d2",
+            "location": [
+                14.249429253254121,
+                36.042823383487175
+            ],
+            "short_description": "The very best of Indian cusine!",
+            "slug": "pings-buddharama",
+            "tags": [
+                "curry",
+                "indian",
+                "vegetarian"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pings-buddharama"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601a612d9f781b6dfc107573/1fb003d4-6600-11eb-93fb-bef03b94dfec_st.honore.jpg",
+            "title": "St.Honoré",
+            "name": "St.Honoré",
+            "track_id": "venue-sthonor",
+            "address": "Republic St, Rabat",
+            "venue_id": "601a612d9f781b6dfc107573",
+            "location": [
+                14.23979263283,
+                36.044920906437945
+            ],
+            "short_description": "Great taste in every bite",
+            "slug": "sthonor",
+            "tags": [
+                "cake",
+                "dessert",
+                "drinks"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sthonor"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/62165dead0d7f4ac5db6a068/c319abce-9a43-11ec-be88-be5214ac5a09_whatsapp_image_2022_03_01_at_4.01.41_pm.jpeg",
+            "title": "Trishna A Taste Of India",
+            "name": "Trishna A Taste Of India",
+            "track_id": "venue-trishna",
+            "address": "Triq Fortunato Mizzi, Victoria, VCT, Malta Victoria, Gozo, Malta",
+            "venue_id": "62165dead0d7f4ac5db6a068",
+            "location": [
+                14.248827729714938,
+                36.04294750954821
+            ],
+            "short_description": "A taste of India!",
+            "slug": "trishna",
+            "tags": [
+                "curry",
+                "indian",
+                "rice"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/trishna"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6014296209f170d8ecc8189d/7660d218-6497-11eb-83d9-268ae10fa789_discovery_2.jpg",
+            "title": "Ottavo Senso Pizzeria",
+            "name": "Ottavo Senso Pizzeria",
+            "track_id": "venue-ottavo-senso",
+            "address": "Triq ir-Repubblika Ir-Rabat Għawdex, ",
+            "venue_id": "6014296209f170d8ecc8189d",
+            "location": [
+                14.239989577863009,
+                36.044898754562276
+            ],
+            "short_description": "Pizza paradise!",
+            "slug": "ottavo-senso",
+            "tags": [
+                "mediterranean",
+                "pizza",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ottavo-senso"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/602cccd128d6d33e5af34c84/0f2383c6-8241-11eb-8a85-4a6c2144a15a_7ten__update_img_3849_discover.jpg",
+            "title": "7ten",
+            "name": "7ten",
+            "track_id": "venue-7ten",
+            "address": "31, 32 Triq ir-Repubblika, Victoria",
+            "venue_id": "602cccd128d6d33e5af34c84",
+            "location": [
+                14.24158517308445,
+                36.04453559405916
+            ],
+            "short_description": "Love at first bite!",
+            "slug": "7ten",
+            "tags": [
+                "coffee",
+                "burger",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/7ten"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60251da1fdfd20e31768c5fb/a296000c-6c61-11eb-bd0e-a693d2ee1cb2_mccafe_wolt_1200x800.png",
+            "title": "McCafé Gozo",
+            "name": "McCafé Gozo",
+            "track_id": "venue-mccaf-gozo",
+            "address": "Triq Fortunato Mizzi, Victoria",
+            "venue_id": "60251da1fdfd20e31768c5fb",
+            "location": [
+                14.24622783986477,
+                36.04344620766784
+            ],
+            "short_description": "Get McCafé coffee and McCafé Bakery treats delivered to your doorstep",
+            "slug": "mccaf-gozo",
+            "tags": [
+                "café",
+                "dessert"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mccaf-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6177ed375c858ffaa3a88cc4/165b22d0-3654-11ec-9714-fe08a94bde49_ta_cetta.jpg",
+            "title": "Ta' Ċetta Brasserie",
+            "name": "Ta' Ċetta Brasserie",
+            "track_id": "venue-ta-etta-brasserie",
+            "address": " Triq Taht Putirjal, Victoria, Malta VCT Victoria, Gozo, Malta",
+            "venue_id": "6177ed375c858ffaa3a88cc4",
+            "location": [
+                14.240485337385087,
+                36.04250007557892
+            ],
+            "short_description": "The best of Italian and French cuisine",
+            "slug": "ta-etta-brasserie",
+            "tags": [
+                "italian",
+                "mediterranean",
+                "french"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-etta-brasserie"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6001555798224e9344951e2c/70bcac02-6478-11eb-9ee4-96f502355486_front_9.jpg",
+            "title": "FRONT",
+            "name": "FRONT",
+            "track_id": "venue-front",
+            "address": " Ulysses Aparthotel 2/4, Triq il-Gostra, Xlendi",
+            "venue_id": "6001555798224e9344951e2c",
+            "location": [
+                14.2180319,
+                36.0311756
+            ],
+            "short_description": "If you're looking for the new place on the BLOCK, you've just found it!",
+            "slug": "front",
+            "tags": [
+                "pizza",
+                "burger",
+                "breakfast"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/front"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60184188f9c70cdd4ce7d882/28cf5ddc-64b8-11eb-9ccb-268ae10fa789_kozmo_4.jpg",
+            "title": "Kozmo",
+            "name": "Kozmo",
+            "track_id": "venue-kozmo",
+            "address": "Kozmo, Triq Giorgio Borġ Olivier, Victoria Gozo",
+            "venue_id": "60184188f9c70cdd4ce7d882",
+            "location": [
+                14.2438223,
+                36.0425714
+            ],
+            "short_description": "A fusion of Mediterranean and Asian",
+            "slug": "kozmo",
+            "tags": [
+                "asian",
+                "mediterranean",
+                "noodles"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kozmo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6006afaa47107169647ef83b/63b20e82-64a8-11eb-adf3-6ee700790725_basilica_mozzarella_gozo_img_2761_menu.jpg",
+            "title": "Basilica Pizza & Kitchen",
+            "name": "Basilica Pizza & Kitchen",
+            "track_id": "venue-basilica-pizza-kitchen",
+            "address": "San George Square Victoria, Gozo",
+            "venue_id": "6006afaa47107169647ef83b",
+            "location": [
+                14.239286958620587,
+                36.04442994351852
+            ],
+            "short_description": "Best pizzas in town!",
+            "slug": "basilica-pizza-kitchen",
+            "tags": [
+                "pizza",
+                "gourmet",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/basilica-pizza-kitchen"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/618546a22c746512029a5cad/a8b7183c-e1b7-11ec-991d-8a8536884222_iberico_joel_gueller_photography_3.jpg",
+            "title": "Iberico Tapas",
+            "name": "Iberico Tapas",
+            "track_id": "venue-iberico-tapas",
+            "address": "Triq Sir Adrian Dingli, Victoria ",
+            "venue_id": "618546a22c746512029a5cad",
+            "location": [
+                14.238477372423654,
+                36.045077200000016
+            ],
+            "short_description": "A little bit of Spain at your doorstep\n",
+            "slug": "iberico-tapas",
+            "tags": [
+                "tapas",
+                "spanish",
+                "dessert"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/iberico-tapas"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/603e45f9c48e7cf4866b6271/266337a4-2a73-11ec-853c-463187d13de4_buon_appetite_2.jpg",
+            "title": "Buon Appetit",
+            "name": "Buon Appetit",
+            "track_id": "venue-buon-appetit",
+            "address": "Steward Malta Limited Gozo General Hospital Triq L Arcisqof Pietru Pace, Ir-Rabat",
+            "venue_id": "603e45f9c48e7cf4866b6271",
+            "location": [
+                14.245894453584631,
+                36.0409850070821
+            ],
+            "short_description": "Love at first bite!",
+            "slug": "buon-appetit",
+            "tags": [
+                "pasta",
+                "burger",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/buon-appetit"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60069d0a7e5850ed830129a2/268477f6-64a9-11eb-84a2-02d16c5b4a10_cover_photo.png",
+            "title": "Southern Fried Chicken Gozo",
+            "name": "Southern Fried Chicken Gozo",
+            "track_id": "venue-southern-fried-chicken-gozo",
+            "address": "17A, Haqqu, Triq ix-xatt, Għajnsielem ",
+            "venue_id": "60069d0a7e5850ed830129a2",
+            "location": [
+                14.296618105071774,
+                36.024200749516886
+            ],
+            "short_description": "Where real quality chicken can be found!",
+            "slug": "southern-fried-chicken-gozo",
+            "tags": [
+                "chicken",
+                "burger",
+                "wings"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/southern-fried-chicken-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6048a657045408dfb463ff6d/b1cd4d56-2a74-11ec-b135-4e0b01adbced_characters.jpg",
+            "title": "Character's Snack Bar",
+            "name": "Character's Snack Bar",
+            "track_id": "venue-characters-snack-bar",
+            "address": "Triq Mons. Vella, Rabat",
+            "venue_id": "6048a657045408dfb463ff6d",
+            "location": [
+                14.23794650570799,
+                36.04501755712307
+            ],
+            "short_description": "Homemade pizzas, burgers and local Maltese delicacies",
+            "slug": "characters-snack-bar",
+            "tags": [
+                "salad",
+                "pizza",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/characters-snack-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601ab60700a48271a22bd8ed/44d47ace-6b81-11eb-83db-b63bba9fa55e_coronations_img_3023_discover.jpg",
+            "title": "Coronations",
+            "name": "Coronations",
+            "track_id": "venue-the-coronation-bar",
+            "address": "75, Triq il Knisja Xagħra",
+            "venue_id": "601ab60700a48271a22bd8ed",
+            "location": [
+                14.264363434225029,
+                36.04993245691175
+            ],
+            "short_description": "Our menu consists of Homeade Angus burgers, Homeade Pizza, Local Pasta dishes, and traditional recipes spiced up for today's tastes",
+            "slug": "the-coronation-bar",
+            "tags": [
+                "burger",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/the-coronation-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ae155fd4736d8ba4ab9865/d7eaa25c-5744-11ec-8b2c-7ac856ece6fb_img_3421.jpg",
+            "title": "Mahrag Snack Bar",
+            "name": "Mahrag Snack Bar",
+            "track_id": "venue-mahrag-snack-bar",
+            "address": "Mahrag Snack Bar, 48 In-Nadur, Gozo, Malta",
+            "venue_id": "61ae155fd4736d8ba4ab9865",
+            "location": [
+                14.2961711,
+                36.0380783
+            ],
+            "short_description": "Home-made with love!",
+            "slug": "mahrag-snack-bar",
+            "tags": [
+                "breakfast",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mahrag-snack-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6183e7d1ecd9d5a0d15ab5ff/78caad38-462f-11ec-8ac6-3698c540f845_mac_queens_joel_gueller_7.jpg",
+            "title": "Mac Queens",
+            "name": "Mac Queens",
+            "track_id": "venue-mac-queens",
+            "address": " Triq San Leonardo Xewkija, Gozo, Malta",
+            "venue_id": "6183e7d1ecd9d5a0d15ab5ff",
+            "location": [
+                14.257263725875625,
+                36.039887862802765
+            ],
+            "short_description": "Food truck heaven!",
+            "slug": "mac-queens",
+            "tags": [
+                "burger",
+                "wrap",
+                "duck"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mac-queens"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/603395c6801c063a7e24d17d/e18d3b36-75a8-11eb-9a9b-6e830a4838c5_discovery_1.jpg",
+            "title": "Café Jubilee Gozo",
+            "name": "Café Jubilee Gozo",
+            "track_id": "venue-caf-jubilee-gozo",
+            "address": "Pjazza l-Indipendenza, Ir-Rabat Għawdex",
+            "venue_id": "603395c6801c063a7e24d17d",
+            "location": [
+                14.239207849892097,
+                36.045000488930484
+            ],
+            "short_description": "Delicious cuisines!",
+            "slug": "caf-jubilee-gozo",
+            "tags": [
+                "burger",
+                "pizza",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-jubilee-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60005ae1bbcc0d8a9966b6fb/ebd9c4fc-6143-11eb-a332-0a2ca76666e0_joel_gueller_59.jpg",
+            "title": "Aurora Bistro Cafè",
+            "name": "Aurora Bistro Cafè",
+            "track_id": "venue-aurora-bistro-caf",
+            "address": "100 Triq ir-Repubblika, Ir-Rabat Għawdex",
+            "venue_id": "60005ae1bbcc0d8a9966b6fb",
+            "location": [
+                14.242473047139878,
+                36.044450893642924
+            ],
+            "short_description": "Perfect for a gourmet breakfast or a satisfying lunch!",
+            "slug": "aurora-bistro-caf",
+            "tags": [
+                "salad",
+                "pasta",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aurora-bistro-caf"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604a4e48ccbea7f4af3f7250/9e7fcac0-8336-11eb-9592-0a33a96f2db5_vecto0029.jpg",
+            "title": "Vini e Capricci by Abraham's",
+            "name": "Vini e Capricci by Abraham's",
+            "track_id": "venue-vini-e-capricci",
+            "address": " Gozitano Agricultural Village, Mgarr Road, Xewkija ",
+            "venue_id": "604a4e48ccbea7f4af3f7250",
+            "location": [
+                14.2618338,
+                36.0364746
+            ],
+            "short_description": "Gourmet food and wine",
+            "slug": "vini-e-capricci",
+            "tags": [
+                "salad",
+                "burger",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/vini-e-capricci"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601bf831ab43c60de8682e17/91a829ee-20f9-11ec-bf21-465bf0051e10_tepie_s_coffee_bar_img_2996_menu.jpg",
+            "title": "Tepie's Coffee Bar",
+            "name": "Tepie's Coffee Bar",
+            "track_id": "venue-tepies-coffee-bar",
+            "address": " Tepie's, San George Square Victoria",
+            "venue_id": "601bf831ab43c60de8682e17",
+            "location": [
+                14.23915805422063,
+                36.044258587530166
+            ],
+            "short_description": "Fresh and wholesome food",
+            "slug": "tepies-coffee-bar",
+            "tags": [
+                "pizza",
+                "burger",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tepies-coffee-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/603e40dd6bc74e4f75934cbe/f0da4290-87ec-11eb-bd4e-f210c01a1843_img_2485.jpg",
+            "title": "Bistro 23 Four",
+            "name": "Bistro 23 Four",
+            "track_id": "venue-bistro-23-four",
+            "address": " St. George's Square 2 Pjazza San Gorg VCT Victoria",
+            "venue_id": "603e40dd6bc74e4f75934cbe",
+            "location": [
+                14.238951867865797,
+                36.04429661199695
+            ],
+            "short_description": "The freshest dishes!",
+            "slug": "bistro-23-four",
+            "tags": [
+                "wrap",
+                "pizza",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/bistro-23-four"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/611a3075bcc97036e85e6ea6/189829a2-14a4-11ec-a229-d264e983c5b9_img_2040.jpg",
+            "title": "Whimpy's Kiosk",
+            "name": "Whimpy's Kiosk",
+            "track_id": "venue-whimpys-kiosk",
+            "address": "Triq L-Imġarr, Ir-Rabat Għawdex, Malta",
+            "venue_id": "611a3075bcc97036e85e6ea6",
+            "location": [
+                14.262605728789678,
+                36.037733888081036
+            ],
+            "short_description": "Delicious food at your door!",
+            "slug": "whimpys-kiosk",
+            "tags": [
+                "pizza",
+                "wrap"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/whimpys-kiosk"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6006a7bda0c6f0ce83eb4719/e201245e-649d-11eb-b601-e64fd69389bb_discovery_1__2_.jpg",
+            "title": "Smugglers Cave",
+            "name": "Smugglers Cave",
+            "track_id": "venue-smugglers-cave",
+            "address": "Triq il-Menqa, Iż-Żebbuġ",
+            "venue_id": "6006a7bda0c6f0ce83eb4719",
+            "location": [
+                14.260667621129425,
+                36.071575558669764
+            ],
+            "short_description": "A selection of mouthwatering dishes and smugglicious ice-creams",
+            "slug": "smugglers-cave",
+            "tags": [
+                "pizza",
+                "burger",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/smugglers-cave"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61af4c3eb5bc1110c1aeb189/210ba722-5a67-11ec-8a4f-da2bba323d25_img_4310.jpg",
+            "title": "Unwine'd",
+            "name": "Unwine'd",
+            "track_id": "venue-unwined",
+            "address": "Triq il-Port, Marsalforn",
+            "venue_id": "61af4c3eb5bc1110c1aeb189",
+            "location": [
+                14.2590362,
+                36.0711657
+            ],
+            "short_description": "Good food to unwind!",
+            "slug": "unwined",
+            "tags": [
+                "italian",
+                "mediterranean",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/unwined"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d1dfe4a419b068327fdcd1/ed9350ec-f9cd-11eb-aa2f-664646b5e924_img_0748.jpg",
+            "title": "Bistro 1939",
+            "name": "Bistro 1939",
+            "track_id": "venue-bistro-1939",
+            "address": "Gozo Xewkija, Gozo, Malta",
+            "venue_id": "60d1dfe4a419b068327fdcd1",
+            "location": [
+                14.26082000125646,
+                36.03226447247544
+            ],
+            "short_description": "Hot, quick & traditional meals!",
+            "slug": "bistro-1939",
+            "tags": [
+                "pizza",
+                "pasta",
+                "wrap"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/bistro-1939"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/606c22dc93d19cd1b71f65d1/33a51bba-9b69-11eb-868e-ce2ba20b296a_img_4641.jpg",
+            "title": "The Black Cat Café",
+            "name": "The Black Cat Café",
+            "track_id": "venue-black-cat-cafe",
+            "address": "19, Triq Vajringa ",
+            "venue_id": "606c22dc93d19cd1b71f65d1",
+            "location": [
+                14.2388646,
+                36.042294
+            ],
+            "short_description": "Artisan cafe offering a variety of breakfast and lunch ideas",
+            "slug": "black-cat-cafe",
+            "tags": [
+                "breakfast",
+                "wrap",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/black-cat-cafe"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60477bea4ac4ff362a6ff69c/2354781c-8315-11eb-bed5-223b865b40ab_discovery_1.jpg",
+            "title": "Alive Bistro",
+            "name": "Alive Bistro",
+            "track_id": "venue-alive-bistro",
+            "address": "23 Triq Il-Wied, Iż-Żebbuġ, Gozo",
+            "venue_id": "60477bea4ac4ff362a6ff69c",
+            "location": [
+                14.259762083991557,
+                36.07047003726534
+            ],
+            "short_description": "Tasty vegetarian dishes",
+            "slug": "alive-bistro",
+            "tags": [
+                "salad",
+                "vegan",
+                "vegetarian"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/alive-bistro"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/605230239d645c55076781f9/2fa980f6-87f4-11eb-9f48-fe6b232b6a2c_img_1943.jpg",
+            "title": "Candy Cafe",
+            "name": "Candy Cafe",
+            "track_id": "venue-candy-cafe",
+            "address": "Menqa Marsalforn, Gozo, Malta",
+            "venue_id": "605230239d645c55076781f9",
+            "location": [
+                14.260706487129019,
+                36.071949790499175
+            ],
+            "short_description": "Satisfy your cravings",
+            "slug": "candy-cafe",
+            "tags": [
+                "burger",
+                "dessert",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/candy-cafe"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60367c66729025125a1201c1/7890f720-7b35-11eb-a0e6-ae2493b5e8f7_discovery_1.jpg",
+            "title": "Yummy Yummy",
+            "name": "Yummy Yummy",
+            "track_id": "venue-yummy-yummy-chinese",
+            "address": "Triq Il menqa marsalforn Gozo MFN 1050",
+            "venue_id": "60367c66729025125a1201c1",
+            "location": [
+                14.2608736,
+                36.0721636
+            ],
+            "short_description": "Serving mouth-watering Chinese food daily",
+            "slug": "yummy-yummy-chinese",
+            "tags": [
+                "chinese",
+                "asian",
+                "noodles"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yummy-yummy-chinese"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/606ae54fb51b6f509183ede0/02aa184e-842a-11ec-b1ee-72c94b514e0a_dsc08690.jpg",
+            "title": "one80 at Home, Gozo",
+            "name": "one80 at Home, Gozo",
+            "track_id": "venue-one80-kitchen",
+            "address": "one 80 Kitchen, Triq Martino Garces, Mgarr Yacht Marina",
+            "venue_id": "606ae54fb51b6f509183ede0",
+            "location": [
+                14.2977474,
+                36.0261899
+            ],
+            "short_description": "Honoured to work with some of the best local producers",
+            "slug": "one80-kitchen",
+            "tags": [
+                "breakfast",
+                "mediterranean",
+                "kids"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/one80-kitchen"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60782ac3a58fb0eb0e318f02/779cb8e0-acbd-11eb-8527-caf78d42401e_img_5264.jpg",
+            "title": "Pebbles Restaurant",
+            "name": "Pebbles Restaurant",
+            "track_id": "venue-pebbles",
+            "address": " Michelangelo Refalo,  Marsalforn",
+            "venue_id": "60782ac3a58fb0eb0e318f02",
+            "location": [
+                14.259442186509569,
+                36.07109258636601
+            ],
+            "short_description": "Pebbles Restaurant & Cafe has celebrated over 20 years of service in Marsalforn Bay, Gozo",
+            "slug": "pebbles",
+            "tags": [
+                "pizza",
+                "burger",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pebbles"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600aaf787e65b59d6e012416/88643382-8bbc-11eb-94b8-e687a2c5eb00_otters_bistro_gozo_img_2722_discover.jpg",
+            "title": "Otters Bistro",
+            "name": "Otters Bistro",
+            "track_id": "venue-otters-bistro",
+            "address": "Triq Santa Marija, Iż-Żebbuġ",
+            "venue_id": "600aaf787e65b59d6e012416",
+            "location": [
+                14.257947503022384,
+                36.073369464287815
+            ],
+            "short_description": "Serving fresh and traditional dishes",
+            "slug": "otters-bistro",
+            "tags": [
+                "pasta",
+                "salad",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/otters-bistro"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6051f19a55997bbebb9f2d8c/666936fa-8726-11eb-b626-02315bb049c6_discovery_1.jpg",
+            "title": "Horizon Bar and Restaurant",
+            "name": "Horizon Bar and Restaurant",
+            "track_id": "venue-horizon-bar-and-restaurant",
+            "address": "Triq il-Qolla l-Bajda, Qbajjar Marina, Marsalforn",
+            "venue_id": "6051f19a55997bbebb9f2d8c",
+            "location": [
+                14.250708245320945,
+                36.078221510546996
+            ],
+            "short_description": "Serves an abundance of local and Mediterranean dishes",
+            "slug": "horizon-bar-and-restaurant",
+            "tags": [
+                "pizza",
+                "pasta",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/horizon-bar-and-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d2d5f0794c843c3df6bd60/ef2e8c68-783b-11ec-8bce-828a738f0d83_discovery3.jpg",
+            "title": "Coffee Circus Joy",
+            "name": "Coffee Circus Joy",
+            "track_id": "venue-coffee-circus-joy",
+            "address": "Triq il-Wied Marsalforn",
+            "venue_id": "61d2d5f0794c843c3df6bd60",
+            "location": [
+                14.260094207299133,
+                36.070966388461116
+            ],
+            "short_description": "Bringing JOY to your day!",
+            "slug": "coffee-circus-joy",
+            "tags": [
+                "café",
+                "sandwich",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/coffee-circus-joy"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6007f873be3b3e82db14c629/d062bba8-6480-11eb-86aa-82fb7c336281_discovery_1.jpg",
+            "title": "Kohinoor",
+            "name": "Kohinoor",
+            "track_id": "venue-kohinoor",
+            "address": "Marina Street, Marsalforn",
+            "venue_id": "6007f873be3b3e82db14c629",
+            "location": [
+                14.258056663277912,
+                36.071692458900905
+            ],
+            "short_description": "Authentic Indian & Mediterranean dishes",
+            "slug": "kohinoor",
+            "tags": [
+                "indian",
+                "asian",
+                "curry"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kohinoor"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/606daad7d711adab205063f0/85c6f566-9de0-11eb-95f4-c2f9140ada50_img_4488.jpg",
+            "title": "Electra",
+            "name": "Electra",
+            "track_id": "venue-electra",
+            "address": "Triq Il-Wied, Marsalforn, Gozo",
+            "venue_id": "606daad7d711adab205063f0",
+            "location": [
+                14.259529997687155,
+                36.07100295857362
+            ],
+            "short_description": "A wide and delicious range of food!",
+            "slug": "electra",
+            "tags": [
+                "pizza",
+                "pasta",
+                "fish"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/electra"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604f63cc5f148384a4e7ddc3/a90143fe-87c1-11eb-aaaa-e6d0693b8663_img_2066.jpg",
+            "title": "Odyssey Restaurant",
+            "name": "Odyssey Restaurant",
+            "track_id": "venue-odyssey-restaurant",
+            "address": "Marina Street, Marsalforn",
+            "venue_id": "604f63cc5f148384a4e7ddc3",
+            "location": [
+                14.260835922516295,
+                36.0722953973722
+            ],
+            "short_description": "Join us to taste our ever changing internationally and seasonally inspired dishes",
+            "slug": "odyssey-restaurant",
+            "tags": [
+                "pizza",
+                "pasta",
+                "fish"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/odyssey-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60465867d51c6d6c3ee04dd4/4e7f9fe2-825e-11eb-9923-225d90a0afc0_qbajjar_img_3922_discover.jpg",
+            "title": "Qbajjar Restaurant",
+            "name": "Qbajjar Restaurant",
+            "track_id": "venue-qbajjar-restaurant",
+            "address": "Qbajjar Restaurant Triq ix- Xwejni",
+            "venue_id": "60465867d51c6d6c3ee04dd4",
+            "location": [
+                14.2515702,
+                36.0770624
+            ],
+            "short_description": "Specialzing in Local and Mediterranean Cuisine",
+            "slug": "qbajjar-restaurant",
+            "tags": [
+                "pizza",
+                "mediterranean",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/qbajjar-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604379a0e002d5cd49c7db74/f6fb1546-831e-11eb-81ed-ea77673b06a4_il_bukkett_img_3972_menu.jpg",
+            "title": "Xerri L-Bukkett",
+            "name": "Xerri L-Bukkett",
+            "track_id": "venue-xerri-l-bukkett",
+            "address": "4 zewwieqa road Qala Gozo",
+            "venue_id": "604379a0e002d5cd49c7db74",
+            "location": [
+                14.3086477,
+                36.0307768
+            ],
+            "short_description": "Home cooked food",
+            "slug": "xerri-l-bukkett",
+            "tags": [
+                "salad",
+                "pasta",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/xerri-l-bukkett"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600eda8a572da249413bbd65/5cd83954-5f1e-11eb-ac5f-7a91628137ef_rizzles.jpg",
+            "title": "Rizzles Cafe & Dolceria",
+            "name": "Rizzles Cafe & Dolceria",
+            "track_id": "venue-rizzles-cafe-dolceria",
+            "address": "St. Francis Square, Victoria",
+            "venue_id": "600eda8a572da249413bbd65",
+            "location": [
+                14.240557600876668,
+                36.04239807629903
+            ],
+            "short_description": "A Pizzeria-Dolceria located in St.Francis Square at the heart of Victoria Gozo.",
+            "slug": "rizzles-cafe-dolceria",
+            "tags": [
+                "pizza",
+                "burger",
+                "dessert"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rizzles-cafe-dolceria"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a5bf7e260c6489db40d93/ae154d2c-3b0d-11ec-86e6-92a73efb2a0f_whatsapp_image_2021_10_28_at_13.49.42.jpeg",
+            "title": "Kebab Diner",
+            "name": "Kebab Diner",
+            "track_id": "venue-kebab-diner",
+            "address": "11a Triq Repubblika Victoria, Gozo, Malta",
+            "venue_id": "617a5bf7e260c6489db40d93",
+            "location": [
+                14.2401865,
+                36.0448032
+            ],
+            "short_description": "Premium Turkish food",
+            "slug": "kebab-diner",
+            "tags": [
+                "kebab",
+                "turkish",
+                "chicken"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kebab-diner"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fff34001699da008c0bebb7/c3f7b6ac-5ef4-11eb-82f9-cab42cd3b8c9_pasta_republic_6.jpg",
+            "title": "Pasta Republic",
+            "name": "Pasta Republic",
+            "track_id": "venue-pasta-republic-gozo",
+            "address": " 16 Triq ir-Repubblika, Victoria",
+            "venue_id": "5fff34001699da008c0bebb7",
+            "location": [
+                14.240086310482404,
+                36.044828727501454
+            ],
+            "short_description": "The perfect pasta fix!",
+            "slug": "pasta-republic-gozo",
+            "tags": [
+                "pasta",
+                "mediterranean",
+                "italian"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pasta-republic-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60436b31c47a627b67c7d4aa/5fa52f50-7fff-11eb-8350-76824c4505eb_discovery_1.jpg",
+            "title": "Paulos Kitchen",
+            "name": "Paulos Kitchen",
+            "track_id": "venue-paulos-kitchen",
+            "address": " Pjazza tal-Knisja Munxar, Gozo",
+            "venue_id": "60436b31c47a627b67c7d4aa",
+            "location": [
+                14.23492095825626,
+                36.030600194720684
+            ],
+            "short_description": "Made with love!",
+            "slug": "paulos-kitchen",
+            "tags": [
+                "burger",
+                "salad",
+                "wrap"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/paulos-kitchen"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61655ebe8ee964bfce6a561b/17041258-2b4d-11ec-87d6-6ea62d6fd375_fuhua_2.jpg",
+            "title": "FuHua Chinese",
+            "name": "FuHua Chinese",
+            "track_id": "venue-fu-hua-chinese",
+            "address": "Fortunato Mizzi Street, Ir-Rabat Għawdex",
+            "venue_id": "61655ebe8ee964bfce6a561b",
+            "location": [
+                14.248812026591029,
+                36.042971944797166
+            ],
+            "short_description": "Authentic Chinese Cuisine",
+            "slug": "fu-hua-chinese",
+            "tags": [
+                "chinese",
+                "fish",
+                "fried rice"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/fu-hua-chinese"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/603e1a2ed2f9ebede38eccba/4e24c0e2-8c75-11eb-83b5-eac57c425698_img_3606.jpg",
+            "title": "The Grapes Wine Bar",
+            "name": "The Grapes Wine Bar",
+            "track_id": "venue-the-grapes-wine-bar",
+            "address": "St. George's Square, 8 Pjazza San Gorg Victoria, Gozo, Victoria",
+            "venue_id": "603e1a2ed2f9ebede38eccba",
+            "location": [
+                14.2389445999648,
+                36.04411448181361
+            ],
+            "short_description": "Serving Pinsas Burgers and Salads",
+            "slug": "the-grapes-wine-bar",
+            "tags": [
+                "pizza",
+                "salad",
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/the-grapes-wine-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/609bd607e42e4d24a4af4250/fd1b211a-b324-11eb-ba45-aefd67242953_img_5743.jpg",
+            "title": "La Petite Creperie",
+            "name": "La Petite Creperie",
+            "track_id": "venue-la-petite-creperie",
+            "address": " Fortunato Mizzi Street Victoria Gozo Victoria,",
+            "venue_id": "609bd607e42e4d24a4af4250",
+            "location": [
+                14.245729461180746,
+                36.04352981397143
+            ],
+            "short_description": "Savoury sweet crepes & waffles",
+            "slug": "la-petite-creperie",
+            "tags": [
+                "crepes"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/la-petite-creperie"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6048db22cbe502387e8dd609/7901955e-8687-11eb-89e1-0ef71ee30f89_discovery_1.jpg",
+            "title": "Oleander",
+            "name": "Oleander",
+            "track_id": "venue-oleander",
+            "address": "10 Victory Square, Xaghra, Gozo",
+            "venue_id": "6048db22cbe502387e8dd609",
+            "location": [
+                14.2641569,
+                36.05014260000001
+            ],
+            "short_description": "Mediterranean restaurant",
+            "slug": "oleander",
+            "tags": [
+                "pasta",
+                "wine",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/oleander"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601026e90f942d84e620d3bf/67613716-647a-11eb-9cd4-82fb7c336281_del_capo.jpg",
+            "title": "Del Capo",
+            "name": "Del Capo",
+            "track_id": "venue-del-capo",
+            "address": " Triq Dicembru Tlettax, Nadur",
+            "venue_id": "601026e90f942d84e620d3bf",
+            "location": [
+                14.294842769454304,
+                36.03785179967447
+            ],
+            "short_description": "Perfect Italian Pizza",
+            "slug": "del-capo",
+            "tags": [
+                "pizza",
+                "burger",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/del-capo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6006b8cff4ef697b5b28269d/755226d6-664c-11eb-9d2c-4259df6ba659_discovery_1.jpg",
+            "title": "Rabokk",
+            "name": "Rabokk",
+            "track_id": "venue-rabokk",
+            "address": "1, Rabokk, Triq Dun Bernard Haber",
+            "venue_id": "6006b8cff4ef697b5b28269d",
+            "location": [
+                14.292979413536814,
+                36.03781113985397
+            ],
+            "short_description": "Not just a snack bar! ",
+            "slug": "rabokk",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rabokk"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6013d141b4106466f7051e0f/f18aea68-664b-11eb-b7a4-529ff5dd3190_universal_sports_bar_gozo_img_2794_menu.jpg",
+            "title": "Universal Sport Westend Bar & Restaurant",
+            "name": "Universal Sport Westend Bar & Restaurant",
+            "track_id": "venue-universal-sport-westend-bar-restaurant",
+            "address": "Mgarr Road, Xewkija",
+            "venue_id": "6013d141b4106466f7051e0f",
+            "location": [
+                14.255449456983214,
+                36.03809172643554
+            ],
+            "short_description": "Serving a varied Meditteranean menu ",
+            "slug": "universal-sport-westend-bar-restaurant",
+            "tags": [
+                "pizza",
+                "burger",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/universal-sport-westend-bar-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61644725fc09fb4647025616/d1947442-2b51-11ec-abab-46e6e3f9219e_hot_shots_4.jpg",
+            "title": "Hot Shots",
+            "name": "Hot Shots",
+            "track_id": "venue-hot-shots",
+            "address": "28 Triq Il-Wied",
+            "venue_id": "61644725fc09fb4647025616",
+            "location": [
+                14.260329476946088,
+                36.06979668205204
+            ],
+            "short_description": "The best kiosk in town!",
+            "slug": "hot-shots",
+            "tags": [
+                "pizza",
+                "grill"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hot-shots"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/602bd290194c3b04e7635fd6/ca91e6fc-74e5-11eb-add6-f2ff0e50e4e5_discovery_1__1_.jpg",
+            "title": "Għarb Rangers",
+            "name": "Għarb Rangers",
+            "track_id": "venue-gharb-rangers",
+            "address": "Triq il-Knisja, L-Għarb ",
+            "venue_id": "602bd290194c3b04e7635fd6",
+            "location": [
+                14.20980800484827,
+                36.05910327444425
+            ],
+            "short_description": "A selection of Mediterranean cuisines",
+            "slug": "gharb-rangers",
+            "tags": [
+                "burger",
+                "pizza",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/gharb-rangers"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604b79b05ec79c5732ceb3c4/e60618b2-8657-11eb-99e6-bad30d140b12_discoverry_1.jpg",
+            "title": "Ta Kalang",
+            "name": "Ta Kalang",
+            "track_id": "venue-ta-kalang",
+            "address": "Triq L-Imġarr, Ix-Xewkija",
+            "venue_id": "604b79b05ec79c5732ceb3c4",
+            "location": [
+                14.265945557702018,
+                36.03324213604506
+            ],
+            "short_description": "We serve a selection of pizza, pasta and burgers",
+            "slug": "ta-kalang",
+            "tags": [
+                "mediterranean",
+                "snacks",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-kalang"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/614051c8edd8dc34811fed05/13784ca2-153c-11ec-b449-f2979e80bcfe_centetrentanova_3.jpg",
+            "title": "Piutrentanove",
+            "name": "Piutrentanove",
+            "track_id": "venue-centotrentanove",
+            "address": " 65 Triq Il Port Gozo Marsalforn, Gozo, Malta",
+            "venue_id": "614051c8edd8dc34811fed05",
+            "location": [
+                14.2585569,
+                36.0713336
+            ],
+            "short_description": "Pizza - made with love",
+            "slug": "centotrentanove",
+            "tags": [
+                "pizza",
+                "italian"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/centotrentanove"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6006e59f14942b7d5201e6f4/724275a8-5cb6-11eb-a344-6e13c6ee91ab_menu_4.jpg",
+            "title": "Moby Dick",
+            "name": "Moby Dick",
+            "track_id": "venue-moby-dick",
+            "address": "4, Moby Dick, Marina Street, Gozo, Malta ",
+            "venue_id": "6006e59f14942b7d5201e6f4",
+            "location": [
+                14.217249614744397,
+                36.03038663297053
+            ],
+            "short_description": "Serving the best of both worlds, Mediterranean & Asian food!",
+            "slug": "moby-dick",
+            "tags": [
+                "mediterranean",
+                "pasta",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/moby-dick"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60056bdaf888aaf907ba4ce5/70d9ff28-6478-11eb-9582-d67d23d4fca4_coffee_break_3.jpg",
+            "title": "Coffee Break",
+            "name": "Coffee Break",
+            "track_id": "venue-coffee-break",
+            "address": " Triq Taħt Putirjal, Ir-Rabat Għawdex",
+            "venue_id": "60056bdaf888aaf907ba4ce5",
+            "location": [
+                14.240673981488507,
+                36.04374256842885
+            ],
+            "short_description": "The taste of tradition",
+            "slug": "coffee-break",
+            "tags": [
+                "burger",
+                "noodles",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/coffee-break"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/602e7bc8037539988aaf2c6f/edead276-74ea-11eb-b090-fab307fea015_joel_gueller___sushi_light.jpg",
+            "title": "Sushi Light",
+            "name": "Sushi Light",
+            "track_id": "venue-sushi-light",
+            "address": "Triq ir-Repubblika Ir-Rabat Għawdex",
+            "venue_id": "602e7bc8037539988aaf2c6f",
+            "location": [
+                14.239983879956903,
+                36.044896035169906
+            ],
+            "short_description": "Make every day a sushi day",
+            "slug": "sushi-light",
+            "tags": [
+                "sushi",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sushi-light"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60215f8914b9e45426d32d83/1347efce-702f-11eb-9479-4e40ff61a8a7_26_darylcauchi__dsc4430.jpg",
+            "title": "Yume Fusion",
+            "name": "Yume Fusion",
+            "track_id": "venue-yume-fusion",
+            "address": "Triq Karlu Galea, Victoria",
+            "venue_id": "60215f8914b9e45426d32d83",
+            "location": [
+                14.246767400000037,
+                36.043951899999975
+            ],
+            "short_description": "A taste of Asia",
+            "slug": "yume-fusion",
+            "tags": [
+                "asian",
+                "noodles",
+                "dumplings"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yume-fusion"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601801c2c4b25ee78d9787f7/52e4252c-664c-11eb-8ec3-a6b3b263aec2_discovery_1.jpg",
+            "title": "Hot Wok",
+            "name": "Hot Wok",
+            "track_id": "venue-hot-wok-gozo",
+            "address": " Triq ir-Rabat Marsalforn, Gozo, Malta",
+            "venue_id": "601801c2c4b25ee78d9787f7",
+            "location": [
+                14.259339847728796,
+                36.06945393448546
+            ],
+            "short_description": "For a delicious Chinese meal, Hot Wok has you covered!",
+            "slug": "hot-wok-gozo",
+            "tags": [
+                "chinese",
+                "noodles",
+                "street food"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hot-wok-gozo"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6014036fabe1f6c3886e17e1/3582663a-649c-11eb-bc9f-02d16c5b4a10_santa_marija_2.jpg",
+            "title": "Santa Marija Restaurant (Zebbug Band Club)",
+            "name": "Santa Marija Restaurant (Zebbug Band Club)",
+            "track_id": "venue-santa-marija-pizzeria-grill",
+            "address": "Triq Ġoma, Iż-Żebbuġ",
+            "venue_id": "6014036fabe1f6c3886e17e1",
+            "location": [
+                14.234768108296414,
+                36.06719322690849
+            ],
+            "short_description": "A selection of Mediterranean dishes",
+            "slug": "santa-marija-pizzeria-grill",
+            "tags": [
+                "pizza",
+                "burger",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/santa-marija-pizzeria-grill"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6013f3ac2fc6af89041198b6/77c99056-6c7e-11eb-8e6a-7a45109ec0ef_shangri_la_img_3131_discover.jpg",
+            "title": "Shangri-La Chinese Cuisine by Giovanni's",
+            "name": "Shangri-La Chinese Cuisine by Giovanni's",
+            "track_id": "venue-shangri-la-chinese-cuisine-by-giovannis",
+            "address": " Xewkija Square Ix-Xewkija, Gozo, Malta",
+            "venue_id": "6013f3ac2fc6af89041198b6",
+            "location": [
+                14.260770470578276,
+                36.032293988154734
+            ],
+            "short_description": "Chinese cuisine incorporating southern influences",
+            "slug": "shangri-la-chinese-cuisine-by-giovannis",
+            "tags": [
+                "asian",
+                "chinese",
+                "noodles"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shangri-la-chinese-cuisine-by-giovannis"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/607049085d54ec6e2973b970/ab182cea-9eb6-11ec-836d-92913e7f3de9_discovery_2.jpg",
+            "title": "Suki Bowl",
+            "name": "Suki Bowl",
+            "track_id": "venue-suki-bowl",
+            "address": "Grunju Street, Qala ",
+            "venue_id": "607049085d54ec6e2973b970",
+            "location": [
+                14.308158152888087,
+                36.0374986491478
+            ],
+            "short_description": "Delicious snack bowls inspired by Asian and western cuisine fusions!\n\n",
+            "slug": "suki-bowl",
+            "tags": [
+                "bowl",
+                "chinese",
+                "healthy"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/suki-bowl"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b9b1347c9ffd51704e8a7b/c32d9820-5f2c-11ec-8fc0-eef89e6dfc65_some_photos_4.jpg",
+            "title": "Żebbuġ Rovers Bar & Grill",
+            "name": "Żebbuġ Rovers Bar & Grill",
+            "track_id": "venue-ebbu-rovers-bar-grill",
+            "address": "MONS GIOVANNI A. VELLA PRIMARY SCHOOL GOZO COLLEGE, TRIQ IC-CNUS",
+            "venue_id": "61b9b1347c9ffd51704e8a7b",
+            "location": [
+                14.234921274849768,
+                36.065639654835145
+            ],
+            "short_description": "Fresh food daily",
+            "slug": "ebbu-rovers-bar-grill",
+            "tags": [
+                "beer",
+                "burger",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ebbu-rovers-bar-grill"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6050a5c4ada3bf7bf4d616b7/10aacad4-87f9-11eb-a6ed-fe6b232b6a2c_img_5156_petite__1_.jpg",
+            "title": "Ta' Kenuna - French Cuisine",
+            "name": "Ta' Kenuna - French Cuisine",
+            "track_id": "venue-ta-kenuna",
+            "address": "Torri Ta kenuna, Nadur",
+            "venue_id": "6050a5c4ada3bf7bf4d616b7",
+            "location": [
+                14.2858464,
+                36.0363846
+            ],
+            "short_description": "French restaurant in Nadur, specialities from Alsace",
+            "slug": "ta-kenuna",
+            "tags": [
+                "french",
+                "pizza",
+                "vegetable"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-kenuna"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601ab878333b5296fbd1ef03/e6765f98-6c79-11eb-a00e-7a45109ec0ef_giovanni_s_kitchen_img_3153_discover.jpg",
+            "title": "Giovanni's Kitchen & Lounge",
+            "name": "Giovanni's Kitchen & Lounge",
+            "track_id": "venue-giovannis-kitchen-lounge",
+            "address": "Pjazza San Ġwann Battista, Ix-Xewkija",
+            "venue_id": "601ab878333b5296fbd1ef03",
+            "location": [
+                14.260882699999991,
+                36.032188299999994
+            ],
+            "short_description": "Love at first bite!",
+            "slug": "giovannis-kitchen-lounge",
+            "tags": [
+                "pasta",
+                "grill",
+                "fish"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/giovannis-kitchen-lounge"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601835fc80414adbee7efdcf/a5e3d832-64b0-11eb-86d1-3e93430d4edf_discovery_1__4_.jpg",
+            "title": "Olympic Wine Bar & Restaurant",
+            "name": "Olympic Wine Bar & Restaurant",
+            "track_id": "venue-olympic-wine-bar-restaurant",
+            "address": "83, Pjazza Vittorja, Xagħra, Malta",
+            "venue_id": "601835fc80414adbee7efdcf",
+            "location": [
+                14.2640567,
+                36.0499179
+            ],
+            "short_description": "Authentic taste of Gozo",
+            "slug": "olympic-wine-bar-restaurant",
+            "tags": [
+                "pizza",
+                "salad",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/olympic-wine-bar-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60378ecc7ddf14769a8329ab/5802321c-80bc-11eb-9b40-16605bbf5dea_discovery_1.jpg",
+            "title": "Rubble Bar",
+            "name": "Rubble Bar",
+            "track_id": "venue-rubble-bar",
+            "address": "26, Victory Square, Xahra",
+            "venue_id": "60378ecc7ddf14769a8329ab",
+            "location": [
+                14.264284005300684,
+                36.05013050881407
+            ],
+            "short_description": "Offering up Burgers and Fresh Pasta for you to enjoy!",
+            "slug": "rubble-bar",
+            "tags": [
+                "burger",
+                "pasta",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rubble-bar"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6047590394a6eb42bc55345b/d140e1bc-8b04-11eb-9121-e6846b2427e5_img_3013.jpg",
+            "title": "Tal-Furnar Restaurant and Bakery",
+            "name": "Tal-Furnar Restaurant and Bakery",
+            "track_id": "venue-tal-furnar-restaurant-and-bakery",
+            "address": "136 Triq Gnien Xibla, Xagħra",
+            "venue_id": "6047590394a6eb42bc55345b",
+            "location": [
+                14.2692337,
+                36.0520495
+            ],
+            "short_description": "Local traditional food and other specialities",
+            "slug": "tal-furnar-restaurant-and-bakery",
+            "tags": [
+                "pizza",
+                "pasta",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tal-furnar-restaurant-and-bakery"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6045dfd627bfb84ff07ef15c/5ee3f680-86ff-11eb-a72e-be4894408f6f_discovery_1.jpg",
+            "title": "The View Bar & Kitchen",
+            "name": "The View Bar & Kitchen",
+            "track_id": "venue-the-view",
+            "address": "The View, Pjazza l-Assunta, Zebbug",
+            "venue_id": "6045dfd627bfb84ff07ef15c",
+            "location": [
+                14.235341234917376,
+                36.06891637601317
+            ],
+            "short_description": "Catering for different customers, including both gourmet eaters or those fancying something quick and light!",
+            "slug": "the-view",
+            "tags": [
+                "pizza",
+                "pasta",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/the-view"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6048af3d9f4cbadac2f86a59/a5297960-819d-11eb-8dc1-4a6c2144a15a_miriam_s_delight_img_3822_discover.jpg",
+            "title": "Miriam's Delights",
+            "name": "Miriam's Delights",
+            "track_id": "venue-miriams-delights",
+            "address": "This is a virtual venue",
+            "venue_id": "6048af3d9f4cbadac2f86a59",
+            "location": [
+                14.2887737,
+                36.0257829
+            ],
+            "short_description": "Traditional desserts and homemade delicacies",
+            "slug": "miriams-delights",
+            "tags": [
+                "bakery",
+                "dessert"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/miriams-delights"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6165790d7fe4ae22e2977b7e/32431512-2c08-11ec-93c9-ee919912b694_nyfc_5.jpg",
+            "title": "NYFC Cafe’ (Don Sushi)",
+            "name": "NYFC Cafe’ (Don Sushi)",
+            "track_id": "venue-nyfc-cafe",
+            "address": "73 74 Triq Diċembru Tlettax Nadur, Gozo ",
+            "venue_id": "6165790d7fe4ae22e2977b7e",
+            "location": [
+                14.295096812093977,
+                36.037734106172714
+            ],
+            "short_description": "Delicious authentic cuisines!",
+            "slug": "nyfc-cafe",
+            "tags": [
+                "sushi",
+                "pizza",
+                "salad"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/nyfc-cafe"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600ae0a1341f6ee44d690049/d1dfd5de-6146-11eb-9ccd-1e30b01b117a_discovery_1.jpg",
+            "title": "XinYun Chinese Cuisine",
+            "name": "XinYun Chinese Cuisine",
+            "track_id": "venue-xinyun-chinese-cuisine",
+            "address": "17, Triq ix-Xatt, Ghajnsielem",
+            "venue_id": "600ae0a1341f6ee44d690049",
+            "location": [
+                14.29668269999997,
+                36.024125599999984
+            ],
+            "short_description": "Chinese Cuisine",
+            "slug": "xinyun-chinese-cuisine",
+            "tags": [
+                "chinese",
+                "noodles"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/xinyun-chinese-cuisine"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/614203525220a7222b547236/c08a31f8-1d2f-11ec-a42b-da4785b0c8b1_one80_sushi_bar_5.jpg",
+            "title": "one80 Sushi Gozo",
+            "name": "one80 Sushi Gozo",
+            "track_id": "venue-one80-sushi",
+            "address": "one 80 Kitchen, Triq Martino Garces, Mgarr Yacht Marina",
+            "venue_id": "614203525220a7222b547236",
+            "location": [
+                14.29998568699474,
+                36.02679532066446
+            ],
+            "short_description": "Sushi time!",
+            "slug": "one80-sushi",
+            "tags": [
+                "sushi",
+                "fish",
+                "shellfish"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/one80-sushi"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/604a3a9c1841fb05b360ba31/bc4ba4a6-858a-11eb-88a0-4e209b32b1df_discovery_1.jpg",
+            "title": "Al Capone",
+            "name": "Al Capone",
+            "track_id": "venue-al-capone",
+            "address": "Cimcem Street, In-Nadur",
+            "venue_id": "604a3a9c1841fb05b360ba31",
+            "location": [
+                14.296287341666227,
+                36.03821386275487
+            ],
+            "short_description": "A passion for mediterrean cuisine & specialising in delicious pizza",
+            "slug": "al-capone",
+            "tags": [
+                "italian",
+                "pizza",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/al-capone"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/601be8b8a4b1aaa9846b5783/3616dd88-66e5-11eb-b7cf-caedac837e80_ta_nardu_2.jpg",
+            "title": "Ta' Nardu ",
+            "name": "Ta' Nardu ",
+            "track_id": "venue-ta-nardu-gawdex",
+            "address": "Ta Nardu, Nadur",
+            "venue_id": "601be8b8a4b1aaa9846b5783",
+            "location": [
+                14.29510709999999,
+                36.03789979999999
+            ],
+            "short_description": "A selection of Mediterranean dishes",
+            "slug": "ta-nardu-gawdex",
+            "tags": [
+                "pizza",
+                "salad",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-nardu-gawdex"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/603618acfbb1b3d44a980268/edec11ec-7b37-11eb-beee-b605d03726b6_discovery_1__2_.jpg",
+            "title": "Ta' Philip",
+            "name": "Ta' Philip",
+            "track_id": "venue-ta-philip",
+            "address": "29, Sant Antnin, Għajnsielem, Gozo",
+            "venue_id": "603618acfbb1b3d44a980268",
+            "location": [
+                14.296967041212882,
+                36.027199771011155
+            ],
+            "short_description": "Local Mediterranean food cooked in a wood burning oven",
+            "slug": "ta-philip",
+            "tags": [
+                "pasta",
+                "seafood",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-philip"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6012a83729a950e749a318bc/32b6c96e-6609-11eb-8257-ea898385a676_sip_n_snack.jpg",
+            "title": "Sip N' Snack",
+            "name": "Sip N' Snack",
+            "track_id": "venue-sip-n-snack",
+            "address": "8th September Avenue, Xaghra",
+            "venue_id": "6012a83729a950e749a318bc",
+            "location": [
+                14.265413296083084,
+                36.04873653152467
+            ],
+            "short_description": "Love at first bite!",
+            "slug": "sip-n-snack",
+            "tags": [
+                "burger",
+                "pizza",
+                "kids"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sip-n-snack"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/60af883cb1c67bdb0edec2f3/8f0bc124-bee2-11eb-877a-66b90dd6ff1a_img_7161.jpg",
+            "title": "Tuk Tuk Thai Kitchen",
+            "name": "Tuk Tuk Thai Kitchen",
+            "track_id": "venue-tuk-tuk-thai-kitchen",
+            "address": "Tariq Il-port, marsalforn",
+            "venue_id": "60af883cb1c67bdb0edec2f3",
+            "location": [
+                14.25914203381003,
+                36.07111215207651
+            ],
+            "short_description": "A bit of Thailand in Gozo",
+            "slug": "tuk-tuk-thai-kitchen",
+            "tags": [
+                "curry",
+                "thai",
+                "fried rice"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tuk-tuk-thai-kitchen"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/605a0efab20918e86b5b03c6/27439564-8c77-11eb-8689-eac57c425698_img_2577.jpg",
+            "title": "Mulino Restaurant",
+            "name": "Mulino Restaurant",
+            "track_id": "venue-mulino-restaurant",
+            "address": "Grunju Street, Qala",
+            "venue_id": "605a0efab20918e86b5b03c6",
+            "location": [
+                14.30816458129557,
+                36.037462684305076
+            ],
+            "short_description": "Heighten your senses with every bite and scent of our food",
+            "slug": "mulino-restaurant",
+            "tags": [
+                "burger"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mulino-restaurant"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/6037a33642875c1abd8ff8fa/3e89b5fa-7b5b-11eb-b0b7-8225417978e9_discovery_1.jpg",
+            "title": "Ta' Vestru",
+            "name": "Ta' Vestru",
+            "track_id": "venue-ta-vestru",
+            "address": "Ta Vestru, Pjazza San Guzepp, Qala",
+            "venue_id": "6037a33642875c1abd8ff8fa",
+            "location": [
+                14.311453900000027,
+                36.035200500000016
+            ],
+            "short_description": "Specialising in local and Italian food",
+            "slug": "ta-vestru",
+            "tags": [
+                "pizza",
+                "pasta",
+                "mediterranean"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ta-vestru"
+            }
+        },
+        {
+            "image": "https://prod-wolt-venue-images-cdn.wolt.com/600008a14267c9486b35eaa1/0c571b8e-64a6-11eb-8860-6ee700790725_st.honore_2.jpg",
+            "title": "Porta Reale",
+            "name": "Porta Reale",
+            "track_id": "venue-porta-reale",
+            "address": "Porta Reale, Triq Taht Putrijal, Ir Rabat",
+            "venue_id": "600008a14267c9486b35eaa1",
+            "location": [
+                14.240992314256369,
+                36.04413703466361
+            ],
+            "short_description": "Porto Reale, situated in the heart of Victoria, Gozo’s capital city, specializes in local “pastizzi” and other traditional pastries",
+            "slug": "porta-reale",
+            "tags": [
+                "pizza",
+                "dessert",
+                "cake"
+            ],
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/porta-reale"
+            }
+        }
+    ]
+}
