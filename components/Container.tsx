@@ -15,6 +15,7 @@ interface Slot {
 
 const Container: React.FC<Props> = (props) => {
   const { allRestaurants, setRandomRestaurant, selectedRestaurant } = props;
+console.log(allRestaurants);
 
   
   useEffect(() => {
@@ -23,7 +24,7 @@ const Container: React.FC<Props> = (props) => {
 
   return (
     <div className="w-full h-screen bg-slate-900 text-center">
-     <Restaurants allRestaurants={allRestaurants} setRandomRestaurant={setRandomRestaurant} selectedRestaurant={selectedRestaurant} />
+     {/* <Restaurants allRestaurants={allRestaurants} setRandomRestaurant={setRandomRestaurant} selectedRestaurant={selectedRestaurant} /> */}
     </div>
   );
 };

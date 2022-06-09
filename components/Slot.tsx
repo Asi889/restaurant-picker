@@ -50,7 +50,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
               
               {/* <div ref={ref} className={`relative bottom-[94%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition}`}> */}
               <div ref={ref} className={`relative bottom-[95%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition ? "translate-y-[22px] blure-none" : "translate-y-[94%]"}`}>
-              <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant}  />
+              {/* <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant}  /> */}
           
                 {restaurants &&
                   shuffle(restaurants)?.map(
