@@ -31,6 +31,7 @@ const Dashboard: React.FC<Props> = (props) => {
     filterTypesSet({...filterTypes, [e.target.name]:!filterTypes[e.target.name] })
     
     switch (e.target.name) {
+      
       case "tenbisRestaurants":
         if(filterTypes.woltRestaurants === false){
           filterTypesSet({...filterTypes,tenbisRestaurants:true  })
@@ -38,6 +39,7 @@ const Dashboard: React.FC<Props> = (props) => {
         selectedproviderSet("both")
         setRestaurantAmount()      
         return;
+
         case "woltRestaurants":
           if(filterTypes.tenbisRestaurants === false){
             filterTypesSet({...filterTypes,woltRestaurants:true  })

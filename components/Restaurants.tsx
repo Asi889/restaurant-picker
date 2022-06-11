@@ -41,8 +41,13 @@ const Restaurants: React.FC<Props> = (props) => {
     setTimeout(() => {
       slotTransitionSet("front-spin");
     }, 200);
+    if(selectedprovider=== " both"){
 
-    selectedRestaurantSet(getRandomFromArray(allTheRestaurants[selectedprovider]));
+      selectedRestaurantSet(getRandomFromArray([...allTheRestaurants?.woltRestaurants, ...allTheRestaurants?.tenbisRestaurants,]));
+    } else{
+        selectedRestaurantSet(getRandomFromArray(allTheRestaurants[selectedprovider]));
+
+    }
     maxRestaurantsSet(set50Restaurants(allTheRestaurants,selectedprovider))
   };
 

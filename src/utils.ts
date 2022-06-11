@@ -5,7 +5,7 @@ type RestaurantData = {
     woltData: Array<object>;
   };
 
-export const getRandomFromArray = (allRestaurants:[]) =>{
+export const getRandomFromArray = (allRestaurants:[{}]|any=[]) =>{
     let randomIndex: any = "";
     randomIndex = Math.floor(Math.random() * allRestaurants.length);
     return allRestaurants[randomIndex]
