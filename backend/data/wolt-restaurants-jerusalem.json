@@ -1,0 +1,5 @@
+{
+    "lastScrapeDate": 1654850614677,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.7788242&lon=35.2257626",
+    "restaurants": []
+}

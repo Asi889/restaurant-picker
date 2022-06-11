@@ -13,28 +13,35 @@
 .inplace{
   transform:translateY(22px)
 }
+.bbotom{
+  bottom: 98.5%;
+}
 .front-spin{
+  /* transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; */
   transition-delay: 500ms;
-  animation: spin 3s ease-in;
+  /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
+  /* animation: spin 3s ease-in; */
+  transition-duration: 2000ms;
+  transition-timing-function: ease-out;
+  bottom: 1%;
   /* transition-duration: 3000ms; */
 }
 .back-spin{
   animation: spinback 0s ;
 }
 @keyframes spin {
-  0%   {transform:translateY(22px);}
-  100%  {transform:translateY(94%);}
+  /* 0%   {bottom:98%;}
+  100%  {bottom:50%;} */
   /* 100% {transform:translateY(22px);} */
 }
-@keyframes spin-down {
+/* @keyframes spin-down {
   0%   {transform:translateY(22px);}
   100%  {transform:translateY(94%);}
-  /* 100% {transform:translateY(22px);} */
 }
 @keyframes spinback {
   0%  {transform:translateY(94%);}
   100%   {transform:translateY(0%);}
-}
+} */
 
 
 /* ////////////////////////////////// */

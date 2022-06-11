@@ -4,7 +4,8 @@ import { myImageLoader } from "../src/hooks/myImageLoader";
 
 type Props = {
   selectedRestaurant: any;
-  restaurants: Array<object>;
+  restaurants: Array<any>;
+  // restaurants: Array<object>;
   index: number;
 };
 
@@ -19,13 +20,15 @@ const SelectedAndTop: React.FC<Props> = (props) => {
       <div className="w-[55px] h-[55px] rounded-full text-center relative img-wrapper ">
         {/* {lastRestaurant?.title} */}
         <Image
-          loader={() => myImageLoader(restaurants[index]?.image?.url)}
-          // src={""}
-          src={
-            selectedRestaurant?.image?.url
-              ? selectedRestaurant?.image?.url
-              : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"
-          }
+          // loader={() => myImageLoader(restaurants[index]?.image)}
+          loader={() => myImageLoader("https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png")}
+          // src={restaurants[index]?.image}
+          src={"https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"}
+          // src={
+          //   selectedRestaurant?.image
+          //     ? selectedRestaurant?.image
+          //     : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"
+          // }
           // src={restaurants[index]?.image?.url ? restaurants[index]?.image?.url : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
           alt="Picture of the author"
           layout="fill"
@@ -35,11 +38,11 @@ const SelectedAndTop: React.FC<Props> = (props) => {
       </div>
       <div className="w-[55px] h-[55px] rounded-full text-center relative img-wrapper ">
         <Image
-          loader={() => myImageLoader(selectedRestaurant?.image?.url)}
+          loader={() => myImageLoader(selectedRestaurant?.image)}
           // src={selectedRestaurant?.image?.url  }
           src={
-            selectedRestaurant?.image?.url
-              ? selectedRestaurant?.image?.url
+            selectedRestaurant?.image
+              ? selectedRestaurant?.image
               : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"
           }
           alt="Picture of the author"

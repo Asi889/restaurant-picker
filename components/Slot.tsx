@@ -22,26 +22,6 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
     refindex,
   } = props;
 
-  const [thisRef, thisRefSet] = useState<any>(ref)
-  console.log(ref);
-  console.log("reffff");
-  
-  // useEffect(()=>{
-  //   if(slotTransition){
-  //     if(thisRef){
-  //       console.log("loggg");
-        
-  //       setTimeout(() => {
-  //         // ref.current.children[0].firstChild.classList.add('front-spin');
-  //         ref.current.children[0].firstChild.classList.add('translate-y-[94%]');
-  //         // console.log(ref.current.children[0].firstChild);
-          
-  //       }, 1000);
-  //       // debugger
-  //     }
-  //   }
-  // },[ref,slotTransition, thisRef])
-
 
   return (
           <div  key={refindex} className="w-full border bg-white border-red-200 px-1 md:px-4  overflow-hidden ">
@@ -49,8 +29,9 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
 
               
               {/* <div ref={ref} className={`relative bottom-[94%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition}`}> */}
-              <div ref={ref} className={`relative bottom-[95%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition ? "translate-y-[22px] blure-none" : "translate-y-[94%]"}`}>
-              {/* <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant}  /> */}
+              <div ref={ref} className={`relative   grid gap-y-16  justify-center ${slotTransition ? slotTransition  : "bbotom"} }`}>
+              {/* <div ref={ref} className={`relative bottom-[95%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition ? "translate-y-[22px] blure-none" : "translate-y-[94%]"}`}> */}
+              <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant}  />
           
                 {restaurants &&
                   shuffle(restaurants)?.map(
@@ -60,8 +41,8 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                           <div className={`w-[55px] h-[55px] rounded-full text-center relative img-wrapper `} key={index}>
                             {/* {restaurant.title} */}
                             <Image
-                              loader={() => myImageLoader(restaurant?.image?.url)}
-                              src={restaurant?.image?.url ? restaurant?.image?.url : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
+                              loader={() => myImageLoader(restaurant?.image)}
+                              src={restaurant?.image ? restaurant?.image : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
                               alt="alt"
                               layout="fill" 
                               className="w-[400px] h-[100px] rounded-full "

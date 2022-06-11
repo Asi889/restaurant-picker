@@ -5,8 +5,10 @@ export interface FetchRestaurantType {
         lat: string;
         lon: string;
     };
-    woltData: WoltRestaurant[] | null;
-    tenBisData: TenBisRestaurant[] | null;
+    woltData: WoltRestaurant[] ;
+    tenBisData: TenBisRestaurant[] ;
+    // woltData: WoltRestaurant[] | null;
+    // tenBisData: TenBisRestaurant[] | null;
 
 }
 

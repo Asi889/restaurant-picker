@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { setRestaurants } from "../src/redux/actions/clienActions";
+import { setRestaurants, setSelectedRestaurant1 } from "../src/redux/actions/clienActions";
 // import { useDispatch } from "react-redux";
 // import Restaurants from  '../components/Restaurants';
 import Slots from "../components/Slot";
@@ -8,45 +8,45 @@ import { useDispatch } from "react-redux";
 import Restaurants from "../components/Restaurants";
 import Container from "../components/Container";
 import Image from "next/image";
-import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
+import { FetchRestaurantType, TenBisRestaurant, WoltRestaurant } from "../src/types/FetchRestaurantTyp";
+import {getRandomFromArray, set50Restaurants} from '../src/utils'
 interface IUser {
   name: string;
 }
 type Props = {
   state: Array<object>;
 };
+type AllResObj = {
+  tenBisRestaurants: TenBisRestaurant[];
+  woltRestaurants: WoltRestaurant[];
+}
 
 
 const Home = ({ allRestaurants }: {allRestaurants:FetchRestaurantType}) => {
-  const dispatch = useDispatch();
+  // const dispatch = useDispatch(setSelectedRestaurant1(allRestaurants.tenBisData[0]));
+
   const [selectedRestaurant, selectedRestaurantSet] = useState<any>([]);
+  const [allTheRestaurants, allTheRestaurantsSet] = useState<any>({tenbisRestaurants:[],woltRestaurants:[]});
+  const [maxRestaurants, maxRestaurantsSet] = useState<any>([]); // 50 restaurants
 
-  const setRandomRestaurant = () => {
-    let randomIndex: any = "";
-    randomIndex = Math.floor(Math.random() * allRestaurants.sections[1].items.length);
-    selectedRestaurantSet(allRestaurants.sections[1].items[randomIndex]);
-  };
-
-  return <Container allRestaurants={allRestaurants} setRandomRestaurant={setRandomRestaurant} selectedRestaurant={selectedRestaurant} />
+  
+useEffect(() => {
+    allTheRestaurantsSet({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData})
+    maxRestaurantsSet(allRestaurants?.woltData.filter((restaurant: any, index: number) => index < 50 && restaurant))
+  
+},[ allRestaurants])
+  
+  
+  return <Container allTheRestaurants={allTheRestaurants} selectedRestaurantSet={selectedRestaurantSet} selectedRestaurant={selectedRestaurant} maxRestaurantsSet={maxRestaurantsSet} maxRestaurants={maxRestaurants} />
 };
 export default Home;
 
-// export async function getServerSideProps() {
-//   // const  { data: all_restaurants } = await axios.get('http://localhost:3009/all-restaurants')
-//   const { data: all_restaurants } = await axios.get(
-//     "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.087236876497585&lon=34.78698525756491"
-//   );
-//   // const  { data: all_restaurants } = await axios.get('https://www.10bis.co.il/NextApi/searchRestaurants?shoppingCartGuid=c79f120a-5d27-4071-8d8d-4bc9b119bf1f&culture=he-IL&uiCulture=he&isMobileDevice=false&timestamp=1654159780356&deliveryMethod=delivery&cityName=%D7%AA%D7%9C+%D7%90%D7%91%D7%99%D7%91-%D7%99%D7%A4%D7%95&streetName=%D7%A9%D7%A8%D7%99%D7%A8%D7%90+%D7%92%D7%90%D7%95%D7%9F&houseNumber=17&latitude=32.0464866&longitude=34.763086&cityId=24&streetId=8201&isBigCity=true&addressKey=24-8201-17&locationType=residential')
 
-//   return {
-//     props: {
-//       allRestaurants: all_restaurants,
-//     },
-//   };
-// }
 export async function getServerSideProps() {
   const { FRONT_URL } = process.env;
-  const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`); // TODO: dont hardcode the url
+  const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
+    cityName:'tel-aviv'
+  }); 
 
   return {
     props: {
