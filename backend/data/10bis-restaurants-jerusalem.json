@@ -1,0 +1,2872 @@
+{
+    "lastScrapeDate": 1654850616328,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1654850613396&deliveryMethod=delivery&cityId=49&streetId=12055&houseNumber=228&addressKey=49-12055-228",
+    "restaurants": [
+        {
+            "name": "Turkishuk",
+            "title": "Turkishuk",
+            "venue_id": "36598",
+            "address": "13, HaShazif Jerusalem",
+            "track_id": "36598",
+            "location": [
+                35.2126472,
+                31.7846325
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36598.jpg",
+            "short_description": "טורקישוק , Turkishuk",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36598"
+            }
+        },
+        {
+            "name": "Kaboom",
+            "title": "Kaboom",
+            "venue_id": "36863",
+            "address": "3, Ha-Eshkol Jerusalem",
+            "track_id": "36863",
+            "location": [
+                35.2120836,
+                31.7848266
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36863.png",
+            "short_description": "קאבום  Kaboom , Kaboom",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36863"
+            }
+        },
+        {
+            "name": "Kurtoshock",
+            "title": "Kurtoshock",
+            "venue_id": "33823",
+            "address": "17, Ha-Afarsek Street Jerusalem",
+            "track_id": "33823",
+            "location": [
+                35.2126949,
+                31.7847734
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33823.png",
+            "short_description": "קורטושוק, Kurtoshock",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "gelato",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33823"
+            }
+        },
+        {
+            "name": "Japan Japan ",
+            "title": "Japan Japan ",
+            "venue_id": "4789",
+            "address": "224, Yafo Street Jerusalem",
+            "track_id": "4789",
+            "location": [
+                35.2032745,
+                31.78896599999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/4789.jepg",
+            "short_description": "ג'אפן ג'אפן ירושלים , Japan Japan ",
+            "slug": "jerusalem",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/4789"
+            }
+        },
+        {
+            "name": "Just Meat",
+            "title": "Just Meat",
+            "venue_id": "23925",
+            "address": "2, Derech Agudat Sport Beitar Jerusalem",
+            "track_id": "23925",
+            "location": [
+                35.188522,
+                31.7514772
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23925.png",
+            "short_description": "ג'אסט מיט מלחה, Just Meat",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23925"
+            }
+        },
+        {
+            "name": "Burgers Bar",
+            "title": "Burgers Bar",
+            "venue_id": "22620",
+            "address": "68, עץ חיים Jerusalem",
+            "track_id": "22620",
+            "location": [
+                35.2129212,
+                31.7842601
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/22620.jpeg",
+            "short_description": "בורגרס בר מחנה יהודה , Burgers Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/22620"
+            }
+        },
+        {
+            "name": "Hachapuria",
+            "title": "Hachapuria",
+            "venue_id": "36998",
+            "address": "5, HaShikma Street Jerusalem",
+            "track_id": "36998",
+            "location": [
+                35.2119111,
+                31.7851627
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36998.png",
+            "short_description": "חצ'אפוריה, Hachapuria",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "homeMade"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36998"
+            }
+        },
+        {
+            "name": "Vegan Shawarma",
+            "title": "Vegan Shawarma",
+            "venue_id": "21397",
+            "address": "8, HaEgoz Street Jerusalem",
+            "track_id": "21397",
+            "location": [
+                35.2127622,
+                31.7843027
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21397.png",
+            "short_description": "שווארמה טבעונית מחנה יהודה, Vegan Shawarma",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "salads",
+                "glutenFree",
+                "kosher",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21397"
+            }
+        },
+        {
+            "name": "Burgers Bar",
+            "title": "Burgers Bar",
+            "venue_id": "33683",
+            "address": "224, Yafo Street Jerusalem",
+            "track_id": "33683",
+            "location": [
+                35.2032745,
+                31.78896599999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33683.jpeg",
+            "short_description": "בורגרס בר, Burgers Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33683"
+            }
+        },
+        {
+            "name": "Havash",
+            "title": "Havash",
+            "venue_id": "30570",
+            "address": "5, Mashiyah Barukhof Jerusalem",
+            "track_id": "30570",
+            "location": [
+                35.2156722,
+                31.7836056
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30570.jpeg",
+            "short_description": "חבש מסעדה אתיופית , Havash",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30570"
+            }
+        },
+        {
+            "name": "KABABSTA",
+            "title": "KABABSTA",
+            "venue_id": "28964",
+            "address": "42, מחנה יהודה Jerusalem",
+            "track_id": "28964",
+            "location": [
+                35.2123594,
+                31.7840808
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28964.jpg",
+            "short_description": "קבבסטה , KABABSTA",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28964"
+            }
+        },
+        {
+            "name": "ZALMAN'S",
+            "title": "ZALMAN'S",
+            "venue_id": "34282",
+            "address": "5, Luis Brandeis Jerusalem",
+            "track_id": "34282",
+            "location": [
+                35.2098265,
+                31.7920736
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34282.png",
+            "short_description": "זלמנ'ס רוממה , ZALMAN'S",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34282"
+            }
+        },
+        {
+            "name": "katayef",
+            "title": "katayef",
+            "venue_id": "34923",
+            "address": "125, Agripas Jerusalem",
+            "track_id": "34923",
+            "location": [
+                35.2108465,
+                31.7847323
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34923.png",
+            "short_description": "קטאייף, katayef",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34923"
+            }
+        },
+        {
+            "name": "Manou ba shuk",
+            "title": "Manou ba shuk",
+            "venue_id": "30247",
+            "address": "29, עץ חיים Jerusalem",
+            "track_id": "30247",
+            "location": [
+                35.2128226,
+                31.7852206
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30247.png",
+            "short_description": "מן הוא בשוק, Manou ba shuk",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "soup",
+                "humus",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30247"
+            }
+        },
+        {
+            "name": "Pie 4 you",
+            "title": "Pie 4 you",
+            "venue_id": "35313",
+            "address": "29, Azza Jerusalem",
+            "track_id": "35313",
+            "location": [
+                35.2135804,
+                31.7718824
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35313.png",
+            "short_description": "פאי 4 יו , Pie 4 you",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35313"
+            }
+        },
+        {
+            "name": "Mimoni's",
+            "title": "Mimoni's",
+            "venue_id": "30468",
+            "address": "115, Agripas Jerusalem",
+            "track_id": "30468",
+            "location": [
+                35.2115352,
+                31.7843201
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30468.jpg",
+            "short_description": "מימוניס, Mimoni's",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "glutenFree",
+                "salads",
+                "kosher",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30468"
+            }
+        },
+        {
+            "name": "Panso Shuk",
+            "title": "Panso Shuk",
+            "venue_id": "36020",
+            "address": "93, Agripas Jerusalem",
+            "track_id": "36020",
+            "location": [
+                35.2130567,
+                31.7838231
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36020.png",
+            "short_description": "פנסו שוק, Panso Shuk",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36020"
+            }
+        },
+        {
+            "name": "Alma Soups",
+            "title": "Alma Soups",
+            "venue_id": "36003",
+            "address": "109, Agripas Jerusalem",
+            "track_id": "36003",
+            "location": [
+                35.2123653,
+                31.7839991
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36003.png",
+            "short_description": "עלמא מרקים , Alma Soups",
+            "slug": "jerusalem",
+            "tags": [
+                "soup",
+                "homeMade"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36003"
+            }
+        },
+        {
+            "name": "Hazaken Bashuk",
+            "title": "Hazaken Bashuk",
+            "venue_id": "35062",
+            "address": "8, עץ חיים Jerusalem",
+            "track_id": "35062",
+            "location": [
+                35.2126864,
+                31.7851472
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35062.png",
+            "short_description": "הזקן בשוק , Hazaken Bashuk",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35062"
+            }
+        },
+        {
+            "name": "Hummus Mahne",
+            "title": "Hummus Mahne",
+            "venue_id": "35377",
+            "address": "3, Ha-Eshkol Jerusalem",
+            "track_id": "35377",
+            "location": [
+                35.2120836,
+                31.7848266
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35377.jpeg",
+            "short_description": "חומוס מחנה , Hummus Mahne",
+            "slug": "jerusalem",
+            "tags": [
+                "humus",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35377"
+            }
+        },
+        {
+            "name": "Sweet's Of Mahne Yehuda",
+            "title": "Sweet's Of Mahne Yehuda",
+            "venue_id": "33609",
+            "address": "4, עץ חיים Jerusalem",
+            "track_id": "33609",
+            "location": [
+                35.21278059999999,
+                31.7847835
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33609.jpeg",
+            "short_description": "המתוקים של מחנה יהודה, Sweet's Of Mahne Yehuda",
+            "slug": "jerusalem",
+            "tags": [
+                "sandwichesWraps",
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33609"
+            }
+        },
+        {
+            "name": "Sam Bagel Jaffa Jerusalem",
+            "title": "Sam Bagel Jaffa Jerusalem",
+            "venue_id": "25551",
+            "address": "33, Yafo Street Jerusalem",
+            "track_id": "25551",
+            "location": [
+                35.2203898,
+                31.7813282
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25551.jpg",
+            "short_description": "סאם בייגל יפו, Sam Bagel Jaffa Jerusalem",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25551"
+            }
+        },
+        {
+            "name": "Habibi  ",
+            "title": "Habibi  ",
+            "venue_id": "24680",
+            "address": "2, Ben Yehuda Street Jerusalem",
+            "track_id": "24680",
+            "location": [
+                35.2190026,
+                31.7818907
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24680.jpeg",
+            "short_description": "חביבי  , Habibi  ",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24680"
+            }
+        },
+        {
+            "name": "Rimon",
+            "title": "Rimon",
+            "venue_id": "35847",
+            "address": "59, עץ חיים Jerusalem",
+            "track_id": "35847",
+            "location": [
+                35.2129124,
+                31.7847222
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35847.jpg",
+            "short_description": "רימון , Rimon",
+            "slug": "jerusalem",
+            "tags": [
+                "SmoothiesAndShakes",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35847"
+            }
+        },
+        {
+            "name": "Joseph ",
+            "title": "Joseph ",
+            "venue_id": "13158",
+            "address": "123, Agripas Jerusalem",
+            "track_id": "13158",
+            "location": [
+                35.2110181,
+                31.7844974
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/13158.png",
+            "short_description": "ג'וזף  , Joseph ",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "salads",
+                "glutenFree",
+                "kosher",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/13158"
+            }
+        },
+        {
+            "name": "Hatch",
+            "title": "Hatch",
+            "venue_id": "29628",
+            "address": "28, HaEgoz Street Jerusalem",
+            "track_id": "29628",
+            "location": [
+                35.2127538,
+                31.7843341
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29628.jpg",
+            "short_description": "האטצ', Hatch",
+            "slug": "jerusalem",
+            "tags": [
+                "bar",
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29628"
+            }
+        },
+        {
+            "name": "Falafel and Shawarma King",
+            "title": "Falafel and Shawarma King",
+            "venue_id": "24210",
+            "address": "10, King George Jerusalem",
+            "track_id": "24210",
+            "location": [
+                35.2173856,
+                31.7825825
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24210.png",
+            "short_description": "מלך הפלאפל והשווארמה , Falafel and Shawarma King",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "salads",
+                "glutenFree",
+                "kosher",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24210"
+            }
+        },
+        {
+            "name": "La Carolina",
+            "title": "La Carolina",
+            "venue_id": "35466",
+            "address": "6, Ha-Tut Jerusalem",
+            "track_id": "35466",
+            "location": [
+                35.2126677,
+                31.7840855
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35466.jpg",
+            "short_description": "לה קרולינה , La Carolina",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "salads",
+                "bakery",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35466"
+            }
+        },
+        {
+            "name": "Pizza bomba",
+            "title": "Pizza bomba",
+            "venue_id": "30026",
+            "address": "97, Agripas Jerusalem",
+            "track_id": "30026",
+            "location": [
+                35.2128364,
+                31.78387
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30026.jpg",
+            "short_description": "פיצה בומבה , Pizza bomba",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30026"
+            }
+        },
+        {
+            "name": "Denya Cafe",
+            "title": "Denya Cafe",
+            "venue_id": "21602",
+            "address": "102, Herzl Blvd Jerusalem",
+            "track_id": "21602",
+            "location": [
+                35.1875645,
+                31.7800317
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21602.png",
+            "short_description": "דניה בית הכרם, Denya Cafe",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21602"
+            }
+        },
+        {
+            "name": "Pizza Shemesh",
+            "title": "Pizza Shemesh",
+            "venue_id": "30494",
+            "address": "42, Agripas Jerusalem",
+            "track_id": "30494",
+            "location": [
+                35.2143062,
+                31.783621
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30494.tif",
+            "short_description": "פיצה שמש ירושלים , Pizza Shemesh",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "bakery",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30494"
+            }
+        },
+        {
+            "name": "Hashamen",
+            "title": "Hashamen",
+            "venue_id": "29407",
+            "address": "8, Avizohar Jerusalem",
+            "track_id": "29407",
+            "location": [
+                35.1867225,
+                31.7749335
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29407.jepg",
+            "short_description": "השמן בית הכרם , Hashamen",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29407"
+            }
+        },
+        {
+            "name": "Duda for pizza",
+            "title": "Duda for pizza",
+            "venue_id": "29272",
+            "address": "3, Ben Hillel Street Jerusalem",
+            "track_id": "29272",
+            "location": [
+                35.2173383,
+                31.7821355
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29272.jepg",
+            "short_description": "דודא לפיצה , Duda for pizza",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "pasta",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29272"
+            }
+        },
+        {
+            "name": "Turkish shawarma",
+            "title": "Turkish shawarma",
+            "venue_id": "26066",
+            "address": "2, Ben Yehuda Street Jerusalem",
+            "track_id": "26066",
+            "location": [
+                35.2190026,
+                31.7818907
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26066.jepg",
+            "short_description": "הטורקי בן יהודה, Turkish shawarma",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "homeMade",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26066"
+            }
+        },
+        {
+            "name": "pisgat hafalafel",
+            "title": "pisgat hafalafel",
+            "venue_id": "26064",
+            "address": "23, Ben Yehuda Street Jerusalem",
+            "track_id": "26064",
+            "location": [
+                35.2165476,
+                31.7812486
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26064.png",
+            "short_description": "פסגת הפלאפל , pisgat hafalafel",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "veganFood",
+                "homeMade",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26064"
+            }
+        },
+        {
+            "name": "IWOS",
+            "title": "IWOS",
+            "venue_id": "34148",
+            "address": "24, Hillel Street Jerusalem",
+            "track_id": "34148",
+            "location": [
+                35.2186028,
+                31.7798948
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34148.jpg",
+            "short_description": "איוו מיט בורגר  - IWOS, IWOS",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "sandwichesWraps",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34148"
+            }
+        },
+        {
+            "name": "Twist",
+            "title": "Twist",
+            "venue_id": "34394",
+            "address": "18, Ben Yehuda Street Jerusalem",
+            "track_id": "34394",
+            "location": [
+                35.2170952,
+                31.78140569999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34394.png",
+            "short_description": "טוויסט , Twist",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "sandwichesWraps",
+                "glutenFree",
+                "kosher",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34394"
+            }
+        },
+        {
+            "name": "McDonald’s",
+            "title": "McDonald’s",
+            "venue_id": "29683",
+            "address": "8, Avizohar Jerusalem",
+            "track_id": "29683",
+            "location": [
+                35.1867225,
+                31.7749335
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29683.jpeg",
+            "short_description": "מקדונלד'ס בית הכרם, McDonald’s",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29683"
+            }
+        },
+        {
+            "name": "Burger Room",
+            "title": "Burger Room",
+            "venue_id": "34631",
+            "address": "20, Azza Jerusalem",
+            "track_id": "34631",
+            "location": [
+                35.2151597,
+                31.7734273
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34631.png",
+            "short_description": "בורגר רום , Burger Room",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34631"
+            }
+        },
+        {
+            "name": "B-FRESH",
+            "title": "B-FRESH",
+            "venue_id": "35050",
+            "address": "5, Ben Yehuda Street Jerusalem",
+            "track_id": "35050",
+            "location": [
+                35.2185742,
+                31.7815911
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35050.jpg",
+            "short_description": "בי פרש , B-FRESH",
+            "slug": "jerusalem",
+            "tags": [
+                "SmoothiesAndShakes"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35050"
+            }
+        },
+        {
+            "name": "Hatzot",
+            "title": "Hatzot",
+            "venue_id": "27889",
+            "address": "121, Agripas Jerusalem",
+            "track_id": "27889",
+            "location": [
+                35.21119110000001,
+                31.78445979999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27889.png",
+            "short_description": "מסעדת חצות , Hatzot",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27889"
+            }
+        },
+        {
+            "name": "Katzefet",
+            "title": "Katzefet",
+            "venue_id": "35846",
+            "address": "16, Shamgar Jerusalem",
+            "track_id": "35846",
+            "location": [
+                35.208407,
+                31.7947479
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35846.png",
+            "short_description": "קצפת קניון רב שפע , Katzefet",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "patisserie",
+                "SmoothiesAndShakes",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35846"
+            }
+        },
+        {
+            "name": "Taste Around",
+            "title": "Taste Around",
+            "venue_id": "34170",
+            "address": "23, Shamai Street Jerusalem",
+            "track_id": "34170",
+            "location": [
+                35.2191952,
+                31.7813195
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34170.jpeg",
+            "short_description": "חומוס שמאי, Taste Around",
+            "slug": "jerusalem",
+            "tags": [
+                "humus",
+                "falafel",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34170"
+            }
+        },
+        {
+            "name": "humus eliyahu",
+            "title": "humus eliyahu",
+            "venue_id": "27547",
+            "address": "10, HaShazif Jerusalem",
+            "track_id": "27547",
+            "location": [
+                35.2126705,
+                31.7845571
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27547.png",
+            "short_description": "חומוס אליהו מחנה יהודה  , humus eliyahu",
+            "slug": "jerusalem",
+            "tags": [
+                "humus",
+                "falafel",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27547"
+            }
+        },
+        {
+            "name": "Chili Pizza",
+            "title": "Chili Pizza",
+            "venue_id": "36496",
+            "address": "28, Hillel Street Jerusalem",
+            "track_id": "36496",
+            "location": [
+                35.2188609,
+                31.7799051
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36496.png",
+            "short_description": "צ'ילי פיצה , Chili Pizza",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "pasta",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36496"
+            }
+        },
+        {
+            "name": "GG Kubala",
+            "title": "GG Kubala",
+            "venue_id": "29840",
+            "address": "1, Dekel Street Jerusalem",
+            "track_id": "29840",
+            "location": [
+                35.211345,
+                31.7853324
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29840.png",
+            "short_description": "ג'יג'י קובלה - GG Kubala מבית מחניודה, GG Kubala",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "fish",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29840"
+            }
+        },
+        {
+            "name": "Knafta",
+            "title": "Knafta",
+            "venue_id": "36063",
+            "address": "28, Hillel Street Jerusalem",
+            "track_id": "36063",
+            "location": [
+                35.2188609,
+                31.7799051
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36063.jpeg",
+            "short_description": "כנאפתה, Knafta",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36063"
+            }
+        },
+        {
+            "name": "Denia Coffe",
+            "title": "Denia Coffe",
+            "venue_id": "24184",
+            "address": "35, Kanfei Nesharim Street Jerusalem",
+            "track_id": "24184",
+            "location": [
+                35.1815778,
+                31.7872526
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24184.png",
+            "short_description": "קפה דניה גבעת שאול , Denia Coffe",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24184"
+            }
+        },
+        {
+            "name": "McDonald’s",
+            "title": "McDonald’s",
+            "venue_id": "29450",
+            "address": "4, Shamai Street Jerusalem",
+            "track_id": "29450",
+            "location": [
+                35.2176978,
+                31.7811156
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29450.jpeg",
+            "short_description": "מקדונלד'ס אוריון , McDonald’s",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29450"
+            }
+        },
+        {
+            "name": "Pizza Hut",
+            "title": "Pizza Hut",
+            "venue_id": "23915",
+            "address": "15, Ben Hillel Street Jerusalem",
+            "track_id": "23915",
+            "location": [
+                35.217867,
+                31.7811988
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23915.jpeg",
+            "short_description": "פיצה האט בן הלל , Pizza Hut",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23915"
+            }
+        },
+        {
+            "name": "golda",
+            "title": "golda",
+            "venue_id": "28476",
+            "address": "8, Avizohar Jerusalem",
+            "track_id": "28476",
+            "location": [
+                35.1867225,
+                31.7749335
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28476.jpg",
+            "short_description": "גולדה בית הכרם ירושלים, golda",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28476"
+            }
+        },
+        {
+            "name": "Greg Cafe",
+            "title": "Greg Cafe",
+            "venue_id": "34404",
+            "address": "8, Avizohar Jerusalem",
+            "track_id": "34404",
+            "location": [
+                35.1867225,
+                31.7749335
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34404.png",
+            "short_description": "קפה גרג בית הכרם, Greg Cafe",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34404"
+            }
+        },
+        {
+            "name": "ZUNI",
+            "title": "ZUNI",
+            "venue_id": "30091",
+            "address": "15, Yo'el Moshe Salomon Jerusalem",
+            "track_id": "30091",
+            "location": [
+                35.2198583,
+                31.7808101
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30091.jpg",
+            "short_description": "זוני, ZUNI",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "bar",
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30091"
+            }
+        },
+        {
+            "name": "The Queen Burekas",
+            "title": "The Queen Burekas",
+            "venue_id": "36669",
+            "address": "1, Shlomtsiyon HaMalka Street Jerusalem",
+            "track_id": "36669",
+            "location": [
+                35.2217376,
+                31.7802595
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36669.png",
+            "short_description": "בורקס המלכה , The Queen Burekas",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36669"
+            }
+        },
+        {
+            "name": "Gelato Variegato",
+            "title": "Gelato Variegato",
+            "venue_id": "34634",
+            "address": "29, Azza Jerusalem",
+            "track_id": "34634",
+            "location": [
+                35.2135804,
+                31.7718824
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34634.png",
+            "short_description": "גלטו וריגטו , Gelato Variegato",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34634"
+            }
+        },
+        {
+            "name": "JUNIOR PIZZA",
+            "title": "JUNIOR PIZZA",
+            "venue_id": "34632",
+            "address": "1, HaRav Haim Berlin Jerusalem",
+            "track_id": "34632",
+            "location": [
+                35.2118041,
+                31.7699415
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34632.png",
+            "short_description": "ג'וניור פיצה, JUNIOR PIZZA",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "sandwichesWraps",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34632"
+            }
+        },
+        {
+            "name": "Greg",
+            "title": "Greg",
+            "venue_id": "34396",
+            "address": "4, ממילא Jerusalem",
+            "track_id": "34396",
+            "location": [
+                35.2243515,
+                31.7779621
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34396.png",
+            "short_description": "קפה גרג ממילא , Greg",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34396"
+            }
+        },
+        {
+            "name": "Burger Market",
+            "title": "Burger Market",
+            "venue_id": "30513",
+            "address": "68, Agripas Jerusalem",
+            "track_id": "30513",
+            "location": [
+                35.2117772,
+                31.78437539999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30513.jpg",
+            "short_description": "בורגר מרקט, Burger Market",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30513"
+            }
+        },
+        {
+            "name": "boutique central",
+            "title": "boutique central",
+            "venue_id": "28809",
+            "address": "64, Agripas Jerusalem",
+            "track_id": "28809",
+            "location": [
+                35.2120146,
+                31.78422299999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28809.jepg",
+            "short_description": "בוטיק סנטרל מחנה יהודה  , boutique central",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "bakery",
+                "coffeeHouse",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28809"
+            }
+        },
+        {
+            "name": "Sushi Bait Vagan",
+            "title": "Sushi Bait Vagan",
+            "venue_id": "30148",
+            "address": "37, Ha-Pisga Street Jerusalem",
+            "track_id": "30148",
+            "location": [
+                35.1837004,
+                31.7672022
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30148.jpg",
+            "short_description": "סושי בית וגן, Sushi Bait Vagan",
+            "slug": "jerusalem",
+            "tags": [
+                "japaneseSushi",
+                "asianFusion",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30148"
+            }
+        },
+        {
+            "name": "LUCIANA",
+            "title": "LUCIANA",
+            "venue_id": "34931",
+            "address": "8, ממילא Jerusalem",
+            "track_id": "34931",
+            "location": [
+                35.223525,
+                31.777676
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34931.jpg",
+            "short_description": "לוצ'נה, LUCIANA",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34931"
+            }
+        },
+        {
+            "name": "Biga Botique",
+            "title": "Biga Botique",
+            "venue_id": "34399",
+            "address": "4, ממילא Jerusalem",
+            "track_id": "34399",
+            "location": [
+                35.2243515,
+                31.7779621
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34399.png",
+            "short_description": "ביגה בוטיק , Biga Botique",
+            "slug": "jerusalem",
+            "tags": [
+                "sandwichesWraps",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34399"
+            }
+        },
+        {
+            "name": "Knaffe El Halabi",
+            "title": "Knaffe El Halabi",
+            "venue_id": "30079",
+            "address": "30, עץ חיים Jerusalem",
+            "track_id": "30079",
+            "location": [
+                35.2127602,
+                31.7847309
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30079.jpg",
+            "short_description": "כנאפה אלחלבי, Knaffe El Halabi",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30079"
+            }
+        },
+        {
+            "name": "golda machne yehuda",
+            "title": "golda machne yehuda",
+            "venue_id": "28653",
+            "address": "72, Agripas Jerusalem",
+            "track_id": "28653",
+            "location": [
+                35.2114177,
+                31.7845988
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28653.jpg",
+            "short_description": "גולדה מחנה יהודה ירושלים, golda machne yehuda",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28653"
+            }
+        },
+        {
+            "name": "Joy",
+            "title": "Joy",
+            "venue_id": "34953",
+            "address": "13, ממילא Jerusalem",
+            "track_id": "34953",
+            "location": [
+                35.2244599,
+                31.7776703
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34953.jpeg",
+            "short_description": "מסעדת ג'וי , Joy",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "burgers",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34953"
+            }
+        },
+        {
+            "name": "rebar ",
+            "title": "rebar ",
+            "venue_id": "21020",
+            "address": "10, Sderot Yitshak Rabin Jerusalem",
+            "track_id": "21020",
+            "location": [
+                35.2036425,
+                31.7830449
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21020.jpg",
+            "short_description": "ריבאר rebar , rebar ",
+            "slug": "jerusalem",
+            "tags": [
+                "SmoothiesAndShakes"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21020"
+            }
+        },
+        {
+            "name": "Berlin Burger",
+            "title": "Berlin Burger",
+            "venue_id": "34951",
+            "address": "13, ממילא Jerusalem",
+            "track_id": "34951",
+            "location": [
+                35.2244599,
+                31.7776703
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34951.jpg",
+            "short_description": "המבורגר ברלין , Berlin Burger",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "sandwichesWraps",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34951"
+            }
+        },
+        {
+            "name": "Pizza Pushka ",
+            "title": "Pizza Pushka ",
+            "venue_id": "11131",
+            "address": "2, Beitar Street Jerusalem",
+            "track_id": "11131",
+            "location": [
+                35.2237926,
+                31.7553039
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/11131.png",
+            "short_description": "פיצה פושקה, Pizza Pushka ",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "pasta",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/11131"
+            }
+        },
+        {
+            "name": "Oshi Oshi",
+            "title": "Oshi Oshi",
+            "venue_id": "10362",
+            "address": "1, Derech Agudat Sport Beitar Jerusalem",
+            "track_id": "10362",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/10362.png",
+            "short_description": "אושי אושי ירושלים , Oshi Oshi",
+            "slug": "jerusalem",
+            "tags": [
+                "japaneseSushi",
+                "asianFusion",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/10362"
+            }
+        },
+        {
+            "name": "Hakatzavim",
+            "title": "Hakatzavim",
+            "venue_id": "36429",
+            "address": "48, Agripas Jerusalem",
+            "track_id": "36429",
+            "location": [
+                35.2135694,
+                31.7838005
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36429.png",
+            "short_description": "הקצבים, Hakatzavim",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36429"
+            }
+        },
+        {
+            "name": "Cookie Cream",
+            "title": "Cookie Cream",
+            "venue_id": "26663",
+            "address": "6, Ha-Eshkol Jerusalem",
+            "track_id": "26663",
+            "location": [
+                35.2119307,
+                31.7848797
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26663.png",
+            "short_description": "קוקי קרים , Cookie Cream",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "veganFood",
+                "coffeeHouse",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26663"
+            }
+        },
+        {
+            "name": " Varda Kube Bar arais",
+            "title": " Varda Kube Bar arais",
+            "venue_id": "36614",
+            "address": "111, Agripas Jerusalem",
+            "track_id": "36614",
+            "location": [
+                35.2120302,
+                31.7839713
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36614.jpg",
+            "short_description": "ורדה קובה בר עראיס,  Varda Kube Bar arais",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36614"
+            }
+        },
+        {
+            "name": "pinati ramat eshkol",
+            "title": "pinati ramat eshkol",
+            "venue_id": "26705",
+            "address": "7, Paran Jerusalem",
+            "track_id": "26705",
+            "location": [
+                35.228641,
+                31.8006054
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26705.png",
+            "short_description": "פינתי רמת אשכול , pinati ramat eshkol",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "humus",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26705"
+            }
+        },
+        {
+            "name": "HAMOTZI",
+            "title": "HAMOTZI",
+            "venue_id": "24914",
+            "address": "113, Yafo Street Jerusalem",
+            "track_id": "24914",
+            "location": [
+                35.21309189999999,
+                31.7855933
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24914.png",
+            "short_description": "המוציא, HAMOTZI",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24914"
+            }
+        },
+        {
+            "name": "Shawarma Ha-Givah",
+            "title": "Shawarma Ha-Givah",
+            "venue_id": "33926",
+            "address": "21, HaHagana Street Jerusalem",
+            "track_id": "33926",
+            "location": [
+                35.238569,
+                31.8021313
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33926.jpg",
+            "short_description": "שווארמה הגבעה, Shawarma Ha-Givah",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "homeMade",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33926"
+            }
+        },
+        {
+            "name": "Fresh Kitchen",
+            "title": "Fresh Kitchen",
+            "venue_id": "33880",
+            "address": "4, David Remez Street Jerusalem",
+            "track_id": "33880",
+            "location": [
+                35.22445,
+                31.76836669999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33880.jepg",
+            "short_description": "פרש קיטשן, Fresh Kitchen",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33880"
+            }
+        },
+        {
+            "name": "Hummus Rehavia",
+            "title": "Hummus Rehavia",
+            "venue_id": "36596",
+            "address": "1, HaRav Haim Berlin Jerusalem",
+            "track_id": "36596",
+            "location": [
+                35.2118041,
+                31.7699415
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36596.png",
+            "short_description": "חומוס רחביה  , Hummus Rehavia",
+            "slug": "jerusalem",
+            "tags": [
+                "humus",
+                "falafel",
+                "glutenFree",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36596"
+            }
+        },
+        {
+            "name": "Infused JLM",
+            "title": "Infused JLM",
+            "venue_id": "36852",
+            "address": "111, Agripas Jerusalem",
+            "track_id": "36852",
+            "location": [
+                35.2120302,
+                31.7839713
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36852.png",
+            "short_description": "אינפיוזד Infused JLM חליטה ישר מהשדה, Infused JLM",
+            "slug": "jerusalem",
+            "tags": [
+                "SmoothiesAndShakes",
+                "salads",
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36852"
+            }
+        },
+        {
+            "name": "Atza Sushi Bar",
+            "title": "Atza Sushi Bar",
+            "venue_id": "23755",
+            "address": "9, Yirmiyahu Street Jerusalem",
+            "track_id": "23755",
+            "location": [
+                35.2094375,
+                31.7920872
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23755.jpeg",
+            "short_description": "אצה  סושי בר , Atza Sushi Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23755"
+            }
+        },
+        {
+            "name": "Pinati talpiyot",
+            "title": "Pinati talpiyot",
+            "venue_id": "27108",
+            "address": "22, Yad Harutsim Street Jerusalem",
+            "track_id": "27108",
+            "location": [
+                35.215267,
+                31.7503146
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27108.jepg",
+            "short_description": "פינתי תלפיות  , Pinati talpiyot",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "humus",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27108"
+            }
+        },
+        {
+            "name": "Golda",
+            "title": "Golda",
+            "venue_id": "29577",
+            "address": "72, Agripas Jerusalem",
+            "track_id": "29577",
+            "location": [
+                35.2114177,
+                31.7845988
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29577.jpg",
+            "short_description": "גולדה מחנה יהודה ירושלים, Golda",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29577"
+            }
+        },
+        {
+            "name": "Japan Japan ",
+            "title": "Japan Japan ",
+            "venue_id": "21354",
+            "address": "21, HaHagana Street Jerusalem",
+            "track_id": "21354",
+            "location": [
+                35.238569,
+                31.8021313
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21354.jepg",
+            "short_description": "ג'אפן ג'אפן הגבעה הצרפתית, Japan Japan ",
+            "slug": "jerusalem",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21354"
+            }
+        },
+        {
+            "name": "Bagel cafe",
+            "title": "Bagel cafe",
+            "venue_id": "30661",
+            "address": "31, HaKeren HaKayemet Le-Israel Jerusalem",
+            "track_id": "30661",
+            "location": [
+                35.2132853,
+                31.7767358
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30661.jpeg",
+            "short_description": "בייגל קפה רחביה, Bagel cafe",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "coffeeHouse",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30661"
+            }
+        },
+        {
+            "name": "Sb Berger & Moore",
+            "title": "Sb Berger & Moore",
+            "venue_id": "34884",
+            "address": "150, Sur Baher Street Jerusalem",
+            "track_id": "34884",
+            "location": [
+                35.232517,
+                31.73865
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34884.png",
+            "short_description": "אס בי ברגר אנד מור, Sb Berger & Moore",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "burgers",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34884"
+            }
+        },
+        {
+            "name": "Duvshanit",
+            "title": "Duvshanit",
+            "venue_id": "37051",
+            "address": "22, מחנה יהודה Jerusalem",
+            "track_id": "37051",
+            "location": [
+                35.2122674,
+                31.78463289999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37051.png",
+            "short_description": "דובשנית, Duvshanit",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "patisserie"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37051"
+            }
+        },
+        {
+            "name": "sushi n bagel's",
+            "title": "sushi n bagel's",
+            "venue_id": "30232",
+            "address": "68, Yirmiyahu Street Jerusalem",
+            "track_id": "30232",
+            "location": [
+                35.2027142,
+                31.79135089999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30232.png",
+            "short_description": "סושי אנד בייגל, sushi n bagel's",
+            "slug": "jerusalem",
+            "tags": [
+                "japaneseSushi",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30232"
+            }
+        },
+        {
+            "name": "RIO BAR",
+            "title": "RIO BAR",
+            "venue_id": "28197",
+            "address": "228, Yafo Street Jerusalem",
+            "track_id": "28197",
+            "location": [
+                35.2023753,
+                31.7888314
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28197.png",
+            "short_description": "ריו בר קרנבל בשייק, RIO BAR",
+            "slug": "jerusalem",
+            "tags": [
+                "SmoothiesAndShakes",
+                "gelato"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28197"
+            }
+        },
+        {
+            "name": "Shalom Falafel",
+            "title": "Shalom Falafel",
+            "venue_id": "28672",
+            "address": "224, Yafo Street Jerusalem",
+            "track_id": "28672",
+            "location": [
+                35.2032745,
+                31.78896599999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28672.jpg",
+            "short_description": "שלום פלאפל, Shalom Falafel",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "salads",
+                "homeMade",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28672"
+            }
+        },
+        {
+            "name": "Katzefet",
+            "title": "Katzefet",
+            "venue_id": "29724",
+            "address": "15, Sarei Israel Boulevard Jerusalem",
+            "track_id": "29724",
+            "location": [
+                35.2061448,
+                31.7891446
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29724.png",
+            "short_description": "קצפת , Katzefet",
+            "slug": "jerusalem",
+            "tags": [
+                "gelato",
+                "patisserie",
+                "SmoothiesAndShakes",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29724"
+            }
+        },
+        {
+            "name": "Baklawish",
+            "title": "Baklawish",
+            "venue_id": "29579",
+            "address": "38, עץ חיים Jerusalem",
+            "track_id": "29579",
+            "location": [
+                35.2127728,
+                31.7846427
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29579.png",
+            "short_description": "בקלאוויש, Baklawish",
+            "slug": "jerusalem",
+            "tags": [
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29579"
+            }
+        },
+        {
+            "name": "Menfis",
+            "title": "Menfis",
+            "venue_id": "34874",
+            "address": "14, HaEgoz Street Jerusalem",
+            "track_id": "34874",
+            "location": [
+                35.21278849999999,
+                31.7843077
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34874.jpg",
+            "short_description": "מנפיס מחנה יהודה, Menfis",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "glutenFree",
+                "kosher",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34874"
+            }
+        },
+        {
+            "name": "Bush Bagels",
+            "title": "Bush Bagels",
+            "venue_id": "29273",
+            "address": "61, Tsfanya Street Jerusalem",
+            "track_id": "29273",
+            "location": [
+                35.2154503,
+                31.7934818
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29273.jpg",
+            "short_description": "בוש בייגלס, Bush Bagels",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "coffeeHouse"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29273"
+            }
+        },
+        {
+            "name": "MISTABRA",
+            "title": "MISTABRA",
+            "venue_id": "29934",
+            "address": "30, Azza Jerusalem",
+            "track_id": "29934",
+            "location": [
+                35.2142863,
+                31.7727924
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29934.jpg",
+            "short_description": "מסתברא, MISTABRA",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "salads",
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29934"
+            }
+        },
+        {
+            "name": "Zalmans",
+            "title": "Zalmans",
+            "venue_id": "32966",
+            "address": "11, HaEgoz Street Jerusalem",
+            "track_id": "32966",
+            "location": [
+                35.2126511,
+                31.7843127
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32966.png",
+            "short_description": "זלמנ'ס מחנה יהודה , Zalmans",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32966"
+            }
+        },
+        {
+            "name": "PATATA",
+            "title": "PATATA",
+            "venue_id": "35728",
+            "address": "21, HaShaked Street Jerusalem",
+            "track_id": "35728",
+            "location": [
+                35.2128413,
+                31.78445859999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35728.png",
+            "short_description": "פטטה שוק חלבי, PATATA",
+            "slug": "jerusalem",
+            "tags": [
+                "glutenFree",
+                "veganFood",
+                "kosher",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35728"
+            }
+        },
+        {
+            "name": "Goula bagel",
+            "title": "Goula bagel",
+            "venue_id": "34817",
+            "address": "20, Chagai Street Jerusalem",
+            "track_id": "34817",
+            "location": [
+                35.218322,
+                31.78920489999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34817.png",
+            "short_description": "גאולה בייגל, Goula bagel",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "pasta",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34817"
+            }
+        },
+        {
+            "name": "Oren & Yani",
+            "title": "Oren & Yani",
+            "venue_id": "29535",
+            "address": "8, Shats Jerusalem",
+            "track_id": "29535",
+            "location": [
+                35.2150836,
+                31.7800712
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29535.png",
+            "short_description": "אורן & יאני, Oren & Yani",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "homeMade",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29535"
+            }
+        },
+        {
+            "name": "Falafel Maoz",
+            "title": "Falafel Maoz",
+            "venue_id": "29681",
+            "address": "19, King George Jerusalem",
+            "track_id": "29681",
+            "location": [
+                35.2164984,
+                31.7814413
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29681.jpg",
+            "short_description": "פלאפל מעוז, Falafel Maoz",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "veganFood",
+                "salads",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29681"
+            }
+        },
+        {
+            "name": "Pakino pizza",
+            "title": "Pakino pizza",
+            "venue_id": "32838",
+            "address": "1, Shamai Street Jerusalem",
+            "track_id": "32838",
+            "location": [
+                35.2171751,
+                31.7811415
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32838.jpg",
+            "short_description": "פקינו pakino, Pakino pizza",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32838"
+            }
+        },
+        {
+            "name": "Kubiya",
+            "title": "Kubiya",
+            "venue_id": "24317",
+            "address": "23, Hillel Street Jerusalem",
+            "track_id": "24317",
+            "location": [
+                35.2181955,
+                31.7804462
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24317.png",
+            "short_description": "קוביה הלל , Kubiya",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24317"
+            }
+        },
+        {
+            "name": "Fucaccia Bar",
+            "title": "Fucaccia Bar",
+            "venue_id": "29843",
+            "address": "4, Rabbi Akiva Street Jerusalem",
+            "track_id": "29843",
+            "location": [
+                35.218081,
+                31.7797313
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29843.png",
+            "short_description": "פוקצ׳ה בר, Fucaccia Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "meatGrill",
+                "fish"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29843"
+            }
+        },
+        {
+            "name": "Injira",
+            "title": "Injira",
+            "venue_id": "33090",
+            "address": "9, Ha-Khavatselet Street Jerusalem",
+            "track_id": "33090",
+            "location": [
+                35.22041129999999,
+                31.7828378
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33090.jpg",
+            "short_description": "אינג'רה , Injira",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "veganFood",
+                "meatGrill",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33090"
+            }
+        },
+        {
+            "name": "Smash Burger",
+            "title": "Smash Burger",
+            "venue_id": "35311",
+            "address": "5, Yo'el Moshe Salomon Jerusalem",
+            "track_id": "35311",
+            "location": [
+                35.2198107,
+                31.7813552
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35311.png",
+            "short_description": "סמאש בורגרס, Smash Burger",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35311"
+            }
+        },
+        {
+            "name": "Savta Sandwich",
+            "title": "Savta Sandwich",
+            "venue_id": "35154",
+            "address": "28, Hillel Jerusalem",
+            "track_id": "35154",
+            "location": [
+                35.2188609,
+                31.7799051
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35154.png",
+            "short_description": "סבתא סנדוויץ הלל, Savta Sandwich",
+            "slug": "jerusalem",
+            "tags": [
+                "sandwichesWraps",
+                "pasta",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35154"
+            }
+        },
+        {
+            "name": "Lychee fruits",
+            "title": "Lychee fruits",
+            "venue_id": "36987",
+            "address": "3, Giborei Israel Street Yavne",
+            "track_id": "36987",
+            "location": [
+                34.7443811,
+                31.8687429
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36987.jpg",
+            "short_description": "ליצ'י מגשי פירות, Lychee fruits",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "glutenFree",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36987"
+            }
+        },
+        {
+            "name": "Jeera Indian food",
+            "title": "Jeera Indian food",
+            "venue_id": "28750",
+            "address": "7, Heleni ha-Malka Street Jerusalem",
+            "track_id": "28750",
+            "location": [
+                35.2213715,
+                31.7819054
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28750.png",
+            "short_description": "ג'ירה אוכל הודי, Jeera Indian food",
+            "slug": "jerusalem",
+            "tags": [
+                "indian",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28750"
+            }
+        },
+        {
+            "name": "McDonald’s",
+            "title": "McDonald’s",
+            "venue_id": "30105",
+            "address": "7, Ben Yehuda Street Jerusalem",
+            "track_id": "30105",
+            "location": [
+                35.2179528,
+                31.7815547
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30105.jpeg",
+            "short_description": "מקדונלד'ס בן יהודה הכשר, McDonald’s",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30105"
+            }
+        },
+        {
+            "name": "Shufersal",
+            "title": "Shufersal",
+            "venue_id": "26698",
+            "address": "., תלוש ש\"ח בפיק אפ",
+            "track_id": "26698",
+            "location": [
+                34.792631,
+                32.0768528
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26698.png",
+            "short_description": "שופרסל - כלל ארצי, Shufersal",
+            "slug": "jerusalem",
+            "tags": [
+                "convenienceStore",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26698"
+            }
+        },
+        {
+            "name": "The Coffee Bean",
+            "title": "The Coffee Bean",
+            "venue_id": "29221",
+            "address": "34, Yafo Street Jerusalem",
+            "track_id": "29221",
+            "location": [
+                35.2211278,
+                31.78123309999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29221.png",
+            "short_description": "קופי בין, The Coffee Bean",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29221"
+            }
+        },
+        {
+            "name": "Turkish Borek",
+            "title": "Turkish Borek",
+            "venue_id": "35827",
+            "address": "28, Yafo Street Jerusalem",
+            "track_id": "35827",
+            "location": [
+                35.22223770000001,
+                31.7805047
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35827.png",
+            "short_description": "בורקס טורקי, Turkish Borek",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "patisserie"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35827"
+            }
+        },
+        {
+            "name": "Humus ben sira ",
+            "title": "Humus ben sira ",
+            "venue_id": "30022",
+            "address": "3, Ben Sira Street Jerusalem",
+            "track_id": "30022",
+            "location": [
+                35.2217795,
+                31.7791923
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30022.jpg",
+            "short_description": "חומוס בן סירא, Humus ben sira ",
+            "slug": "jerusalem",
+            "tags": [
+                "humus",
+                "homeMade",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30022"
+            }
+        },
+        {
+            "name": " Anthony pizza",
+            "title": " Anthony pizza",
+            "venue_id": "30802",
+            "address": "4, Shoshan Street Jerusalem",
+            "track_id": "30802",
+            "location": [
+                35.2234018,
+                31.7794277
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30802.jpeg",
+            "short_description": "אנטוני פיצה,  Anthony pizza",
+            "slug": "jerusalem",
+            "tags": [
+                "pizza",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30802"
+            }
+        },
+        {
+            "name": "mifgash ha'sheih",
+            "title": "mifgash ha'sheih",
+            "venue_id": "30127",
+            "address": "58, Shakhal Jerusalem",
+            "track_id": "30127",
+            "location": [
+                0,
+                0
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30127.jepg",
+            "short_description": "מפגש השייח שחל, mifgash ha'sheih",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "patisserie",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30127"
+            }
+        },
+        {
+            "name": "Greg Cafe",
+            "title": "Greg Cafe",
+            "venue_id": "21118",
+            "address": "10, Sderot Yitshak Rabin Jerusalem",
+            "track_id": "21118",
+            "location": [
+                35.2036425,
+                31.7830449
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21118.png",
+            "short_description": "קפה גרג סינמה סיטי ירושלים , Greg Cafe",
+            "slug": "jerusalem",
+            "tags": [
+                "coffeeHouse",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21118"
+            }
+        },
+        {
+            "name": "Jahnun Bar",
+            "title": "Jahnun Bar",
+            "venue_id": "36854",
+            "address": "30, HaEgoz Street Jerusalem",
+            "track_id": "36854",
+            "location": [
+                35.2127665,
+                31.7843696
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36854.jpg",
+            "short_description": "ג'חנון בר, Jahnun Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "salads",
+                "homeMade"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36854"
+            }
+        },
+        {
+            "name": "Pesto",
+            "title": "Pesto",
+            "venue_id": "25840",
+            "address": "26, Halamed Hei Street Jerusalem",
+            "track_id": "25840",
+            "location": [
+                35.2091815,
+                31.7646759
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25840.png",
+            "short_description": "פסטו , Pesto",
+            "slug": "jerusalem",
+            "tags": [
+                "veganFood",
+                "salads",
+                "pizza",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25840"
+            }
+        },
+        {
+            "name": "menza",
+            "title": "menza",
+            "venue_id": "28670",
+            "address": "12, Betsal'el Street Jerusalem",
+            "track_id": "28670",
+            "location": [
+                35.21403040000001,
+                31.7805935
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28670.png",
+            "short_description": "מנזה, menza",
+            "slug": "jerusalem",
+            "tags": [
+                "salads",
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28670"
+            }
+        },
+        {
+            "name": "mifgash ha'sheih",
+            "title": "mifgash ha'sheih",
+            "venue_id": "24742",
+            "address": "13, Kanfei Nesharim Street Jerusalem",
+            "track_id": "24742",
+            "location": [
+                35.1847569,
+                31.78737
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24742.jepg",
+            "short_description": "מפגש השייח גבעת שאול, mifgash ha'sheih",
+            "slug": "jerusalem",
+            "tags": [
+                "bakery",
+                "patisserie",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24742"
+            }
+        },
+        {
+            "name": "Sima Steak House",
+            "title": "Sima Steak House",
+            "venue_id": "7825",
+            "address": "82, Agripas Jerusalem",
+            "track_id": "7825",
+            "location": [
+                35.2106968,
+                31.7848106
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/7825.jpg",
+            "short_description": "סימה, Sima Steak House",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/7825"
+            }
+        },
+        {
+            "name": "Hummus Pinati",
+            "title": "Hummus Pinati",
+            "venue_id": "21463",
+            "address": "11, Beit Ha-Defus Jerusalem",
+            "track_id": "21463",
+            "location": [
+                35.18857730000001,
+                31.7858517
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21463.jepg",
+            "short_description": "פינתי בית הדפוס, Hummus Pinati",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "humus",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21463"
+            }
+        },
+        {
+            "name": "Burgers Bar",
+            "title": "Burgers Bar",
+            "venue_id": "29786",
+            "address": "2, Ben Yehuda Street Jerusalem",
+            "track_id": "29786",
+            "location": [
+                35.2190026,
+                31.7818907
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29786.jpeg",
+            "short_description": "בורגרס בר, Burgers Bar",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29786"
+            }
+        },
+        {
+            "name": "Extra Cheese Pizza",
+            "title": "Extra Cheese Pizza",
+            "venue_id": "22562",
+            "address": "2, Dov Gruner Street Jerusalem",
+            "track_id": "22562",
+            "location": [
+                35.2370859,
+                31.7474886
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/22562.png",
+            "short_description": "אקסטרה צ'יז פיצה, Extra Cheese Pizza",
+            "slug": "jerusalem",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/22562"
+            }
+        },
+        {
+            "name": "Musa",
+            "title": "Musa",
+            "venue_id": "35040",
+            "address": "1, Derech Agudat Sport Beitar Jerusalem",
+            "track_id": "35040",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35040.jpg",
+            "short_description": "מוסא, Musa",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "homeMade",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35040"
+            }
+        },
+        {
+            "name": "Marvad Haksamim",
+            "title": "Marvad Haksamim",
+            "venue_id": "16802",
+            "address": "16, King George Jerusalem",
+            "track_id": "16802",
+            "location": [
+                35.2162487,
+                31.7814799
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/16802.jepg",
+            "short_description": "מרבד הקסמים, Marvad Haksamim",
+            "slug": "jerusalem",
+            "tags": [
+                "meatGrill",
+                "homeMade",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/16802"
+            }
+        },
+        {
+            "name": "cacao forest",
+            "title": "cacao forest",
+            "venue_id": "26371",
+            "address": "2, Po'alei Tsedek Jerusalem",
+            "track_id": "26371",
+            "location": [
+                35.214658,
+                31.75332999999999
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26371.jpg",
+            "short_description": "יער הקקאו , cacao forest",
+            "slug": "jerusalem",
+            "tags": [
+                "chocolate",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26371"
+            }
+        },
+        {
+            "name": "burger runch",
+            "title": "burger runch",
+            "venue_id": "25337",
+            "address": "234, Yafo Street Jerusalem",
+            "track_id": "25337",
+            "location": [
+                35.2012258,
+                31.7891603
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25337.jpeg",
+            "short_description": "בורגראנץ`, burger runch",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25337"
+            }
+        },
+        {
+            "name": "eight ",
+            "title": "eight ",
+            "venue_id": "28937",
+            "address": "1, Derech Agudat Sport Beitar Jerusalem",
+            "track_id": "28937",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28937.png",
+            "short_description": "אייט 8 ירושלים, eight ",
+            "slug": "jerusalem",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28937"
+            }
+        },
+        {
+            "name": "Yafaleh",
+            "title": "Yafaleh",
+            "venue_id": "24221",
+            "address": "6, Ma'ase Khoshev Jerusalem",
+            "track_id": "24221",
+            "location": [
+                35.2173516,
+                31.7518115
+            ],
+            "image": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24221.jpeg",
+            "short_description": "יפהלה, Yafaleh",
+            "slug": "jerusalem",
+            "tags": [
+                "homeMade",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24221"
+            }
+        }
+    ]
+}

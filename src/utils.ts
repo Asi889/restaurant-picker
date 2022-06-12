@@ -1,4 +1,28 @@
+
+type RestaurantData = {
+    city: object;
+    tenBisData: Array<object>;
+    woltData: Array<object>;
+  };
+
+export const getRandomFromArray = (allRestaurants:[{}]|any=[]) =>{
+    let randomIndex: any = "";
+    randomIndex = Math.floor(Math.random() * allRestaurants.length);
+    return allRestaurants[randomIndex]
+    // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
+}
+
+export const set50Restaurants = (allTheRestaurants: any, selectedprovider: string) =>{
+    let checkk= allTheRestaurants[selectedprovider]?.filter((restaurant: any, index: number) => index < 50 && restaurant);
+    // debugger
+
+    return checkk
+}
+
+
 // const API_KEY =`AIzaSyDoijedNld5C1N291eOknHfLH4vB18fxtc`;
+
+
 export const getLatLon = async (cityName: string):Promise<{lat:string, lon:string, address:Address}> => {
     try {
         const response = await fetch(`https://nominatim.openstreetmap.org/search/${cityName}?format=json&addressdetails=1&limit=1`);

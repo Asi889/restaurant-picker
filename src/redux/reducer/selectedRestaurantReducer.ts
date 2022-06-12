@@ -1,19 +1,18 @@
 
 import { ActionTypes } from "../contants/action-type";
 
-const initioalState:[] = [];
+const initioalState:{} = {};
 
 interface Action {type: string, payload: any};
 
-export const restaurantReducer = (state = initioalState, action: Action) => {
+export const selectedRestaurantReducer = (state = initioalState, action: Action) => {
 
     switch (action.type) {
-
-        case ActionTypes.SET_SELECTED_RESTAURANT: 
+        case ActionTypes.SET_RESTAURANTS: 
             // console.log(action);
             // console.log("action");
 
-            return {  selectedRestaurant: action.payload };
+            return { restaurants: action.payload };
 
         default:
             return state;
