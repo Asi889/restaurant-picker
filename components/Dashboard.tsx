@@ -33,14 +33,17 @@ const Dashboard: React.FC<Props> = (props) => {
     switch (e.target.name) {
       
       case "tenbisRestaurants":
+        
         if(filterTypes.woltRestaurants === false){
           filterTypesSet({...filterTypes,tenbisRestaurants:true  })
         }
-        selectedproviderSet("both")
-        setRestaurantAmount()      
+       
+        setRestaurantAmount("both")      
         return;
 
         case "woltRestaurants":
+          console.log("both innnn33");
+
           if(filterTypes.tenbisRestaurants === false){
             filterTypesSet({...filterTypes,woltRestaurants:true  })
             return
@@ -52,7 +55,7 @@ const Dashboard: React.FC<Props> = (props) => {
         break;
     }
     
-  
+
   }
 
   return (

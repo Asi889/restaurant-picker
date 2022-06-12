@@ -6,6 +6,7 @@ import {
 import Dashboard from "./Dashboard";
 import Restaurants from "./Restaurants";
 import { set50Restaurants } from "../src/utils";
+import {shuffle} from "../src/hooks/shuffle"
 
 interface AllResObj {
   tenBisRestaurants: TenBisRestaurant[];
@@ -48,23 +49,21 @@ const Container: React.FC<ContainerProps> = (props) => {
       : "woltRestaurants"
   );
 
-  const setRestaurantAmount = () => {
-    if (selectedprovider === "both") {
-      
-      maxRestaurantsSet(
-        [
-          ...allTheRestaurants?.woltRestaurants,
-          ...allTheRestaurants?.tenbisRestaurants,
-        ].filter((restaurant: any, index: number) => index < 50 && restaurant)
-      );
+  const setRestaurantAmount = (provider:string) => {
+    selectedproviderSet(provider)
+    let aaa= provider
+    // debugger
+    if (provider === "both") {
+      let allR= [...allTheRestaurants?.tenbisRestaurants, ...allTheRestaurants?.woltRestaurants]
+      console.log(allR);
+      console.log("999999999999999999");
+      maxRestaurantsSet(shuffle(allR).filter((restaurant: any, index: number) => index < 50 && restaurant));
     }
     if (
-      selectedprovider === "woltRestaurants" || selectedprovider === "tenbisRestaurants") {
-      console.log(selectedprovider);
-      console.log(selectedprovider);
+      provider === "woltRestaurants" || provider === "tenbisRestaurants") {
 
       maxRestaurantsSet(
-        allTheRestaurants[selectedprovider].filter(
+        allTheRestaurants[provider].filter(
           (restaurant: any, index: number) => index < 50 && restaurant
         )
       );
