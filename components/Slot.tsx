@@ -24,7 +24,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
 
 
   return (
-          <div  key={refindex} className="w-full border bg-white border-red-200 px-1 md:px-4  overflow-hidden ">
+          <div  key={refindex} className="w-full border bg-white border-red-200 px-1   overflow-hidden ">
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
 
               
@@ -38,7 +38,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                     (restaurant: any, index: number) => {
                       if (index < 50) {
                         return (
-                          <div className={`w-[55px] h-[55px] rounded-full text-center relative img-wrapper `} key={index}>
+                          <div className={`w-[70px] h-[70px] rounded-full text-center relative img-wrapper `} key={index}>
                             {/* {restaurant.title} */}
                             <Image
                               loader={() => myImageLoader(restaurant?.image)}

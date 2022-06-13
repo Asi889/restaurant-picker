@@ -9,6 +9,7 @@ import { getRandomFromArray } from "../src/utils";
 import Slot from "./Slot";
 import SlotArm from "./SlotArm";
 import {set50Restaurants} from '../src/utils'
+import Triangle from "./svgs/Triangle";
 
 type Props = {
   // allRestaurants: WoltRestaurant[] | TenBisRestaurant[];
@@ -56,9 +57,13 @@ const Restaurants: React.FC<Props> = (props) => {
   return (
     <div className="w-full  text-center ">
       <div className="max-w-[700px] mx-auto">
-        <div className="bg-[#78C0A8]  px-5 md:px-10 py-5 md:py-10 relative inline-block rounded-lg mt-20">
-          <div className="max-h-[150px] md:max-h-[300px] flex gap-x-1 md:gap-x-5  py-1 md:py-3 px-1 md:px-3 bg-gray-800 overflow-hidden">
-            {refs.map((ref: any, index: number) => (
+                <SlotArm triggerArm={triggerArm} slotTrigger={slotTrigger} />
+        <div className="bg-[#FDA73B]  px-1  py-1  relative inline-block rounded-xl mt-20 ">
+            <Triangle givenclass="rotate-90 absolute w-16 h-16 z-30 left-0 top-12" />
+            <Triangle givenclass="-rotate-90 absolute w-16 h-16 z-30 right-0 top-12" /> 
+          <div className="bg-[#D45E3A]   px-1  py-1  relative inline-block rounded-xl">
+            <div className="max-h-[160px]  flex gap-x-1   py-1  px-1  bg-gray-800 overflow-hidden rounded-lg">
+              {refs.map((ref: any, index: number) => (
               <Slot
                 ref={ref}
                 key={index}
@@ -67,11 +72,11 @@ const Restaurants: React.FC<Props> = (props) => {
                 slotTransition={slotTransition}
                 refindex={index}
               />
-            ))}
+              ))}
           </div>
-          <div className="bg-gray-800 max-w-[150px] md:max-w-[400px] h-10 md:h-20 mx-auto mt-5 md:mt-10"></div>
+          {/* <div className="bg-gray-800 max-w-[150px] md:max-w-[400px] h-10 md:h-20 mx-auto mt-5 md:mt-10"></div> */}
         </div>
-        <SlotArm triggerArm={triggerArm} slotTrigger={slotTrigger} />
+        </div>
       </div>
     </div>
   );

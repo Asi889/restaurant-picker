@@ -6,7 +6,15 @@ import {
 import Dashboard from "./Dashboard";
 import Restaurants from "./Restaurants";
 import { set50Restaurants } from "../src/utils";
-import {shuffle} from "../src/hooks/shuffle"
+import {shuffle} from "../src/hooks/shuffle";
+import NavBar from './NavBar';
+import Triangle from "./svgs/Triangle"
+import Image from "next/image";
+import woltlogo from "../public/images/woltlogo.png";
+import tenbislogo from "../public/images/tenbislogo.png";
+import SettingsContainer from "./SettingsContainer";
+import FilterFoodType from "./FilterFoodType";
+import FilterLocation from "./FilterLocation";
 
 interface AllResObj {
   tenBisRestaurants: TenBisRestaurant[];
@@ -21,18 +29,9 @@ interface ContainerProps {
   maxRestaurants: [{}];
 }
 const Container: React.FC<ContainerProps> = (props) => {
-  const {
-    selectedRestaurantSet,
-    selectedRestaurant,
-    allTheRestaurants,
-    maxRestaurantsSet,
-    maxRestaurants,
-  } = props;
+  const {selectedRestaurantSet, selectedRestaurant, allTheRestaurants, maxRestaurantsSet, maxRestaurants,} = props;
 
-  // const [maxRestaurants, maxRestaurantsSet] = useState<Array<any>>([]); // 50 restaurants
-  const [filteredRestaurants, filteredRestaurantsSet] = useState<Array<object>>(
-    [{}]
-  );
+  const [filteredRestaurants, filteredRestaurantsSet] = useState<Array<object>>( [{}]);
   const [filterTypes, filterTypesSet] = useState<any>({
     woltRestaurants: true,
     tenbisRestaurants: false,
@@ -48,15 +47,14 @@ const Container: React.FC<ContainerProps> = (props) => {
       ? "both"
       : "woltRestaurants"
   );
+  const [filterActiv, filterActivSet] = useState<boolean>(false)
+  const [locationActiv, locationActivSet] = useState<boolean>(false)
 
   const setRestaurantAmount = (provider:string) => {
     selectedproviderSet(provider)
-    let aaa= provider
     // debugger
     if (provider === "both") {
       let allR= [...allTheRestaurants?.tenbisRestaurants, ...allTheRestaurants?.woltRestaurants]
-      console.log(allR);
-      console.log("999999999999999999");
       maxRestaurantsSet(shuffle(allR).filter((restaurant: any, index: number) => index < 50 && restaurant));
     }
     if (
@@ -70,10 +68,18 @@ const Container: React.FC<ContainerProps> = (props) => {
     }
     
   };
+  useEffect(()=>{
+console.log("shazam");
+
+  },[])
 
   return (
-    <div className="w-full h-screen bg-slate-900 text-center">
-      <Dashboard
+    <div className="w-full h-screen bg-[#3C1E57] text-center">
+
+      {filterActiv && <FilterFoodType filterActiv={filterActiv} filterActivSet={filterActivSet} />}
+      {locationActiv && <FilterLocation locationActiv={locationActiv} locationActivSet={locationActivSet} />}
+      
+      {/* <Dashboard
         filterTypesSet={filterTypesSet}
         filterTypes={filterTypes}
         filteredRestaurants={filteredRestaurants}
@@ -81,7 +87,8 @@ const Container: React.FC<ContainerProps> = (props) => {
         selectedproviderSet={selectedproviderSet}
         selectedprovider={selectedprovider}
         setRestaurantAmount={setRestaurantAmount}
-      />
+      /> */}
+      <NavBar />
       <Restaurants
         selectedRestaurantSet={selectedRestaurantSet}
         selectedRestaurant={selectedRestaurant}
@@ -90,6 +97,10 @@ const Container: React.FC<ContainerProps> = (props) => {
         selectedprovider={selectedprovider}
         maxRestaurantsSet={maxRestaurantsSet}
       />
+
+      <SettingsContainer filterActiv={filterActiv} filterActivSet={filterActivSet} locationActiv={locationActiv} locationActivSet={locationActivSet} />
+      
+     
     </div>
   );
 };
