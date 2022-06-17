@@ -19,7 +19,6 @@ async function start() {
         }
         return all
     });
-    // console.log(restaurants_url);
     let all_restaurant_data = []
 
     for (let i = 0; i < restaurants_url.length; i++) {

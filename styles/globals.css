@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+Hebrew:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  font-family: 'Alfa Slab One','Noto Sans Hebrew', cursive;
+/* font-family: 'Noto Sans Hebrew', sans-serif; */
+}
 
 .anima-container{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -16,16 +21,27 @@
 .bbotom{
   bottom: 98.5%;
 }
+@media (min-width: 768px) {
+  
+  .bbotom{bottom: 98%;}
+  
+}
+/* @media (min-width: 414px) {
+  
+  .bbotom{bottom: 98%;}
+  
+} */
 .front-spin{
-  /* transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; */
-  transition-delay: 500ms;
-  /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
-  /* animation: spin 3s ease-in; */
+  /* transition-delay: 1000ms; */
+  
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
   bottom: 1%;
   /* transition-duration: 3000ms; */
 }
+/* .front-spin:nth-of-type(2){
+  transition-duration: 100ms;
+} */
 .back-spin{
   animation: spinback 0s ;
 }

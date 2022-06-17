@@ -15,6 +15,12 @@ import tenbislogo from "../public/images/tenbislogo.png";
 import SettingsContainer from "./SettingsContainer";
 import FilterFoodType from "./FilterFoodType";
 import FilterLocation from "./FilterLocation";
+import ChosenRestaurant from "./ChosenRestaurant";
+import { useDispatch } from "react-redux";
+import { connect } from 'react-redux';
+import { useStore } from 'react-redux';
+import {setFiftyRestaurants, setFilterType, setProvider} from '../src/redux/actions/clienActions';
+
 
 interface AllResObj {
   tenBisRestaurants: TenBisRestaurant[];
@@ -30,13 +36,13 @@ interface ContainerProps {
 }
 const Container: React.FC<ContainerProps> = (props) => {
   const {selectedRestaurantSet, selectedRestaurant, allTheRestaurants, maxRestaurantsSet, maxRestaurants,} = props;
-
-  const [filteredRestaurants, filteredRestaurantsSet] = useState<Array<object>>( [{}]);
+  const dispatch = useDispatch()
   const [filterTypes, filterTypesSet] = useState<any>({
     woltRestaurants: true,
-    tenbisRestaurants: false,
+    tenbisRestaurants: true,
     kosher: false,
     vegan: false,
+    vegetarian: false
   });
   const [selectedprovider, selectedproviderSet] = useState(
     filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === false
@@ -45,49 +51,65 @@ const Container: React.FC<ContainerProps> = (props) => {
       ? "tenbisRestaurants"
       : filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === true
       ? "both"
-      : "woltRestaurants"
+      : "both"
   );
+  const [selectedActiv, selectedActivSet] = useState<boolean>(false)
   const [filterActiv, filterActivSet] = useState<boolean>(false)
   const [locationActiv, locationActivSet] = useState<boolean>(false)
+  const store = useStore()
+  let stat: any
+  stat=  store.getState()
+  const filterTypes1 = stat?.restaurants.filterTypes
+  const allStoreRestaurants = stat?.restaurants.allRestaurants
+  const storeSelectedProvider= stat?.restaurants.selectedProvider
+  console.log("stat");
+  
+  useEffect(()=>{
+    console.log("stat11");
+    
+  })
+  
+  
 
   const setRestaurantAmount = (provider:string) => {
+    dispatch(setProvider(provider))
     selectedproviderSet(provider)
     // debugger
     if (provider === "both") {
       let allR= [...allTheRestaurants?.tenbisRestaurants, ...allTheRestaurants?.woltRestaurants]
-      maxRestaurantsSet(shuffle(allR).filter((restaurant: any, index: number) => index < 50 && restaurant));
+      let allR1= [...allStoreRestaurants?.tenbisRestaurants, ...allStoreRestaurants?.woltRestaurants]
+      dispatch(setFiftyRestaurants(shuffle(allR1).filter((restaurant: any, index: number) => index < 50 && restaurant)))
+      // maxRestaurantsSet(shuffle(allR).filter((restaurant: any, index: number) => index < 50 && restaurant));
     }
-    if (
-      provider === "woltRestaurants" || provider === "tenbisRestaurants") {
-
-      maxRestaurantsSet(
-        allTheRestaurants[provider].filter(
-          (restaurant: any, index: number) => index < 50 && restaurant
-        )
-      );
+    if (provider === "woltRestaurants" || provider === "tenbisRestaurants") {
+      dispatch(setFiftyRestaurants(allStoreRestaurants[provider].filter((restaurant: any, index: number) => index < 50 && restaurant)))
+      // maxRestaurantsSet(
+      //   allTheRestaurants[provider].filter(
+      //     (restaurant: any, index: number) => index < 50 && restaurant
+      //   )
+      // );
     }
     
   };
-  useEffect(()=>{
-console.log("shazam");
 
-  },[])
+  const filterCategory =(category: string)=>{
+    // filterTypesSet({...filterTypes,[category]: !filterTypes[category]})
+    dispatch(setFilterType({...filterTypes1,[category]:!filterTypes1[category] }))
+
+    // let categoryFilter= allTheRestaurants[selectedprovider].filter(
+    //   (restaurant: any, index: number) =>  restaurant.tags.includes(category)
+    // )
+    let categoryFilter1= allStoreRestaurants[storeSelectedProvider].filter(
+      (restaurant: any, index: number) =>  restaurant.tags.includes(category)
+      )
+      // maxRestaurantsSet(categoryFilter.filter((restaurant: any, index: number) => index < 50 && restaurant ));
+      dispatch(setFiftyRestaurants(categoryFilter1?.filter((restaurant: any, index: number) => index < 50 && restaurant )))
+  }
+  
 
   return (
     <div className="w-full h-screen bg-[#3C1E57] text-center">
-
-      {filterActiv && <FilterFoodType filterActiv={filterActiv} filterActivSet={filterActivSet} />}
-      {locationActiv && <FilterLocation locationActiv={locationActiv} locationActivSet={locationActivSet} />}
       
-      {/* <Dashboard
-        filterTypesSet={filterTypesSet}
-        filterTypes={filterTypes}
-        filteredRestaurants={filteredRestaurants}
-        filteredRestaurantsSet={filteredRestaurantsSet}
-        selectedproviderSet={selectedproviderSet}
-        selectedprovider={selectedprovider}
-        setRestaurantAmount={setRestaurantAmount}
-      /> */}
       <NavBar />
       <Restaurants
         selectedRestaurantSet={selectedRestaurantSet}
@@ -96,13 +118,18 @@ console.log("shazam");
         maxRestaurants={maxRestaurants}
         selectedprovider={selectedprovider}
         maxRestaurantsSet={maxRestaurantsSet}
+        
       />
+      {selectedActiv 
+      ?
+      <ChosenRestaurant selectedRestaurant={selectedRestaurant} />
+        :
+        <SettingsContainer setRestaurantAmount={setRestaurantAmount} selectedproviderSet={selectedproviderSet} selectedprovider={selectedprovider} filterTypesSet={filterTypesSet} filterTypes={filterTypes} filterCategory={filterCategory} />
+         }
 
-      <SettingsContainer filterActiv={filterActiv} filterActivSet={filterActivSet} locationActiv={locationActiv} locationActivSet={locationActivSet} />
       
-     
     </div>
   );
 };
 
-export default Container;
+export default  connect()(Container);

@@ -14,11 +14,11 @@ const SlotArm: React.FC<Props> = (props) => {
   const { triggerArm,slotTrigger } = props;
 
   return (
-    <div className=" inline-block relative top-9" onClick={()=>triggerArm()}>
-      <div className="bg-[#D9D9D9] w-6 h-16 inline-block relative cursor-pointer rounded-r-lg mx-auto">
-        <div className=" bg-[#797878] w-3 h-8 relative right-2 "></div>
-        <div className={`handle relative w-2 h-20 bg-gray-600 rounded-t-lg bottom-20 right-[10px]  ${slotTrigger}`} >
-          <div className="w-5 h-5 rounded-full bg-red-600 absolute -top-3 -left-[6px]"></div>
+    <div className=" inline-block relative top-9 md:top-8" onClick={()=>triggerArm()}>
+      <div className="bg-[#D9D9D9] w-6 md:w-10 h-16 md:h-24 inline-block relative cursor-pointer rounded-r-lg mx-auto">
+        <div className=" bg-[#797878] w-3 md:w-6 h-8 md:h-14 relative right-2 "></div>
+        <div className={`handle relative w-2 md:w-4 h-20 md:h-32 bg-gray-600 rounded-t-lg bottom-20 md:bottom-32 right-[10px] md:right-3  ${slotTrigger}`} >
+          <div className="w-5 md:w-10 h-5 md:h-10 rounded-full bg-red-600 absolute -top-3 -left-[6px] md:-left-[10px]"></div>
         </div>
       </div>
     </div>

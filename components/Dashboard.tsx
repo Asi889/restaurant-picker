@@ -42,7 +42,6 @@ const Dashboard: React.FC<Props> = (props) => {
         return;
 
         case "woltRestaurants":
-          console.log("both innnn33");
 
           if(filterTypes.tenbisRestaurants === false){
             filterTypesSet({...filterTypes,woltRestaurants:true  })

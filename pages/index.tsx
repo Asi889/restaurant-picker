@@ -1,6 +1,6 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { setRestaurants, setSelectedRestaurant1 } from "../src/redux/actions/clienActions";
+import { setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../src/redux/actions/clienActions";
 // import { useDispatch } from "react-redux";
 // import Restaurants from  '../components/Restaurants';
 import Slots from "../components/Slot";
@@ -9,7 +9,9 @@ import Restaurants from "../components/Restaurants";
 import Container from "../components/Container";
 import Image from "next/image";
 import { FetchRestaurantType, TenBisRestaurant, WoltRestaurant } from "../src/types/FetchRestaurantTyp";
-import {getRandomFromArray, set50Restaurants} from '../src/utils'
+import {getRandomFromArray, set50Restaurants} from '../src/utils';
+import {shuffle} from "../src/hooks/shuffle";
+import { useStore } from "react-redux";
 interface IUser {
   name: string;
 }
@@ -23,18 +25,37 @@ type AllResObj = {
 
 
 const Home = ({ allRestaurants }: {allRestaurants:FetchRestaurantType}) => {
-  // const dispatch = useDispatch(setSelectedRestaurant1(allRestaurants.tenBisData[0]));
-
+  const dispatch = useDispatch()
+  const store = useStore()
+  let stat: any
+  stat=  store.getState()
   const [selectedRestaurant, selectedRestaurantSet] = useState<any>([]);
-  const [allTheRestaurants, allTheRestaurantsSet] = useState<any>({tenbisRestaurants:[],woltRestaurants:[]});
+  const [allTheRestaurants, allTheRestaurantsSet] = useState<any>({tenbisRestaurants:[],woltRestaurants:[],both:[]});
   const [maxRestaurants, maxRestaurantsSet] = useState<any>([]); // 50 restaurants
+  
+  
+  console.log(allRestaurants);
+  console.log("allRestaurants");
+  useEffect(() => {
+    dispatch(setRestaurants({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData, both:[...allRestaurants?.woltData, ...allRestaurants?.tenBisData]}));
+    // let maxed= shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).filter((restaurant: any, index: number) => index < 50 && restaurant)
+    let maxed= shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0,50);
+    dispatch(setFiftyRestaurants(maxed))
+    // allTheRestaurantsSet({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData, both:[...allRestaurants?.woltData, ...allRestaurants?.tenBisData]})    
+    // maxRestaurantsSet(shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).filter((restaurant: any, index: number) => index < 50 && restaurant))
+    
 
-  
-useEffect(() => {
-    allTheRestaurantsSet({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData})
-    maxRestaurantsSet(allRestaurants?.woltData.filter((restaurant: any, index: number) => index < 50 && restaurant))
-  
-},[ allRestaurants])
+    
+
+  },[allRestaurants?.tenBisData, allRestaurants?.woltData,dispatch])
+//   const runOnStart= ()=>{
+//     dispatch(setRestaurants({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData, both:[...allRestaurants?.woltData, ...allRestaurants?.tenBisData]}));
+//     // let maxed= shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).filter((restaurant: any, index: number) => index < 50 && restaurant)
+//     let maxed= shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0,50);
+//     dispatch(setFiftyRestaurants(maxed))
+
+// }
+// runOnStart()
   
   
   return <Container allTheRestaurants={allTheRestaurants} selectedRestaurantSet={selectedRestaurantSet} selectedRestaurant={selectedRestaurant} maxRestaurantsSet={maxRestaurantsSet} maxRestaurants={maxRestaurants} />

@@ -1,6 +1,7 @@
 import React, { useEffect, useState, createRef } from "react";
 import PropTypes from 'prop-types';
 import NavBar from "../NavBar";
+import Home from "../../pages/index"
 
 
 type Props = {
@@ -13,13 +14,12 @@ type Props = {
   //   setRestaurantAmount: Function;
 };
 
-const Layout: React.FC = () => {
+const Layout = ({children}:{children: React.ReactNode}) => {
   
 
   return (
-    <section className="min-h-screen overflow-hidden md:flex  bg-lightgreybackground wrapper ">
-    <NavBar /> 
-    {/* <main className="main flex-grow md: mx-auto main-layout">{children}</main> */}
+    <section className="">
+    <main className="">{children}</main>
   </section>
   );
 };

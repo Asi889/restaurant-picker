@@ -2,16 +2,14 @@ import React from "react";
 
 type Props = {
   givenclass: any;
-  locationActivSet: Function;
-  locationActiv: boolean;
+  
 };
 
 const LocationIcon: React.FC<Props> = (props) => {
-  const { givenclass, locationActivSet, locationActiv } = props;
+  const { givenclass } = props;
 
   return (
     <svg
-    onClick={()=>locationActivSet(!locationActiv)}
       className={givenclass}
       xmlns="http://www.w3.org/2000/svg"
       version="1.1"

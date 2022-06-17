@@ -5,22 +5,35 @@ import { useSelector } from "react-redux";
 import { shuffle } from "../src/hooks/shuffle";
 import {myImageLoader} from '../src/hooks/myImageLoader';
 import SelectedAndTop from './SelectedAndTop';
+import { useStore } from "react-redux";
 type Props = {
   selectedRestaurant: any;
   restaurants: Array<object>;
   slotTransition: boolean;
   refindex:number
   ref: any
+  selectedprovider: string;
 };
 
 const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) => {
-
+  const store = useStore()
+  let stat: any
+  stat=  store.getState()
+  console.log(stat?.restaurants)
+  
+  
   const {
     selectedRestaurant,
     restaurants,
     slotTransition,
     refindex,
+    selectedprovider
   } = props;
+
+const splitandtrim= (string:any)=>{
+let splited= string.split('|')
+ return splited[0].trim()
+}
 
 
   return (
@@ -28,29 +41,39 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
 
               
-              {/* <div ref={ref} className={`relative bottom-[94%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition}`}> */}
               <div ref={ref} className={`relative   grid gap-y-16  justify-center ${slotTransition ? slotTransition  : "bbotom"} }`}>
-              {/* <div ref={ref} className={`relative bottom-[95%] grid gap-y-16 transition ease-out duration-1000 delay-500 justify-center ${!slotTransition ? "translate-y-[22px] blure-none" : "translate-y-[94%]"}`}> */}
-              <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant}  />
+              <SelectedAndTop index={refindex} restaurants={restaurants} selectedRestaurant={selectedRestaurant} splitandtrim={splitandtrim}  />
           
-                {restaurants &&
-                  shuffle(restaurants)?.map(
+                {
+                  shuffle(stat?.restaurants.fiftyRestaurants).map(
+                // {restaurants &&
+                //   shuffle(restaurants)?.map(
                     (restaurant: any, index: number) => {
-                      if (index < 50) {
+                      // if (index < 50) {
                         return (
-                          <div className={`w-[70px] h-[70px] rounded-full text-center relative img-wrapper `} key={index}>
-                            {/* {restaurant.title} */}
-                            <Image
-                              loader={() => myImageLoader(restaurant?.image)}
-                              src={restaurant?.image ? restaurant?.image : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
-                              alt="alt"
-                              layout="fill" 
-                              className="w-[400px] h-[100px] rounded-full "
-                              id="img-round"
-                            />        
+                          <div className={` rounded-full text-center relative img-wrapper `} key={index}>
+                            {restaurant?.image.includes("wolt")
+                             ? 
+                            <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white">
+                              {splitandtrim(restaurant?.title)}
+                            </div>
+                            : 
+                            <div className="w-16 h-16">
+
+                              <Image
+                                loader={() => myImageLoader(restaurant?.image)}
+                                src={restaurant?.image ? restaurant?.image : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
+                                alt="alt"
+                                layout="fill" 
+                                className="w-[400px] h-[100px] rounded-full "
+                                // id="img-round"
+                              />
+                            </div>
+                            }
+                                    
                           </div>
                         );
-                      }
+                      // }
                     }
                   )}
               </div>

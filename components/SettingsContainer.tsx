@@ -3,22 +3,26 @@
 import React, { useEffect, useState, createRef } from "react";
 import LocationIcon from "./svgs/LocationIcon";
 import FiltertIcon from "./svgs/FilterIcon";
+import DialogModal from "./DialogModal";
+import LocationModal from "./Dialogs/LocationModal";
 
 type Props = {
-  filterActiv: boolean;
-  filterActivSet: Function;
-  locationActiv: boolean;
-  locationActivSet: Function;
+  setRestaurantAmount:Function;
+  selectedproviderSet: Function;
+  selectedprovider: string;
+  filterTypesSet: Function;
+  filterTypes: object;
+  filterCategory: Function;
 
 };
 
 const SettingsContainer: React.FC<Props> = (props) => {
-  const {filterActiv, filterActivSet, locationActiv, locationActivSet } = props;
+  const { setRestaurantAmount, selectedproviderSet, selectedprovider, filterTypesSet, filterTypes, filterCategory} = props;
 
   return (
     <div className="flex gap-x-10 justify-center mt-5 ">
-      <LocationIcon locationActiv={locationActiv} locationActivSet={locationActivSet}  givenclass="w-12 h-12 cursor-pointer" />
-      <FiltertIcon filterActiv={filterActiv} filterActivSet={filterActivSet} pathClass="fill-white cursor-pointer" givenclass="w-11 h-11 " />
+      <DialogModal setRestaurantAmount={setRestaurantAmount} selectedproviderSet={selectedproviderSet} selectedprovider={selectedprovider} filterTypesSet={filterTypesSet} filterTypes={filterTypes} filterCategory={filterCategory} />
+      <LocationModal />
     </div>
   );
 };
