@@ -1,20 +1,13 @@
-import React, { useEffect, useState, Fragment, createRef } from "react";
+import React, { useEffect, useState, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
-import { useTimeoutFn } from "react-use";
 import FiltertIcon from "./svgs/FilterIcon";
 import FilterFoodType from "./FilterFoodType";
 
 type Props = {
-  setRestaurantAmount: Function;
-  selectedproviderSet: Function;
-  selectedprovider: string;
-  filterTypesSet: Function;
-  filterTypes: object;
-  filterCategory: Function;
 };
 
 const DialogModal: React.FC<Props> = (props) => {
-  const {setRestaurantAmount, selectedproviderSet, selectedprovider, filterTypesSet, filterTypes, filterCategory}=props
+  const { }=props
   let [isOpen, setIsOpen] = useState<boolean>(false);
 
   function closeModal() {
@@ -65,7 +58,7 @@ const DialogModal: React.FC<Props> = (props) => {
               >
                 <Dialog.Panel className="w-full max-w-md h-full transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
                   
-                  <FilterFoodType closeModal={closeModal} setRestaurantAmount={setRestaurantAmount} selectedproviderSet={selectedproviderSet} selectedprovider={selectedprovider} filterTypesSet={filterTypesSet} filterTypes={filterTypes} filterCategory={filterCategory}/>
+                  <FilterFoodType closeModal={closeModal} />
 
                 </Dialog.Panel>
               </Transition.Child>

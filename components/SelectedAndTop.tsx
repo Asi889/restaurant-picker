@@ -1,18 +1,17 @@
-import React, { useEffect, useState, createRef } from "react";
+import React, { useEffect } from "react";
 import Image from "next/image";
 import { myImageLoader } from "../src/hooks/myImageLoader";
 import { useStore } from "react-redux";
 
 type Props = {
-  selectedRestaurant: any;
-  restaurants: Array<any>; //Array<object>;
   index: number;
   splitandtrim: Function;
 
 };
 
 const SelectedAndTop: React.FC<Props> = (props) => {
-  const { index, restaurants, selectedRestaurant, splitandtrim } = props;
+
+  const { index, splitandtrim } = props;
   const store = useStore()
   let stat: any
   stat=  store.getState()
@@ -33,7 +32,6 @@ const SelectedAndTop: React.FC<Props> = (props) => {
           alt="Picture of the author"
           layout="fill"
           className="w-[400px] h-[100px] rounded-full "
-          // id="img-round"
         />
         }
         
@@ -53,7 +51,6 @@ const SelectedAndTop: React.FC<Props> = (props) => {
             alt="Picture of the author"
             layout="fill"
             className="rounded-full "
-            // id="img-round"
           />
         </div>
         

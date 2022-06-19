@@ -8,13 +8,17 @@ const initioalState:{} ={
     allRestaurants:[],
     filterTypes:{
         woltRestaurants: true,
-        tenbisRestaurants: true,
+        tenbisRestaurants: true, 
+    },
+    subFilterTypes:{
         kosher: false,
         vegan: false,
-        vegetarian: false
+        vegetarian: false,
+        dessert: false,
     },
     selectedRestaurant:{},
     fiftyRestaurants:[],
+    filteredByCategory:[],
     selectedProvider: "both"
 };
 
@@ -45,9 +49,17 @@ export const restaurantReducer = (state = initioalState, action: Action) => {
         
             return {  ...state, filterTypes: action.payload };
 
+        case ActionTypes.SET_SUB_FILTERֹֹֹ_TYPE: 
+        
+            return {  ...state, subFilterTypes: action.payload };
+
         case ActionTypes.SET_SELECTED_PROVIDER: 
         
             return {  ...state, selectedProvider: action.payload };
+
+        case ActionTypes.SET_FILTERֹֹֹED_BY_CATEGORY: 
+        
+            return {  ...state, filteredByCategory: action.payload };
 
         default:
             return state;
