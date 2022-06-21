@@ -2,16 +2,16 @@ import React, { useEffect } from "react";
 import Image from "next/image";
 import { myImageLoader } from "../src/hooks/myImageLoader";
 import { useStore } from "react-redux";
+import { splitAndTrim } from "../src/utils";
 
 type Props = {
   index: number;
-  splitandtrim: Function;
 
 };
 
 const SelectedAndTop: React.FC<Props> = (props) => {
 
-  const { index, splitandtrim } = props;
+  const { index } = props;
   const store = useStore()
   let stat: any
   stat=  store.getState()
@@ -23,12 +23,12 @@ const SelectedAndTop: React.FC<Props> = (props) => {
         {stat?.restaurants.fiftyRestaurants[index]?.image?.includes("wolt")
         ?
         <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white">
-          {splitandtrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
+          {splitAndTrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
         </div>
         :
         <Image
-          loader={() => myImageLoader("https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png")}
-          src={"https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"}
+          loader={() => myImageLoader(stat?.restaurants.fiftyRestaurants[index+2]?.image)}
+          src={stat?.restaurants.fiftyRestaurants[index]?.image ? stat?.restaurants.fiftyRestaurants[index]?.image : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png"}
           alt="Picture of the author"
           layout="fill"
           className="w-[400px] h-[100px] rounded-full "
@@ -41,7 +41,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
         
         ?
         <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white relative">
-          {splitandtrim(stat?.restaurants.selectedRestaurant?.title)}
+          {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
         </div>
         :
         <div className="w-16 h-16 ">

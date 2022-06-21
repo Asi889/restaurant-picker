@@ -58,6 +58,7 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
         link: {
           url: `https://www.10bis.co.il/next/en/restaurants/menu/delivery/${restaurant.restaurantId}`
         },
+        provider: "tenBis",
       })
     })
 

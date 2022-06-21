@@ -2,13 +2,23 @@ import React, { useEffect, useState, Fragment } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import FiltertIcon from "./svgs/FilterIcon";
 import FilterFoodType from "./FilterFoodType";
-
+import { StateProp } from "../src/types/FetchSubRestaurantTypes";
+import { useStore } from "react-redux";
+import { returnFilters, returnSubFilters } from "../src/utils";
 type Props = {
 };
 
 const DialogModal: React.FC<Props> = (props) => {
   const { }=props
   let [isOpen, setIsOpen] = useState<boolean>(false);
+  
+  
+  const store = useStore()
+  let state:   StateProp | any
+  state =  store.getState()
+
+  
+
 
   function closeModal() {
     setIsOpen(false);
@@ -20,15 +30,24 @@ const DialogModal: React.FC<Props> = (props) => {
 
   return (
     <>
-      <div className=" inset-0 flex items-center justify-center">
+      <div className=" inset-0 flex  ">
         <button
           type="button"
           onClick={openModal}
           className="rounded-md bg-black bg-opacity-20 px-4 py-2 text-sm font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
-        >
+          >
                   <FiltertIcon  pathClass="fill-white cursor-pointer" givenclass="w-12 md:w-24 h-12 md:h-24 " />
 
         </button>
+          <div className="text-white flex gap-x-2 w-full bg-gray-700 items-center">
+            <span>
+            {returnFilters()}
+            </span>
+            <div className="flex gap-x-2">
+              <span>{returnSubFilters()}</span>
+            
+            </div>
+          </div>
       </div>
 
       <Transition appear show={isOpen} as={Fragment}>

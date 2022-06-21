@@ -10,7 +10,7 @@ const SettingsContainer: React.FC<Props> = (props) => {
   const { } = props;
 
   return (
-    <div className="flex gap-x-10 justify-center mt-5 ">
+    <div className="grid gap-y-5  mt-5 ">
       <DialogModal  />
       <LocationModal />
     </div>

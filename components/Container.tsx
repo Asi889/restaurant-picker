@@ -14,12 +14,12 @@ const Container: React.FC<ContainerProps> = (props) => {
   return (
     <div className="w-full h-screen bg-[#3C1E57] text-center">
       <NavBar />
-      <Restaurants  />
-      {selectedActiv ? (
-        <ChosenRestaurant />
-      ) : (
+      <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv}  />
+      <div className="max-w-[380px] mx-auto bg-[#280f3f] mt-2 pt-2">
+
+      {selectedActiv && <ChosenRestaurant />}
         <SettingsContainer />
-      )}
+      </div>
     </div>
   );
 };

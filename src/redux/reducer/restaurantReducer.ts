@@ -19,7 +19,8 @@ const initioalState:{} ={
     selectedRestaurant:{},
     fiftyRestaurants:[],
     filteredByCategory:[],
-    selectedProvider: "both"
+    selectedProvider: "",
+
 };
 
 interface Action {type: string, payload: any};

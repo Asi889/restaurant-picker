@@ -32,7 +32,7 @@ const LocationIcon: React.FC<Props> = (props) => {
           transform="translate(-118.15 51.446) scale(1.5292)"
         ></path>
         <path
-          fill="#e7dede"
+          fill="#746f6f"
           d="M467.14 220.93a145.71 145.71 0 11-291.43 0 145.71 145.71 0 11291.43 0z"
           transform="matrix(1.4997 0 0 1.4752 -108.69 55.502)"
         ></path>

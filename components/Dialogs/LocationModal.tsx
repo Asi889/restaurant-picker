@@ -27,7 +27,7 @@ const LocationModal: React.FC<Props> = (props) => {
 
   return (
     <>
-      <div className=" inset-0 flex items-center justify-center">
+      <div className=" inset-0 flex ">
         <button
           type="button"
           onClick={openModal}

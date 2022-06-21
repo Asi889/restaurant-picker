@@ -5,6 +5,7 @@ import { shuffle } from "../src/hooks/shuffle";
 import {myImageLoader} from '../src/hooks/myImageLoader';
 import SelectedAndTop from './SelectedAndTop';
 import { connect,useSelector } from "react-redux";
+import { splitAndTrim } from "../src/utils";
 
 type Props = {
   slotTransition: boolean;
@@ -18,10 +19,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
   // const [filteredByCategory, filteredByCategorySet] = useState<any>([])
   const allRestaurants = useSelector((state:any) => state.restaurants.fiftyRestaurants)
 
-  const splitandtrim= (string:string)=>{
-    let splited= string.split('|')
-    return splited[0].trim()
-  }
+  
 
   return (
           <div  key={refindex} className="w-full border bg-white border-red-200 px-1   overflow-hidden ">
@@ -29,7 +27,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
 
               
               <div ref={ref} className={`relative   grid gap-y-16  justify-center ${slotTransition ? slotTransition  : "bbotom"} }`}>
-              <SelectedAndTop index={refindex} splitandtrim={splitandtrim}  />
+              <SelectedAndTop index={refindex}  />
           
                 {allRestaurants &&
                   shuffle(allRestaurants)?.map(
@@ -40,7 +38,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                             {restaurant?.image?.includes("wolt")
                              ? 
                             <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white">
-                              {splitandtrim(restaurant?.title)}
+                              {splitAndTrim(restaurant?.title)}
                             </div>
                             : 
                             <div className="w-16 h-16 img-wrap">

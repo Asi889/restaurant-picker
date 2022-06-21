@@ -36,7 +36,7 @@ const FilterLocation: React.FC<Props> = (props) => {
 
       <ul className="text-center">
         {cities.map((city) => (
-          <li className="w-full hover:bg-[#F7F5F5] active:bg-[#F7F5F5] text-[#3C1E57] py-4 cursor-pointer " key={city}>
+          <li className="w-full  active:bg-[#F7F5F5] text-[#3C1E57] py-4 cursor-pointer " key={city}>
             {city}
           </li>
         ))}

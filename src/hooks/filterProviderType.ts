@@ -3,30 +3,11 @@ import {store} from '../redux/store';
 import { setFiftyRestaurants, setFilterType } from "../redux/actions/clienActions";
 import { shuffle } from "./shuffle";
 import { filterByProvider } from "./filterByProvider";
-type Restaurants = {
-    both: WoltRestaurant[] & TenBisRestaurant[];
-    tenbisRetaurants: TenBisRestaurant[];
-    woltRetaurants: WoltRestaurant[];
-  };
-type Restaurant = {
-    allRestaurants: Restaurants,
-    fiftyRestaurants: [],
-    filterTypes: {woltRestaurants: boolean, tenbisRestaurants: boolean},
-    filteredByCategory: [],
-    selectedProvider: "both",
-    selectedRestaurant: {},
-    subFilterTypes: {kosher: boolean, vegan: boolean, vegetarian: boolean, dessert: boolean},
-    userLocation: {}
-  };
-
-type Restaurant11 = {
-    restaurants: Restaurant;
-    userLocation: {};
-  };
+import { StateProp } from "../types/FetchSubRestaurantTypes";
 
 export const filterProviderType= (name: string) =>{
 
-    let state: Restaurant11 | any 
+    let state: StateProp | any 
     state = store.getState();
     let filterTypes= state.restaurants.filterTypes
 

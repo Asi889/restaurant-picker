@@ -2,31 +2,15 @@ import { TenBisRestaurant, WoltRestaurant } from "./types/FetchRestaurantTyp";
 import {store} from "../src/redux/store";
 import { setFiftyRestaurants, setFilterByCategory, setSelectedRestaurant } from "./redux/actions/clienActions";
 import { shuffle } from "./hooks/shuffle";
+import { StateProp } from "./types/FetchSubRestaurantTypes";
 
 type RestaurantData = {
     city: object;
     tenBisData: Array<object>;
     woltData: Array<object>;
   };
-type Restaurants = {
-    both: WoltRestaurant[] & TenBisRestaurant[];
-    tenbisRetaurants: TenBisRestaurant[];
-    woltRetaurants: WoltRestaurant[];
-  };
-type Restaurant11 = {
-    restaurants: Restaurant;
-    userLocation: {};
-  };
-type Restaurant = {
-    allRestaurants: Restaurants,
-    fiftyRestaurants: [],
-    filterTypes: {woltRestaurants: boolean, tenbisRestaurants: boolean},
-    filteredByCategory: [],
-    selectedProvider: "both",
-    selectedRestaurant: {},
-    subFilterTypes: {kosher: boolean, vegan: boolean, vegetarian: boolean, dessert: boolean},
-    userLocation: {}
-  };
+
+  type StringVariation = string | any
 
 export const getRandomFromArray = <Type>(allRestaurants: Type[] |any=[]):Type =>{
     let randomIndex: any = "";
@@ -34,10 +18,50 @@ export const getRandomFromArray = <Type>(allRestaurants: Type[] |any=[]):Type =>
     return allRestaurants[randomIndex]
     // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
 }
+export const splitAndTrim = <Type>(string: StringVariation ):Type =>{
+        let splited = string.split("|");
+        return splited[0].trim();
+}
+export const returnFilters=()=>{
+    let state: StateProp | any 
+    state = store.getState();
+    let types= Object.entries(state?.restaurants.filterTypes)
+   return types.map(([key, value], index) => {
+    if(value){
+      return  key === "tenbisRestaurants" ? `${index ?", " : "" }` + " תן ביס " : `${index ?", " : "" } ` + " וולט"
+    }
+   })
+  }
+
+  export const returnSubFilters=()=>{
+    let state: StateProp | any 
+    state = store.getState();
+    let subTypes = Object.entries(state?.restaurants.subFilterTypes)
+    const checkKey= (key: string)=>{
+        switch (key) {
+            case "kosher":
+                return "כשר"
+
+            case "vegan":
+                return "טבעוני"
+
+            case "vegetarian":
+                return "צמחוני"
+                
+            case "dessert":
+                return "קינוח"
+                 
+            default:
+                break;
+        }
+    }
+   return subTypes.map(([key, value],index) => value ?  `${subTypes.length -1 != index ?", " : "" } ` + checkKey(key) : "")
+  }
+
 export function checkFilters(){
 
     let beforRest: WoltRestaurant[] | TenBisRestaurant[] | WoltRestaurant[] & TenBisRestaurant[] = []
-    let state: Restaurant11 | any 
+    let state: StateProp | any 
     state = store.getState();
     const provider = state?.restaurants?.filterTypes.woltRestaurants && state?.restaurants?.filterTypes.tenbisRestaurants ? "both" : state?.restaurants?.filterTypes.woltRestaurants ? "woltRestaurants" : "tenbisRestaurants"
     
