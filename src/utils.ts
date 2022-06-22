@@ -28,14 +28,14 @@ export const returnFilters=()=>{
     let types= Object.entries(state?.restaurants.filterTypes)
    return types.map(([key, value], index) => {
     if(value){
-      return  key === "tenbisRestaurants" ? `${index ?", " : "" }` + " תן ביס " : `${index ?", " : "" } ` + " וולט"
+      return  key === "tenbisRestaurants" ?  "תן ביס" :   "וולט"
     }
-   })
+   }).join(", ")
   }
 
   export const returnSubFilters=()=>{
-    let state: StateProp | any 
-    state = store.getState();
+    let state = store.getState() as StateProp;
+    // state = 
     let subTypes = Object.entries(state?.restaurants.subFilterTypes)
     const checkKey= (key: string)=>{
         switch (key) {
@@ -68,7 +68,6 @@ export function checkFilters(){
     
     for (let key in state.restaurants.subFilterTypes) {
         if(state.restaurants.subFilterTypes[key] === true){
-            debugger
             for(let restaurant of state.restaurants.allRestaurants[provider]){
                 if(restaurant.tags.includes(key)){
                     beforRest=[...beforRest,restaurant]
