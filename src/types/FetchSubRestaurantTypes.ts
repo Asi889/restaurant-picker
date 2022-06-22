@@ -10,6 +10,8 @@ export interface subFilterTypes {
   vegan: boolean;
   vegetarian: boolean;
   dessert: boolean;
+  burgers: boolean;
+  asian: boolean;
 }
 
 export type StateProp = {

@@ -15,6 +15,8 @@ const initioalState:{} ={
         vegan: false,
         vegetarian: false,
         dessert: false,
+        burgers: false,
+        asian: false
     },
     selectedRestaurant:{},
     fiftyRestaurants:[],

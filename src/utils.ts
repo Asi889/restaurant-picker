@@ -50,6 +50,12 @@ export const returnFilters=()=>{
                 
             case "dessert":
                 return "קינוח"
+
+            case "burgers":
+                return "המבורגר"
+
+            case "asian":
+                return "אסייתי"
                  
             default:
                 break;
@@ -71,6 +77,16 @@ export function checkFilters(){
             for(let restaurant of state.restaurants.allRestaurants[provider]){
                 if(restaurant.tags.includes(key)){
                     beforRest=[...beforRest,restaurant]
+                }
+                if(key ==="burgers"){
+                    if( restaurant.tags.includes("burger") ){
+                        beforRest=[...beforRest,restaurant]
+                    }
+                }
+                if(key ==="asian"){
+                    if( restaurant.tags.includes("asianFusion") ){
+                        beforRest=[...beforRest,restaurant]
+                    }
                 }
             }
         }
