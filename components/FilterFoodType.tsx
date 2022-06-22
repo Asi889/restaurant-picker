@@ -18,6 +18,7 @@ import WoltLogo from "./svgs/WoltLogo";
 import TenBisLogo from "./svgs/TenBisLogo";
 import LeafeIcon from "./svgs/filterFoodTypes/LeafeIcon";
 import ManyLeafeIcon from "./svgs/filterFoodTypes/ManyLeafeIcon";
+import PizzaIcon from "./svgs/filterFoodTypes/PizzaIcon";
 
 type Props = {
   closeModal: any; // Function?
@@ -74,7 +75,7 @@ const FilterFoodType: React.FC<Props> = (props) => {
 
       <div className="flex gap-x-8 pt-4 mt-1 items-end pr-2">
         <button  onClick={()=>filterByCategoryTypes("kosher")}>
-          <KosherIcon givenClass={`w-14 h-14 ${subFilterTypes.kosher ? "" : "stroke-gray-500 opacity-70"}`}  />
+          <KosherIcon givenClass={`w-14 h-14 ${subFilterTypes.kosher ? "" : "stroke-gray-500 opacity-60"}`}  />
           <h3>רק כשר</h3>
         </button>
         <div className="flex gap-x-4 pt-4 mt-1">
@@ -96,7 +97,7 @@ const FilterFoodType: React.FC<Props> = (props) => {
           <h3>קינוח</h3>
         </button>
       </div>
-      <div className="flex gap-x-4 mt-2 items-baseline pr-2">
+      <div className="flex gap-x-8 mt-2 items-baseline pr-2">
         <div className="">
           <div className="pb-2 ">
           <button  onClick={()=>filterByCategoryTypes("burgers")}>
@@ -109,6 +110,12 @@ const FilterFoodType: React.FC<Props> = (props) => {
         <button  onClick={()=>filterByCategoryTypes("asian")}>
           <SushiIcon  givenClass={` h-16 w-16 mb-3  ${subFilterTypes.asian ? "" : "stroke-gray-200 opacity-60 "}`} />
           <h3>אסייתי</h3>
+        </button>
+        </div>
+        <div className="">
+        <button  onClick={()=>filterByCategoryTypes("pizza")}>
+          <PizzaIcon  givenClass={` h-16 w-16   ${subFilterTypes.pizza ? "" : "stroke-gray-200 opacity-60 "}`} />
+          <h3>פיצה</h3>
         </button>
         </div>
 

@@ -12,6 +12,7 @@ export interface subFilterTypes {
   dessert: boolean;
   burgers: boolean;
   asian: boolean;
+  pizza: boolean;
 }
 
 export type StateProp = {
