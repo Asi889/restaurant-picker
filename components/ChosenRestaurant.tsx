@@ -6,7 +6,7 @@ import TenBisLogo from "./svgs/TenBisLogo";
 import {TenBisRestaurant} from "../src/types/FetchRestaurantTyp";
 import Image from "next/image";
 import { myImageLoader } from "../src/hooks/myImageLoader";
-import { splitAndTrim } from "../src/utils";
+import { checkTime, splitAndTrim } from "../src/utils";
 
 interface Props {}
 
@@ -105,7 +105,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
 
   return (
     <div className="bg-[#280F3F] px-2 text-white">
-      <p className="text-white"> נראה שהערב מזמינים :</p>
+      <p className="text-white"> נראה {checkTime()} מזמינים :</p>
       <p className="text-white">
         {" "}
         {stat?.restaurants.selectedRestaurant?.title}

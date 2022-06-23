@@ -1,7 +1,7 @@
 /* eslint-disable react/jsx-key */
 import React, { useState } from "react";
 import { connect } from 'react-redux';
-import { checkFilters } from "../src/utils";
+import { checkFilters, vibrate } from "../src/utils";
 import Slot from "./Slot";
 import SlotArm from "./SlotArm";
 import Triangle from "./svgs/Triangle";
@@ -32,7 +32,7 @@ const Restaurants: React.FC<Props> = (props) => {
     if(selectedActiv === true){
       selectedActivSet(false)
     } 
-
+    vibrate()
     slotTransitionSet("bbotom");
     setTimeout(() => {
       slotTransitionSet("front-spin");

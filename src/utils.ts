@@ -32,6 +32,28 @@ export const returnFilters=()=>{
     }
    }).join(", ")
   }
+  
+  export const checkTime= ()=>{
+    const today= new Date().getHours();
+    if(today < 17){
+      return "שלצהריים"
+    }else return "שהערב"
+  }
+  export const vibrate = ()=>{
+    if (!window) {
+        return;
+    }
+
+    if (!window.navigator) {
+        return;
+    }
+
+    if (!window.navigator.vibrate) {
+        return;
+    }
+
+    window.navigator.vibrate(100);
+  }
 
   export const returnSubFilters=()=>{
     let state = store.getState() as StateProp;
