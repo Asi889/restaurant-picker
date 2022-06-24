@@ -55,7 +55,7 @@ const Restaurants: React.FC<Props> = (props) => {
           {/* <div className="absolute skew-y-6 h-[50px] w-[100px] bg-red-200 -top-[53px]"></div> */}
             <Triangle givenclass="rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 left-0 md:left-3 top-12 md:top-36" />
             <Triangle givenclass="-rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 right-0 md:right-3 top-12 md:top-36" /> 
-          <div className="bg-[#D45E3A] px-1 md:px-4 py-1 md:py-4 relative inline-block rounded-xl">
+          <div className="bg-[#D45E3A] px-1 md:px-4 py-1 md:py-4 relative inline-block rounded-xl alfa">
             <div className="max-h-[160px] md:max-h-[360px] w-full grid grid-cols-3 gap-x-1 py-1 px-1 bg-gray-800 overflow-hidden rounded-lg">
               {refs.map((ref: any, index: number) => (
               <Slot

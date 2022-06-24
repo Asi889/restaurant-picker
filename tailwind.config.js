@@ -1,3 +1,4 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
   mode: 'jit',
   content: [
@@ -5,7 +6,17 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        purple:{
+          DEFAULT:'#280F3F',
+          dark:'#3C1E57'
+        },
+        green:{
+          DEFAULT:'#17E38A',
+        }
+      }
+    },
   },
   plugins: [],
 }

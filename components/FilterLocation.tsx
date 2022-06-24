@@ -32,11 +32,11 @@ const FilterLocation: React.FC<Props> = (props) => {
         </h3>
         {/* </div> */}
       </div>
-      <div className="w-full mx-auto h-[1px] bg-[#3C1E57] mt-2"></div>
+      <div className="w-full mx-auto h-[1px] bg-purple-dark mt-2"></div>
 
       <ul className="text-center">
         {cities.map((city) => (
-          <li className="w-full  active:bg-[#F7F5F5] text-[#3C1E57] py-4 cursor-pointer " key={city}>
+          <li className="w-full  active:bg-[#F7F5F5] text-purple-dark py-4 cursor-pointer " key={city}>
             {city}
           </li>
         ))}

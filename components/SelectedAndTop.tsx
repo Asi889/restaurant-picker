@@ -22,7 +22,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
       <div className={`w-[70px] h-[70px] md:w-[200px] md:h-[200px] rounded-full text-center relative img-wrapper `} key={index}>
         {stat?.restaurants.fiftyRestaurants[index]?.image?.includes("wolt")
         ?
-        <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white">
+        <div className="font-bold text-base bg-purple h-[70px] text-center grid items-center text-white">
           {splitAndTrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
         </div>
         :
@@ -40,7 +40,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
         {stat?.restaurants.selectedRestaurant?.image?.includes("wolt")
         
         ?
-        <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white relative">
+        <div className="font-bold text-base bg-purple h-[70px] text-center grid items-center text-white relative">
           {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
         </div>
         :

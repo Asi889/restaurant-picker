@@ -71,7 +71,7 @@ const FilterFoodType: React.FC<Props> = (props) => {
         </div>
       </div>
 
-      <div className="w-full mx-auto h-[1px] bg-[#3C1E57] mt-2 "></div>
+      <div className="w-full mx-auto h-[1px] bg-purple-dark mt-2 "></div>
 
       <div className="flex gap-x-8 pt-4 mt-1 items-end pr-2">
         <button  onClick={()=>filterByCategoryTypes("kosher")}>

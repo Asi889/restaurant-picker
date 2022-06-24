@@ -104,7 +104,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className="bg-[#280F3F] px-2 text-white">
+    <div className="bg-purple px-2 text-white">
       <p className="text-white"> נראה {checkTime()} מזמינים :</p>
       <p className="text-white">
         {" "}
