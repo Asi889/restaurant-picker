@@ -1,9 +1,9 @@
 import  { combineReducers } from 'redux';
 import {restaurantReducer} from './restaurantReducer';
-import {selectedRestaurantReducer} from './selectedRestaurantReducer';
+import {userLocationReducer} from './userLocationReducer';
 
 const reducers = combineReducers({
     restaurants: restaurantReducer,
-    selectedRestaurant: selectedRestaurantReducer
+    userLocation: userLocationReducer
 })
 export default reducers

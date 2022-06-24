@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Noto+Sans+Hebrew:wght@400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+body{
+  font-family: 'Alfa Slab One','Noto Sans Hebrew', cursive;
+/* font-family: 'Noto Sans Hebrew', sans-serif; */
+}
 
 .anima-container{
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
@@ -14,34 +19,28 @@
   transform:translateY(22px)
 }
 .bbotom{
-  bottom: 98.5%;
+  bottom: 91.2%;
 }
+@media (max-width: 768px) {
+  
+  .bbotom{bottom: 98.5%;}
+  .slot-container .front-spin{
+    bottom: 1.2%;
+  }
+  
+}
+
 .front-spin{
-  /* transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter; */
-  transition-delay: 500ms;
-  /* transition-timing-function: cubic-bezier(0, 0, 0.2, 1); */
-  /* animation: spin 3s ease-in; */
+  
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
-  bottom: 1%;
-  /* transition-duration: 3000ms; */
+  bottom: 1.6%;
 }
+
 .back-spin{
   animation: spinback 0s ;
 }
-@keyframes spin {
-  /* 0%   {bottom:98%;}
-  100%  {bottom:50%;} */
-  /* 100% {transform:translateY(22px);} */
-}
-/* @keyframes spin-down {
-  0%   {transform:translateY(22px);}
-  100%  {transform:translateY(94%);}
-}
-@keyframes spinback {
-  0%  {transform:translateY(94%);}
-  100%   {transform:translateY(0%);}
-} */
+
 
 
 /* ////////////////////////////////// */
@@ -101,6 +100,18 @@ section {
 #img-round{
   display: none 
 }
+
+
+/* .imgg-wraper span {
+width:100px;
+height: 100px;
+position: relative;
+} */
+/* .imgg-wraper span {
+width:100px!important;
+height: 100px!important;
+position: relative!important;
+} */
 
 
 /* //////////////////////////////////////////////// */

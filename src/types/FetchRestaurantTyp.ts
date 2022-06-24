@@ -28,6 +28,7 @@ export interface TenBisRestaurant {
     link:{
         url: string;
     }
+    provider:  "wolt" | "tenBis";
 }
 
 export interface WoltRestaurant {
@@ -46,4 +47,5 @@ export interface WoltRestaurant {
     link:{
       url: string;
     }
+    provider: "wolt" | "tenBis";
 }

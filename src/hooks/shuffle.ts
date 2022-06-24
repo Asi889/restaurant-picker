@@ -1,4 +1,4 @@
-export const shuffle=(array: Array<object>)=>{
+export const shuffle= <Type>(array: Type[]):Type[] =>{
     let curId = array.length;
     // There remain elements to shuffle
     while (0 !== curId) {

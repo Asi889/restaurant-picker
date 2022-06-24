@@ -51,7 +51,8 @@ export const getWoltRestaurants = async (lat: string, lon: string, slug: string)
                         tags: item.venue.tags,
                         link:{
                             url:`https://wolt.com/en/isr/${data.city ? data.city : slug}/venue/${item.venue.slug}`,
-                        }
+                        },
+                        provider: "wolt",
                     });
                 }
             });

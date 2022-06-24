@@ -1,45 +1,34 @@
 import axios from "axios";
-import React, { useEffect, useState } from "react";
-import { setRestaurants, setSelectedRestaurant1 } from "../src/redux/actions/clienActions";
-// import { useDispatch } from "react-redux";
-// import Restaurants from  '../components/Restaurants';
-import Slots from "../components/Slot";
-import { useDispatch } from "react-redux";
-import Restaurants from "../components/Restaurants";
+import React, { useEffect } from "react";
+import { setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../src/redux/actions/clienActions";
+import { connect, useDispatch } from "react-redux";
 import Container from "../components/Container";
-import Image from "next/image";
-import { FetchRestaurantType, TenBisRestaurant, WoltRestaurant } from "../src/types/FetchRestaurantTyp";
-import {getRandomFromArray, set50Restaurants} from '../src/utils'
-interface IUser {
-  name: string;
-}
-type Props = {
-  state: Array<object>;
-};
-type AllResObj = {
-  tenBisRestaurants: TenBisRestaurant[];
-  woltRestaurants: WoltRestaurant[];
-}
+import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
+import {shuffle} from "../src/hooks/shuffle";
+import { getRandomFromArray } from "../src/utils";
 
 
 const Home = ({ allRestaurants }: {allRestaurants:FetchRestaurantType}) => {
-  // const dispatch = useDispatch(setSelectedRestaurant1(allRestaurants.tenBisData[0]));
+  const dispatch = useDispatch()
+  
+  
+  useEffect(() => {
+    dispatch(setRestaurants({
+      tenbisRestaurants: allRestaurants?.tenBisData,
+      woltRestaurants: allRestaurants?.woltData,
+      both:[...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
+    }));
+    let maxed= shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0,50);
+    dispatch(setFiftyRestaurants(maxed))
+    dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+    
+  },[allRestaurants?.tenBisData, allRestaurants?.woltData,dispatch])
 
-  const [selectedRestaurant, selectedRestaurantSet] = useState<any>([]);
-  const [allTheRestaurants, allTheRestaurantsSet] = useState<any>({tenbisRestaurants:[],woltRestaurants:[]});
-  const [maxRestaurants, maxRestaurantsSet] = useState<any>([]); // 50 restaurants
-
-  
-useEffect(() => {
-    allTheRestaurantsSet({tenbisRestaurants: allRestaurants?.tenBisData, woltRestaurants: allRestaurants?.woltData})
-    maxRestaurantsSet(allRestaurants?.woltData.filter((restaurant: any, index: number) => index < 50 && restaurant))
-  
-},[ allRestaurants])
   
   
-  return <Container allTheRestaurants={allTheRestaurants} selectedRestaurantSet={selectedRestaurantSet} selectedRestaurant={selectedRestaurant} maxRestaurantsSet={maxRestaurantsSet} maxRestaurants={maxRestaurants} />
+  return <Container  />
 };
-export default Home;
+export default connect()(Home);
 
 
 export async function getServerSideProps() {
