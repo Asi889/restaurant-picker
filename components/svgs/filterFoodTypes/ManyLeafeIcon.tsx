@@ -18,7 +18,7 @@ const ManyLeafeIcon: React.FC<Props> = (props) => {
       version="1.1"
       viewBox="0 0 511.999 511.999"
       xmlSpace="preserve"
-      className={`w-12 h-12 absolute aaa bottom-[36px] left-1  ${givenClass}`}
+      className={`w-6 h-6 absolute aaa bottom-[12px] left-4  ${givenClass}`}
     >
       <path
         fill="#76CC5B"
@@ -42,7 +42,7 @@ const ManyLeafeIcon: React.FC<Props> = (props) => {
       version="1.1"
       viewBox="0 0 511.999 511.999"
       xmlSpace="preserve"
-      className={`w-12 h-12 relative bbb -left-[33px] ${givenClass}`}
+      className={`w-6 h-6 relative left-[10px] ${givenClass}`}
     >
       <path
         fill="#76CC5B"
@@ -66,7 +66,7 @@ const ManyLeafeIcon: React.FC<Props> = (props) => {
       version="1.1"
       viewBox="0 0 511.999 511.999"
       xmlSpace="preserve"
-      className={`w-12 h-12 absolute left-[9px] ccc ${givenClass}`}
+      className={`w-6 h-6 absolute left-[2px] ccc ${givenClass}`}
     >
       <path
         fill="#76CC5B"

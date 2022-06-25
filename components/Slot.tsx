@@ -37,7 +37,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                           <div className={` rounded-full text-center relative img-wrapper `} key={index}>
                             {restaurant?.image?.includes("wolt")
                              ? 
-                            <div className="font-bold text-base bg-[#280F3F] h-[70px] text-center grid items-center text-white">
+                            <div className="font-bold text-base bg-purple h-[70px] text-center grid items-center text-white">
                               {splitAndTrim(restaurant?.title)}
                             </div>
                             : 
