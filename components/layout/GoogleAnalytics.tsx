@@ -1,7 +1,7 @@
 import Script from 'next/script'
 import React from 'react'
 
-const ga = 'G-N1NXB8J3HM'
+const ga = 'G-02BZYLC7SH'
 export const GoogleAnalytics = () => {
   return (
     <>

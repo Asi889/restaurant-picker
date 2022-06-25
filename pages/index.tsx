@@ -49,7 +49,7 @@ export default connect()(Home);
 export async function getServerSideProps() {
   const { FRONT_URL } = process.env;
   const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
-    cityName: 'jerusalem'
+    cityName: 'telaviv'
   });
 
   return {
