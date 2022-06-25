@@ -20,5 +20,5 @@ on Vercel, using the [vercel](https://vercel.com/) auto deployer hooks.
 
 ## Made with ❤️ by
 
-    - [Nemo] (https://naamanfrenkel.dev/)
-    - [Asi] (https://asimarom.com/)
+    - [Nemo](https://naamanfrenkel.dev/)
+    - [Asi](https://asimarom.com/)
