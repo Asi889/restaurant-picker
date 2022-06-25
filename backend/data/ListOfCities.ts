@@ -13,8 +13,8 @@ export const woltCities = [
         slug: "jerusalem",
         label: 'ירושלים',
         location: {
-            lat: 35.21371,
-            lon: 31.768319,
+            lon: 35.21371,
+            lat: 31.768319,
         },
     },
     {

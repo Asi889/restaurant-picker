@@ -1,14 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { useEffect } from "react";
-import { useStore } from "react-redux";
-import { connect } from "react-redux";
-import WoltLogo from "./svgs/WoltLogo";
-import TenBisLogo from "./svgs/TenBisLogo";
-import { TenBisRestaurant } from "../src/types/FetchRestaurantTyp";
-import Image from "next/image";
-import { myImageLoader } from "../src/hooks/myImageLoader";
-import { checkTime, splitAndTrim } from "../src/utils";
+import React from "react";
+import { connect, useStore } from "react-redux";
+import { RestaurantType } from "../src/types/FetchRestaurantTyp";
 import { StateProp } from "../src/types/FetchSubRestaurantTypes";
+import { checkTime, splitAndTrim } from "../src/utils";
+import TenBisLogo from "./svgs/TenBisLogo";
+import WoltLogo from "./svgs/WoltLogo";
 
 interface Props { }
 
@@ -21,7 +18,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
   const CheckProviders = () => {
     const provider = selectedRestaurant.provider;
     const providerFind = selectedRestaurant.provider === "wolt" ? "tenbisRestaurants" : "woltRestaurants";
-    const otherProvider = state.restaurants.allRestaurants[providerFind].find((restaurant: TenBisRestaurant) =>
+    const otherProvider = state.restaurants.allRestaurants[providerFind].find((restaurant: RestaurantType) =>
       restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 

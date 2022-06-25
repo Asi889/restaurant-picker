@@ -22,7 +22,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
         {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
           ?
           <img
-            src={stat?.restaurants.fiftyRestaurants[index]?.photo.logo}
+            src={stat?.restaurants.fiftyRestaurants[index]?.photo.logo ?? ''}
             alt="Picture of the author"
             className="w-[400px] h-[100px] rounded-full "
           />

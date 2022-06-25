@@ -27,7 +27,7 @@ const Home = ({ allRestaurants }: { allRestaurants: FetchRestaurantType }) => {
 
 
   const seoObj = {
-    title: 'הזמנת אוכל רנודומלית | Whats for Dinner',
+    title: 'הזמנת אוכל רנודומלית | Whats for dinner',
     description: 'מתלבטים מה להזמין בוולט או תן ביס? הגרילו ארוחה להזמנה',
     openGraph: {
       type: 'website',
@@ -49,7 +49,7 @@ export default connect()(Home);
 export async function getServerSideProps() {
   const { FRONT_URL } = process.env;
   const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
-    cityName: 'tel-aviv'
+    cityName: 'jerusalem'
   });
 
   return {

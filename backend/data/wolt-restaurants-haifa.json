@@ -1,0 +1,2300 @@
+{
+    "lastScrapeDate": 1656173439334,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.8191218&lon=34.9983856",
+    "restaurants": [
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6297291120d5fdd9e7b46a8d/19054426-e7d8-11ec-9872-fe418bfc972b_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "Falafel Orion",
+            "name": "Falafel Orion",
+            "track_id": "venue-falafel-orion",
+            "address": "הרצליה 14, חיפה",
+            "venue_id": "6297291120d5fdd9e7b46a8d",
+            "location": [
+                34.9932052,
+                32.8126684
+            ],
+            "short_description": "Mastering Falafel since 1949",
+            "slug": "falafel-orion",
+            "tags": [
+                "falafel",
+                "sandwich",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/falafel-orion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6293b4ede8114d2ba68cf438/891131be-eb00-11ec-bea2-9afb12452fb4________.jpg",
+                "logo": null
+            },
+            "title": "Azumami",
+            "name": "Azumami",
+            "track_id": "venue-azumami",
+            "address": "אוסקר שינדלר 7, חיפה",
+            "venue_id": "6293b4ede8114d2ba68cf438",
+            "location": [
+                35.0130596,
+                32.7669398
+            ],
+            "short_description": "Sushi & Drinks Bar",
+            "slug": "azumami",
+            "tags": [
+                "asian",
+                "sushi",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/azumami"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628dec1f7681cdad51b83226/0803aa4a-e7ca-11ec-9d08-3eeb383576c3_876905dc_1d1e_11eb_96ae_4ea8ed0629de_____________.jpg",
+                "logo": null
+            },
+            "title": "Cremerie de L'eclair | Haifa",
+            "name": "Cremerie de L'eclair | Haifa",
+            "track_id": "venue-cremerie-de-leclair-haifa",
+            "address": "דרך העצמאות 49, חיפה",
+            "venue_id": "628dec1f7681cdad51b83226",
+            "location": [
+                34.9985474,
+                32.819984
+            ],
+            "short_description": "Make Your Own French Pastry Filled with Italian Gelato",
+            "slug": "cremerie-de-leclair-haifa",
+            "tags": [
+                "ice cream",
+                "sweets",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/cremerie-de-leclair-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628b75c4fbab816410d4cdcc/085f5a7c-da8f-11ec-a080-963fdda54774_________.png",
+                "logo": null
+            },
+            "title": "McDonald’s® Shaar Palmer",
+            "name": "McDonald’s® Shaar Palmer",
+            "track_id": "venue-mcdonalds-shaar-palmer",
+            "address": "דרך העצמאות 41, חיפה",
+            "venue_id": "628b75c4fbab816410d4cdcc",
+            "location": [
+                34.9991382,
+                32.8196078
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-shaar-palmer",
+            "tags": [
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcdonalds-shaar-palmer"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6298ab4c39b78b96c78f4d8d/7b3df7d6-e7ca-11ec-9561-6ac3e991056b_list_2.jpg",
+                "logo": null
+            },
+            "title": "Fryday",
+            "name": "Fryday",
+            "track_id": "venue-fryday-haifa",
+            "address": "הנמל 43, חיפה",
+            "venue_id": "6298ab4c39b78b96c78f4d8d",
+            "location": [
+                34.9998515,
+                32.819441
+            ],
+            "short_description": "Every Day Is Fryday",
+            "slug": "fryday-haifa",
+            "tags": [
+                "street food",
+                "vegan",
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/fryday-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6298af3c46ef3d704e38a49f/4f88da5c-e7ca-11ec-8fd5-9e18d76b1b65_list.jpg",
+                "logo": null
+            },
+            "title": "El Burgery",
+            "name": "El Burgery",
+            "track_id": "venue-el-burgery",
+            "address": "הנמל, 43, חיפה",
+            "venue_id": "6298af3c46ef3d704e38a49f",
+            "location": [
+                34.9998515,
+                32.819441
+            ],
+            "short_description": "Burger Place ",
+            "slug": "el-burgery",
+            "tags": [
+                "burger",
+                "street food",
+                "bbq",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/el-burgery"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62961010ad83eee2ac7a501d/9c34b8d4-e19f-11ec-8c00-32c6f8324d82_____.jpg",
+                "logo": null
+            },
+            "title": "Amsterdam Premium Chips",
+            "name": "Amsterdam Premium Chips",
+            "track_id": "venue-amsterdam-premium-chips",
+            "address": "דוברין נחום 4",
+            "venue_id": "62961010ad83eee2ac7a501d",
+            "location": [
+                34.999758,
+                32.8182356
+            ],
+            "short_description": "This is How Chips Are Eaten Today\n",
+            "slug": "amsterdam-premium-chips",
+            "tags": [
+                "vegetarian",
+                "american",
+                "new"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/amsterdam-premium-chips"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629887fc539c8255e00ce592/992a8b66-f223-11ec-accd-3a2ad8507d8c_____.jpg",
+                "logo": null
+            },
+            "title": "Lahmanioty",
+            "name": "Lahmanioty",
+            "track_id": "venue-lahmaniyoti",
+            "address": "יפו 27, חיפה",
+            "venue_id": "629887fc539c8255e00ce592",
+            "location": [
+                34.99769070000001,
+                32.8191745
+            ],
+            "short_description": "Sandwiches and more",
+            "slug": "lahmaniyoti",
+            "tags": [
+                "sandwich",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/lahmaniyoti"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629331f6f00c3a666d99bdb4/a7687928-df2b-11ec-81cf-ee5bfd1b5c19_e6fedef2_5032_11ec_acbc_faed3c681cfa____________1_.jpg",
+                "logo": null
+            },
+            "title": "rebar | Haifa",
+            "name": "rebar | Haifa",
+            "track_id": "venue-rebar-haifa",
+            "address": "נתנזון 11, חיפה",
+            "venue_id": "629331f6f00c3a666d99bdb4",
+            "location": [
+                34.999267,
+                32.8180531
+            ],
+            "short_description": "Smoothies, Juices, Wellness Choices\n",
+            "slug": "rebar-haifa",
+            "tags": [
+                "healthy",
+                "smoothie",
+                "fruit",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/rebar-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62972a04c51d42626f3f5b86/a5156312-eae2-11ec-8e1b-f2a113a5c0c2_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "Toka Pizza Bar",
+            "name": "Toka Pizza Bar",
+            "track_id": "venue-toka-pizza-bar",
+            "address": "הנמל 32, חיפה ",
+            "venue_id": "62972a04c51d42626f3f5b86",
+            "location": [
+                34.9996775,
+                32.8198463
+            ],
+            "short_description": "Tribal Pizza Bar",
+            "slug": "toka-pizza-bar",
+            "tags": [
+                "italian",
+                "pizza",
+                "sweets",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/toka-pizza-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62972c5a3d8261a1f734375d/046b554a-ead6-11ec-831a-fe6534bdc934_yaelitz_6.jpg",
+                "logo": null
+            },
+            "title": "Figurati",
+            "name": "Figurati",
+            "track_id": "venue-figurati",
+            "address": "הנמל 32, חיפה",
+            "venue_id": "62972c5a3d8261a1f734375d",
+            "location": [
+                34.9996775,
+                32.8198463
+            ],
+            "short_description": "Cake line",
+            "slug": "figurati",
+            "tags": [
+                "dessert",
+                "sweets",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/figurati"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6293bd70b4591f3bc2f2aa03/40681878-e255-11ec-aadc-f63415c4d536_haifa_day_31_may18962.jpg",
+                "logo": null
+            },
+            "title": "Dovrin 7",
+            "name": "Dovrin 7",
+            "track_id": "venue-dovrin-7",
+            "address": "דוברין נחום 7, חיפה",
+            "venue_id": "6293bd70b4591f3bc2f2aa03",
+            "location": [
+                34.9997552,
+                32.8179978
+            ],
+            "short_description": "Food & Alcohol",
+            "slug": "dovrin-7",
+            "tags": [
+                "alcohol",
+                "beer",
+                "pizza",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/dovrin-7"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f3c672266dbf85dba4659/680579a8-e669-11ec-beea-fe5245488cf5_list.jpg",
+                "logo": null
+            },
+            "title": "Manhattan American Diner",
+            "name": "Manhattan American Diner",
+            "track_id": "venue-manhattan-american-diner",
+            "address": "קדושי בגדד 34, חיפה",
+            "venue_id": "628f3c672266dbf85dba4659",
+            "location": [
+                34.9997625,
+                32.8207802
+            ],
+            "short_description": "Smashing Quality Since 2018",
+            "slug": "manhattan-american-diner",
+            "tags": [
+                "american",
+                "burger",
+                "bbq",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/manhattan-american-diner"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629de5d7c56fe3bd73a4e827/9f5d1ba0-e58c-11ec-a2ae-fef846154581_a683a750_3aca_11eb_b38c_7ee809701ae2_8260e220_19b9_11eb_b0f2_b647cc9faea7_d89d0142_d570_11ea_b3c7_3afc75d790c1_1656903e_7ff4_11ea_980b_0a586467d907_yaelitz__3___1_.jpg",
+                "logo": null
+            },
+            "title": "Aroma | The German Colony",
+            "name": "Aroma | The German Colony",
+            "track_id": "venue-aroma-the-german-colony",
+            "address": "בן גוריון 8, חיפה",
+            "venue_id": "629de5d7c56fe3bd73a4e827",
+            "location": [
+                34.9919587,
+                32.8227499
+            ],
+            "short_description": "Espresso Bar\n",
+            "slug": "aroma-the-german-colony",
+            "tags": [
+                "breakfast",
+                "café",
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/aroma-the-german-colony"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628e3377b8e4280f737ad200/7c597b08-dc31-11ec-992b-c2480175f976_8e040edc_227d_11eb_831d_c2c1942e279a____________1.jpg",
+                "logo": null
+            },
+            "title": "La Goffre | Haifa",
+            "name": "La Goffre | Haifa",
+            "track_id": "venue-la-goffre-haifa",
+            "address": "בן גוריון 25, חיפה",
+            "venue_id": "628e3377b8e4280f737ad200",
+            "location": [
+                34.9911137,
+                32.820527
+            ],
+            "short_description": "Gelateria and Waffle House\n",
+            "slug": "la-goffre-haifa",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/la-goffre-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f8699724d1816ba5a35bf/de84ff54-e015-11ec-a5db-8a1e017dcb76_yaelitz_4.jpg",
+                "logo": null
+            },
+            "title": "Shtroudl",
+            "name": "Shtroudl",
+            "track_id": "venue-shtroudl",
+            "address": "שדרות בן גוריון 39, חיפה",
+            "venue_id": "628f8699724d1816ba5a35bf",
+            "location": [
+                34.9903608,
+                32.8194281
+            ],
+            "short_description": "Middle Eastern Restaurant",
+            "slug": "shtroudl",
+            "tags": [
+                "fish",
+                "mediterranean",
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/shtroudl"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62933fc34937ae860a821b7e/e1eaaf08-e273-11ec-ac23-f67347e71051_haifa_day_31_may19092.jpg",
+                "logo": null
+            },
+            "title": "Al Sultan",
+            "name": "Al Sultan",
+            "track_id": "venue-al-sultan",
+            "address": "הרצליה 10, חיפה",
+            "venue_id": "62933fc34937ae860a821b7e",
+            "location": [
+                34.9934682,
+                32.8123286
+            ],
+            "short_description": "Fresh Grill",
+            "slug": "al-sultan",
+            "tags": [
+                "grill",
+                "chicken",
+                "new"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/al-sultan"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6298c38decbd00dc6a0c4fba/22c3322e-e27f-11ec-bf4d-624a737f3360_yaelitz_3.jpg",
+                "logo": null
+            },
+            "title": "Fattoush",
+            "name": "Fattoush",
+            "track_id": "venue-fattoush",
+            "address": "שדרות בן גוריון 38, חיפה",
+            "venue_id": "6298c38decbd00dc6a0c4fba",
+            "location": [
+                34.9898846,
+                32.8193413
+            ],
+            "short_description": "Mediterranean Restaurant",
+            "slug": "fattoush",
+            "tags": [
+                "fish",
+                "mediterranean",
+                "vegetarian",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/fattoush"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a23838809bc99c2b2f092/aee7c782-e04b-11ec-bce6-36da9e32a840_list.jpg",
+                "logo": null
+            },
+            "title": "Igloo Yogurt Bar",
+            "name": "Igloo Yogurt Bar",
+            "track_id": "venue-igloo-yogurt-bar",
+            "address": "בן גוריון 36, חיפה",
+            "venue_id": "628a23838809bc99c2b2f092",
+            "location": [
+                34.9898529,
+                32.8195364
+            ],
+            "short_description": "Yogurt - Ice Cream - Desserts",
+            "slug": "igloo-yogurt-bar",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/igloo-yogurt-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6295fa48fb5a0c67298e49bd/e0a37d6e-e24b-11ec-bde3-f293a2150a18_haifa_day_yay16975.jpg",
+                "logo": null
+            },
+            "title": "Knaffe Talpiot",
+            "name": "Knaffe Talpiot",
+            "track_id": "venue-knaffe-talpiot",
+            "address": "סירקין 31, חיפה",
+            "venue_id": "6295fa48fb5a0c67298e49bd",
+            "location": [
+                35.0019211,
+                32.8090707
+            ],
+            "short_description": "Knafeh and Homemade Ice Cream | A little effort that worth it!🌟",
+            "slug": "knaffe-talpiot",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/knaffe-talpiot"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62972fae82bd97b4a89c0b39/58b93c94-ead0-11ec-b9ca-e6b76644f295_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Taipei",
+            "name": "Taipei",
+            "track_id": "venue-taipei",
+            "address": "יפה נוף 108, חיפה",
+            "venue_id": "62972fae82bd97b4a89c0b39",
+            "location": [
+                34.9882184,
+                32.8061714
+            ],
+            "short_description": "Traditional Chinese Restaurant",
+            "slug": "taipei",
+            "tags": [
+                "asian",
+                "noodles",
+                "fish",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/taipei"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628e051779089cd4b645586c/4def2a4e-dc16-11ec-be0b-9260a2567250_0b658272_0b0b_11ec_841c_be57a65ed087_img_9401_edit.jpg",
+                "logo": null
+            },
+            "title": "Pasta Basta | Haifa",
+            "name": "Pasta Basta | Haifa",
+            "track_id": "venue-pasta-basta-haifa",
+            "address": "מוריה 12, חיפה",
+            "venue_id": "628e051779089cd4b645586c",
+            "location": [
+                34.9834556,
+                32.8016594
+            ],
+            "short_description": "We came from the shuk\n",
+            "slug": "pasta-basta-haifa",
+            "tags": [
+                "italian",
+                "pasta",
+                "salad",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/pasta-basta-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628cd10fff8f9c82125a6480/8f419b60-ed52-11ec-a517-068f4522258b_________________.jpeg",
+                "logo": null
+            },
+            "title": "Mc'Glida® Haifa Mall",
+            "name": "Mc'Glida® Haifa Mall",
+            "track_id": "venue-mcglida-azrieli",
+            "address": "משה פלידמן 4, חיפה",
+            "venue_id": "628cd10fff8f9c82125a6480",
+            "location": [
+                34.962283,
+                32.790268
+            ],
+            "short_description": "Mc'Ice-Cream",
+            "slug": "mcglida-azrieli",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcglida-azrieli"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628c84295ec03ae6bef2509b/149c9dd4-db31-11ec-b7bb-3ef4c69c75ee_1d27aaee_b450_11e9_9362_0a586460181c_yaelitz_10.jpg",
+                "logo": null
+            },
+            "title": "Captain Burger | Haifa",
+            "name": "Captain Burger | Haifa",
+            "track_id": "venue-captain-burger-haifa",
+            "address": "שדרות טרומפלדור 53, חיפה",
+            "venue_id": "628c84295ec03ae6bef2509b",
+            "location": [
+                35.01453318761183,
+                32.78278971867876
+            ],
+            "short_description": "There's nothing like the Captain\n",
+            "slug": "captain-burger-haifa",
+            "tags": [
+                "burger",
+                "street food",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/captain-burger-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6285f84e41075d9a8389fda7/a411cc6e-e59f-11ec-b5c2-8afbadf424dc_list_1.jpg",
+                "logo": null
+            },
+            "title": "Zus",
+            "name": "Zus",
+            "track_id": "venue-zus",
+            "address": "שדרות הנשיא 134, חיפה",
+            "venue_id": "6285f84e41075d9a8389fda7",
+            "location": [
+                34.98576971534664,
+                32.803217566705015
+            ],
+            "short_description": "Greek Mediterranean Cuisine",
+            "slug": "zus",
+            "tags": [
+                "grill",
+                "mediterranean",
+                "street food",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/zus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f232248f3e81c09b2d658/7e94c550-dcc0-11ec-87b6-4e62cf3ac118_df23afba_b171_11eb_811e_36963aa194ba_list.jpeg",
+                "logo": null
+            },
+            "title": "Landwer | Carmel Center",
+            "name": "Landwer | Carmel Center",
+            "track_id": "venue-landwer-carmel-center",
+            "address": "שדרות הנשיא 134, חיפה",
+            "venue_id": "628f232248f3e81c09b2d658",
+            "location": [
+                34.9857268,
+                32.8031725
+            ],
+            "short_description": "Coffee & Good Food\n",
+            "slug": "landwer-carmel-center",
+            "tags": [
+                "café",
+                "pasta",
+                "kids",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/landwer-carmel-center"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6295eedfc7251ebcf75c5c62/a4dd461c-e0ce-11ec-bb01-bae502136eaf_c10e77a0_9eb8_11ec_9313_d672d6b1a1d0_58463a32_9df5_11ec_b436_7ee71934c123_yaelitz_9.jpeg",
+                "logo": null
+            },
+            "title": "Agadir | Haifa",
+            "name": "Agadir | Haifa",
+            "track_id": "venue-agadir-haifa",
+            "address": "פינסקי דוד 6, חיפה",
+            "venue_id": "6295eedfc7251ebcf75c5c62",
+            "location": [
+                34.983086,
+                32.802066
+            ],
+            "short_description": "100% Local Fresh Beef Burger\n",
+            "slug": "agadir-haifa",
+            "tags": [
+                "american",
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/agadir-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f41b82cef236fb5cd5f4a/929e8a42-dcd2-11ec-8475-7ac3c96c6cfb_7791e39c_dd8d_11eb_81a6_76474c482192___35.jpg",
+                "logo": null
+            },
+            "title": "Knafeh Haknufia | Haifa",
+            "name": "Knafeh Haknufia | Haifa",
+            "track_id": "venue-knafeh-haknufia-haifa",
+            "address": "סעדיה גאון 9, חיפה",
+            "venue_id": "628f41b82cef236fb5cd5f4a",
+            "location": [
+                34.9623542,
+                32.8187928
+            ],
+            "short_description": "Hot and Fresh Knafeh",
+            "slug": "knafeh-haknufia-haifa",
+            "tags": [
+                "dessert",
+                "mediterranean",
+                "sweets",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/knafeh-haknufia-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6296248130debbf4e2c10ea7/ab21197c-e7c7-11ec-84a5-9670bebe3e90_____.jpg",
+                "logo": null
+            },
+            "title": "Haled Adawi Express",
+            "name": "Haled Adawi Express",
+            "track_id": "venue-haled-adawi-express",
+            "address": "רב אלוף יעקב דורי 20, חיפה",
+            "venue_id": "6296248130debbf4e2c10ea7",
+            "location": [
+                35.0242094,
+                32.7814905
+            ],
+            "short_description": "Oriental cuisine, Israeli Arab",
+            "slug": "haled-adawi-express",
+            "tags": [
+                "mediterranean",
+                "middle eastern",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/haled-adawi-express"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62962d07ac85b51ee0642893/fe93b9a2-e7c7-11ec-b64f-9aa9c9be166e______________.jpg",
+                "logo": null
+            },
+            "title": "HaSchnitzelia | Haifa",
+            "name": "HaSchnitzelia | Haifa",
+            "track_id": "venue-haschnitzelia",
+            "address": "רב אלוף יעקב דורי 20, חיפה",
+            "venue_id": "62962d07ac85b51ee0642893",
+            "location": [
+                35.0242094,
+                32.7814905
+            ],
+            "short_description": "Authentic Northern Shcnitzel ",
+            "slug": "haschnitzelia",
+            "tags": [
+                "chicken",
+                "new"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/haschnitzelia"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62962630f810361990366618/18613806-e7cc-11ec-9290-9670bebe3e90_list.jpg",
+                "logo": null
+            },
+            "title": "Duzan",
+            "name": "Duzan",
+            "track_id": "venue-duzan",
+            "address": "בן גוריון 35, חיפה",
+            "venue_id": "62962630f810361990366618",
+            "location": [
+                34.9906853,
+                32.8198812
+            ],
+            "short_description": "Lebanese | French | Italian",
+            "slug": "duzan",
+            "tags": [
+                "french",
+                "italian",
+                "lebanese",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/duzan"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628e25777a34414788e16b8d/e0cc4dd8-e03f-11ec-a908-1efcc686c258_____.jpg",
+                "logo": null
+            },
+            "title": "Moriah",
+            "name": "Moriah",
+            "track_id": "venue-moriah",
+            "address": "מוריה 105, חיפה",
+            "venue_id": "628e25777a34414788e16b8d",
+            "location": [
+                34.9866816,
+                32.7905745
+            ],
+            "short_description": "Food That Makes You Feel Good |  Vegan, Gluten-Free",
+            "slug": "moriah",
+            "tags": [
+                "salad",
+                "vegan",
+                "indian",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/moriah"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6297303d83e94dcef1ccfdee/13064864-e18d-11ec-b42c-5a725add580c_d778ae0a_097d_11ec_a326_3ec08ee8a972_054a3443.jpg",
+                "logo": null
+            },
+            "title": "Black | Lev HaMifratz",
+            "name": "Black | Lev HaMifratz",
+            "track_id": "venue-black-lev-hamifratz",
+            "address": "ההסתדרות 55, חיפה",
+            "venue_id": "6297303d83e94dcef1ccfdee",
+            "location": [
+                35.0377411,
+                32.7934932
+            ],
+            "short_description": "Bar 'n' Burger\n",
+            "slug": "black-lev-hamifratz",
+            "tags": [
+                "kids",
+                "salad",
+                "burger",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/black-lev-hamifratz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628c94cab38c07eaf5fd38a4/434e8602-db3a-11ec-9ded-363aecd57c0f_8e655e3e_3a16_11eb_acc3_cad36a4e6996_8303aff0_f5c9_11ea_a8d9_eaa9da013e0f_____.jpg",
+                "logo": null
+            },
+            "title": "Arcaffé | Haifa",
+            "name": "Arcaffé | Haifa",
+            "track_id": "venue-arcaff-haifa",
+            "address": "אוסקר שינדלר 7, חיפה",
+            "venue_id": "628c94cab38c07eaf5fd38a4",
+            "location": [
+                35.0130596,
+                32.7669398
+            ],
+            "short_description": "Coffee and more\n",
+            "slug": "arcaff-haifa",
+            "tags": [
+                "breakfast",
+                "coffee",
+                "sandwich",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/arcaff-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628e2b5e85a8d968ac4c9c7e/e6ede4d6-dc2c-11ec-ac9d-ee646e81849d_29accdaa_28f1_11eb_966a_ca8fdacbc972_dsc00959.jpg",
+                "logo": null
+            },
+            "title": "Piano Piano | Haifa",
+            "name": "Piano Piano | Haifa",
+            "track_id": "venue-piano-piano-haifa",
+            "address": "ההסתדרות 55, חיפה",
+            "venue_id": "628e2b5e85a8d968ac4c9c7e",
+            "location": [
+                35.0377411,
+                32.7934932
+            ],
+            "short_description": "Hot Italian Cuisine\n",
+            "slug": "piano-piano-haifa",
+            "tags": [
+                "italian",
+                "kids",
+                "pasta",
+                "new"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/piano-piano-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628620e85dd513c6259e1483/48d4bb06-eb01-11ec-b489-6af37cad47ec_____________.jpg",
+                "logo": null
+            },
+            "title": "Tatami | HaCarmel",
+            "name": "Tatami | HaCarmel",
+            "track_id": "venue-tatami-hacarmel",
+            "address": "שדרות הנשיא 134, חיפה",
+            "venue_id": "628620e85dd513c6259e1483",
+            "location": [
+                34.98567315581955,
+                32.80316799332796
+            ],
+            "short_description": "Sushi & Asian Kitchen",
+            "slug": "tatami-hacarmel",
+            "tags": [
+                "asian",
+                "noodles",
+                "sushi",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/tatami-hacarmel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62865df743f17408deed96a7/d6f6b922-dc27-11ec-b894-6af413c3164e_____.jpg",
+                "logo": null
+            },
+            "title": "Eataliano",
+            "name": "Eataliano",
+            "track_id": "venue-eataliano-dalla-costa",
+            "address": "העליה השניה 96, חיפה",
+            "venue_id": "62865df743f17408deed96a7",
+            "location": [
+                34.9704919,
+                32.83139079999998
+            ],
+            "short_description": "Pasta | Fish | Seafood",
+            "slug": "eataliano-dalla-costa",
+            "tags": [
+                "fish",
+                "italian",
+                "pasta",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/eataliano-dalla-costa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628b7266c56535030e855ecd/137a2088-da8d-11ec-b9af-3292b567d6f7_________.png",
+                "logo": null
+            },
+            "title": "McDonald’s® Haifa Mall",
+            "name": "McDonald’s® Haifa Mall",
+            "track_id": "venue-mcdonalds-azrieli",
+            "address": "משה פלידמן 4, חיפה",
+            "venue_id": "628b7266c56535030e855ecd",
+            "location": [
+                34.963625267936614,
+                32.78964434437129
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-azrieli",
+            "tags": [
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcdonalds-azrieli"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628b47aa4e7ff71b41b86ebb/a160e28e-da73-11ec-bce6-0ae24c0968ef_________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Hadar Haifa",
+            "name": "McDonald's® Hadar Haifa",
+            "track_id": "venue-mcdonalds-hadar",
+            "address": "הרצל 18, חיפה",
+            "venue_id": "628b47aa4e7ff71b41b86ebb",
+            "location": [
+                34.997502799999964,
+                32.81135920000002
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-hadar",
+            "tags": [
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcdonalds-hadar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6280e977b7a1ffb8988e3179/f5be7cbc-d445-11ec-ae60-9633c3626e48_________.png",
+                "logo": null
+            },
+            "title": "McDonald's® City Center",
+            "name": "McDonald's® City Center",
+            "track_id": "venue-mcdonalds-city-center-haifa",
+            "address": "שדרות בן גוריון 6, חיפה",
+            "venue_id": "6280e977b7a1ffb8988e3179",
+            "location": [
+                34.9918239,
+                32.8230635
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-city-center-haifa",
+            "tags": [
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcdonalds-city-center-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f2fccee6758e494fb2f00/206371a4-dcc8-11ec-a5a4-d6d8feca63b0_df23afba_b171_11eb_811e_36963aa194ba_list.jpeg",
+                "logo": null
+            },
+            "title": "Landwer | Grand Mall Haifa",
+            "name": "Landwer | Grand Mall Haifa",
+            "track_id": "venue-landwer-grand-mall-haifa",
+            "address": "שמחה גולן 54, חיפה",
+            "venue_id": "628f2fccee6758e494fb2f00",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "short_description": "Coffee & Good Food\n",
+            "slug": "landwer-grand-mall-haifa",
+            "tags": [
+                "café",
+                "pasta",
+                "salad",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/landwer-grand-mall-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628cbb98d5c8ddf02211f972/b51e0868-e01f-11ec-aaa1-7ef211e81307_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Izmir",
+            "name": "Izmir",
+            "track_id": "venue-izmir",
+            "address": "משה אהרון 8, חיפה",
+            "venue_id": "628cbb98d5c8ddf02211f972",
+            "location": [
+                34.9994896,
+                32.8183452
+            ],
+            "short_description": "Turkish Bourekas from Izmir",
+            "slug": "izmir",
+            "tags": [
+                "mediterranean",
+                "middle eastern",
+                "pastry",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/izmir"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62989e3b3adcdfef786948af/d52371dc-e7c9-11ec-9c4f-2e257c954569_list.jpg",
+                "logo": null
+            },
+            "title": "Sabich Atahtit",
+            "name": "Sabich Atahtit",
+            "track_id": "venue-downtown-sabich",
+            "address": "הנמל 27, חיפה",
+            "venue_id": "62989e3b3adcdfef786948af",
+            "location": [
+                35.0008502,
+                32.8184404
+            ],
+            "short_description": "The Original Downtown Sabich",
+            "slug": "downtown-sabich",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "vegetarian",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/downtown-sabich"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628cb1b798a4c3985a5e0be1/914d2330-e01d-11ec-94f2-4e3b7faf15e8_____.jpg",
+                "logo": null
+            },
+            "title": "Falafel Mishel",
+            "name": "Falafel Mishel",
+            "track_id": "venue-falafel-mishel",
+            "address": "דרך יפו 39, חיפה",
+            "venue_id": "628cb1b798a4c3985a5e0be1",
+            "location": [
+                34.9967843,
+                32.8198975
+            ],
+            "short_description": "Haifa Wadi Experience",
+            "slug": "falafel-mishel",
+            "tags": [
+                "falafel",
+                "mediterranean",
+                "middle eastern",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/falafel-mishel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628f6608795fdd97f7f71b7b/24dbb5fa-dce8-11ec-bba8-3228eb940f54_2be5d7dc_7158_11ec_a0f7_82fb6268a01d_ac25cf66_e7a6_11ea_bcaa_2ea6c6a4d759_1.png",
+                "logo": null
+            },
+            "title": "B-FRESH Kosher | Grand Mall Haifa",
+            "name": "B-FRESH Kosher | Grand Mall Haifa",
+            "track_id": "venue-b-fresh-haifa",
+            "address": "דרך שמחה גולן 54, חיפה",
+            "venue_id": "628f6608795fdd97f7f71b7b",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "short_description": "Drinks | Health | Tapioca | Kosher",
+            "slug": "b-fresh-haifa",
+            "tags": [
+                "dessert",
+                "fruit",
+                "healthy",
+                "kosher",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/b-fresh-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6295c330396b1a936e4abf31/a408586e-ea22-11ec-ba77-ea519073f466_5ef5aba4_ea19_11ec_bbc3_7e189018c03b_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Bardichev Hummus | Neve Sha'anan",
+            "name": "Bardichev Hummus | Neve Sha'anan",
+            "track_id": "venue-bardichev-hummus-neve-shaanan",
+            "address": "שדרות טרומפלדור 53, חיפה",
+            "venue_id": "6295c330396b1a936e4abf31",
+            "location": [
+                35.0144136,
+                32.7826417
+            ],
+            "short_description": "Fresh Hummus & More",
+            "slug": "bardichev-hummus-neve-shaanan",
+            "tags": [
+                "salad",
+                "vegan",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/bardichev-hummus-neve-shaanan"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6298cc4d67f415ec72c2bb20/70a4ab5c-e2fd-11ec-9a4c-069103fa87c8_____.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Bambino",
+            "name": "Shawarma Bambino",
+            "track_id": "venue-shawarma-bambino",
+            "address": "הבנקים 2, חיפה",
+            "venue_id": "6298cc4d67f415ec72c2bb20",
+            "location": [
+                34.9971918,
+                32.8202064
+            ],
+            "short_description": "Haifa Shawarma",
+            "slug": "shawarma-bambino",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/shawarma-bambino"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b78ed401d06b5383f6849/35b66702-d77b-11ec-bb51-4e1e3dd204f2_____.jpg",
+                "logo": null
+            },
+            "title": "Yafa 39",
+            "name": "Yafa 39",
+            "track_id": "venue-yafa-39",
+            "address": "דרך יפו 39, חיפה",
+            "venue_id": "627b78ed401d06b5383f6849",
+            "location": [
+                34.9967843,
+                32.8198975
+            ],
+            "short_description": "Bistro. Cafe",
+            "slug": "yafa-39",
+            "tags": [
+                "breakfast",
+                "salad",
+                "pasta",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/yafa-39"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627d582720b31d27ec80f69b/5848ee24-dcfe-11ec-8ba3-66aad2c7cf72_____.jpg",
+                "logo": null
+            },
+            "title": "Shula",
+            "name": "Shula",
+            "track_id": "venue-shula-haifa",
+            "address": "שער פלמר 2, חיפה",
+            "venue_id": "627d582720b31d27ec80f69b",
+            "location": [
+                35.00013740000001,
+                32.8201615
+            ],
+            "short_description": "Tiberian cuisine",
+            "slug": "shula-haifa",
+            "tags": [
+                "homemade",
+                "mediterranean",
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/shula-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6285fefff89dd3fb45f0156f/3a54a8ac-dcce-11ec-82a8-7ac3c96c6cfb_yaelitz_3.jpg",
+                "logo": null
+            },
+            "title": "Efi's Kubeh",
+            "name": "Efi's Kubeh",
+            "track_id": "venue-efis-kubeh",
+            "address": "שער פלמר 2, חיפה",
+            "venue_id": "6285fefff89dd3fb45f0156f",
+            "location": [
+                35.00013740000001,
+                32.8201615
+            ],
+            "short_description": "Authentic Kubeh ",
+            "slug": "efis-kubeh",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/efis-kubeh"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627cdced6fc0e1674769101a/abbe5a96-e7e2-11ec-b19e-9a382ec37037______________.jpg",
+                "logo": null
+            },
+            "title": "Brisket Art Food",
+            "name": "Brisket Art Food",
+            "track_id": "venue-brisket-art-food",
+            "address": "נאמנים 3, חיפה",
+            "venue_id": "627cdced6fc0e1674769101a",
+            "location": [
+                34.9962789,
+                32.8195855
+            ],
+            "short_description": "Smoked Meat ",
+            "slug": "brisket-art-food",
+            "tags": [
+                "bbq",
+                "mediterranean",
+                "street food",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/brisket-art-food"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62824954e3ac9543d0f7b830/f036cf04-dc26-11ec-9311-f602c24755cf_____.jpg",
+                "logo": null
+            },
+            "title": "Oyster Food Truck",
+            "name": "Oyster Food Truck",
+            "track_id": "venue-oyster-food-truck",
+            "address": "דרך העצמאות 67, חיפה",
+            "venue_id": "62824954e3ac9543d0f7b830",
+            "location": [
+                34.9967128,
+                32.821301
+            ],
+            "short_description": "Sea Food & Meat Kitchen",
+            "slug": "oyster-food-truck",
+            "tags": [
+                "bbq",
+                "fish",
+                "seafood",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/oyster-food-truck"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627ba968ab8a7ab0b3a51550/ef2f29a4-dd01-11ec-b5d3-0684af0a4369_list_copy.jpg",
+                "logo": null
+            },
+            "title": "Carnitas",
+            "name": "Carnitas",
+            "track_id": "venue-carnitas",
+            "address": "נתנזון 6, חיפה",
+            "venue_id": "627ba968ab8a7ab0b3a51550",
+            "location": [
+                34.9988292,
+                32.8182544
+            ],
+            "short_description": "Meat & More",
+            "slug": "carnitas",
+            "tags": [
+                "sandwich",
+                "street food",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/carnitas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629339964937ae860a821680/a8d8da88-e66e-11ec-9f7a-fec29be02fa2______.jpg",
+                "logo": null
+            },
+            "title": "Newton",
+            "name": "Newton",
+            "track_id": "venue-newtonhaifa",
+            "address": "שער פלמר 3, חיפה",
+            "venue_id": "629339964937ae860a821680",
+            "location": [
+                34.9998612,
+                32.8194223
+            ],
+            "short_description": "Grill",
+            "slug": "newtonhaifa",
+            "tags": [
+                "chicken",
+                "grill",
+                "kebab",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/newtonhaifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62989085525556d2ca3605c7/755237fe-ea5b-11ec-9929-2aa9943d86a7______1.jpg",
+                "logo": null
+            },
+            "title": "La Tortilla",
+            "name": "La Tortilla",
+            "track_id": "venue-la-tortilla-haifa",
+            "address": "חטיב 8, חיפה",
+            "venue_id": "62989085525556d2ca3605c7",
+            "location": [
+                34.9994298,
+                32.8165907
+            ],
+            "short_description": "Mexican Cuisine",
+            "slug": "la-tortilla-haifa",
+            "tags": [
+                "street food",
+                "vegetarian",
+                "bbq",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/la-tortilla-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62823f18b38602105d85063e/30cb73aa-d77a-11ec-af55-ca2287f95d41_____.jpg",
+                "logo": null
+            },
+            "title": "Coloney Grill",
+            "name": "Coloney Grill",
+            "track_id": "venue-coloney-grill",
+            "address": "דרך אלנבי 56, חיפה",
+            "venue_id": "62823f18b38602105d85063e",
+            "location": [
+                34.98940109999999,
+                32.8189828
+            ],
+            "short_description": "Grill Restaurant",
+            "slug": "coloney-grill",
+            "tags": [
+                "bbq",
+                "grill",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/coloney-grill"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6295f289ad312fdfadd9637b/c43f28bc-e250-11ec-8c92-ea3c32cc0019_haifa_day_31_may18846.jpg",
+                "logo": null
+            },
+            "title": "Milè Mala",
+            "name": "Milè Mala",
+            "track_id": "venue-mil-mala",
+            "address": "סירקין 21, חיפה",
+            "venue_id": "6295f289ad312fdfadd9637b",
+            "location": [
+                35.0008168,
+                32.8096533
+            ],
+            "short_description": "Local Deli",
+            "slug": "mil-mala",
+            "tags": [
+                "bakery",
+                "sandwich",
+                "salad",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mil-mala"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627c12069a47319c29a1e7af/04d3d634-dc2f-11ec-ac97-ba99ffe1735c_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "Arabeska",
+            "name": "Arabeska",
+            "track_id": "venue-arabeska-haifa",
+            "address": "לונץ 7, שוק תלפיות, חיפה",
+            "venue_id": "627c12069a47319c29a1e7af",
+            "location": [
+                35.0022686,
+                32.807957
+            ],
+            "short_description": "When Taste Meets Love",
+            "slug": "arabeska-haifa",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "salad",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/arabeska-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629348e881348a9e2489bd7f/a2798acc-e70c-11ec-8e41-564a19a768c4_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "Hummus Ziv",
+            "name": "Hummus Ziv",
+            "track_id": "venue-hummus-ziv",
+            "address": "שד׳ טרומפלדור 54, חיפה",
+            "venue_id": "629348e881348a9e2489bd7f",
+            "location": [
+                35.0139927,
+                32.7831313
+            ],
+            "short_description": "Authentich Hummusia Haifa",
+            "slug": "hummus-ziv",
+            "tags": [
+                "vegan",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/hummus-ziv"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6294b73240440d165b4a2258/93507e98-ea22-11ec-81e1-f2a113a5c0c2_5ef5aba4_ea19_11ec_bbc3_7e189018c03b_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Bardichev Hummus | Haifa Mall",
+            "name": "Bardichev Hummus | Haifa Mall",
+            "track_id": "venue-bardichev-hummus-haifa-mall",
+            "address": "פלימן משה 4, חיפה",
+            "venue_id": "6294b73240440d165b4a2258",
+            "location": [
+                34.962283,
+                32.790268
+            ],
+            "short_description": "Fresh Hummus & More",
+            "slug": "bardichev-hummus-haifa-mall",
+            "tags": [
+                "salad",
+                "vegan",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/bardichev-hummus-haifa-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a5df61295e261cd466d47a/63f47912-ea4d-11ec-9a0f-2aa9943d86a7_17f93dfc_a841_11ec_8445_b2e83b12a32d_3bc401c4_dffe_11eb_8eb6_1a67962a395f_listlogo.png",
+                "logo": null
+            },
+            "title": "Strauss Ice Cream | South Haifa",
+            "name": "Strauss Ice Cream | South Haifa",
+            "track_id": "venue-strauss-ice-cream-north-haifa",
+            "address": "בודנהיימר 4, חיפה",
+            "venue_id": "62a5df61295e261cd466d47a",
+            "location": [
+                34.9649378,
+                32.8180858
+            ],
+            "short_description": "Moments of Happiness | Ice Cream",
+            "slug": "strauss-ice-cream-north-haifa",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/strauss-ice-cream-north-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a4d95da790c959ebba51b/eed3767c-dd0b-11ec-be4d-be4f7cf361d7_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "Tu Pizza",
+            "name": "Tu Pizza",
+            "track_id": "venue-tu-pizza",
+            "address": "משה גוט לוין 48, חיפה",
+            "venue_id": "628a4d95da790c959ebba51b",
+            "location": [
+                35.004263100000024,
+                32.7842766
+            ],
+            "short_description": "A Combination Of Taste & Quality",
+            "slug": "tu-pizza",
+            "tags": [
+                "italian",
+                "pizza",
+                "street food",
+                "kosher",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/tu-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628cb52e1cc93eb464465d02/b5063fa0-e24d-11ec-ad8c-aaebcbb2ec79_haifa_day_yay17095.jpg",
+                "logo": null
+            },
+            "title": "Pizza Tommy | Haifa",
+            "name": "Pizza Tommy | Haifa",
+            "track_id": "venue-pizza-tommyhaifa",
+            "address": "התיכון 86, חיפה",
+            "venue_id": "628cb52e1cc93eb464465d02",
+            "location": [
+                35.019176,
+                32.7863234
+            ],
+            "short_description": "Simply Italian Quality",
+            "slug": "pizza-tommyhaifa",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher",
+                "new"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/pizza-tommyhaifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628cdbb7cc6dfa019994be77/1c2193de-e7d9-11ec-91e5-2e5f52e7767c_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Mr. Corn | CineMall Lev Hamifratz",
+            "name": "Mr. Corn | CineMall Lev Hamifratz",
+            "track_id": "venue-mr-corn-lev-hamifratz",
+            "address": "ההסתדרות, 55, חיפה",
+            "venue_id": "628cdbb7cc6dfa019994be77",
+            "location": [
+                35.03764859519981,
+                32.793423695852944
+            ],
+            "short_description": "Corn Base Dishes & More",
+            "slug": "mr-corn-lev-hamifratz",
+            "tags": [
+                "snacks",
+                "vegetarian",
+                "kids",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mr-corn-lev-hamifratz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62989d10f2ab56cb8e71a5d1/90b0b1f4-ebe3-11ec-8dc2-aa1372892217_____.jpg",
+                "logo": null
+            },
+            "title": "Wok & Sandwich Station Kosher | Haifa",
+            "name": "Wok & Sandwich Station Kosher | Haifa",
+            "track_id": "venue-wok-sandwich-station-haifa",
+            "address": "שמחה גולן 54, חיפה",
+            "venue_id": "62989d10f2ab56cb8e71a5d1",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "short_description": "Station Sandwich Club",
+            "slug": "wok-sandwich-station-haifa",
+            "tags": [
+                "asian",
+                "kosher",
+                "noodles",
+                "kosher",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/wok-sandwich-station-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6295d5adc10dfc64b3236768/39ae0e72-e0be-11ec-82c7-c6b4526e6da5__________.jpeg",
+                "logo": null
+            },
+            "title": "Biga Kosher | Haifa",
+            "name": "Biga Kosher | Haifa",
+            "track_id": "venue-biga-kosher-haifa",
+            "address": "שמחה גולן 54, חיפה",
+            "venue_id": "6295d5adc10dfc64b3236768",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "short_description": "Coffee Place\n",
+            "slug": "biga-kosher-haifa",
+            "tags": [
+                "breakfast",
+                "italian",
+                "kids",
+                "kosher",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/biga-kosher-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6296303180983746322c9494/13d77b14-e7c8-11ec-8f09-9670bebe3e90______________.jpg",
+                "logo": null
+            },
+            "title": "HaSchnitzelia | Eged",
+            "name": "HaSchnitzelia | Eged",
+            "track_id": "venue-haschnitzelia-eged",
+            "address": "מאיר זורע 1, חיפה",
+            "venue_id": "6296303180983746322c9494",
+            "location": [
+                34.959218,
+                32.7936073
+            ],
+            "short_description": "Authentic Northern Shcnitzel ",
+            "slug": "haschnitzelia-eged",
+            "tags": [
+                "chicken",
+                "grill",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/haschnitzelia-eged"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62987b5ced421820ff314ce1/0fb05f18-e676-11ec-b393-1ee8ec53ef1c_haifa_1_jun19287.jpg",
+                "logo": null
+            },
+            "title": "Freshop | Cinemall Haifa",
+            "name": "Freshop | Cinemall Haifa",
+            "track_id": "venue-freshop-cinemall-haifa",
+            "address": "ההסתדרות 55, חיפה",
+            "venue_id": "62987b5ced421820ff314ce1",
+            "location": [
+                35.0377411,
+                32.7934932
+            ],
+            "short_description": "Shakes & Yogurt 100%FRESH\n",
+            "slug": "freshop-cinemall-haifa",
+            "tags": [
+                "fruit",
+                "juice",
+                "smoothie",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/freshop-cinemall-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a1347bbdf1a06082e9b53/c1af88b6-e01c-11ec-9ba5-224b7a27c898_____.jpg",
+                "logo": null
+            },
+            "title": "Delicato Gelato",
+            "name": "Delicato Gelato",
+            "track_id": "venue-delicato-gelato",
+            "address": "פלימן 8, חיפה",
+            "venue_id": "628a1347bbdf1a06082e9b53",
+            "location": [
+                34.9684901,
+                32.787904
+            ],
+            "short_description": "Real Italian Gelato",
+            "slug": "delicato-gelato",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/delicato-gelato"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62935bf43cfa7b24ca4f4f45/08c536d6-e6f5-11ec-8d49-6a1eb25715e5_haifa_1_jun19212.jpg",
+                "logo": null
+            },
+            "title": "Momo's Kubbeh",
+            "name": "Momo's Kubbeh",
+            "track_id": "venue-momos-kubbeh",
+            "address": "פלימן משה 8, חיפה",
+            "venue_id": "62935bf43cfa7b24ca4f4f45",
+            "location": [
+                34.9684901,
+                32.787904
+            ],
+            "short_description": "Home of Iraki food",
+            "slug": "momos-kubbeh",
+            "tags": [
+                "grill",
+                "mediterranean",
+                "salad",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/momos-kubbeh"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628b713b8d1ac267efc5480b/a375e0c8-db28-11ec-9fb8-32a91143ccd8_adcca272_063c_11eb_9aac_a2bf598189a1_6c038c68_025c_11eb_ab22_beda40e06550_whatsapp_image_2020_09_29_at_17.00.53.jpeg",
+                "logo": null
+            },
+            "title": "Burgeranch | Haifa",
+            "name": "Burgeranch | Haifa",
+            "track_id": "venue-burgeranch-haifa",
+            "address": "משה פילמן 4, חיפה",
+            "venue_id": "628b713b8d1ac267efc5480b",
+            "location": [
+                34.96493400516268,
+                32.78963813960833
+            ],
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-haifa",
+            "tags": [
+                "burger",
+                "kids",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/burgeranch-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a6e6f02920b1fbc01daf32/8da270be-eaea-11ec-ba00-8a07bdd04445_3348cec8_e3ad_11eb_8ca1_1ee91d797d85___24.jpeg",
+                "logo": null
+            },
+            "title": "Golda | Azrieli Haifa",
+            "name": "Golda | Azrieli Haifa",
+            "track_id": "venue-golda-azrieli-haifa",
+            "address": "משה פלימן 4 חיפה",
+            "venue_id": "62a6e6f02920b1fbc01daf32",
+            "location": [
+                34.96427437564757,
+                32.789743526554034
+            ],
+            "short_description": "Flavour Boutique",
+            "slug": "golda-azrieli-haifa",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/golda-azrieli-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62987ddea1ea05c925660ba9/3963b128-e259-11ec-a566-563243cfeed7_88aaf936_ce7c_11eb_90a0_1a07c1d3ecd6_bonfis_9999_328.jpg",
+                "logo": null
+            },
+            "title": "Freshop | Azrieli Haifa",
+            "name": "Freshop | Azrieli Haifa",
+            "track_id": "venue-freshop-azrielli-haifa",
+            "address": "פלימן 4, חיפה",
+            "venue_id": "62987ddea1ea05c925660ba9",
+            "location": [
+                34.962283,
+                32.790268
+            ],
+            "short_description": "Shakes & Yogurt 100%FRESH\n",
+            "slug": "freshop-azrielli-haifa",
+            "tags": [
+                "juice",
+                "smoothie",
+                "healthy",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/freshop-azrielli-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6289f8231cf2101fa9ffbe22/29763d90-e721-11ec-9ddd-ce7381a3f9a0_de6df06a_fa9d_11eb_93b0_925087c6b3c7_yaelitz__7_.jpg",
+                "logo": null
+            },
+            "title": "Eissalon",
+            "name": "Eissalon",
+            "track_id": "venue-eissalon",
+            "address": "אוסקר שינדלר 7, חיפה",
+            "venue_id": "6289f8231cf2101fa9ffbe22",
+            "location": [
+                35.0130596,
+                32.7669398
+            ],
+            "short_description": "Ice cream confectionery",
+            "slug": "eissalon",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "sweets",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/eissalon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62988218c9a32f49479a079a/3bbbfd1c-e264-11ec-b77f-bef5ea0b58bc_75cf76a4_b0ca_11eb_9163_1283cffafb77_________.jpeg",
+                "logo": null
+            },
+            "title": "Café Greg | Azrielli Haifa",
+            "name": "Café Greg | Azrielli Haifa",
+            "track_id": "venue-caf-greg-azrielli-haifa",
+            "address": "משה פלימן 4, חיפה",
+            "venue_id": "62988218c9a32f49479a079a",
+            "location": [
+                34.96598442298561,
+                32.789746039045006
+            ],
+            "short_description": "Restaurant & Cafe\n",
+            "slug": "caf-greg-azrielli-haifa",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/caf-greg-azrielli-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629889302c8fcd4f6732d731/7a54ffa6-e25a-11ec-8e12-5ae9ca7934e3_haifa_1_jun19269.jpg",
+                "logo": null
+            },
+            "title": "Freshop Ice Cream | Azrielli Haifa",
+            "name": "Freshop Ice Cream | Azrielli Haifa",
+            "track_id": "venue-freshop-ice-cream-azrielli-haifa",
+            "address": "פלימן 4, חיפה",
+            "venue_id": "629889302c8fcd4f6732d731",
+            "location": [
+                34.962283,
+                32.790268
+            ],
+            "short_description": "Ice cream & Yogurt 100%FRESH\n",
+            "slug": "freshop-ice-cream-azrielli-haifa",
+            "tags": [
+                "ice cream",
+                "smoothie",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/freshop-ice-cream-azrielli-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628659316dc738043d831f8a/ee503cba-e7d0-11ec-9d71-9aa9c9be166e_low_21.jpg",
+                "logo": null
+            },
+            "title": "Kukuritza | Kosher",
+            "name": "Kukuritza | Kosher",
+            "track_id": "venue-kukuritza",
+            "address": "קדושי יאסי 1, חיפה",
+            "venue_id": "628659316dc738043d831f8a",
+            "location": [
+                34.96401073884633,
+                32.79115503343074
+            ],
+            "short_description": "Everything that is chicken",
+            "slug": "kukuritza",
+            "tags": [
+                "chicken",
+                "fried chicken",
+                "sandwich",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/kukuritza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62865088c4026257fffc013e/acc8f9bc-ea32-11ec-bbf8-d6d74c87fa4e_ozohyaon_99.jpg",
+                "logo": null
+            },
+            "title": "Tatami Kosher | Haifa",
+            "name": "Tatami Kosher | Haifa",
+            "track_id": "venue-tatami-kosher-haifa",
+            "address": "קדושי יאסי 1, חיפה",
+            "venue_id": "62865088c4026257fffc013e",
+            "location": [
+                34.96404753825721,
+                32.791168029194345
+            ],
+            "short_description": "Sushi & Asian cuisine | Kosher",
+            "slug": "tatami-kosher-haifa",
+            "tags": [
+                "asian",
+                "noodles",
+                "sushi",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/tatami-kosher-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6297782bfb4b5010ca5f9479/337757c0-ea19-11ec-841d-0ece56c5d45d_____.jpg",
+                "logo": null
+            },
+            "title": "Cafe Mandarin | Haifa",
+            "name": "Cafe Mandarin | Haifa",
+            "track_id": "venue-cafe-mandarin",
+            "address": "פלימן 4, חיפה",
+            "venue_id": "6297782bfb4b5010ca5f9479",
+            "location": [
+                34.964750632294596,
+                32.789744383889264
+            ],
+            "short_description": "Great food, excellent coffee",
+            "slug": "cafe-mandarin",
+            "tags": [
+                "breakfast",
+                "café",
+                "italian",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/cafe-mandarin"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6280cc156dab72ef359d70b4/0ab7696a-d434-11ec-a392-f2f9a8169cf4_________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Grand Canyon | Food court",
+            "name": "McDonald's® Grand Canyon | Food court",
+            "track_id": "venue-mcdonalds-grand-canyon",
+            "address": "דרך שמחה גולן 54, חיפה",
+            "venue_id": "6280cc156dab72ef359d70b4",
+            "location": [
+                35.008007499999984,
+                32.78976930000002
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-grand-canyon",
+            "tags": [
+                "kids",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/mcdonalds-grand-canyon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a5dcaf421d40b656faf6eb/e2d1bd64-ea4b-11ec-9164-2e0a543331e6_17f93dfc_a841_11ec_8445_b2e83b12a32d_3bc401c4_dffe_11eb_8eb6_1a67962a395f_listlogo.png",
+                "logo": null
+            },
+            "title": "Strauss Ice Cream | North Haifa",
+            "name": "Strauss Ice Cream | North Haifa",
+            "track_id": "venue-strauss-ice-cream-south-haifa",
+            "address": "יגאל אלון 9, חיפה",
+            "venue_id": "62a5dcaf421d40b656faf6eb",
+            "location": [
+                35.0132916,
+                32.7775371
+            ],
+            "short_description": "Moments of Happiness | Ice Cream",
+            "slug": "strauss-ice-cream-south-haifa",
+            "tags": [
+                "ice cream",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/strauss-ice-cream-south-haifa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62962a435cda5da3daca0510/b53fb83c-e7c7-11ec-919e-3eeb383576c3_____.jpg",
+                "logo": null
+            },
+            "title": "Haled Adawi Express | Eged",
+            "name": "Haled Adawi Express | Eged",
+            "track_id": "venue-haled-adawi-express-eged",
+            "address": "מאיר זורע 1, חיפה",
+            "venue_id": "62962a435cda5da3daca0510",
+            "location": [
+                34.959218,
+                32.7936073
+            ],
+            "short_description": "Oriental cuisine, Israeli Arab",
+            "slug": "haled-adawi-express-eged",
+            "tags": [
+                "mediterranean",
+                "middle eastern",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/haled-adawi-express-eged"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629df1f0a5ec6ba4424905b1/13f7e206-ea15-11ec-aa55-ba81a66391d4_6037b0ec_a051_11eb_90f1_261a225b2daf_________.jpeg",
+                "logo": null
+            },
+            "title": "Cafe Greg Kosher | Lev Hamifratz",
+            "name": "Cafe Greg Kosher | Lev Hamifratz",
+            "track_id": "venue-cafe-greg-lev-hamifratz",
+            "address": "ההסתדרות 55, חיפה",
+            "venue_id": "629df1f0a5ec6ba4424905b1",
+            "location": [
+                35.0377411,
+                32.7934932
+            ],
+            "short_description": "Restaurant & Cafe\n",
+            "slug": "cafe-greg-lev-hamifratz",
+            "tags": [
+                "breakfast",
+                "café",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/haifa/venue/cafe-greg-lev-hamifratz"
+            },
+            "provider": "wolt"
+        }
+    ]
+}

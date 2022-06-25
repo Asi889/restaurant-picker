@@ -1,10 +1,11 @@
-import { Restaurant } from './../../types/FetchRestaurantTyp';
+import { RestaurantType } from "../../types/FetchRestaurantTyp";
+import { Restaurant } from "../../types/FetchSubRestaurantTypes";
 import { ActionTypes } from "../contants/action-type";
 // ({tenbisRestaurants: allRestaurants?.tenBisData, Restaurants: allRestaurants?.woltData, both:[...allRestaurants?.woltData, ...allRestaurants?.tenBisData]})
 type AllRestaurants = {
-  tenbisRestaurants: Restaurant[];
-  Restaurants: Restaurant[];
-  both: Restaurant[]
+  tenbisRestaurants: RestaurantType[];
+  woltRestaurants: RestaurantType[];
+  both: RestaurantType[]
 };
 type FilterTypes = {
   Restaurants: boolean,
@@ -26,17 +27,23 @@ export const setRestaurants = (restaurants: AllRestaurants) => {
   };
 };
 
-export const setSelectedRestaurant = (restaurant: Restaurant ) => {
+export const setSelectedRestaurant = (restaurant: RestaurantType ) => {
   return {
     type: ActionTypes.SET_SELECTED_RESTAURANT,
     payload: restaurant,
   };
 };
-export const setFiftyRestaurants = (restaurants: Restaurant[] ) => {
+export const setFiftyRestaurants = (restaurants: RestaurantType[] ) => {
 // export const setFiftyRestaurants = (restaurants: any  ) => {
   return {
     type: ActionTypes.SET_FIFTY_RESTAURANTS,
     payload: restaurants,
+  };
+};
+export const setCurrentCity = (payload:string  ) => {
+  return {
+    type: ActionTypes.SET_CURRENT_CITY,
+    payload
   };
 };
 export const setFilterType = (filterTypes: FilterTypes  ) => {

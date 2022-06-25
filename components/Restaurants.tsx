@@ -5,7 +5,6 @@ import { checkFilters, vibrate } from "../src/utils";
 import Slot from "./Slot";
 import SlotArm from "./SlotArm";
 import Triangle from "./svgs/Triangle";
-import { TenBisRestaurant, WoltRestaurant } from "../src/types/FetchRestaurantTyp";
 
 type Props = {
   selectedActivSet: Function;

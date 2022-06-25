@@ -1,9 +1,7 @@
-import { TenBisRestaurant, WoltRestaurant } from "../types/FetchRestaurantTyp";
-import {store} from '../redux/store';
-import { setFiftyRestaurants, setFilterType } from "../redux/actions/clienActions";
-import { shuffle } from "./shuffle";
-import { filterByProvider } from "./filterByProvider";
+import { setFilterType } from "../redux/actions/clienActions";
+import { store } from '../redux/store';
 import { StateProp } from "../types/FetchSubRestaurantTypes";
+import { filterByProvider } from "./filterByProvider";
 
 export const filterProviderType= (name: string) =>{
 
@@ -26,7 +24,7 @@ export const filterProviderType= (name: string) =>{
           }
   
           if(filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === false){
-            store. dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
+            store.dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
             filterByProvider("both")      
             return
           }

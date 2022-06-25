@@ -1,0 +1,718 @@
+{
+    "lastScrapeDate": 1656174397882,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.877958&lon=34.739449",
+    "restaurants": [
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607319bf57508e7885f881d0/8a5b23c8-9add-11eb-91f5-0ad83b93a918____________.jpeg",
+                "logo": null
+            },
+            "title": "Landwer | Yavne",
+            "name": "Landwer | Yavne",
+            "track_id": "venue-landwer-cafe-yavne",
+            "address": "הדוגית 16, יבנה",
+            "venue_id": "607319bf57508e7885f881d0",
+            "location": [
+                34.735896,
+                31.866917
+            ],
+            "short_description": "Coffee & good food",
+            "slug": "landwer-cafe-yavne",
+            "tags": [
+                "salad",
+                "sandwich",
+                "breakfast"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/landwer-cafe-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60a397a2daa7e655e5b65f54/e6fedef2-5032-11ec-acbc-faed3c681cfa__________.jpg",
+                "logo": null
+            },
+            "title": "rebar | Yavne",
+            "name": "rebar | Yavne",
+            "track_id": "venue-rebar-yavne",
+            "address": "הקישון 4",
+            "venue_id": "60a397a2daa7e655e5b65f54",
+            "location": [
+                34.73371252864701,
+                31.886427094477863
+            ],
+            "short_description": "Smoothies, Juices, Wellness Choices\n",
+            "slug": "rebar-yavne",
+            "tags": [
+                "smoothie",
+                "healthy",
+                "fruit"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/rebar-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e03f7fddfbaa581526dfa0/d95aa9ce-7487-11ec-baac-36e42dbd8481_51129996_5290_11ec_b96b_2273c7d15048_list4.jpg",
+                "logo": null
+            },
+            "title": "Cafe lyon | Yavne",
+            "name": "Cafe lyon | Yavne",
+            "track_id": "venue-cafe-lyon-yavne",
+            "address": "הנחשול 22, יבנה",
+            "venue_id": "61e03f7fddfbaa581526dfa0",
+            "location": [
+                34.7394643,
+                31.8630364
+            ],
+            "short_description": "Modern French Cafe",
+            "slug": "cafe-lyon-yavne",
+            "tags": [
+                "café",
+                "french",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/cafe-lyon-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6087ec5f42060ebe354770c3/7f175c5c-e3ad-11eb-b721-1ee91d797d85___24.jpg",
+                "logo": null
+            },
+            "title": "Golda | Yavne",
+            "name": "Golda | Yavne",
+            "track_id": "venue-golda-yavne",
+            "address": "הדוגית 16, יבנה",
+            "venue_id": "6087ec5f42060ebe354770c3",
+            "location": [
+                34.73573406560291,
+                31.86607085359066
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-yavne",
+            "tags": [
+                "ice cream",
+                "dessert"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/golda-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c208a7f1774e05d7d8398/40ee2586-a04c-11eb-9da0-0ef5d707212e__________.jpeg",
+                "logo": null
+            },
+            "title": "River | Yavne",
+            "name": "River | Yavne",
+            "track_id": "venue-river-yavne",
+            "address": "הדוגית 16, יבנה",
+            "venue_id": "607c208a7f1774e05d7d8398",
+            "location": [
+                34.73589599999998,
+                31.866917
+            ],
+            "short_description": "Noodles & Sushi",
+            "slug": "river-yavne",
+            "tags": [
+                "noodles",
+                "sushi",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/river-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6092b571cf6b51a477b812dd/f34c672c-b59d-11eb-b9f5-ce279a5c61e0_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "White Sushi Bar",
+            "name": "White Sushi Bar",
+            "track_id": "venue-white-sushi-bar",
+            "address": "שידלובסקי 1, יבנה",
+            "venue_id": "6092b571cf6b51a477b812dd",
+            "location": [
+                34.734242,
+                31.89112709999999
+            ],
+            "short_description": "Sushi. Alcohol. Fish. Meat",
+            "slug": "white-sushi-bar",
+            "tags": [
+                "sushi",
+                "japanese",
+                "noodles"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/white-sushi-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60c1cefc5858e0e5d4543185/8080370a-485a-11ec-9ffb-92e694d97340_whatsapp_image_2021_11_16_at_12.11.42__1_.jpeg",
+                "logo": null
+            },
+            "title": "B Burger | Yavne",
+            "name": "B Burger | Yavne",
+            "track_id": "venue-b-burger",
+            "address": "הדרור 14, יבנה",
+            "venue_id": "60c1cefc5858e0e5d4543185",
+            "location": [
+                34.7429186,
+                31.87232479999999
+            ],
+            "short_description": "Home Made Burgers",
+            "slug": "b-burger",
+            "tags": [
+                "burger",
+                "american",
+                "bbq",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/b-burger"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ac8e5142db0110cae0634e/29657594-55b5-11ec-b33e-d6e30ef49cc8_ad2ab6b2_b16b_11eb_ab5f_9252609050cb_e243fc9a_eacf_11ea_9cda_3ebbb6a47bfa_97e8cd76_e3ca_11ea_b02b_4a946f66ec82_list.jpeg",
+                "logo": null
+            },
+            "title": "Pita Rehov | Yavne",
+            "name": "Pita Rehov | Yavne",
+            "track_id": "venue-pita-rehov-yavne",
+            "address": "הקישון 7, פינת שד ירושלים, יבנה",
+            "venue_id": "61ac8e5142db0110cae0634e",
+            "location": [
+                34.7339604,
+                31.8862432
+            ],
+            "short_description": "Great Quality Meat In a Pita\n",
+            "slug": "pita-rehov-yavne",
+            "tags": [
+                "kebab",
+                "pita",
+                "mediterranean"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/pita-rehov-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a351cbe378ed84bf2bfa61/160eed2e-5b4e-11ec-910d-bafe5f3a5b42_____.jpg",
+                "logo": null
+            },
+            "title": "M Burger | Yavne",
+            "name": "M Burger | Yavne",
+            "track_id": "venue-m-burger-yavne",
+            "address": "שד׳ דואני 20, יבנה",
+            "venue_id": "61a351cbe378ed84bf2bfa61",
+            "location": [
+                34.7399232,
+                31.8730906
+            ],
+            "short_description": "An exclusive hamburger and meat restaurant\n",
+            "slug": "m-burger-yavne",
+            "tags": [
+                "burger",
+                "kebab",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/m-burger-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c4de602f840f9bd7d815e/8d5c5e72-a616-11eb-91f0-b2631ef297ef_bonfis_9999_28.jpg",
+                "logo": null
+            },
+            "title": "Gigi | Yavne",
+            "name": "Gigi | Yavne",
+            "track_id": "venue-gigi-yavne",
+            "address": "הנחשול 22, יבנה",
+            "venue_id": "607c4de602f840f9bd7d815e",
+            "location": [
+                34.7394643,
+                31.8630364
+            ],
+            "short_description": "The Difference Is In The Taste",
+            "slug": "gigi-yavne",
+            "tags": [
+                "steak",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/gigi-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ffca9a4f39680a3093ea53/e66aa41c-eed5-11eb-bd89-16c7e8bbd8f7_____.jpg",
+                "logo": null
+            },
+            "title": "Pizza Chef | Yavne",
+            "name": "Pizza Chef | Yavne",
+            "track_id": "venue-pizza-chef-yavne",
+            "address": "שדרות דואני 48, יבנה",
+            "venue_id": "60ffca9a4f39680a3093ea53",
+            "location": [
+                34.7448833,
+                31.8690092
+            ],
+            "short_description": "A unique pizza made with great love",
+            "slug": "pizza-chef-yavne",
+            "tags": [
+                "pizza",
+                "sandwich",
+                "salad"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/pizza-chef-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60850cc9015ac99fb0849394/12598aaa-a590-11eb-be0f-6271d72e43dd_664b75f4_98d7_11ea_8c02_0a58647f82c2_dsc05185__1_.jpeg",
+                "logo": null
+            },
+            "title": "Falafel Ba'Ribua | Yavne",
+            "name": "Falafel Ba'Ribua | Yavne",
+            "track_id": "venue-falafel-baribua-yavne",
+            "address": "הדוגית 16",
+            "venue_id": "60850cc9015ac99fb0849394",
+            "location": [
+                34.7357378286083,
+                31.866740765354646
+            ],
+            "short_description": "Love To Feed People",
+            "slug": "falafel-baribua-yavne",
+            "tags": [
+                "falafel",
+                "mediterranean",
+                "salad",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/falafel-baribua-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6061b8930d1dee0705d68445/5e0d647c-9081-11eb-bedb-9e9cd141df1e_mc_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® G Mall Yavne Kosher",
+            "name": "McDonald's® G Mall Yavne Kosher",
+            "track_id": "venue-mcdonalds-g-mall-yavne-kosher",
+            "address": "הקישון 9, יבנה",
+            "venue_id": "6061b8930d1dee0705d68445",
+            "location": [
+                34.7338038,
+                31.8860703
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-g-mall-yavne-kosher",
+            "tags": [
+                "burger",
+                "kosher",
+                "kids"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/mcdonalds-g-mall-yavne-kosher"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609a568ef322917d67c84d6d/316dd158-c1dd-11eb-b12d-7ebe37df90d4_____.jpg",
+                "logo": null
+            },
+            "title": "Kuzina | Yavne",
+            "name": "Kuzina | Yavne",
+            "track_id": "venue-kuzina-yavne",
+            "address": "שד' דואני 58, יבנה",
+            "venue_id": "609a568ef322917d67c84d6d",
+            "location": [
+                34.745391999999974,
+                31.868958099999926
+            ],
+            "short_description": "Moroccan Cuisine",
+            "slug": "kuzina-yavne",
+            "tags": [
+                "salad",
+                "sandwich",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/kuzina-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612738d3dbc8e2eb3cca2a43/03f91928-089e-11ec-9198-76b403758ac3____________.jpeg",
+                "logo": null
+            },
+            "title": "Vaniglia | Yavne",
+            "name": "Vaniglia | Yavne",
+            "track_id": "venue-vaniglia-yavne",
+            "address": "שדרות הציונות 1, יבנה",
+            "venue_id": "612738d3dbc8e2eb3cca2a43",
+            "location": [
+                34.726777,
+                31.8650145
+            ],
+            "short_description": "Your local beloved ice cream",
+            "slug": "vaniglia-yavne",
+            "tags": [
+                "ice cream",
+                "milkshake",
+                "sweets",
+                "kosher"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/vaniglia-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6072e121e6ece3e59e0da58d/f24354ac-a03b-11eb-a130-261a225b2daf_yaelitz_3.jpg",
+                "logo": null
+            },
+            "title": "Fabios Pizza",
+            "name": "Fabios Pizza",
+            "track_id": "venue-fabios-pizza",
+            "address": "שדרות דואני 20, יבנה",
+            "venue_id": "6072e121e6ece3e59e0da58d",
+            "location": [
+                34.7397138,
+                31.8732141
+            ],
+            "short_description": "Italian Table Is Served ",
+            "slug": "fabios-pizza",
+            "tags": [
+                "pizza",
+                "pasta",
+                "italian",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/fabios-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628e3831eb789b680f58a91d/44ffb772-dc35-11ec-938c-566e52f0861e_24494d46_be17_11eb_898c_ce53fe20e499_shibolet_1.jpeg",
+                "logo": null
+            },
+            "title": "Shibolet HaSharon | Yavne",
+            "name": "Shibolet HaSharon | Yavne",
+            "track_id": "venue-shibolet-hasharon-yavne",
+            "address": "שבזי 2, יבנה",
+            "venue_id": "628e3831eb789b680f58a91d",
+            "location": [
+                34.7441702,
+                31.8702543
+            ],
+            "short_description": "Bakery",
+            "slug": "shibolet-hasharon-yavne",
+            "tags": [
+                "bakery",
+                "sandwich",
+                "salad",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/shibolet-hasharon-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61adf3582222b24a38a2baa8/d7d4d7a4-5b4c-11ec-91bb-46656445cc98_____.jpg",
+                "logo": null
+            },
+            "title": "Beatos",
+            "name": "Beatos",
+            "track_id": "venue-beatos",
+            "address": "העצמאות 44, יבנה",
+            "venue_id": "61adf3582222b24a38a2baa8",
+            "location": [
+                34.7462683,
+                31.8692006
+            ],
+            "short_description": "Meat In a Different Way\n",
+            "slug": "beatos",
+            "tags": [
+                "kebab",
+                "kosher",
+                "homemade",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/beatos"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c4941697c341f7444a305/def3c380-a056-11eb-8667-228d88db6a7e______________.jpeg",
+                "logo": null
+            },
+            "title": "La Goffre | Yavne",
+            "name": "La Goffre | Yavne",
+            "track_id": "venue-la-goffre-yavne",
+            "address": "הנחשול 22, יבנה",
+            "venue_id": "607c4941697c341f7444a305",
+            "location": [
+                34.7394643,
+                31.8630364
+            ],
+            "short_description": "Ice Cream Boutique\n",
+            "slug": "la-goffre-yavne",
+            "tags": [
+                "ice cream"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/la-goffre-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609a35c3da5e04b241b210fe/07b87118-b59b-11eb-90d2-ca474a6f68e7_yaelitz_5.jpg",
+                "logo": null
+            },
+            "title": "Ami's Hummus",
+            "name": "Ami's Hummus",
+            "track_id": "venue-amis-hummus",
+            "address": "הירמוך 1, יבנה",
+            "venue_id": "609a35c3da5e04b241b210fe",
+            "location": [
+                34.73137425625339,
+                31.88775118807107
+            ],
+            "short_description": "Hummus Place",
+            "slug": "amis-hummus",
+            "tags": [
+                "healthy",
+                "salad"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/amis-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6076ada36bf2ee99e3ce0879/e9543112-a613-11eb-8d15-febad8c58d08_bonfis_9999_232.jpg",
+                "logo": null
+            },
+            "title": "Marlen Hummus",
+            "name": "Marlen Hummus",
+            "track_id": "venue-marlen-hummus",
+            "address": "הקישון 9, יבנה",
+            "venue_id": "6076ada36bf2ee99e3ce0879",
+            "location": [
+                34.7338038,
+                31.8860703
+            ],
+            "short_description": "Fresh Hummus",
+            "slug": "marlen-hummus",
+            "tags": [
+                "israeli",
+                "middle eastern"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/marlen-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607ff204b2e5c2156465058d/6f76364e-a64d-11eb-b4a5-6271d72e43dd_bonfis_9999_279.jpg",
+                "logo": null
+            },
+            "title": "Portabelo | Yavne",
+            "name": "Portabelo | Yavne",
+            "track_id": "venue-portobelo-yavne",
+            "address": "הירמוך 1, יבנה",
+            "venue_id": "607ff204b2e5c2156465058d",
+            "location": [
+                34.7312844,
+                31.88784
+            ],
+            "short_description": "Dairy Italian Restaurant",
+            "slug": "portobelo-yavne",
+            "tags": [
+                "pizza",
+                "pasta",
+                "salad",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/portobelo-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c4205e26be811a785a274/7ec12d8e-a34b-11eb-add0-32971f09eb2d_karela_00245.jpg",
+                "logo": null
+            },
+            "title": "Haderech Lalehem | Yavne",
+            "name": "Haderech Lalehem | Yavne",
+            "track_id": "venue-haderech-lalehem-yavne",
+            "address": "הדוגית 16, יבנה",
+            "venue_id": "607c4205e26be811a785a274",
+            "location": [
+                34.73586183049328,
+                31.866632047238074
+            ],
+            "short_description": "A House Of Pastries, Kosher - Badatz Beit Yosef\n",
+            "slug": "haderech-lalehem-yavne",
+            "tags": [
+                "breakfast",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/haderech-lalehem-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607bfdd341c539baec44546e/9543ef44-5dbb-11ec-8989-62f01ecc45db_____________.png",
+                "logo": null
+            },
+            "title": "Café Greg | Yavne",
+            "name": "Café Greg | Yavne",
+            "track_id": "venue-caf-greg-yavne",
+            "address": "הקישון 9, יבנה",
+            "venue_id": "607bfdd341c539baec44546e",
+            "location": [
+                34.73419033820276,
+                31.886280992393974
+            ],
+            "short_description": "Restaurant & Cafe",
+            "slug": "caf-greg-yavne",
+            "tags": [
+                "pizza",
+                "sandwich",
+                "pasta",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/caf-greg-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62779662b4ff513f9148f88b/954db1a2-d9b5-11ec-ad95-6e5dbf79cea3_img_0035.jpg",
+                "logo": null
+            },
+            "title": "Sushimoto",
+            "name": "Sushimoto",
+            "track_id": "venue-sushimoto",
+            "address": "הנחשול 22, יבנה",
+            "venue_id": "62779662b4ff513f9148f88b",
+            "location": [
+                34.739515911663524,
+                31.86304650128777
+            ],
+            "short_description": "Social Sushi",
+            "slug": "sushimoto",
+            "tags": [
+                "asian",
+                "kosher",
+                "sushi",
+                "kosher",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/sushimoto"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6061e28128a34ee462bb077c/4d6991ae-909a-11eb-bc4a-724226f699ff_mc_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Rogovin Yavne",
+            "name": "McDonald's® Rogovin Yavne",
+            "track_id": "venue-mcdonalds-rogovin-yavne",
+            "address": "הדוגית 16, יבנה",
+            "venue_id": "6061e28128a34ee462bb077c",
+            "location": [
+                34.735896,
+                31.866917
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-rogovin-yavne",
+            "tags": [
+                "chicken",
+                "kids"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/yavne/venue/mcdonalds-rogovin-yavne"
+            },
+            "provider": "wolt"
+        }
+    ]
+}

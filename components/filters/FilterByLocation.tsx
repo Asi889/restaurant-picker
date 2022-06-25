@@ -4,19 +4,14 @@ import { useTimeoutFn } from "react-use";
 import LocationIcon from "../svgs/LocationIcon";
 import FilterLocation from "./LocationModal";
 import LocationModal from "./LocationModal";
-type Props = {
-  //   filterTypesSet: Function;
-  //   filterTypes: any; //FilteredTypes
-  //   filteredRestaurantsSet: Function;
-  //   filteredRestaurants: Array<object>
-  //   selectedproviderSet: Function;
-  //   selectedprovider: string
-  //   setRestaurantAmount: Function;
-};
+import { useStore } from "react-redux";
+import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
+import { woltCities } from "../../backend/data/ListOfCities";
 
-const FilterByLocation: React.FC<Props> = (props) => {
+const FilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
-  // let [, , resetIsShowing] = useTimeoutFn(() => setIsOpen(true), 500)
+  const store = useStore();
+  const state = store.getState() as StateProp
 
   function closeModal() {
     setIsOpen(false);
@@ -25,7 +20,12 @@ const FilterByLocation: React.FC<Props> = (props) => {
   function openModal() {
     setIsOpen(true);
   }
-
+  const [city,setCity] = useState('Tel Aviv');
+  useEffect(() => {
+    const cityObj = woltCities.find(city => city.slug === state.restaurants.location.city);
+    setCity(cityObj?.name ?? 'Tel Aviv');
+  }, [state])
+  
   return (
     <>
       <div className="flex h-12 relative">
@@ -39,7 +39,7 @@ const FilterByLocation: React.FC<Props> = (props) => {
 
         </button>
         <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
-          Tel Aviv
+          {city}
         </div>
       </div>
 

@@ -32,6 +32,9 @@ export type Restaurant = {
   subFilterTypes: subFilterTypes;
   selectedRestaurant: RestaurantType;
   fiftyRestaurants:  RestaurantType[];
-  filteredByCategory:  RestaurantType[];;
+  filteredByCategory:  RestaurantType[];
   selectedProvider: "both";
+  location:{
+    city: string;
+  }
 };
