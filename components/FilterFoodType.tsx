@@ -71,51 +71,51 @@ const FilterFoodType: React.FC<Props> = (props) => {
         </div>
       </div>
 
-      <div className="w-full mx-auto h-[1px] bg-[#3C1E57] mt-2 "></div>
+      <div className="w-full mx-auto h-[1px] bg-[#3C1E57] mt-2"></div>
 
       <div className="flex gap-x-8 pt-4 mt-1 items-end pr-2">
         <button  onClick={()=>filterByCategoryTypes("kosher")}>
-          <KosherIcon givenClass={`w-14 h-14 ${subFilterTypes.kosher ? "" : "stroke-gray-500 opacity-60"}`}  />
-          <h3>רק כשר</h3>
+          <KosherIcon givenClass={`w-14 h-14 filter-icon ${subFilterTypes.kosher ? "" : "stroke-gray-500 opacity-60"}`}  />
+          <h3 className="hover-text">רק כשר</h3>
         </button>
-        <div className="flex gap-x-4 pt-4 mt-1">
+        <div className="flex gap-x-4 pt-4 mt-1 ">
         <button  onClick={()=>filterByCategoryTypes("vegetarian")}>
-          <LeafeIcon givenClass={` w-14 h-14 ${subFilterTypes.vegetarian ? "" : "stroke-gray-200 opacity-60"}`}/>
-          <h3>צמחוני</h3>
+          <LeafeIcon givenClass={` w-14 h-14 filter-icon ${subFilterTypes.vegetarian ? "" : "opacity-60"}`}/>
+          <h3 className="hover-text">צמחוני</h3>
         </button>
         </div>
-        <div className=" ">
-        <button  onClick={()=>filterByCategoryTypes("vegan")}>
-            <ManyLeafeIcon givenClass={` ${subFilterTypes.vegan ? "" : "stroke-gray-200 opacity-60"}`}/>
-          <h3>טבעוני</h3>
+        <div >
+        <button className={`filter-icon transition`}  onClick={()=>filterByCategoryTypes("vegan")}>
+            <ManyLeafeIcon givenClass={` ${subFilterTypes.vegan ? "" : "opacity-60"}`}/>
+          <h3 className="hover-text">טבעוני</h3>
         </button>
         </div>
       </div>
-      <div className="grid justify-start mt-5 w-20">
+      <div className="grid justify-start mt-5">
         <button  onClick={()=>filterByCategoryTypes("dessert")}>
-          <DessertIcon  givenClass={` w-[60px] h-[60px] ${subFilterTypes.dessert ? "" : "stroke-gray-200 opacity-60"}`} />
-          <h3>קינוח</h3>
+          <DessertIcon  givenClass={` w-[60px] h-[60px] filter-icon transition ${subFilterTypes.dessert ? "" : "opacity-60"}`} />
+          <h3 className="hover-text">קינוח</h3>
         </button>
       </div>
       <div className="flex gap-x-8 mt-2 items-baseline pr-2">
         <div className="">
           <div className="pb-2 ">
           <button  onClick={()=>filterByCategoryTypes("burgers")}>
-          <HamburgerIcon givenClass={`w-16 h-16  ${subFilterTypes.burgers ? "" : "stroke-gray-200 opacity-60 "}`}  />
-          <h3>המבורגר</h3>
+          <HamburgerIcon givenClass={`w-16 h-16 filter-icon transition ${subFilterTypes.burgers ? "" : "opacity-60 "}`}  />
+          <h3 className="hover-text">המבורגר</h3>
           </button>
           </div>
         </div>
         <div className="">
         <button  onClick={()=>filterByCategoryTypes("asian")}>
-          <SushiIcon  givenClass={` h-16 w-16 mb-3  ${subFilterTypes.asian ? "" : "stroke-gray-200 opacity-60 "}`} />
-          <h3>אסייתי</h3>
+          <SushiIcon  givenClass={` h-16 w-16 mb-3 filter-icon transition ${subFilterTypes.asian ? "" : "opacity-60 "}`} />
+          <h3 className="hover-text">אסייתי</h3>
         </button>
         </div>
         <div className="">
         <button  onClick={()=>filterByCategoryTypes("pizza")}>
-          <PizzaIcon  givenClass={` h-16 w-16   ${subFilterTypes.pizza ? "" : "stroke-gray-200 opacity-60 "}`} />
-          <h3>פיצה</h3>
+          <PizzaIcon  givenClass={` h-16 w-16 filter-icon transition  ${subFilterTypes.pizza ? "" : "opacity-60 "}`} />
+          <h3 className="hover-text">פיצה</h3>
         </button>
         </div>
 

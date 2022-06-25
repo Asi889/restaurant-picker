@@ -39,6 +39,7 @@ export const returnFilters=()=>{
       return "שלצהריים"
     }else return "שהערב"
   }
+  
   export const vibrate = ()=>{
     if (!window) {
         return;

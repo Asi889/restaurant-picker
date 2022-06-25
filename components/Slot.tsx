@@ -26,7 +26,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
 
               
-              <div ref={ref} className={`relative   grid gap-y-16  justify-center ${slotTransition ? slotTransition  : "bbotom"} }`}>
+              <div ref={ref} className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
               <SelectedAndTop index={refindex}  />
           
                 {allRestaurants &&

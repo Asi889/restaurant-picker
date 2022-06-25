@@ -34,6 +34,7 @@ const Restaurants: React.FC<Props> = (props) => {
     } 
     vibrate()
     slotTransitionSet("bbotom");
+    
     setTimeout(() => {
       slotTransitionSet("front-spin");
     }, 200);
