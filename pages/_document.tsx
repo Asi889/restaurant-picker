@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript, DocumentContext } from 'next/document';
 import Favicon from '../components/Favicon';
+import { GoogleAnalytics } from '../components/layout/GoogleAnalytics';
 
 
 class MyDocument extends Document {
@@ -12,6 +13,7 @@ class MyDocument extends Document {
     return (
       <Html dir="rtl" lang="he">
         <Head>
+          <GoogleAnalytics />
           <Favicon />
         </Head>
         <body>
