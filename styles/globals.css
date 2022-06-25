@@ -12,17 +12,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 .noto{
 font-family: 'Noto Sans Hebrew', sans-serif;
 }
-.anima-container{
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-timing-function: cubic-bezier(.91,.9,.76,1.21);
-  transition-duration: 1400ms;
-  
-  
-}
-
-.inplace{
-  transform:translateY(22px)
-}
+Ø
 .bbotom{
   bottom: 91.2%;
 }
@@ -36,33 +26,17 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 .front-spin{
-  
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
   bottom: 1.6%;
 }
 
-.back-spin{
-  animation: spinback 0s ;
-}
-
-
-
-/* ////////////////////////////////// */
-.App {
-  font-family: sans-serif;
-  text-align: center;
-}
 
 .slot {
   position: relative;
   display: inline-block;
   height: 100px;
   width: 80px;
-}
-.move-down{
-  /* top: 0px!important; */
-  transform: translateY(100%);
 }
 
 .container {
@@ -84,6 +58,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   border: 3px solid black;
 }
 
+<<<<<<< HEAD
 #img-round{
   display: none 
 }
@@ -107,3 +82,5 @@ position: relative!important;
 /* //////////////////////////////////////////////// */
 
 
+=======
+>>>>>>> 7e4c205fea5b0c1c3bfeef5c2a3d304452d94adc

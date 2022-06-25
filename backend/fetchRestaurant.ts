@@ -29,8 +29,8 @@ export const scrapeRestaurants = async (cityName: string):Promise<FetchRestauran
             lat,
             lon
         },
-        woltData,
-        tenBisData,
+        woltData: woltData ? woltData : [],
+        tenBisData : tenBisData ? tenBisData : [],
     }
 }
 
