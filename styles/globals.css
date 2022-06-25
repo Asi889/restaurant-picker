@@ -65,24 +65,6 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   transform: translateY(100%);
 }
 
-section {
-  position: absolute;
-  border-radius: 15px !important;
-  border: 3px solid black !important;
-  width: 70px;
-  height: 70px;
-  overflow: hidden;
-  background-color: grey;
-  border-radius: 2px;
-  border: 1px solid lightgrey;
-  color: white;
-  font-family: sans-serif;
-  text-align: center;
-  font-size: 25px;
-  line-height: 60px;
-  cursor: default;
-}
-
 .container {
   position: absolute;
   top: 2px;

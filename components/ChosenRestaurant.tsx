@@ -1,123 +1,89 @@
+/* eslint-disable @next/next/no-img-element */
 import React, { useEffect } from "react";
 import { useStore } from "react-redux";
 import { connect } from "react-redux";
 import WoltLogo from "./svgs/WoltLogo";
 import TenBisLogo from "./svgs/TenBisLogo";
-import {TenBisRestaurant} from "../src/types/FetchRestaurantTyp";
+import { TenBisRestaurant } from "../src/types/FetchRestaurantTyp";
 import Image from "next/image";
 import { myImageLoader } from "../src/hooks/myImageLoader";
 import { checkTime, splitAndTrim } from "../src/utils";
+import { StateProp } from "../src/types/FetchSubRestaurantTypes";
 
-interface Props {}
+interface Props { }
 
 const ChosenRestaurant: React.FC<Props> = (props) => {
   // const {} = props;
   const store = useStore();
-  let stat: any;
-  stat = store.getState();
-  let selectedRestaurant= stat?.restaurants.selectedRestaurant
-  
-  const returnCheckProviders = () => {
+  const state = store.getState() as StateProp;
+  const selectedRestaurant = state?.restaurants.selectedRestaurant
+  console.log(selectedRestaurant);
+
+  const CheckProviders = () => {
     const provider = selectedRestaurant.provider;
-    const checkIfBothRProvider= stat.restaurants.filterTypes.woltRestaurants && stat.restaurants.filterTypes.woltRestaurants ? true : false
     const providerFind = selectedRestaurant.provider === "wolt" ? "tenbisRestaurants" : "woltRestaurants";
-    const otherProvider = stat.restaurants.allRestaurants[providerFind].find((restaurant: TenBisRestaurant) =>
-    restaurant.name === splitAndTrim(selectedRestaurant.name)
+    const otherProvider = state.restaurants.allRestaurants[providerFind].find((restaurant: TenBisRestaurant) =>
+      restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 
     return (
-      /////////LOGOS///////////
-      // <div className="grid gap-y-4 justify-between ">
-      <div className={`${!otherProvider ? "flex gap-x-4" : "grid gap-y-4"} justify-around mt-4 result_img_wraper items-end`}>
-        
-        {provider === "wolt" && otherProvider ? (
-          <div className="flex gap-x-12 111111111111111 items-end">
-            {checkIfBothRProvider ? 
-            <a className="grid content-end w-26 h-24" href={selectedRestaurant?.link?.url}>
-              <div className="w-20 h-10 ttt">
-               <WoltLogo  /> 
-              </div>
-              <p>להזמנה דרך וולט</p>
-            </a> : ""}
-            <a className="grid content-end" href={otherProvider?.link?.url}>
-              <div className=" self-end w-16 h-16">
-              <TenBisLogo />
-              </div>
-              <p>להזמנה דרך תן-ביס</p>
-            </a>
-          </div>
-        ) : provider === "tenBis" && otherProvider ? (
-          <div className="flex gap-x-12 2222222222222222">
-            <a  href={otherProvider?.link?.url}>
-              {checkIfBothRProvider ?<div  className="grid content-end w-26 h-24">
-              <div className="w-20 h-10 ttt">
-               <WoltLogo  /> 
-              </div>
-                <p>להזמנה דרך וולט</p>
-              </div> : ""}
-            </a>
-            <a className="grid content-end" href={selectedRestaurant?.link?.url} >
-            <div className=" self-end w-16 h-16">
-              <TenBisLogo />
-              </div>
-              <p>להזמנה דרך תן-ביס</p>
-            </a>
-          </div>
-        ) : provider === "wolt" && !otherProvider ? (
-          <a className="w-26" href={selectedRestaurant?.link?.url} >
-            <div className="h-10 w-20 ">
-            <WoltLogo />
-            </div>
-            <p>להזמנה דרך וולט</p>
-          </a>
-        ) : provider === "tenBis" && !otherProvider ? (
-          <a className="w-26" href={selectedRestaurant?.link?.url}>
-            <div className="w-16">
-            <TenBisLogo />
-            </div>
-            <p>להזמנה דרך תן-ביס</p>
-          </a>
-        ) : (
-          ""
-        )}
+      <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2`}>
 
-        {otherProvider ? (
-         
-          ""
-        ) : (
-          <div className="imgg-wraper">
-            <Image
-              src={selectedRestaurant?.image}
-              layout="raw"
-              className="w-24 h-20"
-              height={100}
-              width={100}
-              alt=""
-              loader={() =>
-                myImageLoader(selectedRestaurant?.image)
-              }
-            />
+        <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedRestaurant?.link?.url}>
+          <div className="w-full px-2 h-full flex items-center justify-center">
+            {provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
           </div>
+          <p>להזמנה דרך
+            &nbsp;
+            {provider === 'wolt' ? 'וולט' : 'תן ביס'}
+          </p>
+        </a>
+        {otherProvider && (
+          <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={otherProvider?.link?.url}>
+            <div className="w-full px-2 h-full flex items-center justify-center">
+
+              {otherProvider.provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
+            </div>
+            <p>להזמנה דרך
+              &nbsp;
+              {otherProvider.provider === 'wolt' ? 'וולט' : 'תן ביס'}
+            </p>
+          </a>
         )}
       </div>
     );
   };
 
   return (
-    <div className="bg-purple px-2 text-white">
-      <p className="text-white"> נראה {checkTime()} מזמינים :</p>
-      <p className="text-white">
-        {" "}
-        {stat?.restaurants.selectedRestaurant?.title}
-      </p>
-      
-      {returnCheckProviders()}
 
-      <div className="grid gap-y-4 mt-3">
-        <p>{stat?.restaurants.selectedRestaurant?.address}</p>
-        <p>{stat?.restaurants.selectedRestaurant?.short_description}</p>
+    <section className="bg-purple text-white mt-6 rounded-xl pt-4 w-full border border-green overflow-hidden">
+      <div className="px-1">
+        <h2 className="text-white text-center mb-4 text-xl">
+          <span>{checkTime()}</span>
+          &nbsp;
+          <b className="text-green">
+            {splitAndTrim(selectedRestaurant?.title)}
+          </b>
+        </h2>
+
+        <CheckProviders />
+
+        <ul className="space-y-1 mt-3 pb-4">
+          <li>
+            <a className="text-white-90" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[0]},${selectedRestaurant.location[1]}`} target="_blank" rel="noopener noreferrer">
+              כתובת: {selectedRestaurant?.address}
+            </a>
+          </li>
+          <li>{selectedRestaurant?.short_description}</li>
+          <li>{selectedRestaurant.tags.join(',')}</li>
+        </ul>
       </div>
-    </div>
+      {selectedRestaurant?.image && (
+        <img className="w-full" src={selectedRestaurant.image} alt={selectedRestaurant.title} />
+      )}
+    </section>
+
+
   );
 };
 

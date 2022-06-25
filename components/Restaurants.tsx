@@ -48,7 +48,7 @@ const Restaurants: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className="w-full text-center px-5">
+    <div className="w-full text-center">
       <div className="max-w-[850px] mx-auto flex items-center">
                 <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
         <div className="bg-[#FDA73B] px-1 md:px-4 py-1 md:py-4 relative w-full rounded-xl mt-10  ">

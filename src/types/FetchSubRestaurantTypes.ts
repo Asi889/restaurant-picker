@@ -30,7 +30,7 @@ export type Restaurant = {
   allRestaurants: Restaurants;
   filterTypes: FilterTypes;
   subFilterTypes: subFilterTypes;
-  selectedRestaurant: {};
+  selectedRestaurant: WoltRestaurant | TenBisRestaurant;
   fiftyRestaurants: [];
   filteredByCategory: [];
   selectedProvider: "both";
