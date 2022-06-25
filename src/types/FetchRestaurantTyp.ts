@@ -5,35 +5,17 @@ export interface FetchRestaurantType {
         lat: string;
         lon: string;
     };
-    woltData: WoltRestaurant[] ;
-    tenBisData: TenBisRestaurant[] ;
-    // woltData: WoltRestaurant[] | null;
-    // tenBisData: TenBisRestaurant[] | null;
-
+    woltData: RestaurantType[] ;
+    tenBisData: RestaurantType[] ;
 }
 
-export interface TenBisRestaurant {
-    description?: string
-    image: string
-    title: string
-    track_id: string
-    name: string;
 
-    address: string;
-    venue_id: string;
-    location:number[];
-    short_description: string;
-    slug: string;
-    tags: string[];
-    link:{
-        url: string;
+export interface RestaurantType {
+    description?: string
+    photo: {
+        image: string |null;
+        logo: string |null;
     }
-    provider:  "wolt" | "tenBis";
-}
-
-export interface WoltRestaurant {
-    description?: string
-    image: string
     title: string
     track_id: string
     name: string;
@@ -47,5 +29,6 @@ export interface WoltRestaurant {
     link:{
       url: string;
     }
+    score: number;
     provider: "wolt" | "tenBis";
 }

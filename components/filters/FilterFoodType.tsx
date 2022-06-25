@@ -1,22 +1,19 @@
 // SettingsContainer
 import React from "react";
 import { connect, useSelector } from "react-redux";
-import { filterByCategoryTypes } from '../src/hooks/filterByCategoryTypes';
-import { filterProviderType } from '../src/hooks/filterProviderType';
-import DessertIcon from "./svgs/filterFoodTypes/DessertIcon";
-import HamburgerIcon from "./svgs/filterFoodTypes/HamburgerIcon";
-import KosherIcon from "./svgs/filterFoodTypes/KosherIcon";
-import LeafeIcon from "./svgs/filterFoodTypes/LeafeIcon";
-import ManyLeafeIcon from "./svgs/filterFoodTypes/ManyLeafeIcon";
-import PizzaIcon from "./svgs/filterFoodTypes/PizzaIcon";
-import SushiIcon from "./svgs/filterFoodTypes/SushiIcon";
-import FiltertIcon from "./svgs/FilterIcon";
-import TenBisLogo from "./svgs/TenBisLogo";
-import WoltLogo from "./svgs/WoltLogo";
+import HamburgerIcon from "..//svgs/filterFoodTypes/HamburgerIcon";
+import KosherIcon from "..//svgs/filterFoodTypes/KosherIcon";
+import LeafeIcon from "..//svgs/filterFoodTypes/LeafeIcon";
+import ManyLeafeIcon from "..//svgs/filterFoodTypes/ManyLeafeIcon";
+import PizzaIcon from "..//svgs/filterFoodTypes/PizzaIcon";
+import SushiIcon from "..//svgs/filterFoodTypes/SushiIcon";
+import FiltertIcon from "..//svgs/FilterIcon";
+import TenBisLogo from "..//svgs/TenBisLogo";
+import WoltLogo from "../svgs/WoltLogo";
+import DessertIcon from "../svgs/filterFoodTypes/DessertIcon";
+import { filterByCategoryTypes } from "../../src/hooks/filterByCategoryTypes";
+import { filterProviderType } from "../../src/hooks/filterProviderType";
 
-type Props = {
-  closeModal: any; // Function?
-}
 
 const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
   const filterTypes = useSelector((state: any) => state.restaurants.filterTypes)
@@ -33,7 +30,7 @@ const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
           />
           <h3 className="text-sm">איפוס</h3>
         </a>
-        <h2 className="font-thin underline px-2 text-lg">פילטר הזמנות</h2>
+        <h2 className="font-thin underline px-2 text-lg">סינון</h2>
         <button onClick={closeModal}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
             <path strokeLinecap="round" strokeLinejoin="round" d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -41,11 +38,13 @@ const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
         </button>
       </div>
       <div className="flex gap-x-4 mt-4 items-end">
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} onClick={() => filterProviderType('tenbisRestaurants')}>
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} 
+        onClick={() => filterProviderType('tenbisRestaurants')}>
           <TenBisLogo />
           <h3 className="mt-auto">תן ביס</h3>
         </button>
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} onClick={() => filterProviderType('woltRestaurants')} >
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} 
+        onClick={() => filterProviderType('woltRestaurants')} >
           <WoltLogo />
           <h3 className="mt-auto">וולט</h3>
         </button>

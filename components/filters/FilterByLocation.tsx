@@ -2,7 +2,8 @@ import React, { useEffect, useState, Fragment, createRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { useTimeoutFn } from "react-use";
 import LocationIcon from "../svgs/LocationIcon";
-import FilterLocation from "../FilterLocation";
+import FilterLocation from "./LocationModal";
+import LocationModal from "./LocationModal";
 type Props = {
   //   filterTypesSet: Function;
   //   filterTypes: any; //FilteredTypes
@@ -69,7 +70,7 @@ const FilterByLocation: React.FC<Props> = (props) => {
               >
                 <Dialog.Panel className="w-full max-w-md h-full transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
 
-                  <FilterLocation closeModal={closeModal} />
+                  <LocationModal closeModal={closeModal} />
 
                 </Dialog.Panel>
               </Transition.Child>

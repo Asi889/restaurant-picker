@@ -1,11 +1,11 @@
-import { TenBisRestaurant } from "../../src/types/FetchRestaurantTyp";
+import { RestaurantType } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
 
 const fs = require('fs');
 const fsp = require('fs').promises
 const TENIS_API = `https://www.10bis.co.il/NextApi/`
 //searchRestaurants?shoppingCartGuid=62cdb613-b452-4502-98f2-96cadfe99eab&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1654581284389&deliveryMethod=delivery&cityName=Holon&streetName=Golda+Me%27ir+Street&houseNumber=7&latitude=32.0122878&longitude=34.7794304&cityId=10&streetId=5987&isBigCity=true&addressKey=10-5987-7&locationType=residential
-export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<TenBisRestaurant[]> => {
+export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<RestaurantType[]> => {
   const localPath = `./backend/data/10bis-restaurants-${slug}.json`;
   const isFileExists = fs.existsSync(localPath)
   if (isFileExists) {
@@ -34,15 +34,16 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
     const data = await response.json() as Restaurants;
 
     console.log('fetching 10bis restaurants', data);
-    const res = [] as TenBisRestaurant[];
+    const res = [] as RestaurantType[];
     data.Data.restaurantsList.forEach(restaurant => {
-      const tags =restaurant.restaurantCuisineKeysList;
-      if(restaurant.isKosher) tags.push('kosher');
-      if(restaurant.isVegan) tags.push('vegan');
-      if(restaurant.isGlutenFree) tags.push('gluten free');
-      if(restaurant.isEnvironmentFriendly) tags.push('environment friendly');
+      const tags = restaurant.restaurantCuisineKeysList;
+      if (restaurant.isKosher) tags.push('kosher');
+      if (restaurant.isVegan) tags.push('vegan');
+      if (restaurant.isGlutenFree) tags.push('gluten free');
+      if (restaurant.isEnvironmentFriendly) tags.push('environment friendly');
       res.push({
         name: restaurant.restaurantName,
+        score: restaurant.reviewsRankDecimal, //reviewsRank
         title: restaurant.restaurantName,
         venue_id: `${restaurant.restaurantId}`,
         address: restaurant.restaurantAddress,
@@ -51,7 +52,11 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
           restaurant.longitude,
           restaurant.latitude
         ],
-        image: restaurant.restaurantLogoUrl,
+        photo: {
+          image: null,
+          logo: restaurant.restaurantLogoUrl
+        },
+        description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
         short_description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
         slug: slug,
         tags,

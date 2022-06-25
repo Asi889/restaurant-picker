@@ -1,11 +1,11 @@
-import { WoltRestaurant } from "../../src/types/FetchRestaurantTyp";
+import { RestaurantType } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
 
 const fs = require('fs');
 const fsp = require('fs').promises
 const WOLT_API = `https://restaurant-api.wolt.com`
 
-export const getWoltRestaurants = async (lat: string, lon: string, slug: string): Promise<WoltRestaurant[]> => {
+export const getWoltRestaurants = async (lat: string, lon: string, slug: string): Promise<RestaurantType[]> => {
     const localPath = `./backend/data/wolt-restaurants-${slug}.json`;
     const isFileExists = fs.existsSync(localPath)
     if (isFileExists) {
@@ -32,14 +32,17 @@ export const getWoltRestaurants = async (lat: string, lon: string, slug: string)
         
         console.log('fetching wolt restaurants' ,fetchUrl );
 
-        const res = [] as WoltRestaurant[];
+        const res = [] as RestaurantType[];
         data.sections.forEach((section) => {
 
             section.items?.forEach((item) => {
                 if (item.venue) {
                     res.push({
                         description: item.description,
-                        image: item.image?.url ?? '',
+                        photo:{
+                            image: item.image?.url ?? null,
+                            logo:null
+                        },
                         title: item.title,
                         name: item.venue.name,
                         track_id: item.track_id,
@@ -48,7 +51,11 @@ export const getWoltRestaurants = async (lat: string, lon: string, slug: string)
                         location: item.venue.location,
                         short_description: item.venue.short_description ?? '',
                         slug: item.venue.slug,
-                        tags: item.venue.tags,
+                        tags: [
+                          ...item.venue.tags,
+                          ...item.venue.badges?.map(badge => badge.text.toLocaleLowerCase())
+                        ],
+                        score: item.venue.rating?.score ?? 0,
                         link:{
                             url:`https://wolt.com/en/isr/${data.city ? data.city : slug}/venue/${item.venue.slug}`,
                         },

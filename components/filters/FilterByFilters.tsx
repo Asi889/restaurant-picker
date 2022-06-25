@@ -1,8 +1,8 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { returnFilters, returnSubFilters } from "../../src/utils";
-import FilterFoodType from "../FilterFoodType";
 import FiltertIcon from "../svgs/FilterIcon";
+import FilterFoodType from "./FilterFoodType";
 
 
 const FilterByFilters = () => {
@@ -46,15 +46,15 @@ const FilterByFilters = () => {
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
-            <div className="flex min-h-full items-center justify-center p-4 text-center">
+            <div className="flex min-h-full items-center justify-center p-4 text-center rota">
               <Transition.Child
                 as={Fragment}
                 enter="transform transition duration-[400ms]"
-                enterFrom="opacity-0 rotate-[-120deg] scale-50"
+                enterFrom="opacity-0 rotate-12 scale-90"
                 enterTo="opacity-100 rotate-0 scale-100"
                 leave="transform duration-200 transition ease-in-out"
                 leaveFrom="opacity-100 rotate-0 scale-100 "
-                leaveTo="opacity-0 scale-95 "
+                leaveTo="opacity-0 scale-95 rotate-12"
               >
                 <Dialog.Panel className="w-full max-w-md h-full transform overflow-auto rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all ">
 
