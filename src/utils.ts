@@ -18,6 +18,7 @@ export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Typ
     // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
 }
 export const splitAndTrim = (string: string): string => {
+    if(!string) return "";
     let [splitted] = string.split("|");
     return splitted.trim();
 }

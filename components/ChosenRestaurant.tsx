@@ -17,7 +17,6 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
   const store = useStore();
   const state = store.getState() as StateProp;
   const selectedRestaurant = state?.restaurants.selectedRestaurant
-  console.log(selectedRestaurant);
 
   const CheckProviders = () => {
     const provider = selectedRestaurant.provider;
@@ -27,7 +26,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
     );
 
     return (
-      <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2`}>
+      <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2 `}>
 
         <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedRestaurant?.link?.url}>
           <div className="w-full px-2 h-full flex items-center justify-center">
@@ -65,12 +64,20 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {splitAndTrim(selectedRestaurant?.title)}
           </b>
         </h2>
-
+        {selectedRestaurant?.photo.logo && (
+          <div className="w-10 h-10 mx-auto">
+            <img className="w-full object-contain" src={selectedRestaurant.photo.logo} alt={selectedRestaurant.title} />
+          </div>
+        )}
         <CheckProviders />
 
         <ul className="space-y-1 mt-3 pb-4">
           <li>
-            <a className="text-white-90" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[0]},${selectedRestaurant.location[1]}`} target="_blank" rel="noopener noreferrer">
+          <li>ציון: {selectedRestaurant?.score}</li>
+
+            </li>
+          <li className="italic">
+            <a className="text-white-90 hover:no-underline underline" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[1]},${selectedRestaurant.location[0]}`} target="_blank" rel="noopener noreferrer">
               כתובת: {selectedRestaurant?.address}
             </a>
           </li>
@@ -78,8 +85,8 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
           <li>{selectedRestaurant.tags.join(',')}</li>
         </ul>
       </div>
-      {selectedRestaurant?.image && (
-        <img className="w-full" src={selectedRestaurant.image} alt={selectedRestaurant.title} />
+      {selectedRestaurant?.photo.image && (
+        <img className="w-full" src={selectedRestaurant.photo.image} alt={selectedRestaurant.title} />
       )}
     </section>
 

@@ -14,6 +14,8 @@ const TenBisLogo: React.FC<Props> = (props) => {
       
       fill="none"
       viewBox="0 0 120 120"
+      height="120"
+      width={120}
     >
       <path fill="url(#pattern0111)" d="M0 0H120V120H0z"></path>
       <defs>

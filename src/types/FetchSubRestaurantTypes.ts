@@ -31,7 +31,7 @@ export type Restaurant = {
   filterTypes: FilterTypes;
   subFilterTypes: subFilterTypes;
   selectedRestaurant: RestaurantType;
-  fiftyRestaurants: [];
-  filteredByCategory: [];
+  fiftyRestaurants:  RestaurantType[];
+  filteredByCategory:  RestaurantType[];;
   selectedProvider: "both";
 };

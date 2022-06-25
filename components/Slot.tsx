@@ -6,6 +6,7 @@ import {myImageLoader} from '../src/hooks/myImageLoader';
 import SelectedAndTop from './SelectedAndTop';
 import { connect,useSelector } from "react-redux";
 import { splitAndTrim } from "../src/utils";
+import { RestaurantType } from "../src/types/FetchRestaurantTyp";
 
 type Props = {
   slotTransition: boolean;
@@ -17,7 +18,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
   
   const {slotTransition, refindex} = props;
   // const [filteredByCategory, filteredByCategorySet] = useState<any>([])
-  const allRestaurants = useSelector((state:any) => state.restaurants.fiftyRestaurants)
+  const allRestaurants = useSelector((state:any) => state.restaurants.fiftyRestaurants) as RestaurantType[];
 
   
 
@@ -32,24 +33,20 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                 {allRestaurants &&
                   shuffle(allRestaurants)?.map(
                 
-                    (restaurant: any, index: number) => {
+                    (restaurant: RestaurantType, index: number) => {
                         return (
                           <div className={` rounded-full text-center relative img-wrapper `} key={index}>
-                            {restaurant?.image?.includes("wolt")
+                            {restaurant?.photo.logo
                              ? 
-                            <div className="font-bold text-base bg-purple h-[70px] text-center grid items-center text-white">
-                              {splitAndTrim(restaurant?.title)}
-                            </div>
+                             <img
+                             src={restaurant.photo.logo }
+                             alt="alt"
+                             className="w-[400px] h-[100px] rounded-full mx-auto"
+                           />
+                         
                             : 
-                            <div className="w-16 h-16 img-wrap">
-
-                              <Image
-                                loader={() => myImageLoader(restaurant?.image)}
-                                src={restaurant?.image ? restaurant?.image : "https://tenbis-static.azureedge.net/restaurant-cuisine-type-icon-image/asianFusion.png" }
-                                alt="alt"
-                                layout="fill" 
-                                className="w-[400px] h-[100px] rounded-full "
-                              />
+                            <div className="font-bold text-base bg-purplekh-[70px] text-center grid items-center text-white">
+                              {splitAndTrim(restaurant?.title)}
                             </div>
                             }
                                     

@@ -43,7 +43,7 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
       if (restaurant.isEnvironmentFriendly) tags.push('environment friendly');
       res.push({
         name: restaurant.restaurantName,
-        score: restaurant.reviewsRankDecimal, //reviewsRank
+        score: restaurant.reviewsRankDecimal * 2, //reviewsRank
         title: restaurant.restaurantName,
         venue_id: `${restaurant.restaurantId}`,
         address: restaurant.restaurantAddress,
@@ -53,7 +53,7 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
           restaurant.latitude
         ],
         photo: {
-          image: null,
+          image: restaurant.restaurantHeaderImageUrl ? restaurant.restaurantHeaderImageUrl :restaurant.profileImageUrl,
           logo: restaurant.restaurantLogoUrl
         },
         description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
