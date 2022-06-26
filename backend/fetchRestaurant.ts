@@ -11,7 +11,7 @@ import { getWoltRestaurants } from "./scrape/wolt";
 export const scrapeRestaurants = async (cityName: string):Promise<FetchRestaurantType> => {
     const slug = slugify(cityName);
     const { lat, lon } = await getLatLon(cityName);
-    const tenBisQuery = TenBisCities.find(c => c.slug === slug) || TenBisCities[0];
+    const tenBisQuery = TenBisCities.find(c => c.slug === slug);
     let woltData = null
     let tenBisData = null
 

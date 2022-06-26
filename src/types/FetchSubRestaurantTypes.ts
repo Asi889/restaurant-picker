@@ -1,4 +1,4 @@
-import { TenBisRestaurant, WoltRestaurant } from "./FetchRestaurantTyp";
+import { RestaurantType } from "./FetchRestaurantTyp";
 
 export interface FilterTypes {
   woltRestaurants: boolean;
@@ -21,17 +21,20 @@ export type StateProp = {
 };
 
 export type Restaurants = {
-  both: WoltRestaurant[] & TenBisRestaurant[];
-  tenbisRestaurants: TenBisRestaurant[];
-  woltRestaurants: WoltRestaurant[];
+  both: RestaurantType[];
+  tenbisRestaurants: RestaurantType[];
+  woltRestaurants: RestaurantType[];
 };
 
 export type Restaurant = {
   allRestaurants: Restaurants;
   filterTypes: FilterTypes;
   subFilterTypes: subFilterTypes;
-  selectedRestaurant: WoltRestaurant | TenBisRestaurant;
-  fiftyRestaurants: [];
-  filteredByCategory: [];
+  selectedRestaurant: RestaurantType;
+  fiftyRestaurants:  RestaurantType[];
+  filteredByCategory:  RestaurantType[];
   selectedProvider: "both";
+  location:{
+    city: string;
+  }
 };

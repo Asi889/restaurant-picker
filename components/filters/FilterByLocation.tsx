@@ -2,20 +2,16 @@ import React, { useEffect, useState, Fragment, createRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { useTimeoutFn } from "react-use";
 import LocationIcon from "../svgs/LocationIcon";
-import FilterLocation from "../FilterLocation";
-type Props = {
-  //   filterTypesSet: Function;
-  //   filterTypes: any; //FilteredTypes
-  //   filteredRestaurantsSet: Function;
-  //   filteredRestaurants: Array<object>
-  //   selectedproviderSet: Function;
-  //   selectedprovider: string
-  //   setRestaurantAmount: Function;
-};
+import FilterLocation from "./LocationModal";
+import LocationModal from "./LocationModal";
+import { useStore } from "react-redux";
+import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
+import { woltCities } from "../../backend/data/ListOfCities";
 
-const FilterByLocation: React.FC<Props> = (props) => {
+const FilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
-  // let [, , resetIsShowing] = useTimeoutFn(() => setIsOpen(true), 500)
+  const store = useStore();
+  const state = store.getState() as StateProp
 
   function closeModal() {
     setIsOpen(false);
@@ -24,23 +20,29 @@ const FilterByLocation: React.FC<Props> = (props) => {
   function openModal() {
     setIsOpen(true);
   }
-
+  const [city,setCity] = useState('Tel Aviv');
+  useEffect(() => {
+    const cityObj = woltCities.find(city => city.slug === state.restaurants.location.city);
+    setCity(cityObj?.name ?? 'Tel Aviv');
+  }, [state])
+  
   return (
     <>
-      <div className="flex h-12 relative">
-        <button
-          type="button"
-          onClick={openModal}
-          className="absolute z-10 rounded-2xl bg-purple h-full w-12 grid place-content-center p-4 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+      <button className="flex h-12 relative w-full cursor-auto"
+        type="button"
+        onClick={openModal}
+      >
+        <div
+          className="absolute cursor-pointer z-10 rounded-2xl bg-purple h-full w-12 grid place-content-center p-4 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           <span className="sr-only">פילטור לפי מיקום</span>
           <LocationIcon givenclass="w-8 h-8" />
 
-        </button>
-        <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
-          Tel Aviv
         </div>
-      </div>
+        <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
+          {city}
+        </div>
+      </button>
 
       <Transition appear show={isOpen} as={Fragment}>
         <Dialog as="div" className="relative z-40" onClose={closeModal}>
@@ -69,7 +71,7 @@ const FilterByLocation: React.FC<Props> = (props) => {
               >
                 <Dialog.Panel className="w-full max-w-md h-full transform overflow-hidden rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
 
-                  <FilterLocation closeModal={closeModal} />
+                  <LocationModal closeModal={closeModal} />
 
                 </Dialog.Panel>
               </Transition.Child>

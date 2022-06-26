@@ -2,50 +2,120 @@ export const woltCities = [
     {
         name: "Tel Aviv",
         slug: "telaviv",
-    },
-    {
-        name: "Ashdod",
-        slug: "ashdod",
-    },
-    {
-        name: "Beer Sheva",
-        slug: "beersheva",
-    },
-    {
-        name: "HaSharon",
-        slug: "hasharon",
-    },
-    {
-        name: "Herzliya - Ramat Hasharon",
-        slug: "herzliyaramathasharon",
+        label: 'תל אביב',
+        location: {
+            lat: 32.0852999,
+            lon: 34.78176759999999,
+        },
     },
     {
         name: "Jerusalem",
         slug: "jerusalem",
+        label: 'ירושלים',
+        location: {
+            lon: 35.21371,
+            lat: 31.768319,
+        },
     },
+    {
+        name: "Haifa",
+        slug: "haifa",
+        label: 'חיפה',
+        location: {
+            lat: 34.989571,
+            lon: 32.7940463,
+        },
+    },
+    {
+        name: "Ashdod",
+        slug: "ashdod",
+        label: 'אשדוד',
+        location: {
+            lat: 31.804381,
+            lon: 34.655314,
+        },
+    },
+    {
+        name: "Beer Sheva",
+        slug: "beersheva",
+        label: 'באר שבע',
+        location: {
+            lat: 31.252973,
+            lon: 34.791462,
+        },
+    },
+    {
+        name: "HaSharon",
+        slug: "hasharon",
+        label: 'השרון',
+        location: {
+            lat:32.0611821,
+            lon: 34.7782444,
+        },
+    },
+    {
+        name: "Herzliya - Ramat Hasharon",
+        slug: "herzliyaramathasharon",
+        label: 'הרצליה - רמת השרון',
+        location: {
+            lat: 32.162413,
+            lon:34.844675,
+        },
+    },
+
     {
         name: "Netanya",
         slug: "netanya",
+        label: 'נתניה',
+        location: {
+            lat: 32.321458,
+            lon: 34.853196,
+        },
     },
     {
         name: "Ness Ziona - Rehovot",
         slug: "nesszionarehovot",
+        label: 'נס ציון - רחובות',
+        location: {
+            lat: 31.932111,
+            lon: 34.801327,
+        },
     },
     {
         name: "Petah Tikva - Bik’at Ono",
-        slug: "petahtikva",
+        slug: "petachtikva",
+        label: 'פתח תקווה - ביקת אונו',
+        location: {
+            lat: 32.084041,
+            lon: 34.887762,
+        },
     },
     {
         name: "Hadera",
         slug: "hadera",
+        label: 'חדרה',
+        location: {
+            lat: 32.4340458,
+            lon: 34.9196518,
+        },
     },
     {
         name: 'Rishon, Holon, Bat Yam',
         slug: 'rishonholonbatyam',
+        label: 'ראשל״צ, חולון, בת ים',
+        location: {
+            lat: 31.9730015,
+            lon: 34.7925013,
+        },
     },
     {
         name: "Yavne",
         slug: "yavne",
+        label: 'יבנה',
+        location: {
+            lat: 31.877958,
+            lon: 34.739449,
+        },
     },
 ];
 
@@ -69,7 +139,7 @@ export const TenBisCities = [
     },
     {
         name: "Holon",
-        slug: "holon",
+        slug: "rishonholonbatyam",
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
@@ -85,7 +155,7 @@ export const TenBisCities = [
     },
     {
         name: "Bat Yam",
-        slug: "batyam",
+        slug: "rishonholonbatyam",
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
@@ -238,7 +308,7 @@ export const TenBisCities = [
     },
     {
         name: "Rishon Lezion",
-        slug: "rishonlezion",
+        slug: "rishonholonbatyam",
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',

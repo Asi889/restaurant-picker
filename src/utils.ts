@@ -1,15 +1,9 @@
-import { TenBisRestaurant, WoltRestaurant } from "./types/FetchRestaurantTyp";
+import { woltCities } from "../backend/data/ListOfCities";
 import { store } from "../src/redux/store";
-import { setFiftyRestaurants, setFilterByCategory, setSelectedRestaurant } from "./redux/actions/clienActions";
 import { shuffle } from "./hooks/shuffle";
+import { setFiftyRestaurants, setSelectedRestaurant } from "./redux/actions/clienActions";
+import { RestaurantType } from "./types/FetchRestaurantTyp";
 import { StateProp } from "./types/FetchSubRestaurantTypes";
-
-type RestaurantData = {
-    city: object;
-    tenBisData: Array<object>;
-    woltData: Array<object>;
-};
-
 
 export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Type => {
     let randomIndex: any = "";
@@ -18,6 +12,7 @@ export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Typ
     // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
 }
 export const splitAndTrim = (string: string): string => {
+    if(!string) return "";
     let [splitted] = string.split("|");
     return splitted.trim();
 }
@@ -64,7 +59,7 @@ export const vibrate = () => {
         return;
     }
 
-    window.navigator.vibrate(100);
+    window.navigator.vibrate([100,10,70]);
 }
 
 export const returnSubFilters = () => {
@@ -103,7 +98,7 @@ export const returnSubFilters = () => {
 
 export function checkFilters() {
 
-    let beforRest: WoltRestaurant[] | TenBisRestaurant[] | WoltRestaurant[] & TenBisRestaurant[] = []
+    let beforRest = [] as RestaurantType[]
     let state: StateProp | any
     state = store.getState();
     const provider = state?.restaurants?.filterTypes.woltRestaurants && state?.restaurants?.filterTypes.tenbisRestaurants ? "both" : state?.restaurants?.filterTypes.woltRestaurants ? "woltRestaurants" : "tenbisRestaurants"
@@ -162,7 +157,16 @@ export const set50Restaurants = (allTheRestaurants: any, selectedprovider: strin
 // const API_KEY =`AIzaSyDoijedNld5C1N291eOknHfLH4vB18fxtc`;
 
 
-export const getLatLon = async (cityName: string): Promise<{ lat: string, lon: string, address: Address }> => {
+export const getLatLon = async (cityName: string): Promise<{ lat: string, lon: string, address: Address | undefined }> => {
+    const slug = slugify(cityName);
+    const savedAddress =  woltCities.find((city: any) => city.slug === slug);
+    if(savedAddress && savedAddress.location.lat && savedAddress.location.lon) {
+        return {
+            lat: savedAddress.location.lat.toString(),
+            lon: savedAddress.location.lon.toString(),
+            address: undefined
+        }
+    }
     try {
         const response = await fetch(`https://nominatim.openstreetmap.org/search/${cityName}?format=json&addressdetails=1&limit=1`);
         const data = await response.json() as LocationResData[];
@@ -222,3 +226,5 @@ export interface Address {
     country: string
     country_code: string
 }
+
+
