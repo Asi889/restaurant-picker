@@ -7,7 +7,7 @@ const AppHeader = () => {
     <header className="w-full  bg-purple alfa">
       <div className="max-w-4xl mx-auto py-1 px-4 flex justify-between items-center">
         <Link href={'/'}>
-          <a className="hover:rotate-2 transition">
+          <a className="hover:rotate-2 transition text-xl md:text-3xl">
             🎰
           </a>
         </Link>
