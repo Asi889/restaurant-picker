@@ -69,21 +69,24 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
         <CheckProviders />
 
         <ul className="space-y-1 mt-3 pb-4">
-          <li>
-          <li>ציון: {selectedRestaurant?.score}</li>
 
-            </li>
+          <li>ציון: <span className="text-green">{selectedRestaurant?.score}</span></li>
           <li className="italic">
             <a className="text-white-90 hover:no-underline underline" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[1]},${selectedRestaurant.location[0]}`} target="_blank" rel="noopener noreferrer">
               כתובת: {selectedRestaurant?.address}
             </a>
           </li>
-          <li>{selectedRestaurant?.short_description}</li>
-          <li>{selectedRestaurant.tags.join(',')}</li>
+          <li>
+            <span>תיאור: </span>
+            {selectedRestaurant?.description}
+            {selectedRestaurant?.short_description}
+            <br />
+          </li>
+          <ResurantTags tags={selectedRestaurant.tags} />
         </ul>
       </div>
       {selectedRestaurant?.photo.image && (
-        <img className="w-full" src={selectedRestaurant.photo.image} alt={selectedRestaurant.title} />
+        <img className="w-full object-cover" src={selectedRestaurant.photo.image} alt={selectedRestaurant.title} />
       )}
     </section>
 
@@ -92,3 +95,54 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
 };
 
 export default connect()(ChosenRestaurant);
+
+const removeDuplicates = (arr: string[]) => {
+  return arr.filter((item, index) => arr.indexOf(item) === index);
+}
+const ResurantTags = ({ tags }: { tags: string[] }) => {
+  if (!tags || tags.length === 0) return null;
+  let tagToRenader = tags.map((tag) => {
+    switch (tag) {
+      case 'kosher': return 'כשר';
+      case 'sandwichesWraps': return 'סנדובייץ';
+      case 'sandwich': return 'סנדובייץ';
+      case 'street food': return 'אוכל רחוב';
+      case 'salads': return 'סלטים';
+      case 'meatGrill': return 'גריל';
+      case 'bbq': return 'גריל';
+      case 'grill': return 'גריל';
+      case 'fish': return 'דגים';
+      case 'café': return 'קפה';
+      case 'cafe': return 'קפה';
+      case 'coffeeHouse': return 'קפה';
+      case 'breakfast': return 'ארוחת בוקר';
+      case 'new': return 'חדש';
+      case 'homeMade': return 'אוכל ביתי';
+      case 'asianFusion': return 'אסייאתי';
+      case 'asian': return 'אסייאתי';
+      case 'japaneseSushi': return 'אסייאתי';
+      case 'mediterranean': return 'ים תיכוני';
+      case 'glutenFree': return 'ללא גלוטן';
+      case 'gluten free': return 'ללא גלוטן';
+      case 'burgers': return 'המבורגר';
+      case 'pizza': return 'פיצה';
+      case 'pasta': return 'פסטה';
+      case 'patisserie': return 'איטלקי';
+      case 'seafood': return 'מאכלי ים';
+      case 'convenienceStore': return 'חנות נוחות';
+      case 'dessert': return 'קינוחים';
+      case 'SmoothiesAndShakes': return 'שייקים';
+    }
+
+    return tag
+  });
+  tagToRenader = removeDuplicates(tagToRenader);
+  return (
+    <li className="flex flex-wrap">
+            <span>סגנון התפריט:&nbsp;</span>
+      {tagToRenader.map((tag:string, indx:number) => (
+        <span key={tag}>{indx ? ', ' : ''}{tag}</span>
+      ))}
+    </li>
+  );
+}

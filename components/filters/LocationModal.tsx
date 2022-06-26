@@ -1,10 +1,13 @@
 // SettingsContainer
 
+import axios from "axios";
 import React from "react";
 import { useStore } from "react-redux";
 import { woltCities } from "../../backend/data/ListOfCities";
-import { setCurrentCity } from "../../src/redux/actions/clienActions";
+import { shuffle } from "../../src/hooks/shuffle";
+import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../../src/redux/actions/clienActions";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
+import { getRandomFromArray } from "../../src/utils";
 import LocationIcon from "../svgs/LocationIcon";
 
 const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
@@ -12,8 +15,22 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
   const state = store.getState() as StateProp
 
   // debugger
-  const changeLocation = (slug:string) => {
-    store.dispatch(setCurrentCity(slug))
+  const changeLocation = async (cityName:string) => {
+    store.dispatch(setCurrentCity(cityName));
+    setTimeout(closeModal, 150);
+    const { data: allRestaurants } = await axios.post(`/api/fetch-restaurant`, {
+      cityName
+    });
+
+    store.dispatch(setRestaurants({
+      tenbisRestaurants: allRestaurants?.tenBisData,
+      woltRestaurants: allRestaurants?.woltData,
+      both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
+    }));
+    let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
+    store.dispatch(setFiftyRestaurants(maxed))
+    store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+
   }
   return (
     <div className="bg-[#FFFFFF] h-full overflow-auto mx-auto">

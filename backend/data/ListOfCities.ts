@@ -31,8 +31,8 @@ export const woltCities = [
         slug: "ashdod",
         label: 'אשדוד',
         location: {
-            lat: 34.655314,
-            lon: 31.804381,
+            lat: 31.804381,
+            lon: 34.655314,
         },
     },
     {

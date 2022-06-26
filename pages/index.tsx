@@ -1,15 +1,18 @@
 import axios from "axios";
 import React, { useEffect } from "react";
-import { setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../src/redux/actions/clienActions";
+import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../src/redux/actions/clienActions";
 import { connect, useDispatch } from "react-redux";
 import Container from "../components/Container";
 import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
 import { shuffle } from "../src/hooks/shuffle";
 import { getRandomFromArray } from "../src/utils";
 import { NextSeo } from "next-seo";
+import { LOCATION_COOKIE } from "../src/consts";
+import { parseCookies } from "nookies";
+import { GetServerSidePropsContext } from "next";
 
 
-const Home = ({ allRestaurants }: { allRestaurants: FetchRestaurantType }) => {
+const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType,cityName:string }) => {
   const dispatch = useDispatch()
 
 
@@ -22,6 +25,7 @@ const Home = ({ allRestaurants }: { allRestaurants: FetchRestaurantType }) => {
     let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
     dispatch(setFiftyRestaurants(maxed))
     dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+    dispatch(setCurrentCity(cityName));
 
   }, [allRestaurants?.tenBisData, allRestaurants?.woltData, dispatch])
 
@@ -46,15 +50,18 @@ const Home = ({ allRestaurants }: { allRestaurants: FetchRestaurantType }) => {
 export default connect()(Home);
 
 
-export async function getServerSideProps() {
+export async function getServerSideProps(context:GetServerSidePropsContext) {
   const { FRONT_URL } = process.env;
+  const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'tel-aviv' ;
+
   const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
-    cityName: 'telaviv'
+    cityName
   });
 
   return {
     props: {
-      allRestaurants
+      allRestaurants,
+      cityName,
     },
   };
 }

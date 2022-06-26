@@ -5,13 +5,6 @@ import { setFiftyRestaurants, setSelectedRestaurant } from "./redux/actions/clie
 import { RestaurantType } from "./types/FetchRestaurantTyp";
 import { StateProp } from "./types/FetchSubRestaurantTypes";
 
-type RestaurantData = {
-    city: object;
-    tenBisData: Array<object>;
-    woltData: Array<object>;
-};
-
-
 export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Type => {
     let randomIndex: any = "";
     randomIndex = Math.floor(Math.random() * allRestaurants.length);
@@ -66,7 +59,7 @@ export const vibrate = () => {
         return;
     }
 
-    window.navigator.vibrate(100);
+    window.navigator.vibrate([100,10,70]);
 }
 
 export const returnSubFilters = () => {
@@ -233,3 +226,5 @@ export interface Address {
     country: string
     country_code: string
 }
+
+
