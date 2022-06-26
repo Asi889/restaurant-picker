@@ -33,6 +33,8 @@ export default async function fetchRestaurant(
   switch (method) {
     case "POST":
       const cityName = req.body.cityName ?? "telaviv";
+      console.log(cityName);
+      
       const restaurants = await scrapeRestaurants(cityName);
       destroyCookie({ res }, LOCATION_COOKIE);
       setCookie({ res }, LOCATION_COOKIE, JSON.stringify(cityName), {

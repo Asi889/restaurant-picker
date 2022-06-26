@@ -60,15 +60,15 @@ export async function getServerSideProps(context:GetServerSidePropsContext) {
   tenBisData: [],
   };
   try {
-    const { data } = await axios.post(`/api/fetch-restaurant`, {
+    const { data } = await axios.post(`${process.env.FRONT_URL}/api/fetch-restaurant`, {
       cityName
     });
     allRestaurants = data
+    console.log(data);
   } catch(error){
     console.log(error);
     
   }
-  console.log(allRestaurants);
   
   return {
     props: {

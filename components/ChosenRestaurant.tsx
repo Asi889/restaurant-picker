@@ -49,7 +49,9 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       </div>
     );
   };
-
+  if(!selectedRestaurant){
+    return null
+  }
   return (
 
     <section className="bg-purple text-white mt-6 rounded-xl pt-4 w-full border border-green overflow-hidden">
