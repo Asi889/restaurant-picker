@@ -31,7 +31,7 @@ const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType
 
 
   const seoObj = {
-    title: 'הזמנת אוכל רנודומלית | Whats for dinner',
+    title: 'הזמנת אוכל רנדומלית | Whats for dinner',
     description: 'מתלבטים מה להזמין בוולט או תן ביס? הגרילו ארוחה להזמנה',
     openGraph: {
       type: 'website',
