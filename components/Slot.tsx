@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/jsx-key */
 import React, { forwardRef } from "react";
 import Image from "next/image";
@@ -36,10 +37,10 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                     (restaurant: RestaurantType, index: number) => {
                         return (
                           <div className={` rounded-full text-center relative img-wrapper `} key={index}>
-                            {restaurant?.photo.logo
+                            {restaurant?.photo?.logo
                              ? 
                              <img
-                             src={restaurant.photo.logo }
+                             src={restaurant?.photo?.logo }
                              alt="alt"
                              className="w-[400px] h-[100px] rounded-full mx-auto"
                            />

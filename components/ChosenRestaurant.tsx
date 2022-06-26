@@ -61,9 +61,9 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {splitAndTrim(selectedRestaurant?.title)}
           </b>
         </h2>
-        {selectedRestaurant?.photo.logo && (
+        {selectedRestaurant?.photo?.logo && (
           <div className="w-10 h-10 mx-auto">
-            <img className="w-full object-contain" src={selectedRestaurant.photo.logo} alt={selectedRestaurant.title} />
+            <img className="w-full object-contain" src={selectedRestaurant?.photo?.logo} alt={selectedRestaurant?.title} />
           </div>
         )}
         <CheckProviders />
@@ -82,11 +82,11 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {selectedRestaurant?.short_description}
             <br />
           </li>
-          <ResurantTags tags={selectedRestaurant.tags} />
+          <ResurantTags tags={selectedRestaurant?.tags} />
         </ul>
       </div>
       {selectedRestaurant?.photo.image && (
-        <img className="w-full object-cover" src={selectedRestaurant.photo.image} alt={selectedRestaurant.title} />
+        <img className="w-full object-cover" src={selectedRestaurant?.photo?.image} alt={selectedRestaurant?.title} />
       )}
     </section>
 
