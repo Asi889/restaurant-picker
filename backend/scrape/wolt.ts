@@ -1,12 +1,15 @@
 import { RestaurantType } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
+import path from 'path';
 
 const fs = require('fs');
 const fsp = require('fs').promises
 const WOLT_API = `https://restaurant-api.wolt.com`
 
 export const getWoltRestaurants = async (lat: string, lon: string, slug: string): Promise<RestaurantType[]> => {
-    const localPath = `./backend/data/wolt-restaurants-${slug}.json`;
+    // const localPath = `./backend/data/wolt-restaurants-${slug}.json`;
+    const jsonDir = path.join(process.cwd(), 'json')
+    const localPath = `${jsonDir}/10bis-restaurants-${slug}.json`;
     const isFileExists = fs.existsSync(localPath)
     if (isFileExists) {
         const file_data = await fsp.readFile(localPath)

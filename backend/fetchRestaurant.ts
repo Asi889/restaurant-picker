@@ -3,12 +3,13 @@
 
 import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
 import { getLatLon, slugify } from "../src/utils";
-import { TenBisCities } from "./data/ListOfCities";
+import { TenBisCities } from "../src/types/ListOfCities";
 import { get10BisRestaurants } from "./scrape/10bis";
 import { getWoltRestaurants } from "./scrape/wolt";
 
 
 export const scrapeRestaurants = async (cityName: string):Promise<FetchRestaurantType> => {
+    
     const slug = slugify(cityName);
     const { lat, lon } = await getLatLon(cityName);
     const tenBisQuery = TenBisCities.find(c => c.slug === slug);

@@ -1,3 +1,4 @@
+import path from "path";
 import { RestaurantType } from "../../src/types/FetchRestaurantTyp";
 import { isJsonString, isWeekPast } from "../../src/utils";
 
@@ -6,10 +7,11 @@ const fsp = require('fs').promises
 const TENIS_API = `https://www.10bis.co.il/NextApi/`
 //searchRestaurants?shoppingCartGuid=62cdb613-b452-4502-98f2-96cadfe99eab&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1654581284389&deliveryMethod=delivery&cityName=Holon&streetName=Golda+Me%27ir+Street&houseNumber=7&latitude=32.0122878&longitude=34.7794304&cityId=10&streetId=5987&isBigCity=true&addressKey=10-5987-7&locationType=residential
 export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<RestaurantType[]> => {
-  const localPath = `./backend/data/10bis-restaurants-${slug}.json`;
+  const jsonDir = path.join(process.cwd(), 'json')
+  const localPath = `${jsonDir}/10bis-restaurants-${slug}.json`;
   const isFileExists = fs.existsSync(localPath)
   if (isFileExists) {
-    const file_data = await fsp.readFile(localPath)
+    const file_data = await fsp.readFile(localPath, 'utf-8')
     const json_data = file_data && isJsonString(file_data) ? JSON.parse(file_data) : null
 
     if (json_data && !isWeekPast(json_data.lastScrapeDate) && json_data.restaurants) {

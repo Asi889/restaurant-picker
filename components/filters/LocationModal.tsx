@@ -3,7 +3,7 @@
 import axios from "axios";
 import React from "react";
 import { useStore } from "react-redux";
-import { woltCities } from "../../backend/data/ListOfCities";
+import { woltCities } from "../../src/types/ListOfCities";
 import { shuffle } from "../../src/hooks/shuffle";
 import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../../src/redux/actions/clienActions";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";

@@ -52,11 +52,24 @@ export default connect()(Home);
 
 export async function getServerSideProps(context:GetServerSidePropsContext) {
   const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'tel-aviv' ;
-
-  const { data: allRestaurants } = await axios.post(`/api/fetch-restaurant`, {
-    cityName
-  });
-
+  let allRestaurants ={
+    city: {
+      name: cityName,
+  },
+  woltData: [],
+  tenBisData: [],
+  };
+  try {
+    const { data } = await axios.post(`/api/fetch-restaurant`, {
+      cityName
+    });
+    allRestaurants = data
+  } catch(error){
+    console.log(error);
+    
+  }
+  console.log(allRestaurants);
+  
   return {
     props: {
       allRestaurants,

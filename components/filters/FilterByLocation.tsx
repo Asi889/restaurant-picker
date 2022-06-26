@@ -6,7 +6,7 @@ import FilterLocation from "./LocationModal";
 import LocationModal from "./LocationModal";
 import { useStore } from "react-redux";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
-import { woltCities } from "../../backend/data/ListOfCities";
+import { woltCities } from "../../src/types/ListOfCities";
 
 const FilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);

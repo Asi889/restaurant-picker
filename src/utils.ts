@@ -1,4 +1,4 @@
-import { woltCities } from "../backend/data/ListOfCities";
+import { woltCities } from "./types/ListOfCities";
 import { store } from "../src/redux/store";
 import { shuffle } from "./hooks/shuffle";
 import { setFiftyRestaurants, setSelectedRestaurant } from "./redux/actions/clienActions";
