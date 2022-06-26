@@ -39,12 +39,12 @@ const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
         </button>
       </div>
       <div className="flex gap-x-4 mt-4 items-end">
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} 
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-center  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} 
         onClick={() => filterProviderType('tenbisRestaurants')}>
           <TenBisLogo />
           <h3 className="mt-auto">תן ביס</h3>
         </button>
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} 
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-center  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} 
         onClick={() => filterProviderType('woltRestaurants')} >
           <WoltLogo />
           <h3 className="mt-auto">וולט</h3>
