@@ -54,13 +54,13 @@ export async function getServerSideProps(context:GetServerSidePropsContext) {
   const { FRONT_URL } = process.env;
   const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'tel-aviv' ;
 
-  const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
-    cityName
-  });
+  // const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
+  //   cityName
+  // });
 
   return {
     props: {
-      allRestaurants,
+      allRestaurants:[],
       cityName,
     },
   };

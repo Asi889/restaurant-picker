@@ -27,11 +27,11 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
       woltRestaurants: allRestaurants?.woltData,
       both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
     }));
-    let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
-    store.dispatch(setFiftyRestaurants(maxed))
-    store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
-
+    // let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
+    // store.dispatch(setFiftyRestaurants(maxed))
+    // store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
   }
+
   return (
     <div className="bg-[#FFFFFF] h-full overflow-auto mx-auto">
       <div className="flex justify-between">
