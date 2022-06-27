@@ -12,16 +12,19 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 .noto{
 font-family: 'Noto Sans Hebrew', sans-serif;
 }
-Ø
-.bbotom{
-  bottom: 91.2%;
-}
+
 @media (max-width: 768px) {
   
   .bbotom{bottom: 98.5%;}
   .slot-container .front-spin{
     bottom: 1.2%;
   }
+  
+}
+@media (min-width: 768px) {
+  
+  .bbotom{bottom: 91.2%;}
+ 
   
 }
 

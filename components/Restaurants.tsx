@@ -48,8 +48,7 @@ const Restaurants: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className="w-full text-center">
-      <div className="max-w-[850px] mx-auto flex items-center">
+    <div className="w-full text-center mx-auto flex items-center max-w-[850px]">
                 <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
         <div className="bg-[#FDA73B] px-1 md:px-4 py-1 md:py-4 relative w-full rounded-xl mt-10  ">
           {/* <div className="absolute skew-y-6 h-[50px] w-[100px] bg-red-200 -top-[53px]"></div> */}
@@ -68,7 +67,6 @@ const Restaurants: React.FC<Props> = (props) => {
           </div>
         </div>
         </div>
-      </div>
     </div>
   );
 };
