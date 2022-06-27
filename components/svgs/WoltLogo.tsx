@@ -1,18 +1,20 @@
 import React, { useEffect, useState, createRef } from "react";
 
 type Props = {
-  
-  
+
+
 };
 
 const WoltLogo: React.FC<Props> = (props) => {
-  const {} = props;
+  const { } = props;
 
   return (
-<svg
+    <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 275 100"
+      width={275}
+      height={100}
     >
       <path
         fill="#4CB2E1"
