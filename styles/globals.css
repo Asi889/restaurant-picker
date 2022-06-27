@@ -43,7 +43,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 .front-spin{
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
-  bottom: 1.6%;
+  bottom: 305px;
 }
 .slot-wrapper:nth-child(2){
     width: 500px;

@@ -37,7 +37,7 @@ export default async function fetchRestaurant(
       
       const restaurants = await scrapeRestaurants(cityName);
       destroyCookie({ res }, LOCATION_COOKIE);
-      setCookie({ res }, LOCATION_COOKIE, JSON.stringify(cityName), {
+      setCookie({ res }, LOCATION_COOKIE, cityName, {
         secure: NODE_ENV === "production",
         maxAge: 2592000, //30 days
         httpOnly: true,

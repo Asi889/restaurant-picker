@@ -7,11 +7,11 @@ import LocationModal from "./LocationModal";
 import { useStore } from "react-redux";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
 import { woltCities } from "../../src/types/ListOfCities";
+import { useSelector } from "react-redux";
 
 const FilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
-  const store = useStore();
-  const state = store.getState() as StateProp
+  const cityStore = useSelector((state: StateProp) => state.restaurants.location.city)
 
   function closeModal() {
     setIsOpen(false);
@@ -22,9 +22,9 @@ const FilterByLocation = () => {
   }
   const [city,setCity] = useState('Tel Aviv');
   useEffect(() => {
-    const cityObj = woltCities.find(city => city.slug === state.restaurants.location.city);
+    const cityObj = woltCities.find(city => city.slug === cityStore);
     setCity(cityObj?.name ?? 'Tel Aviv');
-  }, [state])
+  }, [cityStore])
   
   return (
     <>

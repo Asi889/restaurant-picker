@@ -51,7 +51,7 @@ const Restaurants: React.FC<Props> = (props) => {
   return (
     <div className="w-full text-center mx-auto flex items-center max-w-[600px] md:max-w-[850px]">
                 <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
-        <div className="bg-[#FFD700 ] golda px-20 md:px-10 py-4 md:py-4 relative w-full rounded-[48px] mt-10  ">
+        <div className="bg-[#FFD700 ] golda px-20 md:px-10 py-4 md:py-4 relative w-full rounded-[48px] mt-10 h-auto ">
             <Triangle givenclass="rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 left-0 md:left-3 top-12 md:top-36" />
             <Triangle givenclass="-rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 right-0 md:right-3 top-12 md:top-36" /> 
               <Slot

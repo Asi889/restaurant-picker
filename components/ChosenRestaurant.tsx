@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { connect, useStore } from "react-redux";
-import { RestaurantType } from "../src/types/FetchRestaurantTyp";
+import { FetchRestaurantType, RestaurantType } from "../src/types/FetchRestaurantTyp";
 import { StateProp } from "../src/types/FetchSubRestaurantTypes";
 import { checkTime, splitAndTrim } from "../src/utils";
 import TenBisLogo from "./svgs/TenBisLogo";
@@ -22,7 +22,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 
-    let selectedDeviceCheck= (restaurant: any)=>{
+    let selectedDeviceCheck= (restaurant: FetchRestaurantType | any)=>{
       if(isAndroid){
         return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`
       }
