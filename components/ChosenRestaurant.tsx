@@ -36,12 +36,6 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
 
     return (
       <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2 `}>
-
-        {isAndroid ?
-      ""
-      :
-      ""  
-      }
         <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(selectedRestaurant)}>
           <div className="w-full px-2 h-full flex items-center justify-center">
             {provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
