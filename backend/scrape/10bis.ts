@@ -5,6 +5,40 @@ import { isJsonString, isWeekPast } from "../../src/utils";
 const fs = require('fs');
 const fsp = require('fs').promises
 const TENIS_API = `https://www.10bis.co.il/NextApi/`
+
+
+function dataToRestaurant(restaurant: RestaurantsList, slug: string): RestaurantType {
+  const tags = restaurant.restaurantCuisineKeysList;
+  if (restaurant.isKosher) tags.push('kosher');
+  if (restaurant.isVegan) tags.push('vegan');
+  if (restaurant.isGlutenFree) tags.push('gluten free');
+  if (restaurant.isEnvironmentFriendly) tags.push('environment friendly');
+  const res = {
+    name: restaurant.restaurantName,
+    score: restaurant.reviewsRankDecimal * 2, //reviewsRank
+    title: restaurant.restaurantName,
+    venue_id: `${restaurant.restaurantId}`,
+    address: restaurant.restaurantAddress,
+    track_id: `${restaurant.restaurantId}`,
+    location: [
+      restaurant.longitude,
+      restaurant.latitude
+    ],
+    photo: {
+      image: restaurant.restaurantHeaderImageUrl ? restaurant.restaurantHeaderImageUrl : restaurant.profileImageUrl,
+      logo: restaurant.restaurantLogoUrl
+    },
+    description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
+    short_description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
+    slug: slug,
+    tags,
+    link: {
+      url: `https://www.10bis.co.il/next/en/restaurants/menu/delivery/${restaurant.restaurantId}`
+    },
+    provider: "tenBis" as any,
+  };
+  return res;
+}
 //searchRestaurants?shoppingCartGuid=62cdb613-b452-4502-98f2-96cadfe99eab&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1654581284389&deliveryMethod=delivery&cityName=Holon&streetName=Golda+Me%27ir+Street&houseNumber=7&latitude=32.0122878&longitude=34.7794304&cityId=10&streetId=5987&isBigCity=true&addressKey=10-5987-7&locationType=residential
 export const get10BisRestaurants = async (query: LocationQueryParams, slug: string): Promise<RestaurantType[]> => {
   const jsonDir = path.join(process.cwd(), 'json')
@@ -38,35 +72,8 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
     console.log('fetching 10bis restaurants', data);
     const res = [] as RestaurantType[];
     data.Data.restaurantsList.forEach(restaurant => {
-      const tags = restaurant.restaurantCuisineKeysList;
-      if (restaurant.isKosher) tags.push('kosher');
-      if (restaurant.isVegan) tags.push('vegan');
-      if (restaurant.isGlutenFree) tags.push('gluten free');
-      if (restaurant.isEnvironmentFriendly) tags.push('environment friendly');
-      res.push({
-        name: restaurant.restaurantName,
-        score: restaurant.reviewsRankDecimal * 2, //reviewsRank
-        title: restaurant.restaurantName,
-        venue_id: `${restaurant.restaurantId}`,
-        address: restaurant.restaurantAddress,
-        track_id: `${restaurant.restaurantId}`,
-        location: [
-          restaurant.longitude,
-          restaurant.latitude
-        ],
-        photo: {
-          image: restaurant.restaurantHeaderImageUrl ? restaurant.restaurantHeaderImageUrl :restaurant.profileImageUrl,
-          logo: restaurant.restaurantLogoUrl
-        },
-        description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
-        short_description: Object.values(restaurant.localizationNames).map(v => v).join(', '),
-        slug: slug,
-        tags,
-        link: {
-          url: `https://www.10bis.co.il/next/en/restaurants/menu/delivery/${restaurant.restaurantId}`
-        },
-        provider: "tenBis",
-      })
+      const restaurantObj = dataToRestaurant(restaurant, slug);
+      res.push(restaurantObj);
     })
 
     if (isFileExists) {
@@ -95,6 +102,59 @@ export const get10BisRestaurants = async (query: LocationQueryParams, slug: stri
 
 }
 
+export const get10ByLatLon = async (location: { lat: number, lon: number }): Promise<RestaurantType[]> => {
+  const slug = `${location.lat}-${location.lon}`;
+  // const getCityData = await fetch(`https://www.latlong.net/c/?lat=${location.lat}&long=${location.lon}`);
+  // // const geoData = await getCityData.json() as any;
+  
+  // console.log(geoData);
+  
+  const query = {
+    shoppingCartGuid: '5e471e0a-cb14-1e61-a9e8-7afe1e9ad587',
+    culture: 'he-IL',
+    uiCulture: 'he',
+    cityName: ``,
+    streetName: ``,
+    houseNumber: 0,
+    latitude: location.lat,
+    longitude: location.lon,
+    cityId: 0,
+    streetId: 0,
+    isBigCity: true,
+    addressKey: '24-8144-5',
+    locationType: 'residential',
+
+  }
+  try {
+    const searchParams = new URLSearchParams();
+    Object.entries(query).forEach(([key, value]) => searchParams.append(key, value.toString()));
+    const fetchUrl = `${TENIS_API}/searchRestaurants?${searchParams.toString()}`;
+    console.log('fetching wolt restaurants', fetchUrl);
+    const response = await fetch(fetchUrl, {
+      method: 'GET',
+      headers: {
+        'Content-Type': 'application/json',
+      }
+    })
+
+    const data = await response.json() as Restaurants;
+
+    console.log('fetching 10bis restaurants', data);
+    const res = [] as RestaurantType[];
+    data.Data.restaurantsList.forEach(restaurant => {
+      const restaurantObj = dataToRestaurant(restaurant, slug);
+      res.push(restaurantObj);
+    })
+    return res
+
+  } catch (error) {
+    console.log(error);
+
+    console.log('NO WOLT RESTAURANTS FOUND');
+
+    return []
+  }
+}
 
 
 

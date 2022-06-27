@@ -36,5 +36,7 @@ export type Restaurant = {
   selectedProvider: "both";
   location:{
     city: string;
+    latitude: null |number,
+    longitude: null |number,
   }
 };

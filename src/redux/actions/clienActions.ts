@@ -40,6 +40,12 @@ export const setFiftyRestaurants = (restaurants: RestaurantType[] ) => {
     payload: restaurants,
   };
 };
+export const setUserLatLon = (payload:{latitude:number, longitude:number}) => {
+  return {
+    type: ActionTypes.SET_USER_LAT_LON,
+    payload
+  };
+};
 export const setCurrentCity = (payload:string  ) => {
   return {
     type: ActionTypes.SET_CURRENT_CITY,

@@ -21,11 +21,13 @@ const initialState: any = {
         pizza: false
     },
     selectedRestaurant: null as RestaurantType | null,
-    fiftyRestaurants:  [] as RestaurantType[],
-    filteredByCategory: []  as RestaurantType[],
+    fiftyRestaurants: [] as RestaurantType[],
+    filteredByCategory: [] as RestaurantType[],
     selectedProvider: "",
     location: {
         city: 'telaviv',
+        latitude: null,
+        longitude: null,
     }
 
 };
@@ -39,6 +41,8 @@ export const restaurantReducer = (state = initialState, action: Action) => {
     switch (action.type) {
 
 
+        case ActionTypes.SET_USER_LAT_LON:
+            return { ...state, location: { ...state.location, ...action.payload } };
         case ActionTypes.SET_CURRENT_CITY:
             return { ...state, location: { city: action.payload } };
         case ActionTypes.SET_RESTAURANTS:

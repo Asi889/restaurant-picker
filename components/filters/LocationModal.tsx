@@ -1,22 +1,26 @@
 // SettingsContainer
 
 import axios from "axios";
-import React from "react";
+import React, { useState } from "react";
 import { useStore } from "react-redux";
 import { woltCities } from "../../src/types/ListOfCities";
 import { shuffle } from "../../src/hooks/shuffle";
-import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../../src/redux/actions/clienActions";
+import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant, setUserLatLon } from "../../src/redux/actions/clienActions";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
 import { getRandomFromArray } from "../../src/utils";
 import LocationIcon from "../svgs/LocationIcon";
+import { Loader } from "../texts/Loader";
 
-const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
+const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
   const store = useStore();
   const state = store.getState() as StateProp
 
-  const changeLocation = async (cityName:string) => {
+  const [loading, setLoading] = useState(false)
+
+  const changeLocation = async (cityName: string) => {
+    setLoading(true)
     store.dispatch(setCurrentCity(cityName));
-    setTimeout(closeModal, 150);
+ 
     const { data: allRestaurants } = await axios.post(`/api/fetch-restaurant`, {
       cityName
     });
@@ -29,34 +33,48 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
     let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
     store.dispatch(setFiftyRestaurants(maxed))
     store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+    setLoading(false)
+    closeModal();
+
   }
 
   const setUserLocation = async () => {
-    console.log('x');
-    
+    setLoading(true)
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(async (position) => {
-        console.log(position);
-        
-        const { data: city } = await axios.post(`/api/fetch-city`, {
-          lat: position.coords.latitude,
-          lng: position.coords.longitude
+        store.dispatch(setUserLatLon({ latitude: position.coords.latitude, longitude: position.coords.longitude }));
+        const { data: allRestaurants } = await axios.post(`/api/fetch-by-location`, {
+          location: {
+            lat: position.coords.latitude,
+            lon: position.coords.longitude
+          }
         });
-        // changeLocation(city.name);
-      }),()=>{
+        store.dispatch(setRestaurants({
+          tenbisRestaurants: allRestaurants?.tenBisData,
+          woltRestaurants: allRestaurants?.woltData,
+          both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
+        }));
+        let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
+        store.dispatch(setFiftyRestaurants(maxed))
+        store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+        setLoading(false)
+        closeModal();
+      }), () => {
         console.log('error');
-        
+        setLoading(false)
+
         // TODO: add eror
       }
-    } else{
-        // TODO: add eror
-        console.log('error');
-
+    } else {
+      // TODO: add eror
+      console.log('error');
+      setLoading(false)
     }
   }
 
   return (
     <div className="bg-[#FFFFFF] h-full overflow-auto mx-auto">
+      {loading && <Loader />}
       <div className="flex justify-between">
         <h2 className="font-thin underline px-2 text-lg mx-auto">מיקום - למה יצאת מתל אביב?</h2>
 
@@ -67,8 +85,10 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
         </button>
       </div>
       <button
-      onClick={setUserLocation}
-      className={`grid place-content-center text-center w-full mt-6 bg-slate-50 rounded py-1`}>
+        onClick={setUserLocation}
+        className={`grid place-content-center text-center w-full mt-6 bg-slate-50 rounded py-1
+        ${state.restaurants.location.latitude && state.restaurants.location.longitude ? 'bg-slate-300' : ''}
+        `}>
         <LocationIcon givenclass="w-12 mx-auto" />
         <div className="font-bold">השתמש במיקום הנוכחי שלי</div>
         <div className="font-thin px-1 text-sm">
@@ -81,8 +101,8 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
         {woltCities.map((city) => (
           <li key={city.slug}>
             <button
-            onClick={() => changeLocation(city.slug)}
-            className={`w-full  active:bg-[#F7F5F5] py-4 rounded ${state.restaurants.location.city === city.slug ? "bg-purple text-white" : "bg-slate-50 text-purple-dark"}`}
+              onClick={() => changeLocation(city.slug)}
+              className={`w-full  active:bg-[#F7F5F5] py-4 rounded ${state.restaurants.location.city === city.slug ? "bg-purple text-white" : "bg-slate-50 text-purple-dark"}`}
             >
               {city.label}
             </button>
