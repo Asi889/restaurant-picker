@@ -6,7 +6,7 @@ import { StateProp } from "../src/types/FetchSubRestaurantTypes";
 import { checkTime, splitAndTrim } from "../src/utils";
 import TenBisLogo from "./svgs/TenBisLogo";
 import WoltLogo from "./svgs/WoltLogo";
-
+import { isAndroid, isIOS } from "react-device-detect";
 interface Props { }
 
 const ChosenRestaurant: React.FC<Props> = (props) => {
@@ -22,11 +22,27 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 
+    let selectedDeviceCheck= (restaurant: any)=>{
+      if(isAndroid){
+        return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`
+      }
+      if(isIOS){
+        return "https://apps.apple.com/us/app/instagram/id389801252"
+      }
+      return restaurant?.link?.url
+    }
+    
+    
+
     return (
       <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2 `}>
 
-        {/* <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedRestaurant?.link?.url}> */}
-        <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={`intent://${selectedRestaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${selectedRestaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`}>
+        {isAndroid ?
+      ""
+      :
+      ""  
+      }
+        <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(selectedRestaurant)}>
           <div className="w-full px-2 h-full flex items-center justify-center">
             {provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
           </div>
@@ -36,8 +52,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
           </p>
         </a>
         {otherProvider && (
-          // <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={otherProvider?.link?.url}>
-          <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={`intent://${otherProvider?.link?.url.slice(8)}/#Intent;scheme=https;package=${otherProvider.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`}>
+          <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(otherProvider)}>
             <div className="w-full px-2 h-full flex items-center justify-center">
 
               {otherProvider.provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
