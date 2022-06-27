@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { connect } from 'react-redux';
 import { checkFilters, vibrate } from "../src/utils";
+import LeftRing from "./LeftRing";
 import Slot from "./Slot";
 import SlotArm from "./SlotArm";
 import Triangle from "./svgs/Triangle";
@@ -48,25 +49,20 @@ const Restaurants: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className="w-full text-center mx-auto flex items-center max-w-[850px]">
+    <div className="w-full text-center mx-auto flex items-center max-w-[600px] md:max-w-[850px]">
                 <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
-        <div className="bg-[#FDA73B] px-1 md:px-4 py-1 md:py-4 relative w-full rounded-xl mt-10  ">
-          {/* <div className="absolute skew-y-6 h-[50px] w-[100px] bg-red-200 -top-[53px]"></div> */}
+        <div className="bg-[#FFD700 ] golda px-20 md:px-10 py-4 md:py-4 relative w-full rounded-[48px] mt-10  ">
             <Triangle givenclass="rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 left-0 md:left-3 top-12 md:top-36" />
             <Triangle givenclass="-rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 right-0 md:right-3 top-12 md:top-36" /> 
-          <div className="bg-[#D45E3A] px-1 md:px-4 py-1 md:py-4 relative inline-block rounded-xl alfa">
-            <div className="max-h-[160px] md:max-h-[360px] w-full grid grid-cols-3 gap-x-1 py-1 px-1 bg-gray-800 overflow-hidden rounded-lg">
-              {refs.map((ref: any, index: number) => (
               <Slot
-                ref={ref}
-                key={index}
                 slotTransition={slotTransition}
-                refindex={index}
+                refindex={1}
               />
-              ))}
-          </div>
+              {/* <div className="slot-shadow bg-black w-60 h-5 left-[82px] opacity-30 bottom-4 absolute"></div>
+              <div className="slot-shadow bg-black w-60 h-5 top-4 opacity-30 absolute"></div> */}
+              
         </div>
-        </div>
+                <LeftRing  />
     </div>
   );
 };

@@ -12,10 +12,9 @@ import { RestaurantType } from "../src/types/FetchRestaurantTyp";
 type Props = {
   slotTransition: boolean;
   refindex:number
-  ref: any
 };
 
-const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) => {
+const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
   
   const {slotTransition, refindex} = props;
   // const [filteredByCategory, filteredByCategorySet] = useState<any>([])
@@ -24,11 +23,10 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
   
 
   return (
-          <div  key={refindex} className="w-full border bg-white border-red-200 px-1   overflow-hidden ">
+          <div  key={refindex} className={`w-full max-w-[350px] mx-auto md:max-w-full h-[150px]  bg-white  px-1 overflow-hidden rounded-lg border-4 border-black slot-shadow`}>
+                    
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
-
-              
-              <div ref={ref} className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
+              <div  className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
               <SelectedAndTop index={refindex}  />
           
                 {allRestaurants &&
@@ -42,11 +40,11 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any, ref: any) 
                              <img
                              src={restaurant?.photo?.logo }
                              alt="alt"
-                             className="w-[400px] h-[100px] rounded-full mx-auto"
+                            className="w-[200px] h-[200px] rounded-full mx-auto"
                            />
                          
                             : 
-                            <div className="font-bold text-base bg-purplekh-[70px] text-center grid items-center text-white">
+                            <div className="slot-macihne-text leading-4 w-[200px] h-[200px] text-base bg-purple h-[70px] text-center grid items-center relative my-4 text-white">
                               {splitAndTrim(restaurant?.title)}
                             </div>
                             }

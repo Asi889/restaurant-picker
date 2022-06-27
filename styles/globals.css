@@ -15,9 +15,9 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 @media (max-width: 768px) {
   
-  .bbotom{bottom: 98.5%;}
+  .bbotom{bottom: 89.2%;}
   .slot-container .front-spin{
-    bottom: 1.2%;
+    bottom: 1.3%;
   }
   
 }
@@ -27,12 +27,33 @@ font-family: 'Noto Sans Hebrew', sans-serif;
  
   
 }
+.golda{
+  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
+
+                /* ///// */
+                background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
+.slot-shadow{
+  /* border: 1px solid;
+  box-shadow:  10px 5px 4px  pink inset; */
+}
 
 .front-spin{
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
   bottom: 1.6%;
 }
+.slot-wrapper:nth-child(2){
+    width: 500px;
+}
+/* .slot-wrapper:nth-child(3){
+    width: 70px;
+} */
+/* .slot-wrapper:nth-child(2){
+    width: 70px;
+} */
 
 
 .slot {
