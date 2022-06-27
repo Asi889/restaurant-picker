@@ -27,7 +27,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
         return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`
       }
       if(isIOS){
-        return "https://apps.apple.com/us/app/instagram/id389801252"
+        return "https://apps.apple.com/us/app/instagram/id196859368"
       }
       return restaurant?.link?.url
     }
