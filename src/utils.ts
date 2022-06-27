@@ -1,4 +1,4 @@
-import { woltCities } from "../backend/data/ListOfCities";
+import { woltCities } from "./types/ListOfCities";
 import { store } from "../src/redux/store";
 import { shuffle } from "./hooks/shuffle";
 import { setFiftyRestaurants, setSelectedRestaurant } from "./redux/actions/clienActions";
@@ -59,7 +59,7 @@ export const vibrate = () => {
         return;
     }
 
-    window.navigator.vibrate([100,10,70]);
+    window.navigator.vibrate([500,10,70]);
 }
 
 export const returnSubFilters = () => {

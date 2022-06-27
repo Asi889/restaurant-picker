@@ -1,0 +1,2120 @@
+{
+    "lastScrapeDate": 1656245672194,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.4340458&lon=34.9196518",
+    "restaurants": [
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc51543f6833d494766ae7/74dd2ad2-76b5-11ec-a1c1-e2d88190328a_____.jpg",
+                "logo": null
+            },
+            "title": "Sami Bakikar",
+            "name": "Sami Bakikar",
+            "track_id": "venue-sami-bakikar",
+            "address": "הרב עוזיאל 7, חדרה",
+            "venue_id": "61dc51543f6833d494766ae7",
+            "location": [
+                34.91127303944136,
+                32.440587042064436
+            ],
+            "short_description": "A Place Everyone Knows\n",
+            "slug": "sami-bakikar",
+            "tags": [
+                "kebab",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/sami-bakikar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e0006a655d1f2d7e2df892/16b0e0b6-84e3-11ec-a178-828b13fd9f21_yaelitz_9.jpg",
+                "logo": null
+            },
+            "title": "Burger Legends",
+            "name": "Burger Legends",
+            "track_id": "venue-burger-legends",
+            "address": "הגיבורים 63, חדרה",
+            "venue_id": "61e0006a655d1f2d7e2df892",
+            "location": [
+                34.9227262,
+                32.4370234
+            ],
+            "short_description": "An original and kosher burger restaurant that pays homage to the cultural, sports and music heroes we all love",
+            "slug": "burger-legends",
+            "tags": [
+                "american",
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/burger-legends"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d815c4eafc708fdc93dbe/cb3dcf58-ab4f-11eb-b945-12e8e9c05731_bonfis_9999_438.jpg",
+                "logo": null
+            },
+            "title": "Fiori | Pardes Hanna",
+            "name": "Fiori | Pardes Hanna",
+            "track_id": "venue-fiori-pardes-hanna",
+            "address": "האורנים 12, חצר השוק, פרדס חנה",
+            "venue_id": "607d815c4eafc708fdc93dbe",
+            "location": [
+                34.9726685,
+                32.4737603
+            ],
+            "short_description": "Fresh Italian cuisine",
+            "slug": "fiori-pardes-hanna",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/fiori-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dea1a9972c6fa909cfc363/03311236-a2a7-11ec-b7fe-5ecbe7228bf9_yaelitz__3_.jpg",
+                "logo": null
+            },
+            "title": "Mimi Gelato Art",
+            "name": "Mimi Gelato Art",
+            "track_id": "venue-mimi-gelato-art",
+            "address": " הרברט סמואל 1, חדרה",
+            "venue_id": "61dea1a9972c6fa909cfc363",
+            "location": [
+                34.9109822,
+                32.438695
+            ],
+            "short_description": "Never Settle For Just One Scoop",
+            "slug": "mimi-gelato-art",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "italian"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mimi-gelato-art"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60dc58b0685b7ecfff796311/4db6a744-e53d-11eb-9045-5a1a7cfc9baa_yaelitz_11.jpg",
+                "logo": null
+            },
+            "title": "CookieMe",
+            "name": "CookieMe",
+            "track_id": "venue-cookieme",
+            "address": "החרובים 4, פרדס חנה",
+            "venue_id": "60dc58b0685b7ecfff796311",
+            "location": [
+                34.9704554,
+                32.4764206
+            ],
+            "short_description": "Large chocolate chip cookies melt inside",
+            "slug": "cookieme",
+            "tags": [
+                "café",
+                "dessert",
+                "sweets"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/cookieme"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d57bfa4c36987c032717a/c13c1f30-0b14-11ec-91f8-be57a65ed087_img_9401_edit.jpg",
+                "logo": null
+            },
+            "title": "Pasta Basta | Gan Shmuel",
+            "name": "Pasta Basta | Gan Shmuel",
+            "track_id": "venue-pasta-basta-pardes-hanna",
+            "address": "פארק מסחרי גן שמואל",
+            "venue_id": "607d57bfa4c36987c032717a",
+            "location": [
+                34.953645644434374,
+                32.44811213281712
+            ],
+            "short_description": "We came from the shuk...\n",
+            "slug": "pasta-basta-pardes-hanna",
+            "tags": [
+                "pasta",
+                "italian",
+                "soup"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pasta-basta-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dafe6cdb83d62e622f6364/fc5e64f6-994e-11ec-ad18-0ade450f87ed_photo_2022_03_01_09_49_24_medium.jpeg",
+                "logo": null
+            },
+            "title": "Haimiko's Frikase | Hadera",
+            "name": "Haimiko's Frikase | Hadera",
+            "track_id": "venue-haimikos-frikase-hadera",
+            "address": "הרברט סמואל 1, חדרה",
+            "venue_id": "61dafe6cdb83d62e622f6364",
+            "location": [
+                34.9109822,
+                32.438695
+            ],
+            "short_description": "The Original Tunisian\n",
+            "slug": "haimikos-frikase-hadera",
+            "tags": [
+                "kosher",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/haimikos-frikase-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c04552e14d63a73247831d/f325771c-6172-11ec-84cf-c629e3babbfd_________________.jpg",
+                "logo": null
+            },
+            "title": "American Pizza | Hadera",
+            "name": "American Pizza | Hadera",
+            "track_id": "venue-american-pizza-hadera",
+            "address": "רוטשילד 38, חדרה",
+            "venue_id": "61c04552e14d63a73247831d",
+            "location": [
+                34.92127,
+                32.4373338
+            ],
+            "short_description": "Real Italian Pizza",
+            "slug": "american-pizza-hadera",
+            "tags": [
+                "dessert",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/american-pizza-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d5e6f4eafc708fdc8ceae/69af51ae-2f4c-11ec-82e9-321ec1115618___24.jpg",
+                "logo": null
+            },
+            "title": "Golda Kosher | Pardes Hanna",
+            "name": "Golda Kosher | Pardes Hanna",
+            "track_id": "venue-golda-pardes-hanna",
+            "address": "גלעד 4, פרדס חנה",
+            "venue_id": "607d5e6f4eafc708fdc8ceae",
+            "location": [
+                34.9748497,
+                32.4728241
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-pardes-hanna",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/golda-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6217a5fed94acb0d810b8877/00837596-97e5-11ec-9de7-9646a0dbd2f1_fe57d470_bb94_11ea_9bc5_52b82be79996_parloeb.png",
+                "logo": null
+            },
+            "title": "Atza | Hadera",
+            "name": "Atza | Hadera",
+            "track_id": "venue-atza-hadera",
+            "address": " צה\"ל 35, חדרה",
+            "venue_id": "6217a5fed94acb0d810b8877",
+            "location": [
+                34.9304744,
+                32.4404641
+            ],
+            "short_description": "Sushi\n",
+            "slug": "atza-hadera",
+            "tags": [
+                "asian",
+                "sushi",
+                "noodles"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/atza-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/624006e35f7a6179cfc42458/35650c06-ad99-11ec-98ff-dadb50712d91____________.jpg",
+                "logo": null
+            },
+            "title": "JetLek | Hadera",
+            "name": "JetLek | Hadera",
+            "track_id": "venue-jetlek-hadera",
+            "address": "צה״ל 35, חדרה",
+            "venue_id": "624006e35f7a6179cfc42458",
+            "location": [
+                34.9304744,
+                32.4404641
+            ],
+            "short_description": "Chef ice cream, serious desserts, frozen yogurt, and coffee.  Kosher LaMehadrin by Cheif rabbinate of Hadera",
+            "slug": "jetlek-hadera",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "kids",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/jetlek-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e543117bae0cb3b7cf8f77/b360a008-7e1d-11ec-8268-728f53b8b0fb_____.jpg",
+                "logo": null
+            },
+            "title": "Sueno Caffe",
+            "name": "Sueno Caffe",
+            "track_id": "venue-sueno-caffe",
+            "address": "תרנ״א 20, חדרה",
+            "venue_id": "61e543117bae0cb3b7cf8f77",
+            "location": [
+                34.92439345449,
+                32.433482933589225
+            ],
+            "short_description": "Wake Up Your Taste",
+            "slug": "sueno-caffe",
+            "tags": [
+                "breakfast",
+                "salad",
+                "sandwich"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/sueno-caffe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622467a38ecedaae8a34d50e/4948f4f0-9d5c-11ec-be95-d220cc94207d______1.jpg",
+                "logo": null
+            },
+            "title": "Abu Shoham | Hadera",
+            "name": "Abu Shoham | Hadera",
+            "track_id": "venue-abu-shoham-pardes-hanna",
+            "address": "תחנת דלק דור אלון, כביש עוקף חדרה 65",
+            "venue_id": "622467a38ecedaae8a34d50e",
+            "location": [
+                34.939888,
+                32.454764
+            ],
+            "short_description": "Excellent Israeli Hummus",
+            "slug": "abu-shoham-pardes-hanna",
+            "tags": [
+                "mediterranean",
+                "street food"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/abu-shoham-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f68710da9d98354adcff0a/d14abaa6-e933-11eb-94f4-729ecf9bf5ce_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald’s® Orot Mall Kosher",
+            "name": "McDonald’s® Orot Mall Kosher",
+            "track_id": "venue-mcdonalds-orot-mall-kosher",
+            "address": "HaNassi Weizmann Blvd 1, Or Akiva",
+            "venue_id": "60f68710da9d98354adcff0a",
+            "location": [
+                34.9270588,
+                32.5020806
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-orot-mall-kosher",
+            "tags": [
+                "burger",
+                "chicken",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mcdonalds-orot-mall-kosher"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d599429e63d16ab63c6192/318f25e4-6e29-11ec-b9fa-c270345af996______________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Lev Hadera Kosher",
+            "name": "McDonald's® Lev Hadera Kosher",
+            "track_id": "venue-mcdonalds-lev-hadera",
+            "address": "שדרות רוטשילד 40, חדרה",
+            "venue_id": "61d599429e63d16ab63c6192",
+            "location": [
+                34.92215520000001,
+                32.4376523
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-lev-hadera",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mcdonalds-lev-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6224ddc6117f8185150c3c38/3192f332-a82f-11ec-9b0b-e2010623d194_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Alice Health Bar",
+            "name": "Alice Health Bar",
+            "track_id": "venue-alice-health-bar",
+            "address": " הרצל 23, חדרה",
+            "venue_id": "6224ddc6117f8185150c3c38",
+            "location": [
+                34.9185935,
+                32.4360497
+            ],
+            "short_description": "Healthy and Delicious\n",
+            "slug": "alice-health-bar",
+            "tags": [
+                "breakfast",
+                "Health",
+                "salad"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/alice-health-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627a7ac191e5c281e507235c/11770dcc-d070-11ec-b894-4eab5f0b334d_81ed90ec_5034_11ec_bf04_425e20ec5242__________.jpg",
+                "logo": null
+            },
+            "title": "rebar | Hadera",
+            "name": "rebar | Hadera",
+            "track_id": "venue-rebar-hadera",
+            "address": "רוטשילד 40",
+            "venue_id": "627a7ac191e5c281e507235c",
+            "location": [
+                34.9228801,
+                32.4375077
+            ],
+            "short_description": "smoothies, juices, wellness choices",
+            "slug": "rebar-hadera",
+            "tags": [
+                "drinks",
+                "juice",
+                "smoothie",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/rebar-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d5649d0c509e81f361698e/4e6ea3f0-6e11-11ec-80fa-825522f1dcd2_bc6ecdac_bf8b_11ea_9191_42d471fefaa3_90f7bb34_ae38_11ea_b605_a6eb6ca88e82____________02.jpg",
+                "logo": null
+            },
+            "title": "Bleecker Bakery | Hadera",
+            "name": "Bleecker Bakery | Hadera",
+            "track_id": "venue-bleecker-bakery-hadera",
+            "address": "צה״ל 35",
+            "venue_id": "61d5649d0c509e81f361698e",
+            "location": [
+                34.930954,
+                32.4404963
+            ],
+            "short_description": "It's all about good taste\n",
+            "slug": "bleecker-bakery-hadera",
+            "tags": [
+                "bakery",
+                "bistro",
+                "coffee"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/bleecker-bakery-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622892349e0fcd69ec50b69e/78635266-a91f-11ec-b12e-6e6e615591bc_shutterstock_1369186208.jpg",
+                "logo": null
+            },
+            "title": "Pizza Yano",
+            "name": "Pizza Yano",
+            "track_id": "venue-pizza-yano",
+            "address": "חטיבת הנח״ל 4, חדרה",
+            "venue_id": "622892349e0fcd69ec50b69e",
+            "location": [
+                34.9281808,
+                32.4322069
+            ],
+            "short_description": "Tastes like home",
+            "slug": "pizza-yano",
+            "tags": [
+                "italian",
+                "pizza",
+                "bakery"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pizza-yano"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61cc504f0ab7b8eff0e37929/155f244e-6bbf-11ec-aadb-c6abc39edb3c_2d132d2a_ed4c_11eb_9831_b274d34bf969_____.jpg",
+                "logo": null
+            },
+            "title": "Adela | Hadera",
+            "name": "Adela | Hadera",
+            "track_id": "venue-adela-hadera",
+            "address": "הרברט סמואל 89, חדרה",
+            "venue_id": "61cc504f0ab7b8eff0e37929",
+            "location": [
+                34.9217696,
+                32.4360757
+            ],
+            "short_description": "Yogurt bar\n",
+            "slug": "adela-hadera",
+            "tags": [
+                "ice cream",
+                "sweets",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/adela-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f9470dfaa03f603bc90ca2/2e6564f6-f86c-11eb-a350-e636dbee9d2c_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Yoko Kosher | Or Akiva",
+            "name": "Yoko Kosher | Or Akiva",
+            "track_id": "venue-yoko-or-akiva",
+            "address": "הנשיא 1, קניון אורות, אור עקיבא",
+            "venue_id": "60f9470dfaa03f603bc90ca2",
+            "location": [
+                34.9270172,
+                32.501976
+            ],
+            "short_description": "Authentic Asian cuisine",
+            "slug": "yoko-or-akiva",
+            "tags": [
+                "asian",
+                "kids",
+                "sushi"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/yoko-or-akiva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d5681decf172614cfa4c18/db5fcbde-76b0-11ec-af4b-aef9f4288daa_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Gold Pizza | Hadera",
+            "name": "Gold Pizza | Hadera",
+            "track_id": "venue-gold-pizza-hedera",
+            "address": "אחד העם 13, חדרה",
+            "venue_id": "61d5681decf172614cfa4c18",
+            "location": [
+                34.91703041285676,
+                32.435547036219795
+            ],
+            "short_description": "Italian Pizza. Kosher",
+            "slug": "gold-pizza-hedera",
+            "tags": [
+                "kosher",
+                "pizza",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/gold-pizza-hedera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620101db1fab52f50fd0e5e5/2ed8304e-8999-11ec-a969-9e3420f6dd69_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Emma's Hummus",
+            "name": "Emma's Hummus",
+            "track_id": "venue-emmas-hummus",
+            "address": "דוד שמעוני 42, חדרה",
+            "venue_id": "620101db1fab52f50fd0e5e5",
+            "location": [
+                34.910109899999995,
+                32.43825160000004
+            ],
+            "short_description": "Hummus, Falafel and Meat",
+            "slug": "emmas-hummus",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "middle eastern",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/emmas-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607e92510213f13dfd9e68e1/c4725fa8-ab55-11eb-afa0-0a3f37228685_yaelitz_2__7_.jpg",
+                "logo": null
+            },
+            "title": "Yo-Yo's Sushi",
+            "name": "Yo-Yo's Sushi",
+            "track_id": "venue-yo-yos-sushi",
+            "address": "הנחילות 2, פרדס חנה",
+            "venue_id": "607e92510213f13dfd9e68e1",
+            "location": [
+                34.987713,
+                32.480794
+            ],
+            "short_description": "Sushi restaurant",
+            "slug": "yo-yos-sushi",
+            "tags": [
+                "sushi",
+                "fish"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/yo-yos-sushi"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d6ce75ac2d74ba07be1ef1/4d692284-6ee6-11ec-bca3-ea191ef88e29_adcca272_063c_11eb_9aac_a2bf598189a1_6c038c68_025c_11eb_ab22_beda40e06550_whatsapp_image_2020_09_29_at_17.00.53.jpeg",
+                "logo": null
+            },
+            "title": "Burgeranch | Hadera",
+            "name": "Burgeranch | Hadera",
+            "track_id": "venue-burgeranch-hadera",
+            "address": "רוטשילד 40, חדרה",
+            "venue_id": "61d6ce75ac2d74ba07be1ef1",
+            "location": [
+                34.92215520000001,
+                32.4376523
+            ],
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-hadera",
+            "tags": [
+                "kosher",
+                "kids",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/burgeranch-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f022ba0e7347a5f8e09f18/fc8ab886-ed59-11eb-95e0-faf35e474507_____.jpg",
+                "logo": null
+            },
+            "title": "Taj",
+            "name": "Taj",
+            "track_id": "venue-taj",
+            "address": "רוטשילד 2, אור עקיבא",
+            "venue_id": "60f022ba0e7347a5f8e09f18",
+            "location": [
+                34.9186423,
+                32.5068547
+            ],
+            "short_description": "",
+            "slug": "taj",
+            "tags": [
+                "indian",
+                "vegan",
+                "vegetarian"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/taj"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61eea7232d54f85baeb99f9d/798f6406-81ea-11ec-a506-f20b69867cbd_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Cafe Fainberg",
+            "name": "Cafe Fainberg",
+            "track_id": "venue-cafe-feinberg",
+            "address": " ז'בוטינסקי 34, חדרה",
+            "venue_id": "61eea7232d54f85baeb99f9d",
+            "location": [
+                34.92184900489846,
+                32.431945282308426
+            ],
+            "short_description": "Start Your Morning With a Smile",
+            "slug": "cafe-feinberg",
+            "tags": [
+                "breakfast",
+                "café",
+                "dessert",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/cafe-feinberg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607ed87a4d02f399c0364e4f/d3b96090-aa6c-11eb-a9f9-8a484357d141_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Aharon Falafel & Sabich",
+            "name": "Aharon Falafel & Sabich",
+            "track_id": "venue-aharon-falafel-sabich",
+            "address": "גלעד 1, פרדס חנה",
+            "venue_id": "607ed87a4d02f399c0364e4f",
+            "location": [
+                34.9743126,
+                32.4727894
+            ],
+            "short_description": "What to put inside your pita?",
+            "slug": "aharon-falafel-sabich",
+            "tags": [
+                "pita",
+                "mediterranean"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/aharon-falafel-sabich"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ed9c0758c3fe6018669a93/fb16bec6-e3e2-11eb-9393-ee4b9a575f10_20_list.jpeg",
+                "logo": null
+            },
+            "title": "Schnitzel 20 Flavours | Or Akiva",
+            "name": "Schnitzel 20 Flavours | Or Akiva",
+            "track_id": "venue-schnitzel-20-flavours-or-akiva",
+            "address": "הרב קוק 2, אור עקיבא",
+            "venue_id": "60ed9c0758c3fe6018669a93",
+            "location": [
+                34.920209,
+                32.5067683
+            ],
+            "short_description": "Schnitzel Restaurant",
+            "slug": "schnitzel-20-flavours-or-akiva",
+            "tags": [
+                "sandwich",
+                "kids",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/schnitzel-20-flavours-or-akiva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607e8070c8fe1827bf45cd54/47ea4302-ab40-11eb-a391-8e933b9429c6_yaelitz_2__4_.jpg",
+                "logo": null
+            },
+            "title": "Pizza HaMeyasdim",
+            "name": "Pizza HaMeyasdim",
+            "track_id": "venue-pizza-hameyasdim",
+            "address": "המייסדים 44, פרדס חנה- כרכור",
+            "venue_id": "607e8070c8fe1827bf45cd54",
+            "location": [
+                34.9906402,
+                32.4728888
+            ],
+            "short_description": "Neighbourhood Boutique Pizza",
+            "slug": "pizza-hameyasdim",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pizza-hameyasdim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f7f0cef77f0c760f0a959b/1fec7cf0-82a2-11ec-b027-ee9abb44e21d_0f5f9d36_ef7c_11eb_aee2_4a079c9d6b87_6fefea84_6e94_11eb_a14f_4674ae990827_img_1660_edit.jpeg",
+                "logo": null
+            },
+            "title": "Bhagsu Cake | Pardes Hanna",
+            "name": "Bhagsu Cake | Pardes Hanna",
+            "track_id": "venue-bhagsu-cake-pardes-hanna",
+            "address": "הנדיב 16, פרדס חנה כרכור",
+            "venue_id": "61f7f0cef77f0c760f0a959b",
+            "location": [
+                34.9800587,
+                32.4697697
+            ],
+            "short_description": "The original BHAGSU CAKE made Aliaa",
+            "slug": "bhagsu-cake-pardes-hanna",
+            "tags": [
+                "dessert",
+                "indian"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/bhagsu-cake-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625d5e4d5a218f8e944984e4/a52f275e-bf16-11ec-a30e-9ef542ce630d_4fec3558_9389_11ea_b1d6_0a5864676d10_menu1.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel 20 Flavours | Hadera",
+            "name": "Schnitzel 20 Flavours | Hadera",
+            "track_id": "venue-schnitzel-20-flavours-hadera",
+            "address": "הרברט סמואל 1, חדרה",
+            "venue_id": "625d5e4d5a218f8e944984e4",
+            "location": [
+                34.91096037035689,
+                32.43887624568429
+            ],
+            "short_description": "Schnitzel Restaurant\n",
+            "slug": "schnitzel-20-flavours-hadera",
+            "tags": [
+                "kids",
+                "kosher",
+                "sandwich",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/schnitzel-20-flavours-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622a17de11f22ee1a516b54d/ca2ac2fe-a830-11ec-8247-560caeb013a0_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Hbibo Pizza",
+            "name": "Hbibo Pizza",
+            "track_id": "venue-hbibo-pizza",
+            "address": "הראשונים 22, חדרה",
+            "venue_id": "622a17de11f22ee1a516b54d",
+            "location": [
+                34.8873073,
+                32.4419029
+            ],
+            "short_description": "Local Pizza",
+            "slug": "hbibo-pizza",
+            "tags": [
+                "italian",
+                "pizza",
+                "salad",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/hbibo-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61fbaf2bf57deab6b73b1dd2/ef869762-84f9-11ec-a87a-eeb7d5f9c974_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Cafe Cafe | Pardes Hanna Gan Shmuel",
+            "name": "Cafe Cafe | Pardes Hanna Gan Shmuel",
+            "track_id": "venue-cafe-cafe-pardes-hanna",
+            "address": "פארק מסחרי קיבוץ גן שמואל",
+            "venue_id": "61fbaf2bf57deab6b73b1dd2",
+            "location": [
+                34.9537771,
+                32.447982
+            ],
+            "short_description": "The Israeli Flavours You Like\n",
+            "slug": "cafe-cafe-pardes-hanna",
+            "tags": [
+                "breakfast",
+                "café",
+                "coffee"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/cafe-cafe-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e02b6107f8d377d2096198/18e0b0f8-7df1-11ec-b69d-728f53b8b0fb_____.jpg",
+                "logo": null
+            },
+            "title": "At Tanya's",
+            "name": "At Tanya's",
+            "track_id": "venue-at-tanyas",
+            "address": "הנשיא 72 חדרה",
+            "venue_id": "61e02b6107f8d377d2096198",
+            "location": [
+                34.9247803,
+                32.4382457
+            ],
+            "short_description": "Boutique Restaurant & Authentic Dishes",
+            "slug": "at-tanyas",
+            "tags": [
+                "european",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/at-tanyas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc561b3f6833d494767530/653a2a04-76e1-11ec-aec0-4a83bcbd12d6_____.jpg",
+                "logo": null
+            },
+            "title": "Sabih El Hi'r | Hadera",
+            "name": "Sabih El Hi'r | Hadera",
+            "track_id": "venue-sabih-el-hir",
+            "address": "הגדוד העברי 1, חדרה",
+            "venue_id": "61dc561b3f6833d494767530",
+            "location": [
+                34.88759693532358,
+                32.43936642280997
+            ],
+            "short_description": "Sabih & Homemade Goods",
+            "slug": "sabih-el-hir",
+            "tags": [
+                "breakfast",
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/sabih-el-hir"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61bf1aff67b164e64b8261d6/a3ad61fe-8cc9-11ec-9a03-72b87e1437d7_____.jpg",
+                "logo": null
+            },
+            "title": "Kapara Burger",
+            "name": "Kapara Burger",
+            "track_id": "venue-kapara-burger",
+            "address": " האורנים 10, פרדס חנה",
+            "venue_id": "61bf1aff67b164e64b8261d6",
+            "location": [
+                34.9726723,
+                32.4736064
+            ],
+            "short_description": "Bless The Burger\n",
+            "slug": "kapara-burger",
+            "tags": [
+                "burger",
+                "kosher",
+                "vegan",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/kapara-burger"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d47a2cdd301415ea12afdb/3a146f4a-76b6-11ec-836f-8ea6682ba69c_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Olga | Hadera",
+            "name": "Pizza Olga | Hadera",
+            "track_id": "venue-pizza-slice-hedera",
+            "address": "החלוץ 14, חדרה ",
+            "venue_id": "61d47a2cdd301415ea12afdb",
+            "location": [
+                34.88748001440827,
+                32.43822620509145
+            ],
+            "short_description": "High-Quality Boutique Pizzeria ",
+            "slug": "pizza-slice-hedera",
+            "tags": [
+                "dessert",
+                "italian",
+                "pasta"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pizza-slice-hedera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d5c002fd630a89c01124c/98fc1b6c-a0fa-11eb-97bf-aa4284797f6b_c46ec374_9d0a_11eb_93d1_5a70664fdc09_84103660_dff9_11ea_85c3_5e1b644cbff0_yaelitz_5.jpeg",
+                "logo": null
+            },
+            "title": "Vaniglia | Pardes Hanna Gan Shmuel",
+            "name": "Vaniglia | Pardes Hanna Gan Shmuel",
+            "track_id": "venue-vaniglia-gan-shmuel",
+            "address": "פארק מסחרי גן שמואל",
+            "venue_id": "607d5c002fd630a89c01124c",
+            "location": [
+                34.9537771,
+                32.447982
+            ],
+            "short_description": "Your local ice cream\n",
+            "slug": "vaniglia-gan-shmuel",
+            "tags": [
+                "ice cream",
+                "sweets",
+                "dessert"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/vaniglia-gan-shmuel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d61dd1f0402a93b0123b8/24c10d0e-a5bc-11eb-9027-b2631ef297ef_dsc_1727.jpg",
+                "logo": null
+            },
+            "title": "Pizza Romeo",
+            "name": "Pizza Romeo",
+            "track_id": "venue-pizza-romeo",
+            "address": "דרך הבנים 17, פרדס חנה",
+            "venue_id": "607d61dd1f0402a93b0123b8",
+            "location": [
+                34.9773963,
+                32.4764444
+            ],
+            "short_description": "Italian pizza",
+            "slug": "pizza-romeo",
+            "tags": [
+                "pizza",
+                "italian",
+                "salad",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pizza-romeo"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60af88079021248fabff0819/88dc72b0-d195-11eb-8ee8-4a661c0196fb_list5.jpg",
+                "logo": null
+            },
+            "title": "Ola Kala",
+            "name": "Ola Kala",
+            "track_id": "venue-ola-kala",
+            "address": "אלון התבור 11, קיסריה",
+            "venue_id": "60af88079021248fabff0819",
+            "location": [
+                34.9462548,
+                32.4770233
+            ],
+            "short_description": "The Greek Port",
+            "slug": "ola-kala",
+            "tags": [
+                "fish",
+                "greek",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/ola-kala"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c4e81697c341f7444b455/cf98ac44-a5be-11eb-81cd-b2631ef297ef_dsc_1808.jpg",
+                "logo": null
+            },
+            "title": "Abulafia Meats | Pardes Hana",
+            "name": "Abulafia Meats | Pardes Hana",
+            "track_id": "venue-abulafia-meats-pardes-hana",
+            "address": "הדקלים 86, פרדס חנה",
+            "venue_id": "607c4e81697c341f7444b455",
+            "location": [
+                34.9733793,
+                32.4742722
+            ],
+            "short_description": "Meat, Sandwiches & Hummus",
+            "slug": "abulafia-meats-pardes-hana",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "bbq"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/abulafia-meats-pardes-hana"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f7daf2a61050de13855d1b/4cdde894-84c7-11ec-951c-4282acb05930_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Erol",
+            "name": "Erol",
+            "track_id": "venue-erol",
+            "address": " המושב 37, פרדס חנה",
+            "venue_id": "61f7daf2a61050de13855d1b",
+            "location": [
+                34.9931535,
+                32.4742121
+            ],
+            "short_description": "Both a Restaurant and a Pizzeria\n",
+            "slug": "erol",
+            "tags": [
+                "italian",
+                "pizza",
+                "pasta"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/erol"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607ed2153408e35167596d53/d2056b9e-aa4a-11eb-9e6c-8e933b9429c6_list.jpg",
+                "logo": null
+            },
+            "title": "Blueberry",
+            "name": "Blueberry",
+            "track_id": "venue-blueberry",
+            "address": "מתחם דור אלון, עין שמר",
+            "venue_id": "607ed2153408e35167596d53",
+            "location": [
+                34.990649953741666,
+                32.464948992507544
+            ],
+            "short_description": "Yogurt & Gelato",
+            "slug": "blueberry",
+            "tags": [
+                "healthy",
+                "smoothie",
+                "ice cream"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/blueberry"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607e98dd55d9a4fc568e7c55/f3da0c4c-e470-11eb-9147-f6b0225ef364_yaelitz_4.jpg",
+                "logo": null
+            },
+            "title": "Kalkidan",
+            "name": "Kalkidan",
+            "track_id": "venue-kalkidan",
+            "address": "הדקלים 99, פרדס חנה",
+            "venue_id": "607e98dd55d9a4fc568e7c55",
+            "location": [
+                34.973174,
+                32.473748
+            ],
+            "short_description": "Vegan Ethiopian Restaurant",
+            "slug": "kalkidan",
+            "tags": [
+                "vegan",
+                "Health"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/kalkidan"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d20cfccfa3501a5b86c02/c9880fa0-b178-11eb-ba99-6a392af1391c_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Juicy Lin",
+            "name": "Juicy Lin",
+            "track_id": "venue-juicy",
+            "address": "הגלעד 4, פרדס חנה",
+            "venue_id": "607d20cfccfa3501a5b86c02",
+            "location": [
+                34.9748497,
+                32.4728241
+            ],
+            "short_description": "Smoothie & Juice Bar",
+            "slug": "juicy",
+            "tags": [
+                "smoothie",
+                "juice",
+                "Health",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/juicy"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61839da32c459e38cb14663c/173b290a-b34c-11ec-ba13-eaf96177895f_29.34252.jpg",
+                "logo": null
+            },
+            "title": "Liora Cafe | Pardes Hana",
+            "name": "Liora Cafe | Pardes Hana",
+            "track_id": "venue-liora-cafe-pardes-hana",
+            "address": "הנדיב 16, פרדס חנה",
+            "venue_id": "61839da32c459e38cb14663c",
+            "location": [
+                34.9800587,
+                32.4697697
+            ],
+            "short_description": "Great coffee on the way",
+            "slug": "liora-cafe-pardes-hana",
+            "tags": [
+                "café",
+                "breakfast"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/liora-cafe-pardes-hana"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f021dc6d1fa5ac468b2403/842f7972-08ba-11ec-9be6-76b403758ac3_____.jpg",
+                "logo": null
+            },
+            "title": "Bella Italia | Pardes Hanna",
+            "name": "Bella Italia | Pardes Hanna",
+            "track_id": "venue-bella-italia-pardes-hanna",
+            "address": "נחילות 2, פרדס חנה",
+            "venue_id": "60f021dc6d1fa5ac468b2403",
+            "location": [
+                34.9876726587532,
+                32.48110690807311
+            ],
+            "short_description": "Italian restaurant",
+            "slug": "bella-italia-pardes-hanna",
+            "tags": [
+                "italian",
+                "pizza",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/bella-italia-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6228c88657e93e03960b2077/ab012e10-a851-11ec-b45f-66ffcb3a0ecd_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Aresto | Caesarea",
+            "name": "Aresto | Caesarea",
+            "track_id": "venue-aresto",
+            "address": "נמל קיסריה",
+            "venue_id": "6228c88657e93e03960b2077",
+            "location": [
+                34.891728105028534,
+                32.50195200535992
+            ],
+            "short_description": "Culinary Experience",
+            "slug": "aresto",
+            "tags": [
+                "dessert",
+                "fish",
+                "pizza",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/aresto"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6061b65ce1575b14899ea017/f3fe0196-907f-11eb-8f9d-b22ee6e8ae07_mc_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® BIG Pardes Hanna",
+            "name": "McDonald's® BIG Pardes Hanna",
+            "track_id": "venue-mcdonalds-big-pardes-hanna",
+            "address": "תדהר 1, פרדס חנה",
+            "venue_id": "6061b65ce1575b14899ea017",
+            "location": [
+                34.97008172977191,
+                32.487598191303576
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-big-pardes-hanna",
+            "tags": [
+                "chicken"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mcdonalds-big-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d58cc87daa2f93ae5f90f8/ea7fa6b2-6e21-11ec-86e1-52ca45b4e8dd______________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Shearay Hadera Mall",
+            "name": "McDonald's® Shearay Hadera Mall",
+            "track_id": "venue-mcdonalds-shearay-hadera-mall",
+            "address": "ארבע האגודות 1, חדרה",
+            "venue_id": "61d58cc87daa2f93ae5f90f8",
+            "location": [
+                34.909408707094244,
+                32.435829209714214
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-shearay-hadera-mall",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mcdonalds-shearay-hadera-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d6d23ab962bda026a31456/bc9d8e36-6ee3-11ec-9879-ea191ef88e29______________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Cinema City Hadera",
+            "name": "McDonald's® Cinema City Hadera",
+            "track_id": "venue-mcdonalds-cinema-city-hadera",
+            "address": "ליאור בוקר, חדרה",
+            "venue_id": "61d6d23ab962bda026a31456",
+            "location": [
+                34.931058,
+                32.441617
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-cinema-city-hadera",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/mcdonalds-cinema-city-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60eeef459bfcecc87352e218/c01adab2-e4ac-11eb-a1d6-824e5eba2e76_golda_list.jpeg",
+                "logo": null
+            },
+            "title": "Golda Kosher | Or Akiva",
+            "name": "Golda Kosher | Or Akiva",
+            "track_id": "venue-golda-or-akiva",
+            "address": "השיקמים 8, אור עקיבא",
+            "venue_id": "60eeef459bfcecc87352e218",
+            "location": [
+                34.9179558,
+                32.5043534
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-or-akiva",
+            "tags": [
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/golda-or-akiva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d9bc6935d8268e17acc0c/81ed90ec-5034-11ec-bf04-425e20ec5242__________.jpg",
+                "logo": null
+            },
+            "title": "rebar | Ein Shemer",
+            "name": "rebar | Ein Shemer",
+            "track_id": "venue-rebar-ein-shemer",
+            "address": "מתחם אלון עין שמר",
+            "venue_id": "607d9bc6935d8268e17acc0c",
+            "location": [
+                34.99236129259035,
+                32.46518184423803
+            ],
+            "short_description": "smoothies, juices, wellness choices\n",
+            "slug": "rebar-ein-shemer",
+            "tags": [
+                "drinks",
+                "juice",
+                "smoothie"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/rebar-ein-shemer"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61cc6b34336907fe9b6c0d08/92117dd4-6949-11ec-af8a-deaa52391452_e45d0786efa4a9ceba3b57411519d88b.png",
+                "logo": null
+            },
+            "title": "Burger Saloon | Hadera",
+            "name": "Burger Saloon | Hadera",
+            "track_id": "venue-burger-saloon-hadera",
+            "address": "קלז 12, חדרה",
+            "venue_id": "61cc6b34336907fe9b6c0d08",
+            "location": [
+                34.9091677,
+                32.4366874
+            ],
+            "short_description": "100% Israeli Beef\n",
+            "slug": "burger-saloon-hadera",
+            "tags": [
+                "bbq",
+                "burger",
+                "sandwich"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/burger-saloon-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60801442f8d018eccb9c554d/4dfeeff8-ab46-11eb-ac9c-12e8e9c05731_yaelitz_3__1_.jpg",
+                "logo": null
+            },
+            "title": "Thai Underground",
+            "name": "Thai Underground",
+            "track_id": "venue-thai-underground",
+            "address": "הגנה 1, פרדס חנה",
+            "venue_id": "60801442f8d018eccb9c554d",
+            "location": [
+                34.980394,
+                32.4733858
+            ],
+            "short_description": "Thai Street Food",
+            "slug": "thai-underground",
+            "tags": [
+                "thai",
+                "asian"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/thai-underground"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d48f87b517446270c8a08/741a9f52-f06f-11eb-89db-5e5e0e94f670_yosef4130.jpg",
+                "logo": null
+            },
+            "title": "Hummus Yossef | Pardes Hanna",
+            "name": "Hummus Yossef | Pardes Hanna",
+            "track_id": "venue-hummus-yossef-pardes-hanna",
+            "address": "חרובים 7, פרדס חנה",
+            "venue_id": "607d48f87b517446270c8a08",
+            "location": [
+                34.9712888,
+                32.4770257
+            ],
+            "short_description": "Warm Hummus from the Galilee ",
+            "slug": "hummus-yossef-pardes-hanna",
+            "tags": [
+                "breakfast",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/hummus-yossef-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60992451b311d9d34c54c119/2ff9e760-d193-11eb-86c0-4a661c0196fb_list2.jpg",
+                "logo": null
+            },
+            "title": "Sou",
+            "name": "Sou",
+            "track_id": "venue-sou-pardes-hanna",
+            "address": "חלמיש 14, איזור תעשייה קיסריה",
+            "venue_id": "60992451b311d9d34c54c119",
+            "location": [
+                34.94861869900108,
+                32.48517443566825
+            ],
+            "short_description": "Salad Bar | Home Cooking",
+            "slug": "sou-pardes-hanna",
+            "tags": [
+                "salad",
+                "fish",
+                "healthy"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/sou-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607edc474d02f399c0365949/53cc747e-8a6f-11ec-9e16-f608c1377ff3_____.jpg",
+                "logo": null
+            },
+            "title": "Cafe Viola | Pardes Hanna",
+            "name": "Cafe Viola | Pardes Hanna",
+            "track_id": "venue-cafe-viola-pardes-hanna",
+            "address": "הגלעד 1, פרדס חנה",
+            "venue_id": "607edc474d02f399c0365949",
+            "location": [
+                34.9743126,
+                32.4727894
+            ],
+            "short_description": "Local Cafe and Restaurant",
+            "slug": "cafe-viola-pardes-hanna",
+            "tags": [
+                "café",
+                "breakfast",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/cafe-viola-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6208f1f4e85a23204cc1b24f/5988c710-97bb-11ec-ae5d-5a55fd3a55de_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Habibo Hummus",
+            "name": "Habibo Hummus",
+            "track_id": "venue-habibo-hummus",
+            "address": "הגדוד העברי 1, חדרה",
+            "venue_id": "6208f1f4e85a23204cc1b24f",
+            "location": [
+                34.887347995280734,
+                32.43930209354259
+            ],
+            "short_description": "Hummus and more",
+            "slug": "habibo-hummus",
+            "tags": [
+                "mediterranean",
+                "pita",
+                "street food"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/habibo-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607e9308139f0b2e4d8e4fd2/d9fd12bc-a594-11eb-8b4c-febad8c58d08_dsc_1632.jpg",
+                "logo": null
+            },
+            "title": "Tata |  Pardes Hanna",
+            "name": "Tata |  Pardes Hanna",
+            "track_id": "venue-tata",
+            "address": "דרך פיקא, פרדס חנה",
+            "venue_id": "607e9308139f0b2e4d8e4fd2",
+            "location": [
+                34.96537491343942,
+                32.459355146730346
+            ],
+            "short_description": "Bistro Chef",
+            "slug": "tata",
+            "tags": [
+                "bistro",
+                "schnitzel",
+                "chicken"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/tata"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607ed4163408e351675975e3/a38096c8-8cc5-11ec-b0ff-a6f2dcd869b6_____.jpg",
+                "logo": null
+            },
+            "title": "Beit Tabori 1937",
+            "name": "Beit Tabori 1937",
+            "track_id": "venue-beit-tabori-1937",
+            "address": "גלעד 3, פרדס חנה",
+            "venue_id": "607ed4163408e351675975e3",
+            "location": [
+                34.9743126,
+                32.4727894
+            ],
+            "short_description": "Your home since 1937",
+            "slug": "beit-tabori-1937",
+            "tags": [
+                "pizza"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/beit-tabori-1937"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607d610fb15def7e4f132d4d/57716b3e-6977-11ec-9482-6a813b650584_cover.jpg",
+                "logo": null
+            },
+            "title": "Jem's | Pardes Hanna",
+            "name": "Jem's | Pardes Hanna",
+            "track_id": "venue-jems-pardes-hanna",
+            "address": "האורנים 12, פרדס חנה",
+            "venue_id": "607d610fb15def7e4f132d4d",
+            "location": [
+                34.9726685,
+                32.4737603
+            ],
+            "short_description": "Fresh Food & Beer\n",
+            "slug": "jems-pardes-hanna",
+            "tags": [
+                "beer",
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/jems-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616d50720c18d31a1bf7932d/8bc50ae2-696a-11ec-9626-fa77bff951e4_cover.jpg",
+                "logo": null
+            },
+            "title": "Jem's | Caesarea",
+            "name": "Jem's | Caesarea",
+            "track_id": "venue-jems-caesarea",
+            "address": "הרקיע 1, קיסריה",
+            "venue_id": "616d50720c18d31a1bf7932d",
+            "location": [
+                34.9106831,
+                32.487296
+            ],
+            "short_description": "Fresh Food & Beer",
+            "slug": "jems-caesarea",
+            "tags": [
+                "european",
+                "panini",
+                "beyondmeat",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/jems-caesarea"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60698309b8cda69c6072b8c7/15ac933e-9526-11eb-b54b-46915e4b833a_uzi_list.jpeg",
+                "logo": null
+            },
+            "title": "Hummus Uzi | Pardes Hanna",
+            "name": "Hummus Uzi | Pardes Hanna",
+            "track_id": "venue-uzi-hummus-ful-pardes-hanna",
+            "address": "המייסדים 31, פרדס חנה",
+            "venue_id": "60698309b8cda69c6072b8c7",
+            "location": [
+                34.990021,
+                32.4710409
+            ],
+            "short_description": "Fresh Hummus, made on the spot",
+            "slug": "uzi-hummus-ful-pardes-hanna",
+            "tags": [
+                "mediterranean",
+                "pita"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/uzi-hummus-ful-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61de8ce78c20384da8e042b6/d6954eee-7c32-11ec-a5a6-5aaccb5fe670_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Pizza Big Ben | Hadera",
+            "name": "Pizza Big Ben | Hadera",
+            "track_id": "venue-pizza-big-ben-hadera",
+            "address": "תנאים 1 חדרה",
+            "venue_id": "61de8ce78c20384da8e042b6",
+            "location": [
+                34.887240395104804,
+                32.436587239340206
+            ],
+            "short_description": "Straight From Italy\n",
+            "slug": "pizza-big-ben-hadera",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/pizza-big-ben-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098fbe2999d0e1707522ec5/df23afba-b171-11eb-811e-36963aa194ba_list.jpeg",
+                "logo": null
+            },
+            "title": "Landwer | Pardes Hanna",
+            "name": "Landwer | Pardes Hanna",
+            "track_id": "venue-cafe-landwer-pardes-hanna",
+            "address": "מתחם אלון עין שמר",
+            "venue_id": "6098fbe2999d0e1707522ec5",
+            "location": [
+                34.99268434875262,
+                32.46535285200351
+            ],
+            "short_description": "Coffee & Good Food",
+            "slug": "cafe-landwer-pardes-hanna",
+            "tags": [
+                "café",
+                "bistro",
+                "kids"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/cafe-landwer-pardes-hanna"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dd69ce1a5339813e8cdf4d/cf45da80-76ad-11ec-9219-e2d88190328a_____.jpg",
+                "logo": null
+            },
+            "title": "Benni Hadayag | Hadera",
+            "name": "Benni Hadayag | Hadera",
+            "track_id": "venue-benni-hadayag-hadera",
+            "address": "שדרות מנחם בגין 1, חדרה",
+            "venue_id": "61dd69ce1a5339813e8cdf4d",
+            "location": [
+                34.8805397,
+                32.4439299
+            ],
+            "short_description": "Fish Restaurant",
+            "slug": "benni-hadayag-hadera",
+            "tags": [
+                "fish",
+                "mediterranean",
+                "salad"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/benni-hadayag-hadera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60e6a15810929fc18c5ed218/1fa38f04-e53b-11eb-92c1-5a1a7cfc9baa_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Romeo Meat",
+            "name": "Romeo Meat",
+            "track_id": "venue-romeo-meat",
+            "address": "המעלה 34, פרדס חנה",
+            "venue_id": "60e6a15810929fc18c5ed218",
+            "location": [
+                34.9704802,
+                32.4741946
+            ],
+            "short_description": "Authentic Mediterranean restaurant",
+            "slug": "romeo-meat",
+            "tags": [
+                "street food",
+                "mediterranean"
+            ],
+            "score": 6.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/romeo-meat"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60992284a4aea4526a375db4/fc2cd850-b79f-11eb-84b9-fa0519f534bd_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Saada",
+            "name": "Saada",
+            "track_id": "venue-saada",
+            "address": "דרך הבנים פינת הנדיב, פרדס חנה",
+            "venue_id": "60992284a4aea4526a375db4",
+            "location": [
+                34.97619877539762,
+                32.47606013185456
+            ],
+            "short_description": "House Of Food",
+            "slug": "saada",
+            "tags": [
+                "mediterranean"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/saada"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6241ba7318c218e7e59a1cf6/9dfe7e04-b362-11ec-9f62-0e6cd1357796_______.jpg",
+                "logo": null
+            },
+            "title": "Soul Pizza",
+            "name": "Soul Pizza",
+            "track_id": "venue-soul-pizza",
+            "address": "דרך הבנים 1, פרדס חנה",
+            "venue_id": "6241ba7318c218e7e59a1cf6",
+            "location": [
+                34.98241574062373,
+                32.47339006417297
+            ],
+            "short_description": "Delicious Pizza",
+            "slug": "soul-pizza",
+            "tags": [
+                "italian",
+                "pizza",
+                "street food",
+                "new"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/soul-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62403f8786b07f80071002ee/fc49d302-ced6-11ec-aa15-06c4e1203ab9_list3.jpg",
+                "logo": null
+            },
+            "title": "Lablabi",
+            "name": "Lablabi",
+            "track_id": "venue-lablabi-hummus",
+            "address": "צומת בנימינה, כביש 4",
+            "venue_id": "62403f8786b07f80071002ee",
+            "location": [
+                34.92927967557761,
+                32.51781526269422
+            ],
+            "short_description": "Original Israeli Hummus Place",
+            "slug": "lablabi-hummus",
+            "tags": [
+                "vegan",
+                "mediterranean",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/lablabi-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607edcdebb417f2cd645cc17/4f9cf00e-aa6e-11eb-883e-8e933b9429c6_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "HaCohen | Pardes Hanna",
+            "name": "HaCohen | Pardes Hanna",
+            "track_id": "venue-hacohen",
+            "address": " המיסדים 47, פרדס חנה",
+            "venue_id": "607edcdebb417f2cd645cc17",
+            "location": [
+                34.9903903,
+                32.4727262
+            ],
+            "short_description": "Bar Boutique",
+            "slug": "hacohen",
+            "tags": [
+                "pizza",
+                "cocktail"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/hacohen"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6165491507f3eef459868735/2b519c3e-3567-11ec-849a-16ace1895d5e_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "La Vita Bella | Caesarea",
+            "name": "La Vita Bella | Caesarea",
+            "track_id": "venue-la-vita-bella-caesarea",
+            "address": "נמל קיסריה",
+            "venue_id": "6165491507f3eef459868735",
+            "location": [
+                34.891630194260344,
+                32.50236708712762
+            ],
+            "short_description": "200 years of Italian tradition",
+            "slug": "la-vita-bella-caesarea",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "italian"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/la-vita-bella-caesarea"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62121cde12a2bdead9f0d160/c17755d0-a530-11ec-abe0-6ea280cfc298_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Limani Bistro | Caesarea",
+            "name": "Limani Bistro | Caesarea",
+            "track_id": "venue-limani-bistro",
+            "address": "נמל קיסריה",
+            "venue_id": "62121cde12a2bdead9f0d160",
+            "location": [
+                34.88969106461499,
+                32.501843116330186
+            ],
+            "short_description": "Mediterranean Bistro\n",
+            "slug": "limani-bistro",
+            "tags": [
+                "fish",
+                "greek",
+                "mediterranean"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/limani-bistro"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611b7abc3677367a9783e75a/32d54ae0-153d-11ec-90b4-9286401399b6_______2_.jpg",
+                "logo": null
+            },
+            "title": "Hatzvi Cafe",
+            "name": "Hatzvi Cafe",
+            "track_id": "venue-ha-tzvi-cafe",
+            "address": "אוורת האומנים, פרדס חנה",
+            "venue_id": "611b7abc3677367a9783e75a",
+            "location": [
+                34.98126276913142,
+                32.471851262851885
+            ],
+            "short_description": "Local Cafe",
+            "slug": "ha-tzvi-cafe",
+            "tags": [
+                "café",
+                "Health",
+                "salad"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/ha-tzvi-cafe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616d547ecd99216f1489741e/a8105f42-a855-11ec-9de3-86147dfc6bde_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Port Local Bistro | Caesarea",
+            "name": "Port Local Bistro | Caesarea",
+            "track_id": "venue-port-cafe-caeserea",
+            "address": "גן לאומי קיסריה",
+            "venue_id": "616d547ecd99216f1489741e",
+            "location": [
+                34.8910395971677,
+                32.50204346224826
+            ],
+            "short_description": "Port Cafe | Local Bistro",
+            "slug": "port-cafe-caeserea",
+            "tags": [
+                "bistro",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/port-cafe-caeserea"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d6e777d15ca372cea9adcd/7220fad4-6ef0-11ec-9e3d-6a41b8ad3383_ea531156_e3ac_11eb_a105_bea6b95ae092___24.jpg",
+                "logo": null
+            },
+            "title": "Golda | Hadera Eco Park",
+            "name": "Golda | Hadera Eco Park",
+            "track_id": "venue-golda-ecoprak",
+            "address": "גמלא 3, חדרה",
+            "venue_id": "61d6e777d15ca372cea9adcd",
+            "location": [
+                34.933009108542564,
+                32.42715901490983
+            ],
+            "short_description": "Flavour Boutique",
+            "slug": "golda-ecoprak",
+            "tags": [
+                "dessert"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/hadera/venue/golda-ecoprak"
+            },
+            "provider": "wolt"
+        }
+    ]
+}

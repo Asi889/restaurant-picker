@@ -25,7 +25,8 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
     return (
       <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2 `}>
 
-        <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedRestaurant?.link?.url}>
+        {/* <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedRestaurant?.link?.url}> */}
+        <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={`intent://${selectedRestaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${selectedRestaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`}>
           <div className="w-full px-2 h-full flex items-center justify-center">
             {provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
           </div>
@@ -35,7 +36,8 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
           </p>
         </a>
         {otherProvider && (
-          <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={otherProvider?.link?.url}>
+          // <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={otherProvider?.link?.url}>
+          <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={`intent://${otherProvider?.link?.url.slice(8)}/#Intent;scheme=https;package=${otherProvider.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`}>
             <div className="w-full px-2 h-full flex items-center justify-center">
 
               {otherProvider.provider === 'wolt' ? <WoltLogo /> : <TenBisLogo />}
@@ -49,7 +51,9 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       </div>
     );
   };
-
+  if(!selectedRestaurant){
+    return null
+  }
   return (
 
     <section className="bg-purple text-white mt-6 rounded-xl pt-4 w-full border border-green overflow-hidden">
@@ -61,9 +65,9 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {splitAndTrim(selectedRestaurant?.title)}
           </b>
         </h2>
-        {selectedRestaurant?.photo.logo && (
+        {selectedRestaurant?.photo?.logo && (
           <div className="w-10 h-10 mx-auto">
-            <img className="w-full object-contain" src={selectedRestaurant.photo.logo} alt={selectedRestaurant.title} />
+            <img className="w-full object-contain" src={selectedRestaurant?.photo?.logo} alt={selectedRestaurant?.title} />
           </div>
         )}
         <CheckProviders />
@@ -82,11 +86,11 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {selectedRestaurant?.short_description}
             <br />
           </li>
-          <ResurantTags tags={selectedRestaurant.tags} />
+          <ResurantTags tags={selectedRestaurant?.tags} />
         </ul>
       </div>
       {selectedRestaurant?.photo.image && (
-        <img className="w-full object-cover" src={selectedRestaurant.photo.image} alt={selectedRestaurant.title} />
+        <img className="w-full object-cover" src={selectedRestaurant?.photo?.image} alt={selectedRestaurant?.title} />
       )}
     </section>
 

@@ -18,7 +18,6 @@ const Container = () => {
 
         <TitleText />
         <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />
-
         <Transition
           show={selectedActiv}
           enter=" duration-500 ease-in-out"

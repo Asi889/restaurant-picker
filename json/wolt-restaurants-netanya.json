@@ -1,0 +1,4431 @@
+{
+    "lastScrapeDate": 1656245672530,
+    "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.321458&lon=34.853196",
+    "restaurants": [
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6021493f865617a203945e0f/b2dae4d6-6b81-11eb-97fa-0e7a039aca30__________.jpeg",
+                "logo": null
+            },
+            "title": "Ni-Shi I Netanya",
+            "name": "Ni-Shi I Netanya",
+            "track_id": "venue-ni-shi",
+            "address": "שדרות עובד בן עמי 113, נתניה",
+            "venue_id": "6021493f865617a203945e0f",
+            "location": [
+                34.8435126960436,
+                32.305967101256556
+            ],
+            "short_description": "Modern Asian Restaurant",
+            "slug": "ni-shi",
+            "tags": [
+                "asian",
+                "sushi",
+                "japanese"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/ni-shi"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96c623e36cc94b9ba32391/e2c44a1c-1789-11eb-b8b2-d6ccad5a7dae_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Central Station Netanya",
+            "name": "McDonald's® Central Station Netanya",
+            "track_id": "venue-mcdonalds-eged-netanya",
+            "address": "שדרות בנימין 7 נתניה",
+            "venue_id": "5f96c623e36cc94b9ba32391",
+            "location": [
+                34.8583773,
+                32.3273626
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-eged-netanya",
+            "tags": [
+                "burger",
+                "chicken"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-eged-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b2678078e837b9eff3b3/dd567e24-1c43-11eb-86ee-ba1bf428f64b_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Poke it",
+            "name": "Poke it",
+            "track_id": "venue-poke-it-by-mizu",
+            "address": "Tom Lentos 60",
+            "venue_id": "5f96b2678078e837b9eff3b3",
+            "location": [
+                34.86884071430214,
+                32.29567616662183
+            ],
+            "short_description": "Poke bar and Asian street food",
+            "slug": "poke-it-by-mizu",
+            "tags": [
+                "poke",
+                "kosher",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/poke-it-by-mizu"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f86f0b70e4031f4168581e1/531dddba-322d-11eb-a544-eafe01fe51c8_____________1_.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Nona | Netanya",
+            "name": "Shawarma Nona | Netanya",
+            "track_id": "venue-shawarma-nona-netanya",
+            "address": "סמילנסקי 5, נתניה",
+            "venue_id": "5f86f0b70e4031f4168581e1",
+            "location": [
+                34.8561033,
+                32.3280547
+            ],
+            "short_description": "Delicious Shawarma And Much More",
+            "slug": "shawarma-nona-netanya",
+            "tags": [
+                "mediterranean",
+                "shawarma",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/shawarma-nona-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f954d0658f40e7e59de2e7b/5d8566aa-19e7-11eb-9a51-8ae57ad768ac_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel Kushi |  Smilanski",
+            "name": "Schnitzel Kushi |  Smilanski",
+            "track_id": "venue-schnitzel-kushi-netanya",
+            "address": "Smilanski St 1",
+            "venue_id": "5f954d0658f40e7e59de2e7b",
+            "location": [
+                34.856499152226455,
+                32.32863088824921
+            ],
+            "short_description": "A unique home-made Schnitzel",
+            "slug": "schnitzel-kushi-netanya",
+            "tags": [
+                "sandwich",
+                "pita",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-kushi-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607fd23191d4c08b8c82b55d/ca4ba01a-a272-11eb-a323-7ae2f96710a7_3ad9a0bc_a9a3_11ea_bc52_0a58647a8616_153398d4_7fde_11ea_866f_0a5864653643_yaelitz.jpeg",
+                "logo": null
+            },
+            "title": "Wok to Walk | Netanya",
+            "name": "Wok to Walk | Netanya",
+            "track_id": "venue-wok-to-walk-netanya",
+            "address": "שושנה דמרי 10, נתניה",
+            "venue_id": "607fd23191d4c08b8c82b55d",
+            "location": [
+                34.8428024,
+                32.2781012
+            ],
+            "short_description": "Flaming Good! 🔥 ",
+            "slug": "wok-to-walk-netanya",
+            "tags": [
+                "chinese",
+                "noodles",
+                "sushi",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/wok-to-walk-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96dce09f84432e28f02e00/eaee75a6-29f3-11eb-b7d4-8686c7155deb_1.jpg",
+                "logo": null
+            },
+            "title": "Bar Italia ",
+            "name": "Bar Italia ",
+            "track_id": "venue-bar-italya",
+            "address": "שדרות עובד בן עמי 113",
+            "venue_id": "5f96dce09f84432e28f02e00",
+            "location": [
+                34.843688,
+                32.3058577
+            ],
+            "short_description": "Pasta ・Pizza ・Bar",
+            "slug": "bar-italya",
+            "tags": [
+                "italian",
+                "kids",
+                "pasta"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/bar-italya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f954fe84163d0423b562a05/4ef44d0c-1c28-11eb-ab31-8246719c12c7_yaelitz__3_.jpg",
+                "logo": null
+            },
+            "title": "Hummus Mori ",
+            "name": "Hummus Mori ",
+            "track_id": "venue-hummus-mori",
+            "address": "הרצל 19, נתניה",
+            "venue_id": "5f954fe84163d0423b562a05",
+            "location": [
+                34.855895,
+                32.3291632
+            ],
+            "short_description": "Local Homemade Hummus",
+            "slug": "hummus-mori",
+            "tags": [
+                "mediterranean",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hummus-mori"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ff1dc8ccf973b3e35524c0a/7bdc225a-6eb1-11eb-bd07-a20bd7a9f87f_list.jpg",
+                "logo": null
+            },
+            "title": "Olam Ha-Pri",
+            "name": "Olam Ha-Pri",
+            "track_id": "venue-olam-ha-pri",
+            "address": "הרצל 10, נתניה",
+            "venue_id": "5ff1dc8ccf973b3e35524c0a",
+            "location": [
+                34.853884,
+                32.3295411
+            ],
+            "short_description": "Fresh Shakes and Juices",
+            "slug": "olam-ha-pri",
+            "tags": [
+                "juice",
+                "smoothie",
+                "healthy",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/olam-ha-pri"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f901f210fc5e502e0cd56a4/e2147a68-1abf-11eb-8818-6a3172082882_1.jpg",
+                "logo": null
+            },
+            "title": "Perugino",
+            "name": "Perugino",
+            "track_id": "venue-perugino",
+            "address": "הרצל 4, נתניה",
+            "venue_id": "5f901f210fc5e502e0cd56a4",
+            "location": [
+                34.8530311,
+                32.329982
+            ],
+            "short_description": "Coffee & Bakery Since 1973",
+            "slug": "perugino",
+            "tags": [
+                "cake",
+                "dessert",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/perugino"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ed85ed30cabb88048c2bf5/b834824e-ee07-11eb-bc5c-4a86a4564646_list.jpg",
+                "logo": null
+            },
+            "title": "Gorme Catering",
+            "name": "Gorme Catering",
+            "track_id": "venue-gorme",
+            "address": "אלון צבי 6, נתניה",
+            "venue_id": "60ed85ed30cabb88048c2bf5",
+            "location": [
+                34.858700833048786,
+                32.32646856023845
+            ],
+            "short_description": "Homemade food",
+            "slug": "gorme",
+            "tags": [
+                "kosher",
+                "homemade",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/gorme"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fc8f0092560afaf7d584d5c/a9f1a508-45de-11eb-8d73-2e5d26c720a8_054a3021.jpg",
+                "logo": null
+            },
+            "title": "Sharon's Shawarma",
+            "name": "Sharon's Shawarma",
+            "track_id": "venue-shawarma-sharon",
+            "address": "פנקס דוד 12, נתניה",
+            "venue_id": "5fc8f0092560afaf7d584d5c",
+            "location": [
+                34.87436760000001,
+                32.3217505
+            ],
+            "short_description": "Sharon's meat grill",
+            "slug": "shawarma-sharon",
+            "tags": [
+                "sandwich",
+                "shawarma",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/shawarma-sharon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f969afabcc186a46903df5b/c8a928f8-1aec-11eb-a622-02628ee96cb4_1.jpg",
+                "logo": null
+            },
+            "title": "Tony Ice",
+            "name": "Tony Ice",
+            "track_id": "venue-tony-ice",
+            "address": "הרצל 5, נתניה",
+            "venue_id": "5f969afabcc186a46903df5b",
+            "location": [
+                34.8535957,
+                32.3299065
+            ],
+            "short_description": "Ice Cream & Sweets Since 1997",
+            "slug": "tony-ice",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/tony-ice"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60911280ddc4032ceaf94a20/0c1f6d9e-c458-11eb-8564-7a4d805920c6_fto04147_4.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel Haim Boya | Netanya",
+            "name": "Schnitzel Haim Boya | Netanya",
+            "track_id": "venue-schnitzel-haim-boya-netanya",
+            "address": "היהלום 18, נתניה",
+            "venue_id": "60911280ddc4032ceaf94a20",
+            "location": [
+                34.8616028,
+                32.3288763
+            ],
+            "short_description": "Schnitzels from Netanya's market",
+            "slug": "schnitzel-haim-boya-netanya",
+            "tags": [
+                "sandwich",
+                "schnitzel"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-haim-boya-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc2d4c25c7bafcf60e0195/9d3994e0-7d16-11ec-a566-0692a4e3e463_untitled_catalog2149_________5.jpg",
+                "logo": null
+            },
+            "title": "Arais Burger",
+            "name": "Arais Burger",
+            "track_id": "venue-arais-burger",
+            "address": "הרצל 52, נתניה",
+            "venue_id": "61dc2d4c25c7bafcf60e0195",
+            "location": [
+                34.8606807,
+                32.3272737
+            ],
+            "short_description": "Israeli Burger\nKosher L'mehadrin",
+            "slug": "arais-burger",
+            "tags": [
+                "burger",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/arais-burger"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608acdf848572b02e9542daa/e1e9b892-abf5-11eb-b9c7-3a2bcac53db6_008.jpg",
+                "logo": null
+            },
+            "title": "Priz Artikim | Netanya",
+            "name": "Priz Artikim | Netanya",
+            "track_id": "venue-priz-netanya",
+            "address": "ספיר יוסף 10, נתניה",
+            "venue_id": "608acdf848572b02e9542daa",
+            "location": [
+                34.8605307,
+                32.3281974
+            ],
+            "short_description": "Popsicles from natural fruits",
+            "slug": "priz-netanya",
+            "tags": [
+                "ice cream",
+                "Health",
+                "fruit",
+                "kosher"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/priz-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b8466ac955fad36ceeb8/39252c4e-1787-11eb-97cf-0234cb2fa699_30fc0eb6_16ba_11eb_a353_da950eb88cfc_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Falafel Musa | Weizman",
+            "name": "Falafel Musa | Weizman",
+            "track_id": "venue-falafel-mosa-weizman",
+            "address": "Weizman 12",
+            "venue_id": "5f96b8466ac955fad36ceeb8",
+            "location": [
+                34.85897262378041,
+                32.32965317834984
+            ],
+            "short_description": "Local Falafel",
+            "slug": "falafel-mosa-weizman",
+            "tags": [
+                "falafel",
+                "street food",
+                "pita",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-mosa-weizman"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61adff2b5df2fd680ddb8add/bedd23b4-569c-11ec-b451-96ddc4ce4a7b_shutterstock_794449822.jpg",
+                "logo": null
+            },
+            "title": "Falafel Netanya",
+            "name": "Falafel Netanya",
+            "track_id": "venue-falafel-netanya",
+            "address": "דרך הרכבת 14, נתניה",
+            "venue_id": "61adff2b5df2fd680ddb8add",
+            "location": [
+                34.8684631,
+                32.3217804
+            ],
+            "short_description": "Fresh and Tasty Food. Kosher",
+            "slug": "falafel-netanya",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "salad"
+            ],
+            "score": 6.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6166dd07a92b1c9fa62b7a29/294b8eb6-37c6-11ec-9c3c-7ad10d7aef5c_list3.jpg",
+                "logo": null
+            },
+            "title": "Chen's Couscous",
+            "name": "Chen's Couscous",
+            "track_id": "venue-chens-couscous",
+            "address": "שער הגיא 7, נתניה",
+            "venue_id": "6166dd07a92b1c9fa62b7a29",
+            "location": [
+                34.85736250000001,
+                32.3273574
+            ],
+            "short_description": "Homemade food",
+            "slug": "chens-couscous",
+            "tags": [
+                "dessert",
+                "homemade",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/chens-couscous"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc4c7e8ccdb58fabafd7fd/7cebcf20-9ef2-11ec-bb76-cae6e47bc9e3_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Bukobza Deli | Kosher",
+            "name": "Bukobza Deli | Kosher",
+            "track_id": "venue-bokobza-deli",
+            "address": "שהם 13",
+            "venue_id": "61dc4c7e8ccdb58fabafd7fd",
+            "location": [
+                34.8596517,
+                32.3296034
+            ],
+            "short_description": "Quality homemade food",
+            "slug": "bokobza-deli",
+            "tags": [
+                "chicken",
+                "deli",
+                "homemade",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/bokobza-deli"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61fbdb51f44c605288a84675/3c7480f2-9265-11ec-9bba-cec1779268c1_yaelitz_7.jpg",
+                "logo": null
+            },
+            "title": "Tapuach Adama Lohet",
+            "name": "Tapuach Adama Lohet",
+            "track_id": "venue-tapuach-adama-lohet",
+            "address": "הרצל 60, נתניה",
+            "venue_id": "61fbdb51f44c605288a84675",
+            "location": [
+                34.8618993,
+                32.3264108
+            ],
+            "short_description": "Baked & Creamed Potato",
+            "slug": "tapuach-adama-lohet",
+            "tags": [
+                "dairy",
+                "street food",
+                "vegan",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/tapuach-adama-lohet"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625fee55267e866ee5c724df/6685ab58-cad4-11ec-8f5a-0ed8e32a9776_____.jpg",
+                "logo": null
+            },
+            "title": "Eitan's",
+            "name": "Eitan's",
+            "track_id": "venue-eitans",
+            "address": "סמילנסקי 8, נתניה",
+            "venue_id": "625fee55267e866ee5c724df",
+            "location": [
+                34.8558024,
+                32.3280609
+            ],
+            "short_description": "Hot dogs out of this world",
+            "slug": "eitans",
+            "tags": [
+                "bistro",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/eitans"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fb3f812c57dd7113c263174/29accdaa-28f1-11eb-966a-ca8fdacbc972_dsc00959.jpg",
+                "logo": null
+            },
+            "title": "Piano Piano | Netanya",
+            "name": "Piano Piano | Netanya",
+            "track_id": "venue-piano-piano-netanya",
+            "address": "HaMehkar 2 Netanya",
+            "venue_id": "5fb3f812c57dd7113c263174",
+            "location": [
+                34.86255137265249,
+                32.29175211031299
+            ],
+            "short_description": "Hot Italian Cuisine",
+            "slug": "piano-piano-netanya",
+            "tags": [
+                "pizza",
+                "pasta",
+                "italian"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/piano-piano-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6208e629bed4c7e7f0797690/977cd486-9d3c-11ec-a267-8abf31d8502e_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Beit Razon | Sha'ar HaGai",
+            "name": "Shawarma Beit Razon | Sha'ar HaGai",
+            "track_id": "venue-shawarma-beit-razon",
+            "address": "שער הגיא 5, נתניה",
+            "venue_id": "6208e629bed4c7e7f0797690",
+            "location": [
+                34.8571861,
+                32.3278918
+            ],
+            "short_description": "Israeli Grill",
+            "slug": "shawarma-beit-razon",
+            "tags": [
+                "grill",
+                "shawarma",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/shawarma-beit-razon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fc79675baf52e0ef62d2aa0/d9080cda-34a2-11eb-a584-ae3e2a942002_kush_list.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel Kushi | HaGavish",
+            "name": "Schnitzel Kushi | HaGavish",
+            "track_id": "venue-schnitzel-kushi-ha-gavish",
+            "address": "הגביש 8,נתניה",
+            "venue_id": "5fc79675baf52e0ef62d2aa0",
+            "location": [
+                34.86410987249124,
+                32.288917534678816
+            ],
+            "short_description": "A unique home-made Schnitzel\nThe Original Schnitzel Kushi",
+            "slug": "schnitzel-kushi-ha-gavish",
+            "tags": [
+                "sandwich",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-kushi-ha-gavish"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6006d709e8ef504d8525c147/d5360f9e-6eb3-11eb-94c0-ba62d2cf0263_list3.jpg",
+                "logo": null
+            },
+            "title": "Hummusim",
+            "name": "Hummusim",
+            "track_id": "venue-hummusim",
+            "address": "המחקר 2, נתניה",
+            "venue_id": "6006d709e8ef504d8525c147",
+            "location": [
+                34.8624251,
+                32.2917333
+            ],
+            "short_description": "a place to eat fresh hummus",
+            "slug": "hummusim",
+            "tags": [
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hummusim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6208d8897bb66b54b8f6f515/96fbac5a-925e-11ec-b993-629dfbd62a48_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Pazatz | Netanya",
+            "name": "Pizza Pazatz | Netanya",
+            "track_id": "venue-pizza-pazatz-netanya",
+            "address": "שדרות טום לנטוס 26, נתניה",
+            "venue_id": "6208d8897bb66b54b8f6f515",
+            "location": [
+                34.869091,
+                32.3069382
+            ],
+            "short_description": "Italian Pizza",
+            "slug": "pizza-pazatz-netanya",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-pazatz-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96d36085fad2fc22a148fc/eef63d2a-994e-11ec-88b0-ae2d4490da8b_photo_2022_03_01_09_49_24_medium.jpeg",
+                "logo": null
+            },
+            "title": "Hafrikase Shel Haimko | Netanya",
+            "name": "Hafrikase Shel Haimko | Netanya",
+            "track_id": "venue-hafrikase-shel-haimko",
+            "address": "שער הגיא 8, נתניה",
+            "venue_id": "5f96d36085fad2fc22a148fc",
+            "location": [
+                34.8571763,
+                32.3276498
+            ],
+            "short_description": "Authentic Frikase",
+            "slug": "hafrikase-shel-haimko",
+            "tags": [
+                "street food",
+                "fish",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hafrikase-shel-haimko"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60db1ccb073c3ad00517f45b/36ac2f5a-d8dc-11eb-ab29-26438258ec9b____________20.jpeg",
+                "logo": null
+            },
+            "title": "Schnitzel 20 Flavours | Netanya",
+            "name": "Schnitzel 20 Flavours | Netanya",
+            "track_id": "venue-schnitzel-20-flavours-netanya",
+            "address": "שדרות בנימין 7, נתניה",
+            "venue_id": "60db1ccb073c3ad00517f45b",
+            "location": [
+                34.8583773,
+                32.3273626
+            ],
+            "short_description": "Schnitzel Restaurant",
+            "slug": "schnitzel-20-flavours-netanya",
+            "tags": [
+                "kids",
+                "sandwich",
+                "schnitzel"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-20-flavours-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f8c57ccd53534bf59da5643/d3d9ee94-16b7-11eb-9a2f-f20336f92d0a_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "El Professor",
+            "name": "El Professor",
+            "track_id": "venue-el-profesor-netanya",
+            "address": "הרצל 5, נתניה",
+            "venue_id": "5f8c57ccd53534bf59da5643",
+            "location": [
+                34.8535957,
+                32.3299065
+            ],
+            "short_description": "Burger House",
+            "slug": "el-profesor-netanya",
+            "tags": [
+                "bbq",
+                "kosher",
+                "burger",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/el-profesor-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/602925c86bcdc308c9fed8ad/c14f22b2-6ec8-11eb-b1ba-4674ae990827_3a03d0f56975946b6ab1e8631aa76fe1.jpeg",
+                "logo": null
+            },
+            "title": "Bayern Market | Cinema City Netanya",
+            "name": "Bayern Market | Cinema City Netanya",
+            "track_id": "venue-bayern-market-cinema-city-netanya",
+            "address": "המחקר 3, סינמה סיטי נתניה",
+            "venue_id": "602925c86bcdc308c9fed8ad",
+            "location": [
+                34.86178762366081,
+                32.29071665978804
+            ],
+            "short_description": "A Street food stall Ostro-German style\n",
+            "slug": "bayern-market-cinema-city-netanya",
+            "tags": [
+                "german",
+                "street food"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/bayern-market-cinema-city-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f7faddd42497fe672074d3/51005b80-9266-11ec-bc53-56113fc84c24_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Chipseriya",
+            "name": "Chipseriya",
+            "track_id": "venue-chipseriya",
+            "address": " שטמפפר 19, נתניה",
+            "venue_id": "61f7faddd42497fe672074d3",
+            "location": [
+                34.8540079,
+                32.3276839
+            ],
+            "short_description": "Potato Boutique  🍟",
+            "slug": "chipseriya",
+            "tags": [
+                "homemade",
+                "salad",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/chipseriya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62275e2962c846000e323c40/cdff3512-a5f2-11ec-9ba6-8eb9084bd591_list2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Mano",
+            "name": "Pizza Mano",
+            "track_id": "venue-pizza-mano",
+            "address": "הנוטע 2",
+            "venue_id": "62275e2962c846000e323c40",
+            "location": [
+                34.8568098,
+                32.3277195
+            ],
+            "short_description": "Pizza, pasta, salads - strictly kosher (shemita)",
+            "slug": "pizza-mano",
+            "tags": [
+                "italian",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-mano"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6166db1151b053e6e3a21170/7ab781e8-37ca-11ec-b60b-c67b7fb99a3c_list.jpg",
+                "logo": null
+            },
+            "title": "Chen's Pita",
+            "name": "Chen's Pita",
+            "track_id": "venue-chens-pita",
+            "address": "הרצל 41, נתניה",
+            "venue_id": "6166db1151b053e6e3a21170",
+            "location": [
+                34.8596811,
+                32.3278626
+            ],
+            "short_description": "Everything that tastes good in bread",
+            "slug": "chens-pita",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/chens-pita"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f954b0406360d8679a3821a/b52100c2-1ae1-11eb-9e2d-eae7d21ba4aa_1.jpg",
+                "logo": null
+            },
+            "title": "Cafe Caramel | Binyamin BLV",
+            "name": "Cafe Caramel | Binyamin BLV",
+            "track_id": "venue-cafe-caramel-binyamin-blv",
+            "address": "שדרות בנימין 21 נתניה",
+            "venue_id": "5f954b0406360d8679a3821a",
+            "location": [
+                34.8574279,
+                32.3251851
+            ],
+            "short_description": "Fresh Sandwiches, Salads and Coffee",
+            "slug": "cafe-caramel-binyamin-blv",
+            "tags": [
+                "café",
+                "sandwich",
+                "salad"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/cafe-caramel-binyamin-blv"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe07cc91fd12141c2b30031/85f6fbdc-4e79-11eb-a1be-c2dd081fe924_list_3.jpg",
+                "logo": null
+            },
+            "title": "Bari Bar | Netanya",
+            "name": "Bari Bar | Netanya",
+            "track_id": "venue-bar-bari-netanya",
+            "address": "סמילנסקי 2, נתניה",
+            "venue_id": "5fe07cc91fd12141c2b30031",
+            "location": [
+                34.8563444,
+                32.3286415
+            ],
+            "short_description": "Healthy Eating",
+            "slug": "bar-bari-netanya",
+            "tags": [
+                "juice",
+                "salad",
+                "vegan",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/bar-bari-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fb23319dc8d5738d53ebe9e/747a983a-27e3-11eb-93ab-4615db35f47a______________.jpg",
+                "logo": null
+            },
+            "title": "HaSchnitzelia | Netanya",
+            "name": "HaSchnitzelia | Netanya",
+            "track_id": "venue-haschnitzelia-netanya",
+            "address": "בני ברמן 2, עיר ימים",
+            "venue_id": "5fb23319dc8d5738d53ebe9e",
+            "location": [
+                34.84619131224044,
+                32.278910095658205
+            ],
+            "short_description": "Schnitzel as far as the eye can see | Kosher\n",
+            "slug": "haschnitzelia-netanya",
+            "tags": [
+                "sandwich",
+                "chicken",
+                "schnitzel",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/haschnitzelia-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603f9c8d4685e0dab78f3de2/520d5756-8b1b-11eb-8b6e-ba695731a54d_list.jpg",
+                "logo": null
+            },
+            "title": "Emilia | Netanya",
+            "name": "Emilia | Netanya",
+            "track_id": "venue-emilia-netanya",
+            "address": "שדרות עובד בן עמי 10, נתניה",
+            "venue_id": "603f9c8d4685e0dab78f3de2",
+            "location": [
+                34.8452998,
+                32.311467
+            ],
+            "short_description": "The taste of desire since 2010",
+            "slug": "emilia-netanya",
+            "tags": [
+                "ice cream",
+                "sweets"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/emilia-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611a3a44312afaf696d68741/bf27f950-040a-11ec-b4ac-0203064f9dfc______2.jpg",
+                "logo": null
+            },
+            "title": "Papa Baba Delicates | Kosher",
+            "name": "Papa Baba Delicates | Kosher",
+            "track_id": "venue-boutique-bakery",
+            "address": "דיזינגוף 67, נתניה",
+            "venue_id": "611a3a44312afaf696d68741",
+            "location": [
+                34.8519301,
+                32.3258628
+            ],
+            "short_description": "Cafe and Restaurant",
+            "slug": "boutique-bakery",
+            "tags": [
+                "bagel",
+                "bakery",
+                "breakfast",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/boutique-bakery"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fccbdd2eb5f70d73e1935d3/0ef4e752-4478-11eb-a8de-9204c7dd04d9_img_5043_edit.jpg",
+                "logo": null
+            },
+            "title": "Nina Sushi | Netanya",
+            "name": "Nina Sushi | Netanya",
+            "track_id": "venue-nina-sushi-netanya",
+            "address": "כיכר העצמאות 9, נתניה",
+            "venue_id": "5fccbdd2eb5f70d73e1935d3",
+            "location": [
+                34.8517576,
+                32.3307328
+            ],
+            "short_description": "Kosher Asian Restaurant",
+            "slug": "nina-sushi-netanya",
+            "tags": [
+                "asian",
+                "sushi",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/nina-sushi-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f969f993dd38b9cdb03df7e/2e41e918-1b7c-11eb-aa5b-f28276e6d7b6_img_3726.jpg",
+                "logo": null
+            },
+            "title": "Ronen Meats Express | Sha'ar HaEmek",
+            "name": "Ronen Meats Express | Sha'ar HaEmek",
+            "track_id": "venue-ronen-meats-express-shaar-haemek",
+            "address": "Sha'ar HaEmek, 2",
+            "venue_id": "5f969f993dd38b9cdb03df7e",
+            "location": [
+                34.857408338465014,
+                32.32899423351301
+            ],
+            "short_description": "From The butcher to the Plate",
+            "slug": "ronen-meats-express-shaar-haemek",
+            "tags": [
+                "shawarma",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/ronen-meats-express-shaar-haemek"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62286431bb9fcd60603aef4d/a0a4e8ac-a848-11ec-b33e-560caeb013a0_list.jpg",
+                "logo": null
+            },
+            "title": "Rotisserie Boaron",
+            "name": "Rotisserie Boaron",
+            "track_id": "venue-rotisserie-boaron",
+            "address": "שדרות ויצמן 10, נתניה",
+            "venue_id": "62286431bb9fcd60603aef4d",
+            "location": [
+                34.8589289,
+                32.3293176
+            ],
+            "short_description": "Homemade food and chicken",
+            "slug": "rotisserie-boaron",
+            "tags": [
+                "homemade",
+                "street food",
+                "bbq"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/rotisserie-boaron"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b1918252342129a780ac/102946b8-1c37-11eb-a304-9ea7ef3e1f0d_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Bredo | Tel Hai",
+            "name": "Bredo | Tel Hai",
+            "track_id": "venue-bredo-tel-hai",
+            "address": "שטמפפר 4, נתניה",
+            "venue_id": "5f96b1918252342129a780ac",
+            "location": [
+                34.8550263,
+                32.328945
+            ],
+            "short_description": "Bread & Coffee | Kosher",
+            "slug": "bredo-tel-hai",
+            "tags": [
+                "kosher",
+                "salad",
+                "pasta",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/bredo-tel-hai"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feaf22feed4db7e51e4459c/c4a3222a-5035-11ec-ba79-22d816521c63__________.jpg",
+                "logo": null
+            },
+            "title": "rebar Kosher | HaSharon Mall Netanya",
+            "name": "rebar Kosher | HaSharon Mall Netanya",
+            "track_id": "venue-re-bar-netanya",
+            "address": "הרצל 60, נתניה",
+            "venue_id": "5feaf22feed4db7e51e4459c",
+            "location": [
+                34.8618993,
+                32.3264108
+            ],
+            "short_description": "smoothies, juices, wellness choices | Kosher\n",
+            "slug": "re-bar-netanya",
+            "tags": [
+                "juice",
+                "Health",
+                "vegan",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/re-bar-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fc8c62b18e4cb0ae5b15179/51a55380-44fe-11eb-8e20-0a390c3454a1_dsc_5338.jpg",
+                "logo": null
+            },
+            "title": "Pizza Shop",
+            "name": "Pizza Shop",
+            "track_id": "venue-pizza-shop-netanya",
+            "address": "שד עובד בן עמי 10, נתניה",
+            "venue_id": "5fc8c62b18e4cb0ae5b15179",
+            "location": [
+                34.8452998,
+                32.311467
+            ],
+            "short_description": "Italian boutique style pizza",
+            "slug": "pizza-shop-netanya",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-shop-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f958b4eac20c35d5a511624/98439e32-899f-11ec-b02e-82743dcb54ad_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Papa",
+            "name": "Papa",
+            "track_id": "venue-papas-netanya",
+            "address": "טום לוטוס 60, נתניה",
+            "venue_id": "5f958b4eac20c35d5a511624",
+            "location": [
+                34.8687309,
+                32.2958394
+            ],
+            "short_description": "Handmade Hamburgers, meat sandwiches, entrees and salads. Kosher",
+            "slug": "papas-netanya",
+            "tags": [
+                "grill",
+                "bbq",
+                "burger",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/papas-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe473eef8700dee851bf730/d587cf56-65f7-11eb-9285-bef03b94dfec_list__1_.jpg",
+                "logo": null
+            },
+            "title": "Crazy Pizza | Herzel",
+            "name": "Crazy Pizza | Herzel",
+            "track_id": "venue-crazy-pizza-netanya",
+            "address": "הרצל 41",
+            "venue_id": "5fe473eef8700dee851bf730",
+            "location": [
+                34.8596811,
+                32.3278626
+            ],
+            "short_description": "Italian Local Pizzeria \n",
+            "slug": "crazy-pizza-netanya",
+            "tags": [
+                "pizza",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/crazy-pizza-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60867ffed33692311472fec7/db54d3b6-e3b0-11eb-81b0-5eb11f07711c___24.jpg",
+                "logo": null
+            },
+            "title": "Golda | Kikar HaAtsmaut Netanya",
+            "name": "Golda | Kikar HaAtsmaut Netanya",
+            "track_id": "venue-golda-kikar-haatsmaut-netanya",
+            "address": " הרצל 7, נתניה",
+            "venue_id": "60867ffed33692311472fec7",
+            "location": [
+                34.85406830000001,
+                32.3297868
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-kikar-haatsmaut-netanya",
+            "tags": [
+                "ice cream",
+                "snacks"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/golda-kikar-haatsmaut-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6044e00ac22c099b3d3f3bcc/fbf36ce8-9d5c-11ec-88db-d22fe0ce0c2c_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Tortilla Entrecote & More...",
+            "name": "Tortilla Entrecote & More...",
+            "track_id": "venue-entrecote-tortilla-cinema-city-netanya",
+            "address": "המחקר 3, סינמה סיטי נתניה",
+            "venue_id": "6044e00ac22c099b3d3f3bcc",
+            "location": [
+                34.8618352,
+                32.2910915
+            ],
+            "short_description": "Tottillas | Sandwiches | and More",
+            "slug": "entrecote-tortilla-cinema-city-netanya",
+            "tags": [
+                "tex-mex",
+                "grill",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/entrecote-tortilla-cinema-city-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fba72f25b3aa6ab8eedc0ff/3c181a3c-2cdc-11eb-a4f9-8a317767d376_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "American Pizza | Netanya",
+            "name": "American Pizza | Netanya",
+            "track_id": "venue-american-pizza",
+            "address": "טום לנטוס 60, נתניה",
+            "venue_id": "5fba72f25b3aa6ab8eedc0ff",
+            "location": [
+                34.8687309,
+                32.2958394
+            ],
+            "short_description": "Real Italian Pizza - Kosher Le'Mehadrin",
+            "slug": "american-pizza",
+            "tags": [
+                "dessert",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/american-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f97e4a4d60065fdef082717/194a7970-1835-11eb-a760-1e2071b2c185_4dbc1194_1116_11eb_a40b_b696505a803e_7f99474c_c6c8_11ea_b234_9e1aae5d437d____________02.jpg",
+                "logo": null
+            },
+            "title": "Ad Haetzem Express | Netanya",
+            "name": "Ad Haetzem Express | Netanya",
+            "track_id": "venue-ad-haetzam-express-netanya",
+            "address": "HaMehkar St 3, Netanya",
+            "venue_id": "5f97e4a4d60065fdef082717",
+            "location": [
+                34.8616661,
+                32.29081420000001
+            ],
+            "short_description": "Fresh Meat Burger",
+            "slug": "ad-haetzam-express-netanya",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/ad-haetzam-express-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96ad0c65870ab25c6ce557/3ce1bfa0-5034-11ec-a831-4ed9f5d22dbd__________.jpg",
+                "logo": null
+            },
+            "title": "rebar | SOHO Netanya",
+            "name": "rebar | SOHO Netanya",
+            "track_id": "venue-rebar-netanya",
+            "address": "מפי 5 ",
+            "venue_id": "5f96ad0c65870ab25c6ce557",
+            "location": [
+                34.8613331,
+                32.2748751
+            ],
+            "short_description": "smoothies, juices, wellness choices\n",
+            "slug": "rebar-netanya",
+            "tags": [
+                "smoothie",
+                "Health"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/rebar-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f5467571db47d1bb18a78d/cde56d26-0318-11ec-8fb8-7e34df68c307______2.jpg",
+                "logo": null
+            },
+            "title": "Lori Cash | Kosher",
+            "name": "Lori Cash | Kosher",
+            "track_id": "venue-lori",
+            "address": "אוסישקין 1, נתניה",
+            "venue_id": "60f5467571db47d1bb18a78d",
+            "location": [
+                34.8515405,
+                32.329716
+            ],
+            "short_description": "Local Bakery",
+            "slug": "lori",
+            "tags": [
+                "sweets",
+                "breakfast",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/lori"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619f55e0ac44c31de5cd490a/4c64afba-501f-11ec-bdc3-b2144a829e86_____.jpg",
+                "logo": null
+            },
+            "title": "Yogo Lee | Ir Yamim",
+            "name": "Yogo Lee | Ir Yamim",
+            "track_id": "venue-yogo-lee",
+            "address": "בני ברמן 2, נתניה",
+            "venue_id": "619f55e0ac44c31de5cd490a",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "short_description": "Ice cream and more",
+            "slug": "yogo-lee",
+            "tags": [
+                "ice cream"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/yogo-lee"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/610bc4e2abf5512dbd713249/5da563fc-0644-11ec-bca1-1eade7f301d6________.jpg",
+                "logo": null
+            },
+            "title": "Time Off | Netanya",
+            "name": "Time Off | Netanya",
+            "track_id": "venue-time-off-netanya",
+            "address": " גבורי ישראל 40, נתניה",
+            "venue_id": "610bc4e2abf5512dbd713249",
+            "location": [
+                34.8616146,
+                32.2833526
+            ],
+            "short_description": "Chicken Sandwiches",
+            "slug": "time-off-netanya",
+            "tags": [
+                "chicken",
+                "sandwich",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/time-off-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbe689c56fae3bc068e0e73/70162926-386e-11eb-a585-468ed5800ab0_list3.jpg",
+                "logo": null
+            },
+            "title": "Yoforia",
+            "name": "Yoforia",
+            "track_id": "venue-yoforia",
+            "address": "הרצל 43, נתניה",
+            "venue_id": "5fbe689c56fae3bc068e0e73",
+            "location": [
+                34.8599476,
+                32.3277702
+            ],
+            "short_description": "Yogurt, Toppings, and Desserts | Kosher Chief Rabbinate of Netanya\n",
+            "slug": "yoforia",
+            "tags": [
+                "sweets",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/yoforia"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fce1092574043403750ee0d/fe7bd54e-3e22-11eb-bfa5-5a814f172617_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Fix Kosher",
+            "name": "Pizza Fix Kosher",
+            "track_id": "venue-pizza-fix",
+            "address": "David Pinkas St 14, Netanya",
+            "venue_id": "5fce1092574043403750ee0d",
+            "location": [
+                34.8742446,
+                32.3211764
+            ],
+            "short_description": "Get yourself some Pizza | Kosher - Badatz",
+            "slug": "pizza-fix",
+            "tags": [
+                "kosher",
+                "pizza",
+                "italian",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-fix"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f13a2479c01ae4229243bf/fbb53a92-81f8-11ec-b459-ca600f423159_yaelitz_7.jpg",
+                "logo": null
+            },
+            "title": "Holy Bagel | Netanya",
+            "name": "Holy Bagel | Netanya",
+            "track_id": "venue-holy-bagel-netanya",
+            "address": "קראוזה 1, נתניה",
+            "venue_id": "61f13a2479c01ae4229243bf",
+            "location": [
+                34.8546864,
+                32.3282319
+            ],
+            "short_description": "Bagels and Coffee 🥯 || Kosher",
+            "slug": "holy-bagel-netanya",
+            "tags": [
+                "bagel",
+                "kosher",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/holy-bagel-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60e6b99420a07e04e4608436/4e03e344-dfc8-11eb-b56a-16f3a334651f_pita_basar_list.jpeg",
+                "logo": null
+            },
+            "title": "Pita Bassar | Netanya",
+            "name": "Pita Bassar | Netanya",
+            "track_id": "venue-pita-basar-netanya",
+            "address": "נתן יונתן 10, מתחם פיאנו",
+            "venue_id": "60e6b99420a07e04e4608436",
+            "location": [
+                34.84213825015711,
+                32.27710445263263
+            ],
+            "short_description": "Wow in a Pita | Kosher",
+            "slug": "pita-basar-netanya",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pita-basar-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606eac0e4539ac9b724f83cd/48f0a1bc-a5d0-11eb-afb5-febad8c58d08_list.jpg",
+                "logo": null
+            },
+            "title": "La Pizzeria",
+            "name": "La Pizzeria",
+            "track_id": "venue-la-pizzeria-mehadrin",
+            "address": "פתח תקווה 42, נתניה",
+            "venue_id": "606eac0e4539ac9b724f83cd",
+            "location": [
+                34.8593828,
+                32.3216598
+            ],
+            "short_description": "Netanyan Pizza Place | Kosher Badataz Haeda HaHaredit",
+            "slug": "la-pizzeria-mehadrin",
+            "tags": [
+                "pizza",
+                "kosher",
+                "italian",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/la-pizzeria-mehadrin"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96c5004814b24685a12f84/e075eac0-751e-11eb-a52f-6e830a4838c5_c7d25de2_3936_11eb_b8ac_0a6d6492baf1_list_landwer.jpg",
+                "logo": null
+            },
+            "title": "Landwer Kosher LeMehadrin | Island Netanya",
+            "name": "Landwer Kosher LeMehadrin | Island Netanya",
+            "track_id": "venue-landwer-cafe-island",
+            "address": "שדרות בן עמי 10",
+            "venue_id": "5f96c5004814b24685a12f84",
+            "location": [
+                34.8452998,
+                32.311467
+            ],
+            "short_description": "Coffee & good food",
+            "slug": "landwer-cafe-island",
+            "tags": [
+                "breakfast",
+                "café",
+                "salad",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/landwer-cafe-island"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627229fdedd47decf294f1ff/11e6b5f4-cb80-11ec-9616-9e8340d3d587_______1_.jpg",
+                "logo": null
+            },
+            "title": "Pizza Pai",
+            "name": "Pizza Pai",
+            "track_id": "venue-pizza-pie",
+            "address": "לילינבלום 11, נתניה",
+            "venue_id": "627229fdedd47decf294f1ff",
+            "location": [
+                34.8589858,
+                32.3252658
+            ],
+            "short_description": "Pizza",
+            "slug": "pizza-pie",
+            "tags": [
+                "pasta",
+                "pizza",
+                "italian",
+                "kosher",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-pie"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6234c7798c69175e4600cea3/0a1c4a42-affa-11ec-ac05-d24847d98835_list.jpg",
+                "logo": null
+            },
+            "title": "Don Pizza | Netanya",
+            "name": "Don Pizza | Netanya",
+            "track_id": "venue-don-pizza-netanya",
+            "address": "הרצל 5, נתניה",
+            "venue_id": "6234c7798c69175e4600cea3",
+            "location": [
+                34.8534812,
+                32.3299633
+            ],
+            "short_description": "Since 1977",
+            "slug": "don-pizza-netanya",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/don-pizza-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62091418cf0b5d1673c17be1/78023860-97bc-11ec-98e9-2a45c6e3320e___________copy.png",
+                "logo": null
+            },
+            "title": "Segev | Netanya",
+            "name": "Segev | Netanya",
+            "track_id": "venue-segev-natanya",
+            "address": "המחקר 3",
+            "venue_id": "62091418cf0b5d1673c17be1",
+            "location": [
+                34.8624435225941,
+                32.29138550293941
+            ],
+            "short_description": "Chef Kitchen | Kosher",
+            "slug": "segev-natanya",
+            "tags": [
+                "bistro",
+                "burger",
+                "grill",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/segev-natanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61cb33d5f6ef7096d122fc9b/54eacbbe-7d0c-11ec-a4a7-5a57ffc1d8ae_____.jpg",
+                "logo": null
+            },
+            "title": "Pizza Rondo | Netanya",
+            "name": "Pizza Rondo | Netanya",
+            "track_id": "venue-pizza-rondo-netanya",
+            "address": "בוסל 15, נתניה",
+            "venue_id": "61cb33d5f6ef7096d122fc9b",
+            "location": [
+                34.8784059,
+                32.3126617
+            ],
+            "short_description": "Wonderful Pizza Experience\nKosher Badatz",
+            "slug": "pizza-rondo-netanya",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-rondo-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96e21885fad2fc22a156cf/483061ce-2ccf-11eb-a119-26a35a645d5f_1.jpg",
+                "logo": null
+            },
+            "title": "Pancakes House | Netanya",
+            "name": "Pancakes House | Netanya",
+            "track_id": "venue-original-house-of-pancakes-netanya",
+            "address": "Highway 2, Netanya",
+            "venue_id": "5f96e21885fad2fc22a156cf",
+            "location": [
+                34.8661787110745,
+                32.320549830348305
+            ],
+            "short_description": "The Original House Of Pancakes",
+            "slug": "original-house-of-pancakes-netanya",
+            "tags": [
+                "sweets",
+                "pancakes",
+                "breakfast"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/original-house-of-pancakes-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96a78c8078e837b9efeaf3/4a4ee782-19bf-11eb-95b7-f2331366fdec_img_3930.jpg",
+                "logo": null
+            },
+            "title": "Chubby's",
+            "name": "Chubby's",
+            "track_id": "venue-chubbys",
+            "address": "Sderot Oved Ben Ami 10",
+            "venue_id": "5f96a78c8078e837b9efeaf3",
+            "location": [
+                34.8452998,
+                32.311467
+            ],
+            "short_description": "Chef Burger",
+            "slug": "chubbys",
+            "tags": [
+                "burger",
+                "kosher",
+                "american",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/chubbys"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b8df44900c1369baf128/d5a87ed4-1b62-11eb-8ca4-c2de9044bd8d_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
+                "logo": null
+            },
+            "title": "Burgeranch | HaSharon Mall",
+            "name": "Burgeranch | HaSharon Mall",
+            "track_id": "venue-burgeranch-hasharon-mall",
+            "address": "הרצל 60",
+            "venue_id": "5f96b8df44900c1369baf128",
+            "location": [
+                34.8618993,
+                32.3264108
+            ],
+            "short_description": "The israel Burger House.",
+            "slug": "burgeranch-hasharon-mall",
+            "tags": [
+                "kids"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/burgeranch-hasharon-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b5f044900c1369baed52/58ffcdb2-1787-11eb-bd12-d6ccad5a7dae_30fc0eb6_16ba_11eb_a353_da950eb88cfc_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Falafel Musa | Poleg",
+            "name": "Falafel Musa | Poleg",
+            "track_id": "venue-falafel-mosa-poleg",
+            "address": "Sderot Giborei Israel 24 Netanya",
+            "venue_id": "5f96b5f044900c1369baed52",
+            "location": [
+                34.86069620000002,
+                32.280243200000044
+            ],
+            "short_description": "Local Falafal",
+            "slug": "falafel-mosa-poleg",
+            "tags": [
+                "pita",
+                "falafel",
+                "vegetarian",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-mosa-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b9c0738372a5c23ec9e9d7/6c196a08-6654-11ec-9e8c-fa6dd61dce93_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Luka",
+            "name": "Luka",
+            "track_id": "venue-luka",
+            "address": "הרצל 60, נתניה",
+            "venue_id": "61b9c0738372a5c23ec9e9d7",
+            "location": [
+                34.8618993,
+                32.3264108
+            ],
+            "short_description": "Pizza Diner",
+            "slug": "luka",
+            "tags": [
+                "dessert",
+                "italian",
+                "pasta"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/luka"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60c8be57d2749c463bbdaada/b067c598-e31d-11eb-bf26-aebcb64cca9a_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Matamei Israel",
+            "name": "Matamei Israel",
+            "track_id": "venue-matamei-israel",
+            "address": " הצורן 4, נתניה",
+            "venue_id": "60c8be57d2749c463bbdaada",
+            "location": [
+                34.8660813,
+                32.2887054
+            ],
+            "short_description": "israeli authentic flavor",
+            "slug": "matamei-israel",
+            "tags": [
+                "mediterranean",
+                "israeli",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/matamei-israel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6097b9f266af49ad3dd42b39/6d9e1dee-c459-11eb-b356-9ee8f598a9e1_fto04248.jpg",
+                "logo": null
+            },
+            "title": "Yababa Kebab",
+            "name": "Yababa Kebab",
+            "track_id": "venue-yababa-kebab",
+            "address": "גולומב 1 נתניה",
+            "venue_id": "6097b9f266af49ad3dd42b39",
+            "location": [
+                34.8657469,
+                32.337446
+            ],
+            "short_description": "Authentic Israeli Coal Grill",
+            "slug": "yababa-kebab",
+            "tags": [
+                "kebab",
+                "kosher",
+                "street food"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/yababa-kebab"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f9ae28d758fc9c59763c577/963dc8f0-19fd-11eb-9a33-96fc8d38dfa9_de53eac2_edfa_11ea_91cd_7e2b4357db58_yaelitz_7.jpg",
+                "logo": null
+            },
+            "title": "Nagisa | Netanya",
+            "name": "Nagisa | Netanya",
+            "track_id": "venue-nagisa-netanya",
+            "address": "Mefi 5 Netanya",
+            "venue_id": "5f9ae28d758fc9c59763c577",
+            "location": [
+                34.86124602215649,
+                32.27513053531385
+            ],
+            "short_description": "A unique and rich menu, sushi and special dishes from Asian cuisine",
+            "slug": "nagisa-netanya",
+            "tags": [
+                "sushi",
+                "asian",
+                "noodles",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/nagisa-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f958e04396ab83c5fde5098/061917ae-1b77-11eb-8518-fe057229f275____________01.jpg",
+                "logo": null
+            },
+            "title": "HaDoctor",
+            "name": "HaDoctor",
+            "track_id": "venue-hadoctor",
+            "address": "Ha-Melakha St 12, Netanya",
+            "venue_id": "5f958e04396ab83c5fde5098",
+            "location": [
+                34.85851333189558,
+                32.27849874628939
+            ],
+            "short_description": "Chef Street Food",
+            "slug": "hadoctor",
+            "tags": [
+                "street food",
+                "burger",
+                "vegan",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hadoctor"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/600ed979680fea3b8973885a/ae64d9ce-66d7-11eb-8443-125cf659651c_list1.jpg",
+                "logo": null
+            },
+            "title": "The Scotsman",
+            "name": "The Scotsman",
+            "track_id": "venue-the-scotsman-netanya",
+            "address": "כיכר העצמאות 13, נתניה",
+            "venue_id": "600ed979680fea3b8973885a",
+            "location": [
+                34.8523495,
+                32.3306791
+            ],
+            "short_description": "Coffee - Bar - Restaurant",
+            "slug": "the-scotsman-netanya",
+            "tags": [
+                "burger",
+                "italian",
+                "salad"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/the-scotsman-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbb7191b112583cea426edd/d427f5d6-2e5d-11eb-ae2c-2e3b8c8e64b0_yaelitz__3_.jpg",
+                "logo": null
+            },
+            "title": "Big Pizza | Netanya",
+            "name": "Big Pizza | Netanya",
+            "track_id": "venue-big-pizza-netanya",
+            "address": "חפץ חיים 6, נתניה",
+            "venue_id": "5fbb7191b112583cea426edd",
+            "location": [
+                34.8450425,
+                32.2956178
+            ],
+            "short_description": "Pizza like in Italy",
+            "slug": "big-pizza-netanya",
+            "tags": [
+                "pizza",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/big-pizza-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6121f7796b6147331eacabbe/9dc80dc4-1538-11ec-86d2-9e941eb4e55f_____.jpg",
+                "logo": null
+            },
+            "title": "Mom's Kebab",
+            "name": "Mom's Kebab",
+            "track_id": "venue-moms-kebab",
+            "address": "שדרות בנימין 7, נתניה",
+            "venue_id": "6121f7796b6147331eacabbe",
+            "location": [
+                34.8583773,
+                32.3273626
+            ],
+            "short_description": "Barbecue and Grill restaurant\n",
+            "slug": "moms-kebab",
+            "tags": [
+                "kebab",
+                "grill",
+                "pita",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/moms-kebab"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fc4aee5fd5231ea887e1d7b/3dbfd58a-3d55-11eb-8250-2675335c9241_054a8872_edit.jpg",
+                "logo": null
+            },
+            "title": "Lehem Erez | Netanya",
+            "name": "Lehem Erez | Netanya",
+            "track_id": "venue-lehem-erez-netanya",
+            "address": "מפי 5 נתניה",
+            "venue_id": "5fc4aee5fd5231ea887e1d7b",
+            "location": [
+                34.8613331,
+                32.2748751
+            ],
+            "short_description": "Cafe & Italian food",
+            "slug": "lehem-erez-netanya",
+            "tags": [
+                "café",
+                "italian",
+                "healthy",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/lehem-erez-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622725e77ccc2fb3e0e8c209/dab86c22-9ec4-11ec-978c-0a9688af30e9_________________.jpg",
+                "logo": null
+            },
+            "title": "Hummus Eliyahu | Netanya",
+            "name": "Hummus Eliyahu | Netanya",
+            "track_id": "venue-hummus-eliyahu-netanya",
+            "address": "שכטרמן 9, נתניה",
+            "venue_id": "622725e77ccc2fb3e0e8c209",
+            "location": [
+                34.8739423,
+                32.3205244
+            ],
+            "short_description": "Unique Israeli Hummus\n",
+            "slug": "hummus-eliyahu-netanya",
+            "tags": [
+                "falafel",
+                "kosher",
+                "vegetarian",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hummus-eliyahu-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fc3737ba46a40a3da3c0956/41b42e7c-4ea1-11eb-b5cc-ce1d6732ebee_list3.jpg",
+                "logo": null
+            },
+            "title": "Ktzutza | Salads Bar",
+            "name": "Ktzutza | Salads Bar",
+            "track_id": "venue-ktzutza-salads-bar",
+            "address": "האומנות 5, נתניה",
+            "venue_id": "5fc3737ba46a40a3da3c0956",
+            "location": [
+                34.85985,
+                32.2778551
+            ],
+            "short_description": "Salads Bar",
+            "slug": "ktzutza-salads-bar",
+            "tags": [
+                "breakfast",
+                "café",
+                "healthy",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/ktzutza-salads-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603cb836a324c65868d62fdb/49213346-7a73-11eb-89be-f69eee051193_b.jpeg",
+                "logo": null
+            },
+            "title": "B-FRESH | Netanya",
+            "name": "B-FRESH | Netanya",
+            "track_id": "venue-b-fresh-netanya",
+            "address": "המחקר 3, סינמה סיטי נתניה",
+            "venue_id": "603cb836a324c65868d62fdb",
+            "location": [
+                34.8618352,
+                32.2910915
+            ],
+            "short_description": "Drinks | Health | Tapioca\n",
+            "slug": "b-fresh-netanya",
+            "tags": [
+                "healthy",
+                "kids",
+                "smoothie"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/b-fresh-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6268eea716afd80911055faf/7e069712-c6e5-11ec-8b3a-fa7c555fee4b_____.jpg",
+                "logo": null
+            },
+            "title": "Cheese Salad Bar",
+            "name": "Cheese Salad Bar",
+            "track_id": "venue-cheese-salad-bar",
+            "address": "סמילנסקי 8 ",
+            "venue_id": "6268eea716afd80911055faf",
+            "location": [
+                34.8558024,
+                32.3280609
+            ],
+            "short_description": "Salad bar\n",
+            "slug": "cheese-salad-bar",
+            "tags": [
+                "salad",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/cheese-salad-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6238918eca5ea52830a1299a/8dd4a6ac-d5e5-11ec-8750-2aec5d8244ad_______.jpg",
+                "logo": null
+            },
+            "title": "Red Burger Bar",
+            "name": "Red Burger Bar",
+            "track_id": "venue-red-burger-bar",
+            "address": "גד מכנס 2, נתניה",
+            "venue_id": "6238918eca5ea52830a1299a",
+            "location": [
+                34.8498919,
+                32.330248
+            ],
+            "short_description": "Grilled Meat",
+            "slug": "red-burger-bar",
+            "tags": [
+                "bbq",
+                "burger",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/red-burger-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b7fd846a9eed764404de3/29a2b7c8-d5f4-11ec-b046-62a6bd72cac1______.jpg",
+                "logo": null
+            },
+            "title": "Time Off |  Pinkas",
+            "name": "Time Off |  Pinkas",
+            "track_id": "venue-time-off-pinkas",
+            "address": "פנקס דוד 8, נתניה",
+            "venue_id": "627b7fd846a9eed764404de3",
+            "location": [
+                34.8744371,
+                32.3224232
+            ],
+            "short_description": "Bounces your appetite",
+            "slug": "time-off-pinkas",
+            "tags": [
+                "chicken",
+                "grill",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/time-off-pinkas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f86e61a4e117dac8e7e12e7/1fa976ce-ebae-11ec-b6a5-123507927e18_wolt_back_5.jpg",
+                "logo": null
+            },
+            "title": "Max Brenner | Netanya",
+            "name": "Max Brenner | Netanya",
+            "track_id": "venue-max-brenner-netanya",
+            "address": "גיבורי ישראל 17",
+            "venue_id": "5f86e61a4e117dac8e7e12e7",
+            "location": [
+                34.861509330020674,
+                32.28149849931352
+            ],
+            "short_description": "Chocolate Experience",
+            "slug": "max-brenner-netanya",
+            "tags": [
+                "breakfast",
+                "dessert"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/max-brenner-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603f9989e23a799688a98913/fcc45e56-87f1-11eb-9e7c-fe6b232b6a2c_img_6582_edit.jpg",
+                "logo": null
+            },
+            "title": "Uzi Hummus Ful | Netanya",
+            "name": "Uzi Hummus Ful | Netanya",
+            "track_id": "venue-uzi-hummus-ful-netanya",
+            "address": "גבורי ישראל 20, נתניה",
+            "venue_id": "603f9989e23a799688a98913",
+            "location": [
+                34.8602404,
+                32.2794764
+            ],
+            "short_description": "Fresh Hummus, made on the spot | Kosher",
+            "slug": "uzi-hummus-ful-netanya",
+            "tags": [
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/uzi-hummus-ful-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5faabafbd76474f15bbed7c2/6ed087d4-2cc8-11eb-b175-26a35a645d5f_3.jpg",
+                "logo": null
+            },
+            "title": "Dudes Burger",
+            "name": "Dudes Burger",
+            "track_id": "venue-dudes-burger",
+            "address": "קרמניאן 4, נתניה",
+            "venue_id": "5faabafbd76474f15bbed7c2",
+            "location": [
+                34.8509174454361,
+                32.329592271482134
+            ],
+            "short_description": "Handmade burgers",
+            "slug": "dudes-burger",
+            "tags": [
+                "american",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/dudes-burger"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e3d32a9fd94306e1789435/059f1506-8a4f-11ec-9a7a-862cf3512621__________________02.jpg",
+                "logo": null
+            },
+            "title": "Burgers Bar | Piano Netanya",
+            "name": "Burgers Bar | Piano Netanya",
+            "track_id": "venue-burgers-bar-piano-netanya",
+            "address": "שושנה דמארי 10, נתניה",
+            "venue_id": "61e3d32a9fd94306e1789435",
+            "location": [
+                34.84224004913875,
+                32.277574629810644
+            ],
+            "short_description": "Much More Than Hamburger",
+            "slug": "burgers-bar-piano-netanya",
+            "tags": [
+                "american",
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/burgers-bar-piano-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96899a3dd38b9cdb03c8fd/5401cbd8-1b71-11eb-97e1-ba1bf428f64b____________02.jpg",
+                "logo": null
+            },
+            "title": "Hummus Badusa - Dr. Ful Shakshuka | Poleg",
+            "name": "Hummus Badusa - Dr. Ful Shakshuka | Poleg",
+            "track_id": "venue-badosa-poleg",
+            "address": "אריה רגב 11, נתניה",
+            "venue_id": "5f96899a3dd38b9cdb03c8fd",
+            "location": [
+                34.86316790000001,
+                32.2816699
+            ],
+            "short_description": "Hummus・Broad bean・Shakshuka",
+            "slug": "badosa-poleg",
+            "tags": [
+                "street food",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/badosa-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d872b62b7089a2543c2060/b500cc5a-d745-11eb-9281-ca77c30f5d24_vaniglia_l.jpeg",
+                "logo": null
+            },
+            "title": "Vaniglia Kosher | Netanya Kiryat Hasharon",
+            "name": "Vaniglia Kosher | Netanya Kiryat Hasharon",
+            "track_id": "venue-vaniglia-netanya-kiryat-hasharon",
+            "address": "Shderot Tom Lentos 26",
+            "venue_id": "60d872b62b7089a2543c2060",
+            "location": [
+                34.86929513078304,
+                32.30686631215836
+            ],
+            "short_description": "Your local ice cream | Kosher\n",
+            "slug": "vaniglia-netanya-kiryat-hasharon",
+            "tags": [
+                "crepes",
+                "dessert",
+                "fruit",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/vaniglia-netanya-kiryat-hasharon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60a62c10bf6d1c04f54203dc/60e18bc2-2a75-11ec-b8f3-d6014787f70e_____.jpg",
+                "logo": null
+            },
+            "title": "Buonana | Netanya",
+            "name": "Buonana | Netanya",
+            "track_id": "venue-buonana-netanya",
+            "address": "שושנה דמארי 10, נתניה",
+            "venue_id": "60a62c10bf6d1c04f54203dc",
+            "location": [
+                34.84284531534444,
+                32.27806496799353
+            ],
+            "short_description": "Super Nature Bar\nKosher L'mehadrin",
+            "slug": "buonana-netanya",
+            "tags": [
+                "bowl",
+                "Health",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/buonana-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f954af6c530e1bfbda37eb2/8df1ed1c-18f3-11eb-8476-22286ab24145_list5.jpg",
+                "logo": null
+            },
+            "title": "Caramel Cafe | Poleg",
+            "name": "Caramel Cafe | Poleg",
+            "track_id": "venue-caramel-cafe-poleg",
+            "address": "גיבורי ישראל 7, נתניה",
+            "venue_id": "5f954af6c530e1bfbda37eb2",
+            "location": [
+                34.8606089,
+                32.2779707
+            ],
+            "short_description": "Fresh Sandwiches, Salads and Coffee\n",
+            "slug": "caramel-cafe-poleg",
+            "tags": [
+                "café",
+                "sandwich",
+                "salad"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/caramel-cafe-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96ea80fae0a0f04f89597d/1d359d34-1a98-11eb-8417-e6d528ffbca8_a32433285d2f6587fd1c5f2a3b06d546.jpeg",
+                "logo": null
+            },
+            "title": "Falafel Ba'Ribua | Netanya",
+            "name": "Falafel Ba'Ribua | Netanya",
+            "track_id": "venue-falafel-baribua-netanya",
+            "address": "טום לנטוס 26",
+            "venue_id": "5f96ea80fae0a0f04f89597d",
+            "location": [
+                34.869091,
+                32.3069382
+            ],
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-netanya",
+            "tags": [
+                "mediterranean",
+                "falafel",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-baribua-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe476ad5ee24120ce81aeb7/838e1efa-4dd1-11eb-8b22-4a5d5c9bf0b7_list.jpg",
+                "logo": null
+            },
+            "title": "Oasis | Netanya",
+            "name": "Oasis | Netanya",
+            "track_id": "venue-oasis",
+            "address": "גבורי ישראל 22, נתניה",
+            "venue_id": "5fe476ad5ee24120ce81aeb7",
+            "location": [
+                34.8604327,
+                32.279597
+            ],
+            "short_description": "Fresh Yogurt",
+            "slug": "oasis",
+            "tags": [
+                "Health",
+                "smoothie",
+                "dessert"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/oasis"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f9568f90ed06299a67a703a/73b792e8-18ef-11eb-8ef1-22286ab24145_list.jpg",
+                "logo": null
+            },
+            "title": "Go Salad",
+            "name": "Go Salad",
+            "track_id": "venue-go-salad",
+            "address": "Mefi 5",
+            "venue_id": "5f9568f90ed06299a67a703a",
+            "location": [
+                34.8613331,
+                32.2748751
+            ],
+            "short_description": "Refresh Your Day",
+            "slug": "go-salad",
+            "tags": [
+                "poke",
+                "vegan",
+                "vegetarian",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/go-salad"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c1eb6740cc2f824d0b1e1c/ec569f0e-626e-11ec-9880-e6f5e611fd22_88aaf936_ce7c_11eb_90a0_1a07c1d3ecd6_bonfis_9999_328.jpg",
+                "logo": null
+            },
+            "title": "Freshop | Netanya",
+            "name": "Freshop | Netanya",
+            "track_id": "venue-fresh-shop-netanya",
+            "address": "בני ברמן 2, נתניה",
+            "venue_id": "61c1eb6740cc2f824d0b1e1c",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "short_description": "Shakes & Yogurt 100%FRESH",
+            "slug": "fresh-shop-netanya",
+            "tags": [
+                "healthy",
+                "ice cream",
+                "juice"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/fresh-shop-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ff177049fab70bdf768ddad/094bcde6-5360-11ec-9d1a-3ac104daef2f_3db7bb90_138b_11ec_9c90_361173feb07e_zotta_pizza2160.jpeg",
+                "logo": null
+            },
+            "title": "Zota Pizza Kosher | Netanya",
+            "name": "Zota Pizza Kosher | Netanya",
+            "track_id": "venue-zota-pizza-netanya",
+            "address": "שושנה דמארי 10, נתניה",
+            "venue_id": "5ff177049fab70bdf768ddad",
+            "location": [
+                34.8425346,
+                32.2784549
+            ],
+            "short_description": "Amore Italiano - Kosher\n",
+            "slug": "zota-pizza-netanya",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/zota-pizza-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96d499ff3c08ef1ca33bcc/2301ec3a-31a4-11ec-bc5e-561275932094_____.jpg",
+                "logo": null
+            },
+            "title": "Oshi Oshi | Netanya",
+            "name": "Oshi Oshi | Netanya",
+            "track_id": "venue-oshi-oshi-netanya",
+            "address": "Beni Berman St 2",
+            "venue_id": "5f96d499ff3c08ef1ca33bcc",
+            "location": [
+                34.84797358739445,
+                32.278371074911426
+            ],
+            "short_description": "Sushi & Bar\n",
+            "slug": "oshi-oshi-netanya",
+            "tags": [
+                "sushi",
+                "asian",
+                "japanese",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/oshi-oshi-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbb91f8a284c9ce794ee800/f05dd574-84af-11eb-821d-eaefe50cda64_yaelitz_2__3_.jpg",
+                "logo": null
+            },
+            "title": "Burgerman ",
+            "name": "Burgerman ",
+            "track_id": "venue-burgerman",
+            "address": "המחקר 2 נתניה",
+            "venue_id": "5fbb91f8a284c9ce794ee800",
+            "location": [
+                34.8624251,
+                32.2917333
+            ],
+            "short_description": "Your BURGERMAN",
+            "slug": "burgerman",
+            "tags": [
+                "burger",
+                "sandwich"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/burgerman"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6228a904756022eb2bf4d323/d0a8756e-9fab-11ec-9fc6-e223767b3543_a1dfa9fc_51ed_11ec_af2a_a2e14d03f181______2.jpg",
+                "logo": null
+            },
+            "title": "Hamezave | Netanya",
+            "name": "Hamezave | Netanya",
+            "track_id": "venue-hamezave-netanya",
+            "address": "נתן יונתן 12, נתניה",
+            "venue_id": "6228a904756022eb2bf4d323",
+            "location": [
+                34.84092080000001,
+                32.2793608
+            ],
+            "short_description": "A Deli with Passion\n",
+            "slug": "hamezave-netanya",
+            "tags": [
+                "breakfast",
+                "deli",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hamezave-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc33d5c4f0180656b72d67/78d9c0e2-7ea7-11ec-ad0e-e6477edb5ceb______2.jpg",
+                "logo": null
+            },
+            "title": "Happicerie - By Aviv Moshe",
+            "name": "Happicerie - By Aviv Moshe",
+            "track_id": "venue-happicerie-by-aviv-moshe",
+            "address": "שושנה דמארי 10, נתניה",
+            "venue_id": "61dc33d5c4f0180656b72d67",
+            "location": [
+                34.8428024,
+                32.2781012
+            ],
+            "short_description": "Chef Aviv Moshe Food House",
+            "slug": "happicerie-by-aviv-moshe",
+            "tags": [
+                "homemade",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/happicerie-by-aviv-moshe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f95654056a232fb397a6dd7/b7ae7580-1c2c-11eb-abef-02e50efdfe91_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Lilli's",
+            "name": "Lilli's",
+            "track_id": "venue-lillis",
+            "address": "Mafi 5 ",
+            "venue_id": "5f95654056a232fb397a6dd7",
+            "location": [
+                34.86031441862605,
+                32.27494721678521
+            ],
+            "short_description": "French Patisserie",
+            "slug": "lillis",
+            "tags": [
+                "bakery",
+                "bistro",
+                "breakfast",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/lillis"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616545a054acc2d24d02e750/18144418-2b36-11ec-affc-82f91aa9831a_914ae74e_5250_11ea_a0e3_0a58646e9c7a_list.jpeg",
+                "logo": null
+            },
+            "title": "Broaster Chicken | Netanya",
+            "name": "Broaster Chicken | Netanya",
+            "track_id": "venue-broaster-chicken-netanya",
+            "address": "Beni Berman St 2, Netanya",
+            "venue_id": "616545a054acc2d24d02e750",
+            "location": [
+                34.84706759999999,
+                32.27915670000001
+            ],
+            "short_description": "So Crispy",
+            "slug": "broaster-chicken-netanya",
+            "tags": [
+                "chicken",
+                "fried chicken",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/broaster-chicken-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e688d61d38e6bc61be177c/48944a50-784f-11ec-9798-ead509a84244_1039d630_4dce_11ec_8a7a_322583a612be_____.jpg",
+                "logo": null
+            },
+            "title": "Joya Kosher | Netanya",
+            "name": "Joya Kosher | Netanya",
+            "track_id": "venue-joya-netanya",
+            "address": "שושנה דמארי 10, נתניה",
+            "venue_id": "61e688d61d38e6bc61be177c",
+            "location": [
+                34.84229814470676,
+                32.2777286315757
+            ],
+            "short_description": "Kosher Italian Food",
+            "slug": "joya-netanya",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/joya-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6139e109dff33e8bdc81be0f/6cb20dae-1158-11ec-ad16-9648a93ea045_prego_list.jpeg",
+                "logo": null
+            },
+            "title": "Pizza Prego | Netanya Ir Yamim | Kosher",
+            "name": "Pizza Prego | Netanya Ir Yamim | Kosher",
+            "track_id": "venue-pizza-prego-netanya-ir-yamim",
+            "address": "בני ברמן 2, נתניה,",
+            "venue_id": "6139e109dff33e8bdc81be0f",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "short_description": "Pizza, Pasta & Salads\nKosher L'mehadrin",
+            "slug": "pizza-prego-netanya-ir-yamim",
+            "tags": [
+                "italian",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-prego-netanya-ir-yamim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619fa1a822f4b594d5d8eaad/e2a5e1b6-5e7e-11ec-bc29-a6a96f041fee_____.jpg",
+                "logo": null
+            },
+            "title": "La Patata",
+            "name": "La Patata",
+            "track_id": "venue-la-patata",
+            "address": "שושנה דמארי 10 ",
+            "venue_id": "619fa1a822f4b594d5d8eaad",
+            "location": [
+                34.8428024,
+                32.2781012
+            ],
+            "short_description": "A world-wide potato",
+            "slug": "la-patata",
+            "tags": [
+                "vegetarian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/la-patata"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/600832587cce81339b63f4a4/41338c50-65f7-11eb-8f8f-9ee52abd0ea7_list.jpg",
+                "logo": null
+            },
+            "title": "MamaRoni",
+            "name": "MamaRoni",
+            "track_id": "venue-mamaroni",
+            "address": "המלאכה 12, נתניה",
+            "venue_id": "600832587cce81339b63f4a4",
+            "location": [
+                34.858314,
+                32.278557
+            ],
+            "short_description": "Italian, vegan, salads, sandwiches",
+            "slug": "mamaroni",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mamaroni"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606efbc7168b45eab6c5264a/31713796-9869-11eb-a326-e6749ec8d017_shtam_list.jpeg",
+                "logo": null
+            },
+            "title": "Shtampaper | Even Yehuda",
+            "name": "Shtampaper | Even Yehuda",
+            "track_id": "venue-shtampfer-even-yeuda",
+            "address": "המיסדים 62, אבן יהודה",
+            "venue_id": "606efbc7168b45eab6c5264a",
+            "location": [
+                34.8886212,
+                32.2698768
+            ],
+            "short_description": "Since 1998\n",
+            "slug": "shtampfer-even-yeuda",
+            "tags": [
+                "café",
+                "salad",
+                "vegetarian"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/shtampfer-even-yeuda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606c5c3a6cc4c02034e7b7ff/d58bfbba-a055-11eb-adbb-56f319017f3e_list__5_.jpg",
+                "logo": null
+            },
+            "title": "Gutale | Even Yehuda",
+            "name": "Gutale | Even Yehuda",
+            "track_id": "venue-gutale-even-yehuda",
+            "address": "המיסדים 54, אבן יהודה",
+            "venue_id": "606c5c3a6cc4c02034e7b7ff",
+            "location": [
+                34.8897222,
+                32.2697222
+            ],
+            "short_description": "ביסטרו ואיטלקי",
+            "slug": "gutale-even-yehuda",
+            "tags": [
+                "bistro",
+                "café",
+                "coffee"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/gutale-even-yehuda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6239a904278e4caedbbefea0/34f1ca3a-aaa0-11ec-a247-9608c39b6124_____.jpg",
+                "logo": null
+            },
+            "title": "The Deli",
+            "name": "The Deli",
+            "track_id": "venue-the-delisandwich",
+            "address": "המיסדים 63, אבן יהודה",
+            "venue_id": "6239a904278e4caedbbefea0",
+            "location": [
+                34.8872291,
+                32.2695635
+            ],
+            "short_description": "Sandwich Bar",
+            "slug": "the-delisandwich",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "deli"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/the-delisandwich"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61cc2e609f1c1884ce357366/275c8324-688d-11ec-9cef-a29330fe6d56__________.jpeg",
+                "logo": null
+            },
+            "title": "Biga | Soho Netanya",
+            "name": "Biga | Soho Netanya",
+            "track_id": "venue-biga-soho-netanya",
+            "address": "מפ״י 5, נתניה",
+            "venue_id": "61cc2e609f1c1884ce357366",
+            "location": [
+                34.8615882,
+                32.2750288
+            ],
+            "short_description": "Kitchen | Bakery | Cafe",
+            "slug": "biga-soho-netanya",
+            "tags": [
+                "breakfast",
+                "café",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/biga-soho-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6072a2f09783a085bb0def42/9bd17440-931b-11ec-ac03-8ec825e294fa_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Rotisserie Chicken Club | Bnei Dror",
+            "name": "Rotisserie Chicken Club | Bnei Dror",
+            "track_id": "venue-rotisserie-chicken-club-drorim",
+            "address": "הגלבוע 1, דרורים",
+            "venue_id": "6072a2f09783a085bb0def42",
+            "location": [
+                34.8939794,
+                32.2600488
+            ],
+            "short_description": "Juicy Grilled Chicken - Kosher\n",
+            "slug": "rotisserie-chicken-club-drorim",
+            "tags": [
+                "bbq",
+                "chicken",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/rotisserie-chicken-club-drorim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6267de83176462e36e3f3305/af51047c-cba1-11ec-be82-c67dbd7285e5_____.jpg",
+                "logo": null
+            },
+            "title": "Haknafia",
+            "name": "Haknafia",
+            "track_id": "venue-haknafia",
+            "address": "גבורי ישראל 32",
+            "venue_id": "6267de83176462e36e3f3305",
+            "location": [
+                34.8611076,
+                32.2814468
+            ],
+            "short_description": "A Classic Knafeh",
+            "slug": "haknafia",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/haknafia"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625d4d757a18de5be3e5a29e/c895197e-bf0c-11ec-8f66-0a3d68d86da9________________.jpeg",
+                "logo": null
+            },
+            "title": "Soft Cookies | Netanya",
+            "name": "Soft Cookies | Netanya",
+            "track_id": "venue-soft-cookies-netanya",
+            "address": " בני ברמן 2, נתניה",
+            "venue_id": "625d4d757a18de5be3e5a29e",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "short_description": "Cookies 🍪 Crepe 🍪 Ice Cream\n",
+            "slug": "soft-cookies-netanya",
+            "tags": [
+                "crepes",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/soft-cookies-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62246bc179c8847cacd55da6/75737c9a-aea4-11ec-b069-b243e2752206_list.jpg",
+                "logo": null
+            },
+            "title": "Amana Pita Chef",
+            "name": "Amana Pita Chef",
+            "track_id": "venue-amana-food-truck",
+            "address": "HaAtsmaut St 1, Even Yehuda",
+            "venue_id": "62246bc179c8847cacd55da6",
+            "location": [
+                34.889856,
+                32.279823
+            ],
+            "short_description": "Food Truck",
+            "slug": "amana-food-truck",
+            "tags": [
+                "mediterranean",
+                "pita"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/amana-food-truck"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ff1b2b71c160319f6690be5/755a7e04-53ef-11eb-b980-ae2cc2e83c76_054a7627.jpg",
+                "logo": null
+            },
+            "title": "Beef Bar Steakhouse",
+            "name": "Beef Bar Steakhouse",
+            "track_id": "venue-beef-bar-steakhouse",
+            "address": "גאון בני 8, נתניה",
+            "venue_id": "5ff1b2b71c160319f6690be5",
+            "location": [
+                34.8629189,
+                32.2753296
+            ],
+            "short_description": "American Steakhouse",
+            "slug": "beef-bar-steakhouse",
+            "tags": [
+                "kosher",
+                "steakhouse",
+                "kids",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/beef-bar-steakhouse"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62286d2a4290fe220180508c/c7423602-a60b-11ec-957a-c646e9ba3dfd_______.jpg",
+                "logo": null
+            },
+            "title": "Pizza Blanco",
+            "name": "Pizza Blanco",
+            "track_id": "venue-pizza-blanco",
+            "address": "הארז 29, פרדסיה",
+            "venue_id": "62286d2a4290fe220180508c",
+            "location": [
+                34.9078346,
+                32.3063227
+            ],
+            "short_description": "Pizza & Coffee bar express",
+            "slug": "pizza-blanco",
+            "tags": [
+                "italian",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-blanco"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6125ffe265db8845cd0dbf88/df9e2806-0583-11ec-8c08-c6212ea485fc_00__2_.jpg",
+                "logo": null
+            },
+            "title": "Starving | Even Yehuda",
+            "name": "Starving | Even Yehuda",
+            "track_id": "venue-starving-even-yehuda",
+            "address": "Hameyasdim 62 Even Yehuda",
+            "venue_id": "6125ffe265db8845cd0dbf88",
+            "location": [
+                34.88862120000003,
+                32.26987679999998
+            ],
+            "short_description": "Burger Shop",
+            "slug": "starving-even-yehuda",
+            "tags": [
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/starving-even-yehuda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c2f46f0bf98d4d861922f2/4fe6d694-6970-11ec-b794-0a010aa99165_cover.jpg",
+                "logo": null
+            },
+            "title": "Jem's | Piano Netanya",
+            "name": "Jem's | Piano Netanya",
+            "track_id": "venue-jems-piano-netanya",
+            "address": "נתן יונתן 10, נתניה",
+            "venue_id": "61c2f46f0bf98d4d861922f2",
+            "location": [
+                34.840235567692304,
+                32.279565077142685
+            ],
+            "short_description": "Fresh Food & Beer",
+            "slug": "jems-piano-netanya",
+            "tags": [
+                "beer",
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/jems-piano-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6122176c6b6147331eace83d/406e403c-0a3c-11ec-b731-e6640657bafb_________.jpg",
+                "logo": null
+            },
+            "title": "Adadi Meat | Netanya",
+            "name": "Adadi Meat | Netanya",
+            "track_id": "venue-adadi-meat-netanya",
+            "address": "גבורי ישראל 40, נתניה",
+            "venue_id": "6122176c6b6147331eace83d",
+            "location": [
+                34.8616146,
+                32.2833526
+            ],
+            "short_description": "Pita dripping with love",
+            "slug": "adadi-meat-netanya",
+            "tags": [
+                "sandwich",
+                "chicken",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/adadi-meat-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ba08e342da2d4745f33de9/87f436f0-5dbb-11ec-860c-5e7d25ffdeb2_____________.png",
+                "logo": null
+            },
+            "title": "Café Greg | Ir Yamim",
+            "name": "Café Greg | Ir Yamim",
+            "track_id": "venue-caf-greg-ir-yamim",
+            "address": "בני ברמן 2, נתניה",
+            "venue_id": "61ba08e342da2d4745f33de9",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "short_description": "Restaurant & Cafe",
+            "slug": "caf-greg-ir-yamim",
+            "tags": [
+                "breakfast",
+                "café",
+                "italian",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/caf-greg-ir-yamim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606f206bd339154f864e5071/db3647ca-987e-11eb-a1a5-4a1d6b792471_baa216e2_6b83_11eb_81cb_b63bba9fa55e_yaelitz_6_min.jpeg",
+                "logo": null
+            },
+            "title": "Miznon | Bnei Dror",
+            "name": "Miznon | Bnei Dror",
+            "track_id": "venue-miznon-drorim",
+            "address": "הגלבוע 1, דרורים",
+            "venue_id": "606f206bd339154f864e5071",
+            "location": [
+                34.8939968343604,
+                32.26011911317262
+            ],
+            "short_description": "by Chef Eyal Shani\n",
+            "slug": "miznon-drorim",
+            "tags": [
+                "pita",
+                "street food",
+                "mediterranean"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/miznon-drorim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626937592bb96591292e602c/ba89c148-cad0-11ec-a4de-3a6a60f3e203_____.jpg",
+                "logo": null
+            },
+            "title": "Rapidos",
+            "name": "Rapidos",
+            "track_id": "venue-rapidos",
+            "address": "גבורי ישראל 17",
+            "venue_id": "626937592bb96591292e602c",
+            "location": [
+                34.86202000000001,
+                32.2812249
+            ],
+            "short_description": "Happy Mexican Food",
+            "slug": "rapidos",
+            "tags": [
+                "mexican",
+                "street food",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/rapidos"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fb3cadafb5b2fc41d760f95/fb11f9ea-28d5-11eb-acf8-9ef68272814f_85d88654_aa5d_11ea_ab0b_0a58647ac60a_______________1_.jpg",
+                "logo": null
+            },
+            "title": "DEDA | Netanya",
+            "name": "DEDA | Netanya",
+            "track_id": "venue-deda-netanya",
+            "address": "Giborei Israel 5 Netanya",
+            "venue_id": "5fb3cadafb5b2fc41d760f95",
+            "location": [
+                34.86006078282756,
+                32.2754748454228
+            ],
+            "short_description": "Original Georgian Experience",
+            "slug": "deda-netanya",
+            "tags": [
+                "asian",
+                "georgian",
+                "grill"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/deda-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627113ceb28a5d66ab45bd35/5bb9ce92-cad5-11ec-8bf3-2aa7abc9fbad_________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Kfar Yona",
+            "name": "McDonald's® Kfar Yona",
+            "track_id": "venue-mcdonalds-kfar-yona",
+            "address": "העצמאות תחנת דלק סונול, כפר יונה",
+            "venue_id": "627113ceb28a5d66ab45bd35",
+            "location": [
+                34.9264531,
+                32.3214332
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-kfar-yona",
+            "tags": [
+                "burger",
+                "kids",
+                "new"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-kfar-yona"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96efbce365ec5fbfc8a908/c02e985e-08b5-11ec-93fc-7edd10633c29_____.jpg",
+                "logo": null
+            },
+            "title": "Jacko | Netanya",
+            "name": "Jacko | Netanya",
+            "track_id": "venue-jacko-netanya",
+            "address": "גיבורי ישראל 7",
+            "venue_id": "5f96efbce365ec5fbfc8a908",
+            "location": [
+                34.8606089,
+                32.2779707
+            ],
+            "short_description": "Sea food and more",
+            "slug": "jacko-netanya",
+            "tags": [
+                "fish",
+                "kids",
+                "seafood"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/jacko-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96af39e36cc94b9ba30c1f/bbd8504a-177c-11eb-aaf6-d6ccad5a7dae_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald׳s® City Poleg",
+            "name": "McDonald׳s® City Poleg",
+            "track_id": "venue-mcdonalds-city-poleg",
+            "address": "גיבורי ישראל 5 א', א.ת. פולג נתניה",
+            "venue_id": "5f96af39e36cc94b9ba30c1f",
+            "location": [
+                34.8600035,
+                32.2754688
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n\n",
+            "slug": "mcdonalds-city-poleg",
+            "tags": [
+                "burger",
+                "chicken"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-city-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b2ff8252342129a7823c/07386c7a-1780-11eb-91ba-5aa815cefe17_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Piano Kosher",
+            "name": "McDonald's® Piano Kosher",
+            "track_id": "venue-mcdonalds-piano",
+            "address": "דודו דותן 10 נתניה",
+            "venue_id": "5f96b2ff8252342129a7823c",
+            "location": [
+                34.841916,
+                32.2767586
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-piano",
+            "tags": [
+                "kosher",
+                "burger",
+                "chicken",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-piano"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96da649f84432e28f02c12/d53fc732-e3b1-11eb-a0f2-9a86abb12b2a___24.jpg",
+                "logo": null
+            },
+            "title": "Golda | Yachin Center Netanya",
+            "name": "Golda | Yachin Center Netanya",
+            "track_id": "venue-golda-poleg",
+            "address": "Sderot Giborei Israel 17",
+            "venue_id": "5f96da649f84432e28f02c12",
+            "location": [
+                34.86191282039296,
+                32.28121691602362
+            ],
+            "short_description": "Flavour Boutique",
+            "slug": "golda-poleg",
+            "tags": [
+                "ice cream",
+                "ice cream"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/golda-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62137545888a6ae879a0a199/67884cda-9308-11ec-8726-5e61a2386580_5d8566aa_19e7_11eb_9a51_8ae57ad768ac_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel Kushi | Hanevi'im",
+            "name": "Schnitzel Kushi | Hanevi'im",
+            "track_id": "venue-schnitzel-kushi-haneviim",
+            "address": "הנביאים 5, נתניה",
+            "venue_id": "62137545888a6ae879a0a199",
+            "location": [
+                34.8544399,
+                32.2973355
+            ],
+            "short_description": "A unique home-made Schnitzel",
+            "slug": "schnitzel-kushi-haneviim",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-kushi-haneviim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb0efbb1d4b7338e68d0be/8aa8f036-4b72-11eb-b05c-3ef2b473305f_yaelitz_11.jpg",
+                "logo": null
+            },
+            "title": "Schnitzel Musa | Poleg",
+            "name": "Schnitzel Musa | Poleg",
+            "track_id": "venue-schnitzel-musa-poleg",
+            "address": "Sderot Giborei Israel 24 Netanya",
+            "venue_id": "5feb0efbb1d4b7338e68d0be",
+            "location": [
+                34.8606962,
+                32.28024320000001
+            ],
+            "short_description": "Local Schnitzel ",
+            "slug": "schnitzel-musa-poleg",
+            "tags": [
+                "schnitzel",
+                "pita",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-musa-poleg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96b98d85fad2fc22a12a06/a684bb06-1782-11eb-96f1-5aa815cefe17_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald’s® Kiryat HaSharon Kosher",
+            "name": "McDonald’s® Kiryat HaSharon Kosher",
+            "track_id": "venue-mcdonalds-kiryat-hasharon-kosher",
+            "address": "טום לנטוס 26, מרכז אלון נתניה",
+            "venue_id": "5f96b98d85fad2fc22a12a06",
+            "location": [
+                34.8690551,
+                32.3068902
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-kiryat-hasharon-kosher",
+            "tags": [
+                "kosher",
+                "burger",
+                "chicken",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-kiryat-hasharon-kosher"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60912d87fee4115ccac3f4ca/dda9f8ac-e3b1-11eb-a176-9a86abb12b2a___24.jpg",
+                "logo": null
+            },
+            "title": "Golda | Cinema City Netanya",
+            "name": "Golda | Cinema City Netanya",
+            "track_id": "venue-golda-cinema-city-netanya",
+            "address": "המחקר 3, נתניה",
+            "venue_id": "60912d87fee4115ccac3f4ca",
+            "location": [
+                34.8628369,
+                32.2913673
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-cinema-city-netanya",
+            "tags": [
+                "ice cream",
+                "snacks"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/golda-cinema-city-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622f4d3408d6ec9846861671/d3c355d6-a3a0-11ec-a4ec-764bd89641b1_977cd486_9d3c_11ec_a267_8abf31d8502e_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Beit Razon | Gibori Israel",
+            "name": "Shawarma Beit Razon | Gibori Israel",
+            "track_id": "venue-shawarma-beit-razon-gibori-israel",
+            "address": "גבורי ישראל 40, נתניה",
+            "venue_id": "622f4d3408d6ec9846861671",
+            "location": [
+                34.8616146,
+                32.2833526
+            ],
+            "short_description": "Israeli Grill",
+            "slug": "shawarma-beit-razon-gibori-israel",
+            "tags": [
+                "grill",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/shawarma-beit-razon-gibori-israel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f969dbf8078e837b9efe2d7/3b259784-1b7b-11eb-aa97-f28276e6d7b6_img_3726.jpg",
+                "logo": null
+            },
+            "title": "Ronen Meats | Agam Kinneret",
+            "name": "Ronen Meats | Agam Kinneret",
+            "track_id": "venue-ronen-meats-agam-kinneret",
+            "address": "Agam Kinneret 6",
+            "venue_id": "5f969dbf8078e837b9efe2d7",
+            "location": [
+                34.85082884398485,
+                32.29048393457686
+            ],
+            "short_description": "From The butcher to the Plate",
+            "slug": "ronen-meats-agam-kinneret",
+            "tags": [
+                "shawarma",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/ronen-meats-agam-kinneret"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611ba45a2864146fcaa60d13/91f52e10-ff52-11eb-9118-9283fd30935d_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Cinema City Netanya",
+            "name": "McDonald's® Cinema City Netanya",
+            "track_id": "venue-mcdonalds-cinema-city-netanya",
+            "address": "המחקר 3, נתניה",
+            "venue_id": "611ba45a2864146fcaa60d13",
+            "location": [
+                34.8628369,
+                32.2913673
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-cinema-city-netanya",
+            "tags": [
+                "burger"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-cinema-city-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6220b7bf2c87ab4acc3d483e/8ad3939e-9af5-11ec-bea0-dab339ef2bed_bedd23b4_569c_11ec_b451_96ddc4ce4a7b_shutterstock_794449822.jpg",
+                "logo": null
+            },
+            "title": "Falafel Netanya | Soho",
+            "name": "Falafel Netanya | Soho",
+            "track_id": "venue-falafel-netanya-soho",
+            "address": " מפי 3, נתניה",
+            "venue_id": "6220b7bf2c87ab4acc3d483e",
+            "location": [
+                34.8606766,
+                32.2750398
+            ],
+            "short_description": "Fresh and Tasty Food",
+            "slug": "falafel-netanya-soho",
+            "tags": [
+                "mediterranean",
+                "falafel",
+                "kosher"
+            ],
+            "score": 6.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-netanya-soho"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60c0b22e33b81117cf96ccb7/5a805056-c91d-11eb-a422-3a750086fe0e_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Pardesiya",
+            "name": "McDonald's® Pardesiya",
+            "track_id": "venue-mcdonalds-pardesiya",
+            "address": "שדרות הנשיא 1 פרדסיה",
+            "venue_id": "60c0b22e33b81117cf96ccb7",
+            "location": [
+                34.9035132,
+                32.3043491
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-pardesiya",
+            "tags": [
+                "burger",
+                "chicken"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/mcdonalds-pardesiya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fcf44f758a3b43683352919/c7d25de2-3936-11eb-b8ac-0a6d6492baf1_list_landwer.jpg",
+                "logo": null
+            },
+            "title": "Landwer | Kiryat Ha-Sharon Netanya",
+            "name": "Landwer | Kiryat Ha-Sharon Netanya",
+            "track_id": "venue-landwer-kiryat-ha-sharon",
+            "address": "שדרות טום לנטוס 26, נתניה",
+            "venue_id": "5fcf44f758a3b43683352919",
+            "location": [
+                34.869091,
+                32.3069382
+            ],
+            "short_description": "Coffee & Good Food\n",
+            "slug": "landwer-kiryat-ha-sharon",
+            "tags": [
+                "café",
+                "bistro",
+                "kids",
+                "landwer"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/landwer-kiryat-ha-sharon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b90ddfd0a08d03b75e10d/79099eb2-d1d0-11ec-9261-f21bad03965e_d587cf56_65f7_11eb_9285_bef03b94dfec_list__1_.jpg",
+                "logo": null
+            },
+            "title": "Crazy Pizza | Nehama",
+            "name": "Crazy Pizza | Nehama",
+            "track_id": "venue-crazy-pizza-netanyaa",
+            "address": "וינר נחמה 9 ",
+            "venue_id": "627b90ddfd0a08d03b75e10d",
+            "location": [
+                34.8535964,
+                32.2944615
+            ],
+            "short_description": "Italian Local Pizzeria\n",
+            "slug": "crazy-pizza-netanyaa",
+            "tags": [
+                "italian",
+                "pizza",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/crazy-pizza-netanyaa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607e9222e114bb5f08458c0d/8fb6122e-a1b3-11eb-87dd-6655d671faaa_43c71a5c4036f626c0b27f74b599a870.jpeg",
+                "logo": null
+            },
+            "title": "Falafel Ba'Ribua | Even Yehuda",
+            "name": "Falafel Ba'Ribua | Even Yehuda",
+            "track_id": "venue-falafel-baribua-even-yehuda",
+            "address": "המייסדים 62, אבן יהודה",
+            "venue_id": "607e9222e114bb5f08458c0d",
+            "location": [
+                34.8886212,
+                32.2698768
+            ],
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-even-yehuda",
+            "tags": [
+                "local",
+                "mediterranean"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/falafel-baribua-even-yehuda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd20ce5d8a6dd4c3f020d51/a823b5ac-4a7c-11eb-ab4c-72eea33a1745_054a2906.jpg",
+                "logo": null
+            },
+            "title": "Benji's",
+            "name": "Benji's",
+            "track_id": "venue-benjis",
+            "address": "שד בנימין 3, נתניה",
+            "venue_id": "5fd20ce5d8a6dd4c3f020d51",
+            "location": [
+                34.8583525,
+                32.327844
+            ],
+            "short_description": "Meat and Beer by Benji",
+            "slug": "benjis",
+            "tags": [
+                "beer",
+                "kosher",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/benjis"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61fbb1725374fcf86bd337bc/cfed0d98-8731-11ec-8f9c-626fbd67cb58______2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Rose",
+            "name": "Pizza Rose",
+            "track_id": "venue-pizza-rose",
+            "address": "שמואל הנציב 58, נתניה",
+            "venue_id": "61fbb1725374fcf86bd337bc",
+            "location": [
+                34.8567706,
+                32.3344452
+            ],
+            "short_description": "Boutique Pizza",
+            "slug": "pizza-rose",
+            "tags": [
+                "pasta",
+                "pizza",
+                "italian"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-rose"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603766887ddf14769a82c192/e55e058e-84ac-11eb-9248-eaefe50cda64_yaelitz_9__2_.jpg",
+                "logo": null
+            },
+            "title": "Hilat Ha'Baguette",
+            "name": "Hilat Ha'Baguette",
+            "track_id": "venue-hilat-habaguette",
+            "address": "פנקס 14, נתניה",
+            "venue_id": "603766887ddf14769a82c192",
+            "location": [
+                34.8742446,
+                32.3211764
+            ],
+            "short_description": "Sandwiches | Bar | Restaurant",
+            "slug": "hilat-habaguette",
+            "tags": [
+                "sandwich",
+                "street food",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/hilat-habaguette"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61bf2f2ad38ef1297f3c2e9d/ea9e4f56-6659-11ec-8fd4-121ec287a532_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Na Nah Cafe",
+            "name": "Na Nah Cafe",
+            "track_id": "venue-na-nah-cafe",
+            "address": "גורדון 3, נתניה",
+            "venue_id": "61bf2f2ad38ef1297f3c2e9d",
+            "location": [
+                34.85759455780153,
+                32.3292050164832
+            ],
+            "short_description": "Great local food",
+            "slug": "na-nah-cafe",
+            "tags": [
+                "breakfast",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/na-nah-cafe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbe49e31d2ca9437a1bfbfd/9633d8d0-3001-11eb-8d96-ba6ced6cc1dc_____________1_.jpg",
+                "logo": null
+            },
+            "title": "Cafe Gilda ",
+            "name": "Cafe Gilda ",
+            "track_id": "venue-cafe-gilda",
+            "address": "כיכר העצמאות 12 נתניה",
+            "venue_id": "5fbe49e31d2ca9437a1bfbfd",
+            "location": [
+                34.8518379,
+                32.3300096
+            ],
+            "short_description": "Coffee Shop",
+            "slug": "cafe-gilda",
+            "tags": [
+                "café",
+                "dessert",
+                "juice",
+                "kosher"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/cafe-gilda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fb22c919ff3ebda063eb77b/789cd4d6-27df-11eb-b70b-322077c410fc___________.jpeg",
+                "logo": null
+            },
+            "title": "Aroma | HaSharon Mall",
+            "name": "Aroma | HaSharon Mall",
+            "track_id": "venue-aroma-hasharon-mall",
+            "address": "הרצל 60, נתניה",
+            "venue_id": "5fb22c919ff3ebda063eb77b",
+            "location": [
+                34.8618993,
+                32.3264108
+            ],
+            "short_description": "Espresso Bar\n",
+            "slug": "aroma-hasharon-mall",
+            "tags": [
+                "café",
+                "sandwich",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/aroma-hasharon-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ae1b1f6bc6c4a00d96ab47/4041ee42-5753-11ec-af7f-42179fc5379f_yaelitz_5.jpg",
+                "logo": null
+            },
+            "title": "Texas Burger House",
+            "name": "Texas Burger House",
+            "track_id": "venue-texas-bbq-house",
+            "address": "אמרי יוסף 4, נתניה",
+            "venue_id": "61ae1b1f6bc6c4a00d96ab47",
+            "location": [
+                34.8636805,
+                32.3302078
+            ],
+            "short_description": "The wild west",
+            "slug": "texas-bbq-house",
+            "tags": [
+                "kosher",
+                "street food",
+                "burger",
+                "kosher"
+            ],
+            "score": 6.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/texas-bbq-house"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625c1fdb5ba6f69c3a084297/00421462-be59-11ec-b26b-062fd0f4cc94_c86d8080_242f_11ec_b3c6_de5e83132e93_kushilist.jpeg",
+                "logo": null
+            },
+            "title": "Schnitzel Kushi | Pinkas",
+            "name": "Schnitzel Kushi | Pinkas",
+            "track_id": "venue-schnitzel-kushi-pinkas",
+            "address": "פנקס 22, נתניה",
+            "venue_id": "625c1fdb5ba6f69c3a084297",
+            "location": [
+                34.8739723011396,
+                32.319305652762765
+            ],
+            "short_description": "A unique home-made Schnitzel",
+            "slug": "schnitzel-kushi-pinkas",
+            "tags": [
+                "sandwich",
+                "street food",
+                "mediterranean",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-kushi-pinkas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62389d6369ea90a74ac4dfeb/252b0c34-d5f1-11ec-a590-12de9de24695_____.jpg",
+                "logo": null
+            },
+            "title": "Jony Forno",
+            "name": "Jony Forno",
+            "track_id": "venue-jony-forno",
+            "address": "גד מכנס 2, נתניה",
+            "venue_id": "62389d6369ea90a74ac4dfeb",
+            "location": [
+                34.8498919,
+                32.330248
+            ],
+            "short_description": "Let's Have a Party",
+            "slug": "jony-forno",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "new"
+            ],
+            "score": 6.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/jony-forno"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f8fdc3d3333237a61146a89/56ad9b8e-19df-11eb-b228-0ed848367b1f_1.jpg",
+                "logo": null
+            },
+            "title": "Goons",
+            "name": "Goons",
+            "track_id": "venue-goons-netanya",
+            "address": "כיכר העצמאות 8, נתניה",
+            "venue_id": "5f8fdc3d3333237a61146a89",
+            "location": [
+                34.8512856,
+                32.3299657
+            ],
+            "short_description": "Goons Pizza & Beer",
+            "slug": "goons-netanya",
+            "tags": [
+                "pizza",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/goons-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6072d543c88e13312a0e14e3/4c4f3476-a5db-11eb-aaac-b2631ef297ef_list2.jpg",
+                "logo": null
+            },
+            "title": "The Little Sister Pizza | Even Yehuda",
+            "name": "The Little Sister Pizza | Even Yehuda",
+            "track_id": "venue-the-little-sister-pizza",
+            "address": "המיסדים 62, אבן יהודה",
+            "venue_id": "6072d543c88e13312a0e14e3",
+            "location": [
+                34.8886212,
+                32.2698768
+            ],
+            "short_description": "Pizza Boutique 🍕",
+            "slug": "the-little-sister-pizza",
+            "tags": [
+                "italian",
+                "kids",
+                "pasta"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/the-little-sister-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe0799fa162577350b2ea4f/e2cb4004-5895-11eb-a079-02c5b8d1f8d8_yaelitz__1_.jpg",
+                "logo": null
+            },
+            "title": "Za'afran",
+            "name": "Za'afran",
+            "track_id": "venue-zaafran-netanya",
+            "address": "גבורי ישראל 5, נתניה",
+            "venue_id": "5fe0799fa162577350b2ea4f",
+            "location": [
+                34.8600035,
+                32.2754688
+            ],
+            "short_description": "Real Home Cooking",
+            "slug": "zaafran-netanya",
+            "tags": [
+                "salad",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/zaafran-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612f2735569df26fb9acda29/3c34c90a-1b99-11ec-ae91-be2598e9bc69_yaelitz_3.jpg",
+                "logo": null
+            },
+            "title": "B-12 | Netanya",
+            "name": "B-12 | Netanya",
+            "track_id": "venue-b-12-netanya",
+            "address": "גבורי ישראל 22, נתניה",
+            "venue_id": "612f2735569df26fb9acda29",
+            "location": [
+                34.8604327,
+                32.279597
+            ],
+            "short_description": "Poleg Meat Station",
+            "slug": "b-12-netanya",
+            "tags": [
+                "burger",
+                "pita"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/b-12-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606c58d5ce779700346563d3/1fee7768-a5ca-11eb-a3eb-febad8c58d08_list2.jpg",
+                "logo": null
+            },
+            "title": "Amigos Pizza",
+            "name": "Amigos Pizza",
+            "track_id": "venue-amigos-pizza",
+            "address": "הרימון 1, אודים",
+            "venue_id": "606c58d5ce779700346563d3",
+            "location": [
+                34.8461602,
+                32.2667538
+            ],
+            "short_description": "Pizza | Bar | Siesta",
+            "slug": "amigos-pizza",
+            "tags": [
+                "pizza",
+                "mexican"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/amigos-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e427d500d94511b17854c7/a5242428-829c-11ec-8e8d-c6f9ff070ed2_list.jpg",
+                "logo": null
+            },
+            "title": "Art Street",
+            "name": "Art Street",
+            "track_id": "venue-art-street",
+            "address": " האומנות 6, נתניה",
+            "venue_id": "61e427d500d94511b17854c7",
+            "location": [
+                34.8596217,
+                32.2781497
+            ],
+            "short_description": "Art Lovers",
+            "slug": "art-street",
+            "tags": [
+                "café",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/art-street"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60e6bd3cfd3b599819084f49/eafaf9da-eedc-11eb-8e21-e63b3395abdb_list4.jpg",
+                "logo": null
+            },
+            "title": "Izik Bar",
+            "name": "Izik Bar",
+            "track_id": "venue-izik-bar",
+            "address": " האלה 27, אבן יהודה",
+            "venue_id": "60e6bd3cfd3b599819084f49",
+            "location": [
+                34.892546,
+                32.2788007
+            ],
+            "short_description": "Food & Bar",
+            "slug": "izik-bar",
+            "tags": [
+                "burger",
+                "dessert",
+                "pizza"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/izik-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b743072faba33ffddf1e9/12881c6a-df48-11ec-8032-ee5bfd1b5c19_list_copy.jpg",
+                "logo": null
+            },
+            "title": "Pizza Bella | Kfar Yona",
+            "name": "Pizza Bella | Kfar Yona",
+            "track_id": "venue-pizza-bella-kfar-yona",
+            "address": "גבעתי 31, כפר יונה",
+            "venue_id": "627b743072faba33ffddf1e9",
+            "location": [
+                34.9228369,
+                32.3156278
+            ],
+            "short_description": "Italian pizza baked on a stone",
+            "slug": "pizza-bella-kfar-yona",
+            "tags": [
+                "italian",
+                "pizza",
+                "pasta",
+                "new"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/pizza-bella-kfar-yona"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61597d1b0a01a37e7815a984/c86d8080-242f-11ec-b3c6-de5e83132e93_kushilist.jpeg",
+                "logo": null
+            },
+            "title": "Schnitzel Kushi | Neot Ganim",
+            "name": "Schnitzel Kushi | Neot Ganim",
+            "track_id": "venue-schnitzel-kushi-neot-ganim",
+            "address": "ויתקין 53, נתניה",
+            "venue_id": "61597d1b0a01a37e7815a984",
+            "location": [
+                34.8853671,
+                32.31600710000001
+            ],
+            "short_description": "A unique home-made Schnitzel",
+            "slug": "schnitzel-kushi-neot-ganim",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/schnitzel-kushi-neot-ganim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96d3834814b24685a14113/916c93aa-6958-11ec-adbc-02936c2b7249_cover.jpg",
+                "logo": null
+            },
+            "title": "Jem's | Kiryat HaSharon Netanya",
+            "name": "Jem's | Kiryat HaSharon Netanya",
+            "track_id": "venue-jems-netanya",
+            "address": "טום לנטוס 60, נתניה",
+            "venue_id": "5f96d3834814b24685a14113",
+            "location": [
+                34.8687309,
+                32.2958394
+            ],
+            "short_description": "Fresh Food & Beer\n",
+            "slug": "jems-netanya",
+            "tags": [
+                "european",
+                "beer",
+                "panini",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/jems-netanya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d86eba2b7089a2543c171f/34424c4e-d743-11eb-a474-723e3041caf9____________.jpeg",
+                "logo": null
+            },
+            "title": "Landwer | SOHO Netanya",
+            "name": "Landwer | SOHO Netanya",
+            "track_id": "venue-landwer-soho-netanya",
+            "address": "מפי 5, נתניה",
+            "venue_id": "60d86eba2b7089a2543c171f",
+            "location": [
+                34.8613331,
+                32.2748751
+            ],
+            "short_description": "Coffee & Good Food\n",
+            "slug": "landwer-soho-netanya",
+            "tags": [
+                "bistro",
+                "café",
+                "italian",
+                "landwer"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/netanya/venue/landwer-soho-netanya"
+            },
+            "provider": "wolt"
+        }
+    ]
+}

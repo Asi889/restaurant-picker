@@ -31,7 +31,7 @@ const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType
 
 
   const seoObj = {
-    title: 'הזמנת אוכל רנודומלית | Whats for dinner',
+    title: 'הזמנת אוכל רנדומלית | Whats for dinner',
     description: 'מתלבטים מה להזמין בוולט או תן ביס? הגרילו ארוחה להזמנה',
     openGraph: {
       type: 'website',
@@ -51,13 +51,25 @@ export default connect()(Home);
 
 
 export async function getServerSideProps(context:GetServerSidePropsContext) {
-  const { FRONT_URL } = process.env;
   const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'tel-aviv' ;
-
-  const { data: allRestaurants } = await axios.post(`${FRONT_URL}/api/fetch-restaurant`, {
-    cityName
-  });
-
+  let allRestaurants ={
+    city: {
+      name: cityName,
+  },
+  woltData: [],
+  tenBisData: [],
+  };
+  try {
+    const { data } = await axios.post(`${process.env.FRONT_URL}/api/fetch-restaurant`, {
+      cityName
+    });
+    allRestaurants = data
+    console.log(data);
+  } catch(error){
+    console.log(error);
+    
+  }
+  
   return {
     props: {
       allRestaurants,

@@ -13,6 +13,7 @@ import WoltLogo from "../svgs/WoltLogo";
 import DessertIcon from "../svgs/filterFoodTypes/DessertIcon";
 import { filterByCategoryTypes } from "../../src/hooks/filterByCategoryTypes";
 import { filterProviderType } from "../../src/hooks/filterProviderType";
+import { resetFilters } from "../../src/hooks/resetFilters";
 
 
 const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
@@ -22,14 +23,14 @@ const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
   return (
     <div className="bg-white text-purple-dark">
       <div className="flex justify-between items-start">
-        <a href="" className="">
+        <button onClick={()=>resetFilters()} className="">
           <FiltertIcon
 
             pathClass="fill-black cursor-pointer"
             givenclass="w-11 h-11 "
           />
           <h3 className="text-sm">איפוס</h3>
-        </a>
+        </button>
         <h2 className="font-thin underline px-2 text-lg">סינון</h2>
         <button onClick={closeModal}>
           <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
@@ -38,12 +39,12 @@ const FilterFoodType = ({closeModal} :{closeModal:()=>void}) => {
         </button>
       </div>
       <div className="flex gap-x-4 mt-4 items-end">
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} 
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-center  p-3 rounded-lg ${filterTypes.tenbisRestaurants ? "bg-slate-100" : ""} `} 
         onClick={() => filterProviderType('tenbisRestaurants')}>
           <TenBisLogo />
           <h3 className="mt-auto">תן ביס</h3>
         </button>
-        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-stretch  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} 
+        <button className={`transition h-28 justify-center text-center w-28 flex flex-col items-center  p-3 rounded-lg ${filterTypes.woltRestaurants ? "bg-slate-100" : ""}`} 
         onClick={() => filterProviderType('woltRestaurants')} >
           <WoltLogo />
           <h3 className="mt-auto">וולט</h3>

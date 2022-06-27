@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { woltCities } from '../../backend/data/ListOfCities';
+import { woltCities } from '../../src/types/ListOfCities';
 import { scrapeRestaurants } from '../../backend/fetchRestaurant';
 
 
