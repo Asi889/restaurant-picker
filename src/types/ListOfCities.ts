@@ -84,7 +84,7 @@ export const woltCities = [
     {
         name: "Petah Tikva - Bik’at Ono",
         slug: "petachtikva",
-        label: 'פתח תקווה - ביקת אונו',
+        label: 'פתח תקווה - ביקעת אונו',
         location: {
             lat: 32.084041,
             lon: 34.887762,

@@ -14,7 +14,6 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
   const store = useStore();
   const state = store.getState() as StateProp
 
-  // debugger
   const changeLocation = async (cityName:string) => {
     store.dispatch(setCurrentCity(cityName));
     setTimeout(closeModal, 150);
@@ -27,9 +26,33 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
       woltRestaurants: allRestaurants?.woltData,
       both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
     }));
-    // let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
-    // store.dispatch(setFiftyRestaurants(maxed))
-    // store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+    let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
+    store.dispatch(setFiftyRestaurants(maxed))
+    store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+  }
+
+  const setUserLocation = async () => {
+    console.log('x');
+    
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(async (position) => {
+        console.log(position);
+        
+        const { data: city } = await axios.post(`/api/fetch-city`, {
+          lat: position.coords.latitude,
+          lng: position.coords.longitude
+        });
+        // changeLocation(city.name);
+      }),()=>{
+        console.log('error');
+        
+        // TODO: add eror
+      }
+    } else{
+        // TODO: add eror
+        console.log('error');
+
+    }
   }
 
   return (
@@ -43,7 +66,9 @@ const LocationModal = ({closeModal} :{closeModal:()=>void}) => {
           </svg>
         </button>
       </div>
-      <button className={`grid place-content-center text-center w-full mt-6 bg-slate-50 rounded py-1`}>
+      <button
+      onClick={setUserLocation}
+      className={`grid place-content-center text-center w-full mt-6 bg-slate-50 rounded py-1`}>
         <LocationIcon givenclass="w-12 mx-auto" />
         <div className="font-bold">השתמש במיקום הנוכחי שלי</div>
         <div className="font-thin px-1 text-sm">

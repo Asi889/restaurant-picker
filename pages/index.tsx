@@ -51,7 +51,7 @@ export default connect()(Home);
 
 
 export async function getServerSideProps(context:GetServerSidePropsContext) {
-  const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'tel-aviv' ;
+  const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'telaviv' ;
   let allRestaurants ={
     city: {
       name: cityName,

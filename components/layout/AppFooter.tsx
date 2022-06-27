@@ -17,7 +17,7 @@ const AppFooter = () => {
        <nav className="font-thin text-center ">
        <span>Developer: <a href="https://asimarom.com/" rel="noopener noreferrer">Asaf Marom</a></span>
        <span>&nbsp;|&nbsp;</span>
-       <span>UI/UX&DB: <a href="https://naamanfrenkel.dev/" rel="noopener noreferrer">Nemo Frenkel</a></span>
+       <span>UI/UX&DB: <a href="https://twitter.com/nafrenkel/" rel="noopener noreferrer">Nemo Frenkel</a></span>
        </nav>
 
       </div>
