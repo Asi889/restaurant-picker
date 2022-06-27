@@ -13,7 +13,7 @@ class MyDocument extends Document {
     return (
       <Html dir="rtl" lang="he">
         <Head>
-        <meta property="og:image" content="https://res.cloudinary.com/nemo-frenkel/image/upload/v1656309907/whats4dinner_zp9d4i.jpg" />
+        <meta property="og:image" content="https://res.cloudinary.com/nemo-frenkel/image/upload/v1656311538/whats4dinner_sw5jnz.jpg" />
           <GoogleAnalytics />
           <Favicon />
         </Head>
