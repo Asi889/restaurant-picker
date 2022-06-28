@@ -40,7 +40,7 @@ export const setFiftyRestaurants = (restaurants: RestaurantType[] ) => {
     payload: restaurants,
   };
 };
-export const setUserLatLon = (payload:{latitude:number, longitude:number}) => {
+export const setUserLatLon = (payload:{latitude:number | null, longitude:number | null}) => {
   return {
     type: ActionTypes.SET_USER_LAT_LON,
     payload

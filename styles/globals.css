@@ -14,7 +14,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 .slot-container .front-spin{
-  bottom: 1.8%;
+  bottom: 132px;
 }
 @media (max-width: 768px) {
   
@@ -62,7 +62,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 
 .front-spin{
   transition-duration: 2000ms;
-  transition-timing-function: ease-out;
+  transition-timing-function: cubic-bezier(0.01, 0.14, 0.1, 1.15);
   bottom: 150px;
 }
 

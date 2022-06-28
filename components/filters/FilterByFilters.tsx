@@ -10,6 +10,8 @@ const FilterByFilters = () => {
 
   return (
     <>
+        <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מתקדם (מאיפה להזמין וסוג האוכל):</h3>
+
       <button
         className="flex h-12 relative w-full"
         type="button"

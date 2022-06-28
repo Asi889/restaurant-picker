@@ -10,6 +10,8 @@ type Props = {
 
 };
 
+const NO_LOGO = 'https://d25t2285lxl5rf.cloudfront.net/images/shops/34465.jpeg'
+
 const SelectedAndTop: React.FC<Props> = (props) => {
 
   const { index } = props;
@@ -17,13 +19,13 @@ const SelectedAndTop: React.FC<Props> = (props) => {
   const stat = store.getState() as StateProp
 
   return (
-    <div className={`grid gap-y-12  -top-[227px]`} >
+    <div className={`grid gap-y-2 `} >
       <div className={` rounded-full text-center relative img-wrapper w-[200px] h-[120px]`} key={index}>
-        {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
+        {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo && NO_LOGO !==stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
           ?
           <img
             src={stat?.restaurants.fiftyRestaurants[index]?.photo.logo ?? ''}
-            alt="Picture of the author"
+            alt={stat?.restaurants.fiftyRestaurants[index]?.name}
             className="w-[150px] h-[150px] rounded-full mx-auto"
             
           />
@@ -35,19 +37,17 @@ const SelectedAndTop: React.FC<Props> = (props) => {
 
       </div >
       <div className=" text-center relative img-wrapper  w-[200px] h-[120px]">
-        {!stat?.restaurants.selectedRestaurant?.photo?.logo
-
+        {stat?.restaurants.selectedRestaurant?.photo?.logo && NO_LOGO !== stat?.restaurants.selectedRestaurant?.photo?.logo
           ?
-          <h2 className={`slot-macihne-text leading-7 bg-purple text-center my-4 grid items-center relative text-white alfa text-2xl w-full h-full`}>
-            {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
-          </h2>
-          :
             <img
-              src={stat?.restaurants.selectedRestaurant?.photo.logo}
+              src={stat?.restaurants.selectedRestaurant?.photo.logo ?? ''}
               alt=""
               className="w-[150px] h-[150px] rounded-full mx-auto"
             />
-
+          :
+          <h2 className={`slot-macihne-text leading-7 bg-purple text-center my-4 grid items-center relative text-white alfa text-2xl w-full h-full rounded-lg `}>
+            {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
+          </h2>
         }
 
       </div>

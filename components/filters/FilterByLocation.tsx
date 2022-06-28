@@ -11,7 +11,7 @@ import { useSelector } from "react-redux";
 
 const FilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
-  const cityStore = useSelector((state: StateProp) => state.restaurants.location.city)
+  const lcoationState = useSelector((state: StateProp) => state.restaurants.location)
 
   function closeModal() {
     setIsOpen(false);
@@ -22,12 +22,18 @@ const FilterByLocation = () => {
   }
   const [city,setCity] = useState('Tel Aviv');
   useEffect(() => {
-    const cityObj = woltCities.find(city => city.slug === cityStore);
+    if( lcoationState.latitude && lcoationState.longitude){
+      setCity('מסעדות מהמיקום הנוכחי שלך');
+
+      return
+    }
+    const cityObj = woltCities.find(city => city.slug === lcoationState.city);
     setCity(cityObj?.name ?? 'Tel Aviv');
-  }, [cityStore])
+  }, [lcoationState])
   
   return (
     <>
+        <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מסעדות מאזור:</h3>
       <button className="flex h-12 relative w-full cursor-auto"
         type="button"
         onClick={openModal}
