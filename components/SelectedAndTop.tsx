@@ -18,34 +18,34 @@ const SelectedAndTop: React.FC<Props> = (props) => {
 
   return (
     <div className={`grid gap-y-12  -top-[227px]`} >
-      <div className={` rounded-full text-center relative img-wrapper `} key={index}>
+      <div className={` rounded-full text-center relative img-wrapper w-[200px] h-[120px]`} key={index}>
         {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
           ?
           <img
             src={stat?.restaurants.fiftyRestaurants[index]?.photo.logo ?? ''}
             alt="Picture of the author"
-            className="w-[200px] h-[200px] rounded-full mx-auto"
+            className="w-[150px] h-[150px] rounded-full mx-auto"
             
           />
           :
-          <div className="font-bold text-base bg-purple  text-center my-4 grid items-center text-white w-[200px] h-[200px]">
+          <h2 className="font-bold  bg-purple  text-center my-4 grid items-center text-white w-full h-full alfa text-2xl">
             {splitAndTrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
-          </div>
+          </h2>
         }
 
-      </div>
-      <div className=" text-center relative img-wrapper ">
+      </div >
+      <div className=" text-center relative img-wrapper  w-[200px] h-[120px]">
         {!stat?.restaurants.selectedRestaurant?.photo?.logo
 
           ?
-          <div className={`slot-macihne-text leading-4 text-base bg-purple text-center my-4 grid items-center relative text-white w-[200px] h-[200px] pb-[20px]`}>
+          <h2 className={`slot-macihne-text leading-7 bg-purple text-center my-4 grid items-center relative text-white alfa text-2xl w-full h-full`}>
             {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
-          </div>
+          </h2>
           :
             <img
               src={stat?.restaurants.selectedRestaurant?.photo.logo}
               alt=""
-              className="w-[200px] h-[200px] rounded-full mx-auto"
+              className="w-[150px] h-[150px] rounded-full mx-auto"
             />
 
         }

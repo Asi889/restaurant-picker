@@ -23,12 +23,12 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
     );
 
     let selectedDeviceCheck= (restaurant: FetchRestaurantType | any)=>{
-      // if(isAndroid){
-      //   return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`
-      // }
-      // if(isIOS){
-      //   return "https://apps.apple.com/isr/app/instagram/id196859368"
-      // }
+      if(isAndroid){
+        return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "co.il.10bis.android;end"}`
+      }
+      if(isIOS){
+        return restaurant?.link?.url
+      }
       return restaurant?.link?.url
     }
     

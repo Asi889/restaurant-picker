@@ -5,6 +5,11 @@
   width: 47px;
   margin-top: 25px;
 }
+@media (max-width: 320px) {
+  #slot-trigger {
+    height: 69px;
+  }
+}
 
 #slot-trigger div {
   position: absolute;

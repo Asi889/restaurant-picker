@@ -34,19 +34,19 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
                 
                     (restaurant: RestaurantType, index: number) => {
                         return (
-                          <div className={` rounded-full text-center relative img-wrapper `} key={index}>
+                          <div className={` rounded-full text-center relative img-wrapper w-[220px] h-[200px]`} key={index}>
                             {restaurant?.photo?.logo
                              ? 
                              <img
                              src={restaurant?.photo?.logo }
                              alt="alt"
-                            className="w-[200px] h-[200px] rounded-full mx-auto"
+                            className="w-[150px] h-[150px] rounded-full mx-auto"
                            />
                          
                             : 
-                            <div className="slot-macihne-text leading-4 w-[200px] h-[200px] text-base bg-purple  text-center grid items-center relative my-4 text-white">
+                            <h2 className="slot-macihne-text leading-7 w-full h-full bg-purple px-1text-center grid items-center relative my-4 text-white alfa text-2xl">
                               {splitAndTrim(restaurant?.title)}
-                            </div>
+                            </h2>
                             }
                                     
                           </div>
