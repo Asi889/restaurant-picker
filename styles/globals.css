@@ -20,10 +20,15 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   
   .bbotom{bottom: 89.2%;}
   
+  
 }
 @media (min-width: 768px) {
   
   .bbotom{bottom: 91.2%;}
+  .small-mobile-height{
+    max-width: 476px;
+    height: 205px;
+  }
  
   
 }
@@ -36,6 +41,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   .small-mobile-height{
     height: 100px;
     width: 180px;
+   
   }
   #slot-trigger{
     height: 69px;

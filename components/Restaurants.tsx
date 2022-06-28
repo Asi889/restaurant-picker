@@ -5,6 +5,7 @@ import { checkFilters, vibrate } from "../src/utils";
 import LeftRing from "./LeftRing";
 import Slot from "./Slot";
 import SlotArm from "./SlotArm";
+import RightTtriangle from "./svgs/RightTtriangle";
 import Triangle from "./svgs/Triangle";
 
 type Props = {
@@ -49,18 +50,19 @@ const Restaurants: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className="w-full text-center mx-auto flex items-center max-w-[600px] small-mobile md:max-w-[850px]">
+    <div className="w-full text-center mx-auto flex items-center max-w-[764px] small-mobile md:max-w-[850px]">
                 <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
         <div className="bg-[#FFD700 ] golda px-4 md:px-10 py-4 md:py-4 relative w-full rounded-[31px] mt-10 h-auto ">
-            <Triangle givenclass="rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 left-0 md:left-3 top-12 md:top-36" />
-            <Triangle givenclass="-rotate-90 absolute w-16 md:w-32 h-16 md:h-32 z-30 right-0 md:right-3 top-12 md:top-36" /> 
+            <div className="absolute w-16 md:w-24 h-16 md:h-32 z-30 right-0 md:right-11 top-16 md:top-20 ">
+            <RightTtriangle /> 
+            </div>
               <Slot
                 slotTransition={slotTransition}
                 refindex={1}
               />
-              {/* <div className="slot-shadow bg-black w-60 h-5 left-[82px] opacity-30 bottom-4 absolute"></div>
-              <div className="slot-shadow bg-black w-60 h-5 top-4 opacity-30 absolute"></div> */}
-              
+          <div className="absolute w-16 md:w-24 h-16 md:h-32 z-30 left-0 md:left-[43px] top-16 md:top-20">
+            <Triangle givenclass=" " />
+          </div>
         </div>
                 <LeftRing  />
     </div>

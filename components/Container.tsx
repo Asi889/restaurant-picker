@@ -6,6 +6,7 @@ import FiltersContainer from "./filters/FiltersContainer";
 import AppFooter from "./layout/AppFooter";
 import AppHeader from "./layout/AppHeader";
 import Restaurants from "./Restaurants";
+import ArrowDown from "./svgs/ArrowDown";
 import { AboutText } from "./texts/AboutText";
 import { TitleText } from "./texts/TitleText";
 
@@ -17,6 +18,7 @@ const Container = () => {
       <main className="wrapper max-w-3xl mx-auto px-4 pb-16 min-h-screen">
 
         <TitleText />
+        
         <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />
         <Transition
           show={selectedActiv}
