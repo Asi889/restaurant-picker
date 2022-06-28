@@ -13,11 +13,14 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
+/* .slot-container .front-spin{
+  bottom: 1.3%;
+} */
 @media (max-width: 768px) {
   
   .bbotom{bottom: 89.2%;}
   .slot-container .front-spin{
-    bottom: 1.3%;
+    bottom: 1.8%;
   }
   
 }
