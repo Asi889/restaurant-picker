@@ -13,15 +13,19 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
-/* .slot-container .front-spin{
-  bottom: 1.3%;
-} */
+.slot-container .front-spin{
+  bottom: 1.8%;
+}
 @media (max-width: 768px) {
   
   .bbotom{bottom: 89.2%;}
-  .slot-container .front-spin{
+  /* .slot-container .front-spin{
     bottom: 1.8%;
+  } */
+  .front-spin{
+    bottom: 305px;
   }
+  
   
 }
 @media (min-width: 768px) {
@@ -59,8 +63,9 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 .front-spin{
   transition-duration: 2000ms;
   transition-timing-function: ease-out;
-  bottom: 305px;
+  bottom: 150px;
 }
+
 
 
 
