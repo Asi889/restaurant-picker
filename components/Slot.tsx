@@ -44,7 +44,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
                            />
                          
                             : 
-                            <h2 className="slot-macihne-text leading-7 w-full h-full bg-purple px-1text-center grid items-center relative my-4 text-white alfa text-2xl">
+                            <h2 className="slot-macihne-text leading-7 w-full h-full bg-purple px-1 text-center grid items-center relative my-4 text-white alfa text-2xl">
                               {splitAndTrim(restaurant?.title)}
                             </h2>
                             }
