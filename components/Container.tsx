@@ -16,7 +16,9 @@ const Container = () => {
     <div className="w-full min-h-screen bg-purple-dark ">
       <AppHeader />
       <main className="wrapper max-w-3xl mx-auto px-4 pb-16 min-h-screen">
+{/* <div className="flex justify-around">
 
+</div> */}
         <TitleText />
         
         <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />

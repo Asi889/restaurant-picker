@@ -3,7 +3,7 @@ import ArrowDown from '../svgs/ArrowDown'
 
 export const TitleText = () => {
   return (
-    <div className="relative">
+    <div className="relative ">
 
     <h2 className='text-white lg:my-10 mt-4 font-thin md:text-2xl '>
       רעבים ולא יודעים מה להזמין? <br />

@@ -42,7 +42,7 @@ const FilterByLocation = () => {
           className="absolute cursor-pointer z-10 rounded-2xl bg-purple h-full w-12 grid place-content-center p-4 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           <span className="sr-only">פילטור לפי מיקום</span>
-          <LocationIcon givenclass="w-8 h-8" />
+          <LocationIcon givenclass="w-8 h-8 small-bounce " />
 
         </div>
         <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
