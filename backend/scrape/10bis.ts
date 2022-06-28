@@ -112,7 +112,7 @@ export const get10ByLatLon = async (location: { lat: number, lon: number }): Pro
   const query = {
     shoppingCartGuid: '5e471e0a-cb14-1e61-a9e8-7afe1e9ad587',
     culture: 'he-IL',
-    uiCulture: 'he',
+    uiCulture: 'en',
     cityName: ``,
     streetName: ``,
     houseNumber: 0,

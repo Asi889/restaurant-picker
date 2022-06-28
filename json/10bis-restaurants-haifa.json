@@ -1,6 +1,6 @@
 {
-    "lastScrapeDate": 1656245673369,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1656245671557&deliveryMethod=delivery&cityId=47&streetId=10477&houseNumber=44&addressKey=47-10477-44",
+    "lastScrapeDate": 1656414230920,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1656414228918&deliveryMethod=delivery&cityId=47&streetId=10477&houseNumber=44&addressKey=47-10477-44",
     "restaurants": [
         {
             "name": "Burger Saloon",
@@ -365,34 +365,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Burgus Burger Bar",
-            "score": 7.6,
-            "title": "Burgus Burger Bar",
-            "venue_id": "9829",
-            "address": "134, Sderot HaNassi Haifa",
-            "track_id": "9829",
-            "location": [
-                34.9857261,
-                32.8031645
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_9829_20220116124939.jpeg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/9829.png"
-            },
-            "description": "בורגוס BBB, Burgus Burger Bar",
-            "short_description": "בורגוס BBB, Burgus Burger Bar",
-            "slug": "haifa",
-            "tags": [
-                "burgers",
-                "meatGrill",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/9829"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Chicken ​​salad",
             "score": 8.8,
             "title": "Chicken ​​salad",
@@ -594,7 +566,7 @@
         },
         {
             "name": "HIMMUS BRACHA",
-            "score": 9.2,
+            "score": 9.4,
             "title": "HIMMUS BRACHA",
             "venue_id": "35736",
             "address": "54, Derech Simha Golan Haifa",
@@ -734,6 +706,34 @@
             "provider": "tenBis"
         },
         {
+            "name": "Louiza",
+            "score": 8.8,
+            "title": "Louiza",
+            "venue_id": "27441",
+            "address": "119, Sderot HaNassi Haifa",
+            "track_id": "27441",
+            "location": [
+                34.9878887,
+                32.8049056
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27441_20201202161148.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27441.png"
+            },
+            "description": "לואיזה, Louiza",
+            "short_description": "לואיזה, Louiza",
+            "slug": "haifa",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27441"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Effi's Kibbeh",
             "score": 8.8,
             "title": "Effi's Kibbeh",
@@ -793,7 +793,7 @@
         },
         {
             "name": "Olivia",
-            "score": 8.6,
+            "score": 8.8,
             "title": "Olivia",
             "venue_id": "30259",
             "address": "26, Ba'alei Melacha Haifa",
@@ -850,7 +850,7 @@
         },
         {
             "name": "SHAWARMA HAZAN",
-            "score": 8,
+            "score": 7.2,
             "title": "SHAWARMA HAZAN",
             "venue_id": "37163",
             "address": "19, Jaffa Road Haifa",
@@ -872,6 +872,33 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37163"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "NEWTON",
+            "score": 6,
+            "title": "NEWTON",
+            "venue_id": "37295",
+            "address": "3, Sha'ar Palmer Haifa",
+            "track_id": "37295",
+            "location": [
+                34.9998612,
+                32.8194223
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37295.jpg"
+            },
+            "description": "ניוטון, NEWTON",
+            "short_description": "ניוטון, NEWTON",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37295"
             },
             "provider": "tenBis"
         },
@@ -900,6 +927,34 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34962"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Il Gusto ",
+            "score": 8.4,
+            "title": "Il Gusto ",
+            "venue_id": "27519",
+            "address": "54, Derech Simha Golan Haifa",
+            "track_id": "27519",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27519.jpeg"
+            },
+            "description": "איל גוסטו, Il Gusto ",
+            "short_description": "איל גוסטו, Il Gusto ",
+            "slug": "haifa",
+            "tags": [
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27519"
             },
             "provider": "tenBis"
         },
@@ -933,8 +988,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "LOOCO",
+            "score": 8,
+            "title": "LOOCO",
+            "venue_id": "27522",
+            "address": "54, Derech Simha Golan Haifa",
+            "track_id": "27522",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27522_20191224150514.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27522.jpeg"
+            },
+            "description": "לוקו אוכל מקסיקני , LOOCO",
+            "short_description": "לוקו אוכל מקסיקני , LOOCO",
+            "slug": "haifa",
+            "tags": [
+                "mexican",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27522"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Burgers Bar",
-            "score": 7.6,
+            "score": 8,
             "title": "Burgers Bar",
             "venue_id": "37227",
             "address": "8, Mikhal Haifa",
@@ -945,7 +1027,7 @@
             ],
             "photo": {
                 "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37227_20220615110941.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37227.jpeg"
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37227.png"
             },
             "description": "בורגרס בר, Burgers Bar",
             "short_description": "בורגרס בר, Burgers Bar",
@@ -962,7 +1044,7 @@
         },
         {
             "name": "Babulini",
-            "score": 0,
+            "score": 10,
             "title": "Babulini",
             "venue_id": "37057",
             "address": "13, Nissenboim Street Haifa",
@@ -1016,85 +1098,172 @@
             "provider": "tenBis"
         },
         {
-            "name": "Dovrin 7",
-            "score": 9.2,
-            "title": "Dovrin 7",
-            "venue_id": "30195",
-            "address": "7, Nahum Dovrin Haifa",
-            "track_id": "30195",
-            "location": [
-                34.9997552,
-                32.8179978
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30195_20201228110003.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30195.jpg"
-            },
-            "description": "דוברין 7, Dovrin 7",
-            "short_description": "דוברין 7, Dovrin 7",
-            "slug": "haifa",
-            "tags": [
-                "bar",
-                "meatGrill",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30195"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Rebar",
-            "score": 8.8,
-            "title": "Rebar",
-            "venue_id": "33236",
+            "name": "Caeser",
+            "score": 0,
+            "title": "Caeser",
+            "venue_id": "37087",
             "address": "11, Natanzon Haifa",
-            "track_id": "33236",
+            "track_id": "37087",
             "location": [
                 34.999267,
                 32.8180531
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33236_20210407130455.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33236.jepg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37087_20220620144908.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37087.png"
             },
-            "description": "ריבאר rebar, Rebar",
-            "short_description": "ריבאר rebar, Rebar",
+            "description": "קיסר | Caeser, Caeser",
+            "short_description": "קיסר | Caeser, Caeser",
             "slug": "haifa",
             "tags": [
-                "SmoothiesAndShakes",
-                "veganFood",
-                "bar",
-                "vegan"
+                "meatGrill",
+                "sandwichesWraps",
+                "burgers",
+                "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33236"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37087"
             },
             "provider": "tenBis"
         },
         {
-            "name": "Legenda",
-            "score": 9.6,
-            "title": "Legenda",
-            "venue_id": "36096",
-            "address": "39, Ha-Namal Haifa",
-            "track_id": "36096",
+            "name": "BAR&GERRYS",
+            "score": 10,
+            "title": "BAR&GERRYS",
+            "venue_id": "36583",
+            "address": "22, Sirkin Street Haifa",
+            "track_id": "36583",
             "location": [
-                35.0000667,
-                32.8192564
+                35.0002726,
+                32.8097155
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36096_20220216102015.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36096.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36583_20220616090201.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36583.png"
             },
-            "description": "לג'נדה, Legenda",
-            "short_description": "לג'נדה, Legenda",
+            "description": "אצל בר וגרי , BAR&GERRYS",
+            "short_description": "אצל בר וגרי , BAR&GERRYS",
             "slug": "haifa",
             "tags": [
-                "gelato"
+                "veganFood",
+                "sandwichesWraps",
+                "homeMade",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36096"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36583"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "BAMBINO",
+            "score": 9.4,
+            "title": "BAMBINO",
+            "venue_id": "36901",
+            "address": "2, HaBankim Haifa",
+            "track_id": "36901",
+            "location": [
+                34.9971918,
+                32.8202064
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36901_20220622100142.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36901.jpg"
+            },
+            "description": "שווארמה במבינו, BAMBINO",
+            "short_description": "שווארמה במבינו, BAMBINO",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36901"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Josef star brothers ",
+            "score": 8.8,
+            "title": "Josef star brothers ",
+            "venue_id": "30735",
+            "address": "19, Sderot HaMeginim Haifa",
+            "track_id": "30735",
+            "location": [
+                34.9988883,
+                32.8177689
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30735_20211025093852.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30735.jpeg"
+            },
+            "description": "מסעדת האחים יוסף סטאר, Josef star brothers ",
+            "short_description": "מסעדת האחים יוסף סטאר, Josef star brothers ",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill",
+                "fish",
+                "humus"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30735"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Oyster",
+            "score": 9,
+            "title": "Oyster",
+            "venue_id": "29736",
+            "address": "67, Derech HaAtsma'ut Haifa",
+            "track_id": "29736",
+            "location": [
+                34.9967128,
+                32.821301
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_seafood.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29736.jpg"
+            },
+            "description": "אויסטר, Oyster",
+            "short_description": "אויסטר, Oyster",
+            "slug": "haifa",
+            "tags": [
+                "seafood",
+                "meatGrill",
+                "fish"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29736"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "PASTA BASTA",
+            "score": 8.6,
+            "title": "PASTA BASTA",
+            "venue_id": "35835",
+            "address": "12, Moriah Avenue Haifa",
+            "track_id": "35835",
+            "location": [
+                34.9834556,
+                32.8016594
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35835_20220518141022.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35835.jpg"
+            },
+            "description": "פסטה בסטה, PASTA BASTA",
+            "short_description": "פסטה בסטה, PASTA BASTA",
+            "slug": "haifa",
+            "tags": [
+                "pasta",
+                "salads",
+                "glutenFree",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35835"
             },
             "provider": "tenBis"
         },
@@ -1127,58 +1296,113 @@
             "provider": "tenBis"
         },
         {
-            "name": "SECRET BAR",
+            "name": "KNAFE TALPIYOT",
             "score": 8.8,
-            "title": "SECRET BAR",
-            "venue_id": "34087",
-            "address": "3, Nahum Dovrin Haifa",
-            "track_id": "34087",
+            "title": "KNAFE TALPIYOT",
+            "venue_id": "35627",
+            "address": "31, Sirkin Street Haifa",
+            "track_id": "35627",
             "location": [
-                34.9999173,
-                32.8181047
+                35.0019211,
+                32.8090707
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34087_20210809105704.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34087.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35627_20220103165702.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35627.png"
             },
-            "description": "סיקרט בר, SECRET BAR",
-            "short_description": "סיקרט בר, SECRET BAR",
+            "description": "כנאפה תלפיות  , KNAFE TALPIYOT",
+            "short_description": "כנאפה תלפיות  , KNAFE TALPIYOT",
             "slug": "haifa",
             "tags": [
-                "bar",
-                "homeMade",
-                "pizza"
+                "patisserie",
+                "bakery"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34087"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35627"
             },
             "provider": "tenBis"
         },
         {
-            "name": "Carnitas",
-            "score": 9.2,
-            "title": "Carnitas",
-            "venue_id": "33967",
-            "address": "6, Natanzon Haifa",
-            "track_id": "33967",
+            "name": "URBAN STREET BAR",
+            "score": 0,
+            "title": "URBAN STREET BAR",
+            "venue_id": "36745",
+            "address": "16, Natanzon Haifa",
+            "track_id": "36745",
             "location": [
-                34.9988292,
-                32.8182544
+                34.99954719999999,
+                32.8178291
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33967.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36745.jpg"
             },
-            "description": "קרניטס, Carnitas",
-            "short_description": "קרניטס, Carnitas",
+            "description": "אורבן סטריט בר, URBAN STREET BAR",
+            "short_description": "אורבן סטריט בר, URBAN STREET BAR",
             "slug": "haifa",
             "tags": [
-                "meatGrill",
                 "sandwichesWraps",
-                "salads"
+                "meatGrill"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33967"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36745"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "VIGOZA",
+            "score": 9.2,
+            "title": "VIGOZA",
+            "venue_id": "35132",
+            "address": "1, Eliyahu HaNavi Street Haifa",
+            "track_id": "35132",
+            "location": [
+                35.0002349,
+                32.8179382
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35132_20211226184410.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35132.jpg"
+            },
+            "description": "ויגוזה, VIGOZA",
+            "short_description": "ויגוזה, VIGOZA",
+            "slug": "haifa",
+            "tags": [
+                "sandwichesWraps",
+                "bakery",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35132"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "FAST SHOP SANDWITCH MARKET",
+            "score": 0,
+            "title": "FAST SHOP SANDWITCH MARKET",
+            "venue_id": "36746",
+            "address": "74, Derech HaAtsma'ut Haifa",
+            "track_id": "36746",
+            "location": [
+                34.999383,
+                32.8189322
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36746_20220524123215.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36746.png"
+            },
+            "description": "פאסט שופ סנדביץ מרקט, FAST SHOP SANDWITCH MARKET",
+            "short_description": "פאסט שופ סנדביץ מרקט, FAST SHOP SANDWITCH MARKET",
+            "slug": "haifa",
+            "tags": [
+                "sandwichesWraps",
+                "salads",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36746"
             },
             "provider": "tenBis"
         },
@@ -1211,6 +1435,58 @@
             "provider": "tenBis"
         },
         {
+            "name": "Legenda",
+            "score": 9.6,
+            "title": "Legenda",
+            "venue_id": "36096",
+            "address": "39, Ha-Namal Haifa",
+            "track_id": "36096",
+            "location": [
+                35.0000667,
+                32.8192564
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36096_20220216102015.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36096.jpeg"
+            },
+            "description": "לג'נדה, Legenda",
+            "short_description": "לג'נדה, Legenda",
+            "slug": "haifa",
+            "tags": [
+                "gelato"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36096"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Hanamal 30",
+            "score": 2,
+            "title": "Hanamal 30",
+            "venue_id": "36947",
+            "address": "30, Ha-Namal Haifa",
+            "track_id": "36947",
+            "location": [
+                35.000155,
+                32.8195237
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36947.png"
+            },
+            "description": "הנמל 30, Hanamal 30",
+            "short_description": "הנמל 30, Hanamal 30",
+            "slug": "haifa",
+            "tags": [
+                "pizza"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36947"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "BRISKET",
             "score": 8.4,
             "title": "BRISKET",
@@ -1239,86 +1515,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Rak basar",
-            "score": 8.4,
-            "title": "Rak basar",
-            "venue_id": "29665",
-            "address": "59, Sderot Ben Gurion Haifa",
-            "track_id": "29665",
+            "name": "Al Yakhour house",
+            "score": 9.2,
+            "title": "Al Yakhour house",
+            "venue_id": "30069",
+            "address": "24, Sderot Ben Gurion Haifa",
+            "track_id": "30069",
             "location": [
-                34.9892182,
-                32.817538
+                34.9909535,
+                32.8210358
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29665.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30069_20210117104443.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30069.jpg"
             },
-            "description": "רק בשר אקספרס  , Rak basar",
-            "short_description": "רק בשר אקספרס  , Rak basar",
+            "description": "אליאחור האוס , Al Yakhour house",
+            "short_description": "אליאחור האוס , Al Yakhour house",
             "slug": "haifa",
             "tags": [
+                "humus",
                 "meatGrill",
-                "burgers",
-                "sandwichesWraps"
+                "veganFood",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29665"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "LEYLA",
-            "score": 8.4,
-            "title": "LEYLA",
-            "venue_id": "30321",
-            "address": "2, Sara Street Haifa",
-            "track_id": "30321",
-            "location": [
-                34.9965285,
-                32.8197771
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30321_20201229122724.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30321.jpg"
-            },
-            "description": "ליילא, LEYLA",
-            "short_description": "ליילא, LEYLA",
-            "slug": "haifa",
-            "tags": [
-                "sandwichesWraps",
-                "pizza",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30321"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Oyster",
-            "score": 9,
-            "title": "Oyster",
-            "venue_id": "29736",
-            "address": "67, Derech HaAtsma'ut Haifa",
-            "track_id": "29736",
-            "location": [
-                34.9967128,
-                32.821301
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_seafood.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29736.jpg"
-            },
-            "description": "אויסטר, Oyster",
-            "short_description": "אויסטר, Oyster",
-            "slug": "haifa",
-            "tags": [
-                "seafood",
-                "meatGrill",
-                "fish"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29736"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30069"
             },
             "provider": "tenBis"
         },
@@ -1380,28 +1601,29 @@
             "provider": "tenBis"
         },
         {
-            "name": "The grill & shwarma House",
+            "name": "MISTER PRETZEL",
             "score": 8.8,
-            "title": "The grill & shwarma House",
-            "venue_id": "30547",
-            "address": "138, Jaffa Road Haifa",
-            "track_id": "30547",
+            "title": "MISTER PRETZEL",
+            "venue_id": "34996",
+            "address": "54, Derech Simha Golan Haifa",
+            "track_id": "34996",
             "location": [
-                34.9872394,
-                32.8269196
+                35.0080075,
+                32.7897693
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30547.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34996_20211104144555.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34996.jpg"
             },
-            "description": "בית השווארמה והגריל , The grill & shwarma House",
-            "short_description": "בית השווארמה והגריל , The grill & shwarma House",
+            "description": "מיסטר פרעצל , MISTER PRETZEL",
+            "short_description": "מיסטר פרעצל , MISTER PRETZEL",
             "slug": "haifa",
             "tags": [
-                "meatGrill"
+                "bakery",
+                "patisserie"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30547"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34996"
             },
             "provider": "tenBis"
         },
@@ -1435,115 +1657,115 @@
             "provider": "tenBis"
         },
         {
-            "name": "Bakery & more",
+            "name": "Dovrin 7",
             "score": 9.2,
-            "title": "Bakery & more",
-            "venue_id": "26404",
-            "address": "19, Natanzon Haifa",
-            "track_id": "26404",
+            "title": "Dovrin 7",
+            "venue_id": "30195",
+            "address": "7, Nahum Dovrin Haifa",
+            "track_id": "30195",
             "location": [
-                34.9996534,
-                32.8177796
+                34.9997552,
+                32.8179978
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_bakery.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26404.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30195_20201228110003.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30195.jpg"
             },
-            "description": "בייקרי אנד מור סניף נתנזון, Bakery & more",
-            "short_description": "בייקרי אנד מור סניף נתנזון, Bakery & more",
+            "description": "דוברין 7, Dovrin 7",
+            "short_description": "דוברין 7, Dovrin 7",
             "slug": "haifa",
             "tags": [
-                "bakery",
-                "salads",
-                "coffeeHouse",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26404"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Josef star brothers ",
-            "score": 8.8,
-            "title": "Josef star brothers ",
-            "venue_id": "30735",
-            "address": "19, Sderot HaMeginim Haifa",
-            "track_id": "30735",
-            "location": [
-                34.9988883,
-                32.8177689
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30735_20211025093852.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30735.jpeg"
-            },
-            "description": "מסעדת האחים יוסף סטאר, Josef star brothers ",
-            "short_description": "מסעדת האחים יוסף סטאר, Josef star brothers ",
-            "slug": "haifa",
-            "tags": [
+                "bar",
                 "meatGrill",
-                "fish",
-                "humus"
+                "salads"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30735"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30195"
             },
             "provider": "tenBis"
         },
         {
-            "name": "URBAN STREET BAR",
-            "score": 0,
-            "title": "URBAN STREET BAR",
-            "venue_id": "36745",
-            "address": "16, Natanzon Haifa",
-            "track_id": "36745",
+            "name": "Rebar",
+            "score": 8.8,
+            "title": "Rebar",
+            "venue_id": "33236",
+            "address": "11, Natanzon Haifa",
+            "track_id": "33236",
             "location": [
-                34.99954719999999,
-                32.8178291
+                34.999267,
+                32.8180531
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36745.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33236_20210407130455.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33236.jepg"
             },
-            "description": "אורבן סטריט בר, URBAN STREET BAR",
-            "short_description": "אורבן סטריט בר, URBAN STREET BAR",
+            "description": "ריבאר rebar, Rebar",
+            "short_description": "ריבאר rebar, Rebar",
             "slug": "haifa",
             "tags": [
-                "sandwichesWraps",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36745"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "VIGOZA",
-            "score": 9.2,
-            "title": "VIGOZA",
-            "venue_id": "35132",
-            "address": "1, Eliyahu HaNavi Street Haifa",
-            "track_id": "35132",
-            "location": [
-                35.0002349,
-                32.8179382
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35132_20211226184410.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35132.jpg"
-            },
-            "description": "ויגוזה, VIGOZA",
-            "short_description": "ויגוזה, VIGOZA",
-            "slug": "haifa",
-            "tags": [
-                "sandwichesWraps",
-                "bakery",
+                "SmoothiesAndShakes",
                 "veganFood",
+                "bar",
                 "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35132"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33236"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "SECRET BAR",
+            "score": 8.8,
+            "title": "SECRET BAR",
+            "venue_id": "34087",
+            "address": "3, Nahum Dovrin Haifa",
+            "track_id": "34087",
+            "location": [
+                34.9999173,
+                32.8181047
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34087_20210809105704.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34087.png"
+            },
+            "description": "סיקרט בר, SECRET BAR",
+            "short_description": "סיקרט בר, SECRET BAR",
+            "slug": "haifa",
+            "tags": [
+                "bar",
+                "homeMade",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34087"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Carnitas",
+            "score": 9.2,
+            "title": "Carnitas",
+            "venue_id": "33967",
+            "address": "6, Natanzon Haifa",
+            "track_id": "33967",
+            "location": [
+                34.9988292,
+                32.8182544
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33967.png"
+            },
+            "description": "קרניטס, Carnitas",
+            "short_description": "קרניטס, Carnitas",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33967"
             },
             "provider": "tenBis"
         },
@@ -1571,34 +1793,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34207"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "FAST SHOP SANDWITCH MARKET",
-            "score": 0,
-            "title": "FAST SHOP SANDWITCH MARKET",
-            "venue_id": "36746",
-            "address": "74, Derech HaAtsma'ut Haifa",
-            "track_id": "36746",
-            "location": [
-                34.999383,
-                32.8189322
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36746_20220524123215.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36746.png"
-            },
-            "description": "פאסט שופ סנדביץ מרקט, FAST SHOP SANDWITCH MARKET",
-            "short_description": "פאסט שופ סנדביץ מרקט, FAST SHOP SANDWITCH MARKET",
-            "slug": "haifa",
-            "tags": [
-                "sandwichesWraps",
-                "salads",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36746"
             },
             "provider": "tenBis"
         },
@@ -1657,55 +1851,58 @@
             "provider": "tenBis"
         },
         {
-            "name": "BAMBINO",
-            "score": 9.4,
-            "title": "BAMBINO",
-            "venue_id": "36901",
-            "address": "2, HaBankim Haifa",
-            "track_id": "36901",
+            "name": "LEYLA",
+            "score": 8.4,
+            "title": "LEYLA",
+            "venue_id": "30321",
+            "address": "2, Sara Street Haifa",
+            "track_id": "30321",
             "location": [
-                34.9971918,
-                32.8202064
+                34.9965285,
+                32.8197771
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36901_20220622100142.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36901.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30321_20201229122724.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30321.jpg"
             },
-            "description": "שווארמה במבינו, BAMBINO",
-            "short_description": "שווארמה במבינו, BAMBINO",
+            "description": "ליילא, LEYLA",
+            "short_description": "ליילא, LEYLA",
             "slug": "haifa",
             "tags": [
-                "meatGrill",
-                "sandwichesWraps"
+                "sandwichesWraps",
+                "pizza",
+                "salads"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36901"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30321"
             },
             "provider": "tenBis"
         },
         {
-            "name": "Hanamal 30",
-            "score": 2,
-            "title": "Hanamal 30",
-            "venue_id": "36947",
-            "address": "30, Ha-Namal Haifa",
-            "track_id": "36947",
+            "name": "Rak basar",
+            "score": 8.4,
+            "title": "Rak basar",
+            "venue_id": "29665",
+            "address": "59, Sderot Ben Gurion Haifa",
+            "track_id": "29665",
             "location": [
-                35.000155,
-                32.8195237
+                34.9892182,
+                32.817538
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36947.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29665.png"
             },
-            "description": "הנמל 30, Hanamal 30",
-            "short_description": "הנמל 30, Hanamal 30",
+            "description": "רק בשר אקספרס  , Rak basar",
+            "short_description": "רק בשר אקספרס  , Rak basar",
             "slug": "haifa",
             "tags": [
-                "pizza"
+                "meatGrill",
+                "burgers",
+                "sandwichesWraps"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36947"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29665"
             },
             "provider": "tenBis"
         },
@@ -1793,31 +1990,58 @@
             "provider": "tenBis"
         },
         {
-            "name": "PASTA BASTA",
-            "score": 8.6,
-            "title": "PASTA BASTA",
-            "venue_id": "35835",
-            "address": "12, Moriah Avenue Haifa",
-            "track_id": "35835",
+            "name": "landwer",
+            "score": 8.4,
+            "title": "landwer",
+            "venue_id": "24666",
+            "address": "134, Sderot HaNassi Haifa",
+            "track_id": "24666",
             "location": [
-                34.9834556,
-                32.8016594
+                34.9857153,
+                32.803444
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35835_20220518141022.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35835.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_24666_20220627103103.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24666.jpg"
             },
-            "description": "פסטה בסטה, PASTA BASTA",
-            "short_description": "פסטה בסטה, PASTA BASTA",
+            "description": "לנדוור חיפה, landwer",
+            "short_description": "לנדוור חיפה, landwer",
             "slug": "haifa",
             "tags": [
-                "pasta",
-                "salads",
-                "glutenFree",
-                "gluten free"
+                "coffeeHouse",
+                "sandwichesWraps",
+                "veganFood",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35835"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24666"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Zus",
+            "score": 9,
+            "title": "Zus",
+            "venue_id": "36007",
+            "address": "134, Sderot HaNassi Haifa",
+            "track_id": "36007",
+            "location": [
+                34.9857268,
+                32.8031725
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_fish.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36007.png"
+            },
+            "description": "זוס , Zus",
+            "short_description": "זוס , Zus",
+            "slug": "haifa",
+            "tags": [
+                "fish",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36007"
             },
             "provider": "tenBis"
         },
@@ -1905,6 +2129,60 @@
             "provider": "tenBis"
         },
         {
+            "name": "BAKERY 58",
+            "score": 8.4,
+            "title": "BAKERY 58",
+            "venue_id": "36673",
+            "address": "58, Moriah Avenue Haifa",
+            "track_id": "36673",
+            "location": [
+                34.9839638,
+                32.7962306
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36673.png"
+            },
+            "description": "בייקרי 58, BAKERY 58",
+            "short_description": "בייקרי 58, BAKERY 58",
+            "slug": "haifa",
+            "tags": [
+                "sandwichesWraps",
+                "salads",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36673"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "The grill & shwarma House",
+            "score": 8.8,
+            "title": "The grill & shwarma House",
+            "venue_id": "30547",
+            "address": "138, Jaffa Road Haifa",
+            "track_id": "30547",
+            "location": [
+                34.9872394,
+                32.8269196
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30547.png"
+            },
+            "description": "בית השווארמה והגריל , The grill & shwarma House",
+            "short_description": "בית השווארמה והגריל , The grill & shwarma House",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30547"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "LUCKY COFFEE",
             "score": 7.6,
             "title": "LUCKY COFFEE",
@@ -1929,6 +2207,36 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33737"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "MR CORN",
+            "score": 8,
+            "title": "MR CORN",
+            "venue_id": "34361",
+            "address": "54, Derech Simha Golan Haifa",
+            "track_id": "34361",
+            "location": [
+                35.0080075,
+                32.7897693
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34361_20211214165431.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34361.jepg"
+            },
+            "description": "מיסטר קורן גרנד קניון , MR CORN",
+            "short_description": "מיסטר קורן גרנד קניון , MR CORN",
+            "slug": "haifa",
+            "tags": [
+                "salads",
+                "veganFood",
+                "glutenFree",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34361"
             },
             "provider": "tenBis"
         },
@@ -1959,30 +2267,59 @@
             "provider": "tenBis"
         },
         {
-            "name": "Piano Piano",
-            "score": 8.8,
-            "title": "Piano Piano",
-            "venue_id": "35999",
-            "address": "55, HaHistadrut Avenue Haifa",
-            "track_id": "35999",
+            "name": "CAFE CAFE",
+            "score": 5.2,
+            "title": "CAFE CAFE",
+            "venue_id": "36959",
+            "address": "54, Derech Simha Golan Haifa",
+            "track_id": "36959",
             "location": [
-                35.0377411,
-                32.7934932
+                35.0080075,
+                32.7897693
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35999_20220322174429.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35999.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_coffeehouse.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36959.jpg"
             },
-            "description": "פיאנו פיאנו, Piano Piano",
-            "short_description": "פיאנו פיאנו, Piano Piano",
+            "description": "קפה קפה , CAFE CAFE",
+            "short_description": "קפה קפה , CAFE CAFE",
             "slug": "haifa",
             "tags": [
+                "coffeeHouse",
                 "pasta",
-                "pizza",
-                "salads"
+                "meatGrill"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35999"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36959"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "BAR&GERRYS",
+            "score": 0,
+            "title": "BAR&GERRYS",
+            "venue_id": "37029",
+            "address": "23, Oren Street Haifa",
+            "track_id": "37029",
+            "location": [
+                34.9962164,
+                32.78497220000001
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37029.png"
+            },
+            "description": "אצל בר וגרי , BAR&GERRYS",
+            "short_description": "אצל בר וגרי , BAR&GERRYS",
+            "slug": "haifa",
+            "tags": [
+                "veganFood",
+                "sandwichesWraps",
+                "patisserie",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37029"
             },
             "provider": "tenBis"
         },
@@ -2041,62 +2378,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "landwer",
-            "score": 8.4,
-            "title": "landwer",
-            "venue_id": "24666",
-            "address": "134, Sderot HaNassi Haifa",
-            "track_id": "24666",
-            "location": [
-                34.9857153,
-                32.803444
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_24666_20211027184426.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24666.jpg"
-            },
-            "description": "לנדוור חיפה, landwer",
-            "short_description": "לנדוור חיפה, landwer",
-            "slug": "haifa",
-            "tags": [
-                "coffeeHouse",
-                "sandwichesWraps",
-                "veganFood",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24666"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "MISTER PRETZEL",
-            "score": 8.8,
-            "title": "MISTER PRETZEL",
-            "venue_id": "34996",
-            "address": "54, Derech Simha Golan Haifa",
-            "track_id": "34996",
-            "location": [
-                35.0080075,
-                32.7897693
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34996_20211104144555.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34996.jpg"
-            },
-            "description": "מיסטר פרעצל , MISTER PRETZEL",
-            "short_description": "מיסטר פרעצל , MISTER PRETZEL",
-            "slug": "haifa",
-            "tags": [
-                "bakery",
-                "patisserie"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34996"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "BUREKAS HAAGALA",
             "score": 8.8,
             "title": "BUREKAS HAAGALA",
@@ -2120,63 +2401,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34721"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "CAFE CAFE",
-            "score": 5.2,
-            "title": "CAFE CAFE",
-            "venue_id": "36959",
-            "address": "54, Derech Simha Golan Haifa",
-            "track_id": "36959",
-            "location": [
-                35.0080075,
-                32.7897693
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_coffeehouse.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36959.jpg"
-            },
-            "description": "קפה קפה , CAFE CAFE",
-            "short_description": "קפה קפה , CAFE CAFE",
-            "slug": "haifa",
-            "tags": [
-                "coffeeHouse",
-                "pasta",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36959"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "BAR&GERRYS",
-            "score": 0,
-            "title": "BAR&GERRYS",
-            "venue_id": "37029",
-            "address": "23, Oren Street Haifa",
-            "track_id": "37029",
-            "location": [
-                34.9962164,
-                32.78497220000001
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37029.png"
-            },
-            "description": "אצל בר וגרי , BAR&GERRYS",
-            "short_description": "אצל בר וגרי , BAR&GERRYS",
-            "slug": "haifa",
-            "tags": [
-                "veganFood",
-                "sandwichesWraps",
-                "patisserie",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37029"
             },
             "provider": "tenBis"
         },
@@ -2239,36 +2463,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "MR CORN",
-            "score": 8,
-            "title": "MR CORN",
-            "venue_id": "34361",
-            "address": "54, Derech Simha Golan Haifa",
-            "track_id": "34361",
-            "location": [
-                35.0080075,
-                32.7897693
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34361_20211214165431.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34361.jepg"
-            },
-            "description": "מיסטר קורן גרנד קניון , MR CORN",
-            "short_description": "מיסטר קורן גרנד קניון , MR CORN",
-            "slug": "haifa",
-            "tags": [
-                "salads",
-                "veganFood",
-                "glutenFree",
-                "vegan",
-                "gluten free"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34361"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Pizza Crunch",
             "score": 8.8,
             "title": "Pizza Crunch",
@@ -2298,30 +2492,30 @@
             "provider": "tenBis"
         },
         {
-            "name": "BAKERY 58",
-            "score": 8.4,
-            "title": "BAKERY 58",
-            "venue_id": "36673",
-            "address": "58, Moriah Avenue Haifa",
-            "track_id": "36673",
+            "name": "Piano Piano",
+            "score": 8.8,
+            "title": "Piano Piano",
+            "venue_id": "35999",
+            "address": "55, HaHistadrut Avenue Haifa",
+            "track_id": "35999",
             "location": [
-                34.9839638,
-                32.7962306
+                35.0377411,
+                32.7934932
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36673.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35999_20220322174429.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35999.jpeg"
             },
-            "description": "בייקרי 58, BAKERY 58",
-            "short_description": "בייקרי 58, BAKERY 58",
+            "description": "פיאנו פיאנו, Piano Piano",
+            "short_description": "פיאנו פיאנו, Piano Piano",
             "slug": "haifa",
             "tags": [
-                "sandwichesWraps",
-                "salads",
-                "pasta"
+                "pasta",
+                "pizza",
+                "salads"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36673"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35999"
             },
             "provider": "tenBis"
         },
@@ -2451,8 +2645,8 @@
                 "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
                 "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37016.jpg"
             },
-            "description": "שוואררמה שבתאי לוי, Shawarma Shabtai",
-            "short_description": "שוואררמה שבתאי לוי, Shawarma Shabtai",
+            "description": "שווארמה שבתאי לוי, Shawarma Shabtai",
+            "short_description": "שווארמה שבתאי לוי, Shawarma Shabtai",
             "slug": "haifa",
             "tags": [
                 "meatGrill",
@@ -2630,34 +2824,6 @@
             "provider": "tenBis"
         },
         {
-            "name": " Shula Tiberian Cuisine",
-            "score": 9.6,
-            "title": " Shula Tiberian Cuisine",
-            "venue_id": "29776",
-            "address": "2, Sha'ar Palmer Haifa",
-            "track_id": "29776",
-            "location": [
-                35.00013740000001,
-                32.8201615
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29776_20201031145213.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29776.jpg"
-            },
-            "description": "שולה מטבח טברייני,  Shula Tiberian Cuisine",
-            "short_description": "שולה מטבח טברייני,  Shula Tiberian Cuisine",
-            "slug": "haifa",
-            "tags": [
-                "fish",
-                "homeMade",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29776"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Cafe Ono",
             "score": 9.2,
             "title": "Cafe Ono",
@@ -2824,7 +2990,7 @@
         },
         {
             "name": "Shawarma bili",
-            "score": 8,
+            "score": 7.8,
             "title": "Shawarma bili",
             "venue_id": "34697",
             "address": "130, Sderot HaNassi Haifa",
@@ -2847,6 +3013,34 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34697"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Colony ",
+            "score": 0,
+            "title": "Colony ",
+            "venue_id": "37105",
+            "address": "56, Derech Allenby Haifa",
+            "track_id": "37105",
+            "location": [
+                34.98940109999999,
+                32.8189828
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37105.png"
+            },
+            "description": "קולוני גריל חיפה , Colony ",
+            "short_description": "קולוני גריל חיפה , Colony ",
+            "slug": "haifa",
+            "tags": [
+                "meatGrill",
+                "fish",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37105"
             },
             "provider": "tenBis"
         },
@@ -2903,6 +3097,88 @@
             "provider": "tenBis"
         },
         {
+            "name": "Or Habishulim",
+            "score": 0,
+            "title": "Or Habishulim",
+            "venue_id": "36951",
+            "address": "88, Yekhezkel Street Pardes Hanna-Karkur",
+            "track_id": "36951",
+            "location": [
+                34.956272,
+                32.478172
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36951_20220616094736.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36951.jpg"
+            },
+            "description": "אור הבישולים עד הבית , Or Habishulim",
+            "short_description": "אור הבישולים עד הבית , Or Habishulim",
+            "slug": "haifa",
+            "tags": [
+                "homeMade",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36951"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Burgus Burger Bar",
+            "score": 7.6,
+            "title": "Burgus Burger Bar",
+            "venue_id": "9829",
+            "address": "134, Sderot HaNassi Haifa",
+            "track_id": "9829",
+            "location": [
+                34.9857261,
+                32.8031645
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_9829_20220116124939.jpeg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/9829.png"
+            },
+            "description": "בורגוס BBB, Burgus Burger Bar",
+            "short_description": "בורגוס BBB, Burgus Burger Bar",
+            "slug": "haifa",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/9829"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Shufersal",
+            "score": 9.6,
+            "title": "Shufersal",
+            "venue_id": "26698",
+            "address": "., תלוש ש\"ח בפיק אפ",
+            "track_id": "26698",
+            "location": [
+                34.792631,
+                32.0768528
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26698_20200514142633.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26698.png"
+            },
+            "description": "שופרסל - כלל ארצי, Shufersal",
+            "short_description": "שופרסל - כלל ארצי, Shufersal",
+            "slug": "haifa",
+            "tags": [
+                "convenienceStore",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26698"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Smoked meat ",
             "score": 3,
             "title": "Smoked meat ",
@@ -2927,33 +3203,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33042"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Or Habishulim",
-            "score": 0,
-            "title": "Or Habishulim",
-            "venue_id": "36951",
-            "address": "88, Yekhezkel Street Pardes Hanna-Karkur",
-            "track_id": "36951",
-            "location": [
-                34.956272,
-                32.478172
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36951_20220616094736.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36951.jpg"
-            },
-            "description": "אור הבישולים עד הבית , Or Habishulim",
-            "short_description": "אור הבישולים עד הבית , Or Habishulim",
-            "slug": "haifa",
-            "tags": [
-                "homeMade",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36951"
             },
             "provider": "tenBis"
         },
@@ -2983,33 +3232,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/2703"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Shufersal",
-            "score": 9.6,
-            "title": "Shufersal",
-            "venue_id": "26698",
-            "address": "., תלוש ש\"ח בפיק אפ",
-            "track_id": "26698",
-            "location": [
-                34.792631,
-                32.0768528
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26698_20200514142633.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26698.png"
-            },
-            "description": "שופרסל - כלל ארצי, Shufersal",
-            "short_description": "שופרסל - כלל ארצי, Shufersal",
-            "slug": "haifa",
-            "tags": [
-                "convenienceStore",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26698"
             },
             "provider": "tenBis"
         },
@@ -3071,33 +3293,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Shawarma Mugrabi",
-            "score": 8,
-            "title": "Shawarma Mugrabi",
-            "venue_id": "1932",
-            "address": "140, Jaffa Road Haifa",
-            "track_id": "1932",
-            "location": [
-                34.9871651,
-                32.8269772
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/1932.gif"
-            },
-            "description": "שווארמה מוגרבי , Shawarma Mugrabi",
-            "short_description": "שווארמה מוגרבי , Shawarma Mugrabi",
-            "slug": "haifa",
-            "tags": [
-                "meatGrill",
-                "homeMade"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/1932"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Shwarmale",
             "score": 7,
             "title": "Shwarmale",
@@ -3149,34 +3344,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/3026"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Omri Baguette",
-            "score": 9.4,
-            "title": "Omri Baguette",
-            "venue_id": "29527",
-            "address": "2, Anatot Haifa",
-            "track_id": "29527",
-            "location": [
-                34.9748803,
-                32.8176238
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29527.png"
-            },
-            "description": "עומרי בגט, Omri Baguette",
-            "short_description": "עומרי בגט, Omri Baguette",
-            "slug": "haifa",
-            "tags": [
-                "salads",
-                "burgers",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29527"
             },
             "provider": "tenBis"
         },
@@ -3357,7 +3524,7 @@
         },
         {
             "name": "Amazons Pizza",
-            "score": 5.2,
+            "score": 5,
             "title": "Amazons Pizza",
             "venue_id": "30033",
             "address": "6, Gedaliahu Haifa",
@@ -3551,34 +3718,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Louiza",
-            "score": 8.8,
-            "title": "Louiza",
-            "venue_id": "27441",
-            "address": "119, Sderot HaNassi Haifa",
-            "track_id": "27441",
-            "location": [
-                34.9878887,
-                32.8049056
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27441_20201202161148.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27441.png"
-            },
-            "description": "לואיזה, Louiza",
-            "short_description": "לואיזה, Louiza",
-            "slug": "haifa",
-            "tags": [
-                "homeMade",
-                "meatGrill",
-                "burgers"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27441"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Kronful",
             "score": 9.6,
             "title": "Kronful",
@@ -3633,32 +3772,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "McDonald’s",
-            "score": 8,
-            "title": "McDonald’s",
-            "venue_id": "30104",
-            "address": "18, Herzl Street Haifa",
-            "track_id": "30104",
-            "location": [
-                34.9975028,
-                32.8113592
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30104_20201126170721.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30104.jpeg"
-            },
-            "description": "מקדונלד'ס הדר חיפה , McDonald’s",
-            "short_description": "מקדונלד'ס הדר חיפה , McDonald’s",
-            "slug": "haifa",
-            "tags": [
-                "burgers"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30104"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Shawarma bakikar",
             "score": 4.8,
             "title": "Shawarma bakikar",
@@ -3686,57 +3799,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza Hut",
-            "score": 5.6,
-            "title": "Pizza Hut",
-            "venue_id": "17083",
-            "address": "53, Sderot Ben Gurion Haifa",
-            "track_id": "17083",
+            "name": "Arabeska",
+            "score": 9,
+            "title": "Arabeska",
+            "venue_id": "32854",
+            "address": "7, Lunz Haifa",
+            "track_id": "32854",
             "location": [
-                34.9896447,
-                32.8182477
+                35.0022686,
+                32.807957
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/17083.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_32854_20210411092133.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32854.jpg"
             },
-            "description": "פיצה האט , Pizza Hut",
-            "short_description": "פיצה האט , Pizza Hut",
+            "description": "עראבסקה , Arabeska",
+            "short_description": "עראבסקה , Arabeska",
             "slug": "haifa",
             "tags": [
-                "pasta",
-                "pizza"
+                "homeMade",
+                "veganFood",
+                "humus",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/17083"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Smokin",
-            "score": 8.4,
-            "title": "Smokin",
-            "venue_id": "34228",
-            "address": "6, Kehilat Saloniki Haifa",
-            "track_id": "34228",
-            "location": [
-                34.9994847,
-                32.8182545
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34228_20210720132721.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34228.jpg"
-            },
-            "description": "סמוקין, Smokin",
-            "short_description": "סמוקין, Smokin",
-            "slug": "haifa",
-            "tags": [
-                "burgers",
-                "pasta",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34228"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32854"
             },
             "provider": "tenBis"
         },
@@ -3769,28 +3856,30 @@
             "provider": "tenBis"
         },
         {
-            "name": "McDonald’s",
-            "score": 7.8,
-            "title": "McDonald’s",
-            "venue_id": "30004",
-            "address": "6, Sderot Ben Gurion Haifa",
-            "track_id": "30004",
+            "name": "Smokin",
+            "score": 8.4,
+            "title": "Smokin",
+            "venue_id": "34228",
+            "address": "6, Kehilat Saloniki Haifa",
+            "track_id": "34228",
             "location": [
-                34.99194860000001,
-                32.8231689
+                34.9994847,
+                32.8182545
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30004.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34228_20210720132721.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34228.jpg"
             },
-            "description": "מקדונלד'ס סיטי סנטר , McDonald’s",
-            "short_description": "מקדונלד'ס סיטי סנטר , McDonald’s",
+            "description": "סמוקין, Smokin",
+            "short_description": "סמוקין, Smokin",
             "slug": "haifa",
             "tags": [
-                "burgers"
+                "burgers",
+                "pasta",
+                "sandwichesWraps"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30004"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34228"
             },
             "provider": "tenBis"
         },
@@ -3823,6 +3912,85 @@
             "provider": "tenBis"
         },
         {
+            "name": "McDonald’s",
+            "score": 8,
+            "title": "McDonald’s",
+            "venue_id": "30104",
+            "address": "18, Herzl Street Haifa",
+            "track_id": "30104",
+            "location": [
+                34.9975028,
+                32.8113592
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30104_20201126170721.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30104.jpeg"
+            },
+            "description": "מקדונלד'ס הדר חיפה , McDonald’s",
+            "short_description": "מקדונלד'ס הדר חיפה , McDonald’s",
+            "slug": "haifa",
+            "tags": [
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30104"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Pizza Hut",
+            "score": 5.6,
+            "title": "Pizza Hut",
+            "venue_id": "17083",
+            "address": "53, Sderot Ben Gurion Haifa",
+            "track_id": "17083",
+            "location": [
+                34.9896447,
+                32.8182477
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/17083.jpeg"
+            },
+            "description": "פיצה האט , Pizza Hut",
+            "short_description": "פיצה האט , Pizza Hut",
+            "slug": "haifa",
+            "tags": [
+                "pasta",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/17083"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "McDonald’s",
+            "score": 7.8,
+            "title": "McDonald’s",
+            "venue_id": "30004",
+            "address": "6, Sderot Ben Gurion Haifa",
+            "track_id": "30004",
+            "location": [
+                34.99194860000001,
+                32.8231689
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30004.jpeg"
+            },
+            "description": "מקדונלד'ס סיטי סנטר , McDonald’s",
+            "short_description": "מקדונלד'ס סיטי סנטר , McDonald’s",
+            "slug": "haifa",
+            "tags": [
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30004"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Papa Johns",
             "score": 8.4,
             "title": "Papa Johns",
@@ -3849,36 +4017,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23754"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "neto salad",
-            "score": 8.4,
-            "title": "neto salad",
-            "venue_id": "26161",
-            "address": "15, Ha-Meyasdim Street Binyamina-Giv'at Ada",
-            "track_id": "26161",
-            "location": [
-                34.9479883,
-                32.5222203
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26161.png"
-            },
-            "description": "נטו סלט, neto salad",
-            "short_description": "נטו סלט, neto salad",
-            "slug": "haifa",
-            "tags": [
-                "salads",
-                "glutenFree",
-                "veganFood",
-                "vegan",
-                "gluten free"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26161"
             },
             "provider": "tenBis"
         },
@@ -3938,8 +4076,38 @@
             "provider": "tenBis"
         },
         {
+            "name": "neto salad",
+            "score": 8.4,
+            "title": "neto salad",
+            "venue_id": "26161",
+            "address": "15, Ha-Meyasdim Street Binyamina-Giv'at Ada",
+            "track_id": "26161",
+            "location": [
+                34.9479883,
+                32.5222203
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26161.png"
+            },
+            "description": "נטו סלט, neto salad",
+            "short_description": "נטו סלט, neto salad",
+            "slug": "haifa",
+            "tags": [
+                "salads",
+                "glutenFree",
+                "veganFood",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26161"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Zanzara",
-            "score": 9.2,
+            "score": 9,
             "title": "Zanzara",
             "venue_id": "34829",
             "address": "103, HaGalil Street Haifa",
@@ -4163,54 +4331,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "80s Burger",
-            "score": 10,
-            "title": "80s Burger",
-            "venue_id": "35742",
-            "address": "89, Yefe Nof Street Haifa",
-            "track_id": "35742",
+            "name": "San remo italian cuisine",
+            "score": 8.6,
+            "title": "San remo italian cuisine",
+            "venue_id": "35308",
+            "address": "1, Sha'ar Palmer Haifa",
+            "track_id": "35308",
             "location": [
-                34.9871318,
-                32.8079031
+                35.0001669,
+                32.8196828
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35742.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35308.webp"
             },
-            "description": "בורגר 80, 80s Burger",
-            "short_description": "בורגר 80, 80s Burger",
+            "description": "סאן רמו - מטבח איטלקי, San remo italian cuisine",
+            "short_description": "סאן רמו - מטבח איטלקי, San remo italian cuisine",
             "slug": "haifa",
             "tags": [
-                "burgers"
+                "veganFood",
+                "pizza",
+                "pasta",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35742"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Dali Pizza",
-            "score": 8.4,
-            "title": "Dali Pizza",
-            "venue_id": "23780",
-            "address": "53, Sderot HaMeginim Haifa",
-            "track_id": "23780",
-            "location": [
-                34.9949314,
-                32.8195161
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23780_20201213131502.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23780.jpg"
-            },
-            "description": "דאלי פיצה, Dali Pizza",
-            "short_description": "דאלי פיצה, Dali Pizza",
-            "slug": "haifa",
-            "tags": [
-                "pizza"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23780"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35308"
             },
             "provider": "tenBis"
         },
@@ -4243,6 +4388,32 @@
             "provider": "tenBis"
         },
         {
+            "name": "80s Burger",
+            "score": 10,
+            "title": "80s Burger",
+            "venue_id": "35742",
+            "address": "89, Yefe Nof Street Haifa",
+            "track_id": "35742",
+            "location": [
+                34.9871318,
+                32.8079031
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35742.png"
+            },
+            "description": "בורגר 80, 80s Burger",
+            "short_description": "בורגר 80, 80s Burger",
+            "slug": "haifa",
+            "tags": [
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35742"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "benzai",
             "score": 2,
             "title": "benzai",
@@ -4271,6 +4442,60 @@
             "provider": "tenBis"
         },
         {
+            "name": " Shula Tiberian Cuisine",
+            "score": 9.6,
+            "title": " Shula Tiberian Cuisine",
+            "venue_id": "29776",
+            "address": "2, Sha'ar Palmer Haifa",
+            "track_id": "29776",
+            "location": [
+                35.00013740000001,
+                32.8201615
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29776_20201031145213.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29776.jpg"
+            },
+            "description": "שולה מטבח טברייני,  Shula Tiberian Cuisine",
+            "short_description": "שולה מטבח טברייני,  Shula Tiberian Cuisine",
+            "slug": "haifa",
+            "tags": [
+                "fish",
+                "homeMade",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29776"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Dali Pizza",
+            "score": 8.4,
+            "title": "Dali Pizza",
+            "venue_id": "23780",
+            "address": "53, Sderot HaMeginim Haifa",
+            "track_id": "23780",
+            "location": [
+                34.9949314,
+                32.8195161
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23780_20201213131502.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23780.jpg"
+            },
+            "description": "דאלי פיצה, Dali Pizza",
+            "short_description": "דאלי פיצה, Dali Pizza",
+            "slug": "haifa",
+            "tags": [
+                "pizza"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23780"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Chocolata",
             "score": 8.8,
             "title": "Chocolata",
@@ -4295,34 +4520,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/3123"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Boutique Bakery",
-            "score": 8.6,
-            "title": "Boutique Bakery",
-            "venue_id": "28703",
-            "address": "102, Derech HaAtsma'ut Haifa",
-            "track_id": "28703",
-            "location": [
-                34.9968349,
-                32.8208738
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28703.jpg"
-            },
-            "description": "בוטיק בייקרי , Boutique Bakery",
-            "short_description": "בוטיק בייקרי , Boutique Bakery",
-            "slug": "haifa",
-            "tags": [
-                "salads",
-                "pasta",
-                "coffeeHouse"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28703"
             },
             "provider": "tenBis"
         },
@@ -4383,33 +4580,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza Manch",
-            "score": 7.8,
-            "title": "Pizza Manch",
-            "venue_id": "27523",
-            "address": "3, Derech HaYam Haifa",
-            "track_id": "27523",
-            "location": [
-                34.9867249,
-                32.8038826
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27523.jpg"
-            },
-            "description": "פיצה מאנצ', Pizza Manch",
-            "short_description": "פיצה מאנצ', Pizza Manch",
-            "slug": "haifa",
-            "tags": [
-                "pizza",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27523"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Orion's Falafel ",
             "score": 8.4,
             "title": "Orion's Falafel ",
@@ -4466,6 +4636,34 @@
             "provider": "tenBis"
         },
         {
+            "name": "Boutique Bakery",
+            "score": 8.6,
+            "title": "Boutique Bakery",
+            "venue_id": "28703",
+            "address": "102, Derech HaAtsma'ut Haifa",
+            "track_id": "28703",
+            "location": [
+                34.9968349,
+                32.8208738
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28703.jpg"
+            },
+            "description": "בוטיק בייקרי , Boutique Bakery",
+            "short_description": "בוטיק בייקרי , Boutique Bakery",
+            "slug": "haifa",
+            "tags": [
+                "salads",
+                "pasta",
+                "coffeeHouse"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28703"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Vinno Vinno",
             "score": 7.6,
             "title": "Vinno Vinno",
@@ -4490,6 +4688,33 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/3879"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Pizza Manch",
+            "score": 7.8,
+            "title": "Pizza Manch",
+            "venue_id": "27523",
+            "address": "3, Derech HaYam Haifa",
+            "track_id": "27523",
+            "location": [
+                34.9867249,
+                32.8038826
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27523.jpg"
+            },
+            "description": "פיצה מאנצ', Pizza Manch",
+            "short_description": "פיצה מאנצ', Pizza Manch",
+            "slug": "haifa",
+            "tags": [
+                "pizza",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27523"
             },
             "provider": "tenBis"
         },
@@ -4743,6 +4968,34 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25697"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Dream Nemo",
+            "score": 8,
+            "title": "Dream Nemo",
+            "venue_id": "21047",
+            "address": "45, Sderot Ben Gurion Haifa",
+            "track_id": "21047",
+            "location": [
+                34.9900684,
+                32.8189396
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_seafood.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21047.jepg (25)"
+            },
+            "description": "דרים נמו חיפה, Dream Nemo",
+            "short_description": "דרים נמו חיפה, Dream Nemo",
+            "slug": "haifa",
+            "tags": [
+                "seafood",
+                "fish",
+                "japaneseSushi"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21047"
             },
             "provider": "tenBis"
         },

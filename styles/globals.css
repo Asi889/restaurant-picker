@@ -14,18 +14,11 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 .slot-container .front-spin{
-  bottom: 132px;
+  bottom: 115px;
 }
 @media (max-width: 768px) {
   
   .bbotom{bottom: 89.2%;}
-  /* .slot-container .front-spin{
-    bottom: 1.8%;
-  } */
-  .front-spin{
-    bottom: 305px;
-  }
-  
   
 }
 @media (min-width: 768px) {
@@ -63,7 +56,6 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 .front-spin{
   transition-duration: 2000ms;
   transition-timing-function: cubic-bezier(0.01, 0.14, 0.1, 1.15);
-  bottom: 150px;
 }
 
 
