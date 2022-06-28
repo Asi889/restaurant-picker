@@ -17,7 +17,7 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   
   .bbotom{bottom: 89.2%;}
   .slot-container .front-spin{
-    bottom: 1.3%;
+    bottom: 1.9%;
   }
   
 }
@@ -27,13 +27,23 @@ font-family: 'Noto Sans Hebrew', sans-serif;
  
   
 }
-.golda{
-  /* background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-                radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%); */
-
-                /* ///// */
-                background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+@media (max-width: 320px) {
+  
+  .small-mobile{
+    max-width: 250px;
+    
+  }
+  .small-mobile-height{
+    height: 100px;
+    width: 150px;
+  }
+ 
+  
 }
+.golda{
+  background:linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C);
+}
+
 
 .slot-shadow{
   /* border: 1px solid;
@@ -45,15 +55,8 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   transition-timing-function: ease-out;
   bottom: 305px;
 }
-.slot-wrapper:nth-child(2){
-    width: 500px;
-}
-/* .slot-wrapper:nth-child(3){
-    width: 70px;
-} */
-/* .slot-wrapper:nth-child(2){
-    width: 70px;
-} */
+
+
 
 
 .slot {

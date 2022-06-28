@@ -23,7 +23,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
   
 
   return (
-          <div  key={refindex} className={`w-full max-w-[350px] mx-auto md:max-w-full h-[150px]  bg-white  px-1 overflow-hidden rounded-lg border-4 border-black slot-shadow`}>
+          <div  key={refindex} className={`w-full max-w-[350px] mx-auto md:max-w-full h-[150px] small-mobile-height min-w-[130px] bg-white  px-1 overflow-hidden rounded-lg border-4 border-black slot-shadow`}>
                     
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
               <div  className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
@@ -44,7 +44,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
                            />
                          
                             : 
-                            <div className="slot-macihne-text leading-4 w-[200px] h-[200px] text-base bg-purple h-[70px] text-center grid items-center relative my-4 text-white">
+                            <div className="slot-macihne-text leading-4 w-[200px] h-[200px] text-base bg-purple  text-center grid items-center relative my-4 text-white">
                               {splitAndTrim(restaurant?.title)}
                             </div>
                             }

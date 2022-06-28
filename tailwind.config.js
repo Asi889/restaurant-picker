@@ -17,6 +17,12 @@ module.exports = {
         }
       }
     },
+    screens: {
+      'smallmobile': '320px',
+      // => @media (max-width: 320px) { ... }
+
+      
+    },
   },
   plugins: [],
 }

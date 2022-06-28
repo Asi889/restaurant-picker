@@ -38,7 +38,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
         {!stat?.restaurants.selectedRestaurant?.photo?.logo
 
           ?
-          <div className={`slot-macihne-text leading-4 text-base bg-purple text-center my-4 grid items-center relative text-white w-[200px] h-[200px]`}>
+          <div className={`slot-macihne-text leading-4 text-base bg-purple text-center my-4 grid items-center relative text-white w-[200px] h-[200px] pb-[20px]`}>
             {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
           </div>
           :
