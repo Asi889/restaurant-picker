@@ -29,7 +29,7 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
                     
             <div className="mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
               
-              {!firstMessage ? <div className={`w-full h-[150px] bg-purple absolute z-40 pt-6 text-white ${firstMessageEffect ? "fade-out" : ""}`}> <h2 className=" text-3xl ">משכו בידית</h2><h3 className=" text-1xl text-green">{`וסננו לפי המאנץ'`}</h3></div> : ""}
+              {!firstMessage ? <div className={`w-full h-[150px] bg-purple absolute z-30 pt-6 text-white ${firstMessageEffect ? "fade-out" : ""}`}> <h2 className=" text-3xl ">משכו בידית</h2><h3 className=" text-1xl text-green">{`וסננו לפי המאנץ'`}</h3></div> : ""}
               <div  className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
               <SelectedAndTop index={refindex}  />
           
