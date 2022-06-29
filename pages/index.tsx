@@ -10,6 +10,7 @@ import { NextSeo } from "next-seo";
 import { LOCATION_COOKIE } from "../src/consts";
 import { parseCookies } from "nookies";
 import { GetServerSidePropsContext } from "next";
+import ContainerCheck from "../components/ContainerCheck";
 
 
 const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType,cityName:string }) => {
@@ -43,6 +44,7 @@ const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType
   return (
     <>
       <NextSeo {...seoObj}/>
+      {/* <ContainerCheck /> */}
       <Container />
     </>
   )
