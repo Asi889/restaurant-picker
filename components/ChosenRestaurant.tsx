@@ -45,7 +45,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {provider === 'wolt' ? 'וולט' : 'תן ביס'}
           </p>
         </a>
-        {otherProvider && (
+        {otherProvider && state.restaurants.filterTypes.woltRestaurants && state.restaurants.filterTypes.tenbisRestaurants &&  (
           <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(otherProvider)}>
             <div className="w-full px-2 h-full flex items-center justify-center">
 
