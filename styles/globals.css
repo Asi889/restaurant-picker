@@ -5,6 +5,7 @@
 body{
 /* font-family: 'Noto Sans Hebrew', sans-serif; */
 font-family: 'Noto Sans Hebrew', sans-serif;
+overscroll-behavior-y: contain;
 }
 .alfa{
   font-family: 'Alfa Slab One','Noto Sans Hebrew',  sans-serif;
