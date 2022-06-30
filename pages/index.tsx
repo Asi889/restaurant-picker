@@ -44,7 +44,7 @@ const Home = ({ allRestaurants, cityName, locationCookie }: { allRestaurants: Fe
     dispatch(setRestaurants({
       tenbisRestaurants: allRestaurants?.tenBisData,
       woltRestaurants: allRestaurants?.woltData,
-      both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
+      both: shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData])
     }));
     let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
     dispatch(setFiftyRestaurants(maxed))

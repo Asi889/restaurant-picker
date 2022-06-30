@@ -22,8 +22,8 @@ export const woltCities = [
         slug: "haifa",
         label: 'חיפה',
         location: {
-            lat: 34.989571,
-            lon: 32.7940463,
+            lat: 32.794046,
+            lon: 34.989571,
         },
     },
     {
@@ -276,7 +276,7 @@ export const TenBisCities = [
         name: "Netanya",
         slug: "netanya",
         queryParam: {
-            'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
+            'shoppingCartGuid': '6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57',
             'culture': 'he-IL',
             'uiCulture': 'en',
             'isMobileDevice': false,
@@ -284,9 +284,9 @@ export const TenBisCities = [
             'deliveryMethod': 'delivery',
 
             'cityId': 14,
-            'streetId': 53859,
-            'houseNumber': 11,
-            'addressKey': '14-53859-11',
+            'streetId': 23572,
+            'houseNumber': 25,
+            'addressKey': '14-23572-25',
         },
     },
     {
@@ -321,6 +321,40 @@ export const TenBisCities = [
             'streetId': 3299,
             'houseNumber': 16,
             'addressKey': '19-3299-16',
+        },
+    },
+    {
+        name: "Ashdod",
+        slug: "ashdod",
+        queryParam: {
+            'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
+            'culture': 'he-IL',
+            'uiCulture': 'en',
+            'isMobileDevice': false,
+            'timestamp': new Date().getTime(),
+            'deliveryMethod': 'delivery',
+
+            'cityId': 837,
+            'streetId': 29077,
+            'houseNumber': 1,
+            'addressKey': '837-29077-1',
+        },
+    },
+    {
+        name: "באר שבע",
+        slug: "beersheva",
+        queryParam: {
+            'shoppingCartGuid': '6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57',
+            'culture': 'he-IL',
+            'uiCulture': 'en',
+            'isMobileDevice': false,
+            'timestamp': new Date().getTime(),
+            'deliveryMethod': 'delivery',
+
+            'cityId': 51,
+            'streetId': 13928,
+            'houseNumber': 120,
+            'addressKey': '51-13928-120',
         },
     },
 ]
