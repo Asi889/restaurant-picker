@@ -30,7 +30,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
             
           />
           :
-          <h2 className="font-bold  bg-purple  text-center grid items-center text-white w-full h-full alfa text-2xl">
+          <h2 className="font-bold  bg-purple  text-center grid items-center text-white w-full h-full  rounded-lg">
             {splitAndTrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
           </h2>
         }

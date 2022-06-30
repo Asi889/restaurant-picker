@@ -22,17 +22,17 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 
-    let selectedDeviceCheck= (restaurant: FetchRestaurantType | any)=>{
-      if(isAndroid){
+    let selectedDeviceCheck = (restaurant: FetchRestaurantType | any) => {
+      if (isAndroid) {
         return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.tenbis.tbapp;end"}`
       }
-      if(isIOS){
+      if (isIOS) {
         return restaurant?.link?.url
       }
       return restaurant?.link?.url
     }
-    
-    
+
+
 
     return (
       <div className={`flex mt-3 mb-5 justify-center gap-x-5 px-2 `}>
@@ -45,7 +45,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {provider === 'wolt' ? 'וולט' : 'תן ביס'}
           </p>
         </a>
-        {otherProvider && state.restaurants.filterTypes.woltRestaurants && state.restaurants.filterTypes.tenbisRestaurants &&  (
+        {otherProvider && state.restaurants.filterTypes.woltRestaurants && state.restaurants.filterTypes.tenbisRestaurants && (
           <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(otherProvider)}>
             <div className="w-full px-2 h-full flex items-center justify-center">
 
@@ -60,7 +60,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       </div>
     );
   };
-  if(!selectedRestaurant){
+  if (!selectedRestaurant) {
     return null
   }
   return (
@@ -84,10 +84,14 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
         <ul className="space-y-1 mt-3 pb-4">
 
           <li>ציון: <span className="text-green">{selectedRestaurant?.score}</span></li>
-          <li className="italic">
-            <a className="text-white-90 hover:no-underline underline" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[1]},${selectedRestaurant.location[0]}`} target="_blank" rel="noopener noreferrer">
-              כתובת: {selectedRestaurant?.address}
-            </a>
+          <li className="italic text-white-90">
+            {(Array.isArray(selectedRestaurant.location) && selectedRestaurant.location.length > 1) ?
+              <a className=" hover:no-underline underline" href={`https://www.google.com/maps/search/?api=1&query=${selectedRestaurant.location[1]},${selectedRestaurant.location[0]}`} target="_blank" rel="noopener noreferrer">
+                כתובת: {selectedRestaurant?.address}
+              </a>
+              :
+               <span>כתובת: {selectedRestaurant?.address}</span>
+          }
           </li>
           <li>
             <span>תיאור: </span>
@@ -152,8 +156,8 @@ const ResurantTags = ({ tags }: { tags: string[] }) => {
   tagToRenader = removeDuplicates(tagToRenader);
   return (
     <li className="flex flex-wrap">
-            <span>סגנון התפריט:&nbsp;</span>
-      {tagToRenader.map((tag:string, indx:number) => (
+      <span>סגנון התפריט:&nbsp;</span>
+      {tagToRenader.map((tag: string, indx: number) => (
         <span key={tag}>{indx ? ', ' : ''}{tag}</span>
       ))}
     </li>

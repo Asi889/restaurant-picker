@@ -23,7 +23,7 @@ const SlotCheck: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
   
 
   return (
-          <div  key={refindex} className={`w-full max-w-[232px] mx-auto md:max-w-full h-[114px] top-[99px] right-[77px] small-mobile-height min-w-[130px] bg-white  px-1 overflow-hidden rounded-lg border-2 border-black slot-shadow absolute`}>
+          <div  key={refindex} className={`SlotCheck w-full max-w-[232px] mx-auto md:max-w-full h-[114px] top-[99px] right-[77px] small-mobile-height min-w-[130px]  px-1 overflow-hidden rounded-lg border-2 border-black slot-shadow absolute`}>
                     
             <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
               <div  className={`relative  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>

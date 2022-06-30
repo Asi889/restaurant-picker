@@ -56,7 +56,6 @@ const RestaurantsCheck: React.FC<Props> = (props) => {
 
   return (
     <div className="w-full text-center mx-auto flex items-center max-w-[764px] small-mobile md:max-w-[850px] relative">
-                {/* <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} /> */}
                 <SlotArmCheck triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
                 <div>
 

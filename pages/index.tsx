@@ -1,22 +1,45 @@
 import axios from "axios";
 import React, { useEffect } from "react";
-import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant } from "../src/redux/actions/clienActions";
+import { setCurrentCity, setFiftyRestaurants, setRestaurants, setSelectedRestaurant, setUserLatLon } from "../src/redux/actions/clienActions";
 import { connect, useDispatch } from "react-redux";
 import Container from "../components/Container";
 import { FetchRestaurantType } from "../src/types/FetchRestaurantTyp";
 import { shuffle } from "../src/hooks/shuffle";
 import { getRandomFromArray } from "../src/utils";
 import { NextSeo } from "next-seo";
-import { LOCATION_COOKIE } from "../src/consts";
+import { LAT_LON_COOKIE, LOCATION_COOKIE } from "../src/consts";
 import { parseCookies } from "nookies";
 import { GetServerSidePropsContext } from "next";
 import ContainerCheck from "../components/ContainerCheck";
 
 
-const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType,cityName:string }) => {
-  const dispatch = useDispatch()
+const Home = ({ allRestaurants, cityName, locationCookie }: { allRestaurants: FetchRestaurantType, cityName: string, locationCookie: { lat: number, lon: number } | null }) => {
+  const dispatch = useDispatch();
 
-
+  useEffect(() => {
+    if (locationCookie) {
+      if (navigator.geolocation) {
+        navigator.geolocation.getCurrentPosition(async (position) => {
+          dispatch(setUserLatLon({ latitude: position.coords.latitude, longitude: position.coords.longitude }));
+          const { data: allRestaurants } = await axios.post(`/api/fetch-by-location`, {
+            location: {
+              lat: position.coords.latitude,
+              lon: position.coords.longitude
+            }
+          });
+          dispatch(setRestaurants({
+            tenbisRestaurants: allRestaurants?.tenBisData,
+            woltRestaurants: allRestaurants?.woltData,
+            both: [...allRestaurants?.woltData, ...allRestaurants?.tenBisData]
+          }));
+          let maxed = shuffle([...allRestaurants?.woltData, ...allRestaurants?.tenBisData]).splice(0, 50);
+          dispatch(setFiftyRestaurants(maxed))
+          dispatch(setSelectedRestaurant(getRandomFromArray(shuffle(maxed))))
+        }
+        )
+      }
+    }
+  }, [locationCookie])
   useEffect(() => {
     dispatch(setRestaurants({
       tenbisRestaurants: allRestaurants?.tenBisData,
@@ -43,7 +66,7 @@ const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType
 
   return (
     <>
-      <NextSeo {...seoObj}/>
+      <NextSeo {...seoObj} />
       {/* <ContainerCheck /> */}
       <Container />
     </>
@@ -52,30 +75,30 @@ const Home = ({ allRestaurants,cityName }: { allRestaurants: FetchRestaurantType
 export default connect()(Home);
 
 
-export async function getServerSideProps(context:GetServerSidePropsContext) {
-  const cityName = parseCookies(context)[LOCATION_COOKIE]?? 'telaviv' ;
-  let allRestaurants ={
+export async function getServerSideProps(context: GetServerSidePropsContext) {
+  const cityName = parseCookies(context)[LOCATION_COOKIE] ?? 'telaviv';
+  const locationCookie = parseCookies(context)[LAT_LON_COOKIE];
+  let allRestaurants = {
     city: {
       name: cityName,
-  },
-  woltData: [],
-  tenBisData: [],
+    },
+    woltData: [],
+    tenBisData: [],
   };
   try {
     const { data } = await axios.post(`${process.env.FRONT_URL}/api/fetch-restaurant`, {
       cityName
     });
     allRestaurants = data
-    console.log(data);
-  } catch(error){
-    console.log(error);
-    
+  } catch (error) {
+
   }
-  
+
   return {
     props: {
       allRestaurants,
       cityName,
+      locationCookie: locationCookie ? JSON.parse(locationCookie) : null
     },
   };
 }

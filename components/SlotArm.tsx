@@ -13,7 +13,6 @@ type Props = {
 
 const SlotArm: React.FC<Props> = (props) => {
   const { triggerArm, armFlag, armButtonFlag } = props;
-  const [flag,flagSet] = useState(false)
 
   return (
     // <button className=" inline-block relative top-9 md:top-8" disabled={!selectedActiv} onClick={()=>triggerArm()}>
