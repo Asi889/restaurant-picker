@@ -23,7 +23,6 @@ const Restaurants: React.FC<Props> = (props) => {
   const [armButtonFlag, armButtonFlagSet] = useState(true);
   const [firstMessage, firstMessageSet] = useState<boolean>(false);
   const [firstMessageEffect, firstMessageEffectSet] = useState<boolean>(false);
-  const [shake, shakeSet] = useState<boolean>(false);
 
   const triggerArm = () => {
     firstMessageEffectSet(true)
@@ -47,15 +46,7 @@ const Restaurants: React.FC<Props> = (props) => {
       firstMessageSet(true)
       
     },1900)
-    setTimeout(() => {
-      shakeSet(true)
-      
-    },2400)
-    setTimeout(() => {
-      shakeSet(false)
-      
-    },4000)
-    
+
     checkFilters();
     
     setTimeout(() => {
@@ -67,14 +58,14 @@ const Restaurants: React.FC<Props> = (props) => {
   };
 
   return (
-    <div className={`w-full text-center mx-auto flex items-center max-w-[764px] small-mobile md:max-w-[850px] ${shake ? "shakeit" : ""}`}>
+    <div className={`w-full text-center mx-auto flex items-center max-w-[764px] small-mobile md:max-w-[850px]`}>
       <SlotArm triggerArm={triggerArm} armFlag={armFlag} armButtonFlag={armButtonFlag} />
-      <div className="bg-[#FFD700 ] golda px-4 md:px-10 py-4 md:py-4 relative w-full rounded-[31px] mt-10 h-auto ">
-        <div className="absolute w-12 md:w-24 h-16 md:h-32 z-40 right-0 md:right-11 top-16 md:top-20 ">
+      <div className="bg-[#FFD700 ] golda px-4 py-4 relative w-full rounded-[31px] mt-10 h-auto ">
+        <div className="absolute w-6 h-6 z-40 right-0 top-0 bottom-0 my-auto -translate-x-2">
           <RightTtriangle />
         </div>
         <Slot slotTransition={slotTransition} refindex={1} firstMessage={firstMessage} firstMessageEffect={firstMessageEffect} />
-        <div className="absolute w-12 md:w-24 h-16 md:h-32 z-40 left-0 md:left-[43px] top-16 md:top-20">
+        <div className="absolute w-6 h-6 z-40 left-0 top-0 bottom-0 my-auto translate-x-2">
           <Triangle givenclass=" " />
         </div>
       </div>

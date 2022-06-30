@@ -14,16 +14,19 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 .slot-container .front-spin{
-  bottom: 115px;
+  bottom: 128px;
 }
 @media (max-width: 768px) {
+ 
   
   .bbotom{bottom: 89.2%;}
   
   
 }
 @media (min-width: 768px) {
-  
+  .slot-container .front-spin{
+    bottom: 100px;
+  }
   .bbotom{bottom: 91.2%;}
   .small-mobile-height{
     max-width: 476px;

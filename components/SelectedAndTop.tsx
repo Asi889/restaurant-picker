@@ -20,7 +20,7 @@ const SelectedAndTop: React.FC<Props> = (props) => {
 
   return (
     <div className={`grid gap-y-2 `} >
-      <div className={` rounded-full text-center relative img-wrapper h-[120px]`} key={index}>
+      <div className={` rounded-full text-center relative img-wrapper h-[120px] mb-2`} key={index}>
         {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo && NO_LOGO !==stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
           ?
           <img
