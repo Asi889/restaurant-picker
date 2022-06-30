@@ -60,7 +60,7 @@ export const vibrate = () => {
         return;
     }
 
-    window.navigator.vibrate([500,10,70]);
+    window.navigator.vibrate([800, 10, 10, 800]);
 }
 
 export const returnSubFilters = () => {
