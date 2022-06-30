@@ -110,18 +110,18 @@ export const get10ByLatLon = async (location: { lat: number, lon: number }): Pro
   // console.log(geoData);
   
   const query = {
-    shoppingCartGuid: '5e471e0a-cb14-1e61-a9e8-7afe1e9ad587',
+    shoppingCartGuid: '6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57',
     culture: 'he-IL',
     uiCulture: 'en',
-    cityName: ``,
-    streetName: ``,
-    houseNumber: 0,
+    // cityName: ``,
+    // streetName: ``,
+    // houseNumber: 0,
     latitude: location.lat,
     longitude: location.lon,
-    cityId: 0,
-    streetId: 0,
+    cityId: 1,
+    streetId: 1,
     isBigCity: true,
-    addressKey: '24-8144-5',
+    // addressKey: '24-8144-5',
     locationType: 'residential',
 
   }
@@ -129,7 +129,8 @@ export const get10ByLatLon = async (location: { lat: number, lon: number }): Pro
     const searchParams = new URLSearchParams();
     Object.entries(query).forEach(([key, value]) => searchParams.append(key, value.toString()));
     const fetchUrl = `${TENIS_API}/searchRestaurants?${searchParams.toString()}`;
-    console.log('fetching wolt restaurants', fetchUrl);
+    // const fetchUrl = `${TENIS_API}/searchRestaurants?shoppingCartGuid=6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1656598436516&deliveryMethod=delivery&locationType=residential&latitude=${location.lat}&longitude=${location.lon}&cityId=1&streetId=1&isBigCity=true`;
+    console.log('fetching 10bis restaurants', fetchUrl);
     const response = await fetch(fetchUrl, {
       method: 'GET',
       headers: {

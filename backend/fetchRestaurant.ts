@@ -48,7 +48,7 @@ export const scrapeRestaurantsByLocation = async (location: { lat: number, lon: 
     // if (lat) {
     const woltData = await getWoltByLatLon(location);
     // }
-    // tenBisData = await get10ByLatLon(location);
+    tenBisData = await get10ByLatLon(location);
 
     return {
         city: {
