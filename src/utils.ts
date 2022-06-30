@@ -126,7 +126,8 @@ export function checkFilters() {
     }
     const areFalse = Object.values(state.restaurants.subFilterTypes).every(value => value === false);
     if (areFalse) {
-        store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).splice(0, 50)))
+        // store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).splice(0, 50)))
+        store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).filter((restaurant: any, index: number) => index < 50 && restaurant)))
         store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle([...state.restaurants.allRestaurants[provider]]))))
         return
     }
@@ -134,7 +135,7 @@ export function checkFilters() {
     let beforeLength = beforRest.length
     if (beforeLength < 50) {
         let restAmout = 50 - beforeLength
-        let filledArray = state.restaurants.allRestaurants[provider].splice(0, restAmout)
+        let filledArray = state.restaurants.allRestaurants[provider].filter((restaurant: any, index: number) => index < 50 && restaurant)
 
         filledArray = [...filledArray, beforRest]
         store.dispatch(setFiftyRestaurants(shuffle(filledArray)))
@@ -142,7 +143,7 @@ export function checkFilters() {
         return
     }
 
-    store.dispatch(setFiftyRestaurants(shuffle(beforRest).splice(0, 50)))
+    store.dispatch(setFiftyRestaurants(shuffle(beforRest).filter((restaurant: any, index: number) => index < 50 && restaurant)))
     store.dispatch(setSelectedRestaurant(getRandomFromArray(beforRest)))
     return
 }
