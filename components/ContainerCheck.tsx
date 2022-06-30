@@ -6,15 +6,16 @@ import FiltersContainer from "./filters/FiltersContainer";
 import AppFooter from "./layout/AppFooter";
 import AppHeader from "./layout/AppHeader";
 import Restaurants from "./Restaurants";
+import RestaurantsCheck from "./RestaurantsCheck";
 import ArrowDown from "./svgs/ArrowDown";
 import Machine from "./svgs/Machine";
 import { AboutText } from "./texts/AboutText";
 import { TitleText } from "./texts/TitleText";
 
-const Container = () => {
+const ContainerCheck = () => {
   const [selectedActiv, selectedActivSet] = useState<boolean>(false);
   return (
-    <div className="w-full min-h-screen bg-purple-dark ">
+    <div className="w-full min-h-screen bg-purple-dark relative">
       <AppHeader />
       <main className="wrapper max-w-3xl mx-auto px-4 pb-16 min-h-screen">
 {/* <div className="flex justify-around">
@@ -22,7 +23,8 @@ const Container = () => {
 </div> */}
         <TitleText />
         
-        <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />
+        {/* <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} /> */}
+        <RestaurantsCheck selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />
         <Transition
           show={selectedActiv}
           enter=" duration-500 ease-in-out"
@@ -33,7 +35,7 @@ const Container = () => {
           leaveTo="opacity-0">
           <ChosenRestaurant />
         </Transition>
-        <FiltersContainer />
+        {/* <FiltersContainer /> */}
         <AboutText />
       </main>
       <AppFooter />
@@ -41,4 +43,4 @@ const Container = () => {
   );
 };
 
-export default connect()(Container);
+export default connect()(ContainerCheck);

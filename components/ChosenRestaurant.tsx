@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import { connect, useStore } from "react-redux";
-import { RestaurantType } from "../src/types/FetchRestaurantTyp";
+import { FetchRestaurantType, RestaurantType } from "../src/types/FetchRestaurantTyp";
 import { StateProp } from "../src/types/FetchSubRestaurantTypes";
 import { checkTime, splitAndTrim } from "../src/utils";
 import TenBisLogo from "./svgs/TenBisLogo";
@@ -22,12 +22,12 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
       restaurant.name.toLocaleLowerCase() === splitAndTrim(selectedRestaurant.name).toLowerCase()
     );
 
-    let selectedDeviceCheck= (restaurant: any)=>{
+    let selectedDeviceCheck= (restaurant: FetchRestaurantType | any)=>{
       if(isAndroid){
-        return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.10bis.android;end"}`
+        return `intent://${restaurant?.link?.url.slice(8)}/#Intent;scheme=https;package=${restaurant.provider === "wolt" ? "com.wolt.android;end" : "com.tenbis.tbapp;end"}`
       }
       if(isIOS){
-        return "https://apps.apple.com/isr/app/instagram/id196859368"
+        return restaurant?.link?.url
       }
       return restaurant?.link?.url
     }
@@ -45,7 +45,7 @@ const ChosenRestaurant: React.FC<Props> = (props) => {
             {provider === 'wolt' ? 'וולט' : 'תן ביס'}
           </p>
         </a>
-        {otherProvider && (
+        {otherProvider && state.restaurants.filterTypes.woltRestaurants && state.restaurants.filterTypes.tenbisRestaurants &&  (
           <a className="flex w-1/2 bg-white/20 p-2 rounded-2xl flex-col justify-center space-y-1 text-center" target="_blank" rel="noopener noreferrer" href={selectedDeviceCheck(otherProvider)}>
             <div className="w-full px-2 h-full flex items-center justify-center">
 

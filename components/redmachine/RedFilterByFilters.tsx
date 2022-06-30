@@ -1,30 +1,31 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
 import { returnFilters, returnSubFilters } from "../../src/utils";
+import FilterFoodType from "../filters/FilterFoodType";
 import FiltertIcon from "../svgs/FilterIcon";
-import FilterFoodType from "./FilterFoodType";
+// import FilterFoodType from "./FilterFoodType";
 
 
-const FilterByFilters = () => {
+const RedFilterByFilters = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <>
-        <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מתקדם (מאיפה להזמין וסוג האוכל):</h3>
+        {/* <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מתקדם (מאיפה להזמין וסוג האוכל):</h3> */}
 
       <button
-        className="flex h-12 relative w-full"
+        className="flex h-8 relative w-full"
         type="button"
         onClick={() => setIsOpen(true)}>
         <div
-          className="absolute z-10  rounded-2xl bg-purple h-full w-12 grid place-content-center p-4 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="absolute z-10  rounded-2xl bg-purple h-full w-6 grid place-content-center p-3 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           <span className="sr-only">פילטור לפי משתנים</span>
 
-          <FiltertIcon pathClass="fill-white cursor-pointer" givenclass="w-8 h-8 animate-pulse" />
+          <FiltertIcon pathClass="fill-white cursor-pointer" givenclass="w-4 h-4 animate-pulse" />
 
         </div>
-        <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
+        <div className="rounded-2xl overflow-hidden bg-[#7b4863] pr-12 flex-grow  alfa  text-lg text-whit truncate text-white h-full  flex place-items-center">
           <span>
             {returnFilters()}
           </span>
@@ -73,4 +74,4 @@ const FilterByFilters = () => {
   );
 };
 
-export default FilterByFilters;
+export default RedFilterByFilters;

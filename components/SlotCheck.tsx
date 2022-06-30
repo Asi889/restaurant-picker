@@ -12,24 +12,20 @@ import { RestaurantType } from "../src/types/FetchRestaurantTyp";
 type Props = {
   slotTransition: boolean;
   refindex:number
-  firstMessage: boolean;
-  firstMessageEffect: boolean;
 };
 
-const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
+const SlotCheck: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
   
-  const {slotTransition, refindex, firstMessage, firstMessageEffect} = props;
+  const {slotTransition, refindex} = props;
   // const [filteredByCategory, filteredByCategorySet] = useState<any>([])
   const allRestaurants = useSelector((state:any) => state.restaurants.fiftyRestaurants) as RestaurantType[];
 
   
 
   return (
-          <div  key={refindex} className={`w-full max-w-[350px] mx-auto md:max-w-full h-[150px] small-mobile-height min-w-[130px] bg-white  px-1 overflow-hidden rounded-lg border-4 border-black slot-shadow`}>
+          <div  key={refindex} className={`w-full max-w-[232px] mx-auto md:max-w-full h-[114px] top-[99px] right-[77px] small-mobile-height min-w-[130px] bg-white  px-1 overflow-hidden rounded-lg border-2 border-black slot-shadow absolute`}>
                     
-            <div className="mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
-              
-              {!firstMessage ? <div className={`w-full h-[150px] bg-purple absolute z-30 pt-6 text-white ${firstMessageEffect ? "fade-out" : ""}`}> <h2 className=" text-3xl ">משכו בידית</h2><h3 className=" text-1xl text-green">{`וסננו לפי המאנץ'`}</h3></div> : ""}
+            <div className="  mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
               <div  className={`relative   grid gap-y-16  justify-center  slott ${slotTransition ? slotTransition  : "bbotom"} }`}>
               <SelectedAndTop index={refindex}  />
           
@@ -64,4 +60,4 @@ const Slot: React.ForwardRefRenderFunction <any, Props> = (props:any) => {
 };
 
 // export default React.forwardRef(Slot);
-export default connect(null,null,null,{ forwardRef: true })(forwardRef(Slot));
+export default connect(null,null,null,{ forwardRef: true })(forwardRef(SlotCheck));

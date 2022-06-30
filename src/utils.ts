@@ -20,6 +20,7 @@ export const returnFilters = () => {
     let state: StateProp | any
     state = store.getState();
     let types = Object.entries(state?.restaurants.filterTypes)
+    
     return types.map(([key, value], index) => {
         if (value) {
             return key === "tenbisRestaurants" ? "תן ביס" : "וולט"

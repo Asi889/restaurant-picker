@@ -14,6 +14,8 @@ export const filterProviderType= (name: string) =>{
         case "tenbisRestaurants":
           
           if(filterTypes.woltRestaurants === false){
+            store.dispatch(setFilterType({...filterTypes, woltRestaurants: !filterTypes.woltRestaurants }))
+            filterByProvider("both") 
             return     
           }
   
@@ -33,6 +35,8 @@ export const filterProviderType= (name: string) =>{
           
           case "woltRestaurants":
             if(filterTypes.tenbisRestaurants === false){
+              store.dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
+              filterByProvider("both")    
               return
             }
   

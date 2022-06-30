@@ -10,16 +10,18 @@ import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
 import { getRandomFromArray } from "../../src/utils";
 import LocationIcon from "../svgs/LocationIcon";
 import { Loader } from "../texts/Loader";
+import { useSelector } from "react-redux";
 
 const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
   const store = useStore();
-  const state = store.getState() as StateProp
+  const lcoationState = useSelector((state: StateProp) => state.restaurants.location)
 
   const [loading, setLoading] = useState(false)
 
   const changeLocation = async (cityName: string) => {
     setLoading(true)
     store.dispatch(setCurrentCity(cityName));
+    store.dispatch(setUserLatLon({ latitude: null, longitude:null }));
  
     const { data: allRestaurants } = await axios.post(`/api/fetch-restaurant`, {
       cityName
@@ -62,12 +64,14 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
       }), () => {
         console.log('error');
         setLoading(false)
+        store.dispatch(setUserLatLon({ latitude: null, longitude:null }));
 
         // TODO: add eror
       }
     } else {
       // TODO: add eror
       console.log('error');
+    store.dispatch(setUserLatLon({ latitude: null, longitude:null }));
       setLoading(false)
     }
   }
@@ -86,14 +90,17 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
       </div>
       <button
         onClick={setUserLocation}
-        className={`grid place-content-center text-center w-full mt-6 bg-slate-50 rounded py-1
-        ${state.restaurants.location.latitude && state.restaurants.location.longitude ? 'bg-slate-300' : ''}
+        className={`grid place-content-center text-center w-full mt-6  rounded py-1
+        ${lcoationState.latitude && lcoationState.longitude ? 'bg-purple text-white' : 'bg-slate-50'}
         `}>
         <LocationIcon givenclass="w-12 mx-auto" />
-        <div className="font-bold">השתמש במיקום הנוכחי שלי</div>
-        <div className="font-thin px-1 text-sm">
+        <div className="font-bold">
+          
+          {lcoationState.latitude && lcoationState.longitude ? 'רק מסעדות מהמיקום הנוכחי שלך' :' השתמש במיקום הנוכחי שלי'}
+         </div>
+         {!lcoationState.latitude || !lcoationState.longitude  && <div className="font-thin px-1 text-sm">
           מומלץ לקבלת תוצאות טובות יותר (יש לתת הרשאות)
-        </div>
+        </div>}
       </button>
       <hr className="border-purple my-3" />
 
@@ -102,7 +109,7 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
           <li key={city.slug}>
             <button
               onClick={() => changeLocation(city.slug)}
-              className={`w-full  active:bg-[#F7F5F5] py-4 rounded ${state.restaurants.location.city === city.slug ? "bg-purple text-white" : "bg-slate-50 text-purple-dark"}`}
+              className={`w-full  active:bg-[#F7F5F5] py-4 rounded ${!lcoationState.latitude && lcoationState.city === city.slug ? "bg-purple text-white" : "bg-slate-50 text-purple-dark"}`}
             >
               {city.label}
             </button>

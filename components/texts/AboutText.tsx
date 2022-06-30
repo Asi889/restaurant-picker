@@ -11,10 +11,10 @@ export const AboutText = () => (
              הגדולה ותנו לבוט שלנו להגריל עבורכם איזה אוכל להזמין
         </p>
         <p>
-            מתלבטים מה לאכול אבל יודעים מה לא להזמין? ניתן לסנן לפי סוגים שונים: צמחוני, כשר, טבעוני, המבורגר, פיצה.?לא יודעים מה לאכול ואתם במשרד או בבית? ניתן לסנן גם לפי מקורות הזמנה
-            <a href="https://wolt.com/en/isr" target="_blank" rel="noopener noreferrer">וולט</a>
+             מתלבטים מה לאכול אבל יודעים מה לא להזמין? <br />  ניתן לסנן לפי סוגים שונים: צמחוני, כשר, טבעוני, המבורגר, פיצה. לא יודעים מה לאכול ואתם במשרד או בבית? ניתן לסנן גם לפי מקורות הזמנה
+            <a href="https://wolt.com/en/isr" target="_blank" rel="noopener noreferrer"> וולט  </a>
             או
-            <a href="https://www.10bis.co.il/" target="_blank" rel="noopener noreferrer">תן ביס</a>
+            <a href="https://www.10bis.co.il/" target="_blank" rel="noopener noreferrer"> תן ביס </a>
             .
         </p>
         <p>

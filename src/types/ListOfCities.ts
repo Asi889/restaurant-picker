@@ -126,7 +126,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -143,7 +143,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -159,7 +159,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -176,7 +176,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -193,7 +193,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -210,7 +210,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -227,7 +227,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -244,7 +244,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -261,7 +261,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -278,7 +278,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -295,7 +295,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',
@@ -312,7 +312,7 @@ export const TenBisCities = [
         queryParam: {
             'shoppingCartGuid': '3070ff7d-ebe8-4016-abc8-8e391891dbc8',
             'culture': 'he-IL',
-            'uiCulture': 'he',
+            'uiCulture': 'en',
             'isMobileDevice': false,
             'timestamp': new Date().getTime(),
             'deliveryMethod': 'delivery',

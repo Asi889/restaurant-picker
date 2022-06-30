@@ -10,6 +10,8 @@ type Props = {
 
 };
 
+const NO_LOGO = 'https://d25t2285lxl5rf.cloudfront.net/images/shops/34465.jpeg'
+
 const SelectedAndTop: React.FC<Props> = (props) => {
 
   const { index } = props;
@@ -17,38 +19,35 @@ const SelectedAndTop: React.FC<Props> = (props) => {
   const stat = store.getState() as StateProp
 
   return (
-    <div className={`grid gap-y-12  -top-[227px]`} >
-      <div className={`w-[70px] h-[70px] md:w-[200px] md:h-[200px] rounded-full text-center relative img-wrapper `} key={index}>
-        {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
+    <div className={`grid gap-y-2 `} >
+      <div className={` rounded-full text-center relative img-wrapper h-[120px]`} key={index}>
+        {stat?.restaurants.fiftyRestaurants[index]?.photo?.logo && NO_LOGO !==stat?.restaurants.fiftyRestaurants[index]?.photo?.logo
           ?
           <img
             src={stat?.restaurants.fiftyRestaurants[index]?.photo.logo ?? ''}
-            alt="Picture of the author"
-            className="w-[400px] h-[100px] rounded-full "
+            alt={stat?.restaurants.fiftyRestaurants[index]?.name}
+            className="w-full h-full object-contain"
+            
           />
           :
-          <div className="font-bold text-base bg-purple h-[70px] text-center grid items-center text-white">
+          <h2 className="font-bold  bg-purple  text-center grid items-center text-white w-full h-full alfa text-2xl">
             {splitAndTrim(stat?.restaurants.fiftyRestaurants[index]?.title)}
-          </div>
+          </h2>
         }
 
-      </div>
-      <div className=" text-center relative img-wrapper ">
-        {!stat?.restaurants.selectedRestaurant?.photo?.logo
-
+      </div >
+      <div className=" text-center relative img-wrapper  h-[120px]">
+        {stat?.restaurants.selectedRestaurant?.photo?.logo && NO_LOGO !== stat?.restaurants.selectedRestaurant?.photo?.logo
           ?
-          <div className={`slot-macihne-text leading-4 text-base bg-purple h-[70px] text-center grid items-center relative ${index !== 1 ? 'text-white ' : 'text-green'}`}>
-            {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
-          </div>
-          :
-          <div className="w-16 h-16 mx-auto">
             <img
-              src={stat?.restaurants.selectedRestaurant?.photo.logo}
-              alt="Picture of the author"
-              className="rounded-full mx-auto object-contain"
-            />
-          </div>
-
+              src={stat?.restaurants.selectedRestaurant?.photo.logo ?? ''}
+              alt=""
+              className="w-full h-full object-contain"
+              />
+          :
+          <h2 className={`slot-macihne-text leading-7 bg-purple text-center grid items-center relative text-white alfa text-2xl w-full h-full rounded-lg `}>
+            {splitAndTrim(stat?.restaurants.selectedRestaurant?.title)}
+          </h2>
         }
 
       </div>

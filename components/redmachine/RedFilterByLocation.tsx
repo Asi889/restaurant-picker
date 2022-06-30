@@ -2,14 +2,15 @@ import React, { useEffect, useState, Fragment, createRef } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { useTimeoutFn } from "react-use";
 import LocationIcon from "../svgs/LocationIcon";
-import FilterLocation from "./LocationModal";
-import LocationModal from "./LocationModal";
+// import FilterLocation from "./LocationModal";
+// import LocationModal from "./LocationModal";
 import { useStore } from "react-redux";
 import { StateProp } from "../../src/types/FetchSubRestaurantTypes";
 import { woltCities } from "../../src/types/ListOfCities";
 import { useSelector } from "react-redux";
+import LocationModal from "../filters/LocationModal";
 
-const FilterByLocation = () => {
+const RedFilterByLocation = () => {
   let [isOpen, setIsOpen] = useState<boolean>(false);
   const lcoationState = useSelector((state: StateProp) => state.restaurants.location)
 
@@ -33,19 +34,19 @@ const FilterByLocation = () => {
   
   return (
     <>
-        <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מסעדות מאזור:</h3>
-      <button className="flex h-12 relative w-full cursor-auto"
+        {/* <h3 className="text-sm italic leading-none text-white translate-y-2">סינון מסעדות מאזור:</h3> */}
+      <button className="flex h-8 relative w-full cursor-auto"
         type="button"
         onClick={openModal}
       >
         <div
-          className="absolute cursor-pointer z-10 rounded-2xl bg-purple h-full w-12 grid place-content-center p-4 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+          className="absolute cursor-pointer z-10 rounded-2xl bg-purple h-full w-6 grid place-content-center p-3 font-medium text-white hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
         >
           <span className="sr-only">פילטור לפי מיקום</span>
-          <LocationIcon givenclass="w-8 h-8 small-bounce " />
+          <LocationIcon givenclass="w-4 h-4 small-bounce " />
 
         </div>
-        <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
+        <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-12 text-lg text-whit truncate text-white h-full  flex place-items-center">
           {city}
         </div>
       </button>
@@ -89,4 +90,4 @@ const FilterByLocation = () => {
   );
 };
 
-export default FilterByLocation;
+export default RedFilterByLocation;

@@ -1,5 +1,5 @@
 {
-    "lastScrapeDate": 1656245672466,
+    "lastScrapeDate": 1656414232837,
     "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.252973&lon=34.791462",
     "restaurants": [
         {
@@ -25,7 +25,32 @@
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/susu-sons-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/susu-sons-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe36bace2791e8c2902b4f1/e4ce56d8-9eb8-11ec-a24b-721e52704065_58463a32_9df5_11ec_b436_7ee71934c123_yaelitz_9.jpeg",
+                "logo": null
+            },
+            "title": "Agadir | Be'er Sheva",
+            "name": "Agadir | Be'er Sheva",
+            "track_id": "venue-agadir-beer-sheva",
+            "address": "שדרות בן גוריון 2, באר שבע",
+            "venue_id": "5fe36bace2791e8c2902b4f1",
+            "location": [
+                34.80678453849229,
+                31.26114931556927
+            ],
+            "short_description": "100% Local Fresh Beef",
+            "slug": "agadir-beer-sheva",
+            "tags": [
+                "burger"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/agadir-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -52,32 +77,7 @@
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/oshi-oshi-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe36bace2791e8c2902b4f1/e4ce56d8-9eb8-11ec-a24b-721e52704065_58463a32_9df5_11ec_b436_7ee71934c123_yaelitz_9.jpeg",
-                "logo": null
-            },
-            "title": "Agadir | Be'er Sheva",
-            "name": "Agadir | Be'er Sheva",
-            "track_id": "venue-agadir-beer-sheva",
-            "address": "שדרות בן גוריון 2, באר שבע",
-            "venue_id": "5fe36bace2791e8c2902b4f1",
-            "location": [
-                34.80678453849229,
-                31.26114931556927
-            ],
-            "short_description": "100% Local Fresh Beef",
-            "slug": "agadir-beer-sheva",
-            "tags": [
-                "burger"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/agadir-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/oshi-oshi-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -102,34 +102,7 @@
             ],
             "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mcdonalds-big-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62246778f668b7c36fab546f/02e2ec44-9d22-11ec-8afb-d220cc94207d_6ded052a_1ea5_11ec_a71a_3e732f0ca56c_l.jpeg",
-                "logo": null
-            },
-            "title": "Pasta Basta | Ringelblum",
-            "name": "Pasta Basta | Ringelblum",
-            "track_id": "venue-pasta-basta-beer-sheva",
-            "address": "רינגלבלום 19",
-            "venue_id": "62246778f668b7c36fab546f",
-            "location": [
-                34.800144,
-                31.2678906
-            ],
-            "short_description": "We came from the market...",
-            "slug": "pasta-basta-beer-sheva",
-            "tags": [
-                "pasta",
-                "pizza",
-                "soup"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pasta-basta-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-big-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -157,35 +130,60 @@
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/libiya"
+                "url": "https://wolt.com/en/isr/undefined/venue/libiya"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62419c028b9bc321d39db71a/a3408fbe-b0cf-11ec-b8bb-ee23e507c26b_30.34598.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62246778f668b7c36fab546f/02e2ec44-9d22-11ec-8afb-d220cc94207d_6ded052a_1ea5_11ec_a71a_3e732f0ca56c_l.jpeg",
                 "logo": null
             },
-            "title": "Mamos | Be'er Sheva",
-            "name": "Mamos | Be'er Sheva",
-            "track_id": "venue-mamos-experss-beer-sheva",
-            "address": "הנגרים 12, באר שבע",
-            "venue_id": "62419c028b9bc321d39db71a",
+            "title": "Pasta Basta | Ringelblum",
+            "name": "Pasta Basta | Ringelblum",
+            "track_id": "venue-pasta-basta-beer-sheva",
+            "address": "רינגלבלום 19",
+            "venue_id": "62246778f668b7c36fab546f",
             "location": [
-                34.8047305,
-                31.2433564
+                34.800144,
+                31.2678906
             ],
-            "short_description": "A World of Flavors",
-            "slug": "mamos-experss-beer-sheva",
+            "short_description": "We came from the market...",
+            "slug": "pasta-basta-beer-sheva",
             "tags": [
-                "homemade",
-                "kosher",
-                "mediterranean",
-                "kosher"
+                "pasta",
+                "pizza",
+                "soup"
             ],
-            "score": 7.4,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mamos-experss-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/pasta-basta-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214a74148d386c3d3562a68/20ecd770-93bf-11ec-8789-2666c4e2b2b4_91e12040_2104_11ec_ae16_9e92dfaa117f_bonfis_9999_181.jpg",
+                "logo": null
+            },
+            "title": "Aldo | Beer Sheva",
+            "name": "Aldo | Beer Sheva",
+            "track_id": "venue-aldo-beer-sheva",
+            "address": "חיים יחיל 18, באר שבע",
+            "venue_id": "6214a74148d386c3d3562a68",
+            "location": [
+                34.8023667,
+                31.2432923
+            ],
+            "short_description": "Italian Love",
+            "slug": "aldo-beer-sheva",
+            "tags": [
+                "dessert",
+                "ice cream"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aldo-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -213,7 +211,7 @@
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hummus-saidbs"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-saidbs"
             },
             "provider": "wolt"
         },
@@ -241,87 +239,7 @@
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/after-pizza-bar-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622fb4636f7e9d75c681ec7c/2df1075a-a456-11ec-a500-52f614629294_ozohyaon_54.jpg",
-                "logo": null
-            },
-            "title": "HEY Cookie | Be'er Sheva",
-            "name": "HEY Cookie | Be'er Sheva",
-            "track_id": "venue-hey-cookie-beer-sheva",
-            "address": "דרך מצדה 35, באר שבע",
-            "venue_id": "622fb4636f7e9d75c681ec7c",
-            "location": [
-                34.7931748,
-                31.2582219
-            ],
-            "short_description": "The Sweetest Cookie Shop | Kosher",
-            "slug": "hey-cookie-beer-sheva",
-            "tags": [
-                "ice cream",
-                "kids",
-                "sweets"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hey-cookie-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214a74148d386c3d3562a68/20ecd770-93bf-11ec-8789-2666c4e2b2b4_91e12040_2104_11ec_ae16_9e92dfaa117f_bonfis_9999_181.jpg",
-                "logo": null
-            },
-            "title": "Aldo | Beer Sheva",
-            "name": "Aldo | Beer Sheva",
-            "track_id": "venue-aldo-beer-sheva",
-            "address": "חיים יחיל 18, באר שבע",
-            "venue_id": "6214a74148d386c3d3562a68",
-            "location": [
-                34.8023667,
-                31.2432923
-            ],
-            "short_description": "Italian Love",
-            "slug": "aldo-beer-sheva",
-            "tags": [
-                "dessert",
-                "ice cream"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/aldo-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622887c8e3a6aa9428e346b0/9c3d901a-a380-11ec-ac2d-72342bd564b0_ozohyaon_5.jpg",
-                "logo": null
-            },
-            "title": "Yalla Shawarma",
-            "name": "Yalla Shawarma",
-            "track_id": "venue-yalla-shawarma",
-            "address": "דוד המלך 2, באר שבע",
-            "venue_id": "622887c8e3a6aa9428e346b0",
-            "location": [
-                34.792792,
-                31.2642891
-            ],
-            "short_description": "Shawarma and Skewers",
-            "slug": "yalla-shawarma",
-            "tags": [
-                "mediterranean",
-                "street food",
-                "sandwich"
-            ],
-            "score": 7,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/yalla-shawarma"
+                "url": "https://wolt.com/en/isr/undefined/venue/after-pizza-bar-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -348,7 +266,142 @@
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/red-meat-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/red-meat-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622887c8e3a6aa9428e346b0/9c3d901a-a380-11ec-ac2d-72342bd564b0_ozohyaon_5.jpg",
+                "logo": null
+            },
+            "title": "Yalla Shawarma",
+            "name": "Yalla Shawarma",
+            "track_id": "venue-yalla-shawarma",
+            "address": "דוד המלך 2, באר שבע",
+            "venue_id": "622887c8e3a6aa9428e346b0",
+            "location": [
+                34.792792,
+                31.2642891
+            ],
+            "short_description": "Shawarma and Skewers",
+            "slug": "yalla-shawarma",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "sandwich"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yalla-shawarma"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6200fc8e314738304415851e/05e9c30a-8cd7-11ec-9eae-32608947a0de_list_2.jpg",
+                "logo": null
+            },
+            "title": "Mukpatzin",
+            "name": "Mukpatzin",
+            "track_id": "venue-mukpatzin",
+            "address": "שדרות ירושלים 2, באר שבע",
+            "venue_id": "6200fc8e314738304415851e",
+            "location": [
+                34.7823216,
+                31.2455145
+            ],
+            "short_description": "Wok & Roll  🥡🥢",
+            "slug": "mukpatzin",
+            "tags": [
+                "asian",
+                "street food",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mukpatzin"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622fb4636f7e9d75c681ec7c/2df1075a-a456-11ec-a500-52f614629294_ozohyaon_54.jpg",
+                "logo": null
+            },
+            "title": "HEY Cookie | Be'er Sheva",
+            "name": "HEY Cookie | Be'er Sheva",
+            "track_id": "venue-hey-cookie-beer-sheva",
+            "address": "דרך מצדה 35, באר שבע",
+            "venue_id": "622fb4636f7e9d75c681ec7c",
+            "location": [
+                34.7931748,
+                31.2582219
+            ],
+            "short_description": "The Sweetest Cookie Shop | Kosher",
+            "slug": "hey-cookie-beer-sheva",
+            "tags": [
+                "ice cream",
+                "kids",
+                "sweets"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hey-cookie-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601fb2fcf3c9be54073dc2d2/928c4db0-6928-11eb-8760-5683faaab30c________.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® ONE Be'er Sheva",
+            "name": "McDonald's® ONE Be'er Sheva",
+            "track_id": "venue-mcdonalds-one-beer-sheva",
+            "address": "יצחק נפחא 25, באר שבע",
+            "venue_id": "601fb2fcf3c9be54073dc2d2",
+            "location": [
+                34.8120535,
+                31.2461259
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-one-beer-sheva",
+            "tags": [
+                "burger",
+                "chicken"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-one-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6107e8137338b18fe9454701/1d2f935a-f38f-11eb-90e5-dacb5c6148a5______1.jpeg",
+                "logo": null
+            },
+            "title": "Klara | Beer Sheva",
+            "name": "Klara | Beer Sheva",
+            "track_id": "venue-clara-beer-sheva",
+            "address": "יוחננוף, אליהו נאוי 12, ב״ש",
+            "venue_id": "6107e8137338b18fe9454701",
+            "location": [
+                34.80926105348609,
+                31.24142955455321
+            ],
+            "short_description": "Skewers & More | Kosher - Rabanut Beer Sheva",
+            "slug": "clara-beer-sheva",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/clara-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -377,35 +430,7 @@
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/old-town-couscous"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214b71f616948a91d901b16/bd980abc-a388-11ec-a3ee-2aeacbd61d22_ozohyaon_3.jpg",
-                "logo": null
-            },
-            "title": "Ha' Yerushalmit",
-            "name": "Ha' Yerushalmit",
-            "track_id": "venue-hayerushalmit",
-            "address": "קק׳׳ל 47",
-            "venue_id": "6214b71f616948a91d901b16",
-            "location": [
-                34.7914635,
-                31.2379629
-            ],
-            "short_description": "Classic Israeli Grill | Kosher",
-            "slug": "hayerushalmit",
-            "tags": [
-                "mediterranean",
-                "sandwich",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hayerushalmit"
+                "url": "https://wolt.com/en/isr/undefined/venue/old-town-couscous"
             },
             "provider": "wolt"
         },
@@ -433,255 +458,7 @@
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hummus-eliyahu-beer-sheva-deal"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6107e8137338b18fe9454701/1d2f935a-f38f-11eb-90e5-dacb5c6148a5______1.jpeg",
-                "logo": null
-            },
-            "title": "Klara | Beer Sheva",
-            "name": "Klara | Beer Sheva",
-            "track_id": "venue-clara-beer-sheva",
-            "address": "יוחננוף, אליהו נאוי 12, ב״ש",
-            "venue_id": "6107e8137338b18fe9454701",
-            "location": [
-                34.80926105348609,
-                31.24142955455321
-            ],
-            "short_description": "Skewers & More | Kosher - Rabanut Beer Sheva",
-            "slug": "clara-beer-sheva",
-            "tags": [
-                "kosher",
-                "mediterranean",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/clara-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbe302f94e538f5a23d7c63/2d49f262-6bc6-11ec-bcde-cae5a17d2c46_ozohyaon_30.jpg",
-                "logo": null
-            },
-            "title": "Hayarok",
-            "name": "Hayarok",
-            "track_id": "venue-ayarok",
-            "address": "השלום 48, באר שבע",
-            "venue_id": "5fbe302f94e538f5a23d7c63",
-            "location": [
-                34.80710327432497,
-                31.251924645228915
-            ],
-            "short_description": "The Original Falafel & Shawarma 🧆",
-            "slug": "ayarok",
-            "tags": [
-                "kosher",
-                "mediterranean",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/ayarok"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6200fc8e314738304415851e/05e9c30a-8cd7-11ec-9eae-32608947a0de_list_2.jpg",
-                "logo": null
-            },
-            "title": "Mukpatzin",
-            "name": "Mukpatzin",
-            "track_id": "venue-mukpatzin",
-            "address": "שדרות ירושלים 2, באר שבע",
-            "venue_id": "6200fc8e314738304415851e",
-            "location": [
-                34.7823216,
-                31.2455145
-            ],
-            "short_description": "Wok & Roll  🥡🥢",
-            "slug": "mukpatzin",
-            "tags": [
-                "asian",
-                "street food",
-                "kosher"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mukpatzin"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622f4ec7462725d5c181daa3/9c1e1bee-a462-11ec-9cea-0ecaba4e96ed_ozohyaon_30.jpg",
-                "logo": null
-            },
-            "title": "Red Angus | Be'er Sheva",
-            "name": "Red Angus | Be'er Sheva",
-            "track_id": "venue-red-angos-beer-sheva",
-            "address": "קק״ל 53, באר שבע",
-            "venue_id": "622f4ec7462725d5c181daa3",
-            "location": [
-                34.7912833,
-                31.2381254
-            ],
-            "short_description": "Israeli Grill",
-            "slug": "red-angos-beer-sheva",
-            "tags": [
-                "mediterranean",
-                "sandwich",
-                "street food"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/red-angos-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61962bfbba3840d2a35aee64/7a755e94-5061-11ec-bd8d-be2639ab4577_list.jpg",
-                "logo": null
-            },
-            "title": "Hummus Baba",
-            "name": "Hummus Baba",
-            "track_id": "venue-hummus-said",
-            "address": "This is a virtual venue",
-            "venue_id": "61962bfbba3840d2a35aee64",
-            "location": [
-                34.7909813,
-                31.2386092
-            ],
-            "short_description": "Local Homemade Hummus | Kosher",
-            "slug": "hummus-said",
-            "tags": [
-                "street food",
-                "vegan",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hummus-said"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6051e4c974a6b9b5eee96c26/799db496-a119-11eb-a4fc-ead1caa9a46a_bonfis_9999_5.jpg",
-                "logo": null
-            },
-            "title": "Ha'Hummus Shel HaMidbar",
-            "name": "Ha'Hummus Shel HaMidbar",
-            "track_id": "venue-ahummuseia-shel-amedbar",
-            "address": "אליהו הנביא 2, באר שבע",
-            "venue_id": "6051e4c974a6b9b5eee96c26",
-            "location": [
-                34.7923821,
-                31.2647045
-            ],
-            "short_description": "Hummus, Beans, Falafel & Traditional Food",
-            "slug": "ahummuseia-shel-amedbar",
-            "tags": [
-                "vegan",
-                "mediterranean"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/ahummuseia-shel-amedbar"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/624015b177cbdccece00bce4/ee8df5dc-ada1-11ec-85bc-7ae4b0852e3c_ed72064a_6467_11eb_9867_06fac92bef9c_______1_.jpg",
-                "logo": null
-            },
-            "title": "Cafe Alma | Beer Sheva",
-            "name": "Cafe Alma | Beer Sheva",
-            "track_id": "venue-cafe-alma-beer-sheva",
-            "address": "יצחק בן צבי 2, באר שבע",
-            "venue_id": "624015b177cbdccece00bce4",
-            "location": [
-                34.7954849,
-                31.24413
-            ],
-            "short_description": "Simply a Good Neighborhood Cafe\n",
-            "slug": "cafe-alma-beer-sheva",
-            "tags": [
-                "café",
-                "israeli",
-                "kids",
-                "kosher"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/cafe-alma-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619a1e43016ea81e1b5c2dea/e66f6b0e-5060-11ec-8ee4-4ed9f5d22dbd_list.jpg",
-                "logo": null
-            },
-            "title": "Sweet & Salty",
-            "name": "Sweet & Salty",
-            "track_id": "venue-sweet-salty",
-            "address": "בית אשל 28",
-            "venue_id": "619a1e43016ea81e1b5c2dea",
-            "location": [
-                34.79242785479379,
-                31.23745944327021
-            ],
-            "short_description": "French Crepes & More. Kosher",
-            "slug": "sweet-salty",
-            "tags": [
-                "breakfast",
-                "dessert",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/sweet-salty"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61766a1b4b1072a0b3cd351e/587992c4-356d-11ec-84d7-2ede9a5a044e_4424efe8_dcb4_11ea_a7b4_b235647e7e52___________.jpg",
-                "logo": null
-            },
-            "title": "Mr. Pretzels | Be'er Sheva",
-            "name": "Mr. Pretzels | Be'er Sheva",
-            "track_id": "venue-mr-pretzels-beer-sheva",
-            "address": "קניון עזריאלי, יצחק רגר 2, באר שבע",
-            "venue_id": "61766a1b4b1072a0b3cd351e",
-            "location": [
-                34.79491930740868,
-                31.243726000000017
-            ],
-            "short_description": "Fresh Hot Pretzels with Fun Toppings | Kosher",
-            "slug": "mr-pretzels-beer-sheva",
-            "tags": [
-                "bakery",
-                "dessert",
-                "kids",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mr-pretzels-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-beer-sheva-deal"
             },
             "provider": "wolt"
         },
@@ -709,63 +486,174 @@
             ],
             "score": 9.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/rebar-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/rebar-beer-sheva"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c2a502030b017ab85e7e5/206644ba-a34e-11eb-8dc1-ce6d45e731f9_0e8ebf7c_744d_11eb_88ae_26571da3e801_ac25cf66_e7a6_11ea_bcaa_2ea6c6a4d759_1.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622f4ec7462725d5c181daa3/9c1e1bee-a462-11ec-9cea-0ecaba4e96ed_ozohyaon_30.jpg",
                 "logo": null
             },
-            "title": "B-FRESH Kosher | Grand Be'er Sheva",
-            "name": "B-FRESH Kosher | Grand Be'er Sheva",
-            "track_id": "venue-b-fresh-beer-sheva",
-            "address": "דוד טוביהו 125, באר שבע",
-            "venue_id": "607c2a502030b017ab85e7e5",
+            "title": "Red Angus | Be'er Sheva",
+            "name": "Red Angus | Be'er Sheva",
+            "track_id": "venue-red-angos-beer-sheva",
+            "address": "קק״ל 53, באר שבע",
+            "venue_id": "622f4ec7462725d5c181daa3",
             "location": [
-                34.772799756623854,
-                31.25014520275968
+                34.7912833,
+                31.2381254
             ],
-            "short_description": "Drinks | Health | Tapioca ",
-            "slug": "b-fresh-beer-sheva",
+            "short_description": "Israeli Grill",
+            "slug": "red-angos-beer-sheva",
             "tags": [
-                "Health",
+                "mediterranean",
+                "sandwich",
+                "street food"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/red-angos-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61962bfbba3840d2a35aee64/7a755e94-5061-11ec-bd8d-be2639ab4577_list.jpg",
+                "logo": null
+            },
+            "title": "Hummus Baba",
+            "name": "Hummus Baba",
+            "track_id": "venue-hummus-said",
+            "address": "This is a virtual venue",
+            "venue_id": "61962bfbba3840d2a35aee64",
+            "location": [
+                34.7909813,
+                31.2386092
+            ],
+            "short_description": "Local Homemade Hummus | Kosher",
+            "slug": "hummus-said",
+            "tags": [
+                "street food",
+                "vegan",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-said"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214b71f616948a91d901b16/bd980abc-a388-11ec-a3ee-2aeacbd61d22_ozohyaon_3.jpg",
+                "logo": null
+            },
+            "title": "Ha' Yerushalmit",
+            "name": "Ha' Yerushalmit",
+            "track_id": "venue-hayerushalmit",
+            "address": "קק׳׳ל 47",
+            "venue_id": "6214b71f616948a91d901b16",
+            "location": [
+                34.7914635,
+                31.2379629
+            ],
+            "short_description": "Classic Israeli Grill | Kosher",
+            "slug": "hayerushalmit",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hayerushalmit"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fbe302f94e538f5a23d7c63/2d49f262-6bc6-11ec-bcde-cae5a17d2c46_ozohyaon_30.jpg",
+                "logo": null
+            },
+            "title": "Hayarok",
+            "name": "Hayarok",
+            "track_id": "venue-ayarok",
+            "address": "השלום 48, באר שבע",
+            "venue_id": "5fbe302f94e538f5a23d7c63",
+            "location": [
+                34.80710327432497,
+                31.251924645228915
+            ],
+            "short_description": "The Original Falafel & Shawarma 🧆",
+            "slug": "ayarok",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ayarok"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/624015b177cbdccece00bce4/ee8df5dc-ada1-11ec-85bc-7ae4b0852e3c_ed72064a_6467_11eb_9867_06fac92bef9c_______1_.jpg",
+                "logo": null
+            },
+            "title": "Cafe Alma | Beer Sheva",
+            "name": "Cafe Alma | Beer Sheva",
+            "track_id": "venue-cafe-alma-beer-sheva",
+            "address": "יצחק בן צבי 2, באר שבע",
+            "venue_id": "624015b177cbdccece00bce4",
+            "location": [
+                34.7954849,
+                31.24413
+            ],
+            "short_description": "Simply a Good Neighborhood Cafe\n",
+            "slug": "cafe-alma-beer-sheva",
+            "tags": [
+                "café",
+                "israeli",
                 "kids",
-                "kosher",
                 "kosher"
             ],
-            "score": 9.2,
+            "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/b-fresh-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-alma-beer-sheva"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61add2c123d7b1142e041a33/9a4cbc08-5674-11ec-95ed-9e36fa60c423_e009459e_6a0d_11eb_a624_5eb68190694f_yaelitz.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619a1e43016ea81e1b5c2dea/e66f6b0e-5060-11ec-8ee4-4ed9f5d22dbd_list.jpg",
                 "logo": null
             },
-            "title": "Café Greg | Grand Be'er Sheva",
-            "name": "Café Greg | Grand Be'er Sheva",
-            "track_id": "venue-caf-greg-grand-beer-sheva",
-            "address": "שדרות דוד טוביהו 125",
-            "venue_id": "61add2c123d7b1142e041a33",
+            "title": "Sweet & Salty",
+            "name": "Sweet & Salty",
+            "track_id": "venue-sweet-salty",
+            "address": "בית אשל 28",
+            "venue_id": "619a1e43016ea81e1b5c2dea",
             "location": [
-                34.772713925933985,
-                31.25032908883029
+                34.79242785479379,
+                31.23745944327021
             ],
-            "short_description": "Restaurant & Cafe - Kosher Lemehadrin",
-            "slug": "caf-greg-grand-beer-sheva",
+            "short_description": "French Crepes & More. Kosher",
+            "slug": "sweet-salty",
             "tags": [
+                "breakfast",
+                "dessert",
                 "kosher",
-                "pizza",
-                "salad",
                 "kosher"
             ],
-            "score": 8.2,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/caf-greg-grand-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/sweet-salty"
             },
             "provider": "wolt"
         },
@@ -793,60 +681,35 @@
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pre-pretzel"
+                "url": "https://wolt.com/en/isr/undefined/venue/pre-pretzel"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61658b9c229b7a0032853d46/393a4c90-2b5f-11ec-9f8c-a2d99650035c_914ae74e_5250_11ea_a0e3_0a58646e9c7a_list.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61766a1b4b1072a0b3cd351e/587992c4-356d-11ec-84d7-2ede9a5a044e_4424efe8_dcb4_11ea_a7b4_b235647e7e52___________.jpg",
                 "logo": null
             },
-            "title": "Broaster Chicken | Be'er Sheva",
-            "name": "Broaster Chicken | Be'er Sheva",
-            "track_id": "venue-broaster-chicken-beer-sheva",
-            "address": "קניון עזראלי, יצחק רגר 2",
-            "venue_id": "61658b9c229b7a0032853d46",
+            "title": "Mr. Pretzels | Be'er Sheva",
+            "name": "Mr. Pretzels | Be'er Sheva",
+            "track_id": "venue-mr-pretzels-beer-sheva",
+            "address": "קניון עזריאלי, יצחק רגר 2, באר שבע",
+            "venue_id": "61766a1b4b1072a0b3cd351e",
             "location": [
-                34.79502123135157,
-                31.24386339701434
+                34.79491930740868,
+                31.243726000000017
             ],
-            "short_description": "Crispy Chicken",
-            "slug": "broaster-chicken-beer-sheva",
+            "short_description": "Fresh Hot Pretzels with Fun Toppings | Kosher",
+            "slug": "mr-pretzels-beer-sheva",
             "tags": [
-                "kosher",
-                "chicken",
-                "sandwich"
+                "bakery",
+                "dessert",
+                "kids",
+                "kosher"
             ],
-            "score": 7.8,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/broaster-chicken-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60cf32ccb17c886e0859b18e/5d93a114-d1c2-11eb-89d3-4a661c0196fb_pic_1.jpeg",
-                "logo": null
-            },
-            "title": "ChillBox | Beer Sheva",
-            "name": "ChillBox | Beer Sheva",
-            "track_id": "venue-chillbox-beer-sheva",
-            "address": "יצחק נפחא 25",
-            "venue_id": "60cf32ccb17c886e0859b18e",
-            "location": [
-                34.8120535,
-                31.2461259
-            ],
-            "short_description": "Greek Yogurt",
-            "slug": "chillbox-beer-sheva",
-            "tags": [
-                "ice cream",
-                "sweets"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/chillbox-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/mr-pretzels-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -872,7 +735,7 @@
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/glida-beer-sheva-julia"
+                "url": "https://wolt.com/en/isr/undefined/venue/glida-beer-sheva-julia"
             },
             "provider": "wolt"
         },
@@ -900,7 +763,7 @@
             ],
             "score": 7.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hadalpak"
+                "url": "https://wolt.com/en/isr/undefined/venue/hadalpak"
             },
             "provider": "wolt"
         },
@@ -927,7 +790,61 @@
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/freshop-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/freshop-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c2a502030b017ab85e7e5/206644ba-a34e-11eb-8dc1-ce6d45e731f9_0e8ebf7c_744d_11eb_88ae_26571da3e801_ac25cf66_e7a6_11ea_bcaa_2ea6c6a4d759_1.jpeg",
+                "logo": null
+            },
+            "title": "B-FRESH Kosher | Grand Be'er Sheva",
+            "name": "B-FRESH Kosher | Grand Be'er Sheva",
+            "track_id": "venue-b-fresh-beer-sheva",
+            "address": "דוד טוביהו 125, באר שבע",
+            "venue_id": "607c2a502030b017ab85e7e5",
+            "location": [
+                34.772799756623854,
+                31.25014520275968
+            ],
+            "short_description": "Drinks | Health | Tapioca ",
+            "slug": "b-fresh-beer-sheva",
+            "tags": [
+                "Health",
+                "kids",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6051e4c974a6b9b5eee96c26/799db496-a119-11eb-a4fc-ead1caa9a46a_bonfis_9999_5.jpg",
+                "logo": null
+            },
+            "title": "Ha'Hummus Shel HaMidbar",
+            "name": "Ha'Hummus Shel HaMidbar",
+            "track_id": "venue-ahummuseia-shel-amedbar",
+            "address": "אליהו הנביא 2, באר שבע",
+            "venue_id": "6051e4c974a6b9b5eee96c26",
+            "location": [
+                34.7923821,
+                31.2647045
+            ],
+            "short_description": "Hummus, Beans, Falafel & Traditional Food",
+            "slug": "ahummuseia-shel-amedbar",
+            "tags": [
+                "mediterranean",
+                "street food"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ahummuseia-shel-amedbar"
             },
             "provider": "wolt"
         },
@@ -954,7 +871,7 @@
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/habsarit"
+                "url": "https://wolt.com/en/isr/undefined/venue/habsarit"
             },
             "provider": "wolt"
         },
@@ -983,63 +900,60 @@
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pizza-pie-migdali-nof"
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-pie-migdali-nof"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61125e8100f457a1679aa0c4/8ad8e0c2-f9cb-11eb-ab73-c6981f77ccca_6221ad00_6496_11eb_8ee4_de53093ef741_______.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611cda7dd7e62b1850c7c7f9/900dd9fc-5034-11ec-a248-b2144a829e86__________.jpg",
                 "logo": null
             },
-            "title": "JetLek | Be'er Sheva",
-            "name": "JetLek | Be'er Sheva",
-            "track_id": "venue-jetlek-beer-shevaa",
-            "address": "התאנה 22, באר שבע",
-            "venue_id": "61125e8100f457a1679aa0c4",
+            "title": "rebar | Yes Planet",
+            "name": "rebar | Yes Planet",
+            "track_id": "venue-rebar-yes-planet",
+            "address": "ברוך קטינקא 2",
+            "venue_id": "611cda7dd7e62b1850c7c7f9",
             "location": [
-                34.7973816,
-                31.233122
+                34.8010901,
+                31.22438529999999
             ],
-            "short_description": "Ice-cream, Desserts, Frozen yogurt | Kosher",
-            "slug": "jetlek-beer-shevaa",
+            "short_description": "smoothies, juices, wellness choices",
+            "slug": "rebar-yes-planet",
             "tags": [
-                "dessert",
-                "ice cream",
-                "ice cream",
-                "kosher"
+                "smoothie",
+                "healthy",
+                "dessert"
             ],
-            "score": 8.2,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/jetlek-beer-shevaa"
+                "url": "https://wolt.com/en/isr/undefined/venue/rebar-yes-planet"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60817a93d77460cd686519ad/10100b98-a36f-11eb-a455-ee84596756df_2f168826_99c7_11ea_bab7_0a586472cb09_boker_zugi.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb277fc61574ecf868eb80/a9af6bd8-5eee-11eb-901f-9ae68454f5aa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
                 "logo": null
             },
-            "title": "Biga | Grand Be'er Sheva",
-            "name": "Biga | Grand Be'er Sheva",
-            "track_id": "venue-biga-grand-mall",
-            "address": "שדרות דוד טוביהו 125",
-            "venue_id": "60817a93d77460cd686519ad",
+            "title": "Burgeranch | Neve Zeev",
+            "name": "Burgeranch | Neve Zeev",
+            "track_id": "venue-burgeranch-neve-zeev",
+            "address": "שדרות יוהנה ז'בוטינסקי 28, באר שבע",
+            "venue_id": "5feb277fc61574ecf868eb80",
             "location": [
-                34.7716625,
-                31.2506405
+                34.77434,
+                31.2394
             ],
-            "short_description": "Kitchen. Bakery. Coffee. ",
-            "slug": "biga-grand-mall",
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-neve-zeev",
             "tags": [
-                "salad",
-                "sandwich",
-                "kosher",
-                "kosher"
+                "burger",
+                "street food"
             ],
-            "score": 8.2,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/biga-grand-mall"
+                "url": "https://wolt.com/en/isr/undefined/venue/burgeranch-neve-zeev"
             },
             "provider": "wolt"
         },
@@ -1067,340 +981,34 @@
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/daisho-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/daisho-beer-sheva"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098ecec8f469c533cce8e1f/da69b0c2-cced-11eb-97ce-023aa8c30806_fto05111_5.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61658b9c229b7a0032853d46/393a4c90-2b5f-11ec-9f8c-a2d99650035c_914ae74e_5250_11ea_a0e3_0a58646e9c7a_list.jpeg",
                 "logo": null
             },
-            "title": "Crazy Corn",
-            "name": "Crazy Corn",
-            "track_id": "venue-crazy-corn",
-            "address": "קק״ל 40, באר שבע",
-            "venue_id": "6098ecec8f469c533cce8e1f",
+            "title": "Broaster Chicken | Be'er Sheva",
+            "name": "Broaster Chicken | Be'er Sheva",
+            "track_id": "venue-broaster-chicken-beer-sheva",
+            "address": "קניון עזראלי, יצחק רגר 2",
+            "venue_id": "61658b9c229b7a0032853d46",
             "location": [
-                34.7917313,
-                31.2381345
+                34.79502123135157,
+                31.24386339701434
             ],
-            "short_description": "The House of Corn",
-            "slug": "crazy-corn",
+            "short_description": "Crispy Chicken",
+            "slug": "broaster-chicken-beer-sheva",
             "tags": [
-                "healthy",
-                "pasta",
-                "salad"
-            ],
-            "score": 7.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/crazy-corn"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb277fc61574ecf868eb80/a9af6bd8-5eee-11eb-901f-9ae68454f5aa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
-                "logo": null
-            },
-            "title": "Burgeranch | Neve Zeev",
-            "name": "Burgeranch | Neve Zeev",
-            "track_id": "venue-burgeranch-neve-zeev",
-            "address": "שדרות יוהנה ז'בוטינסקי 28, באר שבע",
-            "venue_id": "5feb277fc61574ecf868eb80",
-            "location": [
-                34.77434,
-                31.2394
-            ],
-            "short_description": "Burgers for the whole family",
-            "slug": "burgeranch-neve-zeev",
-            "tags": [
-                "burger",
-                "street food"
+                "kosher",
+                "chicken",
+                "sandwich"
             ],
             "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burgeranch-neve-zeev"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6016785957e00b4accd5ffe9/d96b2be8-63a6-11eb-8316-822feba74bf6________.jpg",
-                "logo": null
-            },
-            "title": "McDonald׳s® Eged Be'er Sheva Kosher",
-            "name": "McDonald׳s® Eged Be'er Sheva Kosher",
-            "track_id": "venue-mcdonalds-eged-beer-sheva",
-            "address": "תחנה מרכזית באר שבע יצחק בן צבי 1 ",
-            "venue_id": "6016785957e00b4accd5ffe9",
-            "location": [
-                34.7975314,
-                31.2425712
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel\n",
-            "slug": "mcdonalds-eged-beer-sheva",
-            "tags": [
-                "burger",
-                "chicken",
-                "breakfast",
-                "kosher"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mcdonalds-eged-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611cda7dd7e62b1850c7c7f9/900dd9fc-5034-11ec-a248-b2144a829e86__________.jpg",
-                "logo": null
-            },
-            "title": "rebar | Yes Planet",
-            "name": "rebar | Yes Planet",
-            "track_id": "venue-rebar-yes-planet",
-            "address": "ברוך קטינקא 2",
-            "venue_id": "611cda7dd7e62b1850c7c7f9",
-            "location": [
-                34.8010901,
-                31.22438529999999
-            ],
-            "short_description": "smoothies, juices, wellness choices",
-            "slug": "rebar-yes-planet",
-            "tags": [
-                "smoothie",
-                "healthy",
-                "dessert"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/rebar-yes-planet"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62691f34e945b72063375155/a0bab1b4-c6ed-11ec-8f04-d2f691a9a8ac_ozohyaon_27.jpg",
-                "logo": null
-            },
-            "title": "Kube Bar",
-            "name": "Kube Bar",
-            "track_id": "venue-kube-bar",
-            "address": "קרן קיימת לישראל 63",
-            "venue_id": "62691f34e945b72063375155",
-            "location": [
-                34.7911693,
-                31.2382236
-            ],
-            "short_description": "Kube for the Soul",
-            "slug": "kube-bar",
-            "tags": [
-                "kosher",
-                "mediterranean",
-                "street food",
-                "kosher",
-                "new"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/kube-bar"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626e65de835573a4401e836a/9e57716a-e03c-11ec-8285-36da9e32a840_____.jpg",
-                "logo": null
-            },
-            "title": "Shalom Al Lechem",
-            "name": "Shalom Al Lechem",
-            "track_id": "venue-shalom-al-lechem",
-            "address": "קק״ל 29, באר שבע",
-            "venue_id": "626e65de835573a4401e836a",
-            "location": [
-                34.7919547,
-                31.2376545
-            ],
-            "short_description": "Pita Arais on the stove",
-            "slug": "shalom-al-lechem",
-            "tags": [
-                "mediterranean",
-                "sandwich",
-                "street food",
-                "kosher",
-                "new"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/shalom-al-lechem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6051ed561d56326840b08c4b/951ae1b2-4c4f-11ec-bb07-ced487a05f79_ozohyaon_64.jpg",
-                "logo": null
-            },
-            "title": "Home Flavours",
-            "name": "Home Flavours",
-            "track_id": "venue-matamei-habaite",
-            "address": "מקס נורדאו 1, באר שבע",
-            "venue_id": "6051ed561d56326840b08c4b",
-            "location": [
-                34.7998825,
-                31.243594
-            ],
-            "short_description": "Real Homemade Food",
-            "slug": "matamei-habaite",
-            "tags": [
-                "kosher",
-                "mediterranean",
-                "healthy",
-                "kosher"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/matamei-habaite"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616d6fad85000c2770549d9c/28554c2c-8a4b-11ec-a877-4a256a427da8__________________02.jpg",
-                "logo": null
-            },
-            "title": "Burgers Bar | Be'er Sheva",
-            "name": "Burgers Bar | Be'er Sheva",
-            "track_id": "venue-burgers-bar-beer-sheva",
-            "address": "David Tuviyahu Ave 125, Be'er Sheva",
-            "venue_id": "616d6fad85000c2770549d9c",
-            "location": [
-                34.7716625,
-                31.2506405
-            ],
-            "short_description": "Much More Than Hamburger\n",
-            "slug": "burgers-bar-beer-sheva",
-            "tags": [
-                "burger",
-                "american",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burgers-bar-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612f7d8c1f5d224d6ae41086/891b064c-210e-11ec-b39c-6e2100a57ac3_r72a0013.jpg",
-                "logo": null
-            },
-            "title": "Amiro's",
-            "name": "Amiro's",
-            "track_id": "venue-amiros",
-            "address": "קניון עזראלי, יצחק רגר 2",
-            "venue_id": "612f7d8c1f5d224d6ae41086",
-            "location": [
-                34.79514461296653,
-                31.243799278432398
-            ],
-            "short_description": "Meaty Sandwiches 🥙",
-            "slug": "amiros",
-            "tags": [
-                "burger",
-                "kosher",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/amiros"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a160cae28e22ac2f2ffc8/b5c77c26-d9bd-11ec-9a09-e209a67a308c_b6a71c52_50f4_11ec_b574_bae47eeb1f2e_ozohyaon_60.jpg",
-                "logo": null
-            },
-            "title": "Sensei Sushi Bar",
-            "name": "Sensei Sushi Bar",
-            "track_id": "venue-sensei-sushi-bar1",
-            "address": "קרן קיימת לישראל 46",
-            "venue_id": "628a160cae28e22ac2f2ffc8",
-            "location": [
-                34.791549,
-                31.2381331
-            ],
-            "short_description": "Kosher Sushi Bar 🍣\n",
-            "slug": "sensei-sushi-bar1",
-            "tags": [
-                "asian",
-                "japanese",
-                "sushi",
-                "kosher",
-                "new"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/sensei-sushi-bar1"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6266adcbe921efc8147c0987/a8675b80-c55b-11ec-9d0e-82d50858ea84_ozohyaon_14.jpg",
-                "logo": null
-            },
-            "title": "Helev Hitim",
-            "name": "Helev Hitim",
-            "track_id": "venue-helev-hitim",
-            "address": "אביגדור המאירי 29",
-            "venue_id": "6266adcbe921efc8147c0987",
-            "location": [
-                34.7747075,
-                31.2399445
-            ],
-            "short_description": "Original Turkish borax | Kosher Badatz Beit Yosef",
-            "slug": "helev-hitim",
-            "tags": [
-                "kosher",
-                "mediterranean",
-                "street food",
-                "kosher",
-                "new"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/helev-hitim"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62052b873d1e4514565d46df/03ecc3c2-8a84-11ec-ba3d-aa04fd2b8ab2_5aa02396_5a40_11eb_934f_5acb58540757_7446edba_0cb7_11eb_91b0_ae641bef164c_1.jpg",
-                "logo": null
-            },
-            "title": "Leggenda | Beer Sheva",
-            "name": "Leggenda | Beer Sheva",
-            "track_id": "venue-leggenda-beer-sheva",
-            "address": "קטינקא 2, יס פלאנט",
-            "venue_id": "62052b873d1e4514565d46df",
-            "location": [
-                34.8010901,
-                31.22438529999999
-            ],
-            "short_description": "Ice Cream & Frozen Yogurt\n",
-            "slug": "leggenda-beer-sheva",
-            "tags": [
-                "dessert",
-                "ice cream"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/leggenda-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/broaster-chicken-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1428,7 +1036,393 @@
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/alma-gelato"
+                "url": "https://wolt.com/en/isr/undefined/venue/alma-gelato"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6051ed561d56326840b08c4b/951ae1b2-4c4f-11ec-bb07-ced487a05f79_ozohyaon_64.jpg",
+                "logo": null
+            },
+            "title": "Home Flavours",
+            "name": "Home Flavours",
+            "track_id": "venue-matamei-habaite",
+            "address": "מקס נורדאו 1, באר שבע",
+            "venue_id": "6051ed561d56326840b08c4b",
+            "location": [
+                34.7998825,
+                31.243594
+            ],
+            "short_description": "Real Homemade Food",
+            "slug": "matamei-habaite",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "healthy",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/matamei-habaite"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60cf32ccb17c886e0859b18e/5d93a114-d1c2-11eb-89d3-4a661c0196fb_pic_1.jpeg",
+                "logo": null
+            },
+            "title": "ChillBox | Beer Sheva",
+            "name": "ChillBox | Beer Sheva",
+            "track_id": "venue-chillbox-beer-sheva",
+            "address": "יצחק נפחא 25",
+            "venue_id": "60cf32ccb17c886e0859b18e",
+            "location": [
+                34.8120535,
+                31.2461259
+            ],
+            "short_description": "Greek Yogurt",
+            "slug": "chillbox-beer-sheva",
+            "tags": [
+                "ice cream",
+                "sweets"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/chillbox-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616d6fad85000c2770549d9c/28554c2c-8a4b-11ec-a877-4a256a427da8__________________02.jpg",
+                "logo": null
+            },
+            "title": "Burgers Bar | Be'er Sheva",
+            "name": "Burgers Bar | Be'er Sheva",
+            "track_id": "venue-burgers-bar-beer-sheva",
+            "address": "David Tuviyahu Ave 125, Be'er Sheva",
+            "venue_id": "616d6fad85000c2770549d9c",
+            "location": [
+                34.7716625,
+                31.2506405
+            ],
+            "short_description": "Much More Than Hamburger\n",
+            "slug": "burgers-bar-beer-sheva",
+            "tags": [
+                "burger",
+                "american",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burgers-bar-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61125e8100f457a1679aa0c4/8ad8e0c2-f9cb-11eb-ab73-c6981f77ccca_6221ad00_6496_11eb_8ee4_de53093ef741_______.jpeg",
+                "logo": null
+            },
+            "title": "JetLek | Be'er Sheva",
+            "name": "JetLek | Be'er Sheva",
+            "track_id": "venue-jetlek-beer-shevaa",
+            "address": "התאנה 22, באר שבע",
+            "venue_id": "61125e8100f457a1679aa0c4",
+            "location": [
+                34.7973816,
+                31.233122
+            ],
+            "short_description": "Ice-cream, Desserts, Frozen yogurt | Kosher",
+            "slug": "jetlek-beer-shevaa",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/jetlek-beer-shevaa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098ecec8f469c533cce8e1f/da69b0c2-cced-11eb-97ce-023aa8c30806_fto05111_5.jpg",
+                "logo": null
+            },
+            "title": "Crazy Corn",
+            "name": "Crazy Corn",
+            "track_id": "venue-crazy-corn",
+            "address": "קק״ל 40, באר שבע",
+            "venue_id": "6098ecec8f469c533cce8e1f",
+            "location": [
+                34.7917313,
+                31.2381345
+            ],
+            "short_description": "The House of Corn",
+            "slug": "crazy-corn",
+            "tags": [
+                "healthy",
+                "pasta",
+                "salad"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/crazy-corn"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626e65de835573a4401e836a/9e57716a-e03c-11ec-8285-36da9e32a840_____.jpg",
+                "logo": null
+            },
+            "title": "Shalom Al Lechem",
+            "name": "Shalom Al Lechem",
+            "track_id": "venue-shalom-al-lechem",
+            "address": "קק״ל 29, באר שבע",
+            "venue_id": "626e65de835573a4401e836a",
+            "location": [
+                34.7919547,
+                31.2376545
+            ],
+            "short_description": "Pita Arais on the stove",
+            "slug": "shalom-al-lechem",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "street food",
+                "kosher",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shalom-al-lechem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a5c8db65a4db4ce06320da/81f27f94-f06b-11ec-b7e6-ba42b6dd25fa_list.jpg",
+                "logo": null
+            },
+            "title": "Pita Katsavim",
+            "name": "Pita Katsavim",
+            "track_id": "venue-pita-katsavim",
+            "address": "דרך חברון 2, באר שבע",
+            "venue_id": "62a5c8db65a4db4ce06320da",
+            "location": [
+                34.7930441,
+                31.2373287
+            ],
+            "short_description": "Meat Experience",
+            "slug": "pita-katsavim",
+            "tags": [
+                "grill",
+                "mediterranean",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pita-katsavim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6266adcbe921efc8147c0987/a8675b80-c55b-11ec-9d0e-82d50858ea84_ozohyaon_14.jpg",
+                "logo": null
+            },
+            "title": "Helev Hitim",
+            "name": "Helev Hitim",
+            "track_id": "venue-helev-hitim",
+            "address": "אביגדור המאירי 29",
+            "venue_id": "6266adcbe921efc8147c0987",
+            "location": [
+                34.7747075,
+                31.2399445
+            ],
+            "short_description": "Original Turkish borax | Kosher Badatz Beit Yosef",
+            "slug": "helev-hitim",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/helev-hitim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60081cd8601b646baa2b4d24/a2295998-6491-11eb-a734-662e36d59fd9_aa658426_4dc4_11eb_9d6e_4a5d5c9bf0b7_483061ce_2ccf_11eb_a119_26a35a645d5f_1.jpg",
+                "logo": null
+            },
+            "title": "Pancake House | Be'er Sheva",
+            "name": "Pancake House | Be'er Sheva",
+            "track_id": "venue-pancake-house-beer-sheba",
+            "address": "יצחק נפחא 25, באר שבע",
+            "venue_id": "60081cd8601b646baa2b4d24",
+            "location": [
+                34.81178527909908,
+                31.246125899998592
+            ],
+            "short_description": "The Original House Of Pancakes",
+            "slug": "pancake-house-beer-sheba",
+            "tags": [
+                "pancakes",
+                "ice cream",
+                "dessert",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pancake-house-beer-sheba"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612f7d8c1f5d224d6ae41086/891b064c-210e-11ec-b39c-6e2100a57ac3_r72a0013.jpg",
+                "logo": null
+            },
+            "title": "Amiro's",
+            "name": "Amiro's",
+            "track_id": "venue-amiros",
+            "address": "קניון עזראלי, יצחק רגר 2",
+            "venue_id": "612f7d8c1f5d224d6ae41086",
+            "location": [
+                34.79514461296653,
+                31.243799278432398
+            ],
+            "short_description": "Meaty Sandwiches 🥙",
+            "slug": "amiros",
+            "tags": [
+                "burger",
+                "kosher",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/amiros"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60817a93d77460cd686519ad/10100b98-a36f-11eb-a455-ee84596756df_2f168826_99c7_11ea_bab7_0a586472cb09_boker_zugi.jpeg",
+                "logo": null
+            },
+            "title": "Biga | Grand Be'er Sheva",
+            "name": "Biga | Grand Be'er Sheva",
+            "track_id": "venue-biga-grand-mall",
+            "address": "שדרות דוד טוביהו 125",
+            "venue_id": "60817a93d77460cd686519ad",
+            "location": [
+                34.7716625,
+                31.2506405
+            ],
+            "short_description": "Kitchen. Bakery. Coffee. ",
+            "slug": "biga-grand-mall",
+            "tags": [
+                "salad",
+                "sandwich",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-grand-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62691f34e945b72063375155/a0bab1b4-c6ed-11ec-8f04-d2f691a9a8ac_ozohyaon_27.jpg",
+                "logo": null
+            },
+            "title": "Kube Bar",
+            "name": "Kube Bar",
+            "track_id": "venue-kube-bar",
+            "address": "קרן קיימת לישראל 63",
+            "venue_id": "62691f34e945b72063375155",
+            "location": [
+                34.7911693,
+                31.2382236
+            ],
+            "short_description": "Kube for the Soul",
+            "slug": "kube-bar",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kube-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a08d8a4aa2135299c061f6/bdaeaa6a-f068-11ec-b072-56193db1ea2b_list.jpg",
+                "logo": null
+            },
+            "title": "Pizza Shumi",
+            "name": "Pizza Shumi",
+            "track_id": "venue-italian-kitchen",
+            "address": "שד׳ טוביהו דוד 125, באר שבע",
+            "venue_id": "62a08d8a4aa2135299c061f6",
+            "location": [
+                34.7716625,
+                31.2506405
+            ],
+            "short_description": "Pizza, Pasta and More",
+            "slug": "italian-kitchen",
+            "tags": [
+                "pasta",
+                "pizza",
+                "italian",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/italian-kitchen"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62052b873d1e4514565d46df/03ecc3c2-8a84-11ec-ba3d-aa04fd2b8ab2_5aa02396_5a40_11eb_934f_5acb58540757_7446edba_0cb7_11eb_91b0_ae641bef164c_1.jpg",
+                "logo": null
+            },
+            "title": "Leggenda | Beer Sheva",
+            "name": "Leggenda | Beer Sheva",
+            "track_id": "venue-leggenda-beer-sheva",
+            "address": "קטינקא 2, יס פלאנט",
+            "venue_id": "62052b873d1e4514565d46df",
+            "location": [
+                34.8010901,
+                31.22438529999999
+            ],
+            "short_description": "Ice Cream & Frozen Yogurt\n",
+            "slug": "leggenda-beer-sheva",
+            "tags": [
+                "dessert",
+                "ice cream"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/leggenda-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1453,9 +1447,9 @@
                 "american",
                 "grill"
             ],
-            "score": 8,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/black-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/black-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1483,35 +1477,7 @@
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/allenby-cafe"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601679d834272845b507794c/058207dc-63a8-11eb-af82-2681d1650f01________.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® Grand Be'er Sheva Kosher",
-            "name": "McDonald's® Grand Be'er Sheva Kosher",
-            "track_id": "venue-mcdonalds-grand-beer-sheva",
-            "address": "שד טוביהו דוד 125",
-            "venue_id": "601679d834272845b507794c",
-            "location": [
-                34.7716625,
-                31.2506405
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel\n",
-            "slug": "mcdonalds-grand-beer-sheva",
-            "tags": [
-                "burger",
-                "chicken",
-                "kosher",
-                "kosher"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mcdonalds-grand-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/allenby-cafe"
             },
             "provider": "wolt"
         },
@@ -1539,58 +1505,7 @@
             ],
             "score": 9.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/hummus-eliyahu-old-city"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601fb2fcf3c9be54073dc2d2/928c4db0-6928-11eb-8760-5683faaab30c________.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® ONE Be'er Sheva",
-            "name": "McDonald's® ONE Be'er Sheva",
-            "track_id": "venue-mcdonalds-one-beer-sheva",
-            "address": "יצחק נפחא 25, באר שבע",
-            "venue_id": "601fb2fcf3c9be54073dc2d2",
-            "location": [
-                34.8120535,
-                31.2461259
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel\n",
-            "slug": "mcdonalds-one-beer-sheva",
-            "tags": [
-                "burger",
-                "chicken"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mcdonalds-one-beer-sheva"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611bb0e35233f4cc40c097f8/55c89672-ff5a-11eb-8ded-5efb88ff8bd0_list.jpg",
-                "logo": null
-            },
-            "title": "McDonald׳s® Yes Planet Be'er Sheva",
-            "name": "McDonald׳s® Yes Planet Be'er Sheva",
-            "track_id": "venue-mcdonalds-yes-planet-beer-sheva",
-            "address": "ברוך קטינקא 2, באר שבע",
-            "venue_id": "611bb0e35233f4cc40c097f8",
-            "location": [
-                34.8014475,
-                31.2244175
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-yes-planet-beer-sheva",
-            "tags": [
-                "burger"
-            ],
-            "score": 6.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mcdonalds-yes-planet-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-old-city"
             },
             "provider": "wolt"
         },
@@ -1618,7 +1533,32 @@
             ],
             "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pizza-pai"
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-pai"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611bb0e35233f4cc40c097f8/55c89672-ff5a-11eb-8ded-5efb88ff8bd0_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald׳s® Yes Planet Be'er Sheva",
+            "name": "McDonald׳s® Yes Planet Be'er Sheva",
+            "track_id": "venue-mcdonalds-yes-planet-beer-sheva",
+            "address": "ברוך קטינקא 2, באר שבע",
+            "venue_id": "611bb0e35233f4cc40c097f8",
+            "location": [
+                34.8014475,
+                31.2244175
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-yes-planet-beer-sheva",
+            "tags": [
+                "burger"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-yes-planet-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1645,61 +1585,37 @@
                 "kosher",
                 "new"
             ],
-            "score": 7.6,
+            "score": 7.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pasta-basta-big-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/pasta-basta-big-beer-sheva"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb23b3b1d4b7338e68fe7a/fbb83c18-5eec-11eb-92d5-9ae68454f5aa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62419c028b9bc321d39db71a/a3408fbe-b0cf-11ec-b8bb-ee23e507c26b_30.34598.jpg",
                 "logo": null
             },
-            "title": "Burgeranch | BIG",
-            "name": "Burgeranch | BIG",
-            "track_id": "venue-burgeranch-big",
-            "address": "דרך חברון 21, באר שבע",
-            "venue_id": "5feb23b3b1d4b7338e68fe7a",
+            "title": "Mamos | Be'er Sheva",
+            "name": "Mamos | Be'er Sheva",
+            "track_id": "venue-mamos-experss-beer-sheva",
+            "address": "הנגרים 12, באר שבע",
+            "venue_id": "62419c028b9bc321d39db71a",
             "location": [
-                34.8119616,
-                31.2431641
+                34.8047305,
+                31.2433564
             ],
-            "short_description": "Burgers for the whole family",
-            "slug": "burgeranch-big",
+            "short_description": "A World of Flavors",
+            "slug": "mamos-experss-beer-sheva",
             "tags": [
+                "homemade",
+                "kosher",
+                "mediterranean",
                 "kosher"
             ],
-            "score": 6.6,
+            "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burgeranch-big"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622a0499f1120ef152ae0dd5/e066d8de-a2d4-11ec-aba5-8e0715a2ab39_hasultan_30.jpg",
-                "logo": null
-            },
-            "title": "Sultan Knafeh",
-            "name": "Sultan Knafeh",
-            "track_id": "venue-sultan-knaffeh",
-            "address": "דרך המצדה 39",
-            "venue_id": "622a0499f1120ef152ae0dd5",
-            "location": [
-                34.792896,
-                31.2582026
-            ],
-            "short_description": "The king of the Knaffeh",
-            "slug": "sultan-knaffeh",
-            "tags": [
-                "mediterranean",
-                "sweets",
-                "street food"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/sultan-knaffeh"
+                "url": "https://wolt.com/en/isr/undefined/venue/mamos-experss-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1726,7 +1642,34 @@
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/mileva"
+                "url": "https://wolt.com/en/isr/undefined/venue/mileva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622a0499f1120ef152ae0dd5/e066d8de-a2d4-11ec-aba5-8e0715a2ab39_hasultan_30.jpg",
+                "logo": null
+            },
+            "title": "Sultan Knafeh",
+            "name": "Sultan Knafeh",
+            "track_id": "venue-sultan-knaffeh",
+            "address": "דרך המצדה 39",
+            "venue_id": "622a0499f1120ef152ae0dd5",
+            "location": [
+                34.792896,
+                31.2582026
+            ],
+            "short_description": "The king of the Knaffeh",
+            "slug": "sultan-knaffeh",
+            "tags": [
+                "mediterranean",
+                "sweets",
+                "street food"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sultan-knaffeh"
             },
             "provider": "wolt"
         },
@@ -1751,35 +1694,35 @@
             ],
             "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burekas-hateeka"
+                "url": "https://wolt.com/en/isr/undefined/venue/burekas-hateeka"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608681c71e5951dbc73030c4/a210b288-ab2e-11eb-bc0e-8a484357d141_bonfis_9999_191.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61add2c123d7b1142e041a33/9a4cbc08-5674-11ec-95ed-9e36fa60c423_e009459e_6a0d_11eb_a624_5eb68190694f_yaelitz.jpg",
                 "logo": null
             },
-            "title": "Jin Fis | Pizza on Charcoal",
-            "name": "Jin Fis | Pizza on Charcoal",
-            "track_id": "venue-pizza-al-gechaleem",
-            "address": "קק״ל 44, באר שבע",
-            "venue_id": "608681c71e5951dbc73030c4",
+            "title": "Café Greg | Grand Be'er Sheva",
+            "name": "Café Greg | Grand Be'er Sheva",
+            "track_id": "venue-caf-greg-grand-beer-sheva",
+            "address": "שדרות דוד טוביהו 125",
+            "venue_id": "61add2c123d7b1142e041a33",
             "location": [
-                34.7917497,
-                31.2380804
+                34.772713925933985,
+                31.25032908883029
             ],
-            "short_description": "Pizza With Style",
-            "slug": "pizza-al-gechaleem",
+            "short_description": "Restaurant & Cafe - Kosher Lemehadrin",
+            "slug": "caf-greg-grand-beer-sheva",
             "tags": [
-                "italian",
                 "kosher",
                 "pizza",
+                "salad",
                 "kosher"
             ],
-            "score": 6,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/pizza-al-gechaleem"
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-greg-grand-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1806,7 +1749,64 @@
             ],
             "score": 0,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/la-goffre-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/la-goffre-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608681c71e5951dbc73030c4/a210b288-ab2e-11eb-bc0e-8a484357d141_bonfis_9999_191.jpg",
+                "logo": null
+            },
+            "title": "Jin Fis | Pizza on Charcoal",
+            "name": "Jin Fis | Pizza on Charcoal",
+            "track_id": "venue-pizza-al-gechaleem",
+            "address": "קק״ל 44, באר שבע",
+            "venue_id": "608681c71e5951dbc73030c4",
+            "location": [
+                34.7917497,
+                31.2380804
+            ],
+            "short_description": "Pizza With Style",
+            "slug": "pizza-al-gechaleem",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 6.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-al-gechaleem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a160cae28e22ac2f2ffc8/b5c77c26-d9bd-11ec-9a09-e209a67a308c_b6a71c52_50f4_11ec_b574_bae47eeb1f2e_ozohyaon_60.jpg",
+                "logo": null
+            },
+            "title": "Sensei Sushi Bar",
+            "name": "Sensei Sushi Bar",
+            "track_id": "venue-sensei-sushi-bar1",
+            "address": "קרן קיימת לישראל 46",
+            "venue_id": "628a160cae28e22ac2f2ffc8",
+            "location": [
+                34.791549,
+                31.2381331
+            ],
+            "short_description": "Kosher Sushi Bar 🍣\n",
+            "slug": "sensei-sushi-bar1",
+            "tags": [
+                "asian",
+                "japanese",
+                "sushi",
+                "kosher",
+                "new"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sensei-sushi-bar1"
             },
             "provider": "wolt"
         },
@@ -1833,33 +1833,35 @@
             ],
             "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/55-pub-beer-sheva"
+                "url": "https://wolt.com/en/isr/undefined/venue/55-pub-beer-sheva"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb222742f1b046785263c8/b4cccec8-5eeb-11eb-835d-4af86e18c1fa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601679d834272845b507794c/058207dc-63a8-11eb-af82-2681d1650f01________.jpg",
                 "logo": null
             },
-            "title": "Burgeranch | Azrieli Negev Mall",
-            "name": "Burgeranch | Azrieli Negev Mall",
-            "track_id": "venue-burgeranch-azrieli-negev-mall",
-            "address": "קניון הנגב עזריאלי, באר שבע",
-            "venue_id": "5feb222742f1b046785263c8",
+            "title": "McDonald's® Grand Be'er Sheva Kosher",
+            "name": "McDonald's® Grand Be'er Sheva Kosher",
+            "track_id": "venue-mcdonalds-grand-beer-sheva",
+            "address": "שד טוביהו דוד 125",
+            "venue_id": "601679d834272845b507794c",
             "location": [
-                34.7946189,
-                31.243726
+                34.7716625,
+                31.2506405
             ],
-            "short_description": "Burgers for the whole family",
-            "slug": "burgeranch-azrieli-negev-mall",
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-grand-beer-sheva",
             "tags": [
+                "burger",
+                "chicken",
                 "kosher",
                 "kosher"
             ],
-            "score": 8,
+            "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burgeranch-azrieli-negev-mall"
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-grand-beer-sheva"
             },
             "provider": "wolt"
         },
@@ -1885,7 +1887,86 @@
             ],
             "score": 6.8,
             "link": {
-                "url": "https://wolt.com/en/isr/beersheva/venue/burgeranch-grand-mall"
+                "url": "https://wolt.com/en/isr/undefined/venue/burgeranch-grand-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6016785957e00b4accd5ffe9/d96b2be8-63a6-11eb-8316-822feba74bf6________.jpg",
+                "logo": null
+            },
+            "title": "McDonald׳s® Eged Be'er Sheva Kosher",
+            "name": "McDonald׳s® Eged Be'er Sheva Kosher",
+            "track_id": "venue-mcdonalds-eged-beer-sheva",
+            "address": "תחנה מרכזית באר שבע יצחק בן צבי 1 ",
+            "venue_id": "6016785957e00b4accd5ffe9",
+            "location": [
+                34.7975314,
+                31.2425712
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-eged-beer-sheva",
+            "tags": [
+                "burger",
+                "chicken",
+                "breakfast",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-eged-beer-sheva"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb222742f1b046785263c8/b4cccec8-5eeb-11eb-835d-4af86e18c1fa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
+                "logo": null
+            },
+            "title": "Burgeranch | Azrieli Negev Mall",
+            "name": "Burgeranch | Azrieli Negev Mall",
+            "track_id": "venue-burgeranch-azrieli-negev-mall",
+            "address": "קניון הנגב עזריאלי, באר שבע",
+            "venue_id": "5feb222742f1b046785263c8",
+            "location": [
+                34.7946189,
+                31.243726
+            ],
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-azrieli-negev-mall",
+            "tags": [
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burgeranch-azrieli-negev-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5feb23b3b1d4b7338e68fe7a/fbb83c18-5eec-11eb-92d5-9ae68454f5aa_5146247c_07bf_11eb_afe6_eec9a93a90da______________.jpeg",
+                "logo": null
+            },
+            "title": "Burgeranch | BIG",
+            "name": "Burgeranch | BIG",
+            "track_id": "venue-burgeranch-big",
+            "address": "דרך חברון 21, באר שבע",
+            "venue_id": "5feb23b3b1d4b7338e68fe7a",
+            "location": [
+                34.8119616,
+                31.2431641
+            ],
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-big",
+            "tags": [
+                "kosher"
+            ],
+            "score": 6.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burgeranch-big"
             },
             "provider": "wolt"
         }
