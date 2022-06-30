@@ -7,7 +7,7 @@ export const TitleText = () => {
 
     <h2 className='text-white lg:my-10 mt-4 font-thin md:text-2xl'>
       רעבים ולא יודעים מה להזמין? <br />
-      <span className="text-green font-bold"> משכו בידית  </span>
+      <span className="text-green font-bold"> לחצו על הידית  </span>
       ותנו לבוט שלנו להגריל עבורכם מאיפה להזמין 
        </h2>
        <div></div>

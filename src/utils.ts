@@ -35,13 +35,13 @@ export const checkTime = (): string => {
     let strings = ["נראה שהערב מזמינים"];
     if (hour >= 0 && hour < 3) {
         strings = ['המאנץ׳ של הלילה הוא', 'כל אחת והשעה שלה, הלילה יצא'];
-    } else if (hour >= 3 && hour < 8) {
-        strings = ['נראה שהבוקר מזמינים' ,'קצת מוקדם אבל הבוקר מזמינים'];
-    } else if (hour > 8 && hour <= 15) {
+    } else if (hour >= 3 && hour < 9) {
+        strings = ['נראה שהבוקר מזמינים' ,'קצת מוקדם אבל הבוקר מזמינים' ,'תביאו פחמימות אני במחזור'];
+    } else if (hour > 9 && hour <= 16) {
         strings = ['נראה שלצהריים מזמינים' ,'הופה, הצהריים מזמינים', 'צהריים במשרד? תזמינו'];
-    }else if (hour > 14 && hour <= 20) {
+    }else if (hour > 16 && hour <= 22) {
         strings = ['לארוחת ערב מזמינים' ,'הערב מזמינים'];
-    }else if (hour > 20 && hour < 24) {
+    }else if (hour > 22 && hour < 24) {
         strings = ['מאנץ׳ הלילה שלכם הוא', 'הלילה מזמינים'];
     }
     return strings[Math.floor(Math.random() * strings.length)];

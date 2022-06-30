@@ -28,7 +28,7 @@ const Slot: React.ForwardRefRenderFunction<any, Props> = (props: any) => {
     <div key={refindex} className={`slot-machine-wrapper w-full max-w-[350px] mx-auto md:max-w-full h-[150px] small-mobile-height min-w-[130px]  px-1 overflow-hidden rounded-lg border-4 border-black slot-shadow`}>
 
       <div className="mx-auto  grid gap-y-8 relative overflow-hidden slot-container ">
-        {!firstMessage ? <div className={`w-full h-[150px] md:h-[205px] bg-purple absolute z-30  place-content-center text-white  ${firstMessageEffect ? "hidden" : "grid"}`}> <h2 className=" text-3xl ">משיכה בידית</h2><h3 className=" text-1xl text-green">{` ותגלו איזה מאנץ׳ להזמין`}</h3></div> : ""}
+        {!firstMessage ? <div className={`w-full h-[150px] md:h-[205px] bg-purple absolute z-30  place-content-center text-white  ${firstMessageEffect ? "hidden" : "grid"}`}> <h2 className=" text-3xl ">משכו בידית</h2><h3 className=" text-1xl text-green">{` וקבלו ארוחה אקראית להזמנה`}</h3></div> : ""}
 
         <div className={`relative   grid gap-y-2  justify-center  slott ${slotTransition ? slotTransition : "bbotom"} }`}>
           <SelectedAndTop index={refindex} />
