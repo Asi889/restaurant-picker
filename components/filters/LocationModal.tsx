@@ -19,6 +19,7 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
   const [loading, setLoading] = useState(false)
 
   const changeLocation = async (cityName: string) => {
+   
     setLoading(true)
     store.dispatch(setCurrentCity(cityName));
     store.dispatch(setUserLatLon({ latitude: null, longitude:null }));
