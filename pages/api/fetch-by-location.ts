@@ -32,6 +32,7 @@ export default async function fetchRestaurant(
   switch (method) {
     case "POST":
       const location = req.body.location;
+      
       if(!location || !location.lat || !location.lon) {
         res.status(400).json({error: "Missing location"});
         return;

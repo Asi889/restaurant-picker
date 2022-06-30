@@ -88,8 +88,7 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
           </svg>
         </button>
       </div>
-      <LocationIcon givenclass="w-12 mx-auto" />
-      {/* <button
+      <button
         onClick={setUserLocation}
         className={`grid place-content-center text-center w-full mt-6  rounded py-1
         ${lcoationState.latitude && lcoationState.longitude ? 'bg-purple text-white' : 'bg-slate-50'}
@@ -102,7 +101,7 @@ const LocationModal = ({ closeModal }: { closeModal: () => void }) => {
          {!lcoationState.latitude || !lcoationState.longitude  && <div className="font-thin px-1 text-sm">
           מומלץ לקבלת תוצאות טובות יותר (יש לתת הרשאות)
         </div>}
-      </button> */}
+      </button>
       <hr className="border-purple my-3" />
 
       <ul className="text-center space-y-1">
