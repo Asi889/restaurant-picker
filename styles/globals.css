@@ -15,16 +15,19 @@ font-family: 'Noto Sans Hebrew', sans-serif;
 }
 
 .slot-container .front-spin{
-  bottom: 115px;
+  bottom: 128px;
 }
 @media (max-width: 768px) {
+ 
   
   .bbotom{bottom: 89.2%;}
   
   
 }
 @media (min-width: 768px) {
-  
+  .slot-container .front-spin{
+    bottom: 100px;
+  }
   .bbotom{bottom: 91.2%;}
   .small-mobile-height{
     max-width: 476px;
@@ -151,4 +154,11 @@ font-family: 'Noto Sans Hebrew', sans-serif;
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.slot-machine-wrapper{
+  box-shadow: 0 0 16px rgb(255 255 255 / 30%), 0 1px 1px rgb(255 255 255 / 50%), 0 -1px 1px rgb(255 255 255 / 20%), inset 0 -2px 15px #000;
+  background-color: white;
+  background: -moz-linear-gradient(top, #1b1b1b 0%, #383838 8%, #3a3a3a 20%, #0a0a0a 47%, #010101 50%, #0d0d0d 54%, #444444 100%);
+  border-radius: 3% / 45% 43% 42% 45%;
 }

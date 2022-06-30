@@ -11,6 +11,9 @@ function dataToRestaurant(item: Item, data: Root): RestaurantType | null {
   if (!item.venue) {
     return null;
   }
+  if(!item.venue.online){
+    return null;
+  }
   const restaurant = {
     description: item.description,
     photo: {
