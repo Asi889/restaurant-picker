@@ -66,4 +66,4 @@ const Slot: React.ForwardRefRenderFunction<any, Props> = (props: any) => {
 };
 
 // export default React.forwardRef(Slot);
-export default connect(null, null, null, { forwardRef: true })(forwardRef(Slot));
+export default connect()(Slot);

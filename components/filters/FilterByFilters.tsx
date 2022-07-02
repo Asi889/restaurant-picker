@@ -6,7 +6,7 @@ import FilterFoodType from "./FilterFoodType";
 
 
 const FilterByFilters = () => {
-  let [isOpen, setIsOpen] = useState<boolean>(false);
+  let [isOpen, setIsOpen] = useState<boolean>(true);
 
   return (
     <>

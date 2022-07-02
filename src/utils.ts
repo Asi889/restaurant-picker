@@ -8,6 +8,8 @@ import { StateProp } from "./types/FetchSubRestaurantTypes";
 export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Type => {
     let randomIndex: any = "";
     randomIndex = Math.floor(Math.random() * allRestaurants.length);
+    console.log(allRestaurants);
+    
     return allRestaurants[randomIndex]
     // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
 }
@@ -107,6 +109,7 @@ export function checkFilters() {
 
     for (let key in state.restaurants.subFilterTypes) {
         if (state.restaurants.subFilterTypes[key] === true) {
+            
             for (let restaurant of state.restaurants.allRestaurants[provider]) {
                 if (restaurant.tags.includes(key)) {
                     beforRest = [...beforRest, restaurant]
@@ -126,8 +129,16 @@ export function checkFilters() {
     }
     const areFalse = Object.values(state.restaurants.subFilterTypes).every(value => value === false);
     if (areFalse) {
-        // store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).splice(0, 50)))
-        store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).filter((restaurant: any, index: number) => index < 50 && restaurant)))
+        if(state.restaurants.allRestaurants[provider].length < 50){
+            let restAmout = 50 - state.restaurants.allRestaurants[provider].length
+            let filledArray = state.restaurants.allRestaurants["both"].filter((restaurant: any, index: number) => index < restAmout && restaurant)
+            store.dispatch(setFiftyRestaurants(shuffle([...filledArray, ...state.restaurants.allRestaurants[provider]])))
+            
+        }else{
+            
+            store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).filter((restaurant: any, index: number) => index < 50 && restaurant)))
+        }
+        console.log(getRandomFromArray(shuffle([...state.restaurants.allRestaurants[provider]])));
         store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle([...state.restaurants.allRestaurants[provider]]))))
         return
     }
@@ -135,9 +146,9 @@ export function checkFilters() {
     let beforeLength = beforRest.length
     if (beforeLength < 50) {
         let restAmout = 50 - beforeLength
-        let filledArray = state.restaurants.allRestaurants[provider].filter((restaurant: any, index: number) => index < 50 && restaurant)
+        let filledArray = state.restaurants.allRestaurants[provider].filter((restaurant: any, index: number) => index < restAmout && restaurant)
 
-        filledArray = [...filledArray, beforRest]
+        filledArray = [...filledArray, ...beforRest]
         store.dispatch(setFiftyRestaurants(shuffle(filledArray)))
         store.dispatch(setSelectedRestaurant(getRandomFromArray(filledArray)))
         return
