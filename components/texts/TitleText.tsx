@@ -12,7 +12,7 @@ export const TitleText = (props: any) => {
       רעבים ולא יודעים מה להזמין? 
       <br />
       סנננו איזה סוג אוכל בא לכם 
-      <span onClick={()=>setIsOpen(!isOpen)}><FilterIcon   pathClass="" givenclass="w-5 h-5 inline-block mr-1" /></span>
+      <span  onClick={()=>setIsOpen(!isOpen)}><FilterIcon   pathClass="" givenclass="w-5 h-5 inline-block mr-1 cursor-pointer" /></span>
       
       <br />
       <span className="text-green font-bold "> לחצו על הידית,  </span>
