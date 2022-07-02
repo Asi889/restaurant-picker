@@ -9,11 +9,11 @@ export const filterByProvider= (provider: string) =>{
     let state: StateProp | any 
     state = store.getState();
     if (provider === "both") {
-        store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants?.both]).splice(0,50)))
+        store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants?.both]).filter((restaurant: any, index: number) => index < 50 && restaurant)))
         store.dispatch(setSelectedRestaurant(getRandomFromArray([...state.restaurants.allRestaurants?.both])))
     }
     if (provider === "woltRestaurants" || provider === "tenbisRestaurants") {
-        store.dispatch(setFiftyRestaurants(state.restaurants.allRestaurants[provider].splice(0,50)))
-        store.dispatch(setSelectedRestaurant(getRandomFromArray(state.restaurants.allRestaurants[provider].splice(0,50))))
+        store.dispatch(setFiftyRestaurants(state.restaurants.allRestaurants[provider].filter((restaurant: any, index: number) => index < 50 && restaurant)))
+        store.dispatch(setSelectedRestaurant(getRandomFromArray(state.restaurants.allRestaurants[provider].filter((restaurant: any, index: number) => index < 50 && restaurant))))
       }
 }

@@ -15,19 +15,19 @@ export const filterProviderType= (name: string) =>{
           
           if(filterTypes.woltRestaurants === false){
             store.dispatch(setFilterType({...filterTypes, woltRestaurants: !filterTypes.woltRestaurants }))
-            filterByProvider("both") 
+            // filterByProvider("both") 
             return     
           }
   
           if(filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === true){
             store.dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
-            filterByProvider("woltRestaurants")      
+            // filterByProvider("tenbisRestaurantss")      
             return
           }
   
           if(filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === false){
             store.dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
-            filterByProvider("both")      
+            // filterByProvider("both")      
             return
           }
           
@@ -36,19 +36,19 @@ export const filterProviderType= (name: string) =>{
           case "woltRestaurants":
             if(filterTypes.tenbisRestaurants === false){
               store.dispatch(setFilterType({...filterTypes, tenbisRestaurants: !filterTypes.tenbisRestaurants }))
-              filterByProvider("both")    
+              // filterByProvider("both")    
               return
             }
   
             if(filterTypes.woltRestaurants === true && filterTypes.tenbisRestaurants === true){
               store.dispatch(setFilterType({...filterTypes, woltRestaurants: !filterTypes.woltRestaurants }))
-              filterByProvider("tenbisRestaurants")      
+              // filterByProvider("woltRestaurants")      
               return
             }
   
             if(filterTypes.woltRestaurants === false && filterTypes.tenbisRestaurants === true){
               store.dispatch(setFilterType({...filterTypes, woltRestaurants: !filterTypes.woltRestaurants }))
-              filterByProvider("both")      
+              // filterByProvider("both")      
               return
             }
             

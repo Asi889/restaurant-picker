@@ -13,6 +13,7 @@ import { TitleText } from "./texts/TitleText";
 
 const Container = () => {
   const [selectedActiv, selectedActivSet] = useState<boolean>(false);
+  let [isOpen, setIsOpen] = useState<boolean>(false);
   return (
     <div className="w-full min-h-screen bg-purple-dark ">
       <AppHeader />
@@ -20,7 +21,7 @@ const Container = () => {
 {/* <div className="flex justify-around">
 
 </div> */}
-        <TitleText />
+        <TitleText setIsOpen={setIsOpen} IsOpen={isOpen} />
         
         <Restaurants selectedActivSet={selectedActivSet} selectedActiv={selectedActiv} />
         <Transition
@@ -33,7 +34,7 @@ const Container = () => {
           leaveTo="opacity-0">
           <ChosenRestaurant />
         </Transition>
-        <FiltersContainer />
+        <FiltersContainer setIsOpen={setIsOpen} isOpen={isOpen} />
         <AboutText />
       </main>
       <AppFooter />
