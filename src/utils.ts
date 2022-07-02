@@ -94,7 +94,6 @@ export const returnFilters = () => {
 
     let allTypes: any = {...state?.restaurants.filterTypes, ...state?.restaurants.subFilterTypes}
     
-
     return Object
     .keys(allTypes)
     .filter(key => allTypes[key] === true)
