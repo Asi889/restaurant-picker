@@ -11,8 +11,8 @@ export const TitleText = (props: any) => {
     <h2 className='text-white lg:my-10 mt-4 font-thin md:text-2xl'>
       רעבים ולא יודעים מה להזמין? 
       <br />
-      סנננו איזה סוג אוכל בא לכם 
-      <span  onClick={()=>setIsOpen(!isOpen)}><FilterIcon   pathClass="" givenclass="w-5 h-5 inline-block mr-1 cursor-pointer" /></span>
+      {/* סנננו איזה סוג אוכל בא לכם  */}
+      {/* <span  onClick={()=>setIsOpen(!isOpen)}><FilterIcon   pathClass="" givenclass="w-5 h-5 inline-block mr-1 cursor-pointer" /></span> */}
       
       <br />
       <span className="text-green font-bold "> לחצו על הידית,  </span>
