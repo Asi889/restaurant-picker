@@ -24,7 +24,7 @@ const RedFilterByLocation = () => {
   const [city,setCity] = useState('Tel Aviv');
   useEffect(() => {
     if( lcoationState.latitude && lcoationState.longitude){
-      setCity('מסעדות מהמיקום הנוכחי שלך');
+      setCity('קרוב אליי');
 
       return
     }
