@@ -8,7 +8,6 @@ import { StateProp } from "./types/FetchSubRestaurantTypes";
 export const getRandomFromArray = <Type>(allRestaurants: Type[] | any = []): Type => {
     let randomIndex: any = "";
     randomIndex = Math.floor(Math.random() * allRestaurants.length);
-    console.log(allRestaurants);
     
     return allRestaurants[randomIndex]
     // selectedRestaurantSet(allRestaurants.woltData[randomIndex]);
@@ -141,7 +140,6 @@ export function checkFilters() {
             
             store.dispatch(setFiftyRestaurants(shuffle([...state.restaurants.allRestaurants[provider]]).filter((restaurant: any, index: number) => index < 50 && restaurant)))
         }
-        console.log(getRandomFromArray(shuffle([...state.restaurants.allRestaurants[provider]])));
         store.dispatch(setSelectedRestaurant(getRandomFromArray(shuffle([...state.restaurants.allRestaurants[provider]]))))
         return
     }
