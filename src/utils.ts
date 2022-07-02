@@ -18,17 +18,7 @@ export const splitAndTrim = (string: string): string => {
     let [splitted] = string.split("|");
     return splitted.trim();
 }
-export const returnFilters = () => {
-    let state: StateProp | any
-    state = store.getState();
-    let types = Object.entries(state?.restaurants.filterTypes)
-    
-    return types.map(([key, value], index) => {
-        if (value) {
-            return key === "tenbisRestaurants" ? "תן ביס" : "וולט"
-        }
-    }).join(", ")
-}
+
 
 
 // a function that return a greed by the time of the day with swtich case/
@@ -65,10 +55,9 @@ export const vibrate = () => {
     window.navigator.vibrate([800, 10, 10, 800]);
 }
 
-export const returnSubFilters = () => {
+export const returnFilters = () => {
     let state = store.getState() as StateProp;
-    // state = 
-    let subTypes = Object.entries(state?.restaurants.subFilterTypes)
+    
     const checkKey = (key: string) => {
         switch (key) {
             case "kosher":
@@ -92,11 +81,26 @@ export const returnSubFilters = () => {
             case "pizza":
                 return "פיצה"
 
+            case "woltRestaurants":
+                return "וולט"
+
+            case "tenbisRestaurants":
+                return "תן ביס"
+
             default:
                 break;
         }
     }
-    return subTypes.map(([key, value], index) => value ? `${subTypes.length - 1 != index ? ", " : ""} ` + checkKey(key) : "")
+
+    let allTypes: any = {...state?.restaurants.filterTypes, ...state?.restaurants.subFilterTypes}
+    
+
+    return Object
+    .keys(allTypes)
+    .filter(key => allTypes[key] === true)
+    .map(key =>checkKey(key))
+    .join(', ')
+
 }
 
 export function checkFilters() {

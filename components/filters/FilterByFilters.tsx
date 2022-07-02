@@ -1,6 +1,6 @@
 import { Dialog, Transition } from "@headlessui/react";
 import { Fragment, useState } from "react";
-import { returnFilters, returnSubFilters } from "../../src/utils";
+import { returnFilters } from "../../src/utils";
 import FiltertIcon from "../svgs/FilterIcon";
 import FilterFoodType from "./FilterFoodType";
 
@@ -26,11 +26,11 @@ const FilterByFilters = (props: any) => {
 
         </div>
         <div className="rounded-2xl overflow-hidden bg-[#7b4863] flex-grow  alfa pr-16 text-xl text-whit truncate text-white h-full  flex place-items-center">
-          <span>
+          {/* <span>
             {returnFilters()}
-          </span>
+          </span> */}
           <div className="flex gap-x-2">
-            <span>{returnSubFilters()}</span>
+            <span>{returnFilters()}</span>
           </div>
         </div>
       </button>
