@@ -6,10 +6,11 @@ type Props = {
 };
 
 const FilterIcon: React.FC<Props> = (props) => {
-  const { givenclass, pathClass, } = props;
+  const { givenclass, pathClass } = props;
 
   return (
     <svg
+    
     className={givenclass}
     xmlns="http://www.w3.org/2000/svg"
     width="24"

@@ -5,8 +5,9 @@ import FiltertIcon from "../svgs/FilterIcon";
 import FilterFoodType from "./FilterFoodType";
 
 
-const FilterByFilters = () => {
-  let [isOpen, setIsOpen] = useState<boolean>(true);
+const FilterByFilters = (props: any) => {
+  const {setIsOpen, isOpen} =props
+  // let [isOpen, setIsOpen] = useState<boolean>(false);
 
   return (
     <>
@@ -59,7 +60,7 @@ const FilterByFilters = () => {
                 leaveFrom="opacity-100 rotate-0 scale-100 "
                 leaveTo="opacity-0 scale-95 rotate-12"
               >
-                <Dialog.Panel className="w-full max-w-md h-full transform overflow-auto rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all ">
+                <Dialog.Panel className="w-full max-w-md h-full transform overflow-auto rounded-2xl bg-white p-4 text-left align-middle shadow-xl transition-all">
 
                   <FilterFoodType closeModal={() => setIsOpen(false)} />
 
