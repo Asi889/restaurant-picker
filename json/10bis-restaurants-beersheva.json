@@ -1,35 +1,7 @@
 {
-    "lastScrapeDate": 1656596994958,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1656596988765&deliveryMethod=delivery&cityId=51&streetId=13928&houseNumber=120&addressKey=51-13928-120",
+    "lastScrapeDate": 1657281676102,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1657281674729&deliveryMethod=delivery&cityId=51&streetId=13928&houseNumber=120&addressKey=51-13928-120",
     "restaurants": [
-        {
-            "name": "Mr Pretzels",
-            "score": 9.4,
-            "title": "Mr Pretzels",
-            "venue_id": "34716",
-            "address": "2, Ben Zvi Street Beersheba",
-            "track_id": "34716",
-            "location": [
-                34.7954849,
-                31.24413
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34716_20211004173246.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34716.jpg"
-            },
-            "description": "מיסטר פרעצל, Mr Pretzels",
-            "short_description": "מיסטר פרעצל, Mr Pretzels",
-            "slug": "beersheva",
-            "tags": [
-                "bakery",
-                "patisserie",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34716"
-            },
-            "provider": "tenBis"
-        },
         {
             "name": "libia",
             "score": 9.4,
@@ -56,34 +28,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33400"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "haku thai",
-            "score": 8.2,
-            "title": "haku thai",
-            "venue_id": "34243",
-            "address": "43 , Derech Metsada Beersheba",
-            "track_id": "34243",
-            "location": [
-                34.7924942,
-                31.2581513
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sushi.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34243.png"
-            },
-            "description": "האקו , haku thai",
-            "short_description": "האקו , haku thai",
-            "slug": "beersheva",
-            "tags": [
-                "japaneseSushi",
-                "asianFusion",
-                "soup"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34243"
             },
             "provider": "tenBis"
         },
@@ -116,31 +60,30 @@
             "provider": "tenBis"
         },
         {
-            "name": "Rolls Meat",
-            "score": 9,
-            "title": "Rolls Meat",
-            "venue_id": "29091",
-            "address": "6, Derech Metsada Beersheba",
-            "track_id": "29091",
+            "name": "Mr Pretzels",
+            "score": 9.4,
+            "title": "Mr Pretzels",
+            "venue_id": "34716",
+            "address": "2, Ben Zvi Street Beersheba",
+            "track_id": "34716",
             "location": [
-                34.7955966,
-                31.2591166
+                34.7954849,
+                31.24413
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29091_20200825120909.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29091.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34716_20211004173246.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34716.jpg"
             },
-            "description": "רולס מיט, Rolls Meat",
-            "short_description": "רולס מיט, Rolls Meat",
+            "description": "מיסטר פרעצל, Mr Pretzels",
+            "short_description": "מיסטר פרעצל, Mr Pretzels",
             "slug": "beersheva",
             "tags": [
-                "meatGrill",
-                "salads",
-                "sandwichesWraps",
+                "bakery",
+                "patisserie",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29091"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34716"
             },
             "provider": "tenBis"
         },
@@ -256,34 +199,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "jinpis",
-            "score": 5.2,
-            "title": "jinpis",
-            "venue_id": "32878",
-            "address": "44, Kakal Street Beersheba",
-            "track_id": "32878",
-            "location": [
-                34.7917497,
-                31.2380804
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_32878_20210420145654.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32878.jepg (2)"
-            },
-            "description": "ג'ין פיס, jinpis",
-            "short_description": "ג'ין פיס, jinpis",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32878"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Pizza Marziano",
             "score": 6,
             "title": "Pizza Marziano",
@@ -339,59 +254,85 @@
             "provider": "tenBis"
         },
         {
-            "name": "Hadalpak",
-            "score": 7,
-            "title": "Hadalpak",
-            "venue_id": "35331",
-            "address": "2, David HaMelech Street Beersheba",
-            "track_id": "35331",
+            "name": "Pizza glitza",
+            "score": 5.4,
+            "title": "Pizza glitza",
+            "venue_id": "29803",
+            "address": "2, Sderot Yerushalayim Beersheba",
+            "track_id": "29803",
             "location": [
-                34.792792,
-                31.2642891
+                34.7822642,
+                31.2454883
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35331_20220109132335.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35331.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29803.jepg"
             },
-            "description": "הדלפק, Hadalpak",
-            "short_description": "הדלפק, Hadalpak",
+            "description": "פיצה גליצה, Pizza glitza",
+            "short_description": "פיצה גליצה, Pizza glitza",
             "slug": "beersheva",
             "tags": [
-                "humus",
-                "meatGrill",
-                "sandwichesWraps",
-                "kosher"
+                "pizza",
+                "pasta"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35331"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29803"
             },
             "provider": "tenBis"
         },
         {
-            "name": "Kuka",
-            "score": 8.8,
-            "title": "Kuka",
-            "venue_id": "25981",
-            "address": "28, Yitzhack I. Rager Boulevard Beersheba",
-            "track_id": "25981",
+            "name": "Pizza Seven",
+            "score": 4.4,
+            "title": "Pizza Seven",
+            "venue_id": "23773",
+            "address": "16, Shomron Street Beersheba",
+            "track_id": "23773",
             "location": [
-                34.798374,
-                31.247623
+                34.7663046,
+                31.2500645
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25981_20200721120017.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25981.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23773.jepg"
             },
-            "description": "קוקה באר שבע, Kuka",
-            "short_description": "קוקה באר שבע, Kuka",
+            "description": "פיצה שבע, Pizza Seven",
+            "short_description": "פיצה שבע, Pizza Seven",
             "slug": "beersheva",
             "tags": [
-                "homeMade",
+                "pizza",
+                "salads",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23773"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Yalla Shawarma",
+            "score": 5.6,
+            "title": "Yalla Shawarma",
+            "venue_id": "35629",
+            "address": "43, Eliyahu HaNavi Street Beersheba",
+            "track_id": "35629",
+            "location": [
+                34.7929893,
+                31.2664488
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35629.jpg"
+            },
+            "description": "יאללה שווארמה , Yalla Shawarma",
+            "short_description": "יאללה שווארמה , Yalla Shawarma",
+            "slug": "beersheva",
+            "tags": [
                 "meatGrill",
+                "burgers",
                 "sandwichesWraps"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25981"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35629"
             },
             "provider": "tenBis"
         },
@@ -426,8 +367,37 @@
             "provider": "tenBis"
         },
         {
+            "name": "Hadalpak",
+            "score": 7,
+            "title": "Hadalpak",
+            "venue_id": "35331",
+            "address": "2, David HaMelech Street Beersheba",
+            "track_id": "35331",
+            "location": [
+                34.792792,
+                31.2642891
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35331_20220109132335.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35331.png"
+            },
+            "description": "הדלפק, Hadalpak",
+            "short_description": "הדלפק, Hadalpak",
+            "slug": "beersheva",
+            "tags": [
+                "humus",
+                "meatGrill",
+                "sandwichesWraps",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35331"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Pasta Basta",
-            "score": 8.2,
+            "score": 8.6,
             "title": "Pasta Basta",
             "venue_id": "37140",
             "address": "2, Heil Handasa Beersheba",
@@ -452,60 +422,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37140"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Ronen's shawarma",
-            "score": 6.8,
-            "title": "Ronen's shawarma",
-            "venue_id": "37131",
-            "address": "24, Moshe Sharet Street Beersheba",
-            "track_id": "37131",
-            "location": [
-                34.7673334,
-                31.25750949999999
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37131_20220622090749.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37131.png"
-            },
-            "description": "השווארמה של רונן , Ronen's shawarma",
-            "short_description": "השווארמה של רונן , Ronen's shawarma",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37131"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Jara toast",
-            "score": 0,
-            "title": "Jara toast",
-            "venue_id": "36814",
-            "address": "3, Nahum Sarig Beersheba",
-            "track_id": "36814",
-            "location": [
-                34.8047226,
-                31.2810188
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36814.png"
-            },
-            "description": "ג'ארה טוסט שמדברים עליו, Jara toast",
-            "short_description": "ג'ארה טוסט שמדברים עליו, Jara toast",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36814"
             },
             "provider": "tenBis"
         },
@@ -536,61 +452,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "La Pizza",
-            "score": 0,
-            "title": "La Pizza",
-            "venue_id": "37210",
-            "address": "1, Moses Montefiore Beersheba",
-            "track_id": "37210",
-            "location": [
-                34.7971604,
-                31.2492438
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37210.jpg"
-            },
-            "description": "לה פיצה, La Pizza",
-            "short_description": "לה פיצה, La Pizza",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "salads",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37210"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pasta Basta",
-            "score": 8.8,
-            "title": "Pasta Basta",
-            "venue_id": "37073",
-            "address": "19, Ringelblum Street Beersheba",
-            "track_id": "37073",
-            "location": [
-                34.800144,
-                31.2678906
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37073_20220529125524.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37073.jpg"
-            },
-            "description": "פסטה בסטה רינגלבלום, Pasta Basta",
-            "short_description": "פסטה בסטה רינגלבלום, Pasta Basta",
-            "slug": "beersheva",
-            "tags": [
-                "pasta",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37073"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Hashipudia Shel Atias",
             "score": 8,
             "title": "Hashipudia Shel Atias",
@@ -615,34 +476,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29337"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Yalla Shawarma",
-            "score": 5.6,
-            "title": "Yalla Shawarma",
-            "venue_id": "35629",
-            "address": "43, Eliyahu HaNavi Street Beersheba",
-            "track_id": "35629",
-            "location": [
-                34.7929893,
-                31.2664488
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35629.jpg"
-            },
-            "description": "יאללה שווארמה , Yalla Shawarma",
-            "short_description": "יאללה שווארמה , Yalla Shawarma",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "burgers",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35629"
             },
             "provider": "tenBis"
         },
@@ -703,62 +536,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "friends malabi  ",
-            "score": 0,
-            "title": "friends malabi  ",
-            "venue_id": "36608",
-            "address": "17, Derech Metsada Beersheba",
-            "track_id": "36608",
-            "location": [
-                34.79460540000001,
-                31.2582336
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36608_20220529124147.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36608.png"
-            },
-            "description": "פרינדס מלבי, friends malabi  ",
-            "short_description": "פרינדס מלבי, friends malabi  ",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "patisserie",
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36608"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hey Cookie",
-            "score": 9.6,
-            "title": "Hey Cookie",
-            "venue_id": "34723",
-            "address": "35, Derech Metsada Beersheba",
-            "track_id": "34723",
-            "location": [
-                34.7931748,
-                31.2582219
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34723_20220308145010.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34723.jpg"
-            },
-            "description": "היי קוקי, Hey Cookie",
-            "short_description": "היי קוקי, Hey Cookie",
-            "slug": "beersheva",
-            "tags": [
-                "patisserie",
-                "bakery",
-                "gelato"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34723"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Sultan",
             "score": 8.8,
             "title": "Sultan",
@@ -788,7 +565,7 @@
         },
         {
             "name": "The man with the mustache",
-            "score": 8.6,
+            "score": 8.8,
             "title": "The man with the mustache",
             "venue_id": "36428",
             "address": "14, Ya'akov Cohen Street Beersheba",
@@ -815,58 +592,87 @@
             "provider": "tenBis"
         },
         {
-            "name": "Maafiat Lehem Kavkazi",
-            "score": 10,
-            "title": "Maafiat Lehem Kavkazi",
-            "venue_id": "36201",
-            "address": "28, Sha'ul ha-Melekh Street Beersheba",
-            "track_id": "36201",
+            "name": "PIZZA GO",
+            "score": 8.6,
+            "title": "PIZZA GO",
+            "venue_id": "36855",
+            "address": "97, Herzl Street Beersheba",
+            "track_id": "36855",
             "location": [
-                34.781286,
-                31.2636377
+                34.7910244,
+                31.2431646
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36201_20220222101336.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36201.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36855_20220529122800.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36855.png"
             },
-            "description": "מאפיית לחם קווקזי, Maafiat Lehem Kavkazi",
-            "short_description": "מאפיית לחם קווקזי, Maafiat Lehem Kavkazi",
-            "slug": "beersheva",
-            "tags": [
-                "bakery",
-                "sandwichesWraps",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36201"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Tomato Pizza",
-            "score": 8.4,
-            "title": "Tomato Pizza",
-            "venue_id": "34236",
-            "address": "4, HaTikva Street Beersheba",
-            "track_id": "34236",
-            "location": [
-                34.7992874,
-                31.2453482
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34236.png"
-            },
-            "description": "טומטו פיצה, Tomato Pizza",
-            "short_description": "טומטו פיצה, Tomato Pizza",
+            "description": "פיצה גו, PIZZA GO",
+            "short_description": "פיצה גו, PIZZA GO",
             "slug": "beersheva",
             "tags": [
                 "pizza",
+                "salads",
                 "bakery",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34236"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36855"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Pasta Basta",
+            "score": 8.6,
+            "title": "Pasta Basta",
+            "venue_id": "37073",
+            "address": "19, Ringelblum Street Beersheba",
+            "track_id": "37073",
+            "location": [
+                34.800144,
+                31.2678906
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37073_20220529125524.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37073.jpg"
+            },
+            "description": "פסטה בסטה רינגלבלום, Pasta Basta",
+            "short_description": "פסטה בסטה רינגלבלום, Pasta Basta",
+            "slug": "beersheva",
+            "tags": [
+                "pasta",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37073"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Jem's",
+            "score": 8.8,
+            "title": "Jem's",
+            "venue_id": "26179",
+            "address": "77, HaEnergia Beersheba",
+            "track_id": "26179",
+            "location": [
+                34.8108598,
+                31.2632577
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26179_20200317142809.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26179.jpeg"
+            },
+            "description": "ג'מס, Jem's",
+            "short_description": "ג'מס, Jem's",
+            "slug": "beersheva",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "bar",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26179"
             },
             "provider": "tenBis"
         },
@@ -929,62 +735,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Falafel Shawarma hakerem",
-            "score": 7.6,
-            "title": "Falafel Shawarma hakerem",
-            "venue_id": "33314",
-            "address": "11, Ben Zvi Street Beersheba",
-            "track_id": "33314",
-            "location": [
-                34.7993258,
-                31.2442659
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_falafel.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33314.jepg"
-            },
-            "description": "פלאפל הכרם קרית הממשלה, Falafel Shawarma hakerem",
-            "short_description": "פלאפל הכרם קרית הממשלה, Falafel Shawarma hakerem",
-            "slug": "beersheva",
-            "tags": [
-                "falafel",
-                "salads",
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33314"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza Merkcazit",
-            "score": 0,
-            "title": "Pizza Merkcazit",
-            "venue_id": "36588",
-            "address": "4, Ben Zvi Street Beersheba",
-            "track_id": "36588",
-            "location": [
-                34.7965666,
-                31.2439462
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36588_20220508123310.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36588.png"
-            },
-            "description": "פיצה מרכזית, Pizza Merkcazit",
-            "short_description": "פיצה מרכזית, Pizza Merkcazit",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36588"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "giross Shawarma",
             "score": 8.2,
             "title": "giross Shawarma",
@@ -1014,175 +764,28 @@
             "provider": "tenBis"
         },
         {
-            "name": "Mata'ami habait",
-            "score": 8.4,
-            "title": "Mata'ami habait",
-            "venue_id": "30807",
-            "address": "1, Max Nordau Street Beersheba",
-            "track_id": "30807",
+            "name": "Shake Bakter",
+            "score": 0,
+            "title": "Shake Bakter",
+            "venue_id": "34814",
+            "address": "65, David Tuviyahu Ave Beersheba",
+            "track_id": "34814",
             "location": [
-                34.7998825,
-                31.243594
+                34.7859011,
+                31.2458483
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30807.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34814_20211110135154.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34814.jpg"
             },
-            "description": "מטעמי הבית, Mata'ami habait",
-            "short_description": "מטעמי הבית, Mata'ami habait",
+            "description": "שייק בקטר , Shake Bakter",
+            "short_description": "שייק בקטר , Shake Bakter",
             "slug": "beersheva",
             "tags": [
-                "homeMade",
-                "salads",
-                "meatGrill",
-                "kosher"
+                "SmoothiesAndShakes"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30807"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Meital's Falafel",
-            "score": 8.6,
-            "title": "Meital's Falafel",
-            "venue_id": "27764",
-            "address": "1, Ben Zvi Street Beersheba",
-            "track_id": "27764",
-            "location": [
-                34.7975713,
-                31.2433735
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27764.jepg"
-            },
-            "description": "הפלאפל של מיטל(אסולין), Meital's Falafel",
-            "short_description": "הפלאפל של מיטל(אסולין), Meital's Falafel",
-            "slug": "beersheva",
-            "tags": [
-                "veganFood",
-                "homeMade",
-                "meatGrill",
-                "kosher",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27764"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "PIZZA GO",
-            "score": 9,
-            "title": "PIZZA GO",
-            "venue_id": "36855",
-            "address": "97, Herzl Street Beersheba",
-            "track_id": "36855",
-            "location": [
-                34.7910244,
-                31.2431646
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36855_20220529122800.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36855.png"
-            },
-            "description": "פיצה גו, PIZZA GO",
-            "short_description": "פיצה גו, PIZZA GO",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "salads",
-                "bakery",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36855"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "cafe cafe",
-            "score": 8.4,
-            "title": "cafe cafe",
-            "venue_id": "29133",
-            "address": "21, Eliyahu Nawi Beersheba",
-            "track_id": "29133",
-            "location": [
-                34.8106187,
-                31.2442738
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29133_20200726135728.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29133.jpg"
-            },
-            "description": "קפה קפה, cafe cafe",
-            "short_description": "קפה קפה, cafe cafe",
-            "slug": "beersheva",
-            "tags": [
-                "sandwichesWraps",
-                "salads",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29133"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza Agvania",
-            "score": 8.8,
-            "title": "Pizza Agvania",
-            "venue_id": "13086",
-            "address": "1, Heil Handasa Beersheba",
-            "track_id": "13086",
-            "location": [
-                34.81256610000001,
-                31.2447522
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_13086_20211207122915.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/13086.jepg"
-            },
-            "description": "פיצה עגבניה , Pizza Agvania",
-            "short_description": "פיצה עגבניה , Pizza Agvania",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/13086"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "DAISHO",
-            "score": 8.6,
-            "title": "DAISHO",
-            "venue_id": "34930",
-            "address": "24, Eliyahu Nawi Beersheba",
-            "track_id": "34930",
-            "location": [
-                34.8126516,
-                31.2446766
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sushi.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34930.png"
-            },
-            "description": "דאישו, DAISHO",
-            "short_description": "דאישו, DAISHO",
-            "slug": "beersheva",
-            "tags": [
-                "japaneseSushi",
-                "poke",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34930"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34814"
             },
             "provider": "tenBis"
         },
@@ -1270,254 +873,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Jem's",
-            "score": 8.8,
-            "title": "Jem's",
-            "venue_id": "26179",
-            "address": "77, HaEnergia Beersheba",
-            "track_id": "26179",
-            "location": [
-                34.8108598,
-                31.2632577
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26179_20200317142809.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26179.jpeg"
-            },
-            "description": "ג'מס, Jem's",
-            "short_description": "ג'מס, Jem's",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "bar",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26179"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Papa Leon",
-            "score": 8.8,
-            "title": "Papa Leon",
-            "venue_id": "29049",
-            "address": "22, Mivtsa Uvda Beersheba",
-            "track_id": "29049",
-            "location": [
-                34.7776849,
-                31.2598979
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29049_20200820143208.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29049.png"
-            },
-            "description": "פפה לאון מבצע עובדה , Papa Leon",
-            "short_description": "פפה לאון מבצע עובדה , Papa Leon",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29049"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Amiro's",
-            "score": 8.8,
-            "title": "Amiro's",
-            "venue_id": "33315",
-            "address": "2, Yitzhack I. Rager Boulevard Beersheba",
-            "track_id": "33315",
-            "location": [
-                34.7957054,
-                31.2449611
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33315_20210502145317.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33315.jpeg"
-            },
-            "description": "אמירוס - Amiro's, Amiro's",
-            "short_description": "אמירוס - Amiro's, Amiro's",
-            "slug": "beersheva",
-            "tags": [
-                "sandwichesWraps",
-                "salads",
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33315"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Alma Cafe",
-            "score": 9.2,
-            "title": "Alma Cafe",
-            "venue_id": "28954",
-            "address": "2, Ben Zvi Street Beersheba",
-            "track_id": "28954",
-            "location": [
-                34.7954849,
-                31.24413
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28954_20211209130257.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28954.jepg"
-            },
-            "description": "קפה עלמה, Alma Cafe",
-            "short_description": "קפה עלמה, Alma Cafe",
-            "slug": "beersheva",
-            "tags": [
-                "coffeeHouse",
-                "salads",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28954"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Kapris",
-            "score": 7.6,
-            "title": "Kapris",
-            "venue_id": "4276",
-            "address": "2, David Tuviyahu Ave Beersheba",
-            "track_id": "4276",
-            "location": [
-                34.7894352,
-                31.2450847
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_4276_20200520171328.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/4276.jepg"
-            },
-            "description": "קפריס באר שבע, Kapris",
-            "short_description": "קפריס באר שבע, Kapris",
-            "slug": "beersheva",
-            "tags": [
-                "pasta",
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/4276"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Freshop",
-            "score": 8.2,
-            "title": "Freshop",
-            "venue_id": "33313",
-            "address": "4, Ben Zvi Street Beersheba",
-            "track_id": "33313",
-            "location": [
-                34.7965666,
-                31.2439462
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33313_20210510155124.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33313.png"
-            },
-            "description": "פרשופ  באר שבע , Freshop",
-            "short_description": "פרשופ  באר שבע , Freshop",
-            "slug": "beersheva",
-            "tags": [
-                "SmoothiesAndShakes",
-                "gelato"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33313"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Shake Bakter",
-            "score": 0,
-            "title": "Shake Bakter",
-            "venue_id": "34814",
-            "address": "65, David Tuviyahu Ave Beersheba",
-            "track_id": "34814",
-            "location": [
-                34.7859011,
-                31.2458483
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34814_20211110135154.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34814.jpg"
-            },
-            "description": "שייק בקטר , Shake Bakter",
-            "short_description": "שייק בקטר , Shake Bakter",
-            "slug": "beersheva",
-            "tags": [
-                "SmoothiesAndShakes"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34814"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Bleecker Bakery",
-            "score": 8.4,
-            "title": "Bleecker Bakery",
-            "venue_id": "29079",
+            "name": "Pre Pretzel",
+            "score": 9.6,
+            "title": "Pre Pretzel",
+            "venue_id": "35704",
             "address": "125, David Tuviyahu Ave Beersheba",
-            "track_id": "29079",
+            "track_id": "35704",
             "location": [
                 34.7716625,
                 31.2506405
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29079_20200809131911.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29079.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35704_20220125150208.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35704.jpg"
             },
-            "description": "בליקר בייקרי, Bleecker Bakery",
-            "short_description": "בליקר בייקרי, Bleecker Bakery",
+            "description": "Pre פרעצל , Pre Pretzel",
+            "short_description": "Pre פרעצל , Pre Pretzel",
             "slug": "beersheva",
             "tags": [
                 "sandwichesWraps",
-                "salads",
-                "pasta"
+                "bakery",
+                "gelato",
+                "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29079"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Sunshine Sushi",
-            "score": 7.2,
-            "title": "Sunshine Sushi",
-            "venue_id": "33970",
-            "address": "46, Kakal Street Beersheba",
-            "track_id": "33970",
-            "location": [
-                34.791549,
-                31.2381331
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33970_20210708121918.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33970.png"
-            },
-            "description": "סן שיי סושי בר, Sunshine Sushi",
-            "short_description": "סן שיי סושי בר, Sunshine Sushi",
-            "slug": "beersheva",
-            "tags": [
-                "japaneseSushi",
-                "asianFusion"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33970"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35704"
             },
             "provider": "tenBis"
         },
@@ -1550,59 +930,112 @@
             "provider": "tenBis"
         },
         {
-            "name": "rebar",
+            "name": "Hey Cookie",
             "score": 9.6,
-            "title": "rebar",
-            "venue_id": "25946",
-            "address": "125, David Tuviyahu Ave Beersheba",
-            "track_id": "25946",
+            "title": "Hey Cookie",
+            "venue_id": "34723",
+            "address": "35, Derech Metsada Beersheba",
+            "track_id": "34723",
             "location": [
-                34.7716625,
-                31.2506405
+                34.7931748,
+                31.2582219
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25946_20210407131543.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25946.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34723_20220308145010.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34723.jpg"
             },
-            "description": "ריבאר rebar, rebar",
-            "short_description": "ריבאר rebar, rebar",
+            "description": "היי קוקי, Hey Cookie",
+            "short_description": "היי קוקי, Hey Cookie",
             "slug": "beersheva",
             "tags": [
-                "veganFood",
-                "bar",
-                "vegan"
+                "patisserie",
+                "bakery",
+                "gelato"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25946"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34723"
             },
             "provider": "tenBis"
         },
         {
-            "name": "Pre Pretzel",
-            "score": 9.6,
-            "title": "Pre Pretzel",
-            "venue_id": "35704",
-            "address": "125, David Tuviyahu Ave Beersheba",
-            "track_id": "35704",
+            "name": "Alma Cafe",
+            "score": 9.2,
+            "title": "Alma Cafe",
+            "venue_id": "28954",
+            "address": "2, Ben Zvi Street Beersheba",
+            "track_id": "28954",
             "location": [
-                34.7716625,
-                31.2506405
+                34.7954849,
+                31.24413
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35704_20220125150208.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35704.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28954_20211209130257.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28954.jepg"
             },
-            "description": "Pre פרעצל , Pre Pretzel",
-            "short_description": "Pre פרעצל , Pre Pretzel",
+            "description": "קפה עלמה, Alma Cafe",
+            "short_description": "קפה עלמה, Alma Cafe",
             "slug": "beersheva",
             "tags": [
-                "sandwichesWraps",
-                "bakery",
-                "gelato",
-                "kosher"
+                "coffeeHouse",
+                "salads",
+                "pasta"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35704"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28954"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Freshop",
+            "score": 8.2,
+            "title": "Freshop",
+            "venue_id": "33313",
+            "address": "4, Ben Zvi Street Beersheba",
+            "track_id": "33313",
+            "location": [
+                34.7965666,
+                31.2439462
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33313_20210510155124.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33313.png"
+            },
+            "description": "פרשופ  באר שבע , Freshop",
+            "short_description": "פרשופ  באר שבע , Freshop",
+            "slug": "beersheva",
+            "tags": [
+                "SmoothiesAndShakes",
+                "gelato"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33313"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Sunshine Sushi",
+            "score": 7.2,
+            "title": "Sunshine Sushi",
+            "venue_id": "33970",
+            "address": "46, Kakal Street Beersheba",
+            "track_id": "33970",
+            "location": [
+                34.791549,
+                31.2381331
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33970_20210708121918.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33970.png"
+            },
+            "description": "סן שיי סושי בר, Sunshine Sushi",
+            "short_description": "סן שיי סושי בר, Sunshine Sushi",
+            "slug": "beersheva",
+            "tags": [
+                "japaneseSushi",
+                "asianFusion"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33970"
             },
             "provider": "tenBis"
         },
@@ -1634,31 +1067,29 @@
             "provider": "tenBis"
         },
         {
-            "name": "HATOREF",
-            "score": 7,
-            "title": "HATOREF",
-            "venue_id": "26326",
-            "address": "2, David HaMelech Street Beersheba",
-            "track_id": "26326",
+            "name": "Shufersal",
+            "score": 9.6,
+            "title": "Shufersal",
+            "venue_id": "26698",
+            "address": "., תלוש ש\"ח בפיק אפ",
+            "track_id": "26698",
             "location": [
-                34.792792,
-                31.2642891
+                34.792631,
+                32.0768528
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26326_20200706111122.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26326.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26698_20200514142633.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26698.png"
             },
-            "description": "הטורף טורטיה שווארמה באר שבע, HATOREF",
-            "short_description": "הטורף טורטיה שווארמה באר שבע, HATOREF",
+            "description": "שופרסל - כלל ארצי, Shufersal",
+            "short_description": "שופרסל - כלל ארצי, Shufersal",
             "slug": "beersheva",
             "tags": [
-                "mexican",
-                "meatGrill",
-                "salads",
+                "convenienceStore",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26326"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26698"
             },
             "provider": "tenBis"
         },
@@ -1691,149 +1122,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza Italiano",
-            "score": 5.8,
-            "title": "Pizza Italiano",
-            "venue_id": "7228",
-            "address": "60, Mivtsa Nakhshon Beersheba",
-            "track_id": "7228",
-            "location": [
-                34.7873239,
-                31.2605014
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/7228.jpg"
-            },
-            "description": "פיצה איטלינו, Pizza Italiano",
-            "short_description": "פיצה איטלינו, Pizza Italiano",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/7228"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza roma",
-            "score": 7.6,
-            "title": "Pizza roma",
-            "venue_id": "33096",
-            "address": "22, Gush Etsyon Street Beersheba",
-            "track_id": "33096",
-            "location": [
-                34.80775570000001,
-                31.2554382
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33096_20220109154716.jpeg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33096.jpeg"
-            },
-            "description": "פיצה רומא, Pizza roma",
-            "short_description": "פיצה רומא, Pizza roma",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33096"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Shipka ",
-            "score": 8,
-            "title": "Shipka ",
-            "venue_id": "23868",
-            "address": "4, HaTikva Street Beersheba",
-            "track_id": "23868",
-            "location": [
-                34.7992874,
-                31.2453482
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23868.jpg"
-            },
-            "description": "שיפקה באר שבע, Shipka ",
-            "short_description": "שיפקה באר שבע, Shipka ",
-            "slug": "beersheva",
-            "tags": [
-                "homeMade",
-                "salads",
-                "pizza",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23868"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Papa Leon",
-            "score": 8,
-            "title": "Papa Leon",
-            "venue_id": "24707",
-            "address": "21, Oskar Schindler Street Beersheba",
-            "track_id": "24707",
-            "location": [
-                34.7994478,
-                31.2830056
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24707.png"
-            },
-            "description": "פפה לאון רמות, Papa Leon",
-            "short_description": "פפה לאון רמות, Papa Leon",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24707"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hashamen",
-            "score": 0,
-            "title": "Hashamen",
-            "venue_id": "36442",
-            "address": "6, Ben Zvi Street Beersheba",
-            "track_id": "36442",
-            "location": [
-                34.7976499,
-                31.2439843
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36442.jpg"
-            },
-            "description": "השמן , Hashamen",
-            "short_description": "השמן , Hashamen",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36442"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Chillbox",
             "score": 8.4,
             "title": "Chillbox",
@@ -1856,89 +1144,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33627"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Karol",
-            "score": 9.2,
-            "title": "Karol",
-            "venue_id": "28635",
-            "address": "56, Herzl Street Beersheba",
-            "track_id": "28635",
-            "location": [
-                34.7894048,
-                31.2411244
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28635.png"
-            },
-            "description": "קרול, Karol",
-            "short_description": "קרול, Karol",
-            "slug": "beersheva",
-            "tags": [
-                "salads",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28635"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Shufersal",
-            "score": 9.6,
-            "title": "Shufersal",
-            "venue_id": "26698",
-            "address": "., תלוש ש\"ח בפיק אפ",
-            "track_id": "26698",
-            "location": [
-                34.792631,
-                32.0768528
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26698_20200514142633.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26698.png"
-            },
-            "description": "שופרסל - כלל ארצי, Shufersal",
-            "short_description": "שופרסל - כלל ארצי, Shufersal",
-            "slug": "beersheva",
-            "tags": [
-                "convenienceStore",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26698"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hafalafel & Hashawarma",
-            "score": 8.4,
-            "title": "Hafalafel & Hashawarma",
-            "venue_id": "25754",
-            "address": "70, Kakal Street Beersheba",
-            "track_id": "25754",
-            "location": [
-                34.790848,
-                31.2386276
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25754.jfif"
-            },
-            "description": "הפלאפל והשווארמה של הירוק , Hafalafel & Hashawarma",
-            "short_description": "הפלאפל והשווארמה של הירוק , Hafalafel & Hashawarma",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "falafel",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25754"
             },
             "provider": "tenBis"
         },
@@ -1968,92 +1173,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24365"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Eight ",
-            "score": 7,
-            "title": "Eight ",
-            "venue_id": "30271",
-            "address": "32, Kakal Street Beersheba",
-            "track_id": "30271",
-            "location": [
-                34.79179140000001,
-                31.2379596
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30271.png"
-            },
-            "description": "רשת 8, Eight ",
-            "short_description": "רשת 8, Eight ",
-            "slug": "beersheva",
-            "tags": [
-                "burgers",
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30271"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Ori Baguette",
-            "score": 10,
-            "title": "Ori Baguette",
-            "venue_id": "35707",
-            "address": "185, Yitzhack I. Rager Boulevard Beersheba",
-            "track_id": "35707",
-            "location": [
-                34.7977996,
-                31.2701877
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35707.png"
-            },
-            "description": "הבאגט של אורי - סניף אורן, Ori Baguette",
-            "short_description": "הבאגט של אורי - סניף אורן, Ori Baguette",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35707"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "shipodey el hanegev",
-            "score": 9.2,
-            "title": "shipodey el hanegev",
-            "venue_id": "29300",
-            "address": "187, Yitzhack I. Rager Boulevard Beersheba",
-            "track_id": "29300",
-            "location": [
-                34.7978079,
-                31.2708561
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29300_20200818151309.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29300.jpg"
-            },
-            "description": "שיפודי אל הנגב, shipodey el hanegev",
-            "short_description": "שיפודי אל הנגב, shipodey el hanegev",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29300"
             },
             "provider": "tenBis"
         },
@@ -2116,145 +1235,8 @@
             "provider": "tenBis"
         },
         {
-            "name": "Little Italy",
-            "score": 9.2,
-            "title": "Little Italy",
-            "venue_id": "35701",
-            "address": "2, Leo Piccard Beersheba",
-            "track_id": "35701",
-            "location": [
-                34.7990448,
-                31.27769859999999
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35701.jpg"
-            },
-            "description": "האיטלקיה הקטנה, Little Italy",
-            "short_description": "האיטלקיה הקטנה, Little Italy",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35701"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "CHOLO PIZZA",
-            "score": 7.6,
-            "title": "CHOLO PIZZA",
-            "venue_id": "26478",
-            "address": "22, Mivtsa Uvda Beersheba",
-            "track_id": "26478",
-            "location": [
-                34.7776161,
-                31.2597187
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26478.jfif"
-            },
-            "description": "פיצה צ'ולו באר שבע, CHOLO PIZZA",
-            "short_description": "פיצה צ'ולו באר שבע, CHOLO PIZZA",
-            "slug": "beersheva",
-            "tags": [
-                "pasta",
-                "pizza"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26478"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Megulgalawach",
-            "score": 8.4,
-            "title": "Megulgalawach",
-            "venue_id": "21699",
-            "address": "4, Ben Zvi Street Beersheba",
-            "track_id": "21699",
-            "location": [
-                34.7962589,
-                31.2441526
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21699.png"
-            },
-            "description": "מגולגלוואח , Megulgalawach",
-            "short_description": "מגולגלוואח , Megulgalawach",
-            "slug": "beersheva",
-            "tags": [
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21699"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza glitza",
-            "score": 5.4,
-            "title": "Pizza glitza",
-            "venue_id": "29803",
-            "address": "2, Sderot Yerushalayim Beersheba",
-            "track_id": "29803",
-            "location": [
-                34.7822642,
-                31.2454883
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29803.jepg"
-            },
-            "description": "פיצה גליצה, Pizza glitza",
-            "short_description": "פיצה גליצה, Pizza glitza",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29803"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Crazy Corn",
-            "score": 6.6,
-            "title": "Crazy Corn",
-            "venue_id": "30342",
-            "address": "40, Kakal Street Beersheba",
-            "track_id": "30342",
-            "location": [
-                34.79172630000001,
-                31.2381301
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30342_20201217115702.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30342.jpg"
-            },
-            "description": "קרייזי קורן, Crazy Corn",
-            "short_description": "קרייזי קורן, Crazy Corn",
-            "slug": "beersheva",
-            "tags": [
-                "veganFood",
-                "salads",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30342"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Papa john's",
-            "score": 0,
+            "score": 8.8,
             "title": "Papa john's",
             "venue_id": "37108",
             "address": "2, Ya'akov Cohen Street Beersheba",
@@ -2283,279 +1265,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Haraban ",
-            "score": 7.2,
-            "title": "Haraban ",
-            "venue_id": "30421",
-            "address": "14, Kakal Street Beersheba",
-            "track_id": "30421",
+            "name": "Hafalafel & Hashawarma",
+            "score": 8.4,
+            "title": "Hafalafel & Hashawarma",
+            "venue_id": "25754",
+            "address": "70, Kakal Street Beersheba",
+            "track_id": "25754",
             "location": [
-                34.79235440000001,
-                31.2376784
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30421_20210103162324.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30421.jpg"
-            },
-            "description": "הרבן, Haraban ",
-            "short_description": "הרבן, Haraban ",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30421"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza Seven",
-            "score": 4.4,
-            "title": "Pizza Seven",
-            "venue_id": "23773",
-            "address": "16, Shomron Street Beersheba",
-            "track_id": "23773",
-            "location": [
-                34.7663046,
-                31.2500645
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23773.jepg"
-            },
-            "description": "פיצה שבע, Pizza Seven",
-            "short_description": "פיצה שבע, Pizza Seven",
-            "slug": "beersheva",
-            "tags": [
-                "pizza"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23773"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Ben shimol",
-            "score": 8,
-            "title": "Ben shimol",
-            "venue_id": "35495",
-            "address": "31, Sderot Yerushalayim Netivot",
-            "track_id": "35495",
-            "location": [
-                34.5978965,
-                31.4236392
+                34.790848,
+                31.2386276
             ],
             "photo": {
                 "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35495.png"
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25754.jfif"
             },
-            "description": "בן שימול, Ben shimol",
-            "short_description": "בן שימול, Ben shimol",
+            "description": "הפלאפל והשווארמה של הירוק , Hafalafel & Hashawarma",
+            "short_description": "הפלאפל והשווארמה של הירוק , Hafalafel & Hashawarma",
             "slug": "beersheva",
             "tags": [
                 "meatGrill",
+                "salads",
                 "falafel",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35495"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza habait",
-            "score": 5.4,
-            "title": "Pizza habait",
-            "venue_id": "33473",
-            "address": "2, David HaMelech Street Beersheba",
-            "track_id": "33473",
-            "location": [
-                34.792792,
-                31.2642891
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33473.png"
-            },
-            "description": "פיצה הבית, Pizza habait",
-            "short_description": "פיצה הבית, Pizza habait",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33473"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Mister Burger",
-            "score": 7.2,
-            "title": "Mister Burger",
-            "venue_id": "27217",
-            "address": "2, David HaMelech Street Beersheba",
-            "track_id": "27217",
-            "location": [
-                34.792792,
-                31.2642891
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27217.png"
-            },
-            "description": "מיסטר בורגר , Mister Burger",
-            "short_description": "מיסטר בורגר , Mister Burger",
-            "slug": "beersheva",
-            "tags": [
-                "burgers",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27217"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Kings Pizza ",
-            "score": 4.8,
-            "title": "Kings Pizza ",
-            "venue_id": "33474",
-            "address": "2, David HaMelech Street Beersheba",
-            "track_id": "33474",
-            "location": [
-                34.792792,
-                31.2642891
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33474.png"
-            },
-            "description": "פיצה קינגס, Kings Pizza ",
-            "short_description": "פיצה קינגס, Kings Pizza ",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33474"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hot Dog",
-            "score": 4.8,
-            "title": "Hot Dog",
-            "venue_id": "35366",
-            "address": "5, Yitskhak Avinu Beersheba",
-            "track_id": "35366",
-            "location": [
-                34.7949054,
-                31.26089039999999
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35366_20211202093023.jpeg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35366.jpg"
-            },
-            "description": "הוט דוג מרכז הנגב, Hot Dog",
-            "short_description": "הוט דוג מרכז הנגב, Hot Dog",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35366"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Dedi's Shnitzel",
-            "score": 7.2,
-            "title": "Dedi's Shnitzel",
-            "venue_id": "34657",
-            "address": "31, Sderot Shazar Beersheba",
-            "track_id": "34657",
-            "location": [
-                34.8041819,
-                31.2468434
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34657.png"
-            },
-            "description": "השניצל של דדי, Dedi's Shnitzel",
-            "short_description": "השניצל של דדי, Dedi's Shnitzel",
-            "slug": "beersheva",
-            "tags": [
-                "homeMade",
-                "meatGrill",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34657"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Sayel Salad's",
-            "score": 8.6,
-            "title": "Sayel Salad's",
-            "venue_id": "34658",
-            "address": "31, Sderot Shazar Beersheba",
-            "track_id": "34658",
-            "location": [
-                34.8041819,
-                31.2468434
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34658.jpg"
-            },
-            "description": "סלטי סיאל, Sayel Salad's",
-            "short_description": "סלטי סיאל, Sayel Salad's",
-            "slug": "beersheva",
-            "tags": [
-                "sandwichesWraps",
-                "salads",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34658"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza Hut",
-            "score": 7.8,
-            "title": "Pizza Hut",
-            "venue_id": "13356",
-            "address": "53, Yitzhack I. Rager Boulevard Beersheba",
-            "track_id": "13356",
-            "location": [
-                34.7983284,
-                31.2538143
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/13356.jpeg"
-            },
-            "description": "פיצה האט, Pizza Hut",
-            "short_description": "פיצה האט, Pizza Hut",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "salads",
-                "pasta",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/13356"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25754"
             },
             "provider": "tenBis"
         },
@@ -2590,37 +1324,8 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza hat",
-            "score": 7.2,
-            "title": "Pizza hat",
-            "venue_id": "30140",
-            "address": "26, HeArim HaTe'omot Avenue Beersheba",
-            "track_id": "30140",
-            "location": [
-                34.7994368,
-                31.282158
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30140.jpeg"
-            },
-            "description": "פיצה האט, Pizza hat",
-            "short_description": "פיצה האט, Pizza hat",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30140"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Aldo",
-            "score": 8.2,
+            "score": 8,
             "title": "Aldo",
             "venue_id": "29480",
             "address": "18, Haim Yahil Beersheba",
@@ -2643,59 +1348,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29480"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "McDonald’s",
-            "score": 8,
-            "title": "McDonald’s",
-            "venue_id": "29446",
-            "address": "4, Ben Zvi Street Beersheba",
-            "track_id": "29446",
-            "location": [
-                34.7965666,
-                31.2439462
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29446_20200831110037.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29446.jpeg"
-            },
-            "description": "מקדונלד'ס תחנה מרכזית באר שבע, McDonald’s",
-            "short_description": "מקדונלד'ס תחנה מרכזית באר שבע, McDonald’s",
-            "slug": "beersheva",
-            "tags": [
-                "burgers",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29446"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hummus dawin",
-            "score": 9.6,
-            "title": "Hummus dawin",
-            "venue_id": "35724",
-            "address": "14, Alexander Yannai Street Beersheba",
-            "track_id": "35724",
-            "location": [
-                34.7973342,
-                31.2643956
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35724_20220206112339.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35724.jpg"
-            },
-            "description": "חומוס דאווין , Hummus dawin",
-            "short_description": "חומוס דאווין , Hummus dawin",
-            "slug": "beersheva",
-            "tags": [
-                "humus"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35724"
             },
             "provider": "tenBis"
         },
@@ -2728,202 +1380,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pita Katsavim",
-            "score": 9.2,
-            "title": "Pita Katsavim",
-            "venue_id": "34444",
-            "address": "2, Hebron Road Beersheba",
-            "track_id": "34444",
+            "name": "Pizza Hut",
+            "score": 7.8,
+            "title": "Pizza Hut",
+            "venue_id": "13356",
+            "address": "53, Yitzhack I. Rager Boulevard Beersheba",
+            "track_id": "13356",
             "location": [
-                34.7930441,
-                31.2373287
+                34.7983284,
+                31.2538143
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34444_20210830173457.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34444.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/13356.jpeg"
             },
-            "description": "פיתה קצבים , Pita Katsavim",
-            "short_description": "פיתה קצבים , Pita Katsavim",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "burgers",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34444"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Halavi Li",
-            "score": 9.2,
-            "title": "Halavi Li",
-            "venue_id": "23791",
-            "address": "76, Yosef Ben Matityahu Beersheba",
-            "track_id": "23791",
-            "location": [
-                34.801498,
-                31.265173
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23791.jpg"
-            },
-            "description": "חלבילי , Halavi Li",
-            "short_description": "חלבילי , Halavi Li",
-            "slug": "beersheva",
-            "tags": [
-                "salads",
-                "veganFood",
-                "sandwichesWraps",
-                "kosher",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23791"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hummus Eliyahu",
-            "score": 9.6,
-            "title": "Hummus Eliyahu",
-            "venue_id": "23634",
-            "address": "6, Derech Metsada Beersheba",
-            "track_id": "23634",
-            "location": [
-                34.7958157,
-                31.2584494
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23634_20211126180527.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23634.jpeg"
-            },
-            "description": "חומוס אליהו מצדה, Hummus Eliyahu",
-            "short_description": "חומוס אליהו מצדה, Hummus Eliyahu",
-            "slug": "beersheva",
-            "tags": [
-                "humus",
-                "falafel",
-                "veganFood",
-                "kosher",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23634"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza pai",
-            "score": 8,
-            "title": "Pizza pai",
-            "venue_id": "29938",
-            "address": "60, Mivtsa Nakhshon Beersheba",
-            "track_id": "29938",
-            "location": [
-                34.7873239,
-                31.2605014
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29938_20201104090044.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29938.png"
-            },
-            "description": "פיצה פאי, Pizza pai",
-            "short_description": "פיצה פאי, Pizza pai",
+            "description": "פיצה האט, Pizza Hut",
+            "short_description": "פיצה האט, Pizza Hut",
             "slug": "beersheva",
             "tags": [
                 "pizza",
+                "salads",
                 "pasta",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29938"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Miri Delicacies",
-            "score": 7.8,
-            "title": "Miri Delicacies",
-            "venue_id": "22635",
-            "address": "9, בן ציון כרמל Beersheba",
-            "track_id": "22635",
-            "location": [
-                34.8237868,
-                31.2581489
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/22635.jepg"
-            },
-            "description": "מירי מעדנים, Miri Delicacies",
-            "short_description": "מירי מעדנים, Miri Delicacies",
-            "slug": "beersheva",
-            "tags": [
-                "homeMade",
-                "meatGrill",
-                "salads"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/22635"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "The yemen gav yam  ",
-            "score": 8.4,
-            "title": "The yemen gav yam  ",
-            "venue_id": "35192",
-            "address": "77, HaEnergia Beersheba",
-            "track_id": "35192",
-            "location": [
-                34.8108598,
-                31.2632577
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35192.jpg"
-            },
-            "description": "התימני גב ים , The yemen gav yam  ",
-            "short_description": "התימני גב ים , The yemen gav yam  ",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "burgers"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35192"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hateimani",
-            "score": 8.4,
-            "title": "Hateimani",
-            "venue_id": "21569",
-            "address": "17, Gershon Shofman Beersheba",
-            "track_id": "21569",
-            "location": [
-                34.7747787,
-                31.2383477
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21569.jpg"
-            },
-            "description": " התימני , Hateimani",
-            "short_description": " התימני , Hateimani",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21569"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/13356"
             },
             "provider": "tenBis"
         },
@@ -2958,6 +1439,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "Pizza hat",
+            "score": 7.2,
+            "title": "Pizza hat",
+            "venue_id": "30140",
+            "address": "26, HeArim HaTe'omot Avenue Beersheba",
+            "track_id": "30140",
+            "location": [
+                34.7994368,
+                31.282158
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30140.jpeg"
+            },
+            "description": "פיצה האט, Pizza hat",
+            "short_description": "פיצה האט, Pizza hat",
+            "slug": "beersheva",
+            "tags": [
+                "pizza",
+                "pasta",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30140"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "cacao forest",
             "score": 9.2,
             "title": "cacao forest",
@@ -2981,6 +1491,62 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26371"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Hummus dawin",
+            "score": 9.6,
+            "title": "Hummus dawin",
+            "venue_id": "35724",
+            "address": "14, Alexander Yannai Street Beersheba",
+            "track_id": "35724",
+            "location": [
+                34.7973342,
+                31.2643956
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35724_20220206112339.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35724.jpg"
+            },
+            "description": "חומוס דאווין , Hummus dawin",
+            "short_description": "חומוס דאווין , Hummus dawin",
+            "slug": "beersheva",
+            "tags": [
+                "humus"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35724"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Hummus Eliyahu",
+            "score": 9.6,
+            "title": "Hummus Eliyahu",
+            "venue_id": "23634",
+            "address": "6, Derech Metsada Beersheba",
+            "track_id": "23634",
+            "location": [
+                34.7958157,
+                31.2584494
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23634_20211126180527.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23634.jpeg"
+            },
+            "description": "חומוס אליהו מצדה, Hummus Eliyahu",
+            "short_description": "חומוס אליהו מצדה, Hummus Eliyahu",
+            "slug": "beersheva",
+            "tags": [
+                "humus",
+                "falafel",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23634"
             },
             "provider": "tenBis"
         },
@@ -3013,6 +1579,36 @@
             "provider": "tenBis"
         },
         {
+            "name": "Asyatica",
+            "score": 7.8,
+            "title": "Asyatica",
+            "venue_id": "21550",
+            "address": "5, Yitskhak Avinu Beersheba",
+            "track_id": "21550",
+            "location": [
+                34.7948181,
+                31.2610637
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_21550_20220705113528.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21550.jpg"
+            },
+            "description": "אסייתיקה , Asyatica",
+            "short_description": "אסייתיקה , Asyatica",
+            "slug": "beersheva",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi",
+                "veganFood",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21550"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Mamos Tunisian restaurant",
             "score": 8.4,
             "title": "Mamos Tunisian restaurant",
@@ -3038,295 +1634,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/22958"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "red meat",
-            "score": 7.2,
-            "title": "red meat",
-            "venue_id": "32961",
-            "address": "53, Kakal Street Beersheba",
-            "track_id": "32961",
-            "location": [
-                34.7912833,
-                31.2381254
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_32961_20211222155654.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32961.jepg"
-            },
-            "description": "רד מיט באר שבע , red meat",
-            "short_description": "רד מיט באר שבע , red meat",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "burgers",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32961"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Falafel Shawarma hakerem",
-            "score": 8.4,
-            "title": "Falafel Shawarma hakerem",
-            "venue_id": "23538",
-            "address": "30, HaAyin Lamed Beersheba",
-            "track_id": "23538",
-            "location": [
-                34.7959135,
-                31.232687
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23538.jpg"
-            },
-            "description": "פלאפל שווארמה הכרם, Falafel Shawarma hakerem",
-            "short_description": "פלאפל שווארמה הכרם, Falafel Shawarma hakerem",
-            "slug": "beersheva",
-            "tags": [
-                "salads",
-                "meatGrill",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23538"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Khachapuri ",
-            "score": 9.2,
-            "title": "Khachapuri ",
-            "venue_id": "24182",
-            "address": "5, Yitskhak Avinu Beersheba",
-            "track_id": "24182",
-            "location": [
-                34.7950072,
-                31.2609776
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24182.png"
-            },
-            "description": "החצ'פורי, Khachapuri ",
-            "short_description": "החצ'פורי, Khachapuri ",
-            "slug": "beersheva",
-            "tags": [
-                "homeMade",
-                "salads",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24182"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Asyatica",
-            "score": 7.8,
-            "title": "Asyatica",
-            "venue_id": "21550",
-            "address": "5, Yitskhak Avinu Beersheba",
-            "track_id": "21550",
-            "location": [
-                34.7948181,
-                31.2610637
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_asian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21550.jpg"
-            },
-            "description": "אסייתיקה , Asyatica",
-            "short_description": "אסייתיקה , Asyatica",
-            "slug": "beersheva",
-            "tags": [
-                "asianFusion",
-                "japaneseSushi",
-                "veganFood",
-                "kosher",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21550"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "The Dictator",
-            "score": 7.8,
-            "title": "The Dictator",
-            "venue_id": "34420",
-            "address": "43, HaMada Street Beersheba",
-            "track_id": "34420",
-            "location": [
-                34.8045598,
-                31.2742285
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34420.jpg"
-            },
-            "description": "הדיקטטור , The Dictator",
-            "short_description": "הדיקטטור , The Dictator",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "burgers",
-                "mexican",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34420"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "The Cow",
-            "score": 8.4,
-            "title": "The Cow",
-            "venue_id": "21693",
-            "address": "60/13, Mivtsa Nakhshon Beersheba",
-            "track_id": "21693",
-            "location": [
-                34.7873239,
-                31.2605014
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21693.jepg"
-            },
-            "description": "הפרה , The Cow",
-            "short_description": "הפרה , The Cow",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "burgers",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21693"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Poke Van ",
-            "score": 9.4,
-            "title": "Poke Van ",
-            "venue_id": "28979",
-            "address": "77, HaEnergia Beersheba",
-            "track_id": "28979",
-            "location": [
-                34.8108598,
-                31.2632577
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28979_20220428153157.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28979.jpg"
-            },
-            "description": "פוקי ואן, Poke Van ",
-            "short_description": "פוקי ואן, Poke Van ",
-            "slug": "beersheva",
-            "tags": [
-                "poke",
-                "veganFood",
-                "fish",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28979"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Uri's Baguette",
-            "score": 10,
-            "title": "Uri's Baguette",
-            "venue_id": "33021",
-            "address": "77, He-Khaluts Street Beersheba",
-            "track_id": "33021",
-            "location": [
-                34.7897902,
-                31.2398608
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33021.png"
-            },
-            "description": "הבאגט של אורי, Uri's Baguette",
-            "short_description": "הבאגט של אורי, Uri's Baguette",
-            "slug": "beersheva",
-            "tags": [
-                "sandwichesWraps",
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33021"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Yerushalmit",
-            "score": 7.6,
-            "title": "Yerushalmit",
-            "venue_id": "26220",
-            "address": "47, Kakal Street Beersheba",
-            "track_id": "26220",
-            "location": [
-                34.7914635,
-                31.2379629
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26220.png"
-            },
-            "description": "הירושלמית , Yerushalmit",
-            "short_description": "הירושלמית , Yerushalmit",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "salads",
-                "homeMade",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26220"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Tabun Hanegev",
-            "score": 8.2,
-            "title": "Tabun Hanegev",
-            "venue_id": "34418",
-            "address": "6, Derech Metsada Beersheba",
-            "track_id": "34418",
-            "location": [
-                34.7955966,
-                31.2591166
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_bakery.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34418.jpg"
-            },
-            "description": "טאבון הנגב, Tabun Hanegev",
-            "short_description": "טאבון הנגב, Tabun Hanegev",
-            "slug": "beersheva",
-            "tags": [
-                "bakery",
-                "sandwichesWraps",
-                "pizza",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34418"
             },
             "provider": "tenBis"
         },
@@ -3384,151 +1691,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33760"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "The godfather",
-            "score": 8.2,
-            "title": "The godfather",
-            "venue_id": "25647",
-            "address": "2, Sderot Yerushalayim Beersheba",
-            "track_id": "25647",
-            "location": [
-                34.7822642,
-                31.2454883
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_mexican.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25647.bmp"
-            },
-            "description": "הסנדק, The godfather",
-            "short_description": "הסנדק, The godfather",
-            "slug": "beersheva",
-            "tags": [
-                "mexican",
-                "meatGrill",
-                "burgers",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25647"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Burgerim - Family Meals",
-            "score": 8.4,
-            "title": "Burgerim - Family Meals",
-            "venue_id": "13052",
-            "address": "24, Beit Eshel Beersheba",
-            "track_id": "13052",
-            "location": [
-                34.7924456,
-                31.2378561
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_13052_20211013115536.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/13052.jpg"
-            },
-            "description": "בורגרים העיר העתיקה, Burgerim - Family Meals",
-            "short_description": "בורגרים העיר העתיקה, Burgerim - Family Meals",
-            "slug": "beersheva",
-            "tags": [
-                "burgers",
-                "sandwichesWraps",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/13052"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Uri's baguette",
-            "score": 8,
-            "title": "Uri's baguette",
-            "venue_id": "36581",
-            "address": "11, Sderot Johana Jabotinsky Beersheba",
-            "track_id": "36581",
-            "location": [
-                34.7740828,
-                31.2386544
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36581.png"
-            },
-            "description": "הבאגט של אורי יוהנה, Uri's baguette",
-            "short_description": "הבאגט של אורי יוהנה, Uri's baguette",
-            "slug": "beersheva",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36581"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Pizza Fargo",
-            "score": 8.8,
-            "title": "Pizza Fargo",
-            "venue_id": "35700",
-            "address": "112, Ephraim Laron Beersheba",
-            "track_id": "35700",
-            "location": [
-                34.767212,
-                31.2308373
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35700_20220328173458.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35700.jepg"
-            },
-            "description": "פיצה פרגו באר שבע, Pizza Fargo",
-            "short_description": "פיצה פרגו באר שבע, Pizza Fargo",
-            "slug": "beersheva",
-            "tags": [
-                "pizza",
-                "pasta",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35700"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Burger touch",
-            "score": 8,
-            "title": "Burger touch",
-            "venue_id": "34264",
-            "address": "9, Yosef Samelo Netivot",
-            "track_id": "34264",
-            "location": [
-                34.5995655,
-                31.4216529
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_burgers.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34264.jpg"
-            },
-            "description": "בורגר טאצ' , Burger touch",
-            "short_description": "בורגר טאצ' , Burger touch",
-            "slug": "beersheva",
-            "tags": [
-                "burgers",
-                "meatGrill",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34264"
             },
             "provider": "tenBis"
         },
@@ -3613,32 +1775,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28396"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Allenby Cafe",
-            "score": 8.6,
-            "title": "Allenby Cafe",
-            "venue_id": "33128",
-            "address": "2, ברוך קטינקא Beersheba",
-            "track_id": "33128",
-            "location": [
-                34.8014475,
-                31.2244175
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33128_20210511110151.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33128.png"
-            },
-            "description": "קפה אלנבי, Allenby Cafe",
-            "short_description": "קפה אלנבי, Allenby Cafe",
-            "slug": "beersheva",
-            "tags": [
-                "coffeeHouse"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33128"
             },
             "provider": "tenBis"
         },
