@@ -1,5 +1,5 @@
 {
-    "lastScrapeDate": 1658388027802,
+    "lastScrapeDate": 1658399471199,
     "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.804381&lon=34.655314",
     "restaurants": [
         {
@@ -31,28 +31,138 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b8db60fa6b1aa96d218d9c/8bca719c-c471-11eb-8760-d2b1878fd4a2_mc_list.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6209042bc76e1b688fc20276/baef9fe4-d1f2-11ec-8b5a-0e71d4d94f7b_gal_0380.jpg",
                 "logo": null
             },
-            "title": "McDonald’s® City Mall Ashdod",
-            "name": "McDonald’s® City Mall Ashdod",
-            "track_id": "venue-mcdonalds-city-mall-ashdod",
-            "address": "קניון הסיטי, אשדוד",
-            "venue_id": "60b8db60fa6b1aa96d218d9c",
+            "title": "KFC | BIG Ashdod",
+            "name": "KFC | BIG Ashdod",
+            "track_id": "venue-kfc-big-ashdod",
+            "address": "דרך הרכבת 1,  ביג אשדוד",
+            "venue_id": "6209042bc76e1b688fc20276",
             "location": [
-                34.6394684,
-                31.7907924
+                34.6637991,
+                31.7766348
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel\n",
-            "slug": "mcdonalds-city-mall-ashdod",
+            "short_description": "It’s Finger Lickin’ Good",
+            "slug": "kfc-big-ashdod",
             "tags": [
                 "burger",
-                "chicken",
+                "street food",
                 "kids"
             ],
-            "score": 7.6,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-city-mall-ashdod"
+                "url": "https://wolt.com/en/isr/undefined/venue/kfc-big-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60bde92543243c79841cc9a8/3c37e01e-c774-11eb-83ef-ce57bcb35106_f211525c_9e94_11eb_b415_0244642d6acf_eae66ef6_9c67_11eb_822b_221d1b6f16a3_______1_.jpeg",
+                "logo": null
+            },
+            "title": "Ruben | Ashdod",
+            "name": "Ruben | Ashdod",
+            "track_id": "venue-ruben-ashdod",
+            "address": "ז'בוטינסקי 74, אשדוד",
+            "venue_id": "60bde92543243c79841cc9a8",
+            "location": [
+                34.65798914285173,
+                31.808596473792143
+            ],
+            "short_description": "A True American Experience | Kosher",
+            "slug": "ruben-ashdod",
+            "tags": [
+                "burger",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ruben-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b879c5cb66f0aea3a2aa58/e12390be-c436-11eb-bfc9-fa5de088acf1_96441226_a98e_11ea_b794_0a5864788c77_e824d066f0f913f504052c76db9db2c0.jpeg",
+                "logo": null
+            },
+            "title": "Burger King | Ashdod",
+            "name": "Burger King | Ashdod",
+            "track_id": "venue-burger-king-ashdod",
+            "address": "מתחם תחנת דלק מנטה, אורט 1, אשדוד",
+            "venue_id": "60b879c5cb66f0aea3a2aa58",
+            "location": [
+                34.649161,
+                31.814368
+            ],
+            "short_description": "Home of the Whopper ® Kosher - Chief Rabbinate Ashdod\n",
+            "slug": "burger-king-ashdod",
+            "tags": [
+                "american",
+                "burger",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burger-king-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60eab468f98ac2c41cc8a75f/e1c4175a-ba71-11ec-b516-f28677a5c8b7_____1.jpg",
+                "logo": null
+            },
+            "title": "BBB | Ashdod",
+            "name": "BBB | Ashdod",
+            "track_id": "venue-bbb-ashdod",
+            "address": "הבנאים 4 אשדוד",
+            "venue_id": "60eab468f98ac2c41cc8a75f",
+            "location": [
+                34.6587121,
+                31.813108799999988
+            ],
+            "short_description": "American Style Diner",
+            "slug": "bbb-ashdod",
+            "tags": [
+                "burger",
+                "grill",
+                "kids"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/bbb-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f6d1486f03da04f411845d/fdde231c-eaed-11eb-b5d8-a20f69b88b0a_______2_.jpg",
+                "logo": null
+            },
+            "title": "ZEH Burger",
+            "name": "ZEH Burger",
+            "track_id": "venue-ze-burger",
+            "address": "מפקורה 1, אשדוד",
+            "venue_id": "60f6d1486f03da04f411845d",
+            "location": [
+                34.63481832850756,
+                31.80227675580849
+            ],
+            "short_description": "Burgers - Our Superpower!",
+            "slug": "ze-burger",
+            "tags": [
+                "burger",
+                "street food",
+                "sandwich"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ze-burger"
             },
             "provider": "wolt"
         },
@@ -80,34 +190,6 @@
             "score": 8.6,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/del-pesto"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609919005b5315ede4d0cd2d/6240f4a0-b183-11eb-847c-92b2fb0d2a2e_jetlek_ashdod_1.jpeg",
-                "logo": null
-            },
-            "title": "JetLek | Ashdod",
-            "name": "JetLek | Ashdod",
-            "track_id": "venue-jetlek-ashdod",
-            "address": "הגדוד העברי 5, אשדוד",
-            "venue_id": "609919005b5315ede4d0cd2d",
-            "location": [
-                34.63807603546271,
-                31.790921646469837
-            ],
-            "short_description": "Chef ice cream, serious desserts, frozen yogurt, and coffee. Kosher badatz - beit yosef\n",
-            "slug": "jetlek-ashdod",
-            "tags": [
-                "ice cream",
-                "kosher",
-                "sweets",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/jetlek-ashdod"
             },
             "provider": "wolt"
         },
@@ -141,6 +223,60 @@
         },
         {
             "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b764d5896da08d9c690da8/505fef4a-c450-11eb-8201-ee670b4635b8_bonfis_9999_242.jpg",
+                "logo": null
+            },
+            "title": "Casa Del Pepe | Ashdod",
+            "name": "Casa Del Pepe | Ashdod",
+            "track_id": "venue-casa-del-pepe-ashdod",
+            "address": "הקליטה 3, אשדוד",
+            "venue_id": "60b764d5896da08d9c690da8",
+            "location": [
+                34.6426411,
+                31.7876053
+            ],
+            "short_description": "Local Pizza",
+            "slug": "casa-del-pepe-ashdod",
+            "tags": [
+                "pizza",
+                "italian"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/casa-del-pepe-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609919005b5315ede4d0cd2d/6240f4a0-b183-11eb-847c-92b2fb0d2a2e_jetlek_ashdod_1.jpeg",
+                "logo": null
+            },
+            "title": "JetLek | Ashdod",
+            "name": "JetLek | Ashdod",
+            "track_id": "venue-jetlek-ashdod",
+            "address": "הגדוד העברי 5, אשדוד",
+            "venue_id": "609919005b5315ede4d0cd2d",
+            "location": [
+                34.63807603546271,
+                31.790921646469837
+            ],
+            "short_description": "Chef ice cream, serious desserts, frozen yogurt, and coffee. Kosher badatz - beit yosef\n",
+            "slug": "jetlek-ashdod",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "sweets",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/jetlek-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/6097dad5cab193b72fd3fd38/f6f8314e-bc9b-11eb-97d7-2a40b67615f5_bonfis_9999_148.jpg",
                 "logo": null
             },
@@ -164,6 +300,34 @@
             "score": 8.6,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/mouiz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609c045dfc4466cbb2c83b3a/0074b394-c761-11eb-90a3-42c6b2616843_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pita Basta | Ashdod",
+            "name": "Pita Basta | Ashdod",
+            "track_id": "venue-pita-basta-ashdod",
+            "address": "הבנאים 1, אשדוד",
+            "venue_id": "609c045dfc4466cbb2c83b3a",
+            "location": [
+                34.65827179999997,
+                31.812408400000027
+            ],
+            "short_description": "Market Kitchen Vibes - Kosher\n",
+            "slug": "pita-basta-ashdod",
+            "tags": [
+                "pita",
+                "israeli",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pita-basta-ashdod"
             },
             "provider": "wolt"
         },
@@ -196,6 +360,173 @@
         },
         {
             "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60cf6a681b083f2b08a7c5c5/cb0346b8-d97f-11eb-8b58-72c38863ac61_bonfis_9999_105.jpg",
+                "logo": null
+            },
+            "title": "Tostadas | Ashdod",
+            "name": "Tostadas | Ashdod",
+            "track_id": "venue-tostadas-ashdod",
+            "address": "האורגים 12, אשדוד",
+            "venue_id": "60cf6a681b083f2b08a7c5c5",
+            "location": [
+                34.658681,
+                31.812244
+            ],
+            "short_description": "Pastrami toast",
+            "slug": "tostadas-ashdod",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tostadas-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b38ed3e02833eba787458f/63e36dac-c69f-11eb-bb61-f6bded9d0316_____.jpg",
+                "logo": null
+            },
+            "title": "Bourekas & Jachnun Gedera",
+            "name": "Bourekas & Jachnun Gedera",
+            "track_id": "venue-jachnun-gedera",
+            "address": "רוגוזין 74, אשדוד",
+            "venue_id": "60b38ed3e02833eba787458f",
+            "location": [
+                34.63734780000001,
+                31.800240000000013
+            ],
+            "short_description": "Bourekas, Jachnun, Malabi",
+            "slug": "jachnun-gedera",
+            "tags": [
+                "breakfast",
+                "sandwich",
+                "mediterranean"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/jachnun-gedera"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60eadd537a3e940061d881c5/968bd03c-e931-11eb-af4e-de1ed1c34dd5_054a9588.jpg",
+                "logo": null
+            },
+            "title": "Pizza Bella | Ashdod",
+            "name": "Pizza Bella | Ashdod",
+            "track_id": "venue-pizza-bella",
+            "address": "חיים משה שפירא 22",
+            "venue_id": "60eadd537a3e940061d881c5",
+            "location": [
+                34.6412082,
+                31.80055459999999
+            ],
+            "short_description": "Original Italian Cuisine 🇮🇹🍕",
+            "slug": "pizza-bella",
+            "tags": [
+                "kosher",
+                "pizza",
+                "italian",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-bella"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d187cccf98fb9c89961b30/6ee13166-d8de-11eb-8253-36e0b6accc6b_bonfis_9999_30.jpg",
+                "logo": null
+            },
+            "title": "Etzel Robert",
+            "name": "Etzel Robert",
+            "track_id": "venue-etzel-robert",
+            "address": "הרב הרצוג 7, אשדוד",
+            "venue_id": "60d187cccf98fb9c89961b30",
+            "location": [
+                34.6531457,
+                31.8033871
+            ],
+            "short_description": "אוכל בייתי מרוקאי",
+            "slug": "etzel-robert",
+            "tags": [
+                "fish",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/etzel-robert"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608e92a19313bc7af39c2bec/24f50092-ab3d-11eb-b4d5-8e933b9429c6_8d5c5e72_a616_11eb_91f0_b2631ef297ef_bonfis_9999_28.jpeg",
+                "logo": null
+            },
+            "title": "Gigi | Ashdod",
+            "name": "Gigi | Ashdod",
+            "track_id": "venue-gigi-ashdod",
+            "address": "שבט לוי 16",
+            "venue_id": "608e92a19313bc7af39c2bec",
+            "location": [
+                34.6358425,
+                31.7780712
+            ],
+            "short_description": "The difference is in the taste",
+            "slug": "gigi-ashdod",
+            "tags": [
+                "kosher",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/gigi-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60990a1cce7fcd707acc38f5/34d7de42-b17a-11eb-83b0-028ddb3a31cb_96c8c3c8_6d06_11ea_b024_0a58647f830c_dsc00247.jpeg",
+                "logo": null
+            },
+            "title": "Pita Basar | Ashdod",
+            "name": "Pita Basar | Ashdod",
+            "track_id": "venue-pita-basar-ashdod",
+            "address": "הבנאים 1, אשדוד",
+            "venue_id": "60990a1cce7fcd707acc38f5",
+            "location": [
+                34.6582718,
+                31.8124084
+            ],
+            "short_description": "Pita is one thing, Pita Basar is another",
+            "slug": "pita-basar-ashdod",
+            "tags": [
+                "chicken",
+                "grill",
+                "israeli",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pita-basar-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/609901c22d1a5ce0d76aa3bc/11f87bd8-5036-11ec-be9b-425e20ec5242__________.jpg",
                 "logo": null
             },
@@ -217,6 +548,253 @@
             "score": 9,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/rebar-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60a0dfb209ad39c768b747a8/ab2c7e5c-c2f7-11eb-9da3-96c674cafbb2_bonfis_9999_44.jpg",
+                "logo": null
+            },
+            "title": "Smokeat",
+            "name": "Smokeat",
+            "track_id": "venue-smokeat",
+            "address": "הבנאים 3, אשדוד",
+            "venue_id": "60a0dfb209ad39c768b747a8",
+            "location": [
+                34.65859340000001,
+                31.813364299999993
+            ],
+            "short_description": "From The Smoker",
+            "slug": "smokeat",
+            "tags": [
+                "burger",
+                "kosher",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/smokeat"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ae272ec7db4f7453674e01/24494d46-be17-11eb-898c-ce53fe20e499_shibolet_1.jpeg",
+                "logo": null
+            },
+            "title": "Shibolet HaSharon | Ashdod",
+            "name": "Shibolet HaSharon | Ashdod",
+            "track_id": "venue-shibolet-hasharon-ashdod",
+            "address": "הגדוד העברי 5, אשדוד",
+            "venue_id": "60ae272ec7db4f7453674e01",
+            "location": [
+                34.6381046,
+                31.7908807
+            ],
+            "short_description": "Bakery\n",
+            "slug": "shibolet-hasharon-ashdod",
+            "tags": [
+                "bakery",
+                "breakfast",
+                "sandwich"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shibolet-hasharon-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60af67044837dc5d21eed914/5bad1b68-c6a1-11eb-ad72-2a73e57791a1_bonfis_9999_59.jpg",
+                "logo": null
+            },
+            "title": "Baguettos",
+            "name": "Baguettos",
+            "track_id": "venue-baguettos",
+            "address": "נורדאו 24",
+            "venue_id": "60af67044837dc5d21eed914",
+            "location": [
+                34.64052059999999,
+                31.81151449999999
+            ],
+            "short_description": "Sandwich Bar ",
+            "slug": "baguettos",
+            "tags": [
+                "sandwich",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/baguettos"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ed3481db99432481c267d3/d4780256-7c3b-11ec-9391-2a7a23370a7b_51f6a28c_58ac_11eb_9e5b_169541743c0c_boker_yachid.jpg",
+                "logo": null
+            },
+            "title": "Biga | Ashdod",
+            "name": "Biga | Ashdod",
+            "track_id": "venue-biga-ashdod",
+            "address": "ז׳בוטינסקי 47 סטאר סנטר",
+            "venue_id": "61ed3481db99432481c267d3",
+            "location": [
+                34.6533998,
+                31.8104745
+            ],
+            "short_description": "Coffee Place",
+            "slug": "biga-ashdod",
+            "tags": [
+                "breakfast",
+                "italian",
+                "salad",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60db161de2a9edc6bb28429c/2858d730-d8d9-11eb-b2c6-767ee9188926_new_deli_1.jpeg",
+                "logo": null
+            },
+            "title": "New Deli | Ashdod",
+            "name": "New Deli | Ashdod",
+            "track_id": "venue-new-deli-ashdod",
+            "address": "דרך מנחם בגין 1, סיטי מול ",
+            "venue_id": "60db161de2a9edc6bb28429c",
+            "location": [
+                34.63950595092846,
+                31.79104317952316
+            ],
+            "short_description": "Fine Grilled Sandwiches\n",
+            "slug": "new-deli-ashdod",
+            "tags": [
+                "deli",
+                "grill",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/new-deli-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a8e04dec53c7cdd7e2b659/5bd4a182-60c1-11ec-bba6-2e0ce56d477f_fto05778.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Avi HaGadol",
+            "name": "Shawarma Avi HaGadol",
+            "track_id": "venue-shawarma-avi-hagadol",
+            "address": "ז'בוטינסקי 47, אשדוד",
+            "venue_id": "61a8e04dec53c7cdd7e2b659",
+            "location": [
+                34.6533185,
+                31.8105526
+            ],
+            "short_description": "Shawarma and Grilled Meats | Kosher LeMehadrin",
+            "slug": "shawarma-avi-hagadol",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-avi-hagadol"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61960ff82fe38ae434dd92ee/fb827fb4-f53c-11ec-88bd-3aa171ccd018_list.jpg",
+                "logo": null
+            },
+            "title": "Toast Gan Ha'ir",
+            "name": "Toast Gan Ha'ir",
+            "track_id": "venue-toast-gan-hair",
+            "address": "הגדוד העברי 5, אשדוד",
+            "venue_id": "61960ff82fe38ae434dd92ee",
+            "location": [
+                34.638104600000005,
+                31.79088070000001
+            ],
+            "short_description": "Pastrami Toast and Sanwiches",
+            "slug": "toast-gan-hair",
+            "tags": [
+                "sandwich",
+                "street food",
+                "mediterranean"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/toast-gan-hair"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b8ddfa1f287f9c6c335dda/96480bf6-c472-11eb-be7b-d2b1878fd4a2_mc_list.jpeg",
+                "logo": null
+            },
+            "title": "McDonald's® Sea Mall Ashdod",
+            "name": "McDonald's® Sea Mall Ashdod",
+            "track_id": "venue-mcdonalds-sea-mall-ashdod",
+            "address": "הגדוד העברי 6, סימול אשדוד",
+            "venue_id": "60b8ddfa1f287f9c6c335dda",
+            "location": [
+                34.6389409,
+                31.7928791
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-sea-mall-ashdod",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-sea-mall-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609913218b4321d207b20e1f/865a12aa-0816-11ed-a851-ceb5b0dad8b4_________.png",
+                "logo": null
+            },
+            "title": "Burgeranch | Ashdod",
+            "name": "Burgeranch | Ashdod",
+            "track_id": "venue-burgeranch-ashdod",
+            "address": "תחנה מרכזית אשדוד",
+            "venue_id": "609913218b4321d207b20e1f",
+            "location": [
+                34.639338805097736,
+                31.79082689594278
+            ],
+            "short_description": "Burgers for the whole family",
+            "slug": "burgeranch-ashdod",
+            "tags": [
+                "kosher",
+                "kids",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burgeranch-ashdod"
             },
             "provider": "wolt"
         },
@@ -250,28 +828,28 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ae272ec7db4f7453674e01/24494d46-be17-11eb-898c-ce53fe20e499_shibolet_1.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60e40d907342258cb6452532/69a1369a-de30-11eb-822b-46d54396bf27_f5cc6592_ce7f_11eb_bfe8_ce6d821b15f6_bonfis_9999_334.jpeg",
                 "logo": null
             },
-            "title": "Shibolet HaSharon | Ashdod",
-            "name": "Shibolet HaSharon | Ashdod",
-            "track_id": "venue-shibolet-hasharon-ashdod",
-            "address": "הגדוד העברי 5, אשדוד",
-            "venue_id": "60ae272ec7db4f7453674e01",
+            "title": "Freshop | Ashdod",
+            "name": "Freshop | Ashdod",
+            "track_id": "venue-freshop-ashdod",
+            "address": "קניון הסיטי, אשדוד",
+            "venue_id": "60e40d907342258cb6452532",
             "location": [
-                34.6381046,
-                31.7908807
+                34.6394684,
+                31.7907924
             ],
-            "short_description": "Bakery\n",
-            "slug": "shibolet-hasharon-ashdod",
+            "short_description": "Shakes & Yogurt 100%FRESH\n",
+            "slug": "freshop-ashdod",
             "tags": [
-                "bakery",
-                "breakfast",
-                "sandwich"
+                "juice",
+                "smoothie",
+                "healthy"
             ],
-            "score": 7.8,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shibolet-hasharon-ashdod"
+                "url": "https://wolt.com/en/isr/undefined/venue/freshop-ashdod"
             },
             "provider": "wolt"
         },
@@ -306,6 +884,87 @@
         },
         {
             "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098f7d7381a70d253fdb433/82dfc72c-b16f-11eb-815b-fe1171e6d57d_d8d37fa2_b61b_11ea_8b92_76f28a4377d5_list1.jpeg",
+                "logo": null
+            },
+            "title": "Moses | BIG Ashdod",
+            "name": "Moses | BIG Ashdod",
+            "track_id": "venue-mosesashdod",
+            "address": "אריאל שרון 1, אשדוד",
+            "venue_id": "6098f7d7381a70d253fdb433",
+            "location": [
+                34.6654877,
+                31.7766393
+            ],
+            "short_description": "Art Burger Only On Moses",
+            "slug": "mosesashdod",
+            "tags": [
+                "salad"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mosesashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609aa18c251197ee4a509306/4b9ea9f0-c370-11eb-9a6e-ced193de400c_bonfis_9999_19.jpg",
+                "logo": null
+            },
+            "title": "Kaiyfuye",
+            "name": "Kaiyfuye",
+            "track_id": "venue-hachapuria-shel-kaiyfuye",
+            "address": "רוגוזין 17",
+            "venue_id": "609aa18c251197ee4a509306",
+            "location": [
+                34.6434271,
+                31.805254
+            ],
+            "short_description": "Georgian Restaurant",
+            "slug": "hachapuria-shel-kaiyfuye",
+            "tags": [
+                "bakery",
+                "homemade",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hachapuria-shel-kaiyfuye"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b363c6c25094c93dec3e3e/b71c7a74-c69d-11eb-9aa2-f6bded9d0316_bonfis_9999_295.jpg",
+                "logo": null
+            },
+            "title": "Holland Chips",
+            "name": "Holland Chips",
+            "track_id": "venue-holland-chips",
+            "address": "רוגזין 74, אשדוד",
+            "venue_id": "60b363c6c25094c93dec3e3e",
+            "location": [
+                34.6373478,
+                31.80024
+            ],
+            "short_description": "Kosher Fish and Chips",
+            "slug": "holland-chips",
+            "tags": [
+                "fish",
+                "kosher",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/holland-chips"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/60afc2473434670fdad10d6e/0ea62484-bf05-11eb-b455-329e0af1c317_greg_1.jpeg",
                 "logo": null
             },
@@ -334,29 +993,248 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ed3481db99432481c267d3/d4780256-7c3b-11ec-9391-2a7a23370a7b_51f6a28c_58ac_11eb_9e5b_169541743c0c_boker_yachid.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609a3432e30943baf1374356/51ab394e-e3f0-11eb-a2a8-f6b0225ef364_bonfis_9999_51.jpg",
                 "logo": null
             },
-            "title": "Biga | Ashdod",
-            "name": "Biga | Ashdod",
-            "track_id": "venue-biga-ashdod",
-            "address": "ז׳בוטינסקי 47 סטאר סנטר",
-            "venue_id": "61ed3481db99432481c267d3",
+            "title": "Beer Point | Ashdod",
+            "name": "Beer Point | Ashdod",
+            "track_id": "venue-beer-point-ashdod",
+            "address": "שדרות מנחם בגין 5",
+            "venue_id": "609a3432e30943baf1374356",
             "location": [
-                34.6533998,
-                31.8104745
+                34.64167652942052,
+                31.788459930414884
             ],
-            "short_description": "Coffee Place",
-            "slug": "biga-ashdod",
+            "short_description": "Beer from the keg to you",
+            "slug": "beer-point-ashdod",
             "tags": [
-                "breakfast",
+                "alcohol",
+                "beer",
+                "snacks"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/beer-point-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e80999d7be17640cdb68a/933ae58c-4d52-11ec-b66a-8a6912b69d8d_d76d83ca_4859_11ec_802e_f65666aa368b_luciana2048.jpg",
+                "logo": null
+            },
+            "title": "Luciana | Ashdod",
+            "name": "Luciana | Ashdod",
+            "track_id": "venue-luciana-ashdod",
+            "address": "ז'בוטינסקי 45, אשדוד",
+            "venue_id": "619e80999d7be17640cdb68a",
+            "location": [
+                34.6566396,
+                31.8102272
+            ],
+            "short_description": "Dairy Italian Restaurant - Kosher Badatz Mehadrin\n",
+            "slug": "luciana-ashdod",
+            "tags": [
                 "italian",
+                "pasta",
                 "salad",
                 "kosher"
             ],
-            "score": 7.6,
+            "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/biga-ashdod"
+                "url": "https://wolt.com/en/isr/undefined/venue/luciana-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098e7c5db0b7530420d28cf/f63f277e-b167-11eb-8eb4-debf9f430dfb_1e15628c_5bcc_11eb_95cc_ba9f298868bf_054a8306.jpeg",
+                "logo": null
+            },
+            "title": "Pizza Yosef | Ashdod",
+            "name": "Pizza Yosef | Ashdod",
+            "track_id": "venue-pizza-yosef-ashdod",
+            "address": "שבי ציון 10 , אשדוד",
+            "venue_id": "6098e7c5db0b7530420d28cf",
+            "location": [
+                34.64623479999999,
+                31.8079395
+            ],
+            "short_description": "Hand Made Pizzas - Kosher",
+            "slug": "pizza-yosef-ashdod",
+            "tags": [
+                "kosher",
+                "pizza",
+                "italian",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-yosef-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609be46327bcea8515a566c1/4d410144-c6a0-11eb-b977-2a73e57791a1_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Urban Schnitzel",
+            "name": "Urban Schnitzel",
+            "track_id": "venue-urban-schnitzel",
+            "address": "שוהם 2",
+            "venue_id": "609be46327bcea8515a566c1",
+            "location": [
+                34.6310272,
+                31.7667526
+            ],
+            "short_description": "Fun To Eat Schnitzels",
+            "slug": "urban-schnitzel",
+            "tags": [
+                "kosher",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/urban-schnitzel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619691e3d7c68bc5ed6d0f02/08a4995a-5021-11ec-afcd-faed3c681cfa_____.jpg",
+                "logo": null
+            },
+            "title": "Ganache | Ashdod",
+            "name": "Ganache | Ashdod",
+            "track_id": "venue-ganash-ashdod",
+            "address": "הטיילת 20",
+            "venue_id": "619691e3d7c68bc5ed6d0f02",
+            "location": [
+                34.6391336,
+                31.8111122
+            ],
+            "short_description": "Boutique pastry shop",
+            "slug": "ganash-ashdod",
+            "tags": [
+                "sweets"
+            ],
+            "score": 9.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ganash-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60c5fe50d5d831d4471926de/72fa9bae-cc52-11eb-a8bf-9674f047ec40_yogos_459.jpg",
+                "logo": null
+            },
+            "title": "Yogo's",
+            "name": "Yogo's",
+            "track_id": "venue-yogos",
+            "address": "מבוא האתרוג 7, אשדוד",
+            "venue_id": "60c5fe50d5d831d4471926de",
+            "location": [
+                34.650365600000015,
+                31.785003600000056
+            ],
+            "short_description": "Taste of Imagination",
+            "slug": "yogos",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 6.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yogos"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b5f7746a07b14b0d8bafb3/16506558-60ba-11ec-ac24-b2866155dfc7_fto05612.jpg",
+                "logo": null
+            },
+            "title": "Pizza Pazaz | Ashdod",
+            "name": "Pizza Pazaz | Ashdod",
+            "track_id": "venue-pizza-pazaz-ashdod",
+            "address": "תש״ח 11",
+            "venue_id": "61b5f7746a07b14b0d8bafb3",
+            "location": [
+                34.646284,
+                31.7871288
+            ],
+            "short_description": "Pizza | Pasta | Salads",
+            "slug": "pizza-pazaz-ashdod",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-pazaz-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6280c6accc42d911019e2651/780d9b06-fad1-11ec-8955-8a10554f569e_____.jpg",
+                "logo": null
+            },
+            "title": "HaYerushalmi | Ashdod",
+            "name": "HaYerushalmi | Ashdod",
+            "track_id": "venue-hayerushalmi-ashdod",
+            "address": "העמל 41, אשדוד",
+            "venue_id": "6280c6accc42d911019e2651",
+            "location": [
+                34.667311,
+                31.8096904
+            ],
+            "short_description": "Contemporary workers restaurant | Kosher",
+            "slug": "hayerushalmi-ashdod",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hayerushalmi-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098f75916f6440a49bbb0f3/88045ae2-c2f9-11eb-a80e-525a040dd6d0_bonfis_9999_398.jpg",
+                "logo": null
+            },
+            "title": "Albi",
+            "name": "Albi",
+            "track_id": "venue-digmis",
+            "address": "BIG אשדוד",
+            "venue_id": "6098f75916f6440a49bbb0f3",
+            "location": [
+                34.6637991,
+                31.7766348
+            ],
+            "short_description": "Schnitzel In Challa",
+            "slug": "digmis",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/digmis"
             },
             "provider": "wolt"
         },
@@ -418,29 +1296,55 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609aa18c251197ee4a509306/4b9ea9f0-c370-11eb-9a6e-ced193de400c_bonfis_9999_19.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6099043f8f469c533cced7ce/2cce6242-c6b6-11eb-bc2f-627a06aa20ec_list.jpg",
                 "logo": null
             },
-            "title": "Kaiyfuye",
-            "name": "Kaiyfuye",
-            "track_id": "venue-hachapuria-shel-kaiyfuye",
-            "address": "רוגוזין 17",
-            "venue_id": "609aa18c251197ee4a509306",
+            "title": "Ha'Buchari",
+            "name": "Ha'Buchari",
+            "track_id": "venue-habuchari",
+            "address": "שלזינגר 1 ",
+            "venue_id": "6099043f8f469c533cced7ce",
             "location": [
-                34.6434271,
-                31.805254
+                34.6699778,
+                31.8185622
             ],
-            "short_description": "Georgian Restaurant",
-            "slug": "hachapuria-shel-kaiyfuye",
+            "short_description": "Authentic Bukharanian Food",
+            "slug": "habuchari",
             "tags": [
-                "bakery",
                 "homemade",
-                "kosher",
                 "kosher"
             ],
-            "score": 9.2,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hachapuria-shel-kaiyfuye"
+                "url": "https://wolt.com/en/isr/undefined/venue/habuchari"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62c13f5ae2f5b8eef63f31c7/cb5ec126-fab4-11ec-b664-d6aa6f4cd832_______2_.jpg",
+                "logo": null
+            },
+            "title": "Shawarma Ha'Savea | Gan Ha'ir",
+            "name": "Shawarma Ha'Savea | Gan Ha'ir",
+            "track_id": "venue-shawarma-hasavea",
+            "address": "הגדוד העברי 5 אשדוד",
+            "venue_id": "62c13f5ae2f5b8eef63f31c7",
+            "location": [
+                34.6381046,
+                31.7908807
+            ],
+            "short_description": "Grill House",
+            "slug": "shawarma-hasavea",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "kosher",
+                "new"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-hasavea"
             },
             "provider": "wolt"
         },
@@ -474,34 +1378,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60db161de2a9edc6bb28429c/2858d730-d8d9-11eb-b2c6-767ee9188926_new_deli_1.jpeg",
-                "logo": null
-            },
-            "title": "New Deli | Ashdod",
-            "name": "New Deli | Ashdod",
-            "track_id": "venue-new-deli-ashdod",
-            "address": "דרך מנחם בגין 1, סיטי מול ",
-            "venue_id": "60db161de2a9edc6bb28429c",
-            "location": [
-                34.63950595092846,
-                31.79104317952316
-            ],
-            "short_description": "Fine Grilled Sandwiches\n",
-            "slug": "new-deli-ashdod",
-            "tags": [
-                "deli",
-                "grill",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/new-deli-ashdod"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/6228ae0b7ea8e63ec1761eef/c6dca4d0-ab61-11ec-a9b3-922b99e4dd0f_______.jpg",
                 "logo": null
             },
@@ -528,54 +1404,192 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619691e3d7c68bc5ed6d0f02/08a4995a-5021-11ec-afcd-faed3c681cfa_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098f17c381a70d253fda356/ad2ab6b2-b16b-11eb-ab5f-9252609050cb_e243fc9a_eacf_11ea_9cda_3ebbb6a47bfa_97e8cd76_e3ca_11ea_b02b_4a946f66ec82_list.jpeg",
                 "logo": null
             },
-            "title": "Ganache | Ashdod",
-            "name": "Ganache | Ashdod",
-            "track_id": "venue-ganash-ashdod",
-            "address": "הטיילת 20",
-            "venue_id": "619691e3d7c68bc5ed6d0f02",
+            "title": "Pita Rehov | Ashdod",
+            "name": "Pita Rehov | Ashdod",
+            "track_id": "venue-pita-rehov-ashdod",
+            "address": "צה״ל 1, אשדוד",
+            "venue_id": "6098f17c381a70d253fda356",
             "location": [
-                34.6391336,
-                31.8111122
+                34.6391563,
+                31.7929394
             ],
-            "short_description": "Boutique pastry shop",
-            "slug": "ganash-ashdod",
+            "short_description": "Great Quality Meat In Pita",
+            "slug": "pita-rehov-ashdod",
             "tags": [
-                "sweets"
+                "kosher",
+                "mediterranean",
+                "sandwich",
+                "kosher"
             ],
-            "score": 9.6,
+            "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/ganash-ashdod"
+                "url": "https://wolt.com/en/isr/undefined/venue/pita-rehov-ashdod"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6280c6accc42d911019e2651/780d9b06-fad1-11ec-8955-8a10554f569e_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e81a11200286bd21f89ccf/044725ca-793a-11ec-8970-9e88b1a0f060_e185a346_ac1f_11eb_b781_e209985979f9_daa47444_6b83_11eb_a87a_e6aa2231fbcc_yaelitz_6_min.jpeg",
                 "logo": null
             },
-            "title": "HaYerushalmi | Ashdod",
-            "name": "HaYerushalmi | Ashdod",
-            "track_id": "venue-hayerushalmi-ashdod",
-            "address": "העמל 41, אשדוד",
-            "venue_id": "6280c6accc42d911019e2651",
+            "title": "Miznon | BIG Ashdod",
+            "name": "Miznon | BIG Ashdod",
+            "track_id": "venue-miznon-ashdod",
+            "address": "דרך הרכבת 1, אשדוד",
+            "venue_id": "61e81a11200286bd21f89ccf",
             "location": [
-                34.667311,
-                31.8096904
+                34.6641534,
+                31.7764198
             ],
-            "short_description": "Contemporary workers restaurant | Kosher",
-            "slug": "hayerushalmi-ashdod",
+            "short_description": "by Chef Eyal Shani",
+            "slug": "miznon-ashdod",
             "tags": [
                 "mediterranean",
                 "street food",
-                "kosher",
-                "new"
+                "sandwich"
             ],
-            "score": 0,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hayerushalmi-ashdod"
+                "url": "https://wolt.com/en/isr/undefined/venue/miznon-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6098dec5ca8c67589e0fac83/4e0cf484-b160-11eb-8adf-5e6936e213f8_34cc7f04_a683_11eb_8993_ca71fd49bfd5_7c660758_58d2_11eb_b569_7efc52876d60____________.jpeg",
+                "logo": null
+            },
+            "title": "Vaniglia | Ashdod",
+            "name": "Vaniglia | Ashdod",
+            "track_id": "venue-vaniglia-ashdod",
+            "address": "דרך הרכבת 1 , ביג פאשן , אשדוד",
+            "venue_id": "6098dec5ca8c67589e0fac83",
+            "location": [
+                34.66458731084383,
+                31.77652328101198
+            ],
+            "short_description": "Your Local Ice Cream",
+            "slug": "vaniglia-ashdod",
+            "tags": [
+                "ice cream",
+                "sweets",
+                "crepes"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/vaniglia-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61239870460eceb1b9cbc0ee/8957e168-0410-11ec-94e5-86f39a39acbf_____.jpg",
+                "logo": null
+            },
+            "title": "Trump | Ashdod",
+            "name": "Trump | Ashdod",
+            "track_id": "venue-trump-ashdod",
+            "address": "העצמאות 93 ב', אשדוד",
+            "venue_id": "61239870460eceb1b9cbc0ee",
+            "location": [
+                34.6418134,
+                31.7892578
+            ],
+            "short_description": "Kosher Sushi and Pizza",
+            "slug": "trump-ashdod",
+            "tags": [
+                "kosher",
+                "pizza",
+                "sushi",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/trump-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6242c5dd3d1dc12f379c0ec7/2358c0f8-af3c-11ec-a6a1-32ddf008b4e4_4dbededdf63c2fb109a3451a15cef37b.png",
+                "logo": null
+            },
+            "title": "Falafel Ba'Ribua | Gan Yavne",
+            "name": "Falafel Ba'Ribua | Gan Yavne",
+            "track_id": "venue-falafel-baribua-gan-yavne",
+            "address": "‫גן יבנה המגינים 56 פלאפל בריבוע eat&go ",
+            "venue_id": "6242c5dd3d1dc12f379c0ec7",
+            "location": [
+                34.7045328,
+                31.79524679999999
+            ],
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-gan-yavne",
+            "tags": [
+                "kosher",
+                "mediterranean"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-baribua-gan-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60eaf4df7a3e940061d8acd7/2264c280-b0f6-11ec-8c18-ea3dceb4fd8c_____.jpg",
+                "logo": null
+            },
+            "title": "Katita",
+            "name": "Katita",
+            "track_id": "venue-katita",
+            "address": "העצמאות 4 אשדוד",
+            "venue_id": "60eaf4df7a3e940061d8acd7",
+            "location": [
+                34.6438777,
+                31.7919756
+            ],
+            "short_description": "Schnitzel In Many Flavours ",
+            "slug": "katita",
+            "tags": [
+                "mediterranean",
+                "salad",
+                "street food",
+                "kosher"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katita"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b87da5d4fda7b4ed38eff/0f57d43a-d116-11ec-b4b2-a2b4d049d4d7_______2_.jpg",
+                "logo": null
+            },
+            "title": "Ma'adaney Shabat Ha'malka",
+            "name": "Ma'adaney Shabat Ha'malka",
+            "track_id": "venue-maadaney-shabat-hamalka",
+            "address": "דב גור 29, אשדוד",
+            "venue_id": "627b87da5d4fda7b4ed38eff",
+            "location": [
+                34.6553994,
+                31.7925427
+            ],
+            "short_description": "Homemade food",
+            "slug": "maadaney-shabat-hamalka",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/maadaney-shabat-hamalka"
             },
             "provider": "wolt"
         },
@@ -603,6 +1617,33 @@
             "score": 7.4,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/hamishkafofer"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f1974593415beec0b95f67/b15e9e0e-9001-11ec-a58b-2aee0d5614a3_____.jpg",
+                "logo": null
+            },
+            "title": "Café Puzzle",
+            "name": "Café Puzzle",
+            "track_id": "venue-caf-puzzle",
+            "address": "מפקורה 1, אשדוד",
+            "venue_id": "61f1974593415beec0b95f67",
+            "location": [
+                34.633986,
+                31.800862
+            ],
+            "short_description": "Sea | Food | Love",
+            "slug": "caf-puzzle",
+            "tags": [
+                "fish",
+                "italian",
+                "mediterranean"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-puzzle"
             },
             "provider": "wolt"
         },
@@ -636,28 +1677,82 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b87da5d4fda7b4ed38eff/0f57d43a-d116-11ec-b4b2-a2b4d049d4d7_______2_.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616ead0f3810a1503004597a/30665aa0-3726-11ec-8d2c-7e5568089354_hero.jpg",
                 "logo": null
             },
-            "title": "Ma'adaney Shabat Ha'malka",
-            "name": "Ma'adaney Shabat Ha'malka",
-            "track_id": "venue-maadaney-shabat-hamalka",
-            "address": "דב גור 29, אשדוד",
-            "venue_id": "627b87da5d4fda7b4ed38eff",
+            "title": "Tamada | Ashdod",
+            "name": "Tamada | Ashdod",
+            "track_id": "venue-tamada-ashdod",
+            "address": "תש\"ח 11, אשדוד",
+            "venue_id": "616ead0f3810a1503004597a",
             "location": [
-                34.6553994,
-                31.7925427
+                34.646284,
+                31.7871288
             ],
-            "short_description": "Homemade food",
-            "slug": "maadaney-shabat-hamalka",
+            "short_description": "Grill Restaurant",
+            "slug": "tamada-ashdod",
             "tags": [
                 "mediterranean",
+                "sandwich",
+                "street food"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tamada-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60fea9e97998849556d964a0/8ffbb7c6-f5bd-11eb-8767-9e683ce3b0a6_____.jpg",
+                "logo": null
+            },
+            "title": "Benishou",
+            "name": "Benishou",
+            "track_id": "venue-benishou",
+            "address": "הבטיחות 10",
+            "venue_id": "60fea9e97998849556d964a0",
+            "location": [
+                34.6796074,
+                31.8331337
+            ],
+            "short_description": "מסעדת אוכל ביתי - כשר",
+            "slug": "benishou",
+            "tags": [
+                "sandwich",
                 "street food",
-                "kosher"
+                "mediterranean"
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/maadaney-shabat-hamalka"
+                "url": "https://wolt.com/en/isr/undefined/venue/benishou"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62173e6860e15fc422c3bcb7/72f4942c-954a-11ec-abe1-3e24328bab00_f9a80356_4c33_11ec_81ad_5e9c9b3916b3_list1__1_.jpg",
+                "logo": null
+            },
+            "title": "Wasabi | Ashdod",
+            "name": "Wasabi | Ashdod",
+            "track_id": "venue-wasabi-asdod",
+            "address": "דוד המלך 18",
+            "venue_id": "62173e6860e15fc422c3bcb7",
+            "location": [
+                34.6416621,
+                31.7759616
+            ],
+            "short_description": "Asian cuisine",
+            "slug": "wasabi-asdod",
+            "tags": [
+                "asian",
+                "sushi",
+                "fish"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/wasabi-asdod"
             },
             "provider": "wolt"
         },
@@ -719,6 +1814,33 @@
         },
         {
             "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612f459ceb2b058d80bdb43d/e4126334-0b05-11ec-8358-be798dc5d80b_list.jpg",
+                "logo": null
+            },
+            "title": "McDonald's® Ashdod Ad Halom",
+            "name": "McDonald's® Ashdod Ad Halom",
+            "track_id": "venue-mcdonalds-ashdod-ad-halom",
+            "address": "צומת עד הלום",
+            "venue_id": "612f459ceb2b058d80bdb43d",
+            "location": [
+                34.66596347808739,
+                31.76686466457965
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-ashdod-ad-halom",
+            "tags": [
+                "burger",
+                "chicken",
+                "kids"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-ashdod-ad-halom"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/60a0c42ec90a9a1a2bf5ec34/4f494b86-b615-11eb-a8e6-96ff58d31c32_landwer_1.jpeg",
                 "logo": null
             },
@@ -747,33 +1869,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60fea9e97998849556d964a0/8ffbb7c6-f5bd-11eb-8767-9e683ce3b0a6_____.jpg",
-                "logo": null
-            },
-            "title": "Benishou",
-            "name": "Benishou",
-            "track_id": "venue-benishou",
-            "address": "הבטיחות 10",
-            "venue_id": "60fea9e97998849556d964a0",
-            "location": [
-                34.6796074,
-                31.8331337
-            ],
-            "short_description": "מסעדת אוכל ביתי - כשר",
-            "slug": "benishou",
-            "tags": [
-                "sandwich",
-                "street food",
-                "mediterranean"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/benishou"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/62248984ce2f9f992440cfca/68403518-9d42-11ec-ad8c-d220cc94207d_e6fedef2_5032_11ec_acbc_faed3c681cfa__________.jpg",
                 "logo": null
             },
@@ -796,6 +1891,229 @@
             "score": 8.2,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/rebar-gan-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/624198d18b9bc321d39dabfd/db350336-b0cb-11ec-ad5e-2234be3e26e7_27.33280.jpg",
+                "logo": null
+            },
+            "title": "Italico Zohar | Gan Yavne",
+            "name": "Italico Zohar | Gan Yavne",
+            "track_id": "venue-italico-zohar-gan-yavne",
+            "address": "העצמאות 6, גן יבנה",
+            "venue_id": "624198d18b9bc321d39dabfd",
+            "location": [
+                34.7138776,
+                31.789297
+            ],
+            "short_description": "Local pizza",
+            "slug": "italico-zohar-gan-yavne",
+            "tags": [
+                "pasta",
+                "pizza",
+                "salad"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/italico-zohar-gan-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62b8465327e27667f6045208/40a4632a-f545-11ec-8819-3aa171ccd018__________________.jpeg",
+                "logo": null
+            },
+            "title": "Domino's Pizza | Ashdod Kosher",
+            "name": "Domino's Pizza | Ashdod Kosher",
+            "track_id": "venue-dominos-pizza-ashdod-kosher",
+            "address": "ציונות 9, אשדוד",
+            "venue_id": "62b8465327e27667f6045208",
+            "location": [
+                34.6416591,
+                31.7885542
+            ],
+            "short_description": "Delivered by Domino’s",
+            "slug": "dominos-pizza-ashdod-kosher",
+            "tags": [
+                "kids",
+                "kosher",
+                "pizza",
+                "delivery by domino's",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/dominos-pizza-ashdod-kosher"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628c84813c6d1ed176f8e2de/147b88da-dd0a-11ec-a0fb-32cb2d15879c_____.jpg",
+                "logo": null
+            },
+            "title": "Freestyle",
+            "name": "Freestyle",
+            "track_id": "venue-freestyle",
+            "address": "שדרות תל חי, 63, אשדוד",
+            "venue_id": "628c84813c6d1ed176f8e2de",
+            "location": [
+                34.631895,
+                31.7670349
+            ],
+            "short_description": "Middle Eastern Cuisine",
+            "slug": "freestyle",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "kosher",
+                "kosher",
+                "new"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/freestyle"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ae3dd44a490a9dcb799d6b/19282876-c6a3-11eb-8bc4-36e0c9aabda1_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pizza E-Talya",
+            "name": "Pizza E-Talya",
+            "track_id": "venue-papa-lino",
+            "address": "שד תל חי 63, אשדוד",
+            "venue_id": "60ae3dd44a490a9dcb799d6b",
+            "location": [
+                34.6318992,
+                31.7670234
+            ],
+            "short_description": "Authentic Pizza 🍕",
+            "slug": "papa-lino",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/papa-lino"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a9bf14d520c072f819bc57/98e16c56-f557-11ec-9bca-82453bf54614_list.jpg",
+                "logo": null
+            },
+            "title": "Aroi Dee",
+            "name": "Aroi Dee",
+            "track_id": "venue-aroi-dee",
+            "address": "הראשונים 26",
+            "venue_id": "62a9bf14d520c072f819bc57",
+            "location": [
+                34.6461696,
+                31.807739
+            ],
+            "short_description": "Delicious Authentic Asian\n",
+            "slug": "aroi-dee",
+            "tags": [
+                "asian",
+                "sushi",
+                "fish",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aroi-dee"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60b8db60fa6b1aa96d218d9c/8bca719c-c471-11eb-8760-d2b1878fd4a2_mc_list.jpeg",
+                "logo": null
+            },
+            "title": "McDonald’s® City Mall Ashdod",
+            "name": "McDonald’s® City Mall Ashdod",
+            "track_id": "venue-mcdonalds-city-mall-ashdod",
+            "address": "קניון הסיטי, אשדוד",
+            "venue_id": "60b8db60fa6b1aa96d218d9c",
+            "location": [
+                34.6394684,
+                31.7907924
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel\n",
+            "slug": "mcdonalds-city-mall-ashdod",
+            "tags": [
+                "burger",
+                "chicken",
+                "kids"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-city-mall-ashdod"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62399c9d8cf9802dbe556072/34139a24-a9c6-11ec-8bd0-b231789da733_________.png",
+                "logo": null
+            },
+            "title": "McDonald's® Gan Yavne",
+            "name": "McDonald's® Gan Yavne",
+            "track_id": "venue-mcdonalds-gan-yavne",
+            "address": "המגינים 56, גן יבנה",
+            "venue_id": "62399c9d8cf9802dbe556072",
+            "location": [
+                34.704683201225166,
+                31.7953750936302
+            ],
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-gan-yavne",
+            "tags": [
+                "burger",
+                "kids"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-gan-yavne"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62b84850e564e0acafe7519b/5d78407e-f546-11ec-8a14-62df6f802351__________________.jpeg",
+                "logo": null
+            },
+            "title": "Domino's Pizza | Ashdod City",
+            "name": "Domino's Pizza | Ashdod City",
+            "track_id": "venue-dominos-pizza-ashdod-city",
+            "address": "ציונות 7, אשדוד",
+            "venue_id": "62b84850e564e0acafe7519b",
+            "location": [
+                34.6414371,
+                31.7881917
+            ],
+            "short_description": "Delivered by Domino’s",
+            "slug": "dominos-pizza-ashdod-city",
+            "tags": [
+                "italian",
+                "kids",
+                "sandwich",
+                "delivery by domino's",
+                "new"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/dominos-pizza-ashdod-city"
             },
             "provider": "wolt"
         }

@@ -1,6 +1,6 @@
 {
-    "lastScrapeDate": 1658388029063,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1658388027363&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
+    "lastScrapeDate": 1658399473646,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1658399447221&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
     "restaurants": [
         {
             "name": "DOMINO",

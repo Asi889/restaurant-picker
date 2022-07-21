@@ -1,6 +1,6 @@
 {
-    "lastScrapeDate": 1658388031915,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1658388027363&deliveryMethod=delivery&cityId=14&streetId=23572&houseNumber=25&addressKey=14-23572-25",
+    "lastScrapeDate": 1658399474573,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=6c3e5ed3-5b5a-4f8c-acf0-43ce5d4a5b57&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1658399447221&deliveryMethod=delivery&cityId=14&streetId=23572&houseNumber=25&addressKey=14-23572-25",
     "restaurants": [
         {
             "name": "Meat Night",
@@ -26,6 +26,61 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21334"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "To Professor Burger House Netanya",
+            "score": 6,
+            "title": "To Professor Burger House Netanya",
+            "venue_id": "33674",
+            "address": "5, Herzl Street Netanya",
+            "track_id": "33674",
+            "location": [
+                34.8534812,
+                32.3299633
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33674_20210616142306.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33674.jpg"
+            },
+            "description": "אל פרופסור בורגר האוס , To Professor Burger House Netanya",
+            "short_description": "אל פרופסור בורגר האוס , To Professor Burger House Netanya",
+            "slug": "netanya",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33674"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Pizza  Rondo",
+            "score": 8.4,
+            "title": "Pizza  Rondo",
+            "venue_id": "33177",
+            "address": "15, Yosef Bussel Street Netanya",
+            "track_id": "33177",
+            "location": [
+                34.8784059,
+                32.3126617
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33177_20211214175610.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33177.jpg"
+            },
+            "description": "פיצה רונדו נתניה, Pizza  Rondo",
+            "short_description": "פיצה רונדו נתניה, Pizza  Rondo",
+            "slug": "netanya",
+            "tags": [
+                "pizza",
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33177"
             },
             "provider": "tenBis"
         },
@@ -86,33 +141,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza  Rondo",
-            "score": 8.4,
-            "title": "Pizza  Rondo",
-            "venue_id": "33177",
-            "address": "15, Yosef Bussel Street Netanya",
-            "track_id": "33177",
-            "location": [
-                34.8784059,
-                32.3126617
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33177_20211214175610.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33177.jpg"
-            },
-            "description": "פיצה רונדו נתניה, Pizza  Rondo",
-            "short_description": "פיצה רונדו נתניה, Pizza  Rondo",
-            "slug": "netanya",
-            "tags": [
-                "pizza",
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33177"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Ronit's Kitchen",
             "score": 6.6,
             "title": "Ronit's Kitchen",
@@ -138,6 +166,33 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/10999"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Ronen - meat express ",
+            "score": 8.4,
+            "title": "Ronen - meat express ",
+            "venue_id": "28064",
+            "address": "6, Agam Kinneret Street Netanya",
+            "track_id": "28064",
+            "location": [
+                34.8513443,
+                32.2904141
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28064_20200712144549.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28064.jpg"
+            },
+            "description": "רונן בשרים אקספרס, Ronen - meat express ",
+            "short_description": "רונן בשרים אקספרס, Ronen - meat express ",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28064"
             },
             "provider": "tenBis"
         },
@@ -198,6 +253,62 @@
             "provider": "tenBis"
         },
         {
+            "name": "crazy pizza",
+            "score": 8.4,
+            "title": "crazy pizza",
+            "venue_id": "34376",
+            "address": "9, Nehama Wiener Street Netanya",
+            "track_id": "34376",
+            "location": [
+                34.8535964,
+                32.2944615
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34376.png"
+            },
+            "description": "קרייזי פיצה, crazy pizza",
+            "short_description": "קרייזי פיצה, crazy pizza",
+            "slug": "netanya",
+            "tags": [
+                "pizza",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34376"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Gourmet ",
+            "score": 9.2,
+            "title": "Gourmet ",
+            "venue_id": "30407",
+            "address": "6, Alon Tsvi Street Netanya",
+            "track_id": "30407",
+            "location": [
+                34.85872519999999,
+                32.3264188
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30407.jpg"
+            },
+            "description": "גורמה, Gourmet ",
+            "short_description": "גורמה, Gourmet ",
+            "slug": "netanya",
+            "tags": [
+                "homeMade",
+                "salads",
+                "meatGrill",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30407"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "McDonald’s",
             "score": 7.2,
             "title": "McDonald’s",
@@ -225,31 +336,175 @@
             "provider": "tenBis"
         },
         {
-            "name": "Jem's",
-            "score": 8.6,
-            "title": "Jem's",
-            "venue_id": "25534",
+            "name": "PRIZ",
+            "score": 10,
+            "title": "PRIZ",
+            "venue_id": "36542",
+            "address": "10, Yosef Sapir Street Netanya",
+            "track_id": "36542",
+            "location": [
+                34.8605307,
+                32.3281974
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36542_20220309134108.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36542.jpg"
+            },
+            "description": "פריז ארטיקים מפירות טבעיים, PRIZ",
+            "short_description": "פריז ארטיקים מפירות טבעיים, PRIZ",
+            "slug": "netanya",
+            "tags": [
+                "gelato",
+                "glutenFree",
+                "veganFood",
+                "kosher",
+                "vegan",
+                "gluten free"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36542"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Eldiwan Eunice",
+            "score": 8.2,
+            "title": "Eldiwan Eunice",
+            "venue_id": "29597",
+            "address": "20, Nordau Max Street Netanya",
+            "track_id": "29597",
+            "location": [
+                34.8571129,
+                32.2832465
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29597_20220208153026.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29597.png"
+            },
+            "description": "יונס אלדיוואן , Eldiwan Eunice",
+            "short_description": "יונס אלדיוואן , Eldiwan Eunice",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29597"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "BIGA",
+            "score": 8,
+            "title": "BIGA",
+            "venue_id": "35496",
+            "address": "5, Maffi Street Netanya",
+            "track_id": "35496",
+            "location": [
+                34.8615882,
+                32.2750288
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35496_20220104121035.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35496.jepg"
+            },
+            "description": "ביגה נתניה , BIGA",
+            "short_description": "ביגה נתניה , BIGA",
+            "slug": "netanya",
+            "tags": [
+                "sandwichesWraps",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35496"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Papa",
+            "score": 8.8,
+            "title": "Papa",
+            "venue_id": "25485",
             "address": "60, Tom Lantos Boulevard Netanya",
-            "track_id": "25534",
+            "track_id": "25485",
             "location": [
                 34.8687309,
                 32.2958394
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25534_20200420091242.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25534.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25485_20200707152606.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25485.jpg"
             },
-            "description": "ג'מס , Jem's",
-            "short_description": "ג'מס , Jem's",
+            "description": "פאפא, Papa",
+            "short_description": "פאפא, Papa",
             "slug": "netanya",
             "tags": [
+                "burgers",
+                "salads",
                 "meatGrill",
-                "sandwichesWraps",
-                "bar",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25534"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25485"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Poke it ! ",
+            "score": 8.8,
+            "title": "Poke it ! ",
+            "venue_id": "29124",
+            "address": "60, Tom Lantos Boulevard Netanya",
+            "track_id": "29124",
+            "location": [
+                34.8687309,
+                32.2958394
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29124_20200723103933.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29124.gif"
+            },
+            "description": "פוקי איט ! , Poke it ! ",
+            "short_description": "פוקי איט ! , Poke it ! ",
+            "slug": "netanya",
+            "tags": [
+                "poke",
+                "veganFood",
+                "asianFusion",
+                "kosher",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29124"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "McDonald’s",
+            "score": 7.4,
+            "title": "McDonald’s",
+            "venue_id": "28336",
+            "address": "5, Sderot Giborei Israel Netanya",
+            "track_id": "28336",
+            "location": [
+                34.8600035,
+                32.2754688
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28336_20220720131056.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28336.jpeg"
+            },
+            "description": "מקדונלד'ס סיטי פולג, McDonald’s",
+            "short_description": "מקדונלד'ס סיטי פולג, McDonald’s",
+            "slug": "netanya",
+            "tags": [
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28336"
             },
             "provider": "tenBis"
         },
@@ -280,28 +535,56 @@
             "provider": "tenBis"
         },
         {
-            "name": "McDonald’s",
-            "score": 7.4,
-            "title": "McDonald’s",
-            "venue_id": "28336",
-            "address": "5, Sderot Giborei Israel Netanya",
-            "track_id": "28336",
+            "name": "The fiery triangle",
+            "score": 9,
+            "title": "The fiery triangle",
+            "venue_id": "35521",
+            "address": "40, Hartum Street Netanya",
+            "track_id": "35521",
             "location": [
-                34.8600035,
-                32.2754688
+                34.8718699,
+                32.310274
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28336_20220720131056.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28336.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35521.jfif"
             },
-            "description": "מקדונלד'ס סיטי פולג, McDonald’s",
-            "short_description": "מקדונלד'ס סיטי פולג, McDonald’s",
+            "description": "המשולש הלוהט, The fiery triangle",
+            "short_description": "המשולש הלוהט, The fiery triangle",
             "slug": "netanya",
             "tags": [
-                "burgers"
+                "pizza"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28336"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35521"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Shnitzel Kushi",
+            "score": 7.2,
+            "title": "Shnitzel Kushi",
+            "venue_id": "36464",
+            "address": "22, David Pinkas Street Netanya",
+            "track_id": "36464",
+            "location": [
+                34.8739021,
+                32.3193537
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36464_20220228142340.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36464.jpg"
+            },
+            "description": "השניצל של כושי , Shnitzel Kushi",
+            "short_description": "השניצל של כושי , Shnitzel Kushi",
+            "slug": "netanya",
+            "tags": [
+                "homeMade",
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36464"
             },
             "provider": "tenBis"
         },
@@ -335,61 +618,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Elyahu hummus",
-            "score": 8.8,
-            "title": "Elyahu hummus",
-            "venue_id": "28558",
-            "address": "9, Shechterman Tzvi Street Netanya",
-            "track_id": "28558",
-            "location": [
-                34.8739423,
-                32.3205244
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28558_20211126175421.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28558.e-logo51"
-            },
-            "description": "חומוס אליהו שכטרמן נתניה, Elyahu hummus",
-            "short_description": "חומוס אליהו שכטרמן נתניה, Elyahu hummus",
-            "slug": "netanya",
-            "tags": [
-                "humus",
-                "falafel",
-                "veganFood",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28558"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "The fiery triangle",
-            "score": 9,
-            "title": "The fiery triangle",
-            "venue_id": "35521",
-            "address": "40, Hartum Street Netanya",
-            "track_id": "35521",
-            "location": [
-                34.8718699,
-                32.310274
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35521.jfif"
-            },
-            "description": "המשולש הלוהט, The fiery triangle",
-            "short_description": "המשולש הלוהט, The fiery triangle",
-            "slug": "netanya",
-            "tags": [
-                "pizza"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35521"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Tova Falafel",
             "score": 10,
             "title": "Tova Falafel",
@@ -419,29 +647,55 @@
             "provider": "tenBis"
         },
         {
-            "name": "imale",
-            "score": 2,
-            "title": "imale",
-            "venue_id": "36445",
-            "address": "6, David Pinkas Street Netanya",
-            "track_id": "36445",
+            "name": "Mizrahi restaurant ",
+            "score": 7.6,
+            "title": "Mizrahi restaurant ",
+            "venue_id": "28559",
+            "address": "14, David Pinkas Street Netanya",
+            "track_id": "28559",
             "location": [
-                34.8744538,
-                32.3226092
+                34.8742446,
+                32.3211764
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36445.jpeg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28559.jpg"
             },
-            "description": "אמא'לה , imale",
-            "short_description": "אמא'לה , imale",
+            "description": "מסעדת מזרחי, Mizrahi restaurant ",
+            "short_description": "מסעדת מזרחי, Mizrahi restaurant ",
             "slug": "netanya",
             "tags": [
-                "meatGrill",
-                "sandwichesWraps"
+                "homeMade",
+                "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36445"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28559"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Batabun",
+            "score": 0,
+            "title": "Batabun",
+            "venue_id": "37014",
+            "address": "76, Yosef Bussel Street Netanya",
+            "track_id": "37014",
+            "location": [
+                34.8853189,
+                32.3153689
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37014_20220713114536.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37014.jpeg"
+            },
+            "description": "בטאבון , Batabun",
+            "short_description": "בטאבון , Batabun",
+            "slug": "netanya",
+            "tags": [
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37014"
             },
             "provider": "tenBis"
         },
@@ -503,29 +757,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "crazy pizza",
-            "score": 8.4,
-            "title": "crazy pizza",
-            "venue_id": "34376",
-            "address": "9, Nehama Wiener Street Netanya",
-            "track_id": "34376",
+            "name": "Mata'amey Israel",
+            "score": 9.2,
+            "title": "Mata'amey Israel",
+            "venue_id": "27435",
+            "address": "4 א, Ha-Tsoran Street Netanya",
+            "track_id": "27435",
             "location": [
-                34.8535964,
-                32.2944615
+                34.8660813,
+                32.2887054
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34376.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27435.jpg"
             },
-            "description": "קרייזי פיצה, crazy pizza",
-            "short_description": "קרייזי פיצה, crazy pizza",
+            "description": "מטעמי ישראל, Mata'amey Israel",
+            "short_description": "מטעמי ישראל, Mata'amey Israel",
             "slug": "netanya",
             "tags": [
-                "pizza",
-                "salads"
+                "homeMade",
+                "meatGrill",
+                "fish",
+                "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34376"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27435"
             },
             "provider": "tenBis"
         },
@@ -589,60 +845,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Gourmet ",
-            "score": 9.2,
-            "title": "Gourmet ",
-            "venue_id": "30407",
-            "address": "6, Alon Tsvi Street Netanya",
-            "track_id": "30407",
+            "name": "Pizza shop ",
+            "score": 8.8,
+            "title": "Pizza shop ",
+            "venue_id": "32963",
+            "address": "10, Sderot Oved Ben Ami Netanya",
+            "track_id": "32963",
             "location": [
-                34.85872519999999,
-                32.3264188
+                34.8452998,
+                32.311467
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30407.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_32963_20210502155613.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32963.png"
             },
-            "description": "גורמה, Gourmet ",
-            "short_description": "גורמה, Gourmet ",
+            "description": "פיצה שופ , Pizza shop ",
+            "short_description": "פיצה שופ , Pizza shop ",
             "slug": "netanya",
             "tags": [
-                "homeMade",
+                "pizza",
+                "pasta",
                 "salads",
-                "meatGrill",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30407"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Arais Burger",
-            "score": 7.2,
-            "title": "Arais Burger",
-            "venue_id": "34937",
-            "address": "52, Herzl Street Netanya",
-            "track_id": "34937",
-            "location": [
-                34.8606807,
-                32.3272737
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34937_20220303205121.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34937.jpg"
-            },
-            "description": "עראיס בורגר , Arais Burger",
-            "short_description": "עראיס בורגר , Arais Burger",
-            "slug": "netanya",
-            "tags": [
-                "burgers",
-                "meatGrill",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34937"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32963"
             },
             "provider": "tenBis"
         },
@@ -671,6 +898,33 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28299"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "HAIM BUYA SHNITZEL",
+            "score": 9.2,
+            "title": "HAIM BUYA SHNITZEL",
+            "venue_id": "35634",
+            "address": "18, Ha-Yahalom Street Netanya",
+            "track_id": "35634",
+            "location": [
+                34.8616028,
+                32.3288763
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35634_20220102123341.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35634.png"
+            },
+            "description": "שניצל חיים בויה, HAIM BUYA SHNITZEL",
+            "short_description": "שניצל חיים בויה, HAIM BUYA SHNITZEL",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35634"
             },
             "provider": "tenBis"
         },
@@ -761,30 +1015,29 @@
             "provider": "tenBis"
         },
         {
-            "name": "Eldiwan Eunice",
-            "score": 8.2,
-            "title": "Eldiwan Eunice",
-            "venue_id": "29597",
-            "address": "20, Nordau Max Street Netanya",
-            "track_id": "29597",
+            "name": "salad bar",
+            "score": 8.8,
+            "title": "salad bar",
+            "venue_id": "26193",
+            "address": "14, Derech HaPark Netanya",
+            "track_id": "26193",
             "location": [
-                34.8571129,
-                32.2832465
+                34.8792352,
+                32.3004475
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29597_20220208153026.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29597.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26193.jpg"
             },
-            "description": "יונס אלדיוואן , Eldiwan Eunice",
-            "short_description": "יונס אלדיוואן , Eldiwan Eunice",
+            "description": "סלט בר בריאות , salad bar",
+            "short_description": "סלט בר בריאות , salad bar",
             "slug": "netanya",
             "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "salads"
+                "salads",
+                "sandwichesWraps"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29597"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26193"
             },
             "provider": "tenBis"
         },
@@ -819,6 +1072,91 @@
             "provider": "tenBis"
         },
         {
+            "name": "Pasta box",
+            "score": 8.4,
+            "title": "Pasta box",
+            "venue_id": "28433",
+            "address": "4, Benny W.Reich Street Netanya",
+            "track_id": "28433",
+            "location": [
+                34.870273,
+                32.2943855
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28433.jfif"
+            },
+            "description": "פסטה בוקס, Pasta box",
+            "short_description": "פסטה בוקס, Pasta box",
+            "slug": "netanya",
+            "tags": [
+                "pasta",
+                "salads"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28433"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Jem's",
+            "score": 8.6,
+            "title": "Jem's",
+            "venue_id": "25534",
+            "address": "60, Tom Lantos Boulevard Netanya",
+            "track_id": "25534",
+            "location": [
+                34.8687309,
+                32.2958394
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25534_20200420091242.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25534.jpeg"
+            },
+            "description": "ג'מס , Jem's",
+            "short_description": "ג'מס , Jem's",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "bar",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25534"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Elyahu hummus",
+            "score": 8.8,
+            "title": "Elyahu hummus",
+            "venue_id": "28558",
+            "address": "9, Shechterman Tzvi Street Netanya",
+            "track_id": "28558",
+            "location": [
+                34.8739423,
+                32.3205244
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28558_20211126175421.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28558.e-logo51"
+            },
+            "description": "חומוס אליהו שכטרמן נתניה, Elyahu hummus",
+            "short_description": "חומוס אליהו שכטרמן נתניה, Elyahu hummus",
+            "slug": "netanya",
+            "tags": [
+                "humus",
+                "falafel",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28558"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Hameshulash haloet",
             "score": 0,
             "title": "Hameshulash haloet",
@@ -845,88 +1183,29 @@
             "provider": "tenBis"
         },
         {
-            "name": "Papa",
-            "score": 8.8,
-            "title": "Papa",
-            "venue_id": "25485",
-            "address": "60, Tom Lantos Boulevard Netanya",
-            "track_id": "25485",
+            "name": "FIX PIZZA",
+            "score": 9,
+            "title": "FIX PIZZA",
+            "venue_id": "26937",
+            "address": "14, David Pinkas Street Netanya",
+            "track_id": "26937",
             "location": [
-                34.8687309,
-                32.2958394
+                34.8742446,
+                32.3211764
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_25485_20200707152606.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/25485.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26937_20211208164006.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26937.jepg"
             },
-            "description": "פאפא, Papa",
-            "short_description": "פאפא, Papa",
+            "description": "פיצה פיקס נתניה, FIX PIZZA",
+            "short_description": "פיצה פיקס נתניה, FIX PIZZA",
             "slug": "netanya",
             "tags": [
-                "burgers",
-                "salads",
-                "meatGrill",
-                "kosher"
+                "pizza",
+                "bakery"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/25485"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "salad bar",
-            "score": 8.8,
-            "title": "salad bar",
-            "venue_id": "26193",
-            "address": "14, Derech HaPark Netanya",
-            "track_id": "26193",
-            "location": [
-                34.8792352,
-                32.3004475
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26193.jpg"
-            },
-            "description": "סלט בר בריאות , salad bar",
-            "short_description": "סלט בר בריאות , salad bar",
-            "slug": "netanya",
-            "tags": [
-                "salads",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26193"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Poke it ! ",
-            "score": 8.8,
-            "title": "Poke it ! ",
-            "venue_id": "29124",
-            "address": "60, Tom Lantos Boulevard Netanya",
-            "track_id": "29124",
-            "location": [
-                34.8687309,
-                32.2958394
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29124_20200723103933.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29124.gif"
-            },
-            "description": "פוקי איט ! , Poke it ! ",
-            "short_description": "פוקי איט ! , Poke it ! ",
-            "slug": "netanya",
-            "tags": [
-                "poke",
-                "veganFood",
-                "asianFusion",
-                "kosher",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29124"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26937"
             },
             "provider": "tenBis"
         },
@@ -961,30 +1240,29 @@
             "provider": "tenBis"
         },
         {
-            "name": "Shnitzel Kushi",
-            "score": 7.2,
-            "title": "Shnitzel Kushi",
-            "venue_id": "36464",
-            "address": "22, David Pinkas Street Netanya",
-            "track_id": "36464",
+            "name": "imale",
+            "score": 2,
+            "title": "imale",
+            "venue_id": "36445",
+            "address": "6, David Pinkas Street Netanya",
+            "track_id": "36445",
             "location": [
-                34.8739021,
-                32.3193537
+                34.8744538,
+                32.3226092
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36464_20220228142340.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36464.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36445.jpeg"
             },
-            "description": "השניצל של כושי , Shnitzel Kushi",
-            "short_description": "השניצל של כושי , Shnitzel Kushi",
+            "description": "אמא'לה , imale",
+            "short_description": "אמא'לה , imale",
             "slug": "netanya",
             "tags": [
-                "homeMade",
                 "meatGrill",
                 "sandwichesWraps"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36464"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36445"
             },
             "provider": "tenBis"
         },
@@ -1019,56 +1297,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pasta box",
-            "score": 8.4,
-            "title": "Pasta box",
-            "venue_id": "28433",
-            "address": "4, Benny W.Reich Street Netanya",
-            "track_id": "28433",
+            "name": "Hummusim",
+            "score": 8.6,
+            "title": "Hummusim",
+            "venue_id": "9830",
+            "address": "2, HaMehkar Street Netanya",
+            "track_id": "9830",
             "location": [
-                34.870273,
-                32.2943855
+                34.8624251,
+                32.2917333
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28433.jfif"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_hummus.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/9830.bmp"
             },
-            "description": "פסטה בוקס, Pasta box",
-            "short_description": "פסטה בוקס, Pasta box",
+            "description": "חומוסים , Hummusim",
+            "short_description": "חומוסים , Hummusim",
             "slug": "netanya",
             "tags": [
-                "pasta",
-                "salads"
+                "humus",
+                "salads",
+                "sandwichesWraps",
+                "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28433"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "FIX PIZZA",
-            "score": 9,
-            "title": "FIX PIZZA",
-            "venue_id": "26937",
-            "address": "14, David Pinkas Street Netanya",
-            "track_id": "26937",
-            "location": [
-                34.8742446,
-                32.3211764
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26937_20211208164006.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26937.jepg"
-            },
-            "description": "פיצה פיקס נתניה, FIX PIZZA",
-            "short_description": "פיצה פיקס נתניה, FIX PIZZA",
-            "slug": "netanya",
-            "tags": [
-                "pizza",
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26937"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/9830"
             },
             "provider": "tenBis"
         },
@@ -1099,55 +1352,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Mizrahi restaurant ",
+            "name": "B-FRESH",
             "score": 7.6,
-            "title": "Mizrahi restaurant ",
-            "venue_id": "28559",
-            "address": "14, David Pinkas Street Netanya",
-            "track_id": "28559",
+            "title": "B-FRESH",
+            "venue_id": "26435",
+            "address": "3, HaMehkar Street Netanya",
+            "track_id": "26435",
             "location": [
-                34.8742446,
-                32.3211764
+                34.8617384,
+                32.2910383
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28559.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26435_20210318093234.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26435.jpg"
             },
-            "description": "מסעדת מזרחי, Mizrahi restaurant ",
-            "short_description": "מסעדת מזרחי, Mizrahi restaurant ",
+            "description": "בי פרש  , B-FRESH",
+            "short_description": "בי פרש  , B-FRESH",
             "slug": "netanya",
             "tags": [
-                "homeMade",
-                "kosher"
+                "coffeeHouse",
+                "SmoothiesAndShakes",
+                "veganFood",
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28559"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Batabun",
-            "score": 0,
-            "title": "Batabun",
-            "venue_id": "37014",
-            "address": "76, Yosef Bussel Street Netanya",
-            "track_id": "37014",
-            "location": [
-                34.8853189,
-                32.3153689
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37014_20220713114536.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37014.jpeg"
-            },
-            "description": "בטאבון , Batabun",
-            "short_description": "בטאבון , Batabun",
-            "slug": "netanya",
-            "tags": [
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37014"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26435"
             },
             "provider": "tenBis"
         },
@@ -1178,31 +1407,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "Pizza shop ",
-            "score": 8.8,
-            "title": "Pizza shop ",
-            "venue_id": "32963",
-            "address": "10, Sderot Oved Ben Ami Netanya",
-            "track_id": "32963",
+            "name": "Arais Burger",
+            "score": 7.2,
+            "title": "Arais Burger",
+            "venue_id": "34937",
+            "address": "52, Herzl Street Netanya",
+            "track_id": "34937",
             "location": [
-                34.8452998,
-                32.311467
+                34.8606807,
+                32.3272737
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_32963_20210502155613.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/32963.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34937_20220303205121.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34937.jpg"
             },
-            "description": "פיצה שופ , Pizza shop ",
-            "short_description": "פיצה שופ , Pizza shop ",
+            "description": "עראיס בורגר , Arais Burger",
+            "short_description": "עראיס בורגר , Arais Burger",
             "slug": "netanya",
             "tags": [
-                "pizza",
-                "pasta",
-                "salads",
+                "burgers",
+                "meatGrill",
+                "sandwichesWraps",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/32963"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34937"
             },
             "provider": "tenBis"
         },
@@ -1235,114 +1464,59 @@
             "provider": "tenBis"
         },
         {
-            "name": "PRIZ",
-            "score": 10,
-            "title": "PRIZ",
-            "venue_id": "36542",
-            "address": "10, Yosef Sapir Street Netanya",
-            "track_id": "36542",
+            "name": "Kapulski",
+            "score": 9.4,
+            "title": "Kapulski",
+            "venue_id": "21053",
+            "address": "30, HaMelacha Street Netanya",
+            "track_id": "21053",
             "location": [
-                34.8605307,
-                32.3281974
+                34.8599963,
+                32.2832494
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36542_20220309134108.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36542.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_confectionery.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21053.png"
             },
-            "description": "פריז ארטיקים מפירות טבעיים, PRIZ",
-            "short_description": "פריז ארטיקים מפירות טבעיים, PRIZ",
+            "description": "קפולסקי, Kapulski",
+            "short_description": "קפולסקי, Kapulski",
+            "slug": "netanya",
+            "tags": [
+                "patisserie",
+                "coffeeHouse",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21053"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Golda Yachin Center Netanya",
+            "score": 9.2,
+            "title": "Golda Yachin Center Netanya",
+            "venue_id": "26525",
+            "address": "17, Sderot Giborei Israel Netanya",
+            "track_id": "26525",
+            "location": [
+                34.86202000000001,
+                32.2812249
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26525_20220111170032.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26525.jpg"
+            },
+            "description": "גולדה יכין סנטר נתניה, Golda Yachin Center Netanya",
+            "short_description": "גולדה יכין סנטר נתניה, Golda Yachin Center Netanya",
             "slug": "netanya",
             "tags": [
                 "gelato",
-                "glutenFree",
                 "veganFood",
-                "kosher",
-                "vegan",
-                "gluten free"
+                "vegan"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36542"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Falafel Musa",
-            "score": 8.4,
-            "title": "Falafel Musa",
-            "venue_id": "4195",
-            "address": "24, Sderot Giborei Israel Netanya",
-            "track_id": "4195",
-            "location": [
-                34.8606962,
-                32.28024320000001
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_hummus.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/4195.gif"
-            },
-            "description": "פלאפל מוסא פולג, Falafel Musa",
-            "short_description": "פלאפל מוסא פולג, Falafel Musa",
-            "slug": "netanya",
-            "tags": [
-                "humus",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/4195"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Ronen - meat express ",
-            "score": 8.4,
-            "title": "Ronen - meat express ",
-            "venue_id": "28064",
-            "address": "6, Agam Kinneret Street Netanya",
-            "track_id": "28064",
-            "location": [
-                34.8513443,
-                32.2904141
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_28064_20200712144549.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/28064.jpg"
-            },
-            "description": "רונן בשרים אקספרס, Ronen - meat express ",
-            "short_description": "רונן בשרים אקספרס, Ronen - meat express ",
-            "slug": "netanya",
-            "tags": [
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28064"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "HAIM BUYA SHNITZEL",
-            "score": 9.2,
-            "title": "HAIM BUYA SHNITZEL",
-            "venue_id": "35634",
-            "address": "18, Ha-Yahalom Street Netanya",
-            "track_id": "35634",
-            "location": [
-                34.8616028,
-                32.3288763
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35634_20220102123341.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35634.png"
-            },
-            "description": "שניצל חיים בויה, HAIM BUYA SHNITZEL",
-            "short_description": "שניצל חיים בויה, HAIM BUYA SHNITZEL",
-            "slug": "netanya",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35634"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26525"
             },
             "provider": "tenBis"
         },
@@ -1376,6 +1550,147 @@
             "provider": "tenBis"
         },
         {
+            "name": "Lehem Erez",
+            "score": 8.2,
+            "title": "Lehem Erez",
+            "venue_id": "24594",
+            "address": "5, Maffi Street Netanya",
+            "track_id": "24594",
+            "location": [
+                34.8628888,
+                32.2753287
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_24594_20220222144440.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24594.jpeg"
+            },
+            "description": "לחם ארז , Lehem Erez",
+            "short_description": "לחם ארז , Lehem Erez",
+            "slug": "netanya",
+            "tags": [
+                "coffeeHouse",
+                "sandwichesWraps",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24594"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Burger Ranch",
+            "score": 6.4,
+            "title": "Burger Ranch",
+            "venue_id": "856",
+            "address": "5א, Sderot Giborei Israel Netanya",
+            "track_id": "856",
+            "location": [
+                34.8600035,
+                32.2754688
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_856_20220220132131.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/856.jpeg"
+            },
+            "description": "בורגראנץ' , Burger Ranch",
+            "short_description": "בורגראנץ' , Burger Ranch",
+            "slug": "netanya",
+            "tags": [
+                "burgers",
+                "meatGrill",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/856"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Falafel Musa",
+            "score": 8.4,
+            "title": "Falafel Musa",
+            "venue_id": "4195",
+            "address": "24, Sderot Giborei Israel Netanya",
+            "track_id": "4195",
+            "location": [
+                34.8606962,
+                32.28024320000001
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_hummus.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/4195.gif"
+            },
+            "description": "פלאפל מוסא פולג, Falafel Musa",
+            "short_description": "פלאפל מוסא פולג, Falafel Musa",
+            "slug": "netanya",
+            "tags": [
+                "humus",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/4195"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Lillis ",
+            "score": 8,
+            "title": "Lillis ",
+            "venue_id": "30110",
+            "address": "5, Maffi Street Netanya",
+            "track_id": "30110",
+            "location": [
+                34.8613331,
+                32.2748751
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30110.jpg"
+            },
+            "description": "ליליס-פטיסרי צרפתי, Lillis ",
+            "short_description": "ליליס-פטיסרי צרפתי, Lillis ",
+            "slug": "netanya",
+            "tags": [
+                "salads",
+                "pasta",
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30110"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "ZOTA PIZZA",
+            "score": 9.2,
+            "title": "ZOTA PIZZA",
+            "venue_id": "30464",
+            "address": "10, Shoshana Damari Street Netanya",
+            "track_id": "30464",
+            "location": [
+                34.8428024,
+                32.2781012
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30464_20211215165554.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30464.jepg"
+            },
+            "description": "פיצה זותא נתניה, ZOTA PIZZA",
+            "short_description": "פיצה זותא נתניה, ZOTA PIZZA",
+            "slug": "netanya",
+            "tags": [
+                "pizza",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30464"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Burgerman",
             "score": 8.4,
             "title": "Burgerman",
@@ -1400,92 +1715,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35567"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hummusim",
-            "score": 8.6,
-            "title": "Hummusim",
-            "venue_id": "9830",
-            "address": "2, HaMehkar Street Netanya",
-            "track_id": "9830",
-            "location": [
-                34.8624251,
-                32.2917333
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_hummus.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/9830.bmp"
-            },
-            "description": "חומוסים , Hummusim",
-            "short_description": "חומוסים , Hummusim",
-            "slug": "netanya",
-            "tags": [
-                "humus",
-                "salads",
-                "sandwichesWraps",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/9830"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Bayern Market",
-            "score": 5.6,
-            "title": "Bayern Market",
-            "venue_id": "37107",
-            "address": "3, HaMehkar Street Netanya",
-            "track_id": "37107",
-            "location": [
-                34.8628369,
-                32.2913673
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37107_20220529162242.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37107.png"
-            },
-            "description": "ביירן מרקט , Bayern Market",
-            "short_description": "ביירן מרקט , Bayern Market",
-            "slug": "netanya",
-            "tags": [
-                "meatGrill",
-                "burgers",
-                "sandwichesWraps"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37107"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Mata'amey Israel",
-            "score": 9.2,
-            "title": "Mata'amey Israel",
-            "venue_id": "27435",
-            "address": "4 א, Ha-Tsoran Street Netanya",
-            "track_id": "27435",
-            "location": [
-                34.8660813,
-                32.2887054
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_homemade.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27435.jpg"
-            },
-            "description": "מטעמי ישראל, Mata'amey Israel",
-            "short_description": "מטעמי ישראל, Mata'amey Israel",
-            "slug": "netanya",
-            "tags": [
-                "homeMade",
-                "meatGrill",
-                "fish",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27435"
             },
             "provider": "tenBis"
         },
@@ -1515,34 +1744,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/8516"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Golda Yachin Center Netanya",
-            "score": 9.2,
-            "title": "Golda Yachin Center Netanya",
-            "venue_id": "26525",
-            "address": "17, Sderot Giborei Israel Netanya",
-            "track_id": "26525",
-            "location": [
-                34.86202000000001,
-                32.2812249
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26525_20220111170032.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26525.jpg"
-            },
-            "description": "גולדה יכין סנטר נתניה, Golda Yachin Center Netanya",
-            "short_description": "גולדה יכין סנטר נתניה, Golda Yachin Center Netanya",
-            "slug": "netanya",
-            "tags": [
-                "gelato",
-                "veganFood",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26525"
             },
             "provider": "tenBis"
         },
@@ -1603,29 +1804,196 @@
             "provider": "tenBis"
         },
         {
-            "name": "ZOTA PIZZA",
+            "name": "B12 meat station",
             "score": 9.2,
-            "title": "ZOTA PIZZA",
-            "venue_id": "30464",
-            "address": "10, Shoshana Damari Street Netanya",
-            "track_id": "30464",
+            "title": "B12 meat station",
+            "venue_id": "27957",
+            "address": "22, Sderot Giborei Israel Netanya",
+            "track_id": "27957",
             "location": [
-                34.8428024,
-                32.2781012
+                34.8604327,
+                32.279597
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_30464_20211215165554.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30464.jepg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27957.png"
             },
-            "description": "פיצה זותא נתניה, ZOTA PIZZA",
-            "short_description": "פיצה זותא נתניה, ZOTA PIZZA",
+            "description": "בי 12 מיט סטיישן, B12 meat station",
+            "short_description": "בי 12 מיט סטיישן, B12 meat station",
             "slug": "netanya",
             "tags": [
-                "pizza",
+                "sandwichesWraps",
+                "salads",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27957"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Oasis Netanya",
+            "score": 8.8,
+            "title": "Oasis Netanya",
+            "venue_id": "29631",
+            "address": "22, Sderot Giborei Israel Netanya",
+            "track_id": "29631",
+            "location": [
+                34.8604327,
+                32.279597
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29631_20201008154325.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29631.jpg"
+            },
+            "description": "אואזיס נתניה, Oasis Netanya",
+            "short_description": "אואזיס נתניה, Oasis Netanya",
+            "slug": "netanya",
+            "tags": [
+                "gelato",
+                "SmoothiesAndShakes"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29631"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Jacko",
+            "score": 8.8,
+            "title": "Jacko",
+            "venue_id": "1433",
+            "address": "7, Sderot Giborei Israel Netanya",
+            "track_id": "1433",
+            "location": [
+                34.8604479,
+                32.2761965
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_seafood.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/1433.jpg"
+            },
+            "description": "ג`קו, Jacko",
+            "short_description": "ג`קו, Jacko",
+            "slug": "netanya",
+            "tags": [
+                "seafood",
+                "fish"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/1433"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Cafe Caramel",
+            "score": 8.4,
+            "title": "Cafe Caramel",
+            "venue_id": "760",
+            "address": "7, Sderot Giborei Israel Netanya",
+            "track_id": "760",
+            "location": [
+                34.8604479,
+                32.2761965
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/760.jpg"
+            },
+            "description": "קפה קרמל, Cafe Caramel",
+            "short_description": "קפה קרמל, Cafe Caramel",
+            "slug": "netanya",
+            "tags": [
+                "pasta",
+                "salads",
+                "pizza"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/760"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Go salad",
+            "score": 8,
+            "title": "Go salad",
+            "venue_id": "27207",
+            "address": "5, Maffi Street Netanya",
+            "track_id": "27207",
+            "location": [
+                34.8628888,
+                32.2753287
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27207_20201126092235.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27207.jepg"
+            },
+            "description": "גו סלט , Go salad",
+            "short_description": "גו סלט , Go salad",
+            "slug": "netanya",
+            "tags": [
+                "asianFusion",
+                "salads",
+                "fish",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30464"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27207"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Artisan Bread",
+            "score": 9.4,
+            "title": "Artisan Bread",
+            "venue_id": "34025",
+            "address": "5, Sderot Giborei Israel Netanya",
+            "track_id": "34025",
+            "location": [
+                34.8600035,
+                32.2754688
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34025_20210729162011.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34025.png"
+            },
+            "description": "לחם ארטיזן, Artisan Bread",
+            "short_description": "לחם ארטיזן, Artisan Bread",
+            "slug": "netanya",
+            "tags": [
+                "bakery",
+                "patisserie",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34025"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Falafel Netanya",
+            "score": 5.6,
+            "title": "Falafel Netanya",
+            "venue_id": "35981",
+            "address": "5, Maffi Street Netanya",
+            "track_id": "35981",
+            "location": [
+                34.8615882,
+                32.2750288
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_falafel.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35981.jpg"
+            },
+            "description": "פלאפל נתניה , Falafel Netanya",
+            "short_description": "פלאפל נתניה , Falafel Netanya",
+            "slug": "netanya",
+            "tags": [
+                "falafel",
+                "humus"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35981"
             },
             "provider": "tenBis"
         },
@@ -1741,6 +2109,34 @@
             "provider": "tenBis"
         },
         {
+            "name": "Bayern Market",
+            "score": 5.6,
+            "title": "Bayern Market",
+            "venue_id": "37107",
+            "address": "3, HaMehkar Street Netanya",
+            "track_id": "37107",
+            "location": [
+                34.8628369,
+                32.2913673
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37107_20220529162242.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37107.png"
+            },
+            "description": "ביירן מרקט , Bayern Market",
+            "short_description": "ביירן מרקט , Bayern Market",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "burgers",
+                "sandwichesWraps"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37107"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Pizza Pazzaz",
             "score": 9,
             "title": "Pizza Pazzaz",
@@ -1765,63 +2161,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21293"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "B-FRESH",
-            "score": 7.6,
-            "title": "B-FRESH",
-            "venue_id": "26435",
-            "address": "3, HaMehkar Street Netanya",
-            "track_id": "26435",
-            "location": [
-                34.8617384,
-                32.2910383
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_26435_20210318093234.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/26435.jpg"
-            },
-            "description": "בי פרש  , B-FRESH",
-            "short_description": "בי פרש  , B-FRESH",
-            "slug": "netanya",
-            "tags": [
-                "coffeeHouse",
-                "SmoothiesAndShakes",
-                "veganFood",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26435"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Chooka",
-            "score": 7.4,
-            "title": "Chooka",
-            "venue_id": "7587",
-            "address": "2, Beni Berman Street Netanya",
-            "track_id": "7587",
-            "location": [
-                34.8470676,
-                32.2791567
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_7587_20200120195021.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/7587.jpg"
-            },
-            "description": "צ'וקה, Chooka",
-            "short_description": "צ'וקה, Chooka",
-            "slug": "netanya",
-            "tags": [
-                "asianFusion",
-                "japaneseSushi",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/7587"
             },
             "provider": "tenBis"
         },
@@ -1882,6 +2221,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "Hashnizelia Netanya",
+            "score": 8.4,
+            "title": "Hashnizelia Netanya",
+            "venue_id": "17247",
+            "address": "2, Beni Berman Street Netanya",
+            "track_id": "17247",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_17247_20220106104715.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/17247.png"
+            },
+            "description": "השניצליה  , Hashnizelia Netanya",
+            "short_description": "השניצליה  , Hashnizelia Netanya",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "sandwichesWraps",
+                "salads",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/17247"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Time Off",
             "score": 7.2,
             "title": "Time Off",
@@ -1937,35 +2305,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Crispy Pizza",
-            "score": 9,
-            "title": "Crispy Pizza",
-            "venue_id": "1566",
-            "address": "3, Derech Raziel Netanya",
-            "track_id": "1566",
-            "location": [
-                34.8614645,
-                32.3276725
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/1566.gif"
-            },
-            "description": "קריספי פיצה, Crispy Pizza",
-            "short_description": "קריספי פיצה, Crispy Pizza",
-            "slug": "netanya",
-            "tags": [
-                "pizza",
-                "salads",
-                "pasta",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/1566"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "The charm of the pita",
             "score": 6.4,
             "title": "The charm of the pita",
@@ -1991,35 +2330,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33578"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Hashnizelia Netanya",
-            "score": 8.4,
-            "title": "Hashnizelia Netanya",
-            "venue_id": "17247",
-            "address": "2, Beni Berman Street Netanya",
-            "track_id": "17247",
-            "location": [
-                34.8470676,
-                32.2791567
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_17247_20220106104715.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/17247.png"
-            },
-            "description": "השניצליה  , Hashnizelia Netanya",
-            "short_description": "השניצליה  , Hashnizelia Netanya",
-            "slug": "netanya",
-            "tags": [
-                "meatGrill",
-                "sandwichesWraps",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/17247"
             },
             "provider": "tenBis"
         },
@@ -2052,7 +2362,7 @@
         },
         {
             "name": "Sombrero",
-            "score": 8.8,
+            "score": 8.6,
             "title": "Sombrero",
             "venue_id": "35906",
             "address": "3, Ha-Note'a Street Netanya",
@@ -2223,31 +2533,59 @@
             "provider": "tenBis"
         },
         {
-            "name": "Kapulski",
-            "score": 9.4,
-            "title": "Kapulski",
-            "venue_id": "21053",
-            "address": "30, HaMelacha Street Netanya",
-            "track_id": "21053",
+            "name": "Art Street",
+            "score": 0,
+            "title": "Art Street",
+            "venue_id": "37332",
+            "address": "6, Ha-Omanut Street Netanya",
+            "track_id": "37332",
             "location": [
-                34.8599963,
-                32.2832494
+                34.8596217,
+                32.2781497
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_confectionery.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/21053.png"
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37332.jpg"
             },
-            "description": "קפולסקי, Kapulski",
-            "short_description": "קפולסקי, Kapulski",
+            "description": "ארט סטריט, Art Street",
+            "short_description": "ארט סטריט, Art Street",
             "slug": "netanya",
             "tags": [
-                "patisserie",
-                "coffeeHouse",
+                "pizza",
                 "salads",
+                "pasta"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37332"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Nori Sushi Bar",
+            "score": 8,
+            "title": "Nori Sushi Bar",
+            "venue_id": "23906",
+            "address": "4, Ha-Tsoran Street Netanya",
+            "track_id": "23906",
+            "location": [
+                34.8660813,
+                32.2887054
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23906_20210216195537.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23906.jpg"
+            },
+            "description": "נורי קיטשן וסושי בר , Nori Sushi Bar",
+            "short_description": "נורי קיטשן וסושי בר , Nori Sushi Bar",
+            "slug": "netanya",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi",
+                "meatGrill",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/21053"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23906"
             },
             "provider": "tenBis"
         },
@@ -2281,30 +2619,31 @@
             "provider": "tenBis"
         },
         {
-            "name": "To Professor Burger House Netanya",
-            "score": 6,
-            "title": "To Professor Burger House Netanya",
-            "venue_id": "33674",
-            "address": "5, Herzl Street Netanya",
-            "track_id": "33674",
+            "name": "Casa Giulia",
+            "score": 7.4,
+            "title": "Casa Giulia",
+            "venue_id": "33490",
+            "address": "2, Herzl Street Netanya",
+            "track_id": "33490",
             "location": [
-                34.8534812,
-                32.3299633
+                34.8525215,
+                32.330148
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33674_20210616142306.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33674.jpg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33490_20220518161053.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33490.png"
             },
-            "description": "אל פרופסור בורגר האוס , To Professor Burger House Netanya",
-            "short_description": "אל פרופסור בורגר האוס , To Professor Burger House Netanya",
+            "description": "קאזה ג'וליה, Casa Giulia",
+            "short_description": "קאזה ג'וליה, Casa Giulia",
             "slug": "netanya",
             "tags": [
-                "burgers",
-                "meatGrill",
+                "fish",
+                "pasta",
+                "pizza",
                 "kosher"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33674"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33490"
             },
             "provider": "tenBis"
         },
@@ -2333,35 +2672,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24246"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Casa Giulia",
-            "score": 7.4,
-            "title": "Casa Giulia",
-            "venue_id": "33490",
-            "address": "2, Herzl Street Netanya",
-            "track_id": "33490",
-            "location": [
-                34.8525215,
-                32.330148
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_33490_20220518161053.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/33490.png"
-            },
-            "description": "קאזה ג'וליה, Casa Giulia",
-            "short_description": "קאזה ג'וליה, Casa Giulia",
-            "slug": "netanya",
-            "tags": [
-                "fish",
-                "pasta",
-                "pizza",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33490"
             },
             "provider": "tenBis"
         },
@@ -2422,35 +2732,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Nori Sushi Bar",
-            "score": 8,
-            "title": "Nori Sushi Bar",
-            "venue_id": "23906",
-            "address": "4, Ha-Tsoran Street Netanya",
-            "track_id": "23906",
-            "location": [
-                34.8660813,
-                32.2887054
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_23906_20210216195537.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/23906.jpg"
-            },
-            "description": "נורי קיטשן וסושי בר , Nori Sushi Bar",
-            "short_description": "נורי קיטשן וסושי בר , Nori Sushi Bar",
-            "slug": "netanya",
-            "tags": [
-                "asianFusion",
-                "japaneseSushi",
-                "meatGrill",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/23906"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "City Grill Netanya",
             "score": 8.8,
             "title": "City Grill Netanya",
@@ -2507,6 +2788,33 @@
             "provider": "tenBis"
         },
         {
+            "name": "Duds",
+            "score": 10,
+            "title": "Duds",
+            "venue_id": "36529",
+            "address": "4, Karminyan Street Netanya",
+            "track_id": "36529",
+            "location": [
+                34.8508311,
+                32.3295237
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36529_20220327170030.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36529.jpg"
+            },
+            "description": "דודס בורגר - המבורגר בעבודת יד, Duds",
+            "short_description": "דודס בורגר - המבורגר בעבודת יד, Duds",
+            "slug": "netanya",
+            "tags": [
+                "burgers",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36529"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Saffron",
             "score": 8.6,
             "title": "Saffron",
@@ -2537,33 +2845,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Duds",
-            "score": 10,
-            "title": "Duds",
-            "venue_id": "36529",
-            "address": "4, Karminyan Street Netanya",
-            "track_id": "36529",
-            "location": [
-                34.8508311,
-                32.3295237
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_36529_20220327170030.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/36529.jpg"
-            },
-            "description": "דודס בורגר - המבורגר בעבודת יד, Duds",
-            "short_description": "דודס בורגר - המבורגר בעבודת יד, Duds",
-            "slug": "netanya",
-            "tags": [
-                "burgers",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36529"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Sabres",
             "score": 9.2,
             "title": "Sabres",
@@ -2588,33 +2869,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28503"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Jacko",
-            "score": 8.8,
-            "title": "Jacko",
-            "venue_id": "1433",
-            "address": "7, Sderot Giborei Israel Netanya",
-            "track_id": "1433",
-            "location": [
-                34.8604479,
-                32.2761965
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_seafood.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/1433.jpg"
-            },
-            "description": "ג`קו, Jacko",
-            "short_description": "ג`קו, Jacko",
-            "slug": "netanya",
-            "tags": [
-                "seafood",
-                "fish"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/1433"
             },
             "provider": "tenBis"
         },
@@ -2677,31 +2931,33 @@
             "provider": "tenBis"
         },
         {
-            "name": "BIGA",
+            "name": "Falafel ba'ribua Natanya",
             "score": 8,
-            "title": "BIGA",
-            "venue_id": "35496",
-            "address": "5, Maffi Street Netanya",
-            "track_id": "35496",
+            "title": "Falafel ba'ribua Natanya",
+            "venue_id": "27037",
+            "address": "26, Tom Lantos Boulevard Netanya",
+            "track_id": "27037",
             "location": [
-                34.8615882,
-                32.2750288
+                34.869091,
+                32.3069382
             ],
             "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35496_20220104121035.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35496.jepg"
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27037_20220222152352.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27037.png"
             },
-            "description": "ביגה נתניה , BIGA",
-            "short_description": "ביגה נתניה , BIGA",
+            "description": "פלאפל בריבוע נתניה , Falafel ba'ribua Natanya",
+            "short_description": "פלאפל בריבוע נתניה , Falafel ba'ribua Natanya",
             "slug": "netanya",
             "tags": [
-                "sandwichesWraps",
-                "salads",
-                "pasta",
-                "kosher"
+                "humus",
+                "veganFood",
+                "glutenFree",
+                "kosher",
+                "vegan",
+                "gluten free"
             ],
             "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35496"
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27037"
             },
             "provider": "tenBis"
         },
@@ -2731,37 +2987,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/28760"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Falafel ba'ribua Natanya",
-            "score": 8,
-            "title": "Falafel ba'ribua Natanya",
-            "venue_id": "27037",
-            "address": "26, Tom Lantos Boulevard Netanya",
-            "track_id": "27037",
-            "location": [
-                34.869091,
-                32.3069382
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27037_20220222152352.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27037.png"
-            },
-            "description": "פלאפל בריבוע נתניה , Falafel ba'ribua Natanya",
-            "short_description": "פלאפל בריבוע נתניה , Falafel ba'ribua Natanya",
-            "slug": "netanya",
-            "tags": [
-                "humus",
-                "veganFood",
-                "glutenFree",
-                "kosher",
-                "vegan",
-                "gluten free"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27037"
             },
             "provider": "tenBis"
         },
@@ -2824,6 +3049,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "Crispy Pizza",
+            "score": 9,
+            "title": "Crispy Pizza",
+            "venue_id": "1566",
+            "address": "3, Derech Raziel Netanya",
+            "track_id": "1566",
+            "location": [
+                34.8614645,
+                32.3276725
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/1566.gif"
+            },
+            "description": "קריספי פיצה, Crispy Pizza",
+            "short_description": "קריספי פיצה, Crispy Pizza",
+            "slug": "netanya",
+            "tags": [
+                "pizza",
+                "salads",
+                "pasta",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/1566"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Hayut",
             "score": 10,
             "title": "Hayut",
@@ -2881,35 +3135,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Go salad",
-            "score": 8,
-            "title": "Go salad",
-            "venue_id": "27207",
-            "address": "5, Maffi Street Netanya",
-            "track_id": "27207",
-            "location": [
-                34.8628888,
-                32.2753287
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27207_20201126092235.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27207.jepg"
-            },
-            "description": "גו סלט , Go salad",
-            "short_description": "גו סלט , Go salad",
-            "slug": "netanya",
-            "tags": [
-                "asianFusion",
-                "salads",
-                "fish",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27207"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Chicken time",
             "score": 8,
             "title": "Chicken time",
@@ -2933,62 +3158,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35632"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Artisan Bread",
-            "score": 9.4,
-            "title": "Artisan Bread",
-            "venue_id": "34025",
-            "address": "5, Sderot Giborei Israel Netanya",
-            "track_id": "34025",
-            "location": [
-                34.8600035,
-                32.2754688
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34025_20210729162011.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34025.png"
-            },
-            "description": "לחם ארטיזן, Artisan Bread",
-            "short_description": "לחם ארטיזן, Artisan Bread",
-            "slug": "netanya",
-            "tags": [
-                "bakery",
-                "patisserie",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34025"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Art Street",
-            "score": 0,
-            "title": "Art Street",
-            "venue_id": "37332",
-            "address": "6, Ha-Omanut Street Netanya",
-            "track_id": "37332",
-            "location": [
-                34.8596217,
-                32.2781497
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_pizza.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37332.jpg"
-            },
-            "description": "ארט סטריט, Art Street",
-            "short_description": "ארט סטריט, Art Street",
-            "slug": "netanya",
-            "tags": [
-                "pizza",
-                "salads",
-                "pasta"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37332"
             },
             "provider": "tenBis"
         },
@@ -3018,33 +3187,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36109"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Falafel Netanya",
-            "score": 5.6,
-            "title": "Falafel Netanya",
-            "venue_id": "35981",
-            "address": "5, Maffi Street Netanya",
-            "track_id": "35981",
-            "location": [
-                34.8615882,
-                32.2750288
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_falafel.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35981.jpg"
-            },
-            "description": "פלאפל נתניה , Falafel Netanya",
-            "short_description": "פלאפל נתניה , Falafel Netanya",
-            "slug": "netanya",
-            "tags": [
-                "falafel",
-                "humus"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35981"
             },
             "provider": "tenBis"
         },
@@ -3105,201 +3247,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "B12 meat station",
-            "score": 9.2,
-            "title": "B12 meat station",
-            "venue_id": "27957",
-            "address": "22, Sderot Giborei Israel Netanya",
-            "track_id": "27957",
-            "location": [
-                34.8604327,
-                32.279597
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sandwicheswraps.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27957.png"
-            },
-            "description": "בי 12 מיט סטיישן, B12 meat station",
-            "short_description": "בי 12 מיט סטיישן, B12 meat station",
-            "slug": "netanya",
-            "tags": [
-                "sandwichesWraps",
-                "salads",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27957"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Oasis Netanya",
-            "score": 8.8,
-            "title": "Oasis Netanya",
-            "venue_id": "29631",
-            "address": "22, Sderot Giborei Israel Netanya",
-            "track_id": "29631",
-            "location": [
-                34.8604327,
-                32.279597
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_29631_20201008154325.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29631.jpg"
-            },
-            "description": "אואזיס נתניה, Oasis Netanya",
-            "short_description": "אואזיס נתניה, Oasis Netanya",
-            "slug": "netanya",
-            "tags": [
-                "gelato",
-                "SmoothiesAndShakes"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29631"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Cafe Caramel",
-            "score": 8.4,
-            "title": "Cafe Caramel",
-            "venue_id": "760",
-            "address": "7, Sderot Giborei Israel Netanya",
-            "track_id": "760",
-            "location": [
-                34.8604479,
-                32.2761965
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_italian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/760.jpg"
-            },
-            "description": "קפה קרמל, Cafe Caramel",
-            "short_description": "קפה קרמל, Cafe Caramel",
-            "slug": "netanya",
-            "tags": [
-                "pasta",
-                "salads",
-                "pizza"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/760"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Nishi",
-            "score": 9,
-            "title": "Nishi",
-            "venue_id": "24510",
-            "address": "1, Khoma u-Migdal Street Tel Yitzhak",
-            "track_id": "24510",
-            "location": [
-                34.8696159,
-                32.2545352
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_asian.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24510.jpg"
-            },
-            "description": "נישי , Nishi",
-            "short_description": "נישי , Nishi",
-            "slug": "netanya",
-            "tags": [
-                "asianFusion"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24510"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Burger Ranch",
-            "score": 6.4,
-            "title": "Burger Ranch",
-            "venue_id": "856",
-            "address": "5א, Sderot Giborei Israel Netanya",
-            "track_id": "856",
-            "location": [
-                34.8600035,
-                32.2754688
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_856_20220220132131.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/856.jpeg"
-            },
-            "description": "בורגראנץ' , Burger Ranch",
-            "short_description": "בורגראנץ' , Burger Ranch",
-            "slug": "netanya",
-            "tags": [
-                "burgers",
-                "meatGrill",
-                "veganFood",
-                "vegan"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/856"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Lucky Chicken",
-            "score": 8.2,
-            "title": "Lucky Chicken",
-            "venue_id": "35799",
-            "address": "1, Derech Hailanot Bitan Aharon",
-            "track_id": "35799",
-            "location": [
-                34.869706,
-                32.365295
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35799_20220321105506.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35799.png"
-            },
-            "description": "לאקי צ'יקן, Lucky Chicken",
-            "short_description": "לאקי צ'יקן, Lucky Chicken",
-            "slug": "netanya",
-            "tags": [
-                "burgers",
-                "sandwichesWraps",
-                "meatGrill"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35799"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Lehem Erez",
-            "score": 8.2,
-            "title": "Lehem Erez",
-            "venue_id": "24594",
-            "address": "5, Maffi Street Netanya",
-            "track_id": "24594",
-            "location": [
-                34.8628888,
-                32.2753287
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_24594_20220222144440.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24594.jpeg"
-            },
-            "description": "לחם ארז , Lehem Erez",
-            "short_description": "לחם ארז , Lehem Erez",
-            "slug": "netanya",
-            "tags": [
-                "coffeeHouse",
-                "sandwichesWraps",
-                "salads",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24594"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Avi delicacies",
             "score": 8.4,
             "title": "Avi delicacies",
@@ -3353,6 +3300,60 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36971"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Nishi",
+            "score": 9,
+            "title": "Nishi",
+            "venue_id": "24510",
+            "address": "1, Khoma u-Migdal Street Tel Yitzhak",
+            "track_id": "24510",
+            "location": [
+                34.8696159,
+                32.2545352
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_asian.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/24510.jpg"
+            },
+            "description": "נישי , Nishi",
+            "short_description": "נישי , Nishi",
+            "slug": "netanya",
+            "tags": [
+                "asianFusion"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24510"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Lucky Chicken",
+            "score": 8.2,
+            "title": "Lucky Chicken",
+            "venue_id": "35799",
+            "address": "1, Derech Hailanot Bitan Aharon",
+            "track_id": "35799",
+            "location": [
+                34.869706,
+                32.365295
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_35799_20220321105506.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/35799.png"
+            },
+            "description": "לאקי צ'יקן, Lucky Chicken",
+            "short_description": "לאקי צ'יקן, Lucky Chicken",
+            "slug": "netanya",
+            "tags": [
+                "burgers",
+                "sandwichesWraps",
+                "meatGrill"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35799"
             },
             "provider": "tenBis"
         },
@@ -3669,6 +3670,34 @@
             "provider": "tenBis"
         },
         {
+            "name": "Basher",
+            "score": 8,
+            "title": "Basher",
+            "venue_id": "34895",
+            "address": "2, Beni Berman Street Netanya",
+            "track_id": "34895",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34895_20211130112605.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34895.jepg"
+            },
+            "description": "באשר פרומרז'ירי נתניה, Basher",
+            "short_description": "באשר פרומרז'ירי נתניה, Basher",
+            "slug": "netanya",
+            "tags": [
+                "sandwichesWraps",
+                "convenienceStore",
+                "bakery"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34895"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Time Off",
             "score": 7.8,
             "title": "Time Off",
@@ -3698,35 +3727,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Lillis ",
-            "score": 8,
-            "title": "Lillis ",
-            "venue_id": "30110",
-            "address": "5, Maffi Street Netanya",
-            "track_id": "30110",
-            "location": [
-                34.8613331,
-                32.2748751
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_default.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/30110.jpg"
-            },
-            "description": "ליליס-פטיסרי צרפתי, Lillis ",
-            "short_description": "ליליס-פטיסרי צרפתי, Lillis ",
-            "slug": "netanya",
-            "tags": [
-                "salads",
-                "pasta",
-                "patisserie",
-                "kosher"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/30110"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Mojo",
             "score": 9,
             "title": "Mojo",
@@ -3750,34 +3750,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/33551"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Basher",
-            "score": 8,
-            "title": "Basher",
-            "venue_id": "34895",
-            "address": "2, Beni Berman Street Netanya",
-            "track_id": "34895",
-            "location": [
-                34.8470676,
-                32.2791567
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_34895_20211130112605.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/34895.jepg"
-            },
-            "description": "באשר פרומרז'ירי נתניה, Basher",
-            "short_description": "באשר פרומרז'ירי נתניה, Basher",
-            "slug": "netanya",
-            "tags": [
-                "sandwichesWraps",
-                "convenienceStore",
-                "bakery"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/34895"
             },
             "provider": "tenBis"
         },
@@ -3810,6 +3782,33 @@
             "provider": "tenBis"
         },
         {
+            "name": "La Sinta ",
+            "score": 8.4,
+            "title": "La Sinta ",
+            "venue_id": "29105",
+            "address": "31, Giv'ati Street Kfar Yona",
+            "track_id": "29105",
+            "location": [
+                34.9228369,
+                32.3156278
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29105.jpg"
+            },
+            "description": "לה סינטה, La Sinta ",
+            "short_description": "לה סינטה, La Sinta ",
+            "slug": "netanya",
+            "tags": [
+                "meatGrill",
+                "burgers"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29105"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Nagisa",
             "score": 8.2,
             "title": "Nagisa",
@@ -3835,33 +3834,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/24281"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "La Sinta ",
-            "score": 8.4,
-            "title": "La Sinta ",
-            "venue_id": "29105",
-            "address": "31, Giv'ati Street Kfar Yona",
-            "track_id": "29105",
-            "location": [
-                34.9228369,
-                32.3156278
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_meatgrill.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/29105.jpg"
-            },
-            "description": "לה סינטה, La Sinta ",
-            "short_description": "לה סינטה, La Sinta ",
-            "slug": "netanya",
-            "tags": [
-                "meatGrill",
-                "burgers"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29105"
             },
             "provider": "tenBis"
         },
@@ -3919,6 +3891,34 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29151"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Chooka",
+            "score": 7.4,
+            "title": "Chooka",
+            "venue_id": "7587",
+            "address": "2, Beni Berman Street Netanya",
+            "track_id": "7587",
+            "location": [
+                34.8470676,
+                32.2791567
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_7587_20200120195021.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/7587.jpg"
+            },
+            "description": "צ'וקה, Chooka",
+            "short_description": "צ'וקה, Chooka",
+            "slug": "netanya",
+            "tags": [
+                "asianFusion",
+                "japaneseSushi",
+                "kosher"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/7587"
             },
             "provider": "tenBis"
         },
