@@ -1,57 +1,31 @@
 {
-    "lastScrapeDate": 1657281676211,
+    "lastScrapeDate": 1658388028847,
     "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.9730015&lon=34.7925013",
     "restaurants": [
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6072b1319783a085bb0e0960/0e45940a-9a9f-11eb-8041-6245b8bf2fab_list.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60169f37717b7a970d40f20e/07a5fbbc-63c2-11eb-93f8-2681d1650f01_list.jpg",
                 "logo": null
             },
-            "title": "Ze Sushi | Rishon-LeZion",
-            "name": "Ze Sushi | Rishon-LeZion",
-            "track_id": "venue-ze-sushi-rishon-lezion",
-            "address": "This is a virtual venue",
-            "venue_id": "6072b1319783a085bb0e0960",
+            "title": "McDonald׳s® Cinema City Rishon LeZion",
+            "name": "McDonald׳s® Cinema City Rishon LeZion",
+            "track_id": "venue-mcdonalds-cinema-city",
+            "address": "ילדי טהרן 3, ראשון לציון",
+            "venue_id": "60169f37717b7a970d40f20e",
             "location": [
-                34.763609,
-                31.988477
+                34.7707994,
+                31.9841036
             ],
-            "short_description": "Indulgent Sushi Dishes",
-            "slug": "ze-sushi-rishon-lezion",
-            "tags": [
-                "sushi",
-                "noodles",
-                "asian"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/ze-sushi-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e679ed6cc42f8b2273ba4c3/afdcfbe2-30d5-11ec-ac2d-3e3eff647bcc_______1_.jpg",
-                "logo": null
-            },
-            "title": "Jango",
-            "name": "Jango",
-            "track_id": "venue-jango",
-            "address": "משה בקר 11 ראשון לציון",
-            "venue_id": "5e679ed6cc42f8b2273ba4c3",
-            "location": [
-                34.80870604296997,
-                31.974582304410173
-            ],
-            "short_description": "Hamburger Eatery",
-            "slug": "jango",
+            "short_description": "McRoyal, the most popular hamburger in Israel",
+            "slug": "mcdonalds-cinema-city",
             "tags": [
                 "burger",
+                "chicken",
                 "kids"
             ],
-            "score": 8,
+            "score": 6.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/jango"
+                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-cinema-city"
             },
             "provider": "wolt"
         },
@@ -84,109 +58,53 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/606d5a3135d5488aea95b59b/fac5db88-976f-11eb-bfde-a6aaf9499b13_list_food_terminal.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601a51f98f5ae007805d895b/ccf0a8c0-7102-11eb-8f13-ca424e95eb5d_bonfis_2818.jpg",
                 "logo": null
             },
-            "title": "Food Terminal",
-            "name": "Food Terminal",
-            "track_id": "venue-food-terminal",
-            "address": "This is a virtual venue",
-            "venue_id": "606d5a3135d5488aea95b59b",
+            "title": "Shibolet HaSharon | Rishon Lezion",
+            "name": "Shibolet HaSharon | Rishon Lezion",
+            "track_id": "venue-shibolet-hasharon-rishon-lezion",
+            "address": "רוטשילד 39, ראשון לציון",
+            "venue_id": "601a51f98f5ae007805d895b",
             "location": [
-                34.763609,
-                31.988477
+                34.8021977,
+                31.9639063
             ],
-            "short_description": "Ze Sushi · Vong · Big Yves",
-            "slug": "food-terminal",
+            "short_description": "Bakery",
+            "slug": "shibolet-hasharon-rishon-lezion",
             "tags": [
-                "asian",
-                "burger",
-                "vietnamese"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/food-terminal"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e0cc25024228fb87a95d842/b3779096-63b7-11eb-85cb-822feba74bf6___________.jpg",
-                "logo": null
-            },
-            "title": "JAJA",
-            "name": "JAJA",
-            "track_id": "venue-jaja",
-            "address": "רוטשילד 86",
-            "venue_id": "5e0cc25024228fb87a95d842",
-            "location": [
-                34.79538765186481,
-                31.96448097236437
-            ],
-            "short_description": "Italian Cuisine ",
-            "slug": "jaja",
-            "tags": [
-                "pizza",
-                "italian",
-                "pasta"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/jaja"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6183d44721a47457726f3291/5a5ac94a-47a7-11ec-915b-6a0e74b273b1_____________.jpg",
-                "logo": null
-            },
-            "title": "Transit | Rishon Lezion",
-            "name": "Transit | Rishon Lezion",
-            "track_id": "venue-tranzit",
-            "address": "זד״ל 1, ראשון לציון",
-            "venue_id": "6183d44721a47457726f3291",
-            "location": [
-                34.8050682266101,
-                31.964128333563607
-            ],
-            "short_description": "Come and travel in the East",
-            "slug": "tranzit",
-            "tags": [
-                "noodles",
                 "salad",
-                "sushi"
+                "bakery",
+                "breakfast"
             ],
-            "score": 8.2,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/tranzit"
+                "url": "https://wolt.com/en/isr/undefined/venue/shibolet-hasharon-rishon-lezion"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4cf9695c182d470962e9cd/d3aa52ee-9eb8-11ec-8830-36ec49f8bd4c_58463a32_9df5_11ec_b436_7ee71934c123_yaelitz_9.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e45520fb9771ee00ec18674/60583c86-8372-11ec-a644-66a8b960fbba_25ec1560_2cbe_11eb_8b37_8a317767d376______________.jpg",
                 "logo": null
             },
-            "title": "Agadir | Rishon LeZion",
-            "name": "Agadir | Rishon LeZion",
-            "track_id": "venue-agadir-rishon-lezion",
-            "address": "Lazarov 33",
-            "venue_id": "5e4cf9695c182d470962e9cd",
+            "title": "Deli Cream | Jabotinsky",
+            "name": "Deli Cream | Jabotinsky",
+            "track_id": "venue-deli-cream-jabotinsky",
+            "address": "ז׳בוטינסקי 16",
+            "venue_id": "5e45520fb9771ee00ec18674",
             "location": [
-                34.77518538708164,
-                31.991571761125385
+                34.80056482266992,
+                31.961835774515574
             ],
-            "short_description": "100% Local Fresh Beef Burger",
-            "slug": "agadir-rishon-lezion",
+            "short_description": "Premium Ice Cream",
+            "slug": "deli-cream-jabotinsky",
             "tags": [
-                "burger",
-                "american",
-                "sandwich"
+                "ice cream"
             ],
-            "score": 8,
+            "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/agadir-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-jabotinsky"
             },
             "provider": "wolt"
         },
@@ -218,539 +136,167 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e132ccf6d0523f07dd0719a/8aa83182-466e-11ea-95ac-0a586468f45a_yaelitz-2.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b60f226edc582619d5d31f/8fd6b19e-63de-11ec-8d2c-7aeca5ee6a5a_____.jpg",
                 "logo": null
             },
-            "title": "Goomba | Rishon LeZion",
-            "name": "Goomba | Rishon LeZion",
-            "track_id": "venue-goomba-rishon-lezion",
-            "address": " Lazarov St 23",
-            "venue_id": "5e132ccf6d0523f07dd0719a",
+            "title": "Tortilla Bar | Azur",
+            "name": "Tortilla Bar | Azur",
+            "track_id": "venue-tortilla-bar",
+            "address": "המצודה 8, אזור",
+            "venue_id": "61b60f226edc582619d5d31f",
             "location": [
-                34.772889082467074,
-                31.992677871724716
+                34.7979679,
+                32.0294393
             ],
-            "short_description": "Italian Kitchen",
-            "slug": "goomba-rishon-lezion",
+            "short_description": "Meat Lovers Bar",
+            "slug": "tortilla-bar",
             "tags": [
-                "italian",
-                "pasta",
-                "pizza"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/goomba-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61fa538b5e1357a8f2bfb421/615c6d22-840e-11ec-b094-be84e93b9101______________.jpeg",
-                "logo": null
-            },
-            "title": "Moses Shop Kosher | Rishon LeZion",
-            "name": "Moses Shop Kosher | Rishon LeZion",
-            "track_id": "venue-moses-shop-kosher-rishon-leziyon",
-            "address": "רבי יהודה הנשיא 1, ראשון לציון",
-            "venue_id": "61fa538b5e1357a8f2bfb421",
-            "location": [
-                34.8160277,
-                31.947453
-            ],
-            "short_description": "Local Burger Shop",
-            "slug": "moses-shop-kosher-rishon-leziyon",
-            "tags": [
-                "burger",
-                "kosher",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/moses-shop-kosher-rishon-leziyon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e401ca10cdd8c244b030f38/d180b74a-ba71-11ec-af6d-0211aa21370b_____1.jpg",
-                "logo": null
-            },
-            "title": "BBB | Rishon LeZion",
-            "name": "BBB | Rishon LeZion",
-            "track_id": "venue-bbb-rishon-lezion",
-            "address": "משה בקר 9",
-            "venue_id": "5e401ca10cdd8c244b030f38",
-            "location": [
-                34.808468788257755,
-                31.974360087158608
-            ],
-            "short_description": "American-style Diner\n",
-            "slug": "bbb-rishon-lezion",
-            "tags": [
-                "american",
-                "burger",
-                "salad"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bbb-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f96c8e885fad2fc22a13670/da613e28-178b-11eb-9455-0234cb2fa699_list.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® Sha'ar Rishon Mall",
-            "name": "McDonald's® Sha'ar Rishon Mall",
-            "track_id": "venue-mcdonalds-eged-rishon-lezion",
-            "address": "גולדה מאיר 1 ראשון לציון",
-            "venue_id": "5f96c8e885fad2fc22a13670",
-            "location": [
-                34.7852707,
-                31.967552
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-eged-rishon-lezion",
-            "tags": [
-                "burger",
-                "chicken",
-                "kids"
-            ],
-            "score": 7.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-eged-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a77c400cdc38e4949961d/139e4d1c-37d8-11ec-abad-ea41cff6cda7_54c80656_8ec0_11ea_a95a_0a58646e610f_yaelitz_2.avif",
-                "logo": null
-            },
-            "title": "Roll N Roll Sushi | Rishon Lezion",
-            "name": "Roll N Roll Sushi | Rishon Lezion",
-            "track_id": "venue-roll-n-roll-sushi-rishon-lezion",
-            "address": "לישנסקי 8, ראשון לציון",
-            "venue_id": "617a77c400cdc38e4949961d",
-            "location": [
-                34.76543199999949,
-                31.98947849693268
-            ],
-            "short_description": "Sushi Restaurant\n",
-            "slug": "roll-n-roll-sushi-rishon-lezion",
-            "tags": [
-                "asian",
-                "noodles",
-                "sushi"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/roll-n-roll-sushi-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4264c0b2ba5c974e5c9ec0/62cbd0d4-4ca8-11ea-ac87-0a586473797b_281543_delivery_1440x810%20%281%29.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® Sonol Dana",
-            "name": "McDonald's® Sonol Dana",
-            "track_id": "venue-mcdonalds-derech-hamaccabim",
-            "address": "דרך המכבים 22, ראשון לציון",
-            "venue_id": "5e4264c0b2ba5c974e5c9ec0",
-            "location": [
-                34.80853352217021,
-                31.976736597562322
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-derech-hamaccabim",
-            "tags": [
-                "burger",
-                "chicken",
-                "kids"
-            ],
-            "score": 7,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-derech-hamaccabim"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601a51f98f5ae007805d895b/ccf0a8c0-7102-11eb-8f13-ca424e95eb5d_bonfis_2818.jpg",
-                "logo": null
-            },
-            "title": "Shibolet HaSharon | Rishon Lezion",
-            "name": "Shibolet HaSharon | Rishon Lezion",
-            "track_id": "venue-shibolet-hasharon-rishon-lezion",
-            "address": "רוטשילד 39, ראשון לציון",
-            "venue_id": "601a51f98f5ae007805d895b",
-            "location": [
-                34.8021977,
-                31.9639063
-            ],
-            "short_description": "Bakery",
-            "slug": "shibolet-hasharon-rishon-lezion",
-            "tags": [
-                "salad",
-                "bakery",
-                "breakfast"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shibolet-hasharon-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ecccd0b64346399283d22bb/0c870ca2-44ff-11eb-b136-0a390c3454a1_list.jpg",
-                "logo": null
-            },
-            "title": "Rak Kacha",
-            "name": "Rak Kacha",
-            "track_id": "venue-rak-kacha",
-            "address": "רוטשילד 104",
-            "venue_id": "5ecccd0b64346399283d22bb",
-            "location": [
-                34.79322956061634,
-                31.96460775598731
-            ],
-            "short_description": "Sandwich Bar By Rotem Ben Moyal",
-            "slug": "rak-kacha",
-            "tags": [
-                "kebab",
-                "sandwich",
+                "grill",
+                "tortilla",
                 "kosher",
                 "kosher"
             ],
-            "score": 8.4,
+            "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/rak-kacha"
+                "url": "https://wolt.com/en/isr/undefined/venue/tortilla-bar"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e45520fb9771ee00ec18674/60583c86-8372-11ec-a644-66a8b960fbba_25ec1560_2cbe_11eb_8b37_8a317767d376______________.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6097e2d633a0ffd4f4d3f502/225360d0-b0ca-11eb-9e1f-32976e37ed1c_0e8ebf7c_744d_11eb_88ae_26571da3e801_ac25cf66_e7a6_11ea_bcaa_2ea6c6a4d759_1.jpeg",
                 "logo": null
             },
-            "title": "Deli Cream | Jabotinsky",
-            "name": "Deli Cream | Jabotinsky",
-            "track_id": "venue-deli-cream-jabotinsky",
-            "address": "ז׳בוטינסקי 16",
-            "venue_id": "5e45520fb9771ee00ec18674",
+            "title": "B-FRESH | Rothschild Mall Rishon Lezion",
+            "name": "B-FRESH | Rothschild Mall Rishon Lezion",
+            "track_id": "venue-b-fresh-rishon-lezion",
+            "address": "רוטשילד 45, ראשון לציון",
+            "venue_id": "6097e2d633a0ffd4f4d3f502",
             "location": [
-                34.80056482266992,
-                31.961835774515574
+                34.801440350651085,
+                31.963822076835733
             ],
-            "short_description": "Premium Ice Cream",
-            "slug": "deli-cream-jabotinsky",
+            "short_description": "משקאות | בריאות | טפיוקה\n",
+            "slug": "b-fresh-rishon-lezion",
             "tags": [
-                "ice cream"
+                "dessert",
+                "healthy",
+                "kids"
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-jabotinsky"
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-rishon-lezion"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60896f9bfdb0cbf0c8c63d50/44fd93a0-b1a4-11eb-be48-fa99ba1b8b3f_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f7f7cbae2f5270cfba3494/fd7c98d8-8fff-11ec-a994-6a23e7ac9498_c810015e_8ff4_11ec_95c1_6acb65e5fac0_list2.jpg",
                 "logo": null
             },
-            "title": "Kimat Hinam Pizza",
-            "name": "Kimat Hinam Pizza",
-            "track_id": "venue-almost-free-pizza",
-            "address": "רוטשילד 121, ראשון לציון",
-            "venue_id": "60896f9bfdb0cbf0c8c63d50",
+            "title": "Roket | Holon",
+            "name": "Roket | Holon",
+            "track_id": "venue-roket-holon",
+            "address": "המנור 7, חולון",
+            "venue_id": "61f7f7cbae2f5270cfba3494",
             "location": [
-                34.792026,
-                31.9645051
+                34.8046672,
+                32.0065734
             ],
-            "short_description": "Pizzeria",
-            "slug": "almost-free-pizza",
+            "short_description": "",
+            "slug": "roket-holon",
             "tags": [
-                "pizza",
+                "fish",
+                "pasta",
                 "salad"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/almost-free-pizza"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e577a588ce97b694c84750c/86e4ba0c-645a-11ea-9d39-0a58647cad34_DSC09471.jpg",
-                "logo": null
-            },
-            "title": "Batya's Jachnun | Rishon Lezion",
-            "name": "Batya's Jachnun | Rishon Lezion",
-            "track_id": "venue-batyas-jachnun",
-            "address": "הרצל 29, ראשון לציון",
-            "venue_id": "5e577a588ce97b694c84750c",
-            "location": [
-                34.805885879997,
-                31.970671090363506
-            ],
-            "short_description": "Jachnun & Pastries ",
-            "slug": "batyas-jachnun",
-            "tags": [
-                "breakfast",
-                "pastry",
-                "mediterranean"
-            ],
-            "score": 6.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/batyas-jachnun"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ed4e98d89fd774d8749b55/7948ec4e-e3b4-11eb-85b0-9a86abb12b2a_5de17bd8_c762_11eb_abc0_5688658c8e94_yaelitz_2.jpeg",
-                "logo": null
-            },
-            "title": "Pita Basta | Rishon Lezion",
-            "name": "Pita Basta | Rishon Lezion",
-            "track_id": "venue-pita-basta-rishon-lezion",
-            "address": "רוטשילד 71",
-            "venue_id": "60ed4e98d89fd774d8749b55",
-            "location": [
-                34.7979137,
-                31.9639248
-            ],
-            "short_description": "Market Kitchen ",
-            "slug": "pita-basta-rishon-lezion",
-            "tags": [
-                "street food",
-                "kebab",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-basta-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df62dee86bcf78cb005936d/e80a5702-315a-11ea-b54f-0a58646fa85d_DSC00404.jpg",
-                "logo": null
-            },
-            "title": "Giliz",
-            "name": "Giliz",
-            "track_id": "venue-giliz",
-            "address": "רוטשילד 67 ראשון לציון",
-            "venue_id": "5df62dee86bcf78cb005936d",
-            "location": [
-                34.79835748672485,
-                31.963876529906496
-            ],
-            "short_description": "Superb food and authentic Rishon atmosphere",
-            "slug": "giliz",
-            "tags": [
-                "homemade",
-                "salad",
-                "street food"
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/giliz"
+                "url": "https://wolt.com/en/isr/undefined/venue/roket-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4ba009f5d80c80fd9b05df/f346f4c8-5229-11ea-b56c-0a5864784e09_281543_delivery_1440x810%20%281%29.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e42a45fecde6c38d76269e6/e0b9c39a-502f-11ea-8f2c-0a586475cf7d_List1.jpg",
                 "logo": null
             },
-            "title": "McDonald's® HaZahav Mall",
-            "name": "McDonald's® HaZahav Mall",
-            "track_id": "venue-mcdonalds-hazahav-mall",
-            "address": "David Saharov St 21",
-            "venue_id": "5e4ba009f5d80c80fd9b05df",
+            "title": "Pri 101 | Rothschild ",
+            "name": "Pri 101 | Rothschild ",
+            "track_id": "venue-peri-101",
+            "address": "רוטשילד 38",
+            "venue_id": "5e42a45fecde6c38d76269e6",
             "location": [
-                34.774369827871766,
-                31.989918482324757
+                34.80271959000217,
+                31.96412516315085
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-hazahav-mall",
+            "short_description": "Healthy Juice Bar ",
+            "slug": "peri-101",
             "tags": [
-                "burger",
-                "chicken",
-                "kids"
+                "dessert",
+                "fruit",
+                "Health",
+                "kosher"
             ],
-            "score": 6.4,
+            "score": 9.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-hazahav-mall"
+                "url": "https://wolt.com/en/isr/undefined/venue/peri-101"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df907b7a27199551f71349b/0bd3394c-466e-11ea-b55b-0a586474e732_LIST.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f47b26a009ad2caf50d63bc/af4edd60-5035-11ec-be43-faed3c681cfa__________.jpg",
                 "logo": null
             },
-            "title": "Garage Burger | Rishon LeZion",
-            "name": "Garage Burger | Rishon LeZion",
-            "track_id": "venue-garage-burger-rishon-lezion",
-            "address": "הרצל 151",
-            "venue_id": "5df907b7a27199551f71349b",
+            "title": "rebar Kosher | Rishon LeZion",
+            "name": "rebar Kosher | Rishon LeZion",
+            "track_id": "venue-rebar-rishonim",
+            "address": "שדרות נים 2, ראשון לציון",
+            "venue_id": "5f47b26a009ad2caf50d63bc",
             "location": [
-                34.80183748190651,
-                31.947050766121237
+                34.803161,
+                31.949776
             ],
-            "short_description": "Burger is the best decision ",
-            "slug": "garage-burger-rishon-lezion",
+            "short_description": "shakes, smoothies, and drinks",
+            "slug": "rebar-rishonim",
             "tags": [
-                "american",
-                "burger",
-                "grill"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/garage-burger-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607406afdcab97a06a506803/6dd6960a-9b6a-11eb-95cf-d61caf4b11d3_list_vong.jpeg",
-                "logo": null
-            },
-            "title": "Vong | Rishon-LeZion",
-            "name": "Vong | Rishon-LeZion",
-            "track_id": "venue-vong-rishon-lezion",
-            "address": "This is a virtual venue",
-            "venue_id": "607406afdcab97a06a506803",
-            "location": [
-                34.763609,
-                31.988477
-            ],
-            "short_description": "Vietnamese Kitchen",
-            "slug": "vong-rishon-lezion",
-            "tags": [
-                "asian",
-                "noodles",
-                "thai"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/vong-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eaea420161cf66a1dab1a44/fa789a8c-8d55-11ea-8f52-0a58647f8435_list_benedict.jpg",
-                "logo": null
-            },
-            "title": "Benedict | Rishon LeZion",
-            "name": "Benedict | Rishon LeZion",
-            "track_id": "venue-benedict-rishon-lezion",
-            "address": "Moshe Beker St 14",
-            "venue_id": "5eaea420161cf66a1dab1a44",
-            "location": [
-                34.80980023875856,
-                31.974733538187113
-            ],
-            "short_description": "Great Breakfasts All Day",
-            "slug": "benedict-rishon-lezion",
-            "tags": [
-                "bagel",
-                "breakfast",
-                "pancakes"
+                "healthy",
+                "smoothie",
+                "vegetarian",
+                "kosher"
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/benedict-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/rebar-rishonim"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd8c7cb0757e2569c4f430b/8bea9ba2-50c2-11eb-9cd9-724e2a226dc2_____1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/609152756761adfda3a5130b/b640fc50-ace0-11eb-813b-4aa635b0eb2f__________.jpeg",
                 "logo": null
             },
-            "title": "Loft",
-            "name": "Loft",
-            "track_id": "venue-loft",
-            "address": "משה בקר 15, ראשון לציון",
-            "venue_id": "5fd8c7cb0757e2569c4f430b",
+            "title": "Sahbak | Holon",
+            "name": "Sahbak | Holon",
+            "track_id": "venue-sahbak-holon",
+            "address": "צבי תדמור 12, חולון",
+            "venue_id": "609152756761adfda3a5130b",
             "location": [
-                34.8089678,
-                31.9755346
+                34.777727834833,
+                32.01367858229168
             ],
-            "short_description": "A variety of burgers, meat dishes, cookies and more",
-            "slug": "loft",
+            "short_description": "Comes in Toast",
+            "slug": "sahbak-holon",
             "tags": [
-                "burger",
-                "pasta",
-                "fish"
+                "grill",
+                "sandwich",
+                "street food",
+                "kosher"
             ],
-            "score": 8.2,
+            "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/loft"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df8b925af03f93c24c82bee/ed342c003de211dd88ec5204b30d4a81-edits/bb214281edc091e30f37a5b5a79f21e3",
-                "logo": null
-            },
-            "title": "Danoré",
-            "name": "Danoré",
-            "track_id": "venue-danor",
-            "address": "הרצל 54 ראשון לציון",
-            "venue_id": "5df8b925af03f93c24c82bee",
-            "location": [
-                34.802525639534,
-                31.966447851754367
-            ],
-            "short_description": "Gelato & Sweets",
-            "slug": "danor",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/danor"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e36bf4f5cd00b72157dcfba/deac63e0-45b8-11ea-b30a-0a586474862c_yaelitz.jpg",
-                "logo": null
-            },
-            "title": "Susu & Sons | Rishon LeZion",
-            "name": "Susu & Sons | Rishon LeZion",
-            "track_id": "venue-susu-sons-rishon-lezion",
-            "address": "משה לוי 10",
-            "venue_id": "5e36bf4f5cd00b72157dcfba",
-            "location": [
-                34.77371514823149,
-                31.98685379985535
-            ],
-            "short_description": "‫The Hotest Burgers 🔥\n",
-            "slug": "susu-sons-rishon-lezion",
-            "tags": [
-                "american",
-                "burger",
-                "street food"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/susu-sons-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/sahbak-holon"
             },
             "provider": "wolt"
         },
@@ -783,29 +329,80 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/622474cdbd0c2c4b7c51cc60/439592ac-9d2a-11ec-9c6a-e2be29ec1ff8_96c8c3c8_6d06_11ea_b024_0a58647f830c_dsc00247.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eaea420161cf66a1dab1a44/fa789a8c-8d55-11ea-8f52-0a58647f8435_list_benedict.jpg",
                 "logo": null
             },
-            "title": "Pita Basar | Rishon Lezion Center",
-            "name": "Pita Basar | Rishon Lezion Center",
-            "track_id": "venue-pita-basar-rishon-lezion-center",
-            "address": "פלוטיצקי 17, ראשון לציון ",
-            "venue_id": "622474cdbd0c2c4b7c51cc60",
+            "title": "Benedict | Rishon LeZion",
+            "name": "Benedict | Rishon LeZion",
+            "track_id": "venue-benedict-rishon-lezion",
+            "address": "Moshe Beker St 14",
+            "venue_id": "5eaea420161cf66a1dab1a44",
             "location": [
-                34.8113022,
-                31.9805241
+                34.80980023875856,
+                31.974733538187113
             ],
-            "short_description": "Pita is one thing, Pita Basar is another\n",
-            "slug": "pita-basar-rishon-lezion-center",
+            "short_description": "Great Breakfasts All Day",
+            "slug": "benedict-rishon-lezion",
             "tags": [
-                "chicken",
-                "grill",
-                "israeli",
+                "bagel",
+                "breakfast",
+                "pancakes"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/benedict-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f2908b09b7956570bc7dade/f2409f72-dcba-11ea-a9a0-42cf4337d433____________01.jpg",
+                "logo": null
+            },
+            "title": "Halahmaniya",
+            "name": "Halahmaniya",
+            "track_id": "venue-halahmaniya",
+            "address": "לישנסקי 17",
+            "venue_id": "5f2908b09b7956570bc7dade",
+            "location": [
+                34.76708619993471,
+                31.992948296315788
+            ],
+            "short_description": "Kosher Meat Sandwich Bar",
+            "slug": "halahmaniya",
+            "tags": [
+                "sandwich",
+                "kosher",
                 "kosher"
             ],
-            "score": 7.4,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-basar-rishon-lezion-center"
+                "url": "https://wolt.com/en/isr/undefined/venue/halahmaniya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df8b925af03f93c24c82bee/ed342c003de211dd88ec5204b30d4a81-edits/bb214281edc091e30f37a5b5a79f21e3",
+                "logo": null
+            },
+            "title": "Danoré",
+            "name": "Danoré",
+            "track_id": "venue-danor",
+            "address": "הרצל 54 ראשון לציון",
+            "venue_id": "5df8b925af03f93c24c82bee",
+            "location": [
+                34.802525639534,
+                31.966447851754367
+            ],
+            "short_description": "Gelato & Sweets",
+            "slug": "danor",
+            "tags": [
+                "ice cream"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/danor"
             },
             "provider": "wolt"
         },
@@ -838,406 +435,360 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e39528923cbdd1db2ad5f6f/d3224bc8-4740-11ea-bc62-0a586468f795_yaelitz-4.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e296caea5bd1926f2f25abd/d65a2216-3dc7-11ea-bf13-0a586468f562_DSC05185%20%283%29.jpg",
                 "logo": null
             },
-            "title": "Burger Saloon | Rishon LeZion",
-            "name": "Burger Saloon | Rishon LeZion",
-            "track_id": "venue-burger-saloon-rishon-lezion",
-            "address": "דרך המכבים 67",
-            "venue_id": "5e39528923cbdd1db2ad5f6f",
+            "title": "Falafel Ba'Ribua | Rotchild Rishon Lezion",
+            "name": "Falafel Ba'Ribua | Rotchild Rishon Lezion",
+            "track_id": "venue-falafel-baribua-rishon-lezion",
+            "address": "רוטשילד 85",
+            "venue_id": "5e296caea5bd1926f2f25abd",
             "location": [
-                34.812386259642516,
-                31.991213286408396
+                34.79624213090379,
+                31.964087036831103
             ],
-            "short_description": "100% Israeli Beef\n",
-            "slug": "burger-saloon-rishon-lezion",
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-rishon-lezion",
             "tags": [
-                "burger",
-                "grill",
-                "kids"
+                "local",
+                "salad",
+                "kosher",
+                "kosher"
             ],
-            "score": 8.6,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/burger-saloon-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-baribua-rishon-lezion"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601019a505c53f24fafed5e2/47eb7ff4-6150-11eb-b12a-3a3b299fed4c_5127c3be_6143_11eb_a47e_1ec08ca0ea59_2dcf2418_0638_11eb_95f0_eef66b814f51_____________________.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e78b64190035baf42422c57/646a8a6e-6d0c-11ea-a104-0a58647f830c_DSC00177.jpg",
                 "logo": null
             },
-            "title": "Frame Chef & Sushi Bar | Rishon Lezion",
-            "name": "Frame Chef & Sushi Bar | Rishon Lezion",
-            "track_id": "venue-frame-sushi-bar",
-            "address": "שדרות נים 314, ראשון לציון",
-            "venue_id": "601019a505c53f24fafed5e2",
+            "title": "Green Salad Bar",
+            "name": "Green Salad Bar",
+            "track_id": "venue-green-salad-bar",
+            "address": "ברק 7",
+            "venue_id": "5e78b64190035baf42422c57",
             "location": [
-                34.803064340610945,
-                31.95028136194482
+                34.81959351819253,
+                31.948211958070623
             ],
-            "short_description": "Chef restaurant and sushi Bar",
-            "slug": "frame-sushi-bar",
+            "short_description": "Freshly Made Salads ",
+            "slug": "green-salad-bar",
             "tags": [
-                "sushi",
-                "asian",
-                "noodles"
+                "Health",
+                "healthy",
+                "pasta",
+                "kosher"
             ],
-            "score": 8,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/frame-sushi-bar"
+                "url": "https://wolt.com/en/isr/undefined/venue/green-salad-bar"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62260c3220fb66fcf3ad3097/7d8ec812-9e1e-11ec-9a05-fa9ce299b6e4_f6c710a6_994e_11ec_ac48_f2e27c8ad760_photo_2022_03_01_09_49_24_medium__1_.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62aed6f534b57a4d7337fc2c/db041de6-f6e6-11ec-9890-026823e1bcf1_list.jpg",
                 "logo": null
             },
-            "title": "Haimiko's Frikase | Rishon LeZion",
-            "name": "Haimiko's Frikase | Rishon LeZion",
-            "track_id": "venue-haimikos-frikase-rlz",
-            "address": "ברשבסקי 11, ראשון לציון",
-            "venue_id": "62260c3220fb66fcf3ad3097",
+            "title": "Chantro Hummus & Full",
+            "name": "Chantro Hummus & Full",
+            "track_id": "venue-chantro-hummus-full",
+            "address": "דב הוז 33, חולון",
+            "venue_id": "62aed6f534b57a4d7337fc2c",
             "location": [
-                34.8103871,
-                31.97406729999999
+                34.7663797,
+                32.0231589
             ],
-            "short_description": "The original\n",
-            "slug": "haimikos-frikase-rlz",
+            "short_description": "Hummus and Full",
+            "slug": "chantro-hummus-full",
+            "tags": [
+                "mediterranean",
+                "middle eastern",
+                "new"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/chantro-hummus-full"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6113b8ac1c1d6f644510cbcb/351f70fe-fa9a-11eb-b9b0-8ae77281bd37_e5e19ba0_c77a_11ea_9ac9_365be4dedcda_1.jpeg",
+                "logo": null
+            },
+            "title": "Tunisian Sandwich Bar | Jabotinsky",
+            "name": "Tunisian Sandwich Bar | Jabotinsky",
+            "track_id": "venue-tunisian-sandwich-bar-jabotisky",
+            "address": "ז׳בוטינסקי 24, ראשון לציון",
+            "venue_id": "6113b8ac1c1d6f644510cbcb",
+            "location": [
+                34.8000611,
+                31.963939
+            ],
+            "short_description": "Sandwich Bar\n",
+            "slug": "tunisian-sandwich-bar-jabotisky",
             "tags": [
                 "sandwich",
-                "street food",
-                "kosher",
-                "kosher"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/haimikos-frikase-rlz"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f4656eadab3169e3b0ad350/c9e720e4-e798-11ea-9971-cafd8eabbe0c_291ad47e_ae33_11ea_b605_a6eb6ca88e82____________01.jpg",
-                "logo": null
-            },
-            "title": "Hafalude | Rishon Lezion",
-            "name": "Hafalude | Rishon Lezion",
-            "track_id": "venue-hafalude-rishon-lezion",
-            "address": "רוטשילד 71",
-            "venue_id": "5f4656eadab3169e3b0ad350",
-            "location": [
-                34.79787324575493,
-                31.96395648058338
-            ],
-            "short_description": "Persian Dessert Shop",
-            "slug": "hafalude-rishon-lezion",
-            "tags": [
-                "dessert",
-                "mediterranean"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hafalude-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ab76c93e8d56b8eb9fc1a7/e7accca2-bc75-11eb-8276-422ef07c5747_172fee98_ad97_11eb_b1db_6621e7a19d4e_391833a0_9ada_11eb_8855_c6721341a17f__________.jpeg",
-                "logo": null
-            },
-            "title": "Mr. Corn | Hazahav Mall",
-            "name": "Mr. Corn | Hazahav Mall",
-            "track_id": "venue-mr-corn-hazahav-mall",
-            "address": "קניון הזהב, סחרוב דוד 21",
-            "venue_id": "60ab76c93e8d56b8eb9fc1a7",
-            "location": [
-                34.7747589388136,
-                31.99023003627668
-            ],
-            "short_description": "Hot corn, Potatoes, and Creamy pasta\n",
-            "slug": "mr-corn-hazahav-mall",
-            "tags": [
-                "vegetarian",
+                "mediterranean",
                 "kosher",
                 "kosher"
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mr-corn-hazahav-mall"
+                "url": "https://wolt.com/en/isr/undefined/venue/tunisian-sandwich-bar-jabotisky"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e808672c012ec44be92bbc8/a1f3a862-8ac5-11ea-9ece-0a58647e1d47____________1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e304adccc6f68b16581fc3e/c85767f4-5245-11ea-9037-0a58646e9c7a_List.jpg",
                 "logo": null
             },
-            "title": "Cohen's Knafeh",
-            "name": "Cohen's Knafeh",
-            "track_id": "venue-cohens-knafeh",
-            "address": "Freiman Yaakov 4",
-            "venue_id": "5e808672c012ec44be92bbc8",
+            "title": "Roti | Rishon LeZion",
+            "name": "Roti | Rishon LeZion",
+            "track_id": "venue-rori",
+            "address": "Ha-Nakhshol St 30",
+            "venue_id": "5e304adccc6f68b16581fc3e",
             "location": [
-                34.80957368372752,
-                31.97623509613035
+                34.78256546665649,
+                31.984554947872684
             ],
-            "short_description": "Oriental sweets and Knafeh from the Arabic tradition\nKosher",
-            "slug": "cohens-knafeh",
+            "short_description": "Home-cooked  style deli ",
+            "slug": "rori",
             "tags": [
-                "dessert",
-                "ice cream",
+                "chicken",
                 "kosher",
+                "pie",
                 "kosher"
             ],
-            "score": 7.2,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/cohens-knafeh"
+                "url": "https://wolt.com/en/isr/undefined/venue/rori"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6220e55d76ed568bd2ee6cf6/60e08fae-f6b4-11ec-bdef-c2a057f5bfa7_yaelitz_3.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e15b20778f966cae034302d/4438bd9c-4e4e-11ea-b347-0a5864600522_yaelitz%20%282%29.jpg",
                 "logo": null
             },
-            "title": "Franki",
-            "name": "Franki",
-            "track_id": "venue-franki",
-            "address": "רוטשילד 63",
-            "venue_id": "6220e55d76ed568bd2ee6cf6",
+            "title": "Landwer | Gan Hae'er Rishon LeZion",
+            "name": "Landwer | Gan Hae'er Rishon LeZion",
+            "track_id": "venue-landwer-cafe-rishon-lezion",
+            "address": "הכרמל 22",
+            "venue_id": "5e15b20778f966cae034302d",
             "location": [
-                34.79878950000001,
-                31.9637536
+                34.804548025131226,
+                31.962301844161892
             ],
-            "short_description": "Only Gilliz knows how to pamper\n",
-            "slug": "franki",
+            "short_description": "Coffee & Good Food\n",
+            "slug": "landwer-cafe-rishon-lezion",
             "tags": [
-                "italian",
-                "mediterranean",
+                "salad",
                 "pasta"
             ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/franki"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed3ab397e80e81031c79bc1/8fdafcc0-aafa-11ea-a05f-0a58647e1dcc____________02.jpg",
-                "logo": null
-            },
-            "title": "Hummus Abu Hassouni",
-            "name": "Hummus Abu Hassouni",
-            "track_id": "venue-hummus-abu-hassouni",
-            "address": "המשביר 16, חולון",
-            "venue_id": "5ed3ab397e80e81031c79bc1",
-            "location": [
-                34.80302872145088,
-                32.01373182485247
-            ],
-            "short_description": "Hummus Restaurant",
-            "slug": "hummus-abu-hassouni",
-            "tags": [
-                "israeli",
-                "mediterranean"
-            ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hummus-abu-hassouni"
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-rishon-lezion"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620228be98fe6d63b4c9c75d/aea659ae-88b8-11ec-a880-2e5e01d7e7fc_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df62dee86bcf78cb005936d/e80a5702-315a-11ea-b54f-0a58646fa85d_DSC00404.jpg",
                 "logo": null
             },
-            "title": "B-FRESH Kosher | HaZahav Mall",
-            "name": "B-FRESH Kosher | HaZahav Mall",
-            "track_id": "venue-b-fresh-azaav-mall",
-            "address": "דויד סחרוב 21",
-            "venue_id": "620228be98fe6d63b4c9c75d",
+            "title": "Giliz",
+            "name": "Giliz",
+            "track_id": "venue-giliz",
+            "address": "רוטשילד 67 ראשון לציון",
+            "venue_id": "5df62dee86bcf78cb005936d",
             "location": [
-                34.7742519,
-                31.9905128
+                34.79835748672485,
+                31.963876529906496
             ],
-            "short_description": "Drinks | Health | Tapioca ",
-            "slug": "b-fresh-azaav-mall",
+            "short_description": "Superb food and authentic Rishon atmosphere",
+            "slug": "giliz",
             "tags": [
-                "healthy",
-                "kids",
-                "kosher",
-                "kosher"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-azaav-mall"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601947c5e97f88ce83e73a70/94419780-751e-11eb-951f-6e830a4838c5_dsc00129.jpg",
-                "logo": null
-            },
-            "title": "Sunflower",
-            "name": "Sunflower",
-            "track_id": "venue-sun-flower",
-            "address": "תרמ\"ב 14, ראשון לציון",
-            "venue_id": "601947c5e97f88ce83e73a70",
-            "location": [
-                34.803196345249916,
-                31.966791126637833
-            ],
-            "short_description": "Chinese restaurant 🇭🇰",
-            "slug": "sun-flower",
-            "tags": [
-                "chinese",
-                "noodles",
-                "Central Asian"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sun-flower"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214de3dc0bd25d6e4233fbc/a96cbf08-93e6-11ec-bb51-1ef6abba57e7_3aff89aa_766a_11eb_a0f9_e6fa3dceb61c_riversushi039167yael_bonfis.jpg",
-                "logo": null
-            },
-            "title": "River Sushi Bar | Holon",
-            "name": "River Sushi Bar | Holon",
-            "track_id": "venue-river-sushi-bar-holon",
-            "address": "הרוקמים 26 חולון",
-            "venue_id": "6214de3dc0bd25d6e4233fbc",
-            "location": [
-                34.8010583,
-                32.0076095
-            ],
-            "short_description": "Noodles & Sushi",
-            "slug": "river-sushi-bar-holon",
-            "tags": [
-                "asian",
-                "curry",
-                "noodles"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/river-sushi-bar-holon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eb3ddc9246e11e0e6059c53/06951d74-a316-11ea-aab4-0a5864761c0f_411820f0_903c_11ea_bd17_0a58646ebf08_dsc00222.jpg",
-                "logo": null
-            },
-            "title": "Andre Ice Cream | Rishon LeZion ",
-            "name": "Andre Ice Cream | Rishon LeZion ",
-            "track_id": "venue-glidat-andre",
-            "address": "David Saharov 8",
-            "venue_id": "5eb3ddc9246e11e0e6059c53",
-            "location": [
-                34.7683834,
-                31.9921387
-            ],
-            "short_description": "Ice cream, Frozen yogurt & Desserts ",
-            "slug": "glidat-andre",
-            "tags": [
-                "cake",
-                "dessert",
-                "ice cream"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/glidat-andre"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e6f8052c6faa50822d437f7/c2cf9c06-6cef-11ea-b7da-0a58647e1c41_List.jpg",
-                "logo": null
-            },
-            "title": "Cafe Pola ",
-            "name": "Cafe Pola ",
-            "track_id": "venue-cafe-pola",
-            "address": "רוטשילד 126",
-            "venue_id": "5e6f8052c6faa50822d437f7",
-            "location": [
-                34.79017558226395,
-                31.965405045252925
-            ],
-            "short_description": "Cafe & Restaurant ",
-            "slug": "cafe-pola",
-            "tags": [
-                "mediterranean",
-                "fish",
-                "salad"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/cafe-pola"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f67e5289c930c32c925468/1600f4e4-ee0c-11eb-8f99-3a6d19cf1259_yaelitz.jpg",
-                "logo": null
-            },
-            "title": "Sunkiss",
-            "name": "Sunkiss",
-            "track_id": "venue-sunkiss",
-            "address": "משה בקר 3, ראשון לציון",
-            "venue_id": "60f67e5289c930c32c925468",
-            "location": [
-                34.8082295,
-                31.9737157
-            ],
-            "short_description": "Sushi and Asian dishes",
-            "slug": "sunkiss",
-            "tags": [
-                "sushi",
-                "asian",
-                "japanese"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sunkiss"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e16eca2b9868fe67ac47e1b/8d1dd652-c6bf-11ea-abe7-9e1aae5d437d____________02.jpg",
-                "logo": null
-            },
-            "title": "Ad Haetzem Express | Rishon LeZion",
-            "name": "Ad Haetzem Express | Rishon LeZion",
-            "track_id": "venue-ad-haetzem-rishon-lezion",
-            "address": "משה בקר 12",
-            "venue_id": "5e16eca2b9868fe67ac47e1b",
-            "location": [
-                34.80896830558776,
-                31.97444351987587
-            ],
-            "short_description": "Express Hamburger Joint",
-            "slug": "ad-haetzem-rishon-lezion",
-            "tags": [
-                "burger",
-                "kids"
+                "homemade",
+                "salad",
+                "street food"
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/ad-haetzem-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/giliz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626a7cdc47ce1d2b5fc71b6a/014fc778-cfa2-11ec-8870-ca4ff65890a5_____.jpg",
+                "logo": null
+            },
+            "title": "Special Salads, Pasta, Sandwiches",
+            "name": "Special Salads, Pasta, Sandwiches",
+            "track_id": "venue-special-salads-pasta-sandwiches",
+            "address": "גלילי ישראל, 5, ראשון לציון",
+            "venue_id": "626a7cdc47ce1d2b5fc71b6a",
+            "location": [
+                34.78135140000001,
+                31.9695097
+            ],
+            "short_description": "Salad, Sandwich, Pasta",
+            "slug": "special-salads-pasta-sandwiches",
+            "tags": [
+                "italian",
+                "sandwich",
+                "pasta"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/special-salads-pasta-sandwiches"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f041f276b0753d13a446598/ade8aa78-c44a-11ea-a96b-92bff921667e____________02.jpg",
+                "logo": null
+            },
+            "title": "Falafel Shel Ramla",
+            "name": "Falafel Shel Ramla",
+            "track_id": "venue-falafel-shel-ramla",
+            "address": "רוטשילד 47",
+            "venue_id": "5f041f276b0753d13a446598",
+            "location": [
+                34.801259177621425,
+                31.96376206482524
+            ],
+            "short_description": "Falafel, Sabich, Salads - Authentic Ramla institute",
+            "slug": "falafel-shel-ramla",
+            "tags": [
+                "falafel",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-shel-ramla"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f47a666ffb45accd70b10b2/290bd4c0-5034-11ec-8943-5ad0b897d2b7__________.jpg",
+                "logo": null
+            },
+            "title": "rebar Kosher | Holon",
+            "name": "rebar Kosher | Holon",
+            "track_id": "venue-rebar-holon",
+            "address": "גולדה מאיר 7, חולון",
+            "venue_id": "5f47a666ffb45accd70b10b2",
+            "location": [
+                34.778858904726526,
+                32.01254374056251
+            ],
+            "short_description": "\nWonderful and delicious smoothies and drinks. Your journey to managing a more balanced life begins here",
+            "slug": "rebar-holon",
+            "tags": [
+                "healthy",
+                "smoothie",
+                "vegetarian",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rebar-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e43fa9f1cf3240094809a34/7907cbd2-5716-11ea-b331-0a586478bd27_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Pizza USA | Rishon Lezion",
+            "name": "Pizza USA | Rishon Lezion",
+            "track_id": "venue-pizza-usa",
+            "address": "Bernstein 3",
+            "venue_id": "5e43fa9f1cf3240094809a34",
+            "location": [
+                34.81860410076557,
+                31.96200878599386
+            ],
+            "short_description": "Pizza",
+            "slug": "pizza-usa",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-usa"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f203b1867a91619eefaddfd/6b3b164c-d4b8-11ea-abb9-9e11973fddb5_list1.jpg",
+                "logo": null
+            },
+            "title": "Hummus Hasuri",
+            "name": "Hummus Hasuri",
+            "track_id": "venue-hummus-hasuri",
+            "address": "קינמון אהוד 12, בת ים",
+            "venue_id": "5f203b1867a91619eefaddfd",
+            "location": [
+                34.7502744,
+                32.0113253
+            ],
+            "short_description": "Kosher Mehadrin Hummus Restaurant\nBy Chief Rabbinate of Bat Yam",
+            "slug": "hummus-hasuri",
+            "tags": [
+                "pita",
+                "israeli",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-hasuri"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616ecb742483ce1bfbdec474/e36599f8-30e2-11ec-b1ec-beec5a91b0a0_94b265ac_177a_11eb_9455_0234cb2fa699_dsc08256.avif",
+                "logo": null
+            },
+            "title": "Soft Cookies | Harishonim",
+            "name": "Soft Cookies | Harishonim",
+            "track_id": "venue-soft-cookies-harishonim",
+            "address": "שד נים 2, ראשון לציון",
+            "venue_id": "616ecb742483ce1bfbdec474",
+            "location": [
+                34.8040915,
+                31.9494174
+            ],
+            "short_description": "Cookies 🍪 Crepe 🍪 Ice Cream\n",
+            "slug": "soft-cookies-harishonim",
+            "tags": [
+                "dessert",
+                "crepes",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/soft-cookies-harishonim"
             },
             "provider": "wolt"
         },
@@ -1271,133 +822,192 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f229c4bb1e538981b6b5704/6abc9a78-d4b9-11ea-a227-7a28adad8722_list.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e1b3cb5770c825f6448dfef/fc7ab752-4ce6-11ea-8b37-0a5864761f44_DSC00132.jpg",
                 "logo": null
             },
-            "title": "Abu Hassan | Rishon Lezion",
-            "name": "Abu Hassan | Rishon Lezion",
-            "track_id": "venue-abu-hassahon-rishon-lezion",
-            "address": "סחרוב דוד 17",
-            "venue_id": "5f229c4bb1e538981b6b5704",
+            "title": "Pizza Bar Hama'afe Hazarfati ",
+            "name": "Pizza Bar Hama'afe Hazarfati ",
+            "track_id": "venue-pizza-bar-",
+            "address": "‎רוטשילד 36‎",
+            "venue_id": "5e1b3cb5770c825f6448dfef",
             "location": [
-                34.77152,
-                31.9910758
+                34.80317497116721,
+                31.964125132003982
             ],
-            "short_description": "Hummus ",
-            "slug": "abu-hassahon-rishon-lezion",
+            "short_description": "Asaf's Pizza Bar",
+            "slug": "pizza-bar-",
             "tags": [
-                "mediterranean"
+                "bakery",
+                "pastry",
+                "pizza",
+                "kosher"
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/abu-hassahon-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-bar-"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6073f60785f4ff8f3b067788/1ddc7540-9b63-11eb-a9fc-be0bceb10e50_food_terminal_032.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f58a25cdcf746248ebad7ad/122a3e8c-fe6d-11ea-8738-da5ce2a7dff9_yaelitz_2.jpg",
                 "logo": null
             },
-            "title": "BIG Yves",
-            "name": "BIG Yves",
-            "track_id": "venue-big-yves",
-            "address": "This is a virtual venue",
-            "venue_id": "6073f60785f4ff8f3b067788",
+            "title": "Jerusalem Pizza | Rishon Lezion ",
+            "name": "Jerusalem Pizza | Rishon Lezion ",
+            "track_id": "venue-jerusalem-pizza",
+            "address": "היקב 12",
+            "venue_id": "5f58a25cdcf746248ebad7ad",
             "location": [
-                34.763609,
-                31.988477
+                34.77932440303709,
+                31.973977692077373
             ],
-            "short_description": "French-style Burgers 🍔 ",
-            "slug": "big-yves",
+            "short_description": "Local Pizza Restaurant ",
+            "slug": "jerusalem-pizza",
             "tags": [
-                "burger",
-                "grill"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/big-yves"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f0ffd329d8aafd56fbe11e8/90ca4494-5033-11ec-8f88-22d816521c63__________.jpg",
-                "logo": null
-            },
-            "title": "rebar | Rishon Lezion",
-            "name": "rebar | Rishon Lezion",
-            "track_id": "venue-rebar-rishon-lezion",
-            "address": "ילדי טהרן 3 סינימה סיטי",
-            "venue_id": "5f0ffd329d8aafd56fbe11e8",
-            "location": [
-                34.7704743177383,
-                31.98368884079889
-            ],
-            "short_description": "smoothies, juices, wellness choices\n",
-            "slug": "rebar-rishon-lezion",
-            "tags": [
-                "drinks",
-                "healthy",
-                "juice"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/rebar-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd715467e6fa2ed04c88d3d/a97ab010-45de-11eb-9383-2e5d26c720a8_yaelitz_2.jpg",
-                "logo": null
-            },
-            "title": "Pita Bassar | Shikun HaMizrah",
-            "name": "Pita Bassar | Shikun HaMizrah",
-            "track_id": "venue-pita-pita-rishon-lezion",
-            "address": "הרב חיים דוד הלוי 3, ראשון לציון",
-            "venue_id": "5fd715467e6fa2ed04c88d3d",
-            "location": [
-                34.81735900000001,
-                31.946446999999996
-            ],
-            "short_description": "Very Delicious",
-            "slug": "pita-pita-rishon-lezion",
-            "tags": [
+                "pizza",
                 "kosher",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/jerusalem-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e0382fecfd8dd80e1956ad4/79bbfb48-272d-11ea-975a-0a58646c9b0f_IMG_8398.jpg",
+                "logo": null
+            },
+            "title": "Bazili.com | Rishon LeZion ",
+            "name": "Bazili.com | Rishon LeZion ",
+            "track_id": "venue-bazilicom-rishon-lezion",
+            "address": "רוטשילד 73",
+            "venue_id": "5e0382fecfd8dd80e1956ad4",
+            "location": [
+                34.79767084121704,
+                31.963940244946222
+            ],
+            "short_description": "Pizza",
+            "slug": "bazilicom-rishon-lezion",
+            "tags": [
+                "pizza",
+                "italian"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/bazilicom-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62260c3220fb66fcf3ad3097/7d8ec812-9e1e-11ec-9a05-fa9ce299b6e4_f6c710a6_994e_11ec_ac48_f2e27c8ad760_photo_2022_03_01_09_49_24_medium__1_.jpeg",
+                "logo": null
+            },
+            "title": "Haimiko's Frikase | Rishon LeZion",
+            "name": "Haimiko's Frikase | Rishon LeZion",
+            "track_id": "venue-haimikos-frikase-rlz",
+            "address": "ברשבסקי 11, ראשון לציון",
+            "venue_id": "62260c3220fb66fcf3ad3097",
+            "location": [
+                34.8103871,
+                31.97406729999999
+            ],
+            "short_description": "The original\n",
+            "slug": "haimikos-frikase-rlz",
+            "tags": [
+                "sandwich",
+                "street food",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/haimikos-frikase-rlz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6113ba6cc90b595766fe6081/02b33096-fa9b-11eb-b001-8ae77281bd37___________.jpeg",
+                "logo": null
+            },
+            "title": "Freshop | Rishon Lezion",
+            "name": "Freshop | Rishon Lezion",
+            "track_id": "venue-freshop-rishon-lezion",
+            "address": "דוד סחרוב 21, ראשון לציון",
+            "venue_id": "6113ba6cc90b595766fe6081",
+            "location": [
+                34.774202377103556,
+                31.990130522513226
+            ],
+            "short_description": "Shakes & Yogurt 100%FRESH",
+            "slug": "freshop-rishon-lezion",
+            "tags": [
+                "healthy",
+                "kosher",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/freshop-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d1906026ef31caadc28fb7/354e237c-e7d0-11eb-8727-46a96bdfc4c2_054a9747.jpg",
+                "logo": null
+            },
+            "title": "CornBeef Toast Naknik | Holon",
+            "name": "CornBeef Toast Naknik | Holon",
+            "track_id": "venue-cornbeef-toast-naknik-holon",
+            "address": " שדרות ירושלים 168, חולון",
+            "venue_id": "60d1906026ef31caadc28fb7",
+            "location": [
+                34.79284526774375,
+                32.0124003507895
+            ],
+            "short_description": "Meat Toasts ",
+            "slug": "cornbeef-toast-naknik-holon",
+            "tags": [
+                "steak",
                 "sandwich",
                 "street food",
                 "kosher"
             ],
-            "score": 7.8,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-pita-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/cornbeef-toast-naknik-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6108179fc314e11c4a23a5ed/fd3879f8-faa6-11eb-8ba7-4ab24c58fd03_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60d08a386e810675d814725e/cde793e6-da7b-11eb-9c31-f6c38d53c789_____.jpg",
                 "logo": null
             },
-            "title": "Krema | Rishon Letzion",
-            "name": "Krema | Rishon Letzion",
-            "track_id": "venue-krema-rishon-letzion",
-            "address": "דוד סחרוב 21, ראשון ציון",
-            "venue_id": "6108179fc314e11c4a23a5ed",
+            "title": "Baguette Nir | Rishon Lezion",
+            "name": "Baguette Nir | Rishon Lezion",
+            "track_id": "venue-baguette-nir-rishon-lezion",
+            "address": "Yosef Lishanski Blvd 5",
+            "venue_id": "60d08a386e810675d814725e",
             "location": [
-                34.77454868461149,
-                31.991437908919377
+                34.7641631,
+                31.9883291
             ],
-            "short_description": "Ice cream, crepe and frozen yogurt",
-            "slug": "krema-rishon-letzion",
+            "short_description": "Local middle eastern restaurant",
+            "slug": "baguette-nir-rishon-lezion",
             "tags": [
-                "ice cream",
-                "crepes"
+                "street food",
+                "kosher"
             ],
-            "score": 9,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/krema-rishon-letzion"
+                "url": "https://wolt.com/en/isr/undefined/venue/baguette-nir-rishon-lezion"
             },
             "provider": "wolt"
         },
@@ -1430,28 +1040,273 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4269708ea58e2819066944/3dd5b7f6-4cab-11ea-9eb9-0a5864761f44_281543_delivery_1440x810%20%281%29.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e30225cdb00fc46213b12a1/074c2f3e-4cb1-11ea-9995-0a5864761f44_DSC00480.jpg",
                 "logo": null
             },
-            "title": "McDonald's® Dor Rishonim",
-            "name": "McDonald's® Dor Rishonim",
-            "track_id": "venue-mcdonalds-dor-harishonim",
-            "address": "הרב חיים דוד הלוי 5, ראשון לציון",
-            "venue_id": "5e4269708ea58e2819066944",
+            "title": "Hummus Basher Pninat Hamizrach",
+            "name": "Hummus Basher Pninat Hamizrach",
+            "track_id": "venue-pinat-hamizrach",
+            "address": "Yehuda Leib Pinsker St 1",
+            "venue_id": "5e30225cdb00fc46213b12a1",
             "location": [
-                34.817696337195606,
-                31.9465242984978
+                34.80744071159023,
+                31.964681618838828
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-dor-harishonim",
+            "short_description": "Jerusalem hummus from Machane Yehuda Merket since 1949",
+            "slug": "pinat-hamizrach",
             "tags": [
-                "burger",
-                "chicken",
-                "kids"
+                "mediterranean"
             ],
-            "score": 7,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-dor-harishonim"
+                "url": "https://wolt.com/en/isr/undefined/venue/pinat-hamizrach"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6220f010ab03f26405948e56/89b19854-aa85-11ec-a73f-dabbac9eb501_list.jpg",
+                "logo": null
+            },
+            "title": "Seret Bourekas",
+            "name": "Seret Bourekas",
+            "track_id": "venue-seret-bourekas",
+            "address": " פיק\"א 18, ראשון לציון",
+            "venue_id": "6220f010ab03f26405948e56",
+            "location": [
+                34.808641,
+                31.9730452
+            ],
+            "short_description": "Join Our Movie 🎬",
+            "slug": "seret-bourekas",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "vegetarian",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/seret-bourekas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62288585b61d24ab74e07ce7/4bcef3aa-9f96-11ec-94ad-baf42bc29825_90fc7404_e20d_11ea_8a2e_ce36fea3d4b2_3.png",
+                "logo": null
+            },
+            "title": "Mr. Corn | Harishonim",
+            "name": "Mr. Corn | Harishonim",
+            "track_id": "venue-mr-corn-harishonim",
+            "address": "שדרות נים 2, ראשון לציון",
+            "venue_id": "62288585b61d24ab74e07ce7",
+            "location": [
+                34.8039292,
+                31.949496
+            ],
+            "short_description": "Hot corn, Potatoes, and Creamy pasta",
+            "slug": "mr-corn-harishonim",
+            "tags": [
+                "vegetable",
+                "vegetarian"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mr-corn-harishonim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e0e038944e8cb59cfc778a9/f166a838-379e-11ea-ab61-0a586471c408_DSC00114.jpg",
+                "logo": null
+            },
+            "title": "Hahummus Shel Erez",
+            "name": "Hahummus Shel Erez",
+            "track_id": "venue-hummus-erez",
+            "address": "יעקב פרימן 18",
+            "venue_id": "5e0e038944e8cb59cfc778a9",
+            "location": [
+                34.812809228897095,
+                31.975208009431316
+            ],
+            "short_description": "Israeli Hummus, Freshly Homemade ",
+            "slug": "hummus-erez",
+            "tags": [
+                "mediterranean",
+                "street food"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-erez"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b75451deb365ec8294ef85/42bda492-60a7-11ec-864d-da1bf26e90f0_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Falafel Beta'am Shel Od",
+            "name": "Falafel Beta'am Shel Od",
+            "track_id": "venue-falafel-betaam-shel-od",
+            "address": "שדרות ירושלים 170, חולון",
+            "venue_id": "61b75451deb365ec8294ef85",
+            "location": [
+                34.79284999999997,
+                32.01195649999998
+            ],
+            "short_description": "Falafel",
+            "slug": "falafel-betaam-shel-od",
+            "tags": [
+                "homemade",
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-betaam-shel-od"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603262f04a3064c351720c79/17dfdec8-7b3a-11eb-9dcf-6ae4894718ab_bonfis_6101.jpg",
+                "logo": null
+            },
+            "title": "Sayonara | Rishon LeZion",
+            "name": "Sayonara | Rishon LeZion",
+            "track_id": "venue-sayonara-rishon-lezion",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "603262f04a3064c351720c79",
+            "location": [
+                34.8113182,
+                31.9767764
+            ],
+            "short_description": "Sushi session",
+            "slug": "sayonara-rishon-lezion",
+            "tags": [
+                "sushi",
+                "kosher",
+                "noodles",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sayonara-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f05d7c0d6a1598c3bb36366/36dca362-c9ae-11ea-959b-ca203857a9f1____________02.jpg",
+                "logo": null
+            },
+            "title": "Chen Hatunisai",
+            "name": "Chen Hatunisai",
+            "track_id": "venue-chen-hatunisai",
+            "address": "משה בקר 35",
+            "venue_id": "5f05d7c0d6a1598c3bb36366",
+            "location": [
+                34.81038261386225,
+                31.97822097866523
+            ],
+            "short_description": "Sandwiches and hot dishes | Kosher- Cheif Rabbinate Of Rishon Lezion ",
+            "slug": "chen-hatunisai",
+            "tags": [
+                "mediterranean",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/chen-hatunisai"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61eeb6e9f4b537a0fe40df26/c235be6a-8804-11ec-940b-321e8fbe893d_yaelitz_5.jpg",
+                "logo": null
+            },
+            "title": "Denni's",
+            "name": "Denni's",
+            "track_id": "venue-dennis",
+            "address": " הרצל 84, ראשון לציון",
+            "venue_id": "61eeb6e9f4b537a0fe40df26",
+            "location": [
+                34.8028699,
+                31.9635199
+            ],
+            "short_description": "A Celebration of Potatoes\n",
+            "slug": "dennis",
+            "tags": [
+                "kosher",
+                "pasta",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/dennis"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e04d740b7d4e70825888113/d7e33d64-d7f1-11eb-96d8-4ec1d0b1f746_0e0cee5c_d7ee_11eb_8a35_66d80b445252__.jpeg",
+                "logo": null
+            },
+            "title": "Shawarma Street | Rishon LeZion",
+            "name": "Shawarma Street | Rishon LeZion",
+            "track_id": "venue-shawarma-street-rishon-lezion",
+            "address": "רוטשילד 39",
+            "venue_id": "5e04d740b7d4e70825888113",
+            "location": [
+                34.80221450328827,
+                31.963890183133014
+            ],
+            "short_description": "Israeli Grill",
+            "slug": "shawarma-street-rishon-lezion",
+            "tags": [
+                "shawarma",
+                "mediterranean",
+                "chicken"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-street-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6020f57fbfea0131b5acd0ce/96ba19ca-2436-11ec-a096-caefdf0b8477_dsc_5699.jpg",
+                "logo": null
+            },
+            "title": "Hummus Eliyahu | Holon",
+            "name": "Hummus Eliyahu | Holon",
+            "track_id": "venue-hummus-eliyahu-holon",
+            "address": "גולדה מאיר 7, חולון",
+            "venue_id": "6020f57fbfea0131b5acd0ce",
+            "location": [
+                34.77925526294188,
+                32.012566442143424
+            ],
+            "short_description": "Unique Israeli Hummus",
+            "slug": "hummus-eliyahu-holon",
+            "tags": [
+                "mediterranean",
+                "vegetarian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-holon"
             },
             "provider": "wolt"
         },
@@ -1485,112 +1340,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed3804a852f4524eb1d52eb/2c07a896-ebae-11ec-9fda-6a15c7b870fe_wolt_back_5.jpg",
-                "logo": null
-            },
-            "title": "Max Brenner | Rishon Lezion",
-            "name": "Max Brenner | Rishon Lezion",
-            "track_id": "venue-max-brenner-rishon-lezion",
-            "address": "סחרוב דוד 24",
-            "venue_id": "5ed3804a852f4524eb1d52eb",
-            "location": [
-                34.77314661412615,
-                31.98990222533819
-            ],
-            "short_description": "Chocolate Experience",
-            "slug": "max-brenner-rishon-lezion",
-            "tags": [
-                "sweets"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/max-brenner-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e426647ceed18b2eafb0194/914ae74e-5250-11ea-a0e3-0a58646e9c7a_List.jpg",
-                "logo": null
-            },
-            "title": "Broaster Chicken | Rishon Lezion",
-            "name": "Broaster Chicken | Rishon Lezion",
-            "track_id": "venue-boaster-chicken",
-            "address": "לוי משה 10",
-            "venue_id": "5e426647ceed18b2eafb0194",
-            "location": [
-                34.773650287227376,
-                31.986900975529277
-            ],
-            "short_description": "Crispy Chicken ",
-            "slug": "boaster-chicken",
-            "tags": [
-                "chicken",
-                "fried chicken",
-                "salad"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/boaster-chicken"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f07295b75fe779f30469e83/d631fa22-c1f0-11ea-9f42-ca0c7a2a4430_yaelitz__7_.jpg",
-                "logo": null
-            },
-            "title": "Landwer | Cinema City Rishon LeZion",
-            "name": "Landwer | Cinema City Rishon LeZion",
-            "track_id": "venue-landwer-cafe-cinema-city-rl",
-            "address": "ילדי טהרן 3",
-            "venue_id": "5f07295b75fe779f30469e83",
-            "location": [
-                34.77015747119852,
-                31.98391658609853
-            ],
-            "short_description": "Coffee & Good Food\n",
-            "slug": "landwer-cafe-cinema-city-rl",
-            "tags": [
-                "pasta",
-                "salad",
-                "sandwich"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-cinema-city-rl"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e395e77efb36ce1834c83ee/a81918be-4748-11ea-8ff7-0a586468f795_yaelitz-5.jpg",
-                "logo": null
-            },
-            "title": "Rak Basar | Rishon LeZion",
-            "name": "Rak Basar | Rishon LeZion",
-            "track_id": "venue-rak-basar-rishon-lezion",
-            "address": "שמוטקין בנימין 10",
-            "venue_id": "5e395e77efb36ce1834c83ee",
-            "location": [
-                34.81093618661371,
-                31.973985378846507
-            ],
-            "short_description": "Only Premium Meat\n",
-            "slug": "rak-basar-rishon-lezion",
-            "tags": [
-                "israeli",
-                "kebab",
-                "local"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/rak-basar-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e13048b6d0523f07dcfef23/36608eaa-379e-11ea-b5b7-0a586471c506_DSC00019.jpg",
                 "logo": null
             },
@@ -1613,6 +1362,514 @@
             "score": 8.4,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/hermans-bakery-"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6111032033f26e026de82a7e/2795d480-f8fd-11eb-b387-be87d55afe74_2f168826_99c7_11ea_bab7_0a586472cb09_boker_zugi.jpeg",
+                "logo": null
+            },
+            "title": "Biga | Rishon Lezion",
+            "name": "Biga | Rishon Lezion",
+            "track_id": "venue-biga-rishon-lezion",
+            "address": "לישנסקי 4, ראשון לציון",
+            "venue_id": "6111032033f26e026de82a7e",
+            "location": [
+                34.76472344533152,
+                31.988035428079773
+            ],
+            "short_description": "Kitchen | Bakery | Cafe. Kosher - Badatz",
+            "slug": "biga-rishon-lezion",
+            "tags": [
+                "breakfast",
+                "sandwich",
+                "salad",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6108179fc314e11c4a23a5ed/fd3879f8-faa6-11eb-8ba7-4ab24c58fd03_____.jpg",
+                "logo": null
+            },
+            "title": "Krema | Rishon Letzion",
+            "name": "Krema | Rishon Letzion",
+            "track_id": "venue-krema-rishon-letzion",
+            "address": "דוד סחרוב 21, ראשון ציון",
+            "venue_id": "6108179fc314e11c4a23a5ed",
+            "location": [
+                34.77454868461149,
+                31.991437908919377
+            ],
+            "short_description": "Ice cream, crepe and frozen yogurt",
+            "slug": "krema-rishon-letzion",
+            "tags": [
+                "ice cream",
+                "crepes"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/krema-rishon-letzion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f7add615c855c3ea055cadb/3dbe76d0-0971-11eb-9f4a-d6b3553928f5_list.jpg",
+                "logo": null
+            },
+            "title": "Hamim Ve Taim",
+            "name": "Hamim Ve Taim",
+            "track_id": "venue-hamim-ve-taim",
+            "address": "הבנאי 32, חולון",
+            "venue_id": "5f7add615c855c3ea055cadb",
+            "location": [
+                34.802530246199794,
+                32.012625597226304
+            ],
+            "short_description": "Delicious Home Cooked Meals ",
+            "slug": "hamim-ve-taim",
+            "tags": [
+                "mediterranean",
+                "kosher",
+                "salad"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hamim-ve-taim"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed3ab397e80e81031c79bc1/8fdafcc0-aafa-11ea-a05f-0a58647e1dcc____________02.jpg",
+                "logo": null
+            },
+            "title": "Hummus Abu Hassouni",
+            "name": "Hummus Abu Hassouni",
+            "track_id": "venue-hummus-abu-hassouni",
+            "address": "המשביר 16, חולון",
+            "venue_id": "5ed3ab397e80e81031c79bc1",
+            "location": [
+                34.80302872145088,
+                32.01373182485247
+            ],
+            "short_description": "Hummus Restaurant",
+            "slug": "hummus-abu-hassouni",
+            "tags": [
+                "israeli",
+                "mediterranean"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-abu-hassouni"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6012e20eb03fb5a7b5b60cca/5a0a243e-6195-11eb-9446-6abb41ef4f69__________________.jpg",
+                "logo": null
+            },
+            "title": "Hummus Bahadunas | Rishon LeZion",
+            "name": "Hummus Bahadunas | Rishon LeZion",
+            "track_id": "venue-hummus-bahadunas-rishon-lezion",
+            "address": "דוד סחרוב 17, ראשון לציון",
+            "venue_id": "6012e20eb03fb5a7b5b60cca",
+            "location": [
+                34.77182399381391,
+                31.990986248389895
+            ],
+            "short_description": "Hummus",
+            "slug": "hummus-bahadunas-rishon-lezion",
+            "tags": [
+                "mediterranean",
+                "salad",
+                "street food"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-bahadunas-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f229c4bb1e538981b6b5704/6abc9a78-d4b9-11ea-a227-7a28adad8722_list.jpg",
+                "logo": null
+            },
+            "title": "Abu Hassan | Rishon Lezion",
+            "name": "Abu Hassan | Rishon Lezion",
+            "track_id": "venue-abu-hassahon-rishon-lezion",
+            "address": "סחרוב דוד 17",
+            "venue_id": "5f229c4bb1e538981b6b5704",
+            "location": [
+                34.77152,
+                31.9910758
+            ],
+            "short_description": "Hummus ",
+            "slug": "abu-hassahon-rishon-lezion",
+            "tags": [
+                "mediterranean"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/abu-hassahon-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f22b83cb1e538981b6c01c9/7a5a260c-d7cb-11ea-8843-7a9123700835____________01.jpg",
+                "logo": null
+            },
+            "title": "Haparlament | Rishon Lezion",
+            "name": "Haparlament | Rishon Lezion",
+            "track_id": "venue-haparlement",
+            "address": "רוטשילד 83",
+            "venue_id": "5f22b83cb1e538981b6c01c9",
+            "location": [
+                34.7964196455461,
+                31.964087699999908
+            ],
+            "short_description": "Mediterranean Grill",
+            "slug": "haparlement",
+            "tags": [
+                "grill",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/haparlement"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62b83f9f008cdd5ccd754f48/6c0fa548-0129-11ed-827a-fed171044c1d_list.jpg",
+                "logo": null
+            },
+            "title": "Roni Sandwich",
+            "name": "Roni Sandwich",
+            "track_id": "venue-roni-sandwich",
+            "address": "פרופ שור 16, חולון",
+            "venue_id": "62b83f9f008cdd5ccd754f48",
+            "location": [
+                34.79039059999999,
+                32.0190777
+            ],
+            "short_description": "Variety of Sandwiches",
+            "slug": "roni-sandwich",
+            "tags": [
+                "grill",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/roni-sandwich"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f68142d43670aaa4340b01/e64aee04-f2ce-11eb-bb67-1678906fcc2d_____.jpg",
+                "logo": null
+            },
+            "title": "Al Hplancha Gan Ha'ir | Rishon Lezion",
+            "name": "Al Hplancha Gan Ha'ir | Rishon Lezion",
+            "track_id": "venue-al-hplancha-gan-hair-rishon-lezion",
+            "address": "הרצל 88, ראשון לציון",
+            "venue_id": "60f68142d43670aaa4340b01",
+            "location": [
+                34.8026867,
+                31.9629629
+            ],
+            "short_description": "Meat & Grill Reasturant",
+            "slug": "al-hplancha-gan-hair-rishon-lezion",
+            "tags": [
+                "grill"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/al-hplancha-gan-hair-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f19a8b34dcbbaed5535deb3/67717738-b1ab-11eb-ab31-fa99ba1b8b3f_______1_.jpg",
+                "logo": null
+            },
+            "title": "Burger Company",
+            "name": "Burger Company",
+            "track_id": "venue-burger-company",
+            "address": "הרב נסנבאום 33 בת ים",
+            "venue_id": "5f19a8b34dcbbaed5535deb3",
+            "location": [
+                34.7517217,
+                32.0127462
+            ],
+            "short_description": "Burgers Restaurant | Kosher Mehadrin",
+            "slug": "burger-company",
+            "tags": [
+                "burger",
+                "kids",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burger-company"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625c4f7f44339209a6084081/ed33152c-c080-11ec-ab77-de72c87c6e9b_1e15628c_5bcc_11eb_95cc_ba9f298868bf_054a8306.avif",
+                "logo": null
+            },
+            "title": "Yosef Pizza & Bakery | Rishon LeZion",
+            "name": "Yosef Pizza & Bakery | Rishon LeZion",
+            "track_id": "venue-yosef-pizza-bakery-rlz",
+            "address": "שד מנחם בגין 4, ראשון לציון",
+            "venue_id": "625c4f7f44339209a6084081",
+            "location": [
+                34.79751344096005,
+                31.97149826040579
+            ],
+            "short_description": "Pizza & More",
+            "slug": "yosef-pizza-bakery-rlz",
+            "tags": [
+                "mediterranean",
+                "pizza",
+                "street food"
+            ],
+            "score": 6.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yosef-pizza-bakery-rlz"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626a308e4672e8c381a7554a/0e869968-c925-11ec-9da5-1e00a8ce4899_yaelitz__1_of_22_.jpg",
+                "logo": null
+            },
+            "title": "Sol La Si",
+            "name": "Sol La Si",
+            "track_id": "venue-sol-la-si",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "626a308e4672e8c381a7554a",
+            "location": [
+                34.8112499,
+                31.9767216
+            ],
+            "short_description": "Sandwiches and Salads",
+            "slug": "sol-la-si",
+            "tags": [
+                "salad",
+                "mediterranean"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sol-la-si"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62692f0f0a6c7f8ed7d76fa7/0d56791e-cf9c-11ec-a283-6e155bfeb3df_____.jpg",
+                "logo": null
+            },
+            "title": "Poco Poco",
+            "name": "Poco Poco",
+            "track_id": "venue-poco-poco",
+            "address": "אלי ויזל 2, ראשון לציון",
+            "venue_id": "62692f0f0a6c7f8ed7d76fa7",
+            "location": [
+                34.77194457281594,
+                31.97065188946751
+            ],
+            "short_description": "Pizza and Pasta",
+            "slug": "poco-poco",
+            "tags": [
+                "pizza",
+                "pasta"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/poco-poco"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6202947aa0ccacae97cd5249/8caa29c0-8caf-11ec-9682-82a6c69b844c_____.jpg",
+                "logo": null
+            },
+            "title": "Don Leon Bakery",
+            "name": "Don Leon Bakery",
+            "track_id": "venue-don-leon",
+            "address": "האורגים 1, חולון",
+            "venue_id": "6202947aa0ccacae97cd5249",
+            "location": [
+                34.79809492784965,
+                32.01262443381238
+            ],
+            "short_description": "Bakery and salad bar",
+            "slug": "don-leon",
+            "tags": [
+                "bakery",
+                "salad",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/don-leon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd715467e6fa2ed04c88d3d/a97ab010-45de-11eb-9383-2e5d26c720a8_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pita Bassar | Shikun HaMizrah",
+            "name": "Pita Bassar | Shikun HaMizrah",
+            "track_id": "venue-pita-pita-rishon-lezion",
+            "address": "הרב חיים דוד הלוי 3, ראשון לציון",
+            "venue_id": "5fd715467e6fa2ed04c88d3d",
+            "location": [
+                34.81735900000001,
+                31.946446999999996
+            ],
+            "short_description": "Very Delicious",
+            "slug": "pita-pita-rishon-lezion",
+            "tags": [
+                "kosher",
+                "sandwich",
+                "street food",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pita-pita-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61065acf36141693f7e2c91c/45a82842-6167-11ec-86e3-4eec24b2cfa3_1400x900px_b__2_.jpeg",
+                "logo": null
+            },
+            "title": "Roladin | Rothschild Mall",
+            "name": "Roladin | Rothschild Mall",
+            "track_id": "venue-roladin-rothschild-mall",
+            "address": "רוטשילד 45, ראשון לציון ",
+            "venue_id": "61065acf36141693f7e2c91c",
+            "location": [
+                34.8014356,
+                31.9635484
+            ],
+            "short_description": "Bakery & Café",
+            "slug": "roladin-rothschild-mall",
+            "tags": [
+                "bakery",
+                "cake",
+                "coffee"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/roladin-rothschild-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c47193241b7774d1296830/edd01a08-63f0-11ec-9ae7-0a69142b4180_____.jpg",
+                "logo": null
+            },
+            "title": "Soup r la tiv",
+            "name": "Soup r la tiv",
+            "track_id": "venue-soup-r-la-tiv",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "61c47193241b7774d1296830",
+            "location": [
+                34.81124990000001,
+                31.976721599999994
+            ],
+            "short_description": "Homemade Soup",
+            "slug": "soup-r-la-tiv",
+            "tags": [
+                "soup",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/soup-r-la-tiv"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f4264cd562921ef499a1017/659fb52e-e540-11ea-95b2-7af950b64ad8_e3879eb8_8ebd_11ea_8b8e_0a58646e7707_img_2913.jpg",
+                "logo": null
+            },
+            "title": "Otello | Rishon Lezion",
+            "name": "Otello | Rishon Lezion",
+            "track_id": "venue-otello-rishon-lezion",
+            "address": "ילדי טהרן 7",
+            "venue_id": "5f4264cd562921ef499a1017",
+            "location": [
+                34.76776807685895,
+                31.98507937440546
+            ],
+            "short_description": "Gelato E Cioccolato | Ice Cream",
+            "slug": "otello-rishon-lezion",
+            "tags": [
+                "dessert",
+                "ice cream"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/otello-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ef0a1aa63e44ce09e66093c/375afa10-bdf5-11ea-8e07-ca89f750c0da____________01.jpg",
+                "logo": null
+            },
+            "title": "Camembert | Holon",
+            "name": "Camembert | Holon",
+            "track_id": "venue-camembert",
+            "address": "הלהב 6, חולון",
+            "venue_id": "5ef0a1aa63e44ce09e66093c",
+            "location": [
+                34.803518395250066,
+                32.01082564185326
+            ],
+            "short_description": "French Kitchen",
+            "slug": "camembert",
+            "tags": [
+                "salad",
+                "kosher",
+                "sandwich"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/camembert"
             },
             "provider": "wolt"
         },
@@ -1646,134 +1903,163 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60fd9c1c8d3c51fe0f90e0cf/cf384156-edee-11eb-b3c5-de2c50cd969d_v_image.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ee5f51c0fe5a4a857080284/291ad47e-ae33-11ea-b605-a6eb6ca88e82____________01.jpg",
                 "logo": null
             },
-            "title": "Puzzle Burger | Rishon Lezion",
-            "name": "Puzzle Burger | Rishon Lezion",
-            "track_id": "venue-puzzle-burger-rishon-lezion",
-            "address": "ילדי טהרן 7, ראשון לציון",
-            "venue_id": "60fd9c1c8d3c51fe0f90e0cf",
+            "title": "Hafalude | Holon",
+            "name": "Hafalude | Holon",
+            "track_id": "venue-hafalude",
+            "address": "סוקולוב 56, חולון",
+            "venue_id": "5ee5f51c0fe5a4a857080284",
             "location": [
-                34.7676221,
-                31.9850105
+                34.775073134809446,
+                32.02261559844719
             ],
-            "short_description": "Create your own taste\n",
-            "slug": "puzzle-burger-rishon-lezion",
+            "short_description": "Persian Dessert Shop ",
+            "slug": "hafalude",
             "tags": [
-                "burger",
+                "dessert",
+                "sweets",
+                "cake"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hafalude"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6141ad26037f29ef0a76bbbe/724cca4c-15fe-11ec-a97c-eecc7dffbe4a_0e51ca9c_6f73_11eb_a0ca_ee3ff32195b8_yaelitz.jpeg",
+                "logo": null
+            },
+            "title": "Cafe Cafe | Holon",
+            "name": "Cafe Cafe | Holon",
+            "track_id": "venue-cafe-cafe-holon",
+            "address": "סוקולוב 48, חולון",
+            "venue_id": "6141ad26037f29ef0a76bbbe",
+            "location": [
+                34.7744698,
+                32.0223823
+            ],
+            "short_description": "The Israeli Flavours You Like",
+            "slug": "cafe-cafe-holon",
+            "tags": [
+                "breakfast",
+                "pasta",
                 "sandwich",
-                "salad"
+                "kosher"
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/puzzle-burger-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-cafe-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60746382bc06a4b5424e4ac4/bfdc99cc-9ba1-11eb-9bef-3e1508629525_____________.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/610bd5f50c5bbc2168d794b3/c9fca7ae-f5e6-11eb-90f5-b6c9fe4b3b49_4d310512_9c63_11eb_83c5_465d9ecdbdd9______________.jpeg",
                 "logo": null
             },
-            "title": "R Burger | Rishon Lezion",
-            "name": "R Burger | Rishon Lezion",
-            "track_id": "venue-r-burger-rishon-lezion",
-            "address": "שמוטקין 10, ראשון לציון",
-            "venue_id": "60746382bc06a4b5424e4ac4",
+            "title": "Siciliano | Holon",
+            "name": "Siciliano | Holon",
+            "track_id": "venue-siciliano-holon",
+            "address": "גולדה מאיר 7, חולון",
+            "venue_id": "610bd5f50c5bbc2168d794b3",
             "location": [
-                34.8109747200684,
-                31.973924671516276
+                34.77966021142112,
+                32.012220620742056
             ],
-            "short_description": "Burgers from \"Rak Basar\"\n",
-            "slug": "r-burger-rishon-lezion",
+            "short_description": "Pizzeria & Italian Restaurant",
+            "slug": "siciliano-holon",
             "tags": [
-                "kids",
-                "wings"
+                "pizza",
+                "salad",
+                "pasta"
             ],
-            "score": 6.8,
+            "score": 7,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/r-burger-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/siciliano-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6283a5d2ea63b40bb61059b0/fd7d7082-d5e6-11ec-b5d6-ce552b026239_c208ce80_37ed_11ec_a9a9_5e98ab6e8b97_866614e0_0cb6_11eb_b808_ae641bef164c_1__1_.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a645cda3f8088a02275def/20f7532a-55a4-11ec-8478-c6c3eb2ddf52_yaelitz.jpg",
                 "logo": null
             },
-            "title": "Leggenda Gelato | Yes Planet",
-            "name": "Leggenda Gelato | Yes Planet",
-            "track_id": "venue-leggenda-gelato-yes-planet",
-            "address": "HaMea VeEsrim st 4",
-            "venue_id": "6283a5d2ea63b40bb61059b0",
+            "title": "Kasro Kebab",
+            "name": "Kasro Kebab",
+            "track_id": "venue-kasro-kebab",
+            "address": "הפלד 21, חולון",
+            "venue_id": "61a645cda3f8088a02275def",
             "location": [
-                34.7476639,
-                31.9797735
+                34.7998573,
+                32.0205552
             ],
-            "short_description": "Handmade Italian Gelato\n",
-            "slug": "leggenda-gelato-yes-planet",
+            "short_description": "Kebab restaurant\n",
+            "slug": "kasro-kebab",
             "tags": [
-                "dessert",
+                "kebab"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kasro-kebab"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629747d0170bf6a9a7ef6ae4/b420a850-f6e3-11ec-b41a-aad3f962ae3b_yaelitz_1.jpg",
+                "logo": null
+            },
+            "title": "PatriCafe",
+            "name": "PatriCafe",
+            "track_id": "venue-patricafe",
+            "address": "החלמונית 14, ראשון לציון",
+            "venue_id": "629747d0170bf6a9a7ef6ae4",
+            "location": [
+                34.7843827,
+                31.9732708
+            ],
+            "short_description": "Cafe",
+            "slug": "patricafe",
+            "tags": [
+                "café",
+                "salad",
+                "sandwich",
                 "new"
             ],
             "score": 0,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/leggenda-gelato-yes-planet"
+                "url": "https://wolt.com/en/isr/undefined/venue/patricafe"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e147f8675fe10b1c84069dd/bf162a48-466c-11ea-82d5-0a586474dd30_%D7%97%D7%91%D7%99%D7%9C%D7%AA%20%D7%92%D7%9E%D7%A8%D7%99%D7%9C%D7%99.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629dbfec1dc3417b78b7aa33/63187b58-f063-11ec-b2ab-d61ba97fde56_yaelitz_3.jpg",
                 "logo": null
             },
-            "title": "DEDA | Rishon LeZion",
-            "name": "DEDA | Rishon LeZion",
-            "track_id": "venue-deda-rishon-lezion",
-            "address": "Herzl 75",
-            "venue_id": "5e147f8675fe10b1c84069dd",
+            "title": "Salatto",
+            "name": "Salatto",
+            "track_id": "venue-salatto",
+            "address": "לזרוב 29, ראשון לציון",
+            "venue_id": "629dbfec1dc3417b78b7aa33",
             "location": [
-                34.803078174591064,
-                31.965377448230722
+                34.7740361,
+                31.9923347
             ],
-            "short_description": "Original Georgian Experience",
-            "slug": "deda-rishon-lezion",
+            "short_description": "Pasta & Salad",
+            "slug": "salatto",
             "tags": [
-                "steak",
-                "vegan",
-                "vegetarian"
+                "pasta",
+                "salad",
+                "new"
             ],
-            "score": 9,
+            "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deda-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625c4f7f44339209a6084081/ed33152c-c080-11ec-ab77-de72c87c6e9b_1e15628c_5bcc_11eb_95cc_ba9f298868bf_054a8306.avif",
-                "logo": null
-            },
-            "title": "Yosef Pizza & Bakery | Rishon LeZion",
-            "name": "Yosef Pizza & Bakery | Rishon LeZion",
-            "track_id": "venue-yosef-pizza-bakery-rlz",
-            "address": "שד מנחם בגין 4, ראשון לציון",
-            "venue_id": "625c4f7f44339209a6084081",
-            "location": [
-                34.79751344096005,
-                31.97149826040579
-            ],
-            "short_description": "Pizza & More",
-            "slug": "yosef-pizza-bakery-rlz",
-            "tags": [
-                "mediterranean",
-                "pizza",
-                "street food"
-            ],
-            "score": 6.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/yosef-pizza-bakery-rlz"
+                "url": "https://wolt.com/en/isr/undefined/venue/salatto"
             },
             "provider": "wolt"
         },
@@ -1798,224 +2084,9 @@
                 "shawarma",
                 "new"
             ],
-            "score": 8.2,
+            "score": 8,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/shawarma-shimoni-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f4264cd562921ef499a1017/659fb52e-e540-11ea-95b2-7af950b64ad8_e3879eb8_8ebd_11ea_8b8e_0a58646e7707_img_2913.jpg",
-                "logo": null
-            },
-            "title": "Otello | Rishon Lezion",
-            "name": "Otello | Rishon Lezion",
-            "track_id": "venue-otello-rishon-lezion",
-            "address": "ילדי טהרן 7",
-            "venue_id": "5f4264cd562921ef499a1017",
-            "location": [
-                34.76776807685895,
-                31.98507937440546
-            ],
-            "short_description": "Gelato E Cioccolato | Ice Cream",
-            "slug": "otello-rishon-lezion",
-            "tags": [
-                "dessert",
-                "ice cream"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/otello-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ae03f8b39ce355dea2f92c/ec6489f4-5691-11ec-b911-4eb84b216aa6________________.jpeg",
-                "logo": null
-            },
-            "title": "Soft Cookies | Holon",
-            "name": "Soft Cookies | Holon",
-            "track_id": "venue-soft-cookies-holon",
-            "address": "גולדה מאיר 7, חולון",
-            "venue_id": "61ae03f8b39ce355dea2f92c",
-            "location": [
-                34.77893149991134,
-                32.01233484387987
-            ],
-            "short_description": "Cookies 🍪 Crepe 🍪 Ice Cream",
-            "slug": "soft-cookies-holon",
-            "tags": [
-                "ice cream",
-                "sweets",
-                "kosher",
-                "kosher"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/soft-cookies-holon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616591be557657bec2815955/596beb3e-2cc4-11ec-b1cc-d2aad3b96227_45f0cdda_2437_11ec_b6d3_6a67da3a1ad1_dsc_5699.avif",
-                "logo": null
-            },
-            "title": "Hummus Eliyahu | HaZahav Mall - Rishon LeZion",
-            "name": "Hummus Eliyahu | HaZahav Mall - Rishon LeZion",
-            "track_id": "venue-hummus-eliyahu-hazahav-mall",
-            "address": "דוד סחרוב 21, ראשון לציון",
-            "venue_id": "616591be557657bec2815955",
-            "location": [
-                34.7744274,
-                31.9901067
-            ],
-            "short_description": "Unique Israeli Hummus\n",
-            "slug": "hummus-eliyahu-hazahav-mall",
-            "tags": [
-                "vegetarian",
-                "mediterranean"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-hazahav-mall"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eb3c0a32490e72e9266880b/ecb726fa-9388-11ea-b1d6-0a5864676d10_list.jpg",
-                "logo": null
-            },
-            "title": "Bar Maroc",
-            "name": "Bar Maroc",
-            "track_id": "venue-bar-maroc",
-            "address": "סוקלוב 54, חולון",
-            "venue_id": "5eb3c0a32490e72e9266880b",
-            "location": [
-                34.7748982,
-                32.0226105
-            ],
-            "short_description": "North African Food bar",
-            "slug": "bar-maroc",
-            "tags": [
-                "mediterranean",
-                "grill",
-                "homemade",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bar-maroc"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f2140fb1d449635dd4f47f8/258987de-d943-11ea-9edf-f66efa6bf105____________01.jpg",
-                "logo": null
-            },
-            "title": "Bachi's Roll",
-            "name": "Bachi's Roll",
-            "track_id": "venue-bachis-roll",
-            "address": "שד יוספטל גיורא 92, בת ים",
-            "venue_id": "5f2140fb1d449635dd4f47f8",
-            "location": [
-                34.75530677188939,
-                32.01539150966787
-            ],
-            "short_description": "Kosher Mexican Food ",
-            "slug": "bachis-roll",
-            "tags": [
-                "mexican",
-                "tortilla",
-                "salad",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bachis-roll"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61642b1e0e8dc987a77ff2bc/a5e0a69a-ed52-11ec-939e-aec08b700af7_________________.jpeg",
-                "logo": null
-            },
-            "title": "Mc'Glida® Cinema City Rishon LeZion",
-            "name": "Mc'Glida® Cinema City Rishon LeZion",
-            "track_id": "venue-mcice-cream-cinema-city-rishon-lezion",
-            "address": "ילדי טהרן 3, ראשון לציון",
-            "venue_id": "61642b1e0e8dc987a77ff2bc",
-            "location": [
-                34.7707994,
-                31.9841036
-            ],
-            "short_description": "Mc'Ice-Cream",
-            "slug": "mcice-cream-cinema-city-rishon-lezion",
-            "tags": [
-                "ice cream",
-                "ice cream",
-                "dessert"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcice-cream-cinema-city-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61065acf36141693f7e2c91c/45a82842-6167-11ec-86e3-4eec24b2cfa3_1400x900px_b__2_.jpeg",
-                "logo": null
-            },
-            "title": "Roladin | Rothschild Mall",
-            "name": "Roladin | Rothschild Mall",
-            "track_id": "venue-roladin-rothschild-mall",
-            "address": "רוטשילד 45, ראשון לציון ",
-            "venue_id": "61065acf36141693f7e2c91c",
-            "location": [
-                34.8014356,
-                31.9635484
-            ],
-            "short_description": "Bakery & Café",
-            "slug": "roladin-rothschild-mall",
-            "tags": [
-                "bakery",
-                "cake",
-                "coffee"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/roladin-rothschild-mall"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f6c7ee6bf9c029cf92590c6/7446edba-0cb7-11eb-91b0-ae641bef164c_1.jpg",
-                "logo": null
-            },
-            "title": "Leggenda | Cinema City",
-            "name": "Leggenda | Cinema City",
-            "track_id": "venue-leggenda",
-            "address": "ילדי טהרן 3",
-            "venue_id": "5f6c7ee6bf9c029cf92590c6",
-            "location": [
-                34.77048235102222,
-                31.98368441786749
-            ],
-            "short_description": "Ice Cream & Frozen Yogurt ",
-            "slug": "leggenda",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/leggenda"
             },
             "provider": "wolt"
         },
@@ -2039,7 +2110,7 @@
                 "ice cream",
                 "sweets"
             ],
-            "score": 8.8,
+            "score": 9,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/golda-tayelet"
             },
@@ -2047,161 +2118,55 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b605e56a07b14b0d8bd9a5/300f87ee-6cae-11ec-8c1d-76ef7e7fa8bb_______1_.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e9db9a0cfd5b40d778f5c6c/664b75f4-98d7-11ea-8c02-0a58647f82c2_dsc05185__1_.jpg",
                 "logo": null
             },
-            "title": "BURGER59 | Holon",
-            "name": "BURGER59 | Holon",
-            "track_id": "venue-burger59-holon",
-            "address": "דב הוז 59, חולון",
-            "venue_id": "61b605e56a07b14b0d8bd9a5",
+            "title": "Falafel Ba'Ribua | Holon",
+            "name": "Falafel Ba'Ribua | Holon",
+            "track_id": "venue-falafel-baribua-holon",
+            "address": "אילון פנחס 13, חולון",
+            "venue_id": "5e9db9a0cfd5b40d778f5c6c",
             "location": [
-                34.7640197,
-                32.0232149
+                34.77838330425369,
+                32.00866777934275
             ],
-            "short_description": "Hamburger Joint",
-            "slug": "burger59-holon",
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-holon",
             "tags": [
-                "grill"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/burger59-holon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625ff64d68e95314f4bf7432/963b6278-cf9a-11ec-954f-c269e27d59f5_____.jpg",
-                "logo": null
-            },
-            "title": "Pita Katzavim",
-            "name": "Pita Katzavim",
-            "track_id": "venue-pita-katzavim",
-            "address": "ילדי טהרן 3",
-            "venue_id": "625ff64d68e95314f4bf7432",
-            "location": [
-                34.7707994,
-                31.9841036
-            ],
-            "short_description": "The perfect pita",
-            "slug": "pita-katzavim",
-            "tags": [
-                "pita",
-                "street food",
-                "shawarma"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-katzavim"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6266815e376b29f3449a0b31/73e80fae-c488-11ec-a68c-1ac275eff68d___________.jpg",
-                "logo": null
-            },
-            "title": "Chooka | Rishon Leziyon",
-            "name": "Chooka | Rishon Leziyon",
-            "track_id": "venue-chooka-rishon-leziyon",
-            "address": "מזל אליעזר 16, ראשון לציון",
-            "venue_id": "6266815e376b29f3449a0b31",
-            "location": [
-                34.7735873,
-                31.991578
-            ],
-            "short_description": "Asian Kitchen",
-            "slug": "chooka-rishon-leziyon",
-            "tags": [
-                "asian",
-                "japanese",
-                "kids",
+                "falafel",
+                "mediterranean",
+                "salad",
                 "kosher"
             ],
-            "score": 8,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/chooka-rishon-leziyon"
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-baribua-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/629db16f24c5142e1577ce38/4f19d4e2-e72d-11ec-b44d-ce54f3fbde0b_list.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6208ebd34bd5e88bd5ad62d1/1e005bdc-94bd-11ec-a103-22797a1d1ed0_____.jpg",
                 "logo": null
             },
-            "title": "Route 44 Bikers Bar",
-            "name": "Route 44 Bikers Bar",
-            "track_id": "venue-route-44-bikers-bar",
-            "address": "פז התאומים משמר השבעה",
-            "venue_id": "629db16f24c5142e1577ce38",
+            "title": "Baba Joon",
+            "name": "Baba Joon",
+            "track_id": "venue-baba-joon",
+            "address": "המעפילים 3, חולון",
+            "venue_id": "6208ebd34bd5e88bd5ad62d1",
             "location": [
-                34.817208,
-                32.011636
+                34.76537792977556,
+                32.0237393030032
             ],
-            "short_description": "Diner & Bar",
-            "slug": "route-44-bikers-bar",
+            "short_description": "Turkish Burekas",
+            "slug": "baba-joon",
             "tags": [
-                "burger",
-                "grill",
-                "new"
-            ],
-            "score": 0,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/route-44-bikers-bar"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f466c3105876d12170b17b5/768a8aa8-f5ad-11ea-a80b-122ee0ded7c7_dsc09131.jpg",
-                "logo": null
-            },
-            "title": "Albert | Azor",
-            "name": "Albert | Azor",
-            "track_id": "venue-albert",
-            "address": "העליה השניה 43, אזור",
-            "venue_id": "5f466c3105876d12170b17b5",
-            "location": [
-                34.802741503716554,
-                32.024722899999915
-            ],
-            "short_description": "Meat Restaurant ",
-            "slug": "albert",
-            "tags": [
-                "steak",
-                "grill",
-                "mediterranean"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/albert"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4bf5029db95a5df3d39d4c/91a1f716-6629-11ec-84e6-121ec287a532__.jpg",
-                "logo": null
-            },
-            "title": "Tony Vespa Pizza | Rishon LeZion",
-            "name": "Tony Vespa Pizza | Rishon LeZion",
-            "track_id": "venue-tony-vespa-rishon-lezion",
-            "address": "ילדי טהרן 5",
-            "venue_id": "5e4bf5029db95a5df3d39d4c",
-            "location": [
-                34.77107295703306,
-                31.983871503056562
-            ],
-            "short_description": "Pizza & Rock 'N' Roll",
-            "slug": "tony-vespa-rishon-lezion",
-            "tags": [
-                "italian",
-                "pizza"
+                "mediterranean",
+                "middle eastern"
             ],
             "score": 7.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/tony-vespa-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/baba-joon"
             },
             "provider": "wolt"
         },
@@ -2226,89 +2191,9 @@
                 "pizza",
                 "kids"
             ],
-            "score": 7.4,
+            "score": 7.2,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/lechem-erez-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e31a1282bc06496ea88d22b/61329248-5235-11ea-ab7c-0a5864786705_List.jpg",
-                "logo": null
-            },
-            "title": "Beirut Restaurant",
-            "name": "Beirut Restaurant",
-            "track_id": "venue-misadet-beirut",
-            "address": "יוסף לישנסקי 5",
-            "venue_id": "5e31a1282bc06496ea88d22b",
-            "location": [
-                34.76395704263887,
-                31.987511456450818
-            ],
-            "short_description": "Lebanese Grill Restaurant ",
-            "slug": "misadet-beirut",
-            "tags": [
-                "lebanese",
-                "chicken",
-                "pita"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/misadet-beirut"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f969881c98c7f6c614c3fe6/67dbf468-2106-11eb-b91b-46a98de6ed7e_karela_04640.jpg",
-                "logo": null
-            },
-            "title": "City Knafeh",
-            "name": "City Knafeh",
-            "track_id": "venue-city-knafeh",
-            "address": "שד קוגל 25, חולון",
-            "venue_id": "5f969881c98c7f6c614c3fe6",
-            "location": [
-                34.7747665,
-                32.0243161
-            ],
-            "short_description": "Sweet Mediterranean pastries ",
-            "slug": "city-knafeh",
-            "tags": [
-                "dessert",
-                "mediterranean"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/city-knafeh"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608a72e6e4bd942620edd9ab/54e23a00-f065-11eb-937b-0285c6cd7017_yosef4130.jpg",
-                "logo": null
-            },
-            "title": "Hummus Yossef | Holon",
-            "name": "Hummus Yossef | Holon",
-            "track_id": "venue-hummus-yossef-holon",
-            "address": "המשביר 1, חולון",
-            "venue_id": "608a72e6e4bd942620edd9ab",
-            "location": [
-                34.8021547,
-                32.0150948
-            ],
-            "short_description": "Warm Hummus from the Galilee",
-            "slug": "hummus-yossef-holon",
-            "tags": [
-                "mediterranean",
-                "salad",
-                "kosher"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hummus-yossef-holon"
             },
             "provider": "wolt"
         },
@@ -2342,27 +2227,387 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6208d5cea0705dc0014f2b5f/f42de114-94bf-11ec-a6b0-26f378765d8b_______2_.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f315c59132c52005fcbf22d/079489ba-e7bf-11ea-abcb-cafd8eabbe0c_yaelitz.jpg",
                 "logo": null
             },
-            "title": "Gorilla Coffee Bar | Rishon Lezion",
-            "name": "Gorilla Coffee Bar | Rishon Lezion",
-            "track_id": "venue-gorilla-rlz",
-            "address": "הטיילת 6, ראשון לציון",
-            "venue_id": "6208d5cea0705dc0014f2b5f",
+            "title": "Bourekas Baba | Azor ",
+            "name": "Bourekas Baba | Azor ",
+            "track_id": "venue-bourekas-baba-azor",
+            "address": "דרך השבעה 19, אזור",
+            "venue_id": "5f315c59132c52005fcbf22d",
             "location": [
-                34.7324769,
-                31.9988408
+                34.795689373051864,
+                32.03015510571092
             ],
-            "short_description": "Bar Cafe",
-            "slug": "gorilla-rlz",
+            "short_description": "Fresh Bourekas",
+            "slug": "bourekas-baba-azor",
+            "tags": [
+                "mediterranean",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/bourekas-baba-azor"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608a72e6e4bd942620edd9ab/54e23a00-f065-11eb-937b-0285c6cd7017_yosef4130.jpg",
+                "logo": null
+            },
+            "title": "Hummus Yossef | Holon",
+            "name": "Hummus Yossef | Holon",
+            "track_id": "venue-hummus-yossef-holon",
+            "address": "המשביר 1, חולון",
+            "venue_id": "608a72e6e4bd942620edd9ab",
+            "location": [
+                34.8021547,
+                32.0150948
+            ],
+            "short_description": "Warm Hummus from the Galilee",
+            "slug": "hummus-yossef-holon",
+            "tags": [
+                "mediterranean",
+                "salad",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-yossef-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6166b5897a725cbc66648a31/e91f59c8-2c10-11ec-9c83-b2c5f2312827_______________.jpeg",
+                "logo": null
+            },
+            "title": "Haderech Lalehem | Rishon Lezion",
+            "name": "Haderech Lalehem | Rishon Lezion",
+            "track_id": "venue-haderech-lalehem-rishon-lezion",
+            "address": "הרצל 148, ראשון לציון",
+            "venue_id": "6166b5897a725cbc66648a31",
+            "location": [
+                34.80059158669305,
+                31.944832855067364
+            ],
+            "short_description": "A House Of Pastries",
+            "slug": "haderech-lalehem-rishon-lezion",
+            "tags": [
+                "breakfast",
+                "salad",
+                "sandwich"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/haderech-lalehem-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f2a8753ebd3da859dfd9be6/865954f0-210e-11eb-b752-b28eb7dd02fe_yaelitz.jpg",
+                "logo": null
+            },
+            "title": "Arugula Chef",
+            "name": "Arugula Chef",
+            "track_id": "venue-arugula-cheff",
+            "address": "השקמה 5, אזור",
+            "venue_id": "5f2a8753ebd3da859dfd9be6",
+            "location": [
+                34.79816947304691,
+                32.030565013321805
+            ],
+            "short_description": "Salad Bar",
+            "slug": "arugula-cheff",
+            "tags": [
+                "vegan",
+                "vegetable",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/arugula-cheff"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b785dbf865a12c4d4d341/a5055f6e-e185-11ec-8e53-e26eda86f8b3_____.jpg",
+                "logo": null
+            },
+            "title": "Corn | Holon",
+            "name": "Corn | Holon",
+            "track_id": "venue-mexicorn-holon",
+            "address": "גולדה מאיר 7, חולון",
+            "venue_id": "627b785dbf865a12c4d4d341",
+            "location": [
+                34.77893117213235,
+                32.01237511332377
+            ],
+            "short_description": "Delicious Mexican -  Kosher Holon Rabbinate",
+            "slug": "mexicorn-holon",
+            "tags": [
+                "mexican",
+                "vegetarian",
+                "kosher",
+                "new"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mexicorn-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ebcfdcf1620a87edd451931/3bb0d6f0-99c1-11ea-aa6d-0a58647f8de9___________.jpg",
+                "logo": null
+            },
+            "title": "Ba Li Kubbeh",
+            "name": "Ba Li Kubbeh",
+            "track_id": "venue-ba-li-kibbeh",
+            "address": "שד קוגל 29, חולון",
+            "venue_id": "5ebcfdcf1620a87edd451931",
+            "location": [
+                34.7748742,
+                32.0235075
+            ],
+            "short_description": "Mediterranean Restaurant\n",
+            "slug": "ba-li-kibbeh",
+            "tags": [
+                "mediterranean",
+                "homemade",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/ba-li-kibbeh"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627b9e32e4f5f4309c427bd4/f5189e2e-d5d4-11ec-a1fd-8a214f171927_____.jpg",
+                "logo": null
+            },
+            "title": "Pizza Patzatz | Azur",
+            "name": "Pizza Patzatz | Azur",
+            "track_id": "venue-pizza-patzatz-azur",
+            "address": "השקמה 2, אזור",
+            "venue_id": "627b9e32e4f5f4309c427bd4",
+            "location": [
+                34.797985354108015,
+                32.02974889687089
+            ],
+            "short_description": "Pizza Restaurant ",
+            "slug": "pizza-patzatz-azur",
+            "tags": [
+                "italian",
+                "pizza",
+                "street food"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-patzatz-azur"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6106a2924b62ef5c4d7e9b6e/575870d4-f906-11eb-a4dd-36ad2782be5c_list.jpg",
+                "logo": null
+            },
+            "title": "Gladis",
+            "name": "Gladis",
+            "track_id": "venue-gladis-rishon-lezion",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "6106a2924b62ef5c4d7e9b6e",
+            "location": [
+                34.8112499,
+                31.9767216
+            ],
+            "short_description": "Kibbeh Handmade",
+            "slug": "gladis-rishon-lezion",
+            "tags": [
+                "kosher",
+                "vegan",
+                "soup"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/gladis-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f4e4f40160dc0a9bbb777dc/dddb6a16-fb4c-11ea-ba21-0acf0077268d_yaelitz_2.jpg",
+                "logo": null
+            },
+            "title": "Pizza Barake",
+            "name": "Pizza Barake",
+            "track_id": "venue-pizza-barake",
+            "address": "המצודה 9, אזור",
+            "venue_id": "5f4e4f40160dc0a9bbb777dc",
+            "location": [
+                34.79811024932814,
+                32.02944541253327
+            ],
+            "short_description": "Pizza, Pasta, and Salads ",
+            "slug": "pizza-barake",
+            "tags": [
+                "italian",
+                "pasta",
+                "pizza",
+                "kosher"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-barake"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f9a706de0bc94d27409067a/8260e220-19b9-11eb-b0f2-b647cc9faea7_d89d0142_d570_11ea_b3c7_3afc75d790c1_1656903e_7ff4_11ea_980b_0a586467d907_yaelitz__3___1_.jpg",
+                "logo": null
+            },
+            "title": "Aroma | Glili Rishon Lezion ",
+            "name": "Aroma | Glili Rishon Lezion ",
+            "track_id": "venue-aroma-glili-rishon-lezion",
+            "address": "גלילי ישראל 5",
+            "venue_id": "5f9a706de0bc94d27409067a",
+            "location": [
+                34.7812276267489,
+                31.969618340804207
+            ],
+            "short_description": "Espresso Bar kosher - Mehadrin\n",
+            "slug": "aroma-glili-rishon-lezion",
             "tags": [
                 "café",
-                "grill"
+                "salad",
+                "sandwich",
+                "kosher"
             ],
             "score": 7.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/gorilla-rlz"
+                "url": "https://wolt.com/en/isr/undefined/venue/aroma-glili-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60cb671487a4fe31310a7066/35c542c2-da65-11eb-ac61-aa80f53186fb______1.jpg",
+                "logo": null
+            },
+            "title": "Margez Toast Naknik",
+            "name": "Margez Toast Naknik",
+            "track_id": "venue-margez-azur",
+            "address": "המצודה 8, אזור",
+            "venue_id": "60cb671487a4fe31310a7066",
+            "location": [
+                34.7979679,
+                32.0294393
+            ],
+            "short_description": "Toast Naknik",
+            "slug": "margez-azur",
+            "tags": [
+                "sandwich",
+                "street food",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/margez-azur"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6130c017d2e8eafb749da958/ee125fe8-ba54-11ec-8716-8a1ecfe8c6f7_yaelitz_3.jpg",
+                "logo": null
+            },
+            "title": "Ok Po Ke",
+            "name": "Ok Po Ke",
+            "track_id": "venue-chirashi",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "6130c017d2e8eafb749da958",
+            "location": [
+                34.8112499,
+                31.9767216
+            ],
+            "short_description": "Poke | Giant Sushito Roll",
+            "slug": "chirashi",
+            "tags": [
+                "asian",
+                "healthy",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/chirashi"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608ea1e483ea7c79659bd4d9/124a29ce-c152-11eb-8c62-ba078016e3be_____.jpg",
+                "logo": null
+            },
+            "title": "The Chicken and the Egg",
+            "name": "The Chicken and the Egg",
+            "track_id": "venue-the-chicken-and-the-egg",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "608ea1e483ea7c79659bd4d9",
+            "location": [
+                34.8112499,
+                31.9767216
+            ],
+            "short_description": "Shnitzle | Rotisserie Chicken",
+            "slug": "the-chicken-and-the-egg",
+            "tags": [
+                "salad",
+                "street food",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/the-chicken-and-the-egg"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603e6216df4de0cc2bb6fa1e/cc73b7b4-8b21-11eb-b766-520ce4c77e1b_____.jpg",
+                "logo": null
+            },
+            "title": "Istanbul Lahmacun",
+            "name": "Istanbul Lahmacun",
+            "track_id": "venue-istanbul-lahmacun",
+            "address": "מורשת ישראל 15, ראשון לציון",
+            "venue_id": "603e6216df4de0cc2bb6fa1e",
+            "location": [
+                34.7738972,
+                31.97568
+            ],
+            "short_description": "Dishes from Turkey here in Israel | Kosher",
+            "slug": "istanbul-lahmacun",
+            "tags": [
+                "turkish",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/istanbul-lahmacun"
             },
             "provider": "wolt"
         },
@@ -2393,134 +2638,29 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6182685778c4127a947bf970/0354717a-3c9c-11ec-ae14-fa142d043171_91b213e4_4abe_11eb_b971_a6e85699868a___________.avif",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60633d43ae1f3494022dad7d/57cd61c4-a121-11eb-92f3-e2a87464755c_____.jpg",
                 "logo": null
             },
-            "title": "Tampopo | Rishon Lezion",
-            "name": "Tampopo | Rishon Lezion",
-            "track_id": "venue-tampopo-rishon-lezion",
-            "address": "לישנסקי 9, ראשון לציון",
-            "venue_id": "6182685778c4127a947bf970",
+            "title": "Trampoline Wok",
+            "name": "Trampoline Wok",
+            "track_id": "venue-trampoline-wok",
+            "address": "שמוטקין 19, ראשון לציון",
+            "venue_id": "60633d43ae1f3494022dad7d",
             "location": [
-                34.7646708,
-                31.98999229999999
+                34.8112499,
+                31.9767216
             ],
-            "short_description": "Sushi Bar Boutique\n",
-            "slug": "tampopo-rishon-lezion",
+            "short_description": "Flame. Tempo. Passion",
+            "slug": "trampoline-wok",
             "tags": [
-                "japanese",
-                "asian",
-                "wok"
+                "noodles",
+                "thai",
+                "kids",
+                "kosher"
             ],
-            "score": 8.8,
+            "score": 7.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/tampopo-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f0c46a13832d856a68743c9/1eca754a-c9ab-11ea-9a28-2a958b7bdd2d____________02.jpg",
-                "logo": null
-            },
-            "title": "Hazedef",
-            "name": "Hazedef",
-            "track_id": "venue-hazedef",
-            "address": "ספיר יוסף 2",
-            "venue_id": "5f0c46a13832d856a68743c9",
-            "location": [
-                34.75018652963342,
-                31.99108185790854
-            ],
-            "short_description": "Seafood Restaurant ",
-            "slug": "hazedef",
-            "tags": [
-                "fish",
-                "seafood"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hazedef"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e5f8c6627e38b98d93a258e/d778ae0a-097d-11ec-a326-3ec08ee8a972_054a3443.jpg",
-                "logo": null
-            },
-            "title": "Black | Rishon LeZion",
-            "name": "Black | Rishon LeZion",
-            "track_id": "venue-black-rishon-lezion",
-            "address": "המאה ועשרים 4",
-            "venue_id": "5e5f8c6627e38b98d93a258e",
-            "location": [
-                34.74780029158247,
-                31.97972229783204
-            ],
-            "short_description": "Bar 'n' Burger\n",
-            "slug": "black-rishon-lezion",
-            "tags": [
-                "american",
-                "burger",
-                "grill"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/black-rishon-lezion"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60169f37717b7a970d40f20e/07a5fbbc-63c2-11eb-93f8-2681d1650f01_list.jpg",
-                "logo": null
-            },
-            "title": "McDonald׳s® Cinema City Rishon LeZion",
-            "name": "McDonald׳s® Cinema City Rishon LeZion",
-            "track_id": "venue-mcdonalds-cinema-city",
-            "address": "ילדי טהרן 3, ראשון לציון",
-            "venue_id": "60169f37717b7a970d40f20e",
-            "location": [
-                34.7707994,
-                31.9841036
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-cinema-city",
-            "tags": [
-                "burger",
-                "chicken",
-                "kids"
-            ],
-            "score": 6.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-cinema-city"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed6593450dd6e5f3ddb7d69/a2505120-e3b1-11eb-8628-5eb11f07711c___24.jpg",
-                "logo": null
-            },
-            "title": "Golda | Saharov Rishon Lezion",
-            "name": "Golda | Saharov Rishon Lezion",
-            "track_id": "venue-golda-zahav",
-            "address": "דוד סחרוב 26",
-            "venue_id": "5ed6593450dd6e5f3ddb7d69",
-            "location": [
-                34.77415888073073,
-                31.989439713791903
-            ],
-            "short_description": "Flavour Boutique",
-            "slug": "golda-zahav",
-            "tags": [
-                "ice cream",
-                "sweets"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/golda-zahav"
+                "url": "https://wolt.com/en/isr/undefined/venue/trampoline-wok"
             },
             "provider": "wolt"
         },
@@ -2579,84 +2719,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e3c042d38ca72a7144de7c1/5691ed12-5225-11ea-8e27-0a5864784e09_DSC00162%20%281%29.jpg",
-                "logo": null
-            },
-            "title": "Deli Cream | West Rishon Lezion",
-            "name": "Deli Cream | West Rishon Lezion",
-            "track_id": "venue-delicream-west",
-            "address": "לוי משה 14",
-            "venue_id": "5e3c042d38ca72a7144de7c1",
-            "location": [
-                34.774009382679274,
-                31.987700770674312
-            ],
-            "short_description": "Premium Ice Cream\n",
-            "slug": "delicream-west",
-            "tags": [
-                "dessert",
-                "fruit",
-                "ice cream"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/delicream-west"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e484a3c9d233fbbba5ec0b8/6e363874-502c-11ea-9a52-0a586475cf7d_DSC00162.jpg",
-                "logo": null
-            },
-            "title": "Deli Cream | Ya'akov Freiman | Rishon Lezion",
-            "name": "Deli Cream | Ya'akov Freiman | Rishon Lezion",
-            "track_id": "venue-deli-cream-derech-hamaccabim",
-            "address": "פרימן יעקב 5",
-            "venue_id": "5e484a3c9d233fbbba5ec0b8",
-            "location": [
-                34.8104464,
-                31.9762711
-            ],
-            "short_description": "Premium Ice Cream",
-            "slug": "deli-cream-derech-hamaccabim",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-derech-hamaccabim"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62288585b61d24ab74e07ce7/4bcef3aa-9f96-11ec-94ad-baf42bc29825_90fc7404_e20d_11ea_8a2e_ce36fea3d4b2_3.png",
-                "logo": null
-            },
-            "title": "Mr. Corn | Harishonim",
-            "name": "Mr. Corn | Harishonim",
-            "track_id": "venue-mr-corn-harishonim",
-            "address": "שדרות נים 2, ראשון לציון",
-            "venue_id": "62288585b61d24ab74e07ce7",
-            "location": [
-                34.8039292,
-                31.949496
-            ],
-            "short_description": "Hot corn, Potatoes, and Creamy pasta",
-            "slug": "mr-corn-harishonim",
-            "tags": [
-                "vegetable",
-                "vegetarian"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mr-corn-harishonim"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e36a7965cd00b72157d75d7/9dc83cb6-6166-11ec-b71e-4eec24b2cfa3_1400x900px_b__2_.jpeg",
                 "logo": null
             },
@@ -2684,109 +2746,248 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e7743e07d70ea2c3153ef4e/96c8c3c8-6d06-11ea-b024-0a58647f830c_DSC00247.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6252d207d230c2ddcf12635f/ef86f714-b8cc-11ec-b525-d24550c83aea_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
                 "logo": null
             },
-            "title": "Pita Basar | Rishon Lezion West",
-            "name": "Pita Basar | Rishon Lezion West",
-            "track_id": "venue-pita-basar-rishon-lezion",
-            "address": "יוסף ספיר 1 ",
-            "venue_id": "5e7743e07d70ea2c3153ef4e",
+            "title": "B-FRESH Kosher | Holon",
+            "name": "B-FRESH Kosher | Holon",
+            "track_id": "venue-b-fresh-holon",
+            "address": "גולדה מאיר 7, חולון ",
+            "venue_id": "6252d207d230c2ddcf12635f",
             "location": [
-                34.75031100000003,
-                31.991338800000026
+                34.778894214006904,
+                32.01232216876043
             ],
-            "short_description": "Pita is one thing, Pita Basar is another\n",
-            "slug": "pita-basar-rishon-lezion",
+            "short_description": "Drinks | Health | Tapioca",
+            "slug": "b-fresh-holon",
             "tags": [
-                "chicken",
-                "grill",
-                "israeli",
+                "healthy",
+                "kids",
+                "smoothie",
                 "kosher"
             ],
-            "score": 7.8,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-basar-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ee5f51c0fe5a4a857080284/291ad47e-ae33-11ea-b605-a6eb6ca88e82____________01.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ea567189070a370596236e6/f761d2aa-87ab-11ea-b1e9-0a5864677b5d_yaelitz_2__2_.jpg",
                 "logo": null
             },
-            "title": "Hafalude | Holon",
-            "name": "Hafalude | Holon",
-            "track_id": "venue-hafalude",
-            "address": "סוקולוב 56, חולון",
-            "venue_id": "5ee5f51c0fe5a4a857080284",
+            "title": "Aroma | Moshe Beker ",
+            "name": "Aroma | Moshe Beker ",
+            "track_id": "venue-aroma-moshe-beker",
+            "address": "משה בקר 9",
+            "venue_id": "5ea567189070a370596236e6",
             "location": [
-                34.775073134809446,
-                32.02261559844719
+                34.808600358656655,
+                31.9743472323121
             ],
-            "short_description": "Persian Dessert Shop ",
-            "slug": "hafalude",
+            "short_description": "Espresso Bar\n",
+            "slug": "aroma-moshe-beker",
             "tags": [
-                "dessert",
-                "sweets",
-                "cake"
+                "bakery",
+                "breakfast",
+                "Health"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aroma-moshe-beker"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f1ea1d98b2964e0ed244fa0/faaf299a-6165-11ec-8d6e-16318a958439_1400x900px_b__2_.jpeg",
+                "logo": null
+            },
+            "title": "Roladin | Holon",
+            "name": "Roladin | Holon",
+            "track_id": "venue-roladin-holon",
+            "address": "המשביר 1, חולון",
+            "venue_id": "5f1ea1d98b2964e0ed244fa0",
+            "location": [
+                34.8010835090376,
+                32.01558965023968
+            ],
+            "short_description": "Bakery & Café",
+            "slug": "roladin-holon",
+            "tags": [
+                "bakery",
+                "cake",
+                "cake",
+                "kosher"
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hafalude"
+                "url": "https://wolt.com/en/isr/undefined/venue/roladin-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e64c755b439a7a2a0b5ae42/ffb76e54-6129-11ea-a3f4-0a586475cf4d_281543_delivery_1440x810%20%281%29.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62176826538ff57519dd60d6/d098218a-9562-11ec-9572-9e10967c041d_4424efe8_dcb4_11ea_a7b4_b235647e7e52___________.jpg",
                 "logo": null
             },
-            "title": "McDonald’s® HaBe'er Mall Kosher",
-            "name": "McDonald’s® HaBe'er Mall Kosher",
-            "track_id": "venue-mcdonalds-habeer-mall-kosher",
-            "address": "Moreshet Yisra'el St 15",
-            "venue_id": "5e64c755b439a7a2a0b5ae42",
+            "title": "Mr. Pretzels | Holon",
+            "name": "Mr. Pretzels | Holon",
+            "track_id": "venue-mr-pretzels-holon",
+            "address": "קניון עזריאלי, חולון",
+            "venue_id": "62176826538ff57519dd60d6",
             "location": [
-                34.77444950339495,
-                31.97553039355006
+                34.7790833,
+                32.0125644
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel\n",
-            "slug": "mcdonalds-habeer-mall-kosher",
+            "short_description": "Fresh hot pretzels with fun toppings",
+            "slug": "mr-pretzels-holon",
             "tags": [
-                "chicken",
-                "kosher",
-                "kosher"
+                "bakery",
+                "kids"
             ],
-            "score": 7.2,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-habeer-mall-kosher"
+                "url": "https://wolt.com/en/isr/undefined/venue/mr-pretzels-holon"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f17ddfc7c0b5346da6346b/6c944a06-7ec9-11ec-8764-36680d2f38de_582cc30e_509f_11ea_beb7_0a586477662b_dsc00158.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f10705f08cf0552dd32a6c6/e5e19ba0-c77a-11ea-9ac9-365be4dedcda_1.jpg",
                 "logo": null
             },
-            "title": "Deli Cream Kosher | East Rishon Lezion",
-            "name": "Deli Cream Kosher | East Rishon Lezion",
-            "track_id": "venue-deli-cream-east-rishon-lezion",
-            "address": "רבי יהודה הנשיא 1",
-            "venue_id": "61f17ddfc7c0b5346da6346b",
+            "title": "Tunisian Sandwich Bar",
+            "name": "Tunisian Sandwich Bar",
+            "track_id": "venue-tunasian-sandwich-bar",
+            "address": "לישנסקי יוסף 8",
+            "venue_id": "5f10705f08cf0552dd32a6c6",
             "location": [
-                34.8160277,
-                31.947453
+                34.765432,
+                31.9894057
             ],
-            "short_description": "Premium Ice Cream\n",
-            "slug": "deli-cream-east-rishon-lezion",
+            "short_description": "Sandwich Bar",
+            "slug": "tunasian-sandwich-bar",
             "tags": [
+                "mediterranean",
+                "sandwich",
                 "kosher",
                 "kosher"
             ],
-            "score": 9,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-east-rishon-lezion"
+                "url": "https://wolt.com/en/isr/undefined/venue/tunasian-sandwich-bar"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ae03f8b39ce355dea2f92c/ec6489f4-5691-11ec-b911-4eb84b216aa6________________.jpeg",
+                "logo": null
+            },
+            "title": "Soft Cookies | Holon",
+            "name": "Soft Cookies | Holon",
+            "track_id": "venue-soft-cookies-holon",
+            "address": "גולדה מאיר 7, חולון",
+            "venue_id": "61ae03f8b39ce355dea2f92c",
+            "location": [
+                34.77893149991134,
+                32.01233484387987
+            ],
+            "short_description": "Cookies 🍪 Crepe 🍪 Ice Cream",
+            "slug": "soft-cookies-holon",
+            "tags": [
+                "ice cream",
+                "sweets",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/soft-cookies-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fdf27175d1c9f2d04b31d90/c82948f4-49d1-11eb-9c56-3ef2b473305f____________.jpeg",
+                "logo": null
+            },
+            "title": "Landwer Kosher | Holon",
+            "name": "Landwer Kosher | Holon",
+            "track_id": "venue-landwer-cafe-kosher-holon",
+            "address": "שד׳ קוגל 11, חולון",
+            "venue_id": "5fdf27175d1c9f2d04b31d90",
+            "location": [
+                34.77435458574501,
+                32.02639766269963
+            ],
+            "short_description": "Good food that comes to you\n",
+            "slug": "landwer-cafe-kosher-holon",
+            "tags": [
+                "pizza",
+                "café",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-kosher-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eb94618a2db0a775e982cbd/b104c386-9385-11ea-9a2d-0a5864676d10_yaelitz__3_.jpg",
+                "logo": null
+            },
+            "title": "Landwer | Holon",
+            "name": "Landwer | Holon",
+            "track_id": "venue-landwer-cafe-holon",
+            "address": "הרוקמים 26, חולון",
+            "venue_id": "5eb94618a2db0a775e982cbd",
+            "location": [
+                34.8006392,
+                32.0077569
+            ],
+            "short_description": "Good food that comes to you\n",
+            "slug": "landwer-cafe-holon",
+            "tags": [
+                "pasta",
+                "salad",
+                "kids"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-holon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612b580b0e7f688668b2625a/8c241428-08ae-11ec-a041-cabca0203810_2795d480_f8fd_11eb_b387_be87d55afe74_2f168826_99c7_11ea_bab7_0a586472cb09_boker_zugi.jpeg",
+                "logo": null
+            },
+            "title": "Biga | La Park Holon",
+            "name": "Biga | La Park Holon",
+            "track_id": "venue-biga-la-park-holon",
+            "address": "מפרץ שלמה 1, חולון",
+            "venue_id": "612b580b0e7f688668b2625a",
+            "location": [
+                34.796264,
+                32.0045198
+            ],
+            "short_description": "Kitchen | Bakery | Cafe",
+            "slug": "biga-la-park-holon",
+            "tags": [
+                "breakfast",
+                "sandwich",
+                "salad"
+            ],
+            "score": 7,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-la-park-holon"
             },
             "provider": "wolt"
         },
@@ -2819,86 +3020,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ea7f6d68ddc4f12e478e97e/73e053d8-8932-11ea-9ae7-0a58646a502d_dsc00162.jpg",
-                "logo": null
-            },
-            "title": "Deli Cream | La Park ",
-            "name": "Deli Cream | La Park ",
-            "track_id": "venue-deli-cream-park-peres",
-            "address": "פארק פרס חולון",
-            "venue_id": "5ea7f6d68ddc4f12e478e97e",
-            "location": [
-                34.79921723340623,
-                32.00302664652468
-            ],
-            "short_description": "Premium Ice Cream\n",
-            "slug": "deli-cream-park-peres",
-            "tags": [
-                "dessert",
-                "ice cream"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-park-peres"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ea6ff38e956a4934654e744/2f470092-88a0-11ea-96d6-0a58646bdb10_dsc00162.jpg",
-                "logo": null
-            },
-            "title": "Deli Cream | Mercaz Netanel ",
-            "name": "Deli Cream | Mercaz Netanel ",
-            "track_id": "venue-deli-cream-mercaz-netanel",
-            "address": "צבי תדמור 12",
-            "venue_id": "5ea6ff38e956a4934654e744",
-            "location": [
-                34.77717657074851,
-                32.013862870234696
-            ],
-            "short_description": "Premium Ice Cream\n",
-            "slug": "deli-cream-mercaz-netanel",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "ice cream"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-mercaz-netanel"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ea7f00ba357edab216a86b3/c3d56ab2-892e-11ea-8b78-0a586469f336_dsc00162.jpg",
-                "logo": null
-            },
-            "title": "Deli Cream | Sokolov | Holon",
-            "name": "Deli Cream | Sokolov | Holon",
-            "track_id": "venue-deli-cream-sokolov",
-            "address": "סוקולוב 38 חולון",
-            "venue_id": "5ea7f00ba357edab216a86b3",
-            "location": [
-                34.77316858301089,
-                32.02270671995497
-            ],
-            "short_description": "Premium Ice Cream\n",
-            "slug": "deli-cream-sokolov",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "ice cream"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-sokolov"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f9ab11fbff7a12c01a6899e/957562f4-37eb-11ec-8c3f-725cdc6b8121______________.jpeg",
                 "logo": null
             },
@@ -2916,9 +3037,37 @@
             "tags": [
                 "ice cream"
             ],
-            "score": 8,
+            "score": 8.2,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/deli-cream-tayelet-rishon-lezion"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a37ed1537c09f95e8d6558/5df4cf9e-504c-11ec-8328-5ad0b897d2b7_____________.jpeg",
+                "logo": null
+            },
+            "title": "Cafe Cafe Kosher | Bat Yam",
+            "name": "Cafe Cafe Kosher | Bat Yam",
+            "track_id": "venue-cafe-cafe-kosher-bat-yam",
+            "address": "יוספטל 92, בת ים",
+            "venue_id": "61a37ed1537c09f95e8d6558",
+            "location": [
+                34.7561673,
+                32.0151827
+            ],
+            "short_description": "The Israeli Flavours You Like",
+            "slug": "cafe-cafe-kosher-bat-yam",
+            "tags": [
+                "kosher",
+                "pasta",
+                "salad",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-cafe-kosher-bat-yam"
             },
             "provider": "wolt"
         }

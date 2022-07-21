@@ -1,268 +1,113 @@
 {
-    "lastScrapeDate": 1657281675907,
+    "lastScrapeDate": 1658388028784,
     "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=32.162413&lon=34.844675",
     "restaurants": [
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e79e90c55875df4ccaf89e2/db7768a8-6dbf-11ea-b344-0a58647f9e23_WhatsApp%20Image%202020-03-23%20at%2015.26.41.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dd6ac6570d112057f42c6e2/060581574b74667a2a02a313ab9e342f-edits/765e1e8dac8f59a469eba4ba35cff681",
                 "logo": null
             },
-            "title": "NOOCH",
-            "name": "NOOCH",
-            "track_id": "venue-nooch",
-            "address": "הסייפון 31, רמת השרון",
-            "venue_id": "5e79e90c55875df4ccaf89e2",
+            "title": "Hummus Abu Berkowitz",
+            "name": "Hummus Abu Berkowitz",
+            "track_id": "venue-hummus-abu-berkowitz",
+            "address": "Ussishkin St 9, Ramat Hasharon",
+            "venue_id": "5dd6ac6570d112057f42c6e2",
             "location": [
-                34.838247,
-                32.1347293
+                34.841782450675964,
+                32.139130013501585
             ],
-            "short_description": "Asian Kitchen & Sushi Bar ",
-            "slug": "nooch",
+            "short_description": "The Original Hummus",
+            "slug": "hummus-abu-berkowitz",
             "tags": [
-                "asian",
-                "noodles",
-                "sushi"
+                "street food",
+                "pita",
+                "israeli"
             ],
-            "score": 8.4,
+            "score": 9.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/nooch"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-abu-berkowitz"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fabd58a5610fa807ba9d518/2683ee0a-74f1-11eb-88fd-cafeda892a73____________.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6022597856f2cf98c61816b7/33896e9c-6c43-11eb-b263-4ed3a7b69e24_yaelitz_4.jpg",
                 "logo": null
             },
-            "title": "Port 19 | Ramat HaSharon",
-            "name": "Port 19 | Ramat HaSharon",
-            "track_id": "venue-port-19-ramat-hasharon",
-            "address": "Weizmann ave 4 Ramat Hasharon",
-            "venue_id": "5fabd58a5610fa807ba9d518",
+            "title": "Jamil",
+            "name": "Jamil",
+            "track_id": "venue-gamil",
+            "address": "סוקולוב 20, הרצליה",
+            "venue_id": "6022597856f2cf98c61816b7",
             "location": [
-                34.83799967200713,
-                32.14630110695311
+                34.84168531193658,
+                32.1670123615434
             ],
-            "short_description": "Butcher's Burger and Hot-dogs",
-            "slug": "port-19-ramat-hasharon",
+            "short_description": "Mifgash Ha'Sharon restaurant",
+            "slug": "gamil",
             "tags": [
-                "steak",
-                "chicken",
-                "street food"
+                "shawarma",
+                "mediterranean",
+                "falafel",
+                "kosher"
             ],
-            "score": 9,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/port-19-ramat-hasharon"
+                "url": "https://wolt.com/en/isr/undefined/venue/gamil"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc3d6942155dc83834291f7/b8017404-013b-11ea-baff-0a586465166e_IMG_2927.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611b6bd2b1015a06ab3fba67/bbb80aa8-0a31-11ec-aad5-025fd54604ae_054a3601.jpg",
                 "logo": null
             },
-            "title": "MeatBar Burger | Herzliya",
-            "name": "MeatBar Burger | Herzliya",
-            "track_id": "venue-meatbar-burger-herzliya",
-            "address": "Maskit St 35, Herzliya",
-            "venue_id": "5dc3d6942155dc83834291f7",
+            "title": "Hummus Abed",
+            "name": "Hummus Abed",
+            "track_id": "venue-hummus-abed",
+            "address": "סוקולוב 74, הרצליה",
+            "venue_id": "611b6bd2b1015a06ab3fba67",
             "location": [
-                34.80989634990692,
-                32.1620978762747
+                34.84829783184311,
+                32.167033148763764
             ],
-            "short_description": "Premium Burgers by MeatBar ",
-            "slug": "meatbar-burger-herzliya",
+            "short_description": "The familiar and beloved taste ",
+            "slug": "hummus-abed",
             "tags": [
-                "burger"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/meatbar-burger-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e0db1e88d17209cf3406576/68ddb07abc8bc2527e752adc3ce57725-edits/4a7a09d3c9e8c51829cd339324f65129",
-                "logo": null
-            },
-            "title": "McDonald's® Ramat-HaSharon",
-            "name": "McDonald's® Ramat-HaSharon",
-            "track_id": "venue-mcdonalds-ramat-hasharon",
-            "address": "סוקולוב 81 רמת השרון",
-            "venue_id": "5e0db1e88d17209cf3406576",
-            "location": [
-                34.83884274959564,
-                32.14747850409869
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-ramat-hasharon",
-            "tags": [
-                "chicken"
+                "street food",
+                "middle eastern",
+                "falafel"
             ],
             "score": 7.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-ramat-hasharon"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-abed"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e6e0d62e2f8b36d1b55f76e/60c75750-66d8-11ea-a1f6-0a58647d710c_yaelitz-2.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f0ade6ff1474d45aa5ea7bd/5d25dc20-5033-11ec-8fd9-425e20ec5242__________.jpg",
                 "logo": null
             },
-            "title": "Sebastian",
-            "name": "Sebastian",
-            "track_id": "venue-sebastian",
-            "address": "משכית 33 הרצליה",
-            "venue_id": "5e6e0d62e2f8b36d1b55f76e",
+            "title": "rebar | Ramat HaSharon",
+            "name": "rebar | Ramat HaSharon",
+            "track_id": "venue-rebar-ramat-hasharon",
+            "address": "Sokolov 71, Ramat hashron",
+            "venue_id": "5f0ade6ff1474d45aa5ea7bd",
             "location": [
-                34.8104973,
-                32.1621806
+                34.8385493863774,
+                32.14640955001404
             ],
-            "short_description": "Restaurant Cafe Bar ",
-            "slug": "sebastian",
+            "short_description": "smoothies, juices, wellness choices",
+            "slug": "rebar-ramat-hasharon",
             "tags": [
-                "bistro",
-                "kids",
-                "pasta"
+                "drinks",
+                "juice",
+                "smoothie"
             ],
-            "score": 8,
+            "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sebastian"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e2eafa5efbb35f79dbd83cc/a1a40ff4-48b8-11ea-8a4e-0a586475f428_DSC09008.jpg",
-                "logo": null
-            },
-            "title": "Bangkok Kitchen",
-            "name": "Bangkok Kitchen",
-            "track_id": "venue-bangkok-kitchen",
-            "address": "בן גוריון 33, הרצליה ",
-            "venue_id": "5e2eafa5efbb35f79dbd83cc",
-            "location": [
-                34.84278729999999,
-                32.16116730000004
-            ],
-            "short_description": "Authentic Thai Kitchen ",
-            "slug": "bangkok-kitchen",
-            "tags": [
-                "asian",
-                "curry",
-                "noodles"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bangkok-kitchen"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/603ce852d6e69993cfd7ba0b/9709a4f2-9945-11ec-b988-324e69a45347____________.jpg",
-                "logo": null
-            },
-            "title": "Pazza | Herzliya",
-            "name": "Pazza | Herzliya",
-            "track_id": "venue-pazza-pizza-bar-herzliya",
-            "address": "סוקולוב 17, הרצליה",
-            "venue_id": "603ce852d6e69993cfd7ba0b",
-            "location": [
-                34.84033724438569,
-                32.16732520652621
-            ],
-            "short_description": "Pizza Bar",
-            "slug": "pazza-pizza-bar-herzliya",
-            "tags": [
-                "pizza",
-                "salad",
-                "vegetarian"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pazza-pizza-bar-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db8265ea1965732df4cecce/c9184c48-8acc-11ea-9b8a-0a58646cdd05____________.jpg",
-                "logo": null
-            },
-            "title": "Haim's Falafel | Herzliya",
-            "name": "Haim's Falafel | Herzliya",
-            "track_id": "venue-haims-falafel",
-            "address": "סוקולוב 66 הרצליה",
-            "venue_id": "5db8265ea1965732df4cecce",
-            "location": [
-                34.84695374965668,
-                32.16703859389022
-            ],
-            "short_description": "Falafel",
-            "slug": "haims-falafel",
-            "tags": [
-                "falafel"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/haims-falafel"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db803cb0ecd2d3dad0a07b9/4619daffe6e1ede645085e944efbb694-edits/3ce55e59b70b26251d3675d40f71010e",
-                "logo": null
-            },
-            "title": "Pizza Pozza",
-            "name": "Pizza Pozza",
-            "track_id": "venue-pizza-pozza",
-            "address": "בן גוריון 33 הרצליה",
-            "venue_id": "5db803cb0ecd2d3dad0a07b9",
-            "location": [
-                34.84286606311798,
-                32.16133040620744
-            ],
-            "short_description": "Pizza ",
-            "slug": "pizza-pozza",
-            "tags": [
-                "italian",
-                "pasta",
-                "pizza"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-pozza"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e1b3cdf4e5d8196db57fba2/1a6bd482-3552-11ea-bd59-0a5864709606_281543_delivery_1440x810%20%281%29.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® HaSira",
-            "name": "McDonald's® HaSira",
-            "track_id": "venue-mcdonalds-hasira",
-            "address": "Abba Eban Blvd 1, Herzliya",
-            "venue_id": "5e1b3cdf4e5d8196db57fba2",
-            "location": [
-                34.810679155078894,
-                32.161397252371074
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-hasira",
-            "tags": [
-                "burger",
-                "chicken",
-                "kids"
-            ],
-            "score": 7.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-hasira"
+                "url": "https://wolt.com/en/isr/undefined/venue/rebar-ramat-hasharon"
             },
             "provider": "wolt"
         },
@@ -295,187 +140,80 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f0ade6ff1474d45aa5ea7bd/5d25dc20-5033-11ec-8fd9-425e20ec5242__________.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db8265ea1965732df4cecce/c9184c48-8acc-11ea-9b8a-0a58646cdd05____________.jpg",
                 "logo": null
             },
-            "title": "rebar | Ramat HaSharon",
-            "name": "rebar | Ramat HaSharon",
-            "track_id": "venue-rebar-ramat-hasharon",
-            "address": "Sokolov 71, Ramat hashron",
-            "venue_id": "5f0ade6ff1474d45aa5ea7bd",
+            "title": "Haim's Falafel | Herzliya",
+            "name": "Haim's Falafel | Herzliya",
+            "track_id": "venue-haims-falafel",
+            "address": "סוקולוב 66 הרצליה",
+            "venue_id": "5db8265ea1965732df4cecce",
             "location": [
-                34.8385493863774,
-                32.14640955001404
+                34.84695374965668,
+                32.16703859389022
             ],
-            "short_description": "smoothies, juices, wellness choices",
-            "slug": "rebar-ramat-hasharon",
+            "short_description": "Falafel",
+            "slug": "haims-falafel",
             "tags": [
-                "drinks",
-                "juice",
-                "smoothie"
+                "falafel"
             ],
-            "score": 9.2,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/rebar-ramat-hasharon"
+                "url": "https://wolt.com/en/isr/undefined/venue/haims-falafel"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dd67629f17a3ece333cff26/d4cc507c-5671-11eb-b0ed-42b5f8504527_img_8908.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f86f5e6a8603c9096a8895d/286e1720-12fb-11eb-853e-9aad5df02ee0_karela_00158.jpg",
                 "logo": null
             },
-            "title": "Pizza Porto | Ramat HaSharon",
-            "name": "Pizza Porto | Ramat HaSharon",
-            "track_id": "venue-pizza-porto",
-            "address": "סוקולוב 93 רמת השרון",
-            "venue_id": "5dd67629f17a3ece333cff26",
+            "title": "Onion ",
+            "name": "Onion ",
+            "track_id": "venue-onion-herzliya",
+            "address": "שבעת הכוכבים 8, הרצליה",
+            "venue_id": "5f86f5e6a8603c9096a8895d",
             "location": [
-                34.839625954627984,
-                32.14883199585024
+                34.8239528,
+                32.1650615
             ],
-            "short_description": "All Day Italian",
-            "slug": "pizza-porto",
+            "short_description": "Sandwiches, salads and pasta",
+            "slug": "onion-herzliya",
             "tags": [
-                "italian",
+                "sandwich",
                 "pasta",
-                "pizza"
+                "salad"
             ],
-            "score": 8.2,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-porto"
+                "url": "https://wolt.com/en/isr/undefined/venue/onion-herzliya"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dcbc4de17a74eb24c5901fd/0b87b1b0-f5ab-11ea-a6aa-122ee0ded7c7_yaelitz_2.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f79a10f2f17d79feadce2fc/39361e4e-1130-11eb-8b5d-5af366590940_dsc00334.jpg",
                 "logo": null
             },
-            "title": "Nono | Herzliya",
-            "name": "Nono | Herzliya",
-            "track_id": "venue-nono",
-            "address": "אריק איינשטיין 3 הרצליה",
-            "venue_id": "5dcbc4de17a74eb24c5901fd",
+            "title": "HaHummus Shel Galia",
+            "name": "HaHummus Shel Galia",
+            "track_id": "venue-hahummus-shel-galia-herzliya",
+            "address": "קיבוץ גליל ים",
+            "venue_id": "5f79a10f2f17d79feadce2fc",
             "location": [
-                34.81467125829004,
-                32.162000955551626
+                34.83351573676552,
+                32.158667487728245
             ],
-            "short_description": "Pizza • Gelato • Vino",
-            "slug": "nono",
-            "tags": [
-                "pizza",
-                "italian",
-                "local"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/nono"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ded0c9448cae9f949137642/b43c2ee7f0f7b4ba9d9566e093874a49-edits/fb2307396bde4779800e6204d6fb1b6b",
-                "logo": null
-            },
-            "title": "Mai Place ",
-            "name": "Mai Place ",
-            "track_id": "venue-mai-place",
-            "address": "בן גוריון 16",
-            "venue_id": "5ded0c9448cae9f949137642",
-            "location": [
-                34.84244763851164,
-                32.16439116547207
-            ],
-            "short_description": "Asian Restaurant  ",
-            "slug": "mai-place",
-            "tags": [
-                "sushi",
-                "asian",
-                "noodles"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mai-place"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f423cbfaa002d316a0137b4/6d4b5fbe-e7a4-11eb-a247-fa6b02638442_list.jpg",
-                "logo": null
-            },
-            "title": "Bourekas Ramat HaSharon | Hatasbich",
-            "name": "Bourekas Ramat HaSharon | Hatasbich",
-            "track_id": "venue-mima",
-            "address": "סוקולוב 70 ",
-            "venue_id": "5f423cbfaa002d316a0137b4",
-            "location": [
-                34.838737300000034,
-                32.145593600000026
-            ],
-            "short_description": "Real Turkish Burekas\n",
-            "slug": "mima",
+            "short_description": "Homemade hummus",
+            "slug": "hahummus-shel-galia-herzliya",
             "tags": [
                 "mediterranean",
-                "street food"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mima"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fab9119831d23daa4ca82a9/a3bb559c-23f8-11eb-bbb3-46006ca48074_list5.jpg",
-                "logo": null
-            },
-            "title": "Coppa 🍦",
-            "name": "Coppa 🍦",
-            "track_id": "venue-coppa-herzliya",
-            "address": "סוקולוב 27, הרצליה",
-            "venue_id": "5fab9119831d23daa4ca82a9",
-            "location": [
-                34.84194964929916,
-                32.16712340509301
-            ],
-            "short_description": "Just like the Ol'times",
-            "slug": "coppa-herzliya",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/coppa-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc420bff81e149117f1ba49/2f5cb3b91db291a1f44d368231db9070-edits/b8d8489d6dd01e0a1e2e581b2099d78a",
-                "logo": null
-            },
-            "title": "Nisso Cakes",
-            "name": "Nisso Cakes",
-            "track_id": "venue-nisso-cakes",
-            "address": "בן גוריון 33 הרצליה",
-            "venue_id": "5dc420bff81e149117f1ba49",
-            "location": [
-                34.84272658824921,
-                32.16110788409157
-            ],
-            "short_description": "Bakery",
-            "slug": "nisso-cakes",
-            "tags": [
-                "bakery",
-                "cake",
-                "pasta"
+                "falafel",
+                "Health"
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/nisso-cakes"
+                "url": "https://wolt.com/en/isr/undefined/venue/hahummus-shel-galia-herzliya"
             },
             "provider": "wolt"
         },
@@ -508,218 +246,56 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dd679046b256f5733f1e291/d2aa25e8-b8b5-11eb-bb2d-ceb5fc7e8dd9_bonfis_9999_259.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e00d0604df0a510719570da/dc643625904c88371a5f853e9ac0d0e2-edits/bbb6c3ac393d8dfcab739c56ee97ac0c",
                 "logo": null
             },
-            "title": "Maison",
-            "name": "Maison",
-            "track_id": "venue-maison",
-            "address": "ביאליק 42 רמת השרון",
-            "venue_id": "5dd679046b256f5733f1e291",
+            "title": "Aroma | Ramat HaSharon",
+            "name": "Aroma | Ramat HaSharon",
+            "track_id": "venue-aroma-ramat-hasharon",
+            "address": "סוקולוב 33 רמת השרון",
+            "venue_id": "5e00d0604df0a510719570da",
             "location": [
-                34.84370827674866,
-                32.14406289195716
+                34.836584329605095,
+                32.141737295581855
             ],
-            "short_description": "Burger Man",
-            "slug": "maison",
+            "short_description": "Espresso Bar",
+            "slug": "aroma-ramat-hasharon",
             "tags": [
-                "burger",
-                "grill",
-                "sandwich"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/maison"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db191bffe25c4a350f1b652/9ce1fea4-46ea-11ec-995f-72ecc6457299_______2_.jpg",
-                "logo": null
-            },
-            "title": "Pita Basta | Herzliya ",
-            "name": "Pita Basta | Herzliya ",
-            "track_id": "venue-pita-basta-herzliya",
-            "address": "Abba Eban Blvd 12, Herzliya",
-            "venue_id": "5db191bffe25c4a350f1b652",
-            "location": [
-                34.80816900730133,
-                32.161934392068474
-            ],
-            "short_description": "Fresh Market Vibes ",
-            "slug": "pita-basta-herzliya",
-            "tags": [
-                "pita",
-                "vegetable",
-                "street food",
-                "kosher"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pita-basta-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60db23202caf88218c3a741b/b214229c-2436-11ec-832d-de5e83132e93_dsc_5699.jpg",
-                "logo": null
-            },
-            "title": "Hummus Eliyahu | Herzliya",
-            "name": "Hummus Eliyahu | Herzliya",
-            "track_id": "venue-hummus-eliyahu-herzliya",
-            "address": "בן גוריון 22, הרצליה",
-            "venue_id": "60db23202caf88218c3a741b",
-            "location": [
-                34.8420226,
-                32.1630141
-            ],
-            "short_description": "Unique Israeli Hummus ",
-            "slug": "hummus-eliyahu-herzliya",
-            "tags": [
-                "mediterranean",
-                "falafel"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5de8fd9325b6cf955ed92836/932c1844-3793-11ea-abac-0a586471c408_yaelitz.jpg",
-                "logo": null
-            },
-            "title": "Yummy Yummy",
-            "name": "Yummy Yummy",
-            "track_id": "venue-yummy-yummy",
-            "address": "סוקולוב 71 רמת השרון",
-            "venue_id": "5de8fd9325b6cf955ed92836",
-            "location": [
-                34.838526248931885,
-                32.14621583260327
-            ],
-            "short_description": "a Whole world of flavours",
-            "slug": "yummy-yummy",
-            "tags": [
-                "crepes",
-                "dessert",
-                "ice cream"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/yummy-yummy"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ef89db49d46e18ef8839e7a/2800b87e-bc70-11ea-91a9-a64eda518f33_list2.jpg",
-                "logo": null
-            },
-            "title": "Casa Del Pepe Pizza | Herzliya",
-            "name": "Casa Del Pepe Pizza | Herzliya",
-            "track_id": "venue-casa-del-pepe",
-            "address": "סוקולוב 58 הרצליה",
-            "venue_id": "5ef89db49d46e18ef8839e7a",
-            "location": [
-                34.84692526468706,
-                32.16702774982998
-            ],
-            "short_description": "PIZZA | PASTA | SALAD | Kosher Badatz Beit Yossef",
-            "slug": "casa-del-pepe",
-            "tags": [
-                "pasta",
-                "pizza",
-                "salad",
-                "kosher"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/casa-del-pepe"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f7497063b300bd47d11222b/c8fad15c-0e31-11eb-89d0-e268ce20a6c3_2.jpg",
-                "logo": null
-            },
-            "title": "Pascal Ice Cream",
-            "name": "Pascal Ice Cream",
-            "track_id": "venue-glidat-pascal",
-            "address": "המשכית 27, הרצליה",
-            "venue_id": "5f7497063b300bd47d11222b",
-            "location": [
-                34.8107684,
-                32.1632866
-            ],
-            "short_description": "Ice cream - yogurt - frozen yogurt - a warm and sweet corner\n",
-            "slug": "glidat-pascal",
-            "tags": [
-                "ice cream",
-                "dessert"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/glidat-pascal"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6017c185332296d61ccfecaa/cfc54522-8568-11eb-b1aa-f259a9cd7944_yaelitz_12.jpg",
-                "logo": null
-            },
-            "title": "Boutique HaSchnitzel & HaShawrma",
-            "name": "Boutique HaSchnitzel & HaShawrma",
-            "track_id": "venue-boutique-haschnitzel",
-            "address": "מנחם בן סרוק 10, הרצליה",
-            "venue_id": "6017c185332296d61ccfecaa",
-            "location": [
-                34.8323632,
-                32.1634978
-            ],
-            "short_description": "Original Schnitzel | Kosher L'mehadrim Badatz",
-            "slug": "boutique-haschnitzel",
-            "tags": [
-                "pita",
-                "chicken",
-                "kosher",
-                "kosher"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/boutique-haschnitzel"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc3ead302d4cb8e8836de3b/ebc65beba6434e11d04d55633744447d-edits/686a14495bffee91bffc21a53f53396a",
-                "logo": null
-            },
-            "title": "Bleecker Street | Herzliya",
-            "name": "Bleecker Street | Herzliya",
-            "track_id": "venue-bleecker-street",
-            "address": "בן גוריון 56 הרצליה",
-            "venue_id": "5dc3ead302d4cb8e8836de3b",
-            "location": [
-                34.84214186668396,
-                32.157637362821426
-            ],
-            "short_description": "Coffee and Restaurant",
-            "slug": "bleecker-street",
-            "tags": [
-                "breakfast",
+                "café",
                 "coffee",
-                "falafel"
+                "breakfast"
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bleecker-street"
+                "url": "https://wolt.com/en/isr/undefined/venue/aroma-ramat-hasharon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5decbf6c2dfaf60f2c032bc6/7933bbbe2f462300ddaa3dea3a151360-edits/ddaf6e4b15b781362db54ce9f81bc4f4",
+                "logo": null
+            },
+            "title": "Blend | Herzliya",
+            "name": "Blend | Herzliya",
+            "track_id": "venue-blend",
+            "address": "הנשיא יצחק בן צבי 146 הרצליה",
+            "venue_id": "5decbf6c2dfaf60f2c032bc6",
+            "location": [
+                34.80800739616697,
+                32.17348218388503
+            ],
+            "short_description": "FOOD | LIFE | STYLE",
+            "slug": "blend",
+            "tags": [
+                "breakfast",
+                "dessert",
+                "fruit",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/blend"
             },
             "provider": "wolt"
         },
@@ -752,107 +328,403 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4167a6596792449ee49ede/c9279750-4c12-11ea-9298-0a586476e911_yaelitz-7.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc29f8220d74fa4d5e4cc1d/5fb8550b17629f0d421ac6cd71e2fe27-edits/b927f2092f5d9a12b4c87da700f0a18b",
                 "logo": null
             },
-            "title": "Landwer | Herzliya",
-            "name": "Landwer | Herzliya",
-            "track_id": "venue-landwer-cafe-herzliya",
-            "address": "שדרות ח״ן 8, הרצליה ",
-            "venue_id": "5e4167a6596792449ee49ede",
+            "title": "HaTarnegol",
+            "name": "HaTarnegol",
+            "track_id": "venue-hatarnegol",
+            "address": "בן גוריון 14 הרצליה",
+            "venue_id": "5dc29f8220d74fa4d5e4cc1d",
             "location": [
-                34.8429571,
-                32.1680921
+                34.84250664710998,
+                32.16477623655957
             ],
-            "short_description": "Coffee & Good Food\n",
-            "slug": "landwer-cafe-herzliya",
+            "short_description": "Schnitzel, Grill, lunch and homemade stews",
+            "slug": "hatarnegol",
             "tags": [
-                "kids"
+                "schnitzel",
+                "salad"
             ],
-            "score": 8.2,
+            "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-herzliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/hatarnegol"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dbab5259eea258040c2c5cc/a3023f28-fbca-11e9-a555-0a58646018de_yaelitz%20%282%29.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dca7b5900a6b8386bcc0ef5/d7f1936688a7eef60f94f70fab594405-edits/9c0a59ecf173e5bd10095a08bc8874a3",
                 "logo": null
             },
-            "title": "Susu & Sons | Herzliya",
-            "name": "Susu & Sons | Herzliya",
-            "track_id": "venue-susu-sons-herzliya",
-            "address": "Abba Eban Blvd 12, Herzliya",
-            "venue_id": "5dbab5259eea258040c2c5cc",
+            "title": "Hummus Asaf",
+            "name": "Hummus Asaf",
+            "track_id": "venue-hummus-asaf",
+            "address": "שדרות חן 9 הרצליה",
+            "venue_id": "5dca7b5900a6b8386bcc0ef5",
             "location": [
-                34.80818510055542,
-                32.16182086119714
+                34.842689037323,
+                32.168196535823874
             ],
-            "short_description": "‫The Hotest Burgers 🔥\n",
-            "slug": "susu-sons-herzliya",
+            "short_description": "Local Homemade Hummus",
+            "slug": "hummus-asaf",
             "tags": [
-                "american",
-                "burger",
-                "street food"
+                "mediterranean"
             ],
-            "score": 8.2,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/susu-sons-herzliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-asaf"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db6fe80386b04cfb1b5a284/6b98c1ba-c6c7-11ea-abe7-9e1aae5d437d____________02.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc420bff81e149117f1ba49/2f5cb3b91db291a1f44d368231db9070-edits/b8d8489d6dd01e0a1e2e581b2099d78a",
                 "logo": null
             },
-            "title": "Ad Haetzem Express | Ramat HaSharon ",
-            "name": "Ad Haetzem Express | Ramat HaSharon ",
-            "track_id": "venue-ad-haetzem-rh",
-            "address": "סוקולוב 72, רמת השרון",
-            "venue_id": "5db6fe80386b04cfb1b5a284",
+            "title": "Nisso Cakes",
+            "name": "Nisso Cakes",
+            "track_id": "venue-nisso-cakes",
+            "address": "בן גוריון 33 הרצליה",
+            "venue_id": "5dc420bff81e149117f1ba49",
             "location": [
-                34.83944892883301,
-                32.14638821611276
+                34.84272658824921,
+                32.16110788409157
             ],
-            "short_description": "Express Hamburger Joint",
-            "slug": "ad-haetzem-rh",
+            "short_description": "Bakery",
+            "slug": "nisso-cakes",
             "tags": [
-                "burger",
-                "kids"
+                "bakery",
+                "cake",
+                "pasta"
             ],
-            "score": 8,
+            "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/ad-haetzem-rh"
+                "url": "https://wolt.com/en/isr/undefined/venue/nisso-cakes"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6017c0b2d922c497f11aa671/f1faf4e0-6f68-11eb-8950-ea466e693d69_yaelitz_8.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc29a68c8a2804a7ec5df35/33782a02-1462-11ec-a94a-de6ac2e79c39_____.jpg",
                 "logo": null
             },
-            "title": "Boutique HaSabich",
-            "name": "Boutique HaSabich",
-            "track_id": "venue-boutique-hasabich",
-            "address": " מנחם בן סרוק 10 הרצליה",
-            "venue_id": "6017c0b2d922c497f11aa671",
+            "title": "Tabun Bakery",
+            "name": "Tabun Bakery",
+            "track_id": "venue-tabun-bakery",
+            "address": "משכית 27 הרצליה",
+            "venue_id": "5dc29a68c8a2804a7ec5df35",
             "location": [
-                34.8323632,
-                32.1634978
+                34.81060445308685,
+                32.1633784924085
             ],
-            "short_description": "Original Sabich | Kosher L'mehadrim Badatz",
-            "slug": "boutique-hasabich",
+            "short_description": "Local Bakery",
+            "slug": "tabun-bakery",
             "tags": [
-                "kosher",
+                "italian",
+                "pizza",
+                "salad"
+            ],
+            "score": 6.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tabun-bakery"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fab9119831d23daa4ca82a9/a3bb559c-23f8-11eb-bbb3-46006ca48074_list5.jpg",
+                "logo": null
+            },
+            "title": "Coppa 🍦",
+            "name": "Coppa 🍦",
+            "track_id": "venue-coppa-herzliya",
+            "address": "סוקולוב 27, הרצליה",
+            "venue_id": "5fab9119831d23daa4ca82a9",
+            "location": [
+                34.84194964929916,
+                32.16712340509301
+            ],
+            "short_description": "Just like the Ol'times",
+            "slug": "coppa-herzliya",
+            "tags": [
+                "ice cream"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/coppa-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62c6ddccabe36bf6ca11af9f/e52175e6-01f2-11ed-83a7-de1c2039b643_list.jpg",
+                "logo": null
+            },
+            "title": "Falafel Degania | Herzliya",
+            "name": "Falafel Degania | Herzliya",
+            "track_id": "venue-falafel-degania-hertzliya",
+            "address": "בן גוריון 15, הרצליה",
+            "venue_id": "62c6ddccabe36bf6ca11af9f",
+            "location": [
+                34.8427825,
+                32.1650162
+            ],
+            "short_description": "Falafel & Mediterranean Cuisine",
+            "slug": "falafel-degania-hertzliya",
+            "tags": [
+                "falafel",
+                "street food",
+                "kids",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-degania-hertzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db194033f61eb6f3712e04d/4c34feb4f12f0fabac0465350fa0cf0f-edits/6d6d7af04e5c7b21a1c93a98133ba33f",
+                "logo": null
+            },
+            "title": "Beta Cafe | Zamarot",
+            "name": "Beta Cafe | Zamarot",
+            "track_id": "venue-beta-caffe-tsamarot",
+            "address": "צמרות 2 הרצליה",
+            "venue_id": "5db194033f61eb6f3712e04d",
+            "location": [
+                34.84342932701111,
+                32.15137541592083
+            ],
+            "short_description": "Bistro & Coffee Shop ",
+            "slug": "beta-caffe-tsamarot",
+            "tags": [
+                "coffee",
+                "bistro",
+                "salad"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/beta-caffe-tsamarot"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f7480f24847a42554110aeb/fd22628a-2436-11ec-bc34-82ddd8385a2e_dsc_5699.jpg",
+                "logo": null
+            },
+            "title": "Hummus Eliyahu | Herzliya Pituach",
+            "name": "Hummus Eliyahu | Herzliya Pituach",
+            "track_id": "venue-hummus-eliyuahu-herzliya-pituach",
+            "address": "Maskit 32 Herzliya",
+            "venue_id": "5f7480f24847a42554110aeb",
+            "location": [
+                34.809520714083845,
+                32.16216368963867
+            ],
+            "short_description": "Unique Israeli Hummus\nKosher Mehadrin",
+            "slug": "hummus-eliyuahu-herzliya-pituach",
+            "tags": [
                 "mediterranean",
-                "pita",
+                "kosher",
+                "vegan",
                 "kosher"
             ],
-            "score": 7.6,
+            "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/boutique-hasabich"
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyuahu-herzliya-pituach"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e2035c95a291c9ff7a6e2fa/377522cc-534b-11ec-8614-1e6e4ffc9ad6_____.jpg",
+                "logo": null
+            },
+            "title": "Cafe Loren ",
+            "name": "Cafe Loren ",
+            "track_id": "venue-cafe-loren-",
+            "address": "סוקולוב 53, רמת השרון",
+            "venue_id": "5e2035c95a291c9ff7a6e2fa",
+            "location": [
+                34.83778846814778,
+                32.14463037171931
+            ],
+            "short_description": "Boutique Cafe ",
+            "slug": "cafe-loren-",
+            "tags": [
+                "bakery",
+                "café",
+                "salad"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-loren-"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f75940b8b7ba6562c692c5f/ba333616-1131-11eb-b01e-b696505a803e_dsc00201.jpg",
+                "logo": null
+            },
+            "title": "Sandwich Factory",
+            "name": "Sandwich Factory",
+            "track_id": "venue-sandwich-factory-herzliya",
+            "address": "החושלים 6, הרצליה",
+            "venue_id": "5f75940b8b7ba6562c692c5f",
+            "location": [
+                34.8069316,
+                32.1589089
+            ],
+            "short_description": "Sandwiching is our profession | Kosher",
+            "slug": "sandwich-factory-herzliya",
+            "tags": [
+                "sandwich",
+                "kosher",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sandwich-factory-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd8a5461ae923ebc40b168d/4a1b452a-3ecd-11eb-9864-46aa050f7452_3dbfd58a_3d55_11eb_8250_2675335c9241_054a8872_edit.jpg",
+                "logo": null
+            },
+            "title": "Lechem Erez | HaNadiv Herzliya",
+            "name": "Lechem Erez | HaNadiv Herzliya",
+            "track_id": "venue-lechem-erez-hanadiv-herzliya",
+            "address": "HaNadiv 71, Herzliya",
+            "venue_id": "5fd8a5461ae923ebc40b168d",
+            "location": [
+                34.8314807770621,
+                32.17063183655523
+            ],
+            "short_description": "Cafe & Italian food",
+            "slug": "lechem-erez-hanadiv-herzliya",
+            "tags": [
+                "bakery",
+                "pasta",
+                "italian"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/lechem-erez-hanadiv-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f0d66394c29d6c53c3c3ec0/a7838128-cf15-11ea-b225-36690cd3bdc2_____________2_.jpg",
+                "logo": null
+            },
+            "title": "Kubeh Gutte",
+            "name": "Kubeh Gutte",
+            "track_id": "venue-kubeh-gutte",
+            "address": "המנופים 11 הרצליה",
+            "venue_id": "5f0d66394c29d6c53c3c3ec0",
+            "location": [
+                34.8080081,
+                32.1602758
+            ],
+            "short_description": "Homemade Meals Changes Every Day",
+            "slug": "kubeh-gutte",
+            "tags": [
+                "mediterranean",
+                "homemade"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/kubeh-gutte"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620ba5aac0f0e686ef451dee/a21157a0-94c2-11ec-90c9-ba6bc877adf0______1.jpg",
+                "logo": null
+            },
+            "title": "Mr. Shake",
+            "name": "Mr. Shake",
+            "track_id": "venue-mr-shake",
+            "address": "סוקולוב 58",
+            "venue_id": "620ba5aac0f0e686ef451dee",
+            "location": [
+                34.84485722168157,
+                32.16727023613767
+            ],
+            "short_description": "A smoothie for the soul",
+            "slug": "mr-shake",
+            "tags": [
+                "smoothie",
+                "juice"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mr-shake"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/608148fb999d884ea9651918/ac8fd164-a5d2-11eb-b7dd-6271d72e43dd_img_0090_____.jpg",
+                "logo": null
+            },
+            "title": "Hummus Bahadunas | Herzliya",
+            "name": "Hummus Bahadunas | Herzliya",
+            "track_id": "venue-hummus-bahadunas-herzliya",
+            "address": "המנופים 9, הרצליה",
+            "venue_id": "608148fb999d884ea9651918",
+            "location": [
+                34.8077773,
+                32.1607509
+            ],
+            "short_description": "Hummus joint\n",
+            "slug": "hummus-bahadunas-herzliya",
+            "tags": [
+                "vegetarian",
+                "vegan",
+                "mediterranean"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-bahadunas-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e66928ad04e78941828618/cbb6301e-81fb-11ec-9042-c2f500c93a78_wolt_24_jan0767.jpg",
+                "logo": null
+            },
+            "title": "Hummus Hertzl",
+            "name": "Hummus Hertzl",
+            "track_id": "venue-hummus-hertzl",
+            "address": "הסדנאות 2, הרצליה",
+            "venue_id": "61e66928ad04e78941828618",
+            "location": [
+                34.8070628,
+                32.1625449
+            ],
+            "short_description": "Fresh Hummus made with love",
+            "slug": "hummus-hertzl",
+            "tags": [
+                "falafel",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-hertzl"
             },
             "provider": "wolt"
         },
@@ -876,37 +748,9 @@
                 "bakery",
                 "dessert"
             ],
-            "score": 9.2,
+            "score": 9.4,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/the-showroom-bakehouse-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62406cb46bd4d19ec800b5a5/6ecc14cc-b667-11ec-afb6-c67dc83f6312_____.jpg",
-                "logo": null
-            },
-            "title": "Shawarma Tzarum",
-            "name": "Shawarma Tzarum",
-            "track_id": "venue-shawarma-tzarum",
-            "address": " סוקולוב 73, הרצליה",
-            "venue_id": "62406cb46bd4d19ec800b5a5",
-            "location": [
-                34.8471544500842,
-                32.16722868906078
-            ],
-            "short_description": "Family-run Tzarum Restaurant\n",
-            "slug": "shawarma-tzarum",
-            "tags": [
-                "bbq",
-                "mediterranean",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-tzarum"
             },
             "provider": "wolt"
         },
@@ -940,83 +784,138 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db6e729941f68f80d5e8d44/1039d630-4dce-11ec-8a7a-322583a612be_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5de66030dfadcd7ac862f2b2/17cf506d61254f19a0bf9e649053b230-edits/43c71a5c4036f626c0b27f74b599a870",
                 "logo": null
             },
-            "title": "Joya | Herzliya",
-            "name": "Joya | Herzliya",
-            "track_id": "venue-joya-herzeliya",
-            "address": "אריה שנקר 9 הרצליה",
-            "venue_id": "5db6e729941f68f80d5e8d44",
+            "title": "Falafel Ba'Ribua | Ramat HaSharon",
+            "name": "Falafel Ba'Ribua | Ramat HaSharon",
+            "track_id": "venue-falafel-baribua-ramat-hasharon",
+            "address": "סוקולוב 34 רמת השרון",
+            "venue_id": "5de66030dfadcd7ac862f2b2",
             "location": [
-                34.80890929698944,
-                32.15891896411109
+                34.837045669555664,
+                32.141913520064755
             ],
-            "short_description": "Italian Food",
-            "slug": "joya-herzeliya",
+            "short_description": "Love to feed people",
+            "slug": "falafel-baribua-ramat-hasharon",
             "tags": [
-                "italian",
-                "pasta",
-                "pizza"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/joya-herzeliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620b812f95692fdb1b94c86d/3cb0b70c-a845-11ec-b074-1a58b6c80c76_fto08658__1_.jpg",
-                "logo": null
-            },
-            "title": "Pizza Rondo | Herzliya",
-            "name": "Pizza Rondo | Herzliya",
-            "track_id": "venue-pizza-rondo-herzliya",
-            "address": " בן גוריון 22, הרצליה",
-            "venue_id": "620b812f95692fdb1b94c86d",
-            "location": [
-                34.8415914,
-                32.1627602
-            ],
-            "short_description": "Wonderful Pizza Experience\n",
-            "slug": "pizza-rondo-herzliya",
-            "tags": [
-                "italian",
+                "local",
                 "kosher",
-                "pasta",
+                "salad",
                 "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-rondo-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e0c6103e12cb7c534e01b88/f762166a-2f4e-11ec-a14d-c6021e3126a7_riversushi039167yael_bonfis.jpg",
-                "logo": null
-            },
-            "title": "River Sushi Bar | Ramat HaSharon",
-            "name": "River Sushi Bar | Ramat HaSharon",
-            "track_id": "venue-river-ramat-hasharon",
-            "address": "סוקולוב 35 רמת השרון",
-            "venue_id": "5e0c6103e12cb7c534e01b88",
-            "location": [
-                34.83667058222156,
-                32.14193242076412
-            ],
-            "short_description": "Noodles Bar",
-            "slug": "river-ramat-hasharon",
-            "tags": [
-                "noodles",
-                "wok",
-                "sushi"
             ],
             "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/river-ramat-hasharon"
+                "url": "https://wolt.com/en/isr/undefined/venue/falafel-baribua-ramat-hasharon"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df249c96b9980e26d0342a5/e393304c-f600-11eb-87bb-e25dc0590986___________________.jpg",
+                "logo": null
+            },
+            "title": "Reviva and Celia | Ramat HaSharon ",
+            "name": "Reviva and Celia | Ramat HaSharon ",
+            "track_id": "venue-reviva-and-celia",
+            "address": "Hameyasdim 1 Ramat Hasharon",
+            "venue_id": "5df249c96b9980e26d0342a5",
+            "location": [
+                34.83686864376068,
+                32.13648631688793
+            ],
+            "short_description": "Patisserie • Coffee • Good Food",
+            "slug": "reviva-and-celia",
+            "tags": [
+                "deli",
+                "fish",
+                "pasta"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/reviva-and-celia"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a5f34028f91bddade6b29c/d762c06c-51c2-11ec-8b9a-b60c6a36ca8f_9d583acc_58c7_11eb_85e0_02c5b8d1f8d8_whatsapp_image_2021_01_17_at_15.04.37.jpeg",
+                "logo": null
+            },
+            "title": "Burger Station | Herzliya",
+            "name": "Burger Station | Herzliya",
+            "track_id": "venue-burger-station-herzliya",
+            "address": "אבן עזרא 17, הרצליה",
+            "venue_id": "61a5f34028f91bddade6b29c",
+            "location": [
+                34.8306709,
+                32.1656656
+            ],
+            "short_description": "Premium Burger - Kosher\n",
+            "slug": "burger-station-herzliya",
+            "tags": [
+                "burger",
+                "kids",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/burger-station-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/600449492946e56230c83455/6bb1ac8e-58d0-11eb-8ec6-02c5b8d1f8d8__________.jpg",
+                "logo": null
+            },
+            "title": "Poke Bowl  | Herzliya",
+            "name": "Poke Bowl  | Herzliya",
+            "track_id": "venue-poke-bowl-herzliya",
+            "address": "אבא אבן 10 הרצליה",
+            "venue_id": "600449492946e56230c83455",
+            "location": [
+                34.808653,
+                32.1619677
+            ],
+            "short_description": "Amazing Poke bowls, straight from NYC",
+            "slug": "poke-bowl-herzliya",
+            "tags": [
+                "japanese",
+                "healthy",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/poke-bowl-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5de3bf1c76f188e9d12f6234/582671a0-6166-11ec-87fa-4eec24b2cfa3_1400x900px_b__2_.jpeg",
+                "logo": null
+            },
+            "title": "Roladin | Ramat HaSharon",
+            "name": "Roladin | Ramat HaSharon",
+            "track_id": "venue-roladin-ramat-hasharon",
+            "address": "סוקולוב 37 רמת השרון",
+            "venue_id": "5de3bf1c76f188e9d12f6234",
+            "location": [
+                34.836739897727966,
+                32.14213246946134
+            ],
+            "short_description": "Bakery & Café",
+            "slug": "roladin-ramat-hasharon",
+            "tags": [
+                "café",
+                "pastry",
+                "cake"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/roladin-ramat-hasharon"
             },
             "provider": "wolt"
         },
@@ -1048,27 +947,52 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd739c27e9545410f8c0003/14dabd26-4861-11eb-9472-ce37d90bb4d9_054a3143.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f6a3c4d0d4bb1ee9435713/594c4904-925a-11ec-aa26-a2ab0ef82e25_list.jpg",
                 "logo": null
             },
-            "title": "Kebab G Hinawi | Herzliya",
-            "name": "Kebab G Hinawi | Herzliya",
-            "track_id": "venue-hinnawi-bepita-herzliya",
-            "address": "החושלים 4, הרצליה פיתוח",
-            "venue_id": "5fd739c27e9545410f8c0003",
+            "title": "Grilled Food Truck",
+            "name": "Grilled Food Truck",
+            "track_id": "venue-grilled-food-truck",
+            "address": "מדינת היהודים 85",
+            "venue_id": "61f6a3c4d0d4bb1ee9435713",
             "location": [
-                34.806248,
-                32.158842
+                34.8108401,
+                32.1669919
             ],
-            "short_description": "בשר ודגים טריים על האש",
-            "slug": "hinnawi-bepita-herzliya",
+            "short_description": "Delicious street food",
+            "slug": "grilled-food-truck",
             "tags": [
-                "bbq",
-                "pita"
+                "sandwich",
+                "kosher"
             ],
-            "score": 8,
+            "score": 7.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hinnawi-bepita-herzliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/grilled-food-truck"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e4167a6596792449ee49ede/c9279750-4c12-11ea-9298-0a586476e911_yaelitz-7.jpg",
+                "logo": null
+            },
+            "title": "Landwer | Herzliya",
+            "name": "Landwer | Herzliya",
+            "track_id": "venue-landwer-cafe-herzliya",
+            "address": "שדרות ח״ן 8, הרצליה ",
+            "venue_id": "5e4167a6596792449ee49ede",
+            "location": [
+                34.8429571,
+                32.1680921
+            ],
+            "short_description": "Good food that comes to you\n",
+            "slug": "landwer-cafe-herzliya",
+            "tags": [
+                "kids"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-herzliya"
             },
             "provider": "wolt"
         },
@@ -1099,297 +1023,83 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc2bd46eb1b86dc06d348fb/b3e50468-9eb8-11ec-8f8d-9a89324a5b75_58463a32_9df5_11ec_b436_7ee71934c123_yaelitz_9.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a32eb1cf2101fa90015c5/1b782a5e-e042-11ec-9cd7-eeb03fa20145_list.jpg",
                 "logo": null
             },
-            "title": "Agadir | Herzliya",
-            "name": "Agadir | Herzliya",
-            "track_id": "venue-agadir-herzliya",
-            "address": "המנופים 9 הרצליה ",
-            "venue_id": "5dc2bd46eb1b86dc06d348fb",
+            "title": "Yoel's Butke",
+            "name": "Yoel's Butke",
+            "track_id": "venue-yoels-butke",
+            "address": "נתיבות, 2, הרצליה",
+            "venue_id": "628a32eb1cf2101fa90015c5",
             "location": [
-                34.80770766735077,
-                32.16058109487576
+                34.81485929137886,
+                32.159158572343046
             ],
-            "short_description": "100% Local Fresh Beef Burger\n",
-            "slug": "agadir-herzliya",
+            "short_description": "Homemade Food",
+            "slug": "yoels-butke",
             "tags": [
-                "burger",
-                "american"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/agadir-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f32d0c75eda1d5ae8e59fab/f05d6316-dbfc-11ea-8cae-224db974fd52_____________1_.jpg",
-                "logo": null
-            },
-            "title": "Shawarma Shmil",
-            "name": "Shawarma Shmil",
-            "track_id": "venue-korchia",
-            "address": "Ha-Ma'apilim St 17, Kfar Shmaryahu",
-            "venue_id": "5f32d0c75eda1d5ae8e59fab",
-            "location": [
-                34.81937642800701,
-                32.17975046920732
-            ],
-            "short_description": "Falafel & Schnitzel & Shawarma | Former Korchia \nKosher",
-            "slug": "korchia",
-            "tags": [
-                "shawarma",
-                "falafel",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/korchia"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fba741ff1a9d68e41edc2f1/573a9640-2cce-11eb-b927-26a35a645d5f_list.jpg",
-                "logo": null
-            },
-            "title": "Chooka | Herzliya",
-            "name": "Chooka | Herzliya",
-            "track_id": "venue-chooka-hertzliya",
-            "address": "שדרות שבעת הכוכבים 8",
-            "venue_id": "5fba741ff1a9d68e41edc2f1",
-            "location": [
-                34.8239528,
-                32.1650615
-            ],
-            "short_description": "Asian Kitchen",
-            "slug": "chooka-hertzliya",
-            "tags": [
-                "asian",
-                "fried rice",
-                "japanese"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/chooka-hertzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f2ad3b21757ba6d634ec7c/ecb4e834-827b-11ec-bb95-5e0157716bae______416.png",
-                "logo": null
-            },
-            "title": "416 EXPRESS",
-            "name": "416 EXPRESS",
-            "track_id": "venue-416-express",
-            "address": "סוקולוב 72, רמת השרון",
-            "venue_id": "61f2ad3b21757ba6d634ec7c",
-            "location": [
-                34.8390012,
-                32.1462804
-            ],
-            "short_description": "A Selection of Homemade Vegan Dishes\n",
-            "slug": "416-express",
-            "tags": [
-                "Health",
-                "vegan",
-                "salad"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/416-express"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61657fd7e8d11d8c0aa9c4b2/154a101a-370b-11ec-9d5f-4a054fc25c7d_list2.jpg",
-                "logo": null
-            },
-            "title": "Matamei HaBoutique",
-            "name": "Matamei HaBoutique",
-            "track_id": "venue-messikas-kitchen",
-            "address": "מנחם בן סרוק 10, הרצליה ",
-            "venue_id": "61657fd7e8d11d8c0aa9c4b2",
-            "location": [
-                34.8323632,
-                32.1634978
-            ],
-            "short_description": "Homemade food | Kosher L'mehadrim Badatz",
-            "slug": "messikas-kitchen",
-            "tags": [
-                "homemade",
-                "kosher",
-                "mediterranean"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/messikas-kitchen"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fd0a32a0b9163aaf8070a01/b28c104c-6ed6-11eb-842c-4674ae990827_bonfis_2035.jpg",
-                "logo": null
-            },
-            "title": "Moses Shop Kosher | Herzliya",
-            "name": "Moses Shop Kosher | Herzliya",
-            "track_id": "venue-moses-shop-herzliya",
-            "address": "אריק איינשטיין 1, הרצליה",
-            "venue_id": "5fd0a32a0b9163aaf8070a01",
-            "location": [
-                34.815298,
-                32.1635582
-            ],
-            "short_description": "Local burger shop",
-            "slug": "moses-shop-herzliya",
-            "tags": [
-                "kosher",
-                "burger",
-                "kosher"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/moses-shop-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db814d0eee9c07d53459209/5ea5b5743f56d676a39fd455d512f6f3-edits/90dd89cce2cffa9cca6a7a51151e2d1f",
-                "logo": null
-            },
-            "title": "Greco Bouzoukia | Herzliya",
-            "name": "Greco Bouzoukia | Herzliya",
-            "track_id": "venue-greco-herzeliya",
-            "address": "אבא אבן 9 הרצליה",
-            "venue_id": "5db814d0eee9c07d53459209",
-            "location": [
-                34.80845868587494,
-                32.16232947839805
-            ],
-            "short_description": "Authentic Greek Cuisine",
-            "slug": "greco-herzeliya",
-            "tags": [
-                "greek",
                 "kebab",
-                "grill"
+                "street food",
+                "mediterranean",
+                "new"
             ],
-            "score": 8.2,
+            "score": 0,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/greco-herzeliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/yoels-butke"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dbaca0bcdc0c0aed3bfe8c2/fe584381fd399f4885fca119cf39e847-edits/b09274e79f8a977f1bed29e14184b2dc",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dbea20aff7182f4139f3dfe/d880f48c94aa30ad3dce50e1a9fa1036-edits/d4a5d04c512e2cd2c6d0b6bf647af747",
                 "logo": null
             },
-            "title": "Tandoori | Herzliya",
-            "name": "Tandoori | Herzliya",
-            "track_id": "venue-tandoori-herzeliya",
-            "address": "משכית 32 הרצליה",
-            "venue_id": "5dbaca0bcdc0c0aed3bfe8c2",
+            "title": "Mi Casa",
+            "name": "Mi Casa",
+            "track_id": "venue-mi-casa",
+            "address": "Khanayat Ha-Pekan St, Kibbutz Glil-Yam",
+            "venue_id": "5dbea20aff7182f4139f3dfe",
             "location": [
-                34.809553027153015,
-                32.16226136018761
+                34.832775592803955,
+                32.15755561675368
             ],
-            "short_description": "Indian dishes for everyone's taste",
-            "slug": "tandoori-herzeliya",
+            "short_description": "Happy Food ",
+            "slug": "mi-casa",
             "tags": [
-                "indian",
-                "curry",
-                "street food"
+                "bistro",
+                "café",
+                "healthy"
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/tandoori-herzeliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/mi-casa"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ef88d9dd6e9857b83be4c96/885d256a-bc6e-11ea-9e10-e2098e362b78_list1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60f6a44a1c6305780d93dc5a/80cb308a-f363-11eb-a3c5-d6ce6e1d29e1_list.jpg",
                 "logo": null
             },
-            "title": "Pizza Slice | Ramat Hasharon",
-            "name": "Pizza Slice | Ramat Hasharon",
-            "track_id": "venue-pizza-slice",
-            "address": "סוקולוב 72 רמת השרון",
-            "venue_id": "5ef88d9dd6e9857b83be4c96",
+            "title": "Dudinka",
+            "name": "Dudinka",
+            "track_id": "venue-dudinka",
+            "address": "סוקולוב 49, רמת השרון",
+            "venue_id": "60f6a44a1c6305780d93dc5a",
             "location": [
-                34.8390012,
-                32.1462804
+                34.8374459,
+                32.1437061
             ],
-            "short_description": "Pizza on The Rocks",
-            "slug": "pizza-slice",
+            "short_description": "Coffee House & Deli",
+            "slug": "dudinka",
             "tags": [
-                "pizza",
-                "italian"
+                "bakery",
+                "breakfast",
+                "deli"
             ],
-            "score": 8,
+            "score": 9.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-slice"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc2ad8ab7f0006597ebee35/f0ffebf25d102322cbbcfd2dc5de0005-edits/ca55c9eb6f99429f5e3887812de2f9c8",
-                "logo": null
-            },
-            "title": "Abu Hassan | Herzliya ",
-            "name": "Abu Hassan | Herzliya ",
-            "track_id": "venue-abu-hassan-herzliya",
-            "address": "משכית 27 הרצליה ",
-            "venue_id": "5dc2ad8ab7f0006597ebee35",
-            "location": [
-                34.810609817504876,
-                32.16333762195889
-            ],
-            "short_description": "Hummus, Shawarma and Grill ",
-            "slug": "abu-hassan-herzliya",
-            "tags": [
-                "shawarma",
-                "israeli",
-                "salad"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/abu-hassan-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f2a5759bf1a6490e3fbcf52/3c246fb2-b89a-11ec-87e5-624fff02a53d_______1_.jpg",
-                "logo": null
-            },
-            "title": "M32",
-            "name": "M32",
-            "track_id": "venue-m32",
-            "address": "משכית 32 הרצליה",
-            "venue_id": "5f2a5759bf1a6490e3fbcf52",
-            "location": [
-                34.8096736,
-                32.1624063
-            ],
-            "short_description": "Burgers By Rosenberg ",
-            "slug": "m32",
-            "tags": [
-                "burger",
-                "chicken",
-                "beyondmeat"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/m32"
+                "url": "https://wolt.com/en/isr/undefined/venue/dudinka"
             },
             "provider": "wolt"
         },
@@ -1415,7 +1125,7 @@
                 "fish",
                 "kosher"
             ],
-            "score": 9,
+            "score": 8.8,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/hamezave-herzliya"
             },
@@ -1423,217 +1133,349 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dd68ce6d79469193756b4f5/a23adbd0-dffa-11ea-85c3-5e1b644cbff0_yaelitz_5.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/623054d461b2e0bf0eaf6607/217e5666-a43e-11ec-9a1c-72812d01154e_ed72064a_6467_11eb_9867_06fac92bef9c_____.jpg",
                 "logo": null
             },
-            "title": "Vaniglia | Ramat HaSharon",
-            "name": "Vaniglia | Ramat HaSharon",
-            "track_id": "venue-vaniglia",
-            "address": "59 Usishkin st. Ramat Hasharon",
-            "venue_id": "5dd68ce6d79469193756b4f5",
+            "title": "Cafe Alma | Herzliya",
+            "name": "Cafe Alma | Herzliya",
+            "track_id": "venue-cafe-alma-herzeliya",
+            "address": "שבעת הכוכבים 8, הרצליה",
+            "venue_id": "623054d461b2e0bf0eaf6607",
             "location": [
-                34.843541979789734,
-                32.14318533547349
+                34.8239528,
+                32.1650615
             ],
-            "short_description": "Your local beloved ice cream",
-            "slug": "vaniglia",
+            "short_description": "Simply a Good Neighborhood Cafe\n",
+            "slug": "cafe-alma-herzeliya",
             "tags": [
-                "ice cream",
-                "sweets"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/vaniglia"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5de66030dfadcd7ac862f2b2/17cf506d61254f19a0bf9e649053b230-edits/43c71a5c4036f626c0b27f74b599a870",
-                "logo": null
-            },
-            "title": "Falafel Ba'Ribua | Ramat HaSharon",
-            "name": "Falafel Ba'Ribua | Ramat HaSharon",
-            "track_id": "venue-falafel-baribua-ramat-hasharon",
-            "address": "סוקולוב 34 רמת השרון",
-            "venue_id": "5de66030dfadcd7ac862f2b2",
-            "location": [
-                34.837045669555664,
-                32.141913520064755
-            ],
-            "short_description": "Love to feed people",
-            "slug": "falafel-baribua-ramat-hasharon",
-            "tags": [
-                "local",
-                "kosher",
-                "salad",
-                "kosher"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/falafel-baribua-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/601145d54a37f3689902b232/c3b5fa9c-608d-11eb-a9fc-6aeeb6719a5b________.jpg",
-                "logo": null
-            },
-            "title": "Mexicana | Glilot",
-            "name": "Mexicana | Glilot",
-            "track_id": "venue-mexicana-ramat-hasharon",
-            "address": "סינמה סיטי, גלילות",
-            "venue_id": "601145d54a37f3689902b232",
-            "location": [
-                34.8044874,
-                32.1463675
-            ],
-            "short_description": "‫Feels Like Mexico 🇲🇽 ",
-            "slug": "mexicana-ramat-hasharon",
-            "tags": [
-                "burrito",
-                "kids",
-                "mexican"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mexicana-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e774a5ab9e3054b13f2adea/21566438-7030-11ea-982b-0a58647f8d4b_List.jpg",
-                "logo": null
-            },
-            "title": "Calata 15 ",
-            "name": "Calata 15 ",
-            "track_id": "venue-calata15",
-            "address": "מדינת היהודים 89, הרצליה ",
-            "venue_id": "5e774a5ab9e3054b13f2adea",
-            "location": [
-                34.8108567,
-                32.1666014
-            ],
-            "short_description": "Ristorante Italiano ",
-            "slug": "calata15",
-            "tags": [
-                "italian",
+                "café",
                 "pasta",
-                "pizza"
+                "salad"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-alma-herzeliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ddcedbd667366c846fdae2c/ecc79f3de188978422ba84c76f61ae95-edits/48dafa99a75f2dae743b0eb6aea6af9b",
+                "logo": null
+            },
+            "title": "Cafe Efrat ",
+            "name": "Cafe Efrat ",
+            "track_id": "venue-cafe-efrat",
+            "address": "הראשונים 1 כפר שמריהו",
+            "venue_id": "5ddcedbd667366c846fdae2c",
+            "location": [
+                34.818653762340546,
+                32.18021555775942
+            ],
+            "short_description": "Local Café Restaurant",
+            "slug": "cafe-efrat",
+            "tags": [
+                "café",
+                "breakfast",
+                "salad"
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/calata15"
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-efrat"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ddd22b8aea871fd021222e5/5a61c3c981467b540305138e666fcb87-edits/50b617f9a5d7e47e2bf0097bb25186bf",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df2028d5c628b04b7470a92/ff848b1c-90b0-11eb-825d-5ef7165f98f6_list.jpg",
                 "logo": null
             },
-            "title": "Rooster Ba’Kfar",
-            "name": "Rooster Ba’Kfar",
-            "track_id": "venue-rooster-1",
-            "address": "הראשונים 2 כפר שמריהו",
-            "venue_id": "5ddd22b8aea871fd021222e5",
+            "title": "Yoni 71 - Shawarma & Grill",
+            "name": "Yoni 71 - Shawarma & Grill",
+            "track_id": "venue-shawarma-yoni-71",
+            "address": "סוקולוב 71, רמת השרון",
+            "venue_id": "5df2028d5c628b04b7470a92",
             "location": [
-                34.81923580169678,
-                32.17987957340909
+                34.83844041824341,
+                32.14630844708588
             ],
-            "short_description": "Pizzeria, Italian Restaurant and Wine",
-            "slug": "rooster-1",
+            "short_description": "Shawarma, Meat and Salads",
+            "slug": "shawarma-yoni-71",
             "tags": [
-                "italian",
-                "pizza",
-                "pasta"
+                "bbq",
+                "grill",
+                "kebab"
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/rooster-1"
+                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-yoni-71"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5de789371fd5c510c3b727ad/1e700636c6706e5ed5cf994b5b51668a-edits/69d26f1d70b165b1afef19c874d24499",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db0546785539acd045690a0/7890ce08ed44d3aea8c53d3853eadc81-edits/b91e62ee5d2d4a3b967332a78034f97d",
                 "logo": null
             },
-            "title": "Pizza Bar",
-            "name": "Pizza Bar",
-            "track_id": "venue-pizza-bar-herzliya",
-            "address": "HaNadiv St 49, Herzliya",
-            "venue_id": "5de789371fd5c510c3b727ad",
+            "title": "Pilaf | Herzliya",
+            "name": "Pilaf | Herzliya",
+            "track_id": "venue-pilaf",
+            "address": "Harash St 3, Herzliya",
+            "venue_id": "5db0546785539acd045690a0",
             "location": [
-                34.8357367515564,
-                32.17009916139212
+                34.81050700000001,
+                32.1629075
             ],
-            "short_description": "Pizza, Salads, Pastries  ",
-            "slug": "pizza-bar-herzliya",
+            "short_description": "Contemporary Israeli Cuisine",
+            "slug": "pilaf",
             "tags": [
-                "pizza",
-                "salad",
-                "italian"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-bar-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61caeaf31a1da90fdb322ebe/85eef448-67cb-11ec-82ea-e62097217e54_a0786bfe_f743_11ea_96e9_966eef176114_a984ae24_9519_11ea_a5fa_0a586470b807_whatsapp_image_2020_05_13_at_15.20.58.jpeg",
-                "logo": null
-            },
-            "title": "Papa John's | Herzliya",
-            "name": "Papa John's | Herzliya",
-            "track_id": "venue-papa-johns-herzliya",
-            "address": "המנופים 11, הרצליה",
-            "venue_id": "61caeaf31a1da90fdb322ebe",
-            "location": [
-                34.8080081,
-                32.1602758
-            ],
-            "short_description": "American Pizza\n",
-            "slug": "papa-johns-herzliya",
-            "tags": [
-                "american",
-                "pizza"
+                "bistro",
+                "chicken",
+                "fish",
+                "kosher"
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/papa-johns-herzliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/pilaf"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a5f34028f91bddade6b29c/d762c06c-51c2-11ec-8b9a-b60c6a36ca8f_9d583acc_58c7_11eb_85e0_02c5b8d1f8d8_whatsapp_image_2021_01_17_at_15.04.37.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dbaca0bcdc0c0aed3bfe8c2/fe584381fd399f4885fca119cf39e847-edits/b09274e79f8a977f1bed29e14184b2dc",
                 "logo": null
             },
-            "title": "Burger Station | Herzliya",
-            "name": "Burger Station | Herzliya",
-            "track_id": "venue-burger-station-herzliya",
-            "address": "אבן עזרא 17, הרצליה",
-            "venue_id": "61a5f34028f91bddade6b29c",
+            "title": "Tandoori | Herzliya",
+            "name": "Tandoori | Herzliya",
+            "track_id": "venue-tandoori-herzeliya",
+            "address": "משכית 32 הרצליה",
+            "venue_id": "5dbaca0bcdc0c0aed3bfe8c2",
             "location": [
-                34.8306709,
-                32.1656656
+                34.809553027153015,
+                32.16226136018761
             ],
-            "short_description": "Premium Burger - Kosher\n",
-            "slug": "burger-station-herzliya",
+            "short_description": "Indian dishes for everyone's taste",
+            "slug": "tandoori-herzeliya",
             "tags": [
-                "burger",
-                "kids",
-                "sandwich",
-                "kosher"
+                "indian",
+                "curry",
+                "street food"
             ],
-            "score": 8,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/burger-station-herzliya"
+                "url": "https://wolt.com/en/isr/undefined/venue/tandoori-herzeliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f6997ea2311a3dc3ac32e6f/30354426-fc9c-11ea-bc40-e6359a56eda6_list.jpg",
+                "logo": null
+            },
+            "title": "Sulica | Herzliya",
+            "name": "Sulica | Herzliya",
+            "track_id": "venue-sulica-herzliya",
+            "address": "Khavatselet ha-Sharon St 35",
+            "venue_id": "5f6997ea2311a3dc3ac32e6f",
+            "location": [
+                34.80528444420914,
+                32.179698407699206
+            ],
+            "short_description": "Deli by chef Avi Biton (Kosher)",
+            "slug": "sulica-herzliya",
+            "tags": [
+                "chicken",
+                "deli",
+                "fish"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sulica-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed38b8c852f4524eb1d63f8/058ad116-ebae-11ec-9353-72fc91a48f26_wolt_back_5.jpg",
+                "logo": null
+            },
+            "title": "Max Brenner | Herzliya ",
+            "name": "Max Brenner | Herzliya ",
+            "track_id": "venue-max-bernner-herzliya",
+            "address": "Ha-Menofim St 8, Herzliya",
+            "venue_id": "5ed38b8c852f4524eb1d63f8",
+            "location": [
+                34.80727466170296,
+                32.159876909287966
+            ],
+            "short_description": "Chocolate Experience",
+            "slug": "max-bernner-herzliya",
+            "tags": [],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/max-bernner-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/607c3fbcef48c84fa77d5d21/6037b0ec-a051-11eb-90f1-261a225b2daf_________.jpeg",
+                "logo": null
+            },
+            "title": "Café Greg | Herzliya",
+            "name": "Café Greg | Herzliya",
+            "track_id": "venue-caf-greg-herzliya",
+            "address": "שבעת הכוכבים 8, הרצליה",
+            "venue_id": "607c3fbcef48c84fa77d5d21",
+            "location": [
+                34.8239528,
+                32.1650615
+            ],
+            "short_description": "Restaurant & Cafe \n",
+            "slug": "caf-greg-herzliya",
+            "tags": [
+                "café",
+                "pizza",
+                "salad"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-greg-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe34bc51adf05a74b3db6df/fc391500-4a7d-11eb-8bcf-3ef2b473305f_karela_00536.jpg",
+                "logo": null
+            },
+            "title": "Pitzi Cafe | Hakfar Hayarok",
+            "name": "Pitzi Cafe | Hakfar Hayarok",
+            "track_id": "venue-mevashlim-pitzi-cafe",
+            "address": "משה סנה 199, רמת השרון",
+            "venue_id": "5fe34bc51adf05a74b3db6df",
+            "location": [
+                34.82948443217681,
+                32.13033789242993
+            ],
+            "short_description": "Heat & Serve | By Chef Haim Cohen",
+            "slug": "mevashlim-pitzi-cafe",
+            "tags": [
+                "salad",
+                "sandwich",
+                "mediterranean"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mevashlim-pitzi-cafe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dcbcc489a64e0fb38a23d63/61786386f5449274db6dd53667c8ac8a-edits/bc0d9fc81605c22d6a2011832bcdddf7",
+                "logo": null
+            },
+            "title": "Mimi | Herzliya",
+            "name": "Mimi | Herzliya",
+            "track_id": "venue-mimi",
+            "address": "אריק איינשטיין 3 הרצליה",
+            "venue_id": "5dcbcc489a64e0fb38a23d63",
+            "location": [
+                34.8145580291748,
+                32.162818012196496
+            ],
+            "short_description": "Bakery • Patisserie • Coffee • Ice Cream",
+            "slug": "mimi",
+            "tags": [
+                "bakery",
+                "breakfast",
+                "café"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mimi"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5db19d02421dad76d3213c42/4cd647e4-7219-11ec-8eb1-967028269a59_list.jpg",
+                "logo": null
+            },
+            "title": "Rosenberg",
+            "name": "Rosenberg",
+            "track_id": "venue-rosenberg-herzliya",
+            "address": "משכית 32 הרצליה",
+            "venue_id": "5db19d02421dad76d3213c42",
+            "location": [
+                34.80975687503815,
+                32.1625747035341
+            ],
+            "short_description": "Israeli Deli",
+            "slug": "rosenberg-herzliya",
+            "tags": [
+                "mediterranean",
+                "grill",
+                "chicken"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rosenberg-herzliya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627a29f124a952f0d34189bd/afe82aa0-d1fa-11ec-92ca-e67f59634814_wolt_2_may13812.jpg",
+                "logo": null
+            },
+            "title": "Sassoon In The Neighborhood",
+            "name": "Sassoon In The Neighborhood",
+            "track_id": "venue-sassoon-in-the-neighborhood",
+            "address": "האילנות 35",
+            "venue_id": "627a29f124a952f0d34189bd",
+            "location": [
+                34.8450688,
+                32.1784642
+            ],
+            "short_description": "Pastas, sandwiches and more",
+            "slug": "sassoon-in-the-neighborhood",
+            "tags": [
+                "pasta",
+                "salad",
+                "sandwich"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sassoon-in-the-neighborhood"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e70b368466ad0c47040c37a/1b49e46a-6843-11ea-9c32-0a58647dfb04_yaelitz-9.jpg",
+                "logo": null
+            },
+            "title": "Landwer | Ramat HaSharon",
+            "name": "Landwer | Ramat HaSharon",
+            "track_id": "venue-landwer-cafe-ramat-hasharon",
+            "address": "סוקולוב 95, רמת השרון",
+            "venue_id": "5e70b368466ad0c47040c37a",
+            "location": [
+                34.83974817265073,
+                32.14922609270106
+            ],
+            "short_description": "Coffee & Good Food",
+            "slug": "landwer-cafe-ramat-hasharon",
+            "tags": [
+                "bistro",
+                "bistro",
+                "breakfast"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-ramat-hasharon"
             },
             "provider": "wolt"
         },
@@ -1667,588 +1509,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc19e4615ca69287eb914f6/d2bdebb8-a90b-11ec-944f-16ff3f3565b4_karela_00064.jpg",
-                "logo": null
-            },
-            "title": "Enjera",
-            "name": "Enjera",
-            "track_id": "venue-enjera",
-            "address": "בן גוריון 15 הרצליה",
-            "venue_id": "5dc19e4615ca69287eb914f6",
-            "location": [
-                34.84281241893768,
-                32.16502237751682
-            ],
-            "short_description": "Ethiopian Restaurant  ",
-            "slug": "enjera",
-            "tags": [],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/enjera"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6022a22869380922dabd27da/16206232-6ae7-11eb-813a-b66a81283b01______________.jpeg",
-                "logo": null
-            },
-            "title": "Abulafia | Cinema City Glilot",
-            "name": "Abulafia | Cinema City Glilot",
-            "track_id": "venue-abulafia-cinema-city-glilot",
-            "address": "סינמה סיטי גלילות",
-            "venue_id": "6022a22869380922dabd27da",
-            "location": [
-                34.804222368313624,
-                32.14710976795941
-            ],
-            "short_description": "Pastries From the Legendary Abulafia Bakery",
-            "slug": "abulafia-cinema-city-glilot",
-            "tags": [
-                "bakery",
-                "bagel",
-                "pastry"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/abulafia-cinema-city-glilot"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5df2028d5c628b04b7470a92/ff848b1c-90b0-11eb-825d-5ef7165f98f6_list.jpg",
-                "logo": null
-            },
-            "title": "Yoni 71 - Shawarma & Grill",
-            "name": "Yoni 71 - Shawarma & Grill",
-            "track_id": "venue-shawarma-yoni-71",
-            "address": "סוקולוב 71, רמת השרון",
-            "venue_id": "5df2028d5c628b04b7470a92",
-            "location": [
-                34.83844041824341,
-                32.14630844708588
-            ],
-            "short_description": "Shawarma, Meat and Salads",
-            "slug": "shawarma-yoni-71",
-            "tags": [
-                "bbq",
-                "grill",
-                "kebab"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shawarma-yoni-71"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5d5e6022500ca9638d746f0f/9ccf4324-d410-11eb-b5f4-e6b3ff973d75_054a0976.jpg",
-                "logo": null
-            },
-            "title": "Gelateria Siciliana | Herzliya",
-            "name": "Gelateria Siciliana | Herzliya",
-            "track_id": "venue-siciliana-1",
-            "address": "שנקר 14 הרצליה",
-            "venue_id": "5d5e6022500ca9638d746f0f",
-            "location": [
-                34.80863034725189,
-                32.15928681533526
-            ],
-            "short_description": "Original Ice Cream",
-            "slug": "siciliana-1",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/siciliana-1"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e6fac1c068b4348dc495e61/cf4250e8-69e6-11ea-9bab-0a586475cdf0_%D7%A7%D7%95%D7%9E%D7%A4%D7%95%D7%96%D7%99%D7%A6%D7%99%D7%94%20.jpg",
-                "logo": null
-            },
-            "title": "Sushi Bar | Ramat HaSharon",
-            "name": "Sushi Bar | Ramat HaSharon",
-            "track_id": "venue-sushi-bar-ramathasharon",
-            "address": "סוקולוב 111, רמת השרון ",
-            "venue_id": "5e6fac1c068b4348dc495e61",
-            "location": [
-                34.84154092488164,
-                32.151414202036015
-            ],
-            "short_description": "Authentic Asian Kitchen ",
-            "slug": "sushi-bar-ramathasharon",
-            "tags": [
-                "asian",
-                "noodles",
-                "sushi"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sushi-bar-ramathasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dd417303404627bbf3869ea/0d4422b51ae40406f8c07fdf9268f937-edits/f9f9f5fce3c4b33654ca421f07b3581d",
-                "logo": null
-            },
-            "title": "Edna",
-            "name": "Edna",
-            "track_id": "venue-edna",
-            "address": " החרש 1, רמת השרון",
-            "venue_id": "5dd417303404627bbf3869ea",
-            "location": [
-                34.8436645,
-                32.1367891
-            ],
-            "short_description": "Local Persian Cuisine ",
-            "slug": "edna",
-            "tags": [
-                "local",
-                "sweets",
-                "cake"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/edna"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dbabe944fe02bf297703470/479c0742-6403-11ec-9113-6a784cad470a__.jpg",
-                "logo": null
-            },
-            "title": "Tony Vespa Pizza | Herzliya",
-            "name": "Tony Vespa Pizza | Herzliya",
-            "track_id": "venue-tony-vespa-herzliya",
-            "address": "אריה שנקר 18 הרצליה",
-            "venue_id": "5dbabe944fe02bf297703470",
-            "location": [
-                34.807836413383484,
-                32.157865357325996
-            ],
-            "short_description": "Pizza & Rock 'N' Roll",
-            "slug": "tony-vespa-herzliya",
-            "tags": [
-                "pizza",
-                "italian"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/tony-vespa-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5faa87032b1eb5163974e66f/1090abd0-2350-11eb-a5ee-decab234d060_list.jpg",
-                "logo": null
-            },
-            "title": "Zozobra | Herzliya",
-            "name": "Zozobra | Herzliya",
-            "track_id": "venue-zozobra-herzliya",
-            "address": "אריה שנקר 7, הרצליה",
-            "venue_id": "5faa87032b1eb5163974e66f",
-            "location": [
-                34.80905351277579,
-                32.15929159832873
-            ],
-            "short_description": "A world of flavors",
-            "slug": "zozobra-herzliya",
-            "tags": [
-                "noodles",
-                "asian",
-                "wok"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/zozobra-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60044cce127d1f23fcd8f719/7c660758-58d2-11eb-b569-7efc52876d60____________.jpg",
-                "logo": null
-            },
-            "title": "Vaniglia | Herzliya",
-            "name": "Vaniglia | Herzliya",
-            "track_id": "venue-vaniglia-herzliya",
-            "address": "שדרות שבעת הכוכבים 8 הרצליה",
-            "venue_id": "60044cce127d1f23fcd8f719",
-            "location": [
-                34.8239528,
-                32.1650615
-            ],
-            "short_description": "Your local ice cream\n",
-            "slug": "vaniglia-herzliya",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "crepes"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/vaniglia-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62b42355cb821d4c6787f9bb/5bc10a32-f6c1-11ec-b0c4-065889b1ba8a_____.jpg",
-                "logo": null
-            },
-            "title": "Jamil & Shifra Meat",
-            "name": "Jamil & Shifra Meat",
-            "track_id": "venue-shifra-jamil",
-            "address": " אריק איינשטיין 1, הרצליה",
-            "venue_id": "62b42355cb821d4c6787f9bb",
-            "location": [
-                34.815298,
-                32.1635582
-            ],
-            "short_description": "A World of Flavors by Shifra and Jamil\n",
-            "slug": "shifra-jamil",
-            "tags": [
-                "bbq",
-                "kosher",
-                "mediterranean",
-                "kosher",
-                "new"
-            ],
-            "score": 6.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shifra-jamil"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f13f6472b96dd328409e8a3/630d408a-120c-11eb-9bc0-be41c1fe4f51_dsc00168.jpg",
-                "logo": null
-            },
-            "title": "Nammos",
-            "name": "Nammos",
-            "track_id": "venue-nammos",
-            "address": "הצדף 1 הרצליה",
-            "venue_id": "5f13f6472b96dd328409e8a3",
-            "location": [
-                34.7953643,
-                32.1644282
-            ],
-            "short_description": "Japanese Kitchen",
-            "slug": "nammos",
-            "tags": [
-                "asian",
-                "fish",
-                "japanese"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/nammos"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed38b8c852f4524eb1d63f8/058ad116-ebae-11ec-9353-72fc91a48f26_wolt_back_5.jpg",
-                "logo": null
-            },
-            "title": "Max Brenner | Herzliya ",
-            "name": "Max Brenner | Herzliya ",
-            "track_id": "venue-max-bernner-herzliya",
-            "address": "Ha-Menofim St 8, Herzliya",
-            "venue_id": "5ed38b8c852f4524eb1d63f8",
-            "location": [
-                34.80727466170296,
-                32.159876909287966
-            ],
-            "short_description": "Chocolate Experience",
-            "slug": "max-bernner-herzliya",
-            "tags": [],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/max-bernner-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5fe34bc51adf05a74b3db6df/fc391500-4a7d-11eb-8bcf-3ef2b473305f_karela_00536.jpg",
-                "logo": null
-            },
-            "title": "Pitzi Cafe | Hakfar Hayarok",
-            "name": "Pitzi Cafe | Hakfar Hayarok",
-            "track_id": "venue-mevashlim-pitzi-cafe",
-            "address": "משה סנה 199, רמת השרון",
-            "venue_id": "5fe34bc51adf05a74b3db6df",
-            "location": [
-                34.82948443217681,
-                32.13033789242993
-            ],
-            "short_description": "Heat & Serve | By Chef Haim Cohen",
-            "slug": "mevashlim-pitzi-cafe",
-            "tags": [
-                "salad",
-                "sandwich",
-                "mediterranean"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mevashlim-pitzi-cafe"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e037647e61e7e481794bd9b/d804a2ac-ba71-11ec-bad1-062004876a88_____1.jpg",
-                "logo": null
-            },
-            "title": "BBB | Herzliya",
-            "name": "BBB | Herzliya",
-            "track_id": "venue-bbb-herzliya",
-            "address": "אריה שנקר 11 הרצליה",
-            "venue_id": "5e037647e61e7e481794bd9b",
-            "location": [
-                34.808775186538696,
-                32.15869189471301
-            ],
-            "short_description": "American Style Diner",
-            "slug": "bbb-herzliya",
-            "tags": [
-                "burger",
-                "grill",
-                "kids"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bbb-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/611ba1a672ebb740ec5e0f8b/107b2d22-ff51-11eb-ae78-825364e6d922_list.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® Arena",
-            "name": "McDonald's® Arena",
-            "track_id": "venue-mcdonalds-arena",
-            "address": "השונית 2, הרצליה",
-            "venue_id": "611ba1a672ebb740ec5e0f8b",
-            "location": [
-                34.7968742,
-                32.1636402
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-arena",
-            "tags": [
-                "burger"
-            ],
-            "score": 7,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-arena"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5f75c12f1c2dc10ce5e19dc4/1da869a6-f2d6-11eb-8906-2af3fc8352f6_list.jpg",
-                "logo": null
-            },
-            "title": "Lola Martin | Herzliya",
-            "name": "Lola Martin | Herzliya",
-            "track_id": "venue-lola-martin-herzliya",
-            "address": "שדרות אבא אבן 10, הרצליה",
-            "venue_id": "5f75c12f1c2dc10ce5e19dc4",
-            "location": [
-                34.808653,
-                32.1619677
-            ],
-            "short_description": "Fish and seafood restaurant",
-            "slug": "lola-martin-herzliya",
-            "tags": [
-                "fish",
-                "salad",
-                "seafood"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/lola-martin-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/605761518c3a1e7afa5c344d/fcaabeb4-096b-11ec-aa5f-22bc641f2b02_054a3443.jpg",
-                "logo": null
-            },
-            "title": "Black | Glilot",
-            "name": "Black | Glilot",
-            "track_id": "venue-black-glilot",
-            "address": "סינמה סיטי גלילות",
-            "venue_id": "605761518c3a1e7afa5c344d",
-            "location": [
-                34.80445243784785,
-                32.14617905371554
-            ],
-            "short_description": "Black Bar 'n' Burger",
-            "slug": "black-glilot",
-            "tags": [
-                "burger",
-                "american",
-                "sandwich"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/black-glilot"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5eb15d4cd3644e2d9fd3d51b/a3530392-1b5c-11eb-ad57-ba1bf428f64b_yaelitz_7.jpg",
-                "logo": null
-            },
-            "title": "KYOTO Sushi Bar",
-            "name": "KYOTO Sushi Bar",
-            "track_id": "venue-kyoto-herzliya",
-            "address": "שנקר 7, הרצליה ",
-            "venue_id": "5eb15d4cd3644e2d9fd3d51b",
-            "location": [
-                34.80915655937417,
-                32.15928883505816
-            ],
-            "short_description": "Sushi & Japanese Food",
-            "slug": "kyoto-herzliya",
-            "tags": [
-                "sushi",
-                "japanese",
-                "asian"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/kyoto-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f27075f84380d02b0d6b01/63f2ead8-7f5a-11ec-a087-cec701e8aaa9_yoav_l.png",
-                "logo": null
-            },
-            "title": "Pizza Yoav | Ramat Hasharon",
-            "name": "Pizza Yoav | Ramat Hasharon",
-            "track_id": "venue-pizza-yoav-hasharon",
-            "address": "משה סנה 54",
-            "venue_id": "61f27075f84380d02b0d6b01",
-            "location": [
-                34.82526139011428,
-                32.12496726160015
-            ],
-            "short_description": "We came to conquer Sharon area",
-            "slug": "pizza-yoav-hasharon",
-            "tags": [
-                "pizza",
-                "street food",
-                "vegetarian"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pizza-yoav-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dba998a4f6ea02efaefb67d/2332c002-fbba-11e9-b7f8-0a586464db22__DSC7092-Edit-3%20%281%29.jpg",
-                "logo": null
-            },
-            "title": "Moon Sushi | Herzliya",
-            "name": "Moon Sushi | Herzliya",
-            "track_id": "venue-moon-herzliya",
-            "address": "Hahoshlim St 4, Herzliya",
-            "venue_id": "5dba998a4f6ea02efaefb67d",
-            "location": [
-                34.807305335998535,
-                32.158809970870635
-            ],
-            "short_description": "Sushi Bar",
-            "slug": "moon-herzliya",
-            "tags": [
-                "sushi",
-                "asian",
-                "japanese"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/moon-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/60ab8c064eb9de614b1d9268/2bbd577e-e3b1-11eb-8421-c2239a9b0702___24.jpg",
-                "logo": null
-            },
-            "title": "Golda | Ramat HaSharon",
-            "name": "Golda | Ramat HaSharon",
-            "track_id": "venue-golda-ramat-hasharon",
-            "address": "סוקולוב 36, רמת השרון",
-            "venue_id": "60ab8c064eb9de614b1d9268",
-            "location": [
-                34.837101970447165,
-                32.14220170089892
-            ],
-            "short_description": "Flavour Boutique ",
-            "slug": "golda-ramat-hasharon",
-            "tags": [
-                "ice cream",
-                "sweets"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/golda-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e70b368466ad0c47040c37a/1b49e46a-6843-11ea-9c32-0a58647dfb04_yaelitz-9.jpg",
-                "logo": null
-            },
-            "title": "Landwer | Ramat HaSharon",
-            "name": "Landwer | Ramat HaSharon",
-            "track_id": "venue-landwer-cafe-ramat-hasharon",
-            "address": "סוקולוב 95, רמת השרון",
-            "venue_id": "5e70b368466ad0c47040c37a",
-            "location": [
-                34.83974817265073,
-                32.14922609270106
-            ],
-            "short_description": "Coffee & Good Food",
-            "slug": "landwer-cafe-ramat-hasharon",
-            "tags": [
-                "bistro",
-                "bistro",
-                "breakfast"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/landwer-cafe-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/5ed4bd19263d4e8e602aacaa/bc0f0ce6-e3b1-11eb-93d2-3aaee5fefc1a___24.jpg",
                 "logo": null
             },
@@ -2270,139 +1530,6 @@
             "score": 8.8,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/golda-kikar-de-shalit"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a9c74c92ee4b8836b381f/1dbe6884-37ee-11ec-b16a-2e6beda10341____________.jpg",
-                "logo": null
-            },
-            "title": "Vaniglia Yogurt & Softserve | Ramat Hasharon",
-            "name": "Vaniglia Yogurt & Softserve | Ramat Hasharon",
-            "track_id": "venue-vaniglia-ramat-hasharon",
-            "address": "אוסישקין 48, רמת השרון",
-            "venue_id": "617a9c74c92ee4b8836b381f",
-            "location": [
-                34.843289507457094,
-                32.14169556837616
-            ],
-            "short_description": "Your local ice cream",
-            "slug": "vaniglia-ramat-hasharon",
-            "tags": [
-                "crepes",
-                "ice cream",
-                "sweets"
-            ],
-            "score": 0,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/vaniglia-ramat-hasharon"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dc03700e15e433f4de0131a/808068ee-e3ae-11eb-b267-5eb11f07711c___24.jpg",
-                "logo": null
-            },
-            "title": "Golda | Arena Herzliya ",
-            "name": "Golda | Arena Herzliya ",
-            "track_id": "venue-golda-herzliya",
-            "address": "השונית 2 הרצליה",
-            "venue_id": "5dc03700e15e433f4de0131a",
-            "location": [
-                34.797053933143616,
-                32.163769031335896
-            ],
-            "short_description": "Flavour Boutique",
-            "slug": "golda-herzliya",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "sweets"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/golda-herzliya"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6124dade3a18c91ecc36641f/6bb8945c-04d0-11ec-82a6-a6e43806b1f8___________.jpeg",
-                "logo": null
-            },
-            "title": "Golda | Cinema City Glilot",
-            "name": "Golda | Cinema City Glilot",
-            "track_id": "venue-golda-cinema-city-glilot",
-            "address": "סינמה סיטי גלילות",
-            "venue_id": "6124dade3a18c91ecc36641f",
-            "location": [
-                34.8040703,
-                32.1463519
-            ],
-            "short_description": "Flavour Boutique\n",
-            "slug": "golda-cinema-city-glilot",
-            "tags": [
-                "ice cream"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/golda-cinema-city-glilot"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5e53d17421e1f18720e770cb/80fb5638-62ce-11ea-8aa7-0a58647cae16_%D7%A7%D7%95%D7%9E%D7%A4%D7%95%D7%96%D7%99%D7%A6%D7%99%D7%94%202.jpg",
-                "logo": null
-            },
-            "title": "Yomi Sushi Line | Herzliya",
-            "name": "Yomi Sushi Line | Herzliya",
-            "track_id": "venue-yomi-sushi-line",
-            "address": "This is a virtual venue",
-            "venue_id": "5e53d17421e1f18720e770cb",
-            "location": [
-                34.8424397,
-                32.1646255
-            ],
-            "short_description": "Special Rolls & Combinations ",
-            "slug": "yomi-sushi-line",
-            "tags": [
-                "asian",
-                "fish",
-                "local"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/yomi-sushi-line"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/5dcbcc489a64e0fb38a23d63/61786386f5449274db6dd53667c8ac8a-edits/bc0d9fc81605c22d6a2011832bcdddf7",
-                "logo": null
-            },
-            "title": "Mimi | Herzliya",
-            "name": "Mimi | Herzliya",
-            "track_id": "venue-mimi",
-            "address": "אריק איינשטיין 3 הרצליה",
-            "venue_id": "5dcbcc489a64e0fb38a23d63",
-            "location": [
-                34.8145580291748,
-                32.162818012196496
-            ],
-            "short_description": "Bakery • Patisserie • Coffee • Ice Cream",
-            "slug": "mimi",
-            "tags": [
-                "bakery",
-                "breakfast",
-                "café"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mimi"
             },
             "provider": "wolt"
         }

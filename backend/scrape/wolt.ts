@@ -50,6 +50,7 @@ export const getWoltRestaurants = async (lat: string, lon: string, slug: string)
     const json_data = file_data && isJsonString(file_data) ? JSON.parse(file_data) : null
 
     if (json_data && !isWeekPast(json_data.lastScrapeDate) && json_data.restaurants) {
+    // if (json_data && json_data.restaurants) {
       return json_data.restaurants;
     }
   }

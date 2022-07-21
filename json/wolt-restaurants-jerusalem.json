@@ -1,141 +1,117 @@
 {
-    "lastScrapeDate": 1657281675474,
+    "lastScrapeDate": 1658388028267,
     "fetchUrl": "https://restaurant-api.wolt.com/v1/pages/restaurants?lat=31.768319&lon=35.21371",
     "restaurants": [
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc472dbe194288aeeba9a3/68d14eb0-7919-11ec-91dc-026041507be1_fto09999.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6123653887213b847ac1311e/b4198d18-2f15-11ec-8900-ba08302689c0_denya_wolt1456.jpg",
                 "logo": null
             },
-            "title": "Sushi Rehavia Kosher | Aza",
-            "name": "Sushi Rehavia Kosher | Aza",
-            "track_id": "venue-sushi-rehavia-jerusalem",
-            "address": "עזה 31",
-            "venue_id": "61dc472dbe194288aeeba9a3",
+            "title": "Cafe Denya | Beit Hakerem",
+            "name": "Cafe Denya | Beit Hakerem",
+            "track_id": "venue-cafe-denya-beit-hakerem",
+            "address": "שדרות הרצל 102, ירושלים",
+            "venue_id": "6123653887213b847ac1311e",
             "location": [
-                35.2134133,
-                31.7717435
+                35.187671226579056,
+                31.779975113360347
             ],
-            "short_description": "Sushi and a Unique Asian kitchen",
-            "slug": "sushi-rehavia-jerusalem",
+            "short_description": "Supreme Coffee﹒Unique Kitchen",
+            "slug": "cafe-denya-beit-hakerem",
             "tags": [
-                "asian",
-                "japanese",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sushi-rehavia-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6122210d7489d8613f7d1880/4da9264a-3002-11ec-877b-f6437a159415_________copy.jpg",
-                "logo": null
-            },
-            "title": "Burger Room",
-            "name": "Burger Room",
-            "track_id": "venue-burger-room-jlm",
-            "address": "עזה 18, ירושלים",
-            "venue_id": "6122210d7489d8613f7d1880",
-            "location": [
-                35.2153504,
-                31.7735085
-            ],
-            "short_description": "Burgers Restaurant\n",
-            "slug": "burger-room-jlm",
-            "tags": [
-                "american",
-                "burger",
-                "street food"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/burger-room-jlm"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61221b21594210673c636ccd/ed5e1880-0efb-11ec-a1e4-ee647b996611_karela_00348.jpg",
-                "logo": null
-            },
-            "title": "Junior Pizza",
-            "name": "Junior Pizza",
-            "track_id": "venue-junior-pizza",
-            "address": "הרב חיים ברלין 1, ירושלים",
-            "venue_id": "61221b21594210673c636ccd",
-            "location": [
-                35.211699266312266,
-                31.76994903583888
-            ],
-            "short_description": "American Pizza",
-            "slug": "junior-pizza",
-            "tags": [
-                "american",
                 "italian",
-                "pizza"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/junior-pizza"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61548ac34f2b0c5b86affab8/f96c3556-2f23-11ec-b09c-de55ed564e01_sima2005.jpg",
-                "logo": null
-            },
-            "title": "Sima",
-            "name": "Sima",
-            "track_id": "venue-sima",
-            "address": "אגריפס 82, ירושלים",
-            "venue_id": "61548ac34f2b0c5b86affab8",
-            "location": [
-                35.210684982386375,
-                31.784947446740482
-            ],
-            "short_description": "A Restaurant In The Market",
-            "slug": "sima",
-            "tags": [
-                "mediterranean",
-                "grill",
                 "kosher",
+                "pasta",
                 "kosher"
             ],
             "score": 9,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sima"
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-denya-beit-hakerem"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61800429a4aa03d2c6c56f13/405aa050-3b2d-11ec-8f47-5e78ca5f91f9_karela_00165.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61891bd03926356291b846d0/4c143f92-4612-11ec-bc10-566910226497______.jpg",
                 "logo": null
             },
-            "title": "Iwo's Meatburger",
-            "name": "Iwo's Meatburger",
-            "track_id": "venue-iwos-meatburger",
-            "address": "הלל 24 ירושלים",
-            "venue_id": "61800429a4aa03d2c6c56f13",
+            "title": "Babi | Jerusalem",
+            "name": "Babi | Jerusalem",
+            "track_id": "venue-babi",
+            "address": "הרב שמואל ברוך 1",
+            "venue_id": "61891bd03926356291b846d0",
             "location": [
-                35.21860279999997,
-                31.779894800000005
+                35.2105415743824,
+                31.784844377639804
             ],
-            "short_description": "Premium Burger",
-            "slug": "iwos-meatburger",
+            "short_description": "Good food in Machne yehuda",
+            "slug": "babi",
             "tags": [
+                "bbq",
                 "burger",
-                "sandwich",
-                "street food"
+                "kosher",
+                "kosher"
             ],
-            "score": 8.2,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/iwos-meatburger"
+                "url": "https://wolt.com/en/isr/undefined/venue/babi"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6162f95ed3e7280e73483da1/6eeb240e-5288-11ec-a828-92e5b796f9bf_karela_00707.jpg",
+                "logo": null
+            },
+            "title": "Rachel Basdera | Ben Maimon",
+            "name": "Rachel Basdera | Ben Maimon",
+            "track_id": "venue-rachel-basdera-jerusalem",
+            "address": "שדרות בן מימון 13, ירושלים",
+            "venue_id": "6162f95ed3e7280e73483da1",
+            "location": [
+                35.2145779,
+                31.7737125
+            ],
+            "short_description": "Rachel's Sandwich\n",
+            "slug": "rachel-basdera-jerusalem",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "salad",
+                "kosher "
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/rachel-basdera-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628a049007e944e72afff089/8d901e6a-e242-11ec-a752-765f6b172562_jerus_23_may16284.jpg",
+                "logo": null
+            },
+            "title": "Hummus Abu Musa",
+            "name": "Hummus Abu Musa",
+            "track_id": "venue-hummus-abu-musa-jlm",
+            "address": " עמק רפאים 42, ירושלים",
+            "venue_id": "628a049007e944e72afff089",
+            "location": [
+                35.2185665,
+                31.7629603
+            ],
+            "short_description": "Real Jerusalem Hummus\n",
+            "slug": "hummus-abu-musa-jlm",
+            "tags": [
+                "mediterranean",
+                "street food",
+                "vegan",
+                "kosher",
+                "new"
+            ],
+            "score": 5.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-abu-musa-jlm"
             },
             "provider": "wolt"
         },
@@ -169,279 +145,6 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/614c56796a552b46422fca2a/f9e3196a-1c58-11ec-9473-be0418012c56_list.jpg",
-                "logo": null
-            },
-            "title": "McDonald's® Yes Planet Jerusalem",
-            "name": "McDonald's® Yes Planet Jerusalem",
-            "track_id": "venue-mcdonalds-yes-planet-jerusalem",
-            "address": "Naomi St 1, Jerusalem",
-            "venue_id": "614c56796a552b46422fca2a",
-            "location": [
-                35.2254061,
-                31.7625599
-            ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-yes-planet-jerusalem",
-            "tags": [
-                "burger",
-                "chicken"
-            ],
-            "score": 7.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-yes-planet-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6151a402e3d9e13866a17f43/7c39d258-241c-11ec-ba75-de5e83132e93_r72a0987.jpg",
-                "logo": null
-            },
-            "title": "Burger Market | Mahne Yehuda",
-            "name": "Burger Market | Mahne Yehuda",
-            "track_id": "venue-burger-market",
-            "address": "אגריפס 68, ירושלים",
-            "venue_id": "6151a402e3d9e13866a17f43",
-            "location": [
-                35.2117772,
-                31.78437539999999
-            ],
-            "short_description": "Hamburger and Beer in the Market",
-            "slug": "burger-market",
-            "tags": [
-                "burger",
-                "grill",
-                "kosher",
-                "kosher"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/burger-market"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/615c6a898d1814554edeedf1/64467a16-29d5-11ec-bfa5-96544de1f2b0_karela_00489.jpg",
-                "logo": null
-            },
-            "title": "Focaccia Bar",
-            "name": "Focaccia Bar",
-            "track_id": "venue-focaccia-bar",
-            "address": "רבי עקיבא 4, ירושלים",
-            "venue_id": "615c6a898d1814554edeedf1",
-            "location": [
-                35.218081,
-                31.7797313
-            ],
-            "short_description": "Italian | Mediterranean Food - Since 1997",
-            "slug": "focaccia-bar",
-            "tags": [
-                "fish",
-                "italian",
-                "mediterranean"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/focaccia-bar"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6201327679ee297e3c662edd/34b50bf4-882c-11ec-ac34-bef549e55203_ybza7828.jpg",
-                "logo": null
-            },
-            "title": "Hummus Rehavia",
-            "name": "Hummus Rehavia",
-            "track_id": "venue-hummus-rehavia",
-            "address": "הרב ברלין 1, ירושלים",
-            "venue_id": "6201327679ee297e3c662edd",
-            "location": [
-                35.2118041,
-                31.7699415
-            ],
-            "short_description": "Much more than Hummus",
-            "slug": "hummus-rehavia",
-            "tags": [
-                "homemade",
-                "kosher",
-                "mediterranean",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hummus-rehavia"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6214c82f1f3dd82463bac2e3/1a1562c0-989f-11ec-963f-9ebc06a289ff_____.jpg",
-                "logo": null
-            },
-            "title": "La Piedra | Arnona",
-            "name": "La Piedra | Arnona",
-            "track_id": "venue-la-piedra-jerusalem",
-            "address": "דניאל ינובסקי 17, ירושלים",
-            "venue_id": "6214c82f1f3dd82463bac2e3",
-            "location": [
-                35.22611631132069,
-                31.75585517979305
-            ],
-            "short_description": "Quality Italy",
-            "slug": "la-piedra-jerusalem",
-            "tags": [
-                "italian",
-                "kosher",
-                "pasta"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/la-piedra-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d4034aa043612dac20150d/d6c6d4dc-6d37-11ec-a6ce-5e0f0c7104a5___________.jpg",
-                "logo": null
-            },
-            "title": "Fiori | Jerusalem",
-            "name": "Fiori | Jerusalem",
-            "track_id": "venue-fiori-jerusalem",
-            "address": "דוד רמז 4, ירושלים",
-            "venue_id": "61d4034aa043612dac20150d",
-            "location": [
-                35.22445,
-                31.76836669999999
-            ],
-            "short_description": "Fresh Italian cuisine",
-            "slug": "fiori-jerusalem",
-            "tags": [
-                "italian",
-                "kosher",
-                "pasta",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/fiori-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62120948932cb64ab8176bd4/081d8b1c-956e-11ec-8d4d-e697bb7119ce_____.jpg",
-                "logo": null
-            },
-            "title": "Knaftea",
-            "name": "Knaftea",
-            "track_id": "venue-knaftea",
-            "address": "הלל 28, ירושלים",
-            "venue_id": "62120948932cb64ab8176bd4",
-            "location": [
-                35.2188609,
-                31.7799051
-            ],
-            "short_description": "Taste Real Goodness",
-            "slug": "knaftea",
-            "tags": [
-                "dessert",
-                "mediterranean",
-                "street food"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/knaftea"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612215eaa1c03fb77d256533/0ecd8e12-0efa-11ec-97d2-ca5e5acd8ccb_karela__6.jpg",
-                "logo": null
-            },
-            "title": "Gelato Variegato",
-            "name": "Gelato Variegato",
-            "track_id": "venue-gelato-variegato",
-            "address": "עזה 29, ירושלים",
-            "venue_id": "612215eaa1c03fb77d256533",
-            "location": [
-                35.21352722125073,
-                31.771886504166144
-            ],
-            "short_description": "Refreshing Italian Gelato",
-            "slug": "gelato-variegato",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "sweets"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/gelato-variegato"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6213696c1667008b05e496bb/d67182a0-9976-11ec-b59c-f6af6e99c808_jerus_232999.jpg",
-                "logo": null
-            },
-            "title": "Kaboom!",
-            "name": "Kaboom!",
-            "track_id": "venue-kaboom",
-            "address": "האשכול 3, מחנה יהודה",
-            "venue_id": "6213696c1667008b05e496bb",
-            "location": [
-                35.2120836,
-                31.7848266
-            ],
-            "short_description": "Crembo House",
-            "slug": "kaboom",
-            "tags": [
-                "kosher",
-                "dessert",
-                "kosher"
-            ],
-            "score": 8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/kaboom"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61d6c12da8debbb9fc70b8cb/f698b1ca-76da-11ec-8e61-9eb60da6ae51_1.jpg",
-                "logo": null
-            },
-            "title": "Alma | Jerusalem",
-            "name": "Alma | Jerusalem",
-            "track_id": "venue-alma-jerusalem",
-            "address": "אגריפס 109, ירושלים",
-            "venue_id": "61d6c12da8debbb9fc70b8cb",
-            "location": [
-                35.21234037102762,
-                31.78394612343729
-            ],
-            "short_description": "Soup & Kubbeh",
-            "slug": "alma-jerusalem",
-            "tags": [
-                "homemade",
-                "kosher",
-                "mediterranean",
-                "kosher"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/alma-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/61692ab08da4a56af4ed7b08/eda3c77c-2d87-11ec-8fdd-fe8cfc4f8c33_435e27e0_2a93_11ec_a902_9ef4b91f3a0b_bd7edf94_e3ab_11eb_9450_1ee91d797d85___24.avif",
                 "logo": null
             },
@@ -461,7 +164,7 @@
                 "kosher",
                 "kosher"
             ],
-            "score": 8.8,
+            "score": 9,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/golda-machneyuda"
             },
@@ -469,167 +172,57 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619247dda51262443a896e09/23370f42-55a7-11ec-8909-5e707a15cb76_wolt_jerus_29_nov2621.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/618008b297781efb89c5752f/88866226-4521-11ec-8e77-aec1ebac8e92______1_1.jpg",
                 "logo": null
             },
-            "title": "Menfis | Mahne Yehuda",
-            "name": "Menfis | Mahne Yehuda",
-            "track_id": "venue-menfis",
-            "address": "האגוז 14, ירושלים",
-            "venue_id": "619247dda51262443a896e09",
+            "title": "Aricha Sabich",
+            "name": "Aricha Sabich",
+            "track_id": "venue-aricha-initiative-ltd",
+            "address": "אגריפס 83, ירושלים",
+            "venue_id": "618008b297781efb89c5752f",
             "location": [
-                35.21278849999999,
-                31.7843077
+                35.2131183,
+                31.7836971
             ],
-            "short_description": "You know toast but you do not know Menfis.",
-            "slug": "menfis",
+            "short_description": "The art of Pita",
+            "slug": "aricha-initiative-ltd",
             "tags": [
-                "kosher",
+                "mediterranean",
                 "sandwich",
-                "street food",
+                "kosher",
                 "kosher"
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/menfis"
+                "url": "https://wolt.com/en/isr/undefined/venue/aricha-initiative-ltd"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/618b983420a991824c9c24e0/df1404c6-451d-11ec-bfa9-1a0d29b44aa4______1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612237b6de82ad256d634795/4f337cde-21c7-11ec-9c6c-067fe79dbe3a_bonfis_9999_139_2.jpg",
                 "logo": null
             },
-            "title": "Cholent Bar",
-            "name": "Cholent Bar",
-            "track_id": "venue-cholent-bar",
-            "address": "משמר העם 5, ירושלים",
-            "venue_id": "618b983420a991824c9c24e0",
+            "title": "Mifgash Hashekh | Givat Mordechai",
+            "name": "Mifgash Hashekh | Givat Mordechai",
+            "track_id": "venue-mifgash-hashekh-givat-mordechai",
+            "address": " שח\"ל 58, ירושלים",
+            "venue_id": "612237b6de82ad256d634795",
             "location": [
-                35.2099956,
-                31.7640038
+                35.19480931907531,
+                31.76415362431911
             ],
-            "short_description": "Jewish Kitchen with Good Mood",
-            "slug": "cholent-bar",
+            "short_description": "Jerusalem Bakery",
+            "slug": "mifgash-hashekh-givat-mordechai",
             "tags": [
-                "homemade",
-                "kosher",
-                "street food",
-                "kosher"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/cholent-bar"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62374b67f55213678630d1aa/a5b00160-b991-11ec-a69d-f63f78f60427_____.jpg",
-                "logo": null
-            },
-            "title": "The Turkish Kunafa",
-            "name": "The Turkish Kunafa",
-            "track_id": "venue-the-tourkish-knafeh",
-            "address": "דוד רמז 4, ירושלים",
-            "venue_id": "62374b67f55213678630d1aa",
-            "location": [
-                35.22445,
-                31.76836669999999
-            ],
-            "short_description": "Turkish Sweets",
-            "slug": "the-tourkish-knafeh",
-            "tags": [
+                "bakery",
                 "mediterranean",
-                "street food",
-                "dessert"
+                "salad",
+                "kosher"
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/the-tourkish-knafeh"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b60b4f9348cf2bde19d8a7/1b833954-5ccf-11ec-b955-fe7c845a1575_fto04961.jpg",
-                "logo": null
-            },
-            "title": "Mousseline | Beit Hakerem",
-            "name": "Mousseline | Beit Hakerem",
-            "track_id": "venue-mousolin",
-            "address": "בית הכרם 30, ירושלים",
-            "venue_id": "61b60b4f9348cf2bde19d8a7",
-            "location": [
-                35.1886834,
-                31.7805713
-            ],
-            "short_description": "Boutique ice cream parlor",
-            "slug": "mousolin",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "kosher",
-                "kosher"
-            ],
-            "score": 9.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mousolin"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61eeb5c909135437c39b5999/3dd5ac94-829a-11ec-b419-c6f9ff070ed2_jerus_wolt_26_jan0055.jpg",
-                "logo": null
-            },
-            "title": "Smash Burgers",
-            "name": "Smash Burgers",
-            "track_id": "venue-smash-burgers-jerusalem",
-            "address": "סלומון יואל משה 5, ירושלים",
-            "venue_id": "61eeb5c909135437c39b5999",
-            "location": [
-                35.2198107,
-                31.7813552
-            ],
-            "short_description": "Burger. Fun. Friends",
-            "slug": "smash-burgers-jerusalem",
-            "tags": [
-                "burger",
-                "kosher",
-                "sandwich",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/smash-burgers-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6183bdc791f3f950626ef392/c780bab6-3d6b-11ec-8f25-0e29ecd31e3e_karela_00186.jpg",
-                "logo": null
-            },
-            "title": "Pie 4 U",
-            "name": "Pie 4 U",
-            "track_id": "venue-pie-4-u",
-            "address": "דרך עזה 29, ירושלים",
-            "venue_id": "6183bdc791f3f950626ef392",
-            "location": [
-                35.2135804,
-                31.7718824
-            ],
-            "short_description": "Desserts & Cakes by Talbiyeh Group",
-            "slug": "pie-4-u",
-            "tags": [
-                "cake",
-                "dessert",
-                "sweets"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pie-4-u"
+                "url": "https://wolt.com/en/isr/undefined/venue/mifgash-hashekh-givat-mordechai"
             },
             "provider": "wolt"
         },
@@ -653,7 +246,7 @@
                 "ice cream",
                 "sweets"
             ],
-            "score": 9.2,
+            "score": 9.4,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/vaniglia-jerusalem"
             },
@@ -661,603 +254,84 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c2fecfde45aa4f41b2e2ee/997169de-68a1-11ec-bdf1-8e8c3cf39cd7_karela_5906.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/618919256b97d710142699c1/5bb2249c-45f3-11ec-b925-965577574932______2.jpg",
                 "logo": null
             },
-            "title": "Zalman's | Midrahov",
-            "name": "Zalman's | Midrahov",
-            "track_id": "venue-zalmans-midrahov",
-            "address": " לונץ משה 3, ירושלים",
-            "venue_id": "61c2fecfde45aa4f41b2e2ee",
+            "title": "Itzik׳s Place",
+            "name": "Itzik׳s Place",
+            "track_id": "venue-itziks-place",
+            "address": "דרך בית לחם 33, ירושלים",
+            "venue_id": "618919256b97d710142699c1",
             "location": [
-                35.2188126,
-                31.7820213
+                35.222129,
+                31.7592376
             ],
-            "short_description": "You Have Never Had Such a Sausage",
-            "slug": "zalmans-midrahov",
+            "short_description": "Neighborhood cafe bar",
+            "slug": "itziks-place",
             "tags": [
-                "kosher",
-                "sandwich",
-                "street food",
-                "kosher"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/zalmans-midrahov"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6139d3ea42fb3590fbc483ab/91e12040-2104-11ec-ae16-9e92dfaa117f_bonfis_9999_181.jpg",
-                "logo": null
-            },
-            "title": "Aldo | Kiryat Hayovel",
-            "name": "Aldo | Kiryat Hayovel",
-            "track_id": "venue-aldo-kiryat-hayovel",
-            "address": "אורוגואי 3, ירושלים",
-            "venue_id": "6139d3ea42fb3590fbc483ab",
-            "location": [
-                35.17626975645028,
-                31.76035098174234
-            ],
-            "short_description": "Italian Love ",
-            "slug": "aldo-kiryat-hayovel",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "kosher",
-                "kosher"
-            ],
-            "score": 9.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/aldo-kiryat-hayovel"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61545d67b5caab03ecf289f5/ff1c6fac-2ccb-11ec-98f0-c6947d67234f_054a7076.jpg",
-                "logo": null
-            },
-            "title": "Hummus Abu Shukri",
-            "name": "Hummus Abu Shukri",
-            "track_id": "venue-humus-abu-shukri",
-            "address": "רמז דוד 4, ירושלים",
-            "venue_id": "61545d67b5caab03ecf289f5",
-            "location": [
-                35.22450151506051,
-                31.76694096399808
-            ],
-            "short_description": "Grill, Meat, Hummus-Bar",
-            "slug": "humus-abu-shukri",
-            "tags": [
-                "bbq",
-                "mediterranean"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/humus-abu-shukri"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62175c8a60e15fc422c401d0/cd9574ea-a5fe-11ec-87be-0e67116c4cd4_list_1.jpg",
-                "logo": null
-            },
-            "title": "Shishishuk",
-            "name": "Shishishuk",
-            "track_id": "venue-shishishuk",
-            "address": "משמר העם 5, ירושלים",
-            "venue_id": "62175c8a60e15fc422c401d0",
-            "location": [
-                35.2099956,
-                31.7640038
-            ],
-            "short_description": "Homemade food for Shabbat",
-            "slug": "shishishuk",
-            "tags": [
-                "grill",
-                "homemade",
-                "kosher",
-                "kosher"
-            ],
-            "score": 7.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shishishuk"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61222c4322e7743d8363235d/18c8cc56-13a0-11ec-89f8-92c0d99eb639_yaelitz_15.jpg",
-                "logo": null
-            },
-            "title": "Katsefet | Derech Hevron",
-            "name": "Katsefet | Derech Hevron",
-            "track_id": "venue-katsefet-derech-hevron",
-            "address": "דרך חברון 105 ירושלים",
-            "venue_id": "61222c4322e7743d8363235d",
-            "location": [
-                35.22050899999997,
-                31.753526999999963
-            ],
-            "short_description": "Exciting Flavours",
-            "slug": "katsefet-derech-hevron",
-            "tags": [
-                "café",
-                "dessert",
-                "ice cream",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-derech-hevron"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6171a12e1a2c4446b002dbbb/18e5f106-34d3-11ec-919c-4ef034fb4fb7______1.jpg",
-                "logo": null
-            },
-            "title": "Jeera Indian Food",
-            "name": "Jeera Indian Food",
-            "track_id": "venue-jeera-indian-food",
-            "address": "Heleni Hamalka 7, Jeursalem",
-            "venue_id": "6171a12e1a2c4446b002dbbb",
-            "location": [
-                35.22126664154845,
-                31.781816159934586
-            ],
-            "short_description": "Homemade Indian Food in Jerusalem\n",
-            "slug": "jeera-indian-food",
-            "tags": [
-                "asian",
-                "indian",
-                "mediterranean"
-            ],
-            "score": 9,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/jeera-indian-food"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6179272cfe7306dbeaa7b462/c208ce80-37ed-11ec-a9a9-5e98ab6e8b97_866614e0_0cb6_11eb_b808_ae641bef164c_1__1_.jpg",
-                "logo": null
-            },
-            "title": "Leggenda Gelato | Yes Planet Jerusalem",
-            "name": "Leggenda Gelato | Yes Planet Jerusalem",
-            "track_id": "venue-leggenda-gelato-yes-planet-jerusalem",
-            "address": "Naomi 4, Jerusalem",
-            "venue_id": "6179272cfe7306dbeaa7b462",
-            "location": [
-                35.2257077,
-                31.7622316
-            ],
-            "short_description": "Handmade Italian Gelato",
-            "slug": "leggenda-gelato-yes-planet-jerusalem",
-            "tags": [
-                "dessert",
-                "ice cream",
-                "ice cream"
-            ],
-            "score": 8.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/leggenda-gelato-yes-planet-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61238c8e06e5dc47fbe19e43/9f20effa-1ebc-11ec-b14a-4287edda4f86_karela_00147.jpg",
-                "logo": null
-            },
-            "title": "Chili Pizza",
-            "name": "Chili Pizza",
-            "track_id": "venue-chili-pizza-jlm",
-            "address": "הלל 28, ירושלים",
-            "venue_id": "61238c8e06e5dc47fbe19e43",
-            "location": [
-                35.2188609,
-                31.7799051
-            ],
-            "short_description": "Italian Hand Made Pizza",
-            "slug": "chili-pizza-jlm",
-            "tags": [
-                "italian",
+                "breakfast",
                 "pasta",
-                "pizza"
-            ],
-            "score": 8.4,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/chili-pizza-jlm"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e665c256c111e2ff20a572/ac736092-782c-11ec-a057-fe8ea857f499_6fefea84_6e94_11eb_a14f_4674ae990827_img_1660_edit.jpg",
-                "logo": null
-            },
-            "title": "Bhagsu Cake | Jerusalem",
-            "name": "Bhagsu Cake | Jerusalem",
-            "track_id": "venue-bhagsu-cake-jerusalem",
-            "address": "הלני המלכה 7, ירושלים",
-            "venue_id": "61e665c256c111e2ff20a572",
-            "location": [
-                35.2210357,
-                31.7818686
-            ],
-            "short_description": "The Original Bhagsu Cake made Aliyah",
-            "slug": "bhagsu-cake-jerusalem",
-            "tags": [
-                "dessert",
-                "indian",
-                "sweets"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/bhagsu-cake-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62160d16ac7fea1e5b998b4f/b982a99c-9568-11ec-bb98-3e24328bab00_____.jpg",
-                "logo": null
-            },
-            "title": "Cheese & Tomato Pizza",
-            "name": "Cheese & Tomato Pizza",
-            "track_id": "venue-cheese-tomato-pizza",
-            "address": "קינג ג׳ורג׳ 52, ירושלים",
-            "venue_id": "62160d16ac7fea1e5b998b4f",
-            "location": [
-                35.2166071,
-                31.7764724
-            ],
-            "short_description": "Pizza Bar and Restaurant",
-            "slug": "cheese-tomato-pizza",
-            "tags": [
-                "italian",
-                "kosher",
-                "pizza",
-                "kosher"
-            ],
-            "score": 7.6,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/cheese-tomato-pizza"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a887e2c8ee2edb0dc7def9/ff953d30-f6d1-11ec-b1b4-4af3bf936169_wolt_jerus_16jun20839.jpg",
-                "logo": null
-            },
-            "title": "Pinat Ha'burekas",
-            "name": "Pinat Ha'burekas",
-            "track_id": "venue-pinat-haburekas",
-            "address": "אגריפס 82",
-            "venue_id": "62a887e2c8ee2edb0dc7def9",
-            "location": [
-                35.2106426,
-                31.7849921
-            ],
-            "short_description": "Delicious Original Burekas",
-            "slug": "pinat-haburekas",
-            "tags": [
-                "breakfast",
-                "kosher",
-                "mediterranean",
-                "kosher",
-                "new"
-            ],
-            "score": 0,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pinat-haburekas"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c068aebd96d2eeb68ab364/a80ac50a-6197-11ec-ab2a-8aeeb64c1c8c_smadar_wine_bar3729.jpg",
-                "logo": null
-            },
-            "title": "Wine Bar | Jerusalem",
-            "name": "Wine Bar | Jerusalem",
-            "track_id": "venue-wine-bar-jerusalem",
-            "address": "דרך עזה 28, ירושלים",
-            "venue_id": "61c068aebd96d2eeb68ab364",
-            "location": [
-                35.2146108,
-                31.7732306
-            ],
-            "short_description": "Wine Bar By Talbiye Group",
-            "slug": "wine-bar-jerusalem",
-            "tags": [
-                "mediterranean",
-                "salad",
-                "sandwich"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/wine-bar-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c2ecfa3538977c9c74a640/565d52b4-7127-11ec-babf-82131fca1a11_jerus_28_dec7147.jpg",
-                "logo": null
-            },
-            "title": "Mala Bistro",
-            "name": "Mala Bistro",
-            "track_id": "venue-mala-bistro",
-            "address": "עין כרם 76, ירושלים",
-            "venue_id": "61c2ecfa3538977c9c74a640",
-            "location": [
-                35.1620577,
-                31.76750089999999
-            ],
-            "short_description": "Food. Meat. People",
-            "slug": "mala-bistro",
-            "tags": [
-                "burger",
-                "fish",
-                "pasta"
+                "salad"
             ],
             "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mala-bistro"
+                "url": "https://wolt.com/en/isr/undefined/venue/itziks-place"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e82e8111761e7e09043169/913bd61a-7c3c-11ec-85c6-5aaccb5fe670_shamai_16_jan11366.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61239f3e3d1c8394cf0233c4/d35e8990-241a-11ec-8faa-caefdf0b8477_r72a0936.jpg",
                 "logo": null
             },
-            "title": "Hummus Shamai",
-            "name": "Hummus Shamai",
-            "track_id": "venue-shamai-hummus",
-            "address": "שמאי 23, ירושלים",
-            "venue_id": "61e82e8111761e7e09043169",
+            "title": "Holy Bagel",
+            "name": "Holy Bagel",
+            "track_id": "venue-holy-bagel",
+            "address": "הל״ה 26, קטמון, ירושלים",
+            "venue_id": "61239f3e3d1c8394cf0233c4",
             "location": [
-                35.2191952,
-                31.7813195
+                35.2091245013521,
+                31.7646325761097
             ],
-            "short_description": "Asli Jerusalem Hummus",
-            "slug": "shamai-hummus",
+            "short_description": "Bagels & Cafe 🥯",
+            "slug": "holy-bagel",
             "tags": [
-                "homemade",
-                "mediterranean",
-                "pita",
+                "bagel",
+                "breakfast",
+                "dessert",
                 "kosher"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/shamai-hummus"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6220c146e431fdd1ae965071/4cce22fa-a859-11ec-b9e0-2e8579b56c41_jerus_24_37082.jpg",
-                "logo": null
-            },
-            "title": "Miss Brown",
-            "name": "Miss Brown",
-            "track_id": "venue-miss-brown",
-            "address": " רמז דוד 4, ירושלים",
-            "venue_id": "6220c146e431fdd1ae965071",
-            "location": [
-                35.22445,
-                31.76836669999999
-            ],
-            "short_description": "European Sweets\n",
-            "slug": "miss-brown",
-            "tags": [
-                "bakery",
-                "breakfast",
-                "cake"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/miss-brown"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620bb7623d59aadbb6317df9/43a26d00-9231-11ec-9648-a2ab0ef82e25_pic09759_edit.jpg",
-                "logo": null
-            },
-            "title": "Adom",
-            "name": "Adom",
-            "track_id": "venue-adom-jerusalem",
-            "address": "רמז דוד 4",
-            "venue_id": "620bb7623d59aadbb6317df9",
-            "location": [
-                35.224653049883436,
-                31.766964589456105
-            ],
-            "short_description": "Restaurant & Wine bar",
-            "slug": "adom-jerusalem",
-            "tags": [
-                "burger",
-                "italian"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/adom-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6229e9ea80f7921ab9d090cf/17b0671a-a5d7-11ec-960b-7e0ae91e4c17_parash6495.jpg",
-                "logo": null
-            },
-            "title": "Parash Cafe",
-            "name": "Parash Cafe",
-            "track_id": "venue-parash-cafe",
-            "address": "אורוגאי 1, ירושלים",
-            "venue_id": "6229e9ea80f7921ab9d090cf",
-            "location": [
-                35.176745318488436,
-                31.760674046628818
-            ],
-            "short_description": "Bakery & Cafe",
-            "slug": "parash-cafe",
-            "tags": [
-                "bakery",
-                "breakfast",
-                "dessert"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/parash-cafe"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6123818f015a9aa428f0d5b2/a9c9c700-20fc-11ec-ab0c-e6f4e2c1cef8_bonfis_9999_13.jpg",
-                "logo": null
-            },
-            "title": "Palomino",
-            "name": "Palomino",
-            "track_id": "venue-palomino",
-            "address": "המלך ג׳ורג׳ 41, ירושלים",
-            "venue_id": "6123818f015a9aa428f0d5b2",
-            "location": [
-                35.2162422,
-                31.7783197
-            ],
-            "short_description": "Italian Lounge",
-            "slug": "palomino",
-            "tags": [
-                "italian",
-                "pasta",
-                "pizza"
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/palomino"
+                "url": "https://wolt.com/en/isr/undefined/venue/holy-bagel"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6163e1ecdac6d0d54e7638ad/d6c08352-2a61-11ec-a927-1291de43d0a2_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625fec24869aec65559228b4/ecd79df8-c09b-11ec-89be-561e946c6a67_______.jpg",
                 "logo": null
             },
-            "title": "B-FRESH Kosher | Malcha Mall",
-            "name": "B-FRESH Kosher | Malcha Mall",
-            "track_id": "venue-b-fresh-malcha-mall",
-            "address": "דרך אגודת ספורט בית\"ר 1, ירושלים",
-            "venue_id": "6163e1ecdac6d0d54e7638ad",
+            "title": "Pisgat Hafalafel | Ben Yehuda",
+            "name": "Pisgat Hafalafel | Ben Yehuda",
+            "track_id": "venue-pisgat-hafalafel-ben-yehuda",
+            "address": "בן יהודה 23, ירושלים",
+            "venue_id": "625fec24869aec65559228b4",
             "location": [
-                35.1871949,
-                31.751541
+                35.2166141,
+                31.7812002
             ],
-            "short_description": "Drinks | Health | Tapioca - Kosher Mehadrin\n",
-            "slug": "b-fresh-malcha-mall",
+            "short_description": "Hot and Fresh Falafel",
+            "slug": "pisgat-hafalafel-ben-yehuda",
             "tags": [
-                "drinks",
-                "healthy",
-                "kids",
-                "kosher"
-            ],
-            "score": 8.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-malcha-mall"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61547e6f4823c5d99cd26544/48261a28-2b2c-11ec-bd88-aea74924a087_054a6841.jpg",
-                "logo": null
-            },
-            "title": "Casa Burger",
-            "name": "Casa Burger",
-            "track_id": "venue-casa-burger",
-            "address": "דוד רמז 4, ירושלים",
-            "venue_id": "61547e6f4823c5d99cd26544",
-            "location": [
-                35.22445784999287,
-                31.76871745321927
-            ],
-            "short_description": "Burger In The German Colony",
-            "slug": "casa-burger",
-            "tags": [
-                "burger",
-                "sandwich",
-                "street food"
-            ],
-            "score": 7,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/casa-burger"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617903245cdc8c81024607eb/590759aa-3708-11ec-8344-0ee05aa48efe_8260e220_19b9_11eb_b0f2_b647cc9faea7_d89d0142_d570_11ea_b3c7_3afc75d790c1_1656903e_7ff4_11ea_980b_0a586467d907_yaelitz__3___1_.jpg",
-                "logo": null
-            },
-            "title": "Aroma | Yes Planet Jerusalem",
-            "name": "Aroma | Yes Planet Jerusalem",
-            "track_id": "venue-aroma-yes-planet-jerusalem",
-            "address": "Naomi 4, Jerusalem",
-            "venue_id": "617903245cdc8c81024607eb",
-            "location": [
-                35.226315636493446,
-                31.761935262830075
-            ],
-            "short_description": "Espresso Bar",
-            "slug": "aroma-yes-planet-jerusalem",
-            "tags": [
-                "café",
-                "pastry",
-                "salad"
-            ],
-            "score": 7.8,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/aroma-yes-planet-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625ea5f2fd16910f56263659/f6c5234a-c0ae-11ec-84dc-42b704a8e516_______.jpg",
-                "logo": null
-            },
-            "title": "Varda Kubbe Bar Arais",
-            "name": "Varda Kubbe Bar Arais",
-            "track_id": "venue-varda-kubbe-bar",
-            "address": "אגריפס 111, ירושלים",
-            "venue_id": "625ea5f2fd16910f56263659",
-            "location": [
-                35.21203678438899,
-                31.78396271811113
-            ],
-            "short_description": "Kubbe and Arais Bar By Varda",
-            "slug": "varda-kubbe-bar",
-            "tags": [
-                "mediterranean",
-                "street food",
+                "falafel",
                 "kosher",
+                "mediterranean",
                 "kosher"
             ],
-            "score": 8.6,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/varda-kubbe-bar"
+                "url": "https://wolt.com/en/isr/undefined/venue/pisgat-hafalafel-ben-yehuda"
             },
             "provider": "wolt"
         },
@@ -1291,119 +365,1042 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61223342c8d6f6d85bea0796/6878b57e-0bdd-11ec-9b7b-66c71a42c7e4_fto01284.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61220ff6cafab75546b69bcc/20e5a012-0ee1-11ec-bc9a-5ea1d92fbeba______2.jpg",
                 "logo": null
             },
-            "title": "Fish & Chips Kitchen",
-            "name": "Fish & Chips Kitchen",
-            "track_id": "venue-fish-chips-kitchen",
-            "address": "גנרל פייר קניג 26 ירושלים",
-            "venue_id": "61223342c8d6f6d85bea0796",
+            "title": "Hasalatiya",
+            "name": "Hasalatiya",
+            "track_id": "venue-hasalatiya",
+            "address": "הלל 23 ירושלים",
+            "venue_id": "61220ff6cafab75546b69bcc",
+            "location": [
+                35.21822825092682,
+                31.78017473722518
+            ],
+            "short_description": "The freedom to build your own salad",
+            "slug": "hasalatiya",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hasalatiya"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6139d3ea42fb3590fbc483ab/91e12040-2104-11ec-ae16-9e92dfaa117f_bonfis_9999_181.jpg",
+                "logo": null
+            },
+            "title": "Aldo | Kiryat Hayovel",
+            "name": "Aldo | Kiryat Hayovel",
+            "track_id": "venue-aldo-kiryat-hayovel",
+            "address": "אורוגואי 3, ירושלים",
+            "venue_id": "6139d3ea42fb3590fbc483ab",
+            "location": [
+                35.17626975645028,
+                31.76035098174234
+            ],
+            "short_description": "Italian Love ",
+            "slug": "aldo-kiryat-hayovel",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aldo-kiryat-hayovel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c098834c8146ef0ea54a4b/ed48980c-6e23-11ec-ae27-b2fa17685d3d_jerus_297930.jpg",
+                "logo": null
+            },
+            "title": "Sam's Bagels | Yaffo",
+            "name": "Sam's Bagels | Yaffo",
+            "track_id": "venue-sam-bagels-jerusalem",
+            "address": "יפו 33, ירושלים ",
+            "venue_id": "61c098834c8146ef0ea54a4b",
+            "location": [
+                35.2203898,
+                31.7813282
+            ],
+            "short_description": "Delicious bagels",
+            "slug": "sam-bagels-jerusalem",
+            "tags": [
+                "bagel",
+                "kosher",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sam-bagels-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620b7988b31cb289d2153724/df600f16-94bd-11ec-8e11-ba6bc877adf0_jerus_17_21561.jpg",
+                "logo": null
+            },
+            "title": "Grand Cafe | Jerusalem",
+            "name": "Grand Cafe | Jerusalem",
+            "track_id": "venue-grand-cafe-jerusalem",
+            "address": "דרך בית לחם 70, ירושלים",
+            "venue_id": "620b7988b31cb289d2153724",
+            "location": [
+                35.2212434,
+                31.7586601
+            ],
+            "short_description": "Jerusalem Cafe with European vibes\n",
+            "slug": "grand-cafe-jerusalem",
+            "tags": [
+                "breakfast",
+                "dairy",
+                "italian",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/grand-cafe-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6122136224ccb43faa636423/30cf2a88-2f26-11ec-b8d6-ba08302689c0_______2652.jpg",
+                "logo": null
+            },
+            "title": "Ben Ami | Jerusalem",
+            "name": "Ben Ami | Jerusalem",
+            "track_id": "venue-cafe-ben-ami",
+            "address": "עמק רפאים 38 ירושלים",
+            "venue_id": "6122136224ccb43faa636423",
+            "location": [
+                35.21916205952448,
+                31.763336681930458
+            ],
+            "short_description": "Coffee, Pastries, Love\n",
+            "slug": "cafe-ben-ami",
+            "tags": [
+                "bagel",
+                "breakfast",
+                "dessert",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-ben-ami"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e068eb68a9274ece02320/910f53e4-4d0a-11ec-8567-9a9945833f04_a18356ae_2cca_11ec_8bcd_72a49f8515de_l_18.22.04.jpeg",
+                "logo": null
+            },
+            "title": "Hummus Eliyahu | Talpiyot",
+            "name": "Hummus Eliyahu | Talpiyot",
+            "track_id": "venue-hummus-eliyahu-talpiyot",
+            "address": "גנרל קניג פייר 26",
+            "venue_id": "619e068eb68a9274ece02320",
             "location": [
                 35.2134724,
                 31.7535726
             ],
-            "short_description": "Always Fresh, Always Tasty",
-            "slug": "fish-chips-kitchen",
+            "short_description": "Unique Israeli Hummus Kosher LeMehadrin",
+            "slug": "hummus-eliyahu-talpiyot",
             "tags": [
-                "fish",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-talpiyot"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617903245cdc8c81024607eb/590759aa-3708-11ec-8344-0ee05aa48efe_8260e220_19b9_11eb_b0f2_b647cc9faea7_d89d0142_d570_11ea_b3c7_3afc75d790c1_1656903e_7ff4_11ea_980b_0a586467d907_yaelitz__3___1_.jpg",
+                "logo": null
+            },
+            "title": "Aroma | Yes Planet Jerusalem",
+            "name": "Aroma | Yes Planet Jerusalem",
+            "track_id": "venue-aroma-yes-planet-jerusalem",
+            "address": "Naomi 4, Jerusalem",
+            "venue_id": "617903245cdc8c81024607eb",
+            "location": [
+                35.226315636493446,
+                31.761935262830075
+            ],
+            "short_description": "Espresso Bar",
+            "slug": "aroma-yes-planet-jerusalem",
+            "tags": [
+                "café",
+                "pastry",
+                "salad"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/aroma-yes-planet-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61daee5acfdabb99a7295a76/07ef1a32-7158-11ec-a7fb-82131fca1a11_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Rehavia",
+            "name": "Katsefet | Rehavia",
+            "track_id": "venue-katsefet-rehavia",
+            "address": "הקרן הקיימת לישראל 17, ירושלים",
+            "venue_id": "61daee5acfdabb99a7295a76",
+            "location": [
+                35.21461318815306,
+                31.776679736227706
+            ],
+            "short_description": "Exciting Flavors\n",
+            "slug": "katsefet-rehavia",
+            "tags": [
+                "dessert",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-rehavia"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62600ab4f7f8f490e758db2d/22f339f0-cae8-11ec-a611-b253b4947dd1_jerus_25_april12869.jpg",
+                "logo": null
+            },
+            "title": "Etrogman",
+            "name": "Etrogman",
+            "track_id": "venue-etrogman",
+            "address": "האגוז 10, ירושלים",
+            "venue_id": "62600ab4f7f8f490e758db2d",
+            "location": [
+                35.2128348,
+                31.7840745
+            ],
+            "short_description": "Heart to Body",
+            "slug": "etrogman",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "smoothie",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/etrogman"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62bd9888c7c177411786b12e/4f309ce0-f871-11ec-a4d4-1a3c51cf283b_ef47f74a_573c_11ec_93f1_fa8c5d7e41b8_list.jpg",
+                "logo": null
+            },
+            "title": "Baguette HaPaamon | Talpiot",
+            "name": "Baguette HaPaamon | Talpiot",
+            "track_id": "venue-baguette-hapaamon-talpiot",
+            "address": "האומן 30, ירושלים",
+            "venue_id": "62bd9888c7c177411786b12e",
+            "location": [
+                35.2070529,
+                31.7505396
+            ],
+            "short_description": "Tastes Like Home - Since 1998",
+            "slug": "baguette-hapaamon-talpiot",
+            "tags": [
                 "grill",
+                "kosher",
+                "salad",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/baguette-hapaamon-talpiot"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c2ecfa3538977c9c74a640/565d52b4-7127-11ec-babf-82131fca1a11_jerus_28_dec7147.jpg",
+                "logo": null
+            },
+            "title": "Mala Bistro",
+            "name": "Mala Bistro",
+            "track_id": "venue-mala-bistro",
+            "address": "עין כרם 76, ירושלים",
+            "venue_id": "61c2ecfa3538977c9c74a640",
+            "location": [
+                35.1620577,
+                31.76750089999999
+            ],
+            "short_description": "Food. Meat. People",
+            "slug": "mala-bistro",
+            "tags": [
+                "burger",
+                "fish",
+                "pasta"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mala-bistro"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e82e8111761e7e09043169/913bd61a-7c3c-11ec-85c6-5aaccb5fe670_shamai_16_jan11366.jpg",
+                "logo": null
+            },
+            "title": "Hummus Shamai",
+            "name": "Hummus Shamai",
+            "track_id": "venue-shamai-hummus",
+            "address": "שמאי 23, ירושלים",
+            "venue_id": "61e82e8111761e7e09043169",
+            "location": [
+                35.2191952,
+                31.7813195
+            ],
+            "short_description": "Asli Jerusalem Hummus",
+            "slug": "shamai-hummus",
+            "tags": [
+                "homemade",
+                "mediterranean",
+                "pita",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/shamai-hummus"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/621351f5255870bdc89258fb/86a8f13c-92f4-11ec-b410-caec1ff6b15a____________.jpeg",
+                "logo": null
+            },
+            "title": "Roladin | Beit Hanatziv Jerusalem",
+            "name": "Roladin | Beit Hanatziv Jerusalem",
+            "track_id": "venue-roladin-jerusalem",
+            "address": "דרך חברון 101, ירושלים",
+            "venue_id": "621351f5255870bdc89258fb",
+            "location": [
+                35.2216872,
+                31.7548649
+            ],
+            "short_description": "Bakery & Café",
+            "slug": "roladin-jerusalem",
+            "tags": [
+                "bakery",
+                "café",
+                "coffee",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/roladin-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62052fe7ebc7842e8bb226e0/043f345a-9596-11ec-80fd-e6e9ff951d95_wolt_jerus_222420.jpg",
+                "logo": null
+            },
+            "title": "Hachapuria",
+            "name": "Hachapuria",
+            "track_id": "venue-hachapuria",
+            "address": "השקמה 5, ירושלים",
+            "venue_id": "62052fe7ebc7842e8bb226e0",
+            "location": [
+                35.21182036102908,
+                31.784814902852744
+            ],
+            "short_description": "Georgian Bakery 🇬🇪",
+            "slug": "hachapuria",
+            "tags": [
+                "bakery",
+                "breakfast",
+                "homemade"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hachapuria"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6163db8493ccdca05456f04f/50c2414e-2a5e-11ec-b46d-7a751bd80f60_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
+                "logo": null
+            },
+            "title": "B-FRESH Kosher | Ben Yehuda",
+            "name": "B-FRESH Kosher | Ben Yehuda",
+            "track_id": "venue-b-fresh-ben-yehuda",
+            "address": "Ben Yehuda 5 Jerusalem",
+            "venue_id": "6163db8493ccdca05456f04f",
+            "location": [
+                35.2185742,
+                31.7815911
+            ],
+            "short_description": "Drinks | Health | Tapioca - Kosher Mehadrin",
+            "slug": "b-fresh-ben-yehuda",
+            "tags": [
+                "drinks",
+                "healthy",
+                "kids",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-ben-yehuda"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/618ce7f234e313b6359c9666/b854d328-42d5-11ec-b57f-4e10b2f307b2_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Yafo",
+            "name": "Katsefet | Yafo",
+            "track_id": "venue-katsefet-yafo",
+            "address": "יפו 34, ירושלים",
+            "venue_id": "618ce7f234e313b6359c9666",
+            "location": [
+                35.2211278,
+                31.78123309999999
+            ],
+            "short_description": "Exciting Flavours\n",
+            "slug": "katsefet-yafo",
+            "tags": [
+                "café",
+                "ice cream",
                 "kosher",
                 "kosher"
             ],
             "score": 8.8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/fish-chips-kitchen"
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-yafo"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620280ea896b8b8ac1994e84/db5b6c32-a07d-11ec-9cd9-1ed51bf30cb4_____.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/618916d2be6412e8b9adba00/dbb755da-42e3-11ec-8aa3-6af593a9842a__________1536.jpg",
                 "logo": null
             },
-            "title": "Pasta Italia",
-            "name": "Pasta Italia",
-            "track_id": "venue-pasta-italia",
-            "address": "אגריפס 34, ירושלים",
-            "venue_id": "620280ea896b8b8ac1994e84",
+            "title": "La Charolais",
+            "name": "La Charolais",
+            "track_id": "venue-la-charolais",
+            "address": "יהודה 10, ירושלים ",
+            "venue_id": "618916d2be6412e8b9adba00",
             "location": [
-                35.2154921,
-                31.7833461
+                35.2208181,
+                31.7569184
             ],
-            "short_description": "Quality local pasta",
-            "slug": "pasta-italia",
+            "short_description": "Local Rotisserie",
+            "slug": "la-charolais",
+            "tags": [
+                "bbq",
+                "burger",
+                "chicken",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/la-charolais"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ae38b26d53da1c759bb618/2e73efd6-58d3-11ec-a3ce-02a6e587e5e8_list.jpg",
+                "logo": null
+            },
+            "title": "Pizza Sababa",
+            "name": "Pizza Sababa",
+            "track_id": "venue-pizza-sababa-jerusalem",
+            "address": "עמק רפאים 43, ירושלים",
+            "venue_id": "61ae38b26d53da1c759bb618",
+            "location": [
+                35.2183278,
+                31.7623699
+            ],
+            "short_description": "Pizza with Love\n",
+            "slug": "pizza-sababa-jerusalem",
             "tags": [
                 "italian",
                 "kosher",
                 "pasta",
                 "kosher"
             ],
-            "score": 7,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pasta-italia"
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-sababa-jerusalem"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6289fdbffbb1cb7f99575b9d/69cafd24-e17a-11ec-bd67-7e24426e97d0___________________.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61fbb9e56be296ea3bae303b/759b54a0-93f5-11ec-aa7f-daff17f83e98_____.jpg",
                 "logo": null
             },
-            "title": "Domino's Pizza | Talpiyot",
-            "name": "Domino's Pizza | Talpiyot",
-            "track_id": "venue-dominos-pizza-talpiyot",
-            "address": "רבקה 25, ירושלים",
-            "venue_id": "6289fdbffbb1cb7f99575b9d",
+            "title": "Savta Sandwich",
+            "name": "Savta Sandwich",
+            "track_id": "venue-savta-sandwich-jerusalem",
+            "address": "הלל 28, ירושלים",
+            "venue_id": "61fbb9e56be296ea3bae303b",
             "location": [
-                35.2153472,
-                31.7549973
+                35.2188609,
+                31.77990509999996
             ],
-            "short_description": "Delivered by Domino’s",
-            "slug": "dominos-pizza-talpiyot",
+            "short_description": "Homemade Dairy Sanwiches",
+            "slug": "savta-sandwich-jerusalem",
             "tags": [
-                "italian",
-                "pizza",
-                "kids",
-                "delivery by domino's",
+                "breakfast",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/savta-sandwich-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61a3826bc9ede84c892be539/b39e7458-55a7-11ec-a674-9e36fa60c423_wolt_jerus_29_nov2841.jpg",
+                "logo": null
+            },
+            "title": "Sushi YOYO",
+            "name": "Sushi YOYO",
+            "track_id": "venue-sushi-yoyo",
+            "address": "שטנר 3, ירושלים ",
+            "venue_id": "61a3826bc9ede84c892be539",
+            "location": [
+                35.1896741,
+                31.7865776
+            ],
+            "short_description": "Sushi, Poke & Stir-fry",
+            "slug": "sushi-yoyo",
+            "tags": [
+                "asian",
+                "kosher",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/sushi-yoyo"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a1fafc76adc27d320e30c6/3e373808-f200-11ec-bd87-72aded4db017_______.jpg",
+                "logo": null
+            },
+            "title": "Yehuda Bakery",
+            "name": "Yehuda Bakery",
+            "track_id": "venue-yehuda-bakery",
+            "address": "המלך ג'ורג' 14, ירושלים",
+            "venue_id": "62a1fafc76adc27d320e30c6",
+            "location": [
+                35.216813199687834,
+                31.782042325736498
+            ],
+            "short_description": "GAGOU DE PARIS 🇫🇷 ",
+            "slug": "yehuda-bakery",
+            "tags": [
+                "breakfast",
+                "dessert",
+                "kosher",
+                "kosher",
                 "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/yehuda-bakery"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/620ba337b927b5c57c444e5b/ab371e22-cb8c-11ec-ad5f-32de8ece596e_jerus_25_april13001.jpg",
+                "logo": null
+            },
+            "title": "Meir Toast",
+            "name": "Meir Toast",
+            "track_id": "venue-meir-toast",
+            "address": " הסדנא 7, ירושלים",
+            "venue_id": "620ba337b927b5c57c444e5b",
+            "location": [
+                35.21296623217013,
+                31.750311865703416
+            ],
+            "short_description": "A Toast\n",
+            "slug": "meir-toast",
+            "tags": [
+                "kosher",
+                "salad",
+                "sandwich",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/meir-toast"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/615db18e10ab1ae94a2ebd76/91a56f44-2f1b-11ec-b213-da83aee332f1_list1.jpg",
+                "logo": null
+            },
+            "title": "Waffle Factory",
+            "name": "Waffle Factory",
+            "track_id": "venue-waffle-factory",
+            "address": "שדרות יצחק רבין 10, ירושלים",
+            "venue_id": "615db18e10ab1ae94a2ebd76",
+            "location": [
+                35.2036436699113,
+                31.78261337301195
+            ],
+            "short_description": "Create Your Flavor!",
+            "slug": "waffle-factory",
+            "tags": [
+                "kosher",
+                "pancakes",
+                "pasta",
+                "kosher"
             ],
             "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/dominos-pizza-talpiyot"
+                "url": "https://wolt.com/en/isr/undefined/venue/waffle-factory"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f935802ab8fdf223b5de70/57876ae4-8fe5-11ec-8bab-422c75f02143__________0214_1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6164537f38d9393d25281b1a/61891a88-2aa5-11ec-a00c-4ec66d327ed8_ll.jpeg",
                 "logo": null
             },
-            "title": "Dolphin Yam",
-            "name": "Dolphin Yam",
-            "track_id": "venue-dolphin-yam",
-            "address": "שמעון בן שטח 9, ירושלים",
-            "venue_id": "61f935802ab8fdf223b5de70",
+            "title": "Landwer | Jerusalem",
+            "name": "Landwer | Jerusalem",
+            "track_id": "venue-landwer-jerusalem",
+            "address": "דוד רמז 4",
+            "venue_id": "6164537f38d9393d25281b1a",
             "location": [
-                35.2211211,
-                31.7800401
+                35.22445,
+                31.76836669999999
             ],
-            "short_description": "Sea Food Restaurant",
-            "slug": "dolphin-yam",
+            "short_description": "Good food that comes to you\n",
+            "slug": "landwer-jerusalem",
             "tags": [
-                "fish",
-                "pasta",
-                "seafood"
+                "bistro",
+                "kids",
+                "salad"
             ],
-            "score": 8.6,
+            "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/dolphin-yam"
+                "url": "https://wolt.com/en/isr/undefined/venue/landwer-jerusalem"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6165350c8da8589d38e27d2a/f3bfeba8-2b2b-11ec-812d-82d1c495c32e_adcca272_063c_11eb_9aac_a2bf598189a1_6c038c68_025c_11eb_ab22_beda40e06550_whatsapp_image_2020_09_29_at_17.00.53.jpeg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6229e9ea80f7921ab9d090cf/17b0671a-a5d7-11ec-960b-7e0ae91e4c17_parash6495.jpg",
+                "logo": null
+            },
+            "title": "Parash Cafe",
+            "name": "Parash Cafe",
+            "track_id": "venue-parash-cafe",
+            "address": "אורוגאי 1, ירושלים",
+            "venue_id": "6229e9ea80f7921ab9d090cf",
+            "location": [
+                35.176745318488436,
+                31.760674046628818
+            ],
+            "short_description": "Bakery & Cafe",
+            "slug": "parash-cafe",
+            "tags": [
+                "bakery",
+                "breakfast",
+                "dessert",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/parash-cafe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6212029312a2bdead9f08a1e/f3f9d776-9ad6-11ec-91ad-d2dcb19d8ad3_ginsburg_wolt_hummusraful_27_2_22_37.jpg",
+                "logo": null
+            },
+            "title": "Hummus Raful",
+            "name": "Hummus Raful",
+            "track_id": "venue-hummus-raful",
+            "address": " המוסכים 12, ירושלים",
+            "venue_id": "6212029312a2bdead9f08a1e",
+            "location": [
+                35.2121561,
+                31.7512145
+            ],
+            "short_description": "Jerusalem Hummus",
+            "slug": "hummus-raful",
+            "tags": [
+                "street food",
+                "vegan",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-raful"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a53b37c6793c6e6a43da2/974e1b62-9235-11ec-8953-6e5613cc59d7_ginsburg_wolt_biga14.2.22_71.jpg",
+                "logo": null
+            },
+            "title": "Biga | Mamila",
+            "name": "Biga | Mamila",
+            "track_id": "venue-biga-mamila",
+            "address": "יצחק קריב 6",
+            "venue_id": "617a53b37c6793c6e6a43da2",
+            "location": [
+                35.2249275,
+                31.7772701
+            ],
+            "short_description": "Kitchen | Bakery | Cafe",
+            "slug": "biga-mamila",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 7.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-mamila"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e1493dae1768ab0609d03/aeb4cba0-4d13-11ec-ac1f-f63d83116f90_____.jpeg",
+                "logo": null
+            },
+            "title": "Angel Bakery | Talpiyot",
+            "name": "Angel Bakery | Talpiyot",
+            "track_id": "venue-angel-bakery",
+            "address": "יד חרוצים 18, ירושלים",
+            "venue_id": "619e1493dae1768ab0609d03",
+            "location": [
+                35.21564147013205,
+                31.75100601270239
+            ],
+            "short_description": "Sandwiches, Pasta & Salads By Angel Bakery\n",
+            "slug": "angel-bakery",
+            "tags": [
+                "kosher",
+                "pasta",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/angel-bakery"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61cb1e3ee0dfce63e506ca24/10efcb1e-6d65-11ec-a9a5-fab81b07f3a1_list_3.jpg",
+                "logo": null
+            },
+            "title": "Oren & Yani",
+            "name": "Oren & Yani",
+            "track_id": "venue-oren-yani",
+            "address": "שץ 8, ירושלים",
+            "venue_id": "61cb1e3ee0dfce63e506ca24",
+            "location": [
+                35.2150836,
+                31.7800712
+            ],
+            "short_description": "Fine Deli Sandwiches\n",
+            "slug": "oren-yani",
+            "tags": [
+                "breakfast",
+                "salad",
+                "sandwich"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/oren-yani"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61ac7572ce0d70d60b19b64c/c588baba-55a3-11ec-b9b9-9eb95387ab1f_____________.png",
+                "logo": null
+            },
+            "title": "Café Greg Kosher LaMehadrin | Mamila",
+            "name": "Café Greg Kosher LaMehadrin | Mamila",
+            "track_id": "venue-cafe-greg-mamila",
+            "address": "יצחק קריב 3, ירושלים",
+            "venue_id": "61ac7572ce0d70d60b19b64c",
+            "location": [
+                35.2251883,
+                31.7771944
+            ],
+            "short_description": "Restaurant & Cafe",
+            "slug": "cafe-greg-mamila",
+            "tags": [
+                "breakfast",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-greg-mamila"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61644eba95dd7a995f33ac2f/edcf32cc-2f35-11ec-ba74-5259723840d7_yaelitz_5__6_.jpg",
+                "logo": null
+            },
+            "title": "Arcaffé Kosher | Jerusalem",
+            "name": "Arcaffé Kosher | Jerusalem",
+            "track_id": "venue-arcaff-jerusalem",
+            "address": "שדרות ממילא 10",
+            "venue_id": "61644eba95dd7a995f33ac2f",
+            "location": [
+                35.22439907587911,
+                31.77775234933864
+            ],
+            "short_description": "Sandwiches, salads and bakery",
+            "slug": "arcaff-jerusalem",
+            "tags": [
+                "bakery",
+                "breakfast",
+                "Health",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/arcaff-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dc3cb088e7ee3d0a2c2179/8fad9480-81b6-11ec-8537-ea9841d503bc_la_story0171.jpg",
+                "logo": null
+            },
+            "title": "La Story",
+            "name": "La Story",
+            "track_id": "venue-la-story",
+            "address": "האייל 16, ירושלים",
+            "venue_id": "61dc3cb088e7ee3d0a2c2179",
+            "location": [
+                35.1853208,
+                31.7537756
+            ],
+            "short_description": "Every Dish Has a Story\n",
+            "slug": "la-story",
+            "tags": [
+                "breakfast",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/la-story"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61b9f9398cd4771f7aa8cd00/2f37d6b2-7151-11ec-92ff-4a1023fdcc40_fto06018.jpg",
+                "logo": null
+            },
+            "title": "Tamara Cafe",
+            "name": "Tamara Cafe",
+            "track_id": "venue-tamara-cafe",
+            "address": "אגודת ספורט הפועל 2, ירושלים",
+            "venue_id": "61b9f9398cd4771f7aa8cd00",
+            "location": [
+                35.1860118,
+                31.7498445
+            ],
+            "short_description": "Restaurant. Cafe",
+            "slug": "tamara-cafe",
+            "tags": [
+                "fish",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/tamara-cafe"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62a887e2c8ee2edb0dc7def9/ff953d30-f6d1-11ec-b1b4-4af3bf936169_wolt_jerus_16jun20839.jpg",
+                "logo": null
+            },
+            "title": "Pinat Ha'burekas",
+            "name": "Pinat Ha'burekas",
+            "track_id": "venue-pinat-haburekas",
+            "address": "אגריפס 82",
+            "venue_id": "62a887e2c8ee2edb0dc7def9",
+            "location": [
+                35.2106426,
+                31.7849921
+            ],
+            "short_description": "Delicious Original Burekas",
+            "slug": "pinat-haburekas",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "mediterranean",
+                "kosher",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pinat-haburekas"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619253e1aaa1b9a401f606cc/1a0dc264-4d30-11ec-9ed6-8a6912b69d8d______0327.jpg",
+                "logo": null
+            },
+            "title": "Pinati | Kiryat Hayovel",
+            "name": "Pinati | Kiryat Hayovel",
+            "track_id": "venue-pinati-kiryat-hayovel",
+            "address": "אורוגוואי 1, ירושלים",
+            "venue_id": "619253e1aaa1b9a401f606cc",
+            "location": [
+                35.1767008,
+                31.76077
+            ],
+            "short_description": "The Real Taste Of Jerusalem",
+            "slug": "pinati-kiryat-hayovel",
+            "tags": [
+                "homemade",
+                "mediterranean",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pinati-kiryat-hayovel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/628decb9849196eee4eca371/be0a2d34-e728-11ec-9377-46f331653108_list.jpg",
+                "logo": null
+            },
+            "title": "Hummus Yafo",
+            "name": "Hummus Yafo",
+            "track_id": "venue-hummus-yafo",
+            "address": "יפו 202",
+            "venue_id": "628decb9849196eee4eca371",
+            "location": [
+                35.2079499,
+                31.787492
+            ],
+            "short_description": "Delicious Hummus",
+            "slug": "hummus-yafo",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "vegetarian",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-yafo"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6297825d80b227ce84de7eec/61dc06e6-e7db-11ec-95ea-8e5f382f8523______.jpg",
+                "logo": null
+            },
+            "title": "Saba Jebbeta",
+            "name": "Saba Jebbeta",
+            "track_id": "venue-saba-jebbeta",
+            "address": "יפו 216",
+            "venue_id": "6297825d80b227ce84de7eec",
+            "location": [
+                35.2053869,
+                31.78909809999999
+            ],
+            "short_description": "Delicious Local Sandwich",
+            "slug": "saba-jebbeta",
+            "tags": [
+                "kosher",
+                "salad",
+                "sandwich",
+                "kosher",
+                "new"
+            ],
+            "score": 0,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/saba-jebbeta"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6165350c8da8589d38e27d2a/fe452020-0816-11ed-8565-b24f9d861184_________.png",
                 "logo": null
             },
             "title": "Burgeranch | Malha Mall",
@@ -1458,6 +1455,286 @@
         },
         {
             "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/615c32f60e1ab5ceb63c6b31/872a5502-2b2e-11ec-b615-5651dce479f8_054a6739.jpg",
+                "logo": null
+            },
+            "title": "Pinati | Beit Hadfus",
+            "name": "Pinati | Beit Hadfus",
+            "track_id": "venue-pinati-givat-shaul",
+            "address": "בית הדפוס 11, ירושלים",
+            "venue_id": "615c32f60e1ab5ceb63c6b31",
+            "location": [
+                35.18857730000001,
+                31.7858517
+            ],
+            "short_description": "The Real Taste Of Jerusalem",
+            "slug": "pinati-givat-shaul",
+            "tags": [
+                "homemade",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 7.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pinati-givat-shaul"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612779da10294d5e7822641e/02b361fc-20fb-11ec-a082-a6c1f9eff724_bonfis_9999_236.jpg",
+                "logo": null
+            },
+            "title": "Menza",
+            "name": "Menza",
+            "track_id": "venue-menza1",
+            "address": "בצלאל 12, ירושלים",
+            "venue_id": "612779da10294d5e7822641e",
+            "location": [
+                35.21405988465507,
+                31.780658931675013
+            ],
+            "short_description": "Contemporary Food",
+            "slug": "menza1",
+            "tags": [
+                "burger",
+                "salad",
+                "bbq"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/menza1"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616422cbb00a8d86697fd9e5/a8a78e08-2a88-11ec-ac63-4e1cdcf94488_94b265ac_177a_11eb_9455_0234cb2fa699_dsc08256.jpeg",
+                "logo": null
+            },
+            "title": "Soft Cookies | Jerusalem",
+            "name": "Soft Cookies | Jerusalem",
+            "track_id": "venue-soft-cookies-jerusalem",
+            "address": "אגודת ספורט ביתר 1",
+            "venue_id": "616422cbb00a8d86697fd9e5",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "short_description": "Cookies 🍪 Crepe 🍪 Ice Cream",
+            "slug": "soft-cookies-jerusalem",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "dairy",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/soft-cookies-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62c29ea8da6160cd290bcee6/57ab0ff0-fc3a-11ec-8e7a-ca42fe51b7a6_list.jpg",
+                "logo": null
+            },
+            "title": "Station 1",
+            "name": "Station 1",
+            "track_id": "venue-station-1",
+            "address": "הלל 12, ירושלים",
+            "venue_id": "62c29ea8da6160cd290bcee6",
+            "location": [
+                35.2171602,
+                31.7801848
+            ],
+            "short_description": "Italian coffee and oven-baked pastries alongside light meals",
+            "slug": "station-1",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "salad",
+                "kosher",
+                "new"
+            ],
+            "score": 8.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/station-1"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62611142ddc08173a1ab2e9a/74ad8c68-c152-11ec-ada0-7602eb2364f6_____.jpg",
+                "logo": null
+            },
+            "title": "Duda Le Pizza",
+            "name": "Duda Le Pizza",
+            "track_id": "venue-duda-le-pizza",
+            "address": "בן הלל 3, ירושלים",
+            "venue_id": "62611142ddc08173a1ab2e9a",
+            "location": [
+                35.2173383,
+                31.7821355
+            ],
+            "short_description": "When you feel like Pizza",
+            "slug": "duda-le-pizza",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/duda-le-pizza"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/626a873e2b24792b163d9a4a/558a55e0-c6ee-11ec-8555-2e26231e2b74_d95aa9ce_7487_11ec_baac_36e42dbd8481_51129996_5290_11ec_b96b_2273c7d15048_list4.jpg",
+                "logo": null
+            },
+            "title": "Cafe Lyon | Jerusalem",
+            "name": "Cafe Lyon | Jerusalem",
+            "track_id": "venue-cafe-lyon-jerusalem",
+            "address": "יפו 119, ירושלים",
+            "venue_id": "626a873e2b24792b163d9a4a",
+            "location": [
+                35.21258434525337,
+                31.78569884402491
+            ],
+            "short_description": "Modern French Cafe",
+            "slug": "cafe-lyon-jerusalem",
+            "tags": [
+                "café",
+                "dairy",
+                "pasta"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-lyon-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61e416c1c03310a0460c6a5e/b5e2989e-778e-11ec-a63d-7e5f627996ad_dsc08940.jpg",
+                "logo": null
+            },
+            "title": "My Pizza | Sarei Israel",
+            "name": "My Pizza | Sarei Israel",
+            "track_id": "venue-my-pizza-saray-israel",
+            "address": " שרי ישראל 15, ירושלים",
+            "venue_id": "61e416c1c03310a0460c6a5e",
+            "location": [
+                35.2061448,
+                31.7891446
+            ],
+            "short_description": "A Rich Variety of Our Beloved Dishes\n",
+            "slug": "my-pizza-saray-israel",
+            "tags": [
+                "italian",
+                "kosher",
+                "pizza",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/my-pizza-saray-israel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6296072bde5ac064da1d4a3d/9dbafc6c-e245-11ec-b616-765f6b172562_jerus_23_may16549.jpg",
+                "logo": null
+            },
+            "title": "Cafe Avichail",
+            "name": "Cafe Avichail",
+            "track_id": "venue-cafe-avichail",
+            "address": "הדישון 21, ירושלים",
+            "venue_id": "6296072bde5ac064da1d4a3d",
+            "location": [
+                35.18153095729123,
+                31.75258043682876
+            ],
+            "short_description": "Local Dairy Cafe\n",
+            "slug": "cafe-avichail",
+            "tags": [
+                "breakfast",
+                "kosher",
+                "pasta",
+                "kosher",
+                "new"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-avichail"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a67c59f022feb19e5381d/959d8c8c-37cf-11ec-ac4e-e60486296815__________.jpeg",
+                "logo": null
+            },
+            "title": "Biga | Malcha Mall",
+            "name": "Biga | Malcha Mall",
+            "track_id": "venue-biga-malcha-mall",
+            "address": "אגודת ספורט בית״ר 1",
+            "venue_id": "617a67c59f022feb19e5381d",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "short_description": "Kitchen | Bakery | Cafe",
+            "slug": "biga-malcha-mall",
+            "tags": [
+                "breakfast",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/biga-malcha-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612217866b6147331eace859/8389d68c-2b35-11ec-adda-1e2a6d8b0004_054a6197.jpg",
+                "logo": null
+            },
+            "title": "Jacobs",
+            "name": "Jacobs",
+            "track_id": "venue-jacobs-jerusalem",
+            "address": "קניון מלחה 1 ירושלים",
+            "venue_id": "612217866b6147331eace859",
+            "location": [
+                35.1872451,
+                31.7515163
+            ],
+            "short_description": "Street Food",
+            "slug": "jacobs-jerusalem",
+            "tags": [
+                "kosher",
+                "mediterranean",
+                "street food",
+                "kosher"
+            ],
+            "score": 7.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/jacobs-jerusalem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
                 "image": "https://prod-wolt-venue-images-cdn.wolt.com/619362178314af8083a29ba8/2647dfaa-534e-11ec-a2a0-3a9dff5e7aae_list.jpg",
                 "logo": null
             },
@@ -1478,7 +1755,7 @@
                 "ice cream",
                 "kosher"
             ],
-            "score": 9,
+            "score": 8.8,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/rio-bar"
             },
@@ -1486,194 +1763,537 @@
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6150198e9382de566a2f378a/86e5ea36-1e9d-11ec-9c5e-b2c249746b0c_fto02259.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f1492e8fbcf4355a1a6878/f5d2a514-873a-11ec-a0de-eaf892b83dbb_list.jpg",
                 "logo": null
             },
-            "title": "Hamesila",
-            "name": "Hamesila",
-            "track_id": "venue-hamesila",
-            "address": "דוד רמז 4, ירושלים",
-            "venue_id": "6150198e9382de566a2f378a",
+            "title": "Mama Ta'am Shel Bayit",
+            "name": "Mama Ta'am Shel Bayit",
+            "track_id": "venue-mama-taham-shel-bayit",
+            "address": "תורה מציון 8, ירושלים",
+            "venue_id": "61f1492e8fbcf4355a1a6878",
             "location": [
-                35.22445,
-                31.76836669999999
+                35.205086432495904,
+                31.78967424929932
             ],
-            "short_description": "Mediterranean restaurant\n",
-            "slug": "hamesila",
+            "short_description": "Authentic kitchen",
+            "slug": "mama-taham-shel-bayit",
             "tags": [
-                "greek",
-                "kids",
-                "kosher",
+                "breakfast",
+                "pasta",
+                "salad",
                 "kosher"
             ],
-            "score": 8.2,
+            "score": 8,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/hamesila"
+                "url": "https://wolt.com/en/isr/undefined/venue/mama-taham-shel-bayit"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61bb2d223409cf66b561e3fe/623de05e-6dfc-11ec-aca8-9e6bfcc0a5cb_jerus_297786_1.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62b05a88269c168456533f18/bb959916-f6ce-11ec-94cf-8624df1e17f2_wolt_jerus_16jun20759.jpg",
                 "logo": null
             },
-            "title": "Cookie Cream | Jerusalem",
-            "name": "Cookie Cream | Jerusalem",
-            "track_id": "venue-cookie-cream-jerusalem",
-            "address": "האשכול 6, ירושלים",
-            "venue_id": "61bb2d223409cf66b561e3fe",
+            "title": "Civitas",
+            "name": "Civitas",
+            "track_id": "venue-civitas",
+            "address": "אגודת ספורט בית״ר 1",
+            "venue_id": "62b05a88269c168456533f18",
             "location": [
-                35.2119307,
-                31.7848797
+                35.1871949,
+                31.751541
             ],
-            "short_description": "Cookies and ice cream",
-            "slug": "cookie-cream-jerusalem",
-            "tags": [
-                "ice cream",
-                "kosher",
-                "sweets",
-                "kosher"
-            ],
-            "score": 8.2,
-            "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/cookie-cream-jerusalem"
-            },
-            "provider": "wolt"
-        },
-        {
-            "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61f94129e161c64cf77864e1/f4c062da-93ef-11ec-97ad-5644f418e578_jerus_17_21896.jpg",
-                "logo": null
-            },
-            "title": "Pundak Ein Karem",
-            "name": "Pundak Ein Karem",
-            "track_id": "venue-pundak-ein-karem",
-            "address": "המעיין 9, ירושלים",
-            "venue_id": "61f94129e161c64cf77864e1",
-            "location": [
-                35.16174058685629,
-                31.76624193232129
-            ],
-            "short_description": "A lot of love food and people",
-            "slug": "pundak-ein-karem",
+            "short_description": "Italian Kitchen",
+            "slug": "civitas",
             "tags": [
                 "fish",
                 "italian",
-                "salad"
+                "kosher",
+                "kosher",
+                "new"
             ],
-            "score": 8.2,
+            "score": 0,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/pundak-ein-karem"
+                "url": "https://wolt.com/en/isr/undefined/venue/civitas"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/614c52ed7bc19b0eab2fc6ea/71cc4b06-1c57-11ec-8171-06fce20cf0e6_list.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61add7c24eb8438af70699ba/f899802c-5c0d-11ec-9c4d-9ebf086851b7_list.jpg",
                 "logo": null
             },
-            "title": "McDonald's® Oriyon",
-            "name": "McDonald's® Oriyon",
-            "track_id": "venue-mcdonalds-oriyon",
-            "address": "Shamai St 4",
-            "venue_id": "614c52ed7bc19b0eab2fc6ea",
+            "title": "Pizza Hallel",
+            "name": "Pizza Hallel",
+            "track_id": "venue-pizza-hallel",
+            "address": "זכרון יעקב 1, ירושלים",
+            "venue_id": "61add7c24eb8438af70699ba",
             "location": [
-                35.2176683,
-                31.7810335
+                35.1995787,
+                31.7956633
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-oriyon",
+            "short_description": "Special brick oven pizza",
+            "slug": "pizza-hallel",
             "tags": [
-                "burger",
-                "chicken"
+                "italian",
+                "kosher",
+                "pasta",
+                "kosher"
             ],
-            "score": 7.6,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-oriyon"
+                "url": "https://wolt.com/en/isr/undefined/venue/pizza-hallel"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61dd9dee9a9d9d5749b32f76/f9b661c2-7ab3-11ec-8d35-5e911ede5bf5_68d14eb0_7919_11ec_91dc_026041507be1_fto09999.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6163df0ea415a70ae847fd77/fb934748-2a5f-11ec-9cb3-1291de43d0a2_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
                 "logo": null
             },
-            "title": "Sushi Rehavia Kosher | Emek Refaim",
-            "name": "Sushi Rehavia Kosher | Emek Refaim",
-            "track_id": "venue-sushi-rehavia-emek-refaim",
-            "address": "עמק רפאים 31",
-            "venue_id": "61dd9dee9a9d9d5749b32f76",
+            "title": "B-FRESH Kosher | Hadar Mall",
+            "name": "B-FRESH Kosher | Hadar Mall",
+            "track_id": "venue-b-fresh-hadar-mall",
+            "address": "פייר קניג 26, ירושלים",
+            "venue_id": "6163df0ea415a70ae847fd77",
             "location": [
-                35.2203419,
-                31.7641323
+                35.21390909124882,
+                31.753387199644404
             ],
-            "short_description": "Sushi and a Unique Asian kitchen",
-            "slug": "sushi-rehavia-emek-refaim",
+            "short_description": "Drinks | Health | Tapioca - Kosher Mehadrin",
+            "slug": "b-fresh-hadar-mall",
             "tags": [
-                "asian",
-                "japanese",
-                "sushi",
+                "dessert",
+                "drinks",
+                "healthy",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-hadar-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/612249df7489d8613f7d889b/09054cf6-21c7-11ec-a3a5-a28886110366_bonfis_9999_139_2.jpg",
+                "logo": null
+            },
+            "title": "Mifgash Hashekh | Talpiyot",
+            "name": "Mifgash Hashekh | Talpiyot",
+            "track_id": "venue-mifgash-hashekh-talpiyot",
+            "address": "האומן 23, ירושלים",
+            "venue_id": "612249df7489d8613f7d889b",
+            "location": [
+                35.2077421,
+                31.7497625
+            ],
+            "short_description": "Jerusalem Bakery\n",
+            "slug": "mifgash-hashekh-talpiyot",
+            "tags": [
+                "bakery",
+                "kosher",
+                "mediterranean",
                 "kosher"
             ],
             "score": 8.2,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/sushi-rehavia-emek-refaim"
+                "url": "https://wolt.com/en/isr/undefined/venue/mifgash-hashekh-talpiyot"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/614c4f9893cd74a83e7e8753/e132934a-1c54-11ec-8520-c2b0b313402e_list.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61222c4322e7743d8363235d/18c8cc56-13a0-11ec-89f8-92c0d99eb639_yaelitz_15.jpg",
                 "logo": null
             },
-            "title": "McDonald’s® Ben Yehuda Jerusalem Kosher",
-            "name": "McDonald’s® Ben Yehuda Jerusalem Kosher",
-            "track_id": "venue-mcdonalds-ben-yehuda-jerusalem-kosher",
-            "address": "Ben Yehuda St 7",
-            "venue_id": "614c4f9893cd74a83e7e8753",
+            "title": "Katsefet | Derech Hevron",
+            "name": "Katsefet | Derech Hevron",
+            "track_id": "venue-katsefet-derech-hevron",
+            "address": "דרך חברון 105 ירושלים",
+            "venue_id": "61222c4322e7743d8363235d",
             "location": [
-                35.2179528,
-                31.7815547
+                35.22050899999997,
+                31.753526999999963
             ],
-            "short_description": "McRoyal, the most popular hamburger in Israel",
-            "slug": "mcdonalds-ben-yehuda-jerusalem-kosher",
+            "short_description": "Exciting Flavours",
+            "slug": "katsefet-derech-hevron",
             "tags": [
-                "burger",
-                "chicken",
+                "café",
+                "dessert",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-derech-hevron"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/625fe425c48d381d555ca3f0/7c5b6988-c09b-11ec-9fd0-6e3e49adb26c_______.jpg",
+                "logo": null
+            },
+            "title": "Pisgat Hafalafel | Yafo",
+            "name": "Pisgat Hafalafel | Yafo",
+            "track_id": "venue-pisgat-hafalafel-yafo-st",
+            "address": "יפו 31, ירושלים",
+            "venue_id": "625fe425c48d381d555ca3f0",
+            "location": [
+                35.220514,
+                31.7812659
+            ],
+            "short_description": "Hot and Fresh Falafel",
+            "slug": "pisgat-hafalafel-yafo-st",
+            "tags": [
+                "falafel",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/pisgat-hafalafel-yafo-st"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61222fcfdf1b2de77aea0936/caf24f9a-20fe-11ec-8e2d-96a08a464c04_bonfis_9999_139_2.jpg",
+                "logo": null
+            },
+            "title": "Mifgash Hashekh | Malha",
+            "name": "Mifgash Hashekh | Malha",
+            "track_id": "venue-mifgash-hashekh-malha",
+            "address": "קניון מלחה, ירושלים",
+            "venue_id": "61222fcfdf1b2de77aea0936",
+            "location": [
+                35.18724677388272,
+                31.75156331547882
+            ],
+            "short_description": "Jerusalem Bakery",
+            "slug": "mifgash-hashekh-malha",
+            "tags": [
+                "bakery",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mifgash-hashekh-malha"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6163e1ecdac6d0d54e7638ad/d6c08352-2a61-11ec-a927-1291de43d0a2_49213346_7a73_11eb_89be_f69eee051193_b.jpeg",
+                "logo": null
+            },
+            "title": "B-FRESH Kosher | Malcha Mall",
+            "name": "B-FRESH Kosher | Malcha Mall",
+            "track_id": "venue-b-fresh-malcha-mall",
+            "address": "דרך אגודת ספורט בית\"ר 1, ירושלים",
+            "venue_id": "6163e1ecdac6d0d54e7638ad",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "short_description": "Drinks | Health | Tapioca - Kosher Mehadrin\n",
+            "slug": "b-fresh-malcha-mall",
+            "tags": [
+                "drinks",
+                "healthy",
+                "kids",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/b-fresh-malcha-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e299b15b9a9cc8939d499/b9c137ea-4dc7-11ec-bd45-4ebb13dbaa89_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Ramat Eshkol",
+            "name": "Katsefet | Ramat Eshkol",
+            "track_id": "venue-katsefet-ramat-eshkol",
+            "address": "פארן 9, ירושלים",
+            "venue_id": "619e299b15b9a9cc8939d499",
+            "location": [
+                35.2280884,
+                31.8007126
+            ],
+            "short_description": "Exciting Flavours\n",
+            "slug": "katsefet-ramat-eshkol",
+            "tags": [
+                "café",
+                "dessert",
                 "kosher",
                 "kosher"
             ],
-            "score": 7.6,
+            "score": 8.4,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/mcdonalds-ben-yehuda-jerusalem-kosher"
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-ramat-eshkol"
             },
             "provider": "wolt"
         },
         {
             "photo": {
-                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61c460b5b2737486ec1bccbc/8a73ef4c-68a6-11ec-8c59-361745174836_518ab620_68a6_11ec_a6f4_aaae5b915e6a_997169de_68a1_11ec_bdf1_8e8c3cf39cd7_karela_5906.jpg",
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61222c90de82ad256d632abf/30e46cc0-21c7-11ec-89d1-9689a8fb5914_bonfis_9999_139_2.jpg",
                 "logo": null
             },
-            "title": "Zalman's | Mahane Yehuda",
-            "name": "Zalman's | Mahane Yehuda",
-            "track_id": "venue-zalmans-mahane-yehuda",
-            "address": "האגוז 11, ירושלים",
-            "venue_id": "61c460b5b2737486ec1bccbc",
+            "title": "Mifgash Hashekh | Kiryat Menahem",
+            "name": "Mifgash Hashekh | Kiryat Menahem",
+            "track_id": "venue-mifgash-hashekh-kiryat-menahem",
+            "address": "דהומיי 14, ירושלים",
+            "venue_id": "61222c90de82ad256d632abf",
             "location": [
-                35.2126511,
-                31.7843127
+                35.16390505413673,
+                31.756997731991294
             ],
-            "short_description": "You Have Never Had Such a Sausage\n",
-            "slug": "zalmans-mahane-yehuda",
+            "short_description": "Jerusalem Bakery",
+            "slug": "mifgash-hashekh-kiryat-menahem",
+            "tags": [
+                "bakery",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mifgash-hashekh-kiryat-menahem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e25e38bed976baa534a51/e86803ca-4e1d-11ec-9fd7-8e6e4b67bb66_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Beit Hakerem",
+            "name": "Katsefet | Beit Hakerem",
+            "track_id": "venue-katsefet-beit-hakerem",
+            "address": "שדרות הרצל 102, ירושלים",
+            "venue_id": "619e25e38bed976baa534a51",
+            "location": [
+                35.1875602,
+                31.7800339
+            ],
+            "short_description": "Exciting Flavours",
+            "slug": "katsefet-beit-hakerem",
+            "tags": [
+                "café",
+                "ice cream",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-beit-hakerem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616928b59ff1956920ed7758/f258e488-2d86-11ec-9304-7e63262cb4ba_435e27e0_2a93_11ec_a902_9ef4b91f3a0b_bd7edf94_e3ab_11eb_9450_1ee91d797d85___24.avif",
+                "logo": null
+            },
+            "title": "Golda Kosher | Malcha",
+            "name": "Golda Kosher | Malcha",
+            "track_id": "venue-golda-malcha",
+            "address": "קניון מלחה, Derech Agudat Sport Beitar 5, Jerusalem",
+            "venue_id": "616928b59ff1956920ed7758",
+            "location": [
+                35.1872451,
+                31.7515163
+            ],
+            "short_description": "Flavour Boutique\n",
+            "slug": "golda-malcha",
+            "tags": [
+                "ice cream",
+                "dessert",
+                "kosher",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/golda-malcha"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/61222e83de82ad256d632f58/3f1e2800-1559-11ec-aef5-8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Malha",
+            "name": "Katsefet | Malha",
+            "track_id": "venue-katsefet-malha",
+            "address": "קניון מלחה 1 ירושלים",
+            "venue_id": "61222e83de82ad256d632f58",
+            "location": [
+                35.1872451,
+                31.7515163
+            ],
+            "short_description": "Exciting Flavours",
+            "slug": "katsefet-malha",
+            "tags": [
+                "café",
+                "dessert",
+                "ice cream",
+                "kosher"
+            ],
+            "score": 9,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-malha"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/616434902f6bfc49c8021da0/d1a94b52-2a92-11ec-b222-5a846fa1bd84_l.jpeg",
+                "logo": null
+            },
+            "title": "Hummus Eliyahu Kosher L'Mehadrin | Har Hotzvim",
+            "name": "Hummus Eliyahu Kosher L'Mehadrin | Har Hotzvim",
+            "track_id": "venue-hummus-eliyahu-kiryat-hamada",
+            "address": "קרית מדע 3",
+            "venue_id": "616434902f6bfc49c8021da0",
+            "location": [
+                35.210855880547015,
+                31.800623670593136
+            ],
+            "short_description": "Kosher L'Mehadrin Rabbi Rubin",
+            "slug": "hummus-eliyahu-kiryat-hamada",
+            "tags": [
+                "falafel",
+                "kosher",
+                "mediterranean",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/hummus-eliyahu-kiryat-hamada"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/613498a05fe73c0b53f66ef7/747e70d4-21c7-11ec-9313-a28886110366_bonfis_9999_139_2.jpg",
+                "logo": null
+            },
+            "title": "Mifgash Hasheikh | Givat Shaul",
+            "name": "Mifgash Hasheikh | Givat Shaul",
+            "track_id": "venue-mifgash-hasheikh-givat-shaul",
+            "address": "כנפי נשרים 13, ירושלים",
+            "venue_id": "613498a05fe73c0b53f66ef7",
+            "location": [
+                35.1847569,
+                31.78737
+            ],
+            "short_description": "Jerusalem Bakery\n",
+            "slug": "mifgash-hasheikh-givat-shaul",
+            "tags": [
+                "bakery",
+                "mediterranean",
+                "salad",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/mifgash-hasheikh-givat-shaul"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/62932687ce2ef6df65c6d740/92b62888-df24-11ec-953c-6e8a2a87297c_07ef1a32_7158_11ec_a7fb_82131fca1a11_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Sarei Israel",
+            "name": "Katsefet | Sarei Israel",
+            "track_id": "venue-katsefet-saray-israel",
+            "address": "שרי ישראל 15, ירושלים",
+            "venue_id": "62932687ce2ef6df65c6d740",
+            "location": [
+                35.2061837,
+                31.7891694
+            ],
+            "short_description": "Exciting Flavors\n",
+            "slug": "katsefet-saray-israel",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "smoothie",
+                "kosher",
+                "new"
+            ],
+            "score": 9.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-saray-israel"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/627a576b4e327839a4210745/3bb054dc-d05b-11ec-b627-9e54e5104322_3f1e2800_1559_11ec_aef5_8262804e3ce3_yaelitz_15.jpg",
+                "logo": null
+            },
+            "title": "Katsefet | Romema",
+            "name": "Katsefet | Romema",
+            "track_id": "venue-katsefet-romema",
+            "address": "שמגר 16, ירושלים",
+            "venue_id": "627a576b4e327839a4210745",
+            "location": [
+                35.208407,
+                31.7947479
+            ],
+            "short_description": "Exciting Flavours",
+            "slug": "katsefet-romema",
+            "tags": [
+                "ice cream",
+                "kosher",
+                "smoothie",
+                "kosher",
+                "new"
+            ],
+            "score": 9.4,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/katsefet-romema"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6284ec35ae37737cfcbf2ffa/66107202-d6aa-11ec-85e7-12d598efa1fb_759b54a0_93f5_11ec_aa7f_daff17f83e98_____.jpg",
+                "logo": null
+            },
+            "title": "Savta Sandwich | Givat Shaul",
+            "name": "Savta Sandwich | Givat Shaul",
+            "track_id": "venue-savta-sandwich-givat-shaul",
+            "address": " בית הדפוס 11, ירושלים",
+            "venue_id": "6284ec35ae37737cfcbf2ffa",
+            "location": [
+                35.18857730000001,
+                31.7858517
+            ],
+            "short_description": "Homemade Dairy Sandwiches\n",
+            "slug": "savta-sandwich-givat-shaul",
             "tags": [
                 "kosher",
+                "salad",
                 "sandwich",
-                "street food",
-                "kosher"
+                "kosher",
+                "new"
             ],
-            "score": 7.8,
+            "score": 8.6,
             "link": {
-                "url": "https://wolt.com/en/isr/undefined/venue/zalmans-mahane-yehuda"
+                "url": "https://wolt.com/en/isr/undefined/venue/savta-sandwich-givat-shaul"
             },
             "provider": "wolt"
         },
@@ -1701,6 +2321,118 @@
             "score": 9,
             "link": {
                 "url": "https://wolt.com/en/isr/undefined/venue/golda-ein-karem"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/617a6f5e1631d60f418fb412/003e62de-37d3-11ec-9308-e60486296815_____________.png",
+                "logo": null
+            },
+            "title": "Café Greg | Malcha Mall",
+            "name": "Café Greg | Malcha Mall",
+            "track_id": "venue-caf-greg-malcha-mall",
+            "address": "אגודת ספורט בית״ר 1",
+            "venue_id": "617a6f5e1631d60f418fb412",
+            "location": [
+                35.1871949,
+                31.751541
+            ],
+            "short_description": "Coffee & Restaurant",
+            "slug": "caf-greg-malcha-mall",
+            "tags": [
+                "breakfast",
+                "dessert",
+                "italian",
+                "kosher"
+            ],
+            "score": 8,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-greg-malcha-mall"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6123685e18d3a153e0967779/c47e61a4-2f1c-11ec-9dde-da83aee332f1_denya_wolt1456.jpg",
+                "logo": null
+            },
+            "title": "Cafe Denya | Givat Shaul",
+            "name": "Cafe Denya | Givat Shaul",
+            "track_id": "venue-cafe-denya-givat-shaul",
+            "address": "כנפי נשרים 35, ירושלים ",
+            "venue_id": "6123685e18d3a153e0967779",
+            "location": [
+                35.18134232954886,
+                31.78711985341637
+            ],
+            "short_description": "Supreme Coffee . Unique Kitchen",
+            "slug": "cafe-denya-givat-shaul",
+            "tags": [
+                "italian",
+                "kosher",
+                "pasta",
+                "kosher"
+            ],
+            "score": 8.6,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/cafe-denya-givat-shaul"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/619e18b9c73b826d0561d2d7/06888db2-4d28-11ec-9cdb-1ea445c460fe_aeb4cba0_4d13_11ec_ac1f_f63d83116f90_____.jpeg",
+                "logo": null
+            },
+            "title": "Angel Bakery | Gilo",
+            "name": "Angel Bakery | Gilo",
+            "track_id": "venue-angel-bakery-gilo",
+            "address": "הגננת 216, גילה ירושלים",
+            "venue_id": "619e18b9c73b826d0561d2d7",
+            "location": [
+                35.1898145,
+                31.7298036
+            ],
+            "short_description": "Sandwiches, Pasta & Salads By Angel Bakery",
+            "slug": "angel-bakery-gilo",
+            "tags": [
+                "kosher",
+                "pastry",
+                "salad",
+                "kosher"
+            ],
+            "score": 8.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/angel-bakery-gilo"
+            },
+            "provider": "wolt"
+        },
+        {
+            "photo": {
+                "image": "https://prod-wolt-venue-images-cdn.wolt.com/6188f359f61172b751b1046c/cf421c48-4079-11ec-94a0-1e9cc95eef3d_____________.png",
+                "logo": null
+            },
+            "title": "Café Greg  | Center 1",
+            "name": "Café Greg  | Center 1",
+            "track_id": "venue-caf-greg-center-1",
+            "address": "ירמיהו 43",
+            "venue_id": "6188f359f61172b751b1046c",
+            "location": [
+                35.2008958,
+                31.790065
+            ],
+            "short_description": "Restaurant & Cafe",
+            "slug": "caf-greg-center-1",
+            "tags": [
+                "breakfast",
+                "italian",
+                "kosher",
+                "kosher"
+            ],
+            "score": 7.2,
+            "link": {
+                "url": "https://wolt.com/en/isr/undefined/venue/caf-greg-center-1"
             },
             "provider": "wolt"
         }
