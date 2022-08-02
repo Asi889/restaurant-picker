@@ -29,7 +29,7 @@ export const checkTime = (): string => {
     } else if (hour >= 3 && hour < 9) {
         strings = ['נראה שהבוקר מזמינים' ,'קצת מוקדם אבל הבוקר מזמינים' ,'תביאו פחמימות אני במחזור'];
     } else if (hour > 9 && hour <= 16) {
-        strings = ['נראה שלצהריים מזמינים' ,'הופה, הצהריים מזמינים', 'צהריים במשרד? תזמינו'];
+        strings = ['Im Hangry 😫 בוא נזמין כבר'];
     }else if (hour > 16 && hour <= 22) {
         strings = ['לארוחת ערב מזמינים' ,'הערב מזמינים'];
     }else if (hour > 22 && hour < 24) {
