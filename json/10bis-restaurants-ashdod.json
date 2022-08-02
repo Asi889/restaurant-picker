@@ -1,6 +1,6 @@
 {
-    "lastScrapeDate": 1658388029063,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1658388027363&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
+    "lastScrapeDate": 1659450179040,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1659450176735&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
     "restaurants": [
         {
             "name": "DOMINO",
@@ -60,7 +60,7 @@
         },
         {
             "name": "Shnitzl Crast",
-            "score": 9.2,
+            "score": 9.6,
             "title": "Shnitzl Crast",
             "venue_id": "35124",
             "address": "42, Herzl Street Gan Yavne",
@@ -112,6 +112,32 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/35123"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Hummus meshita",
+            "score": 0,
+            "title": "Hummus meshita",
+            "venue_id": "37341",
+            "address": "מתחם דור אלון, 4 Gan Yavne",
+            "track_id": "37341",
+            "location": [
+                34.703101,
+                31.783056
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_hummus.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37341.jpg"
+            },
+            "description": "חומוס משיטה, Hummus meshita",
+            "short_description": "חומוס משיטה, Hummus meshita",
+            "slug": "ashdod",
+            "tags": [
+                "humus"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37341"
             },
             "provider": "tenBis"
         },
@@ -173,33 +199,6 @@
             "provider": "tenBis"
         },
         {
-            "name": "Sushi yok",
-            "score": 7.8,
-            "title": "Sushi yok",
-            "venue_id": "27562",
-            "address": "19, Ha-Biluyim Gedera",
-            "track_id": "27562",
-            "location": [
-                34.7741161,
-                31.8150914
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27562_20201008094854.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27562.jpg"
-            },
-            "description": "סושי יוקו, Sushi yok",
-            "short_description": "סושי יוקו, Sushi yok",
-            "slug": "ashdod",
-            "tags": [
-                "japaneseSushi",
-                "asianFusion"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27562"
-            },
-            "provider": "tenBis"
-        },
-        {
             "name": "Hamiznon",
             "score": 7.2,
             "title": "Hamiznon",
@@ -249,6 +248,34 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26201"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Golda",
+            "score": 0,
+            "title": "Golda",
+            "venue_id": "37269",
+            "address": "56, HaMeginim Street Gan Yavne",
+            "track_id": "37269",
+            "location": [
+                34.704494,
+                31.7952815
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37269_20220712174510.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37269.jpg"
+            },
+            "description": "גולדה גן יבנה , Golda",
+            "short_description": "גולדה גן יבנה , Golda",
+            "slug": "ashdod",
+            "tags": [
+                "gelato",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37269"
             },
             "provider": "tenBis"
         },
@@ -341,7 +368,7 @@
         },
         {
             "name": "Rakisimo Pizza",
-            "score": 10,
+            "score": 8.4,
             "title": "Rakisimo Pizza",
             "venue_id": "34598",
             "address": "27, Menachem Begin Street Bnei Ayish",
@@ -369,7 +396,7 @@
         },
         {
             "name": "HBB ",
-            "score": 9.2,
+            "score": 8.6,
             "title": "HBB ",
             "venue_id": "37254",
             "address": "3, Herzl Street Gedera",
@@ -479,8 +506,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "Sushi yok",
+            "score": 7.8,
+            "title": "Sushi yok",
+            "venue_id": "27562",
+            "address": "19, Ha-Biluyim Gedera",
+            "track_id": "27562",
+            "location": [
+                34.7741161,
+                31.8150914
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27562_20201008094854.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27562.jpg"
+            },
+            "description": "סושי יוקו, Sushi yok",
+            "short_description": "סושי יוקו, Sushi yok",
+            "slug": "ashdod",
+            "tags": [
+                "japaneseSushi",
+                "asianFusion"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27562"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Golda",
-            "score": 8.2,
+            "score": 8,
             "title": "Golda",
             "venue_id": "33495",
             "address": "4, Arik Ainstain Street Ashdod",
@@ -508,7 +562,7 @@
         },
         {
             "name": "Market Express",
-            "score": 0,
+            "score": 8,
             "title": "Market Express",
             "venue_id": "36622",
             "address": "1, Derech Tel Mor Ashdod",
@@ -556,6 +610,32 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/26371"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Sweetweet",
+            "score": 10,
+            "title": "Sweetweet",
+            "venue_id": "37409",
+            "address": "6, David Khakhami Tel Aviv-Yafo",
+            "track_id": "37409",
+            "location": [
+                34.7807156,
+                32.0635725
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_37409_20220724153406.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37409.png"
+            },
+            "description": "סוויטוויט | sweetweet, Sweetweet",
+            "short_description": "סוויטוויט | sweetweet, Sweetweet",
+            "slug": "ashdod",
+            "tags": [
+                "convenienceStore"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37409"
             },
             "provider": "tenBis"
         },

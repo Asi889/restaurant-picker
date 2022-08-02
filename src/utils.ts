@@ -212,7 +212,7 @@ export function isJsonString(str: string) {
 
 export const isWeekPast = (lastScrapeDate: number) => {
     if (!lastScrapeDate) return false;
-    const lastWeek = new Date().setDate(new Date().getDate() - 7)
+    const lastWeek = new Date().setDate(new Date().getDate() - 70)
     return lastWeek > lastScrapeDate;
 }
 interface LocationResData {
