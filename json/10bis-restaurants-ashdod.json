@@ -1,6 +1,6 @@
 {
-    "lastScrapeDate": 1659450433511,
-    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1659450431361&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
+    "lastScrapeDate": 1659521991785,
+    "fetchUrl": "https://www.10bis.co.il/NextApi//searchRestaurants?shoppingCartGuid=3070ff7d-ebe8-4016-abc8-8e391891dbc8&culture=he-IL&uiCulture=en&isMobileDevice=false&timestamp=1659521972625&deliveryMethod=delivery&cityId=837&streetId=29077&houseNumber=1&addressKey=837-29077-1",
     "restaurants": [
         {
             "name": "DOMINO",
@@ -142,6 +142,35 @@
             "provider": "tenBis"
         },
         {
+            "name": "luna sushi",
+            "score": 10,
+            "title": "luna sushi",
+            "venue_id": "37418",
+            "address": "7, Ahad Ha'Am Street Gan Yavne",
+            "track_id": "37418",
+            "location": [
+                34.7040269,
+                31.796757
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-default-header-image/CuzineType_sushi.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/37418.jpg"
+            },
+            "description": "לונה סושי, luna sushi",
+            "short_description": "לונה סושי, luna sushi",
+            "slug": "ashdod",
+            "tags": [
+                "japaneseSushi",
+                "fish",
+                "veganFood",
+                "vegan"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/37418"
+            },
+            "provider": "tenBis"
+        },
+        {
             "name": "Burgerim",
             "score": 9.6,
             "title": "Burgerim",
@@ -195,6 +224,33 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/36888"
+            },
+            "provider": "tenBis"
+        },
+        {
+            "name": "Sushi yok",
+            "score": 7.8,
+            "title": "Sushi yok",
+            "venue_id": "27562",
+            "address": "19, Ha-Biluyim Gedera",
+            "track_id": "27562",
+            "location": [
+                34.7741161,
+                31.8150914
+            ],
+            "photo": {
+                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27562_20201008094854.jpg",
+                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27562.jpg"
+            },
+            "description": "סושי יוקו, Sushi yok",
+            "short_description": "סושי יוקו, Sushi yok",
+            "slug": "ashdod",
+            "tags": [
+                "japaneseSushi",
+                "asianFusion"
+            ],
+            "link": {
+                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27562"
             },
             "provider": "tenBis"
         },
@@ -502,33 +558,6 @@
             ],
             "link": {
                 "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/29218"
-            },
-            "provider": "tenBis"
-        },
-        {
-            "name": "Sushi yok",
-            "score": 7.8,
-            "title": "Sushi yok",
-            "venue_id": "27562",
-            "address": "19, Ha-Biluyim Gedera",
-            "track_id": "27562",
-            "location": [
-                34.7741161,
-                31.8150914
-            ],
-            "photo": {
-                "image": "https://tenbis-static.azureedge.net/restaurant-header-image/Res_27562_20201008094854.jpg",
-                "logo": "https://d25t2285lxl5rf.cloudfront.net/images/shops/27562.jpg"
-            },
-            "description": "סושי יוקו, Sushi yok",
-            "short_description": "סושי יוקו, Sushi yok",
-            "slug": "ashdod",
-            "tags": [
-                "japaneseSushi",
-                "asianFusion"
-            ],
-            "link": {
-                "url": "https://www.10bis.co.il/next/en/restaurants/menu/delivery/27562"
             },
             "provider": "tenBis"
         },
