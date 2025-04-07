@@ -1,17 +1,16 @@
 import React, { useEffect, useState, createRef } from "react";
 
 type Props = {
-    givenclass: any;
-  
+  givenclass: any;
 };
 
 const Triangle: React.FC<Props> = (props) => {
-  const {givenclass} = props;
+  const { givenclass } = props;
 
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      
+      className={givenclass}
       fill="none"
       viewBox="0 0 61 49"
     >
